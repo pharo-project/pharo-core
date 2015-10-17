@@ -1,3 +1,5 @@
 gtExampleThisMethod
-	<gtExample: 'This method'>
+	<gtExample>
+	<label: 'This method'>
+	
 	^ RBMethod class>>#gtExampleThisMethod

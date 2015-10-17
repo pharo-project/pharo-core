@@ -1,3 +1,5 @@
 gtExampleMetacelloProject
-	<gtExample: 'Metacello project'>
+	<gtExample>
+	<label: 'Metacello project'>
+	
 	^ ConfigurationOfGTSpotter project

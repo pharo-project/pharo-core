@@ -1,0 +1,2 @@
+isExampleError
+	^ true

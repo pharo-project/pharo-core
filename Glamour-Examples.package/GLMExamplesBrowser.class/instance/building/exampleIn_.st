@@ -9,7 +9,7 @@ exampleIn: composer
 				dynamic cachedPresentation presentations first panes first presentations first openTree ] 
 			entitled: 'View browser tree' ].
 		
-	composer smalltalkCode
+	composer pharoMethod
 		title: 'Source code';
 		act: [ :text :exampleClass :examplePragma | Smalltalk tools browser openOnClass: exampleClass selector: examplePragma selector ]
 			icon: GLMUIThemeExtraIcons glamorousBrowse

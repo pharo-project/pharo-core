@@ -1,3 +1,5 @@
 gtExampleSettingTree
-	<gtExample: 'Settings tree'>
+	<gtExample>
+	<label: 'Settings tree'>
+	
 	^ SettingTree new acceptableKeywords: SettingBrowser settingsKeywords

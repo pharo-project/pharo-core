@@ -1,0 +1,3 @@
+gtExamplesProvider
+
+	^ GTSpotterExamples 

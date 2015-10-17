@@ -13,8 +13,6 @@ codeIn: a
 			icon: GLMUIThemeExtraIcons glamorousGo
 			on: $G
 			entitled: 'Do it all and go';
-		installGoAction;
-		installDefaultSelectionActions;
 		act: [ :text :page | page publish ]
 			icon: Smalltalk ui icons glamorousSaveToUrl
 			entitled: 'Remote publish';
@@ -30,4 +28,5 @@ codeIn: a
 				title: 'Bindings';
 				yourself);
 		dynamicActions: [ self actionsForPreviousContents ];
+		dynamicActionsOnSelection: [ self contextMenuActions ];
 		onChangeOfPort: #text act: [ :text :page | page saveContent: text text ]

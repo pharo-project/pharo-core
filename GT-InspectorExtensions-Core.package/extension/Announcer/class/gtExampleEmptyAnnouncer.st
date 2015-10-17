@@ -1,3 +1,5 @@
 gtExampleEmptyAnnouncer
-	<gtExample: 'Empty Announcer'>
+	<gtExample>
+	<label: 'Empty Announcer'>
+	
 	^ self new

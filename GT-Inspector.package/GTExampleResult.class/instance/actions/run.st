@@ -1,0 +1,2 @@
+run
+	^ self example run

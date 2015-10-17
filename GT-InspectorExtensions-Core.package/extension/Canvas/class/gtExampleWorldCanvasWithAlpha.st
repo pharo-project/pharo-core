@@ -1,4 +1,6 @@
 gtExampleWorldCanvasWithAlpha
-	<gtExample: 'Canvas: World+ALpha'>
+	<gtExample>
+	<label: 'Canvas: World+ALpha'>
+	
 	^ (AlphaBlendingCanvas on: Canvas new)	
 		alpha: 0.3

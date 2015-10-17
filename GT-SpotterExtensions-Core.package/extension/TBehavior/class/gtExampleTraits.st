@@ -1,3 +1,5 @@
 gtExampleTraits
-	<gtExample: 'Traits'>
+	<gtExample>
+	<label: 'Traits'>
+	
 	^ Class

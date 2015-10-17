@@ -1,6 +1,6 @@
 gtInspectorSourceIn: composite
 	<gtInspectorPresentationOrder: 30> 
-	^ composite smalltalkCode 
+	^ composite pharoMethod 
 		title: 'Source';
 		smalltalkClass: [ self methodClass ];
 		display: [ self getSource ];

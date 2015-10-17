@@ -1,0 +1,2 @@
+isExpectedError
+	^ self expectedError notNil

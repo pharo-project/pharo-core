@@ -3,5 +3,4 @@ gtInspectorContentIn: composite
 	composite pharoPlayground 
 		title: 'Content';
 		display: #content;
-		installGoAction;
 		installDefaultSelectionActions

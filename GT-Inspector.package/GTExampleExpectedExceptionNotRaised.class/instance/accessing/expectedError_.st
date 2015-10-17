@@ -1,0 +1,2 @@
+expectedError: anObject
+	expectedError := anObject

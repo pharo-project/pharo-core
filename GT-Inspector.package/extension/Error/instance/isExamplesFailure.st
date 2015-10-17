@@ -1,0 +1,2 @@
+isExamplesFailure
+	^ true

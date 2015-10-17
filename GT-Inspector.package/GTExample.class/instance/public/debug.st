@@ -1,0 +1,2 @@
+debug
+	^ self debugger result

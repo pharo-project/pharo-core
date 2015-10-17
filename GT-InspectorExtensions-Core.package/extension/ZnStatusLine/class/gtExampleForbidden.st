@@ -1,3 +1,5 @@
 gtExampleForbidden
-	<gtExample: 'Forbidden'>
+	<gtExample>
+	<label: 'Forbidden'>
+	
 	^ self forbidden

@@ -1,3 +1,5 @@
 gtExampleSymbolicBytecode
-	<gtExample: 'Symbolic Bytecode'>
+	<gtExample>
+	<label: 'Symbolic Bytecode'>
+	
 	^ (SymbolicBytecode class >> #gtExampleSymbolicBytecode) symbolicBytecodes anyOne

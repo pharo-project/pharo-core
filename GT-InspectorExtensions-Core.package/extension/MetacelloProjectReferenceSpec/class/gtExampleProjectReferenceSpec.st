@@ -1,3 +1,5 @@
 gtExampleProjectReferenceSpec
-	<gtExample: 'Metacello project reference'>
+	<gtExample>
+	<label: 'Metacello project reference'>
+	
 	^ (ConfigurationOfGTInspectorCore project version: #development) projects anyOne

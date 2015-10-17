@@ -1,0 +1,2 @@
+gtInspectorChildren
+	^ self loadDirectives

@@ -1,3 +1,0 @@
-selector: aSymbol
-
-	selector := aSymbol

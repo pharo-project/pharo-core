@@ -1,3 +1,5 @@
 gtExampleDefaultResponseHeaders
-	<gtExample: 'Default response headers'>
+	<gtExample>
+	<label: 'Default response headers'>
+	
 	^ self defaultResponseHeaders

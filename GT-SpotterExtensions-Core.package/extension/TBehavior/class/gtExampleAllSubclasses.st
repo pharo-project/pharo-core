@@ -1,3 +1,5 @@
 gtExampleAllSubclasses
-	<gtExample: 'All Subclasses'>
+	<gtExample>
+	<label: 'All Subclasses'>
+	
 	^ Object

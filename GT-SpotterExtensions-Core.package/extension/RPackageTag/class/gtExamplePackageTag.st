@@ -1,3 +1,5 @@
 gtExamplePackageTag
-	<gtExample: 'Tag'>
+	<gtExample>
+	<label: 'Tag'>
+	
 	^ (RPackageOrganizer default packageOf: GTSpotter) classTags anyOne

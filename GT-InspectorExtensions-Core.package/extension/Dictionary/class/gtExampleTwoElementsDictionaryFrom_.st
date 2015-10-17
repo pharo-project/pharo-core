@@ -1,6 +1,7 @@
 gtExampleTwoElementsDictionaryFrom: aDictionary
-	<gtExample: 'Two elements dictionary'>
-	<gtExampleFrom: #gtExampleOneElementDictionaryFrom:>
+	<gtExample>
+	<label: 'Two elements dictionary'>
+	<depends: #gtExampleOneElementDictionaryFrom:>
 	
 	aDictionary at: #fourty put: 'two'.
 	^ aDictionary

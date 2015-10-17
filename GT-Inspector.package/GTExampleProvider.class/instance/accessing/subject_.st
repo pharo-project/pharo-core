@@ -1,2 +1,0 @@
-subject: anObject
-	subject := anObject

@@ -1,0 +1,3 @@
+codePresentation
+
+	^ self inspectorPresentation firstPresentation

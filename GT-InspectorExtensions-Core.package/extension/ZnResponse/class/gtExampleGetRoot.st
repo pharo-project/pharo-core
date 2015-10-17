@@ -1,3 +1,5 @@
 gtExampleGetRoot
-	<gtExample: 'Response: Redirect /'>
+	<gtExample>
+	<label: 'Response: Redirect /'>
+	
 	^ self redirect: '/'

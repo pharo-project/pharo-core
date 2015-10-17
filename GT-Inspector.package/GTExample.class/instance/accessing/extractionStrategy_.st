@@ -1,2 +1,0 @@
-extractionStrategy: anObject
-	extractionStrategy := anObject

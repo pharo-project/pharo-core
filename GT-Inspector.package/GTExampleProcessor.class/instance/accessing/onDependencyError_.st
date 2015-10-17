@@ -1,0 +1,2 @@
+onDependencyError: anObject
+	onDependencyError := anObject

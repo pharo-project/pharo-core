@@ -1,0 +1,2 @@
+result: aResult
+	result := aResult

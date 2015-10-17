@@ -1,6 +1,7 @@
 gtExampleOneElementDictionaryFrom: anEmptyDictionary
-	<gtExample: 'One element dictionary'>
-	<gtExampleFrom: #gtExampleEmptyDictionary>
+	<gtExample>
+	<label: 'One element dictionary'>
+	<depends: #gtExampleEmptyDictionary>
 	
 	anEmptyDictionary at: 4 put: 2.
 	^ anEmptyDictionary

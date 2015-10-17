@@ -1,3 +1,5 @@
 gtExampleMetacelloVersion
-	<gtExample: 'Metacello Version'>
+	<gtExample>
+	<label: 'Metacello Version'>
+	
 	^ ConfigurationOfGTSpotter project version: #development

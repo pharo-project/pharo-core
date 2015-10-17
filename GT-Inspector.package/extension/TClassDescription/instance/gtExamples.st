@@ -1,3 +1,2 @@
 gtExamples
-
-	^	self examplesProvider gtExamples
+	^ self gtExamplesFinder gtExamplesContained

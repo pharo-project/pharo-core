@@ -1,6 +1,7 @@
 gtExampleRemoveElementFrom: anEmptyDictionary
-	<gtExample: 'Remove element'>
-	<gtExampleFrom: #gtExampleOneElementDictionaryFrom:>
+	<gtExample>
+	<label: 'Remove element'>
+	<depends: #gtExampleOneElementDictionaryFrom:>
 	
 	anEmptyDictionary removeKey: 4.
 	^ anEmptyDictionary

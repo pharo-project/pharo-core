@@ -1,0 +1,2 @@
+evaluated: anObject
+	evaluated := anObject

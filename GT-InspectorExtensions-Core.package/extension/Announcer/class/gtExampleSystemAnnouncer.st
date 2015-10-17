@@ -1,3 +1,5 @@
 gtExampleSystemAnnouncer
-	<gtExample: 'System Announcer'>
+	<gtExample>
+	<label: 'System Announcer'>
+	
 	^ SystemAnnouncer uniqueInstance

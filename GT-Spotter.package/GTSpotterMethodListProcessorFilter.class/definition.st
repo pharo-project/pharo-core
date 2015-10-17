@@ -1,5 +1,5 @@
 GTSpotterProcessorFilter subclass: #GTSpotterMethodListProcessorFilter
-	instanceVariableNames: 'selectedMethodSignatures'
+	instanceVariableNames: 'selectedMethodSignatures configurationBlocks'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Model'

@@ -1,3 +1,5 @@
 gtExampleXml
-	<gtExample: 'XML'>
+	<gtExample>
+	<label: 'XML'>
+	
 	^ self xml: '<message>Hello World</message>'

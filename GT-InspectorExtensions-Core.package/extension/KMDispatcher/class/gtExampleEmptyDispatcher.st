@@ -1,3 +1,5 @@
 gtExampleEmptyDispatcher
-	<gtExample: 'Empty dispatcher'>
+	<gtExample>
+	<label: 'Empty dispatcher'>
+	
 	^ self new

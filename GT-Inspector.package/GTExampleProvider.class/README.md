@@ -1,1 +1,0 @@
-It provides example services:- extracts examples- displays examples in the inspector

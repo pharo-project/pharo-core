@@ -1,3 +1,3 @@
 currentBindings 
 
-	^ self inspectorPresentation firstPresentation currentBindings
+	^ self codePresentation currentBindings

@@ -1,3 +1,0 @@
-exampleClass
-
-	^ GTExample

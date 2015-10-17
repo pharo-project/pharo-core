@@ -1,3 +1,5 @@
-tearDown 
-	windows do: [ :each | each delete ].
-	windows := nil
+tearDown
+	super tearDown.
+	 
+	(Smalltalk classNamed: #GTExampleOrganizer) 
+		ifNotNil: [ :class | class instance resetResults ]

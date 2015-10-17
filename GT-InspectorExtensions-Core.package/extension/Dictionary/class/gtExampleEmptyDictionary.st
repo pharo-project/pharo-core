@@ -1,4 +1,5 @@
 gtExampleEmptyDictionary
-	<gtExample: 'Empty dictionary'>
+	<gtExample>
+	<label: 'Empty dictionary'>
 
 	^ Dictionary new

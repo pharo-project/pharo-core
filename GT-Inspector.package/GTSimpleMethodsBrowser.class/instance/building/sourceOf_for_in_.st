@@ -1,5 +1,5 @@
 sourceOf: method for: object in: composite
-	^ composite smalltalkCode
+	^ composite pharoMethod 
 		display: [ :m | m sourceCode ];
 		smalltalkClass: [ :m | m methodClass ];
 		doItReceiver: [ object ];

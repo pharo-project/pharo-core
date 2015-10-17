@@ -1,3 +1,5 @@
 gtExampleGetRoot
-	<gtExample: 'Request message: GET /'>
+	<gtExample>
+	<label: 'Request message: GET /'>
+	
 	^ self method: #GET url: '/'

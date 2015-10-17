@@ -1,0 +1,4 @@
+recursiveExamplesDummiesProviders
+	^ { 
+		GTDummyExamplesRecursive.
+	}

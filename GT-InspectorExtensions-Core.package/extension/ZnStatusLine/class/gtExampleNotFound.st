@@ -1,3 +1,5 @@
 gtExampleNotFound
-	<gtExample: 'Not Found'>
+	<gtExample>
+	<label: 'Not Found'>
+	
 	^ self notFound

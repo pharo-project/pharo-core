@@ -1,0 +1,2 @@
+defined: anObject
+	defined := anObject

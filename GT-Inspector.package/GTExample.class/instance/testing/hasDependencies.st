@@ -1,0 +1,2 @@
+hasDependencies
+	^ self arguments notEmpty

@@ -1,3 +1,5 @@
 gtExampleInstanceVariables
-	<gtExample: 'Instance Variables'>
+	<gtExample>
+	<label: 'Instance Variables'>
+	
 	^ ClassDescription

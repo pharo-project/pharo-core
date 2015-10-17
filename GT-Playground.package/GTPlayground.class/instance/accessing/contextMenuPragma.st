@@ -1,0 +1,3 @@
+contextMenuPragma
+
+	^ #playgroundContextMenu

@@ -1,3 +1,5 @@
 gtExampleMethodScope
-	<gtExample: 'Method scope'>
+	<gtExample>
+	<label: 'Method scope'>
+	
 	^ (self class >> #gtExampleMethodScope) ast scope

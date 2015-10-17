@@ -1,5 +1,7 @@
 gtExampleFile
-	<gtExample: 'File'>
+	<gtExample>
+	<label: 'File'>
+	
 	^ self 
 		fieldName: 'file' 
 		fileName: 'message.txt' 

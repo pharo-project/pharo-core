@@ -1,3 +1,5 @@
 gtExampleClassVariables
-	<gtExample: 'Class Variables'>
+	<gtExample>
+	<label: 'Class Variables'>
+	
 	^ Behavior

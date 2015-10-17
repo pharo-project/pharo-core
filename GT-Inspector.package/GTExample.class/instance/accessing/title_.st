@@ -1,2 +1,0 @@
-title: aString
-	title := aString

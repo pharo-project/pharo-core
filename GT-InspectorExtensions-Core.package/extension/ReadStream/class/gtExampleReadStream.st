@@ -1,3 +1,5 @@
 gtExampleReadStream
-	<gtExample: 'Stream'>
+	<gtExample>
+	<label: 'Stream'>
+	
 	^ 'GTInspector' readStream

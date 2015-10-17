@@ -1,3 +1,5 @@
 gtExamplePackage
-	<gtExample: 'Package'>
+	<gtExample>
+	<label: 'Package'>
+	
 	^ TClassDescription

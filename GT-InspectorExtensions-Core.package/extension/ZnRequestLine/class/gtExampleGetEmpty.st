@@ -1,3 +1,5 @@
 gtExampleGetEmpty
-	<gtExample: 'Request line: GET <>'>
+	<gtExample>
+	<label: 'Request line: GET <>'>
+	
 	^ self method: #GET uri: ''

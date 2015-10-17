@@ -1,3 +1,5 @@
 gtExampleFourtyTwo
-	<gtExample: '42'>
+	<gtExample>
+	<label: '42'>
+	
 	^ 42

@@ -1,5 +1,7 @@
 gtExampleKeymapFOO
-	<gtExample: 'Keymap: FOO'>
+	<gtExample>
+	<label: 'Keymap: FOO'>
+	
 	^ self 
 		named: #Foo
 		shortcut: $F asKeyCombination, $O asKeyCombination, $O asKeyCombination

@@ -1,3 +1,5 @@
 gtExampleOk
-	<gtExample: 'Ok'>
+	<gtExample>
+	<label: 'Ok'>
+	
 	^ self ok

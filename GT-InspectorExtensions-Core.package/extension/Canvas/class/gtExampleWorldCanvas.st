@@ -1,3 +1,5 @@
 gtExampleWorldCanvas
-	<gtExample: 'Canvas: World'>
+	<gtExample>
+	<label: 'Canvas: World'>
+	
 	^ Canvas new

@@ -1,0 +1,2 @@
+isSuccess
+	^ self unexpectedError isNil

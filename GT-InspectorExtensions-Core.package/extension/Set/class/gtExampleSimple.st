@@ -1,3 +1,5 @@
 gtExampleSimple
-	<gtExample: 'Simple'>
+	<gtExample>
+	<label: 'Simple'>
+	
 	^ #('fourtytwo' 42) asSet

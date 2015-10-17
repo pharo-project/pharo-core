@@ -1,3 +1,5 @@
 gtExampleOneArgument
-	<gtExample: 'With one argument'>
+	<gtExample>
+	<label: 'With one argument'>
+	
 	^ [ :x | x ]

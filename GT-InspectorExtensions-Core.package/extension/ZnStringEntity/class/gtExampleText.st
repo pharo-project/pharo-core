@@ -1,3 +1,5 @@
 gtExampleText
-	<gtExample: 'Text'>
+	<gtExample>
+	<label: 'Text'>
+	
 	^ self text: 'Hello World'

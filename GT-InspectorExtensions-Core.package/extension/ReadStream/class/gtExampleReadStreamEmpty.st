@@ -1,3 +1,5 @@
 gtExampleReadStreamEmpty
-	<gtExample: 'Empty stream'>
+	<gtExample>
+	<label: 'Empty stream'>
+	
 	^ '' readStream

@@ -1,0 +1,2 @@
+equalsExample: anExampleOrExampleFutureOrSomethingElse
+	^ false

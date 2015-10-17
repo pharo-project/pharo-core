@@ -1,3 +1,5 @@
 gtExampleTraitUsers
-	<gtExample: 'Trait Users'>
+	<gtExample>
+	<label: 'Trait Users'>
+	
 	^ TBehavior

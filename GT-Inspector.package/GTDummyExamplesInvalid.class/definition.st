@@ -1,0 +1,5 @@
+Object subclass: #GTDummyExamplesInvalid
+	instanceVariableNames: ''
+	classVariableNames: ''
+	poolDictionaries: ''
+	category: 'GT-Inspector-Examples-Dummies-1'

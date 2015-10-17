@@ -1,3 +1,5 @@
 gtExampleTthisContext
-	<gtExample: 'thisContext'>
+	<gtExample>
+	<label: 'thisContext'>
+	
 	^ thisContext

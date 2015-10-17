@@ -1,3 +1,5 @@
 gtExampleDefaultRequestHeaders
-	<gtExample: 'Default request headers'>
+	<gtExample>
+	<label: 'Default request headers'>
+	
 	^ self defaultRequestHeaders

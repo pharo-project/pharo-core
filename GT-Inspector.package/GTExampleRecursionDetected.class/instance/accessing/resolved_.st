@@ -1,0 +1,2 @@
+resolved: anObject
+	resolved := anObject

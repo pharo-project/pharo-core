@@ -1,0 +1,2 @@
+provider: anObject
+	provider := anObject

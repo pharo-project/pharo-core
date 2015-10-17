@@ -1,3 +1,5 @@
 gtExampleNullCanvas
-	<gtExample: 'Canvas: Null'>
+	<gtExample>
+	<label: 'Canvas: Null'>
+	
 	^ NullCanvas new

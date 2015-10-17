@@ -1,5 +1,5 @@
 TestCase subclass: #GTInspectorExamplesTest
-	instanceVariableNames: 'windows'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Tests-Inspector'

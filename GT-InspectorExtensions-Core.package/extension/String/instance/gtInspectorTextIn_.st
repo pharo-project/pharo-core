@@ -1,5 +1,5 @@
 gtInspectorTextIn: composite
-	<gtInspectorPresentationOrder: -10>  
-	 composite rubricText
+	<gtInspectorPresentationOrder: -10>
+	composite rubricText
 		title: 'String';
-		display: [ self truncateWithElipsisTo: 10000 ]
+		display: [ self truncateWithElipsisTo: 100000 ]

@@ -1,0 +1,2 @@
+newExample
+	^ GTExample new

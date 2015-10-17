@@ -1,3 +1,2 @@
 isGTExample
-	
 	^ true

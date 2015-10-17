@@ -1,3 +1,5 @@
 gtExampleEmptyHtml
-	<gtExample: 'Empty HTML'>
+	<gtExample>
+	<label: 'Empty HTML'>
+	
 	^ self html: ''

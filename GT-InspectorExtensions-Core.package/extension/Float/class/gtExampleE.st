@@ -1,3 +1,5 @@
 gtExampleE
-	<gtExample: 'Float with e'>
+	<gtExample>
+	<label: 'Float with e'>
+	
 	^ 42.42e42

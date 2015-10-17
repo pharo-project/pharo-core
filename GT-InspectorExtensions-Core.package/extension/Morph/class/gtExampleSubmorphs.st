@@ -1,5 +1,7 @@
 gtExampleSubmorphs
-	<gtExample: 'Submorphs'>
+	<gtExample>
+	<label: 'Submorphs'>
+	
 	^ self new
 		addMorph: self new;
 		addMorph: self new;

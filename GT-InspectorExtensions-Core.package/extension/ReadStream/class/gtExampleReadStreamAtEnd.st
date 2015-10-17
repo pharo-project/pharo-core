@@ -1,5 +1,7 @@
 gtExampleReadStreamAtEnd
-	<gtExample: 'Stream at end'>
+	<gtExample>
+	<label: 'Stream at end'>
+	
 	^ 'GTInspector' readStream 
 		upToEnd;
 		yourself

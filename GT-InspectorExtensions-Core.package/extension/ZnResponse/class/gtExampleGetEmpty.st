@@ -1,3 +1,5 @@
 gtExampleGetEmpty
-	<gtExample: 'Response: Bad request <>'>
+	<gtExample>
+	<label: 'Response: Bad request <>'>
+	
 	^ self badRequest: ZnRequest gtExampleGetEmpty

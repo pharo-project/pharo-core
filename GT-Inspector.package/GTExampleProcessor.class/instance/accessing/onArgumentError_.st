@@ -1,0 +1,2 @@
+onArgumentError: anObject
+	onArgumentError := anObject

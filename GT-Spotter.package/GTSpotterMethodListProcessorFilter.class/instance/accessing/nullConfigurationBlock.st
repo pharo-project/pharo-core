@@ -1,0 +1,3 @@
+nullConfigurationBlock
+
+	^ [ :processor | ]

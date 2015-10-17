@@ -1,3 +1,5 @@
 gtExampleMetacelloSpec
-	<gtExample: 'Metacello group reference'>
+	<gtExample>
+	<label: 'Metacello group reference'>
+	
 	^ (ConfigurationOfGTInspectorCore project version: #development) groups anyOne

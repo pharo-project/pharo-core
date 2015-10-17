@@ -1,0 +1,2 @@
+onProcess: anObject
+	onProcess := anObject

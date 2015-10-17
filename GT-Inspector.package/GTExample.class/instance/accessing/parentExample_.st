@@ -1,3 +1,0 @@
-parentExample: anExample
-
-	parentExample := anExample

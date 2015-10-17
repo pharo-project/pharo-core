@@ -1,3 +1,5 @@
 gtExampleToday
-	<gtExample: 'Today'>
+	<gtExample>
+	<label: 'Today'>
+	
 	^ self today

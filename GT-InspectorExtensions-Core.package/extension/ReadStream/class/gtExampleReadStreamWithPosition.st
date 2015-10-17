@@ -1,5 +1,7 @@
 gtExampleReadStreamWithPosition
-	<gtExample: 'Stream with position'>
+	<gtExample>
+	<label: 'Stream with position'>
+	
 	^ 'GTInspector' readStream 
 		next; 
 		next; 

@@ -1,3 +1,5 @@
 gtExample
-	<gtExample: 'Simple agreement'>
+	<gtExample>
+	<label: 'Simple agreement'>
+	
 	^ self new

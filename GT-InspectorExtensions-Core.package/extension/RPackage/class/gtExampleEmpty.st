@@ -1,3 +1,5 @@
 gtExampleEmpty
-	<gtExample: 'Empty package'>
+	<gtExample>
+	<label: 'Empty package'>
+	
 	^ self named: 'Empty'

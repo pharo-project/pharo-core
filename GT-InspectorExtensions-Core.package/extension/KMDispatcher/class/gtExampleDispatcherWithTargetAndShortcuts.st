@@ -1,3 +1,5 @@
 gtExampleDispatcherWithTargetAndShortcuts
-	<gtExample: 'Dispatcher with target and shortcuts'>
+	<gtExample>
+	<label: 'Dispatcher with target and shortcuts'>
+	
 	^ BorderedMorph new kmDispatcher
