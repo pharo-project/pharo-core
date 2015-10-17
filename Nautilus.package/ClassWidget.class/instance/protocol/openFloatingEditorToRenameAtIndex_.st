@@ -16,7 +16,7 @@ openFloatingEditorToRenameAtIndex: anIndex
 				ifFalse: [ selectedRowMorph right ].
 			editor
 				bounds:
-					(clsMorph topLeft - (2 @ 2) corner: right @ (selectedRowMorph bottom + selectedRowMorph height)) ];
+					(clsMorph topLeft corner: right @ selectedRowMorph bottom) ];
 		withEditedContentsDo:
 				[ :editedContents | 
 			| newName |

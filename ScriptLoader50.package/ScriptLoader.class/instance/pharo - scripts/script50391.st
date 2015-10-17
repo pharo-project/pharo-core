@@ -1,4 +1,4 @@
-script50390
+script50391
 
 	^ 'AST-Core-TheIntegrator.380.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -79,29 +79,29 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.390.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-AndreiChis.310.mcz
-GT-InspectorExtensions-Core-EstebanLorenzano.161.mcz
-GT-Playground-EstebanLorenzano.113.mcz
-GT-Spotter-CyrilFerlicot.321.mcz
+GT-Inspector-AndreiChis.344.mcz
+GT-InspectorExtensions-Core-AndreiChis.178.mcz
+GT-Playground-AndreiChis.115.mcz
+GT-Spotter-AndreiChis.325.mcz
 GT-Spotter-EventRecorder-MarcusDenker.97.mcz
-GT-SpotterExtensions-Core-EstebanLorenzano.157.mcz
-GT-Tests-Inspector-TudorGirba.34.mcz
+GT-SpotterExtensions-Core-AndreiChis.166.mcz
+GT-Tests-Inspector-StefanReichhart.41.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-AndreiChis.9.mcz
+GT-Tests-Spotter-AndreiChis.14.mcz
 Generated-code-non-existing-package-EstebanLorenzano.2.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-SeanDeNigris.303.mcz
-Glamour-Examples-EstebanLorenzano.294.mcz
+Glamour-Examples-AndreiChis.296.mcz
 Glamour-Helpers-AndreiChis.39.mcz
 Glamour-Morphic-Brick-EstebanLorenzano.406.mcz
 Glamour-Morphic-Brick-Tests-AliakseiSyrel.13.mcz
 Glamour-Morphic-Pager-CyrilFerlicot.104.mcz
-Glamour-Morphic-Renderer-MarcusDenker.326.mcz
-Glamour-Morphic-Theme-TheIntegrator.220.mcz
+Glamour-Morphic-Renderer-AndreiChis.327.mcz
+Glamour-Morphic-Theme-AndreiChis.221.mcz
 Glamour-Morphic-Widgets-AndreiChis.180.mcz
 Glamour-Presentations-AndreiChis.178.mcz
-Glamour-Rubric-Presentations-CyrilFerlicot.43.mcz
+Glamour-Rubric-Presentations-AndreiChis.44.mcz
 Glamour-Tests-Core-BernardoContreras.106.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
@@ -204,7 +204,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1108.mcz
+Nautilus-TheIntegrator.1110.mcz
 Nautilus-GroupManager-TheIntegrator.15.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
@@ -238,7 +238,9 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.71.mcz
 RPackage-Core-TheIntegrator.415.mcz
 RPackage-Tests-TheIntegrator.175.mcz
-Random-TheIntegrator.10.mcz
+Random-TheIntegrator.11.mcz
+Random-Core-TheIntegrator.2.mcz
+Random-Tests-TheIntegrator.2.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
@@ -286,7 +288,7 @@ Slot-TheIntegrator.697.mcz
 Slot-Tests-TheIntegrator.64.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.12.mcz
-Spec-Core-TheIntegrator.429.mcz
+Spec-Core-TheIntegrator.432.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -294,7 +296,7 @@ Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.239.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
-Spec-Tests-TheIntegrator.56.mcz
+Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.294.mcz
 StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.106.mcz

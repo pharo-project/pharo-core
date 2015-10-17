@@ -1,3 +1,3 @@
 isDisplayed
 
-	^ self window notNil
+	^ self window ifNil: [ false ] ifNotNil: [ :theWindow | theWindow isDisplayed ]

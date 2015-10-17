@@ -22,7 +22,7 @@ openFloatingEditorToRenameAtIndex: anIndex
 				ifFalse: [ selectedRowMorph right ].
 			editor
 				bounds:
-					(catMorph topLeft - (2 @ 2) corner: right @ (selectedRowMorph bottom + selectedRowMorph height)) ];
+					(catMorph topLeft corner: right @ (selectedRowMorph bottom)) ];
 		withEditedContentsDo:
 				[ :editedContents | 
 			| newName |
