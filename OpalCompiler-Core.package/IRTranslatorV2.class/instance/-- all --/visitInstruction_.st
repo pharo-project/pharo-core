@@ -1,3 +1,3 @@
 visitInstruction: instr
-	self visitNode: instr.
 	gen mapBytesTo: instr.
+	self visitNode: instr.

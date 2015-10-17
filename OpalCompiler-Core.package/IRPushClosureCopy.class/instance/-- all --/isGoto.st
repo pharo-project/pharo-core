@@ -1,0 +1,2 @@
+isGoto
+	^ 	false

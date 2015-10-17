@@ -1,5 +1,5 @@
 mapBytesTo: instr
-	"Associate the current byte offset with instr. We fix this later to have the correct offset,
+	"Record the current byte offset in instruction sequence as start of instr. 
+	This is later used to calculate the total byte offset of instruction in generated code,
 	see #bytecodes"
-
-	instrMap add: instr -> bytes size
+	instrMap add: instr -> (bytes size + 1)

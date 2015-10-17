@@ -1,0 +1,2 @@
+useLastPackagePatternStringForClass: aClass
+    ^ self 
