@@ -1,7 +1,7 @@
 fileReaderServicesForFile: fullName suffix: suffix
 	<fileService>
-	self isAbstract ifTrue: [^ #()].
-	^ ((suffix = self extension) or: [ suffix = '*' ])
-		ifTrue: [self services]
-		ifFalse: [Array new: 0]
+	self subclassesDo:[:class |
+	^ ((suffix = class extension) or: [ suffix = '*' ])
+		ifTrue: [class services]
+		ifFalse: [Array new: 0]]
 		

@@ -9,7 +9,7 @@ parsePrimitiveObject
 				ifFalse: [self parseLiteralArray]].
 	currentToken isSpecial
 		ifTrue: 
-			[currentToken value = $[ ifTrue: [^self parseBlock].
+			[currentToken value = $[ ifTrue: [^self saveCommentsDuring:[self parseBlock]].
 			currentToken value = $( ifTrue: [^self parseParenthesizedExpression].
 			currentToken value = ${ ifTrue: [^self parseArray]].
 	^ self parserError: 'Variable or expression expected'

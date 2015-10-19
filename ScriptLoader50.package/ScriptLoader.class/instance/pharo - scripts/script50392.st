@@ -1,6 +1,6 @@
-script50391
+script50392
 
-	^ 'AST-Core-TheIntegrator.380.mcz
+	^ 'AST-Core-TheIntegrator.383.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -164,7 +164,7 @@ Monticello-TheIntegrator.1082.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
-MonticelloFileServices-TheIntegrator.2.mcz
+MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.189.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.395.mcz
@@ -187,7 +187,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.13.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.39.mcz
+Morphic-Widgets-Tree-TheIntegrator.40.mcz
 Morphic-Widgets-Windows-TheIntegrator.64.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
@@ -225,7 +225,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.739.mcz
+OpalCompiler-Core-TheIntegrator.741.mcz
 OpalCompiler-Tests-TheIntegrator.309.mcz
 OpalTools-TheIntegrator.20.mcz
 Pharo-Help-TheIntegrator.15.mcz

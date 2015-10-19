@@ -8,9 +8,11 @@ parseCascadeMessage
 	semicolons := OrderedCollection new: 3.
 	messages add: node.
 	[currentToken isSpecial and: [currentToken value = $;]] whileTrue: 
-			[semicolons add: currentToken start.
+			[|newMessage| semicolons add: currentToken start.
+			newMessage := nil.
 			self step.
-			messages add: (currentToken isIdentifier 
+			self saveCommentsDuring:[
+			newMessage := currentToken isIdentifier 
 						ifTrue: [self parseUnaryMessageWith: receiver]
 						ifFalse: 
 							[currentToken isKeyword 
@@ -21,5 +23,8 @@ parseCascadeMessage
 									currentToken isBinary ifFalse: [ ^ self parserError: 'Message expected'].
 									temp := self parseBinaryMessageWith: receiver.
 									temp == receiver ifTrue: [ ^ self parserError: 'Message expected'].
-									temp]])].
+									temp]]].
+					
+		self addCommentsTo: newMessage.
+		messages add: newMessage].
 	^self cascadeNodeClass messages: messages semicolons: semicolons

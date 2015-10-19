@@ -1,2 +1,2 @@
 value: aNode
-	^self return: nil value: aNode
+	^self return: 0 value: aNode
