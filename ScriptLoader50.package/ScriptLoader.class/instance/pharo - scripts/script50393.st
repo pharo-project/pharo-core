@@ -1,4 +1,4 @@
-script50392
+script50393
 
 	^ 'AST-Core-TheIntegrator.383.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -204,7 +204,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1110.mcz
+Nautilus-TheIntegrator.1112.mcz
 Nautilus-GroupManager-TheIntegrator.15.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
@@ -322,8 +322,8 @@ System-OSEnvironments-TheIntegrator.4.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.320.mcz
-System-Settings-Tests-TheIntegrator.4.mcz
+System-Settings-TheIntegrator.322.mcz
+System-Settings-Tests-TheIntegrator.6.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
 System-Support-TheIntegrator.1173.mcz

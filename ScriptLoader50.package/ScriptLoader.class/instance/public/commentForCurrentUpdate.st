@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '15184 Systembrowser package navigation inconsistent behavior
-	https://pharo.fogbugz.com/f/cases/15184
+ ^ '16816 Storing System Settings produces error when preference directory does not exist
+	https://pharo.fogbugz.com/f/cases/16816
 
-16799 RBParser assigns comments to wrong node
-	https://pharo.fogbugz.com/f/cases/16799
+16809 Sort the variables from each class in the variables-menu alphabetically
+	https://pharo.fogbugz.com/f/cases/16809
 
-16798 #sourceInterval should work for every RBNode
-	https://pharo.fogbugz.com/f/cases/16798
-
-16476 dropping an MCZ file on the world does not propose a browse anymore
-	https://pharo.fogbugz.com/f/cases/16476
-
-'
+16810 Floating editor size too large for Nautilus package pane 
+	https://pharo.fogbugz.com/f/cases/16810'

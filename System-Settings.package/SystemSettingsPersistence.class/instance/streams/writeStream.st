@@ -1,2 +1,2 @@
 writeStream
-	^ self fileReference writeStream
+	^ self ensureFileReference writeStream

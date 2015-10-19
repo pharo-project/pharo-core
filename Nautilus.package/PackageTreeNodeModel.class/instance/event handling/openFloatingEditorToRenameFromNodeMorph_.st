@@ -11,7 +11,7 @@ openFloatingEditorToRenameFromNodeMorph: aNodeMorph
 			| bnds |
 			editor font: font.
 			editor scrollbarsShowNever.
-			bnds := pkgMorph topLeft - (2 @ 2) extent: aNodeMorph container width @ (aNodeMorph height * 2).
+			bnds := pkgMorph topLeft - (2@0) extent: (aNodeMorph owner width - pkgMorph left) @ (aNodeMorph height).
 			editor bounds: (aNodeMorph owner transform localBoundsToGlobal: bnds) ];
 		withEditedContentsDo:
 				[ :editedContents | 
