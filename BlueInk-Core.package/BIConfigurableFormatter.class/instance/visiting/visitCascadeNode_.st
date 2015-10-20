@@ -10,6 +10,7 @@ visitCascadeNode: aCascadeNode
 				do: [ :each | 
 					self
 						indentAround: [ 
+							self formatCommentsFor: each.
 							self
 								formatSelectorAndArguments: each
 								firstSeparator: [  ]

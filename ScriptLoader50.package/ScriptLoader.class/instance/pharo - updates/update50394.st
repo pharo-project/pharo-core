@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16786 Code formatter moves comments to wrong place
+update50394
+	"self new update50394"
+	self withUpdateLog: '16786 Code formatter moves comments to wrong place
 	https://pharo.fogbugz.com/f/cases/16786
 
 16815 DNU RBAndEnvironment>>packageNames while producing html report bootstrap architecture rule
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16711
 
 16807 SystemWindow refactoring (Events, activation ++)
-	https://pharo.fogbugz.com/f/cases/16807'
+	https://pharo.fogbugz.com/f/cases/16807'.
+	self loadTogether: self script50394 merge: false.
+	self flushCaches.

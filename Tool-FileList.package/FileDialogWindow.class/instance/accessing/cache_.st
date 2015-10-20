@@ -4,6 +4,6 @@ cache: dir
 	self entryCacheDirectory = dir
 		ifFalse: [Cursor wait showWhile: [
 					self
-						entryCache: (dir isReadable ifFalse: [ #() ] ifTrue: [ dir entries ]);
+						entryCache: (self dirEntriesOrEmptyListFor: dir);
 						entryCacheDirectory: dir]].
 	^self entryCache

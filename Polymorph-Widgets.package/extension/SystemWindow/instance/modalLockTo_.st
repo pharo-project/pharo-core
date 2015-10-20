@@ -4,7 +4,8 @@ modalLockTo: aSystemWindow
 	aSystemWindow
 		setProperty: #modalOwner toValue: self.
 	self setProperty: #modalChild toValue: aSystemWindow.
-	(closeBox respondsTo: #enabled) ifTrue: [
-		self setProperty: #preModalCloseEnabled toValue: closeBox enabled].
-	(closeBox respondsTo: #enabled:) ifTrue: [
-		closeBox enabled: false]
+	
+	closeBox ifNotNil: [ 
+		self setProperty: #preModalCloseEnabled toValue: closeBox enabled.
+		closeBox enabled: false
+	].

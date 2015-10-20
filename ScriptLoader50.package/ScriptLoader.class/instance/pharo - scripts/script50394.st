@@ -1,6 +1,6 @@
-script50393
+script50394
 
-	^ 'AST-Core-TheIntegrator.383.mcz
+	^ 'AST-Core-TheIntegrator.385.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.126.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
-BlueInk-Core-TheIntegrator.8.mcz
+BlueInk-Core-TheIntegrator.11.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -185,10 +185,10 @@ Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.13.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.15.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.64.mcz
+Morphic-Widgets-Windows-TheIntegrator.68.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -229,8 +229,8 @@ OpalCompiler-Core-TheIntegrator.741.mcz
 OpalCompiler-Tests-TheIntegrator.309.mcz
 OpalTools-TheIntegrator.20.mcz
 Pharo-Help-TheIntegrator.15.mcz
-Polymorph-TaskbarIcons-TheIntegrator.44.mcz
-Polymorph-Widgets-TheIntegrator.1276.mcz
+Polymorph-TaskbarIcons-TheIntegrator.46.mcz
+Polymorph-Widgets-TheIntegrator.1279.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -245,7 +245,7 @@ RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.289.mcz
 Refactoring-Critics-TheIntegrator.235.mcz
-Refactoring-Environment-TheIntegrator.72.mcz
+Refactoring-Environment-TheIntegrator.74.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
@@ -344,7 +344,7 @@ Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.36.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.36.mcz
-Tool-FileList-TheIntegrator.60.mcz
+Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.49.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz

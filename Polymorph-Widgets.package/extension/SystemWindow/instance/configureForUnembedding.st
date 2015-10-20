@@ -3,7 +3,6 @@ configureForUnembedding
 
 	labelArea owner isNil ifTrue: [
 		self
-			removeProperty: #processingMouseDown;
 			makeBordered;
 			initializeLabelArea;
 			themeChanged;

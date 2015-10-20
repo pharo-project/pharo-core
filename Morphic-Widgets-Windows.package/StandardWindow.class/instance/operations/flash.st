@@ -6,6 +6,7 @@ flash
 	c := self color alphaMixed: 0.5 with: Color white.
 	w := self world.
 	d := 0.
+	self flag: #fixMe. "this is not a nice way to do the animation, and locks the rest of the ui"
 	2 timesRepeat: [
 		(Delay forDuration: d milliSeconds) wait.
 		d := 200.
