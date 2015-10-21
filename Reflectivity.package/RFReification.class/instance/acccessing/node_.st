@@ -1,2 +1,0 @@
-node: aRBMessageNode 
-	node := aRBMessageNode

@@ -3,7 +3,7 @@ checkForCompatibilityWith: aNode
 	
 	supported := Set new.
 	RFReification subclasses do: [:plugin |
-		(plugin nodes anySatisfy: [:class | aNode isKindOf: class]) ifTrue: [
+		(plugin entities anySatisfy: [:class | aNode isKindOf: class]) ifTrue: [
 		supported add: plugin key]].
 	self allReifications do: [ :each | (supported includes: each) ifFalse: [^false  ]  ].
 	^true

@@ -6,6 +6,6 @@ entity: anEntity node: aNode links: aCollection
 	
 	"register all the plugins that can reify information for this node"
 	RFReification subclasses do: [:plugin |
-		(plugin nodes anySatisfy: [:class | entity isKindOf: class])	 ifTrue: [
+		(plugin entities anySatisfy: [:class | entity isKindOf: class])	 ifTrue: [
 			plugins at: plugin key put: plugin]
 		].

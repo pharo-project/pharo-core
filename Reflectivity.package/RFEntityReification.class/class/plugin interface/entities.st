@@ -1,2 +1,2 @@
-nodes
+entities
 	^{RBProgramNode. LiteralVariable. Slot}.

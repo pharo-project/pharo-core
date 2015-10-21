@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16827  #sourceInterval should work for every RBNode - Yes even RBArrayNode
-	https://pharo.fogbugz.com/f/cases/16827
+ ^ '16821 broken ArraydCollection>>#writeOnGZIPByteStream:
+	https://pharo.fogbugz.com/f/cases/16821
 
-16826 GrafPort font methods should be moved to the package Graphics-Fonts
-	https://pharo.fogbugz.com/f/cases/16826
+16820 rename "node" to "entity" in RFReification
+	https://pharo.fogbugz.com/f/cases/16820
 
-16823 Color>>#fillRectangle:on: should be in Graphics-Canvas
-	https://pharo.fogbugz.com/f/cases/16823
-
-16831 unimplemented call in MCFileTreeAbstractReader>>#packageProperties 
-	https://pharo.fogbugz.com/f/cases/16831'
+16828 implement doNop
+	https://pharo.fogbugz.com/f/cases/16828'

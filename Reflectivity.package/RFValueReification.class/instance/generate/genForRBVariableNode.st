@@ -1,3 +1,3 @@
 genForRBVariableNode
-	node isGlobal ifTrue: [^node binding value asLiteralNode]. 
-	^RBVariableNode named: node name.
+	entity isGlobal ifTrue: [^entity binding value asLiteralNode]. 
+	^RBVariableNode named: entity name.

@@ -1,2 +1,2 @@
 genForRBVariableNode
-	^node name asLiteralNode
+	^entity name asLiteralNode

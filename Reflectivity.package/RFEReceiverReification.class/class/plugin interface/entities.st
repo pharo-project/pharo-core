@@ -1,2 +1,2 @@
-nodes
+entities
 	^{RBMethodNode. RBMessageNode}

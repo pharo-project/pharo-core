@@ -1,4 +1,4 @@
-script50395
+script50396
 
 	^ 'AST-Core-TheIntegrator.387.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -43,8 +43,8 @@ Collections-Tests-TheIntegrator.11.mcz
 Collections-Unordered-TheIntegrator.220.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
-Compiler-TheIntegrator.596.mcz
-Compression-TheIntegrator.167.mcz
+Compiler-TheIntegrator.598.mcz
+Compression-TheIntegrator.169.mcz
 Compression-Registration-TheIntegrator.5.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -128,7 +128,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2150.mcz
+Kernel-TheIntegrator.2152.mcz
 Kernel-Tests-TheIntegrator.16.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -250,7 +250,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.231.mcz
+Reflectivity-TheIntegrator.233.mcz
 Reflectivity-Examples-TheIntegrator.12.mcz
 Reflectivity-Tests-TheIntegrator.182.mcz
 Regex-Core-TheIntegrator.38.mcz

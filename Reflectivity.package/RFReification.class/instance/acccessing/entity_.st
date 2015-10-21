@@ -1,0 +1,2 @@
+entity: aRBMessageNode 
+	entity := aRBMessageNode

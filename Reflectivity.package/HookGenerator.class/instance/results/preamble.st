@@ -6,5 +6,5 @@ preamble
 	
 	preamble := OrderedCollection new.
 	links do: [:link |  
-		plugins do: [ :plugin | (link allReifications includes: plugin key) ifTrue: [preamble addAll: ((plugin node: entity link: link) preamble: entity)] ]].
+		plugins do: [ :plugin | (link allReifications includes: plugin key) ifTrue: [preamble addAll: ((plugin entity: entity link: link) preamble: entity)] ]].
 	^preamble

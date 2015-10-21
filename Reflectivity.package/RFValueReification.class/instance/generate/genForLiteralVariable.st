@@ -1,3 +1,3 @@
 genForLiteralVariable
-	"node in this case is the binding of the literal variable"
-	^node value asLiteralNode
+	"entity in this case is the binding of the literal variable"
+	^entity value asLiteralNode

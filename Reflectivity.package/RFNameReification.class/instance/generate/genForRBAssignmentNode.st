@@ -1,2 +1,2 @@
 genForRBAssignmentNode
-	^node variable name asLiteralNode
+	^entity variable name asLiteralNode

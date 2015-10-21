@@ -1,5 +1,5 @@
 Object subclass: #RFReification
-	instanceVariableNames: 'link node'
+	instanceVariableNames: 'link entity'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Links'

@@ -1,3 +1,3 @@
 genForInstanceVariableSlot
 	
-	^node asLiteralNode
+	^entity asLiteralNode

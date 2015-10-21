@@ -1,2 +1,2 @@
 genForRBAssignmentNode
-	^RBVariableNode named: node variable name
+	^RBVariableNode named: entity variable name
