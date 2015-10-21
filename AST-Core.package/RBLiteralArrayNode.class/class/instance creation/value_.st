@@ -1,7 +1,7 @@
 value: aValue 
 	^(self new)
-		startPosition: nil
+		startPosition: 0
 			contents: (aValue asArray collect: [:each | RBLiteralNode value: each])
-			stopPosition: nil
+			stopPosition: -1
 			isByteArray: aValue class ~~ Array;
 		yourself

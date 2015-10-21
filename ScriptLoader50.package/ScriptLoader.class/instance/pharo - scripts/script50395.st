@@ -1,6 +1,6 @@
-script50394
+script50395
 
-	^ 'AST-Core-TheIntegrator.385.mcz
+	^ 'AST-Core-TheIntegrator.387.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -108,12 +108,12 @@ Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
 Gofer-Core-TheIntegrator.235.mcz
 Gofer-Tests-TheIntegrator.164.mcz
-Graphics-Canvas-TheIntegrator.4.mcz
+Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.165.mcz
 Graphics-Files-TheIntegrator.66.mcz
-Graphics-Fonts-TheIntegrator.100.mcz
+Graphics-Fonts-TheIntegrator.102.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
-Graphics-Primitives-TheIntegrator.180.mcz
+Graphics-Primitives-TheIntegrator.183.mcz
 Graphics-Resources-TheIntegrator.34.mcz
 Graphics-Shapes-TheIntegrator.2.mcz
 Graphics-Tests-TheIntegrator.78.mcz
@@ -165,7 +165,7 @@ Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
-MonticelloFileTree-Core-TheIntegrator.189.mcz
+MonticelloFileTree-Core-TheIntegrator.191.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.395.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz

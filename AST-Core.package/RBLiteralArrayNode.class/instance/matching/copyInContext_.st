@@ -1,6 +1,6 @@
 copyInContext: aDictionary 
 	^ self class 
-		startPosition: nil
+		startPosition: 0
 		contents: (self copyList: self contents inContext: aDictionary)
-		stopPosition: nil
+		stopPosition: -1
 		isByteArray: isByteArray

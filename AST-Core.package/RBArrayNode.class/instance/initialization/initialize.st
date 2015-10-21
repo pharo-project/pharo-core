@@ -1,3 +1,4 @@
 initialize
 	super initialize.
-	statements := periods := #()
+	statements := periods := #().
+	left := right := 0.
