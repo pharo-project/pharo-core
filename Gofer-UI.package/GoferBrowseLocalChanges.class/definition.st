@@ -2,4 +2,4 @@ GoferLocalChanges subclass: #GoferBrowseLocalChanges
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Gofer-Core'
+	category: 'Gofer-UI'

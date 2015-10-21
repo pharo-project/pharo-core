@@ -1,4 +1,4 @@
-script50396
+script50397
 
 	^ 'AST-Core-TheIntegrator.387.mcz
 AST-Tests-Core-TheIntegrator.82.mcz
@@ -106,8 +106,9 @@ Glamour-Tests-Core-BernardoContreras.106.mcz
 Glamour-Tests-Morphic-AndreiChis.124.mcz
 Glamour-Tests-Resources-AndreiChis.3.mcz
 Glamour-Tests-Rubric-AndreiChis.14.mcz
-Gofer-Core-TheIntegrator.235.mcz
+Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
+Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.165.mcz
 Graphics-Files-TheIntegrator.66.mcz
@@ -172,7 +173,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.495.mcz
-Morphic-Core-TheIntegrator.216.mcz
+Morphic-Core-TheIntegrator.218.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.64.mcz
@@ -204,7 +205,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1112.mcz
+Nautilus-TheIntegrator.1114.mcz
 Nautilus-GroupManager-TheIntegrator.15.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
@@ -315,7 +316,7 @@ System-Hashing-TheIntegrator.47.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
-System-Localization-TheIntegrator.94.mcz
+System-Localization-TheIntegrator.96.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
 System-OSEnvironments-TheIntegrator.4.mcz
