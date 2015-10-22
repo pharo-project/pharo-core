@@ -1,0 +1,2 @@
+binding: anAssocation
+	binding := anAssocation

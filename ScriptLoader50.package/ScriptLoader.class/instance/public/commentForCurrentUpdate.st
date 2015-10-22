@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '16834 implement Nautilus class>>emptyCommentWarning:
-	https://pharo.fogbugz.com/f/cases/16834
+ ^ '16808 inspect decompiled method with breakpoint
+	https://pharo.fogbugz.com/f/cases/16808
 
-16437 World Contents Menu should have a maximum string length for its elements
-	https://pharo.fogbugz.com/f/cases/16437
-
-16830 fix known locales initialization
-	https://pharo.fogbugz.com/f/cases/16830
-
-16825 make standalone Gofer-UI package
-	https://pharo.fogbugz.com/f/cases/16825'
+16771 Morphic "debug drawing error" broken
+	https://pharo.fogbugz.com/f/cases/16771'
