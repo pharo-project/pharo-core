@@ -12,7 +12,7 @@ uncompressDataTo: aStream
 		buffer := decoder next: chunkSize into: buffer startingAt: 1.
 		aStream next: chunkSize putAll: buffer startingAt: 1.
 		readDataRemaining := readDataRemaining - chunkSize.
-	]] on: CRCError do: [ :ex | crcErrorMessage := ex messageText. ex proceed ].
+	]] on: CRCError do: [ :ex | crcErrorMessage := ex messageText. ex resume ].
 
 	crcErrorMessage ifNotNil: [ self isCorrupt: true. CRCError signal: crcErrorMessage ]
 

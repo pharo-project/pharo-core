@@ -1,3 +1,3 @@
 hashBlock
-	"Return the block used for hashing the elements in the receiver."
+	"Return the block used for hashing the keys in the receiver."
 	^hashBlock

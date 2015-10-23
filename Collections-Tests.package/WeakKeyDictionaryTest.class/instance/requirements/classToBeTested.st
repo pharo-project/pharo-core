@@ -1,3 +1,2 @@
 classToBeTested
-
-^ SystemDictionary
+	^ WeakKeyDictionary

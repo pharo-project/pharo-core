@@ -1,2 +1,2 @@
 buttonsBarHeight
-	^ 25
+	^ StandardFonts defaultFont pixelSize + 14
