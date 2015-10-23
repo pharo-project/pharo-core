@@ -1,5 +1,5 @@
 Object subclass: #Collection
 	instanceVariableNames: ''
-	classVariableNames: 'MutexForPicking RandomForPicking'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Collections-Abstract'

@@ -1,9 +1,11 @@
 commentForCurrentUpdate
- ^ '16840 Each browser has its own classifier
-	https://pharo.fogbugz.com/f/cases/16840
+ ^ '16842 Recategorize example -> examples
+	https://pharo.fogbugz.com/f/cases/16842
 
-16819 dropping a ".changes" file on the world does not open changes browser
-	https://pharo.fogbugz.com/f/cases/16819
+16845 Collection do not need initialization anymore
+	https://pharo.fogbugz.com/f/cases/16845
 
-16837 Refactor AboutDialogWindow
-	https://pharo.fogbugz.com/f/cases/16837'
+16852 SocketStream class>>#finger: calls unimplemented call getLine
+	https://pharo.fogbugz.com/f/cases/16852
+
+'

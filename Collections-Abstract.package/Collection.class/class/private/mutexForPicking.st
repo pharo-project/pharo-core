@@ -1,2 +1,0 @@
-mutexForPicking
-	^ MutexForPicking
