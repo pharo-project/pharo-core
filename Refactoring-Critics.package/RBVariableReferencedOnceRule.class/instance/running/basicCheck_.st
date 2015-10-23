@@ -1,5 +1,5 @@
 basicCheck: aClass 
-	aClass instVarNames anySatisfy:  
+	^ aClass instVarNames anySatisfy:
 		[ :each | 
 		| defClass selector |
 		(aClass withAllSubclasses 

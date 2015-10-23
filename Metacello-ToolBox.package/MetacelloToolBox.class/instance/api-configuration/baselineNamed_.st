@@ -2,15 +2,14 @@ baselineNamed: baseName
   | baselineName |
   "Check if the class does not exist"
   baselineName := self baselineNameFrom: baseName.
-  (Smalltalk includesKey: baselineName asSymbol)
+  (Smalltalk globals includesKey: baselineName asSymbol)
     ifFalse: [ 
       "Create the configuration class"
       self ensureMetacello.
       BaselineOf
         subclass: baselineName
-        instVarNames: #()
-        classVars: #()
-        classInstVars: #()
+        instanceVariableNames: #()
+        classVariableNames: #()
         poolDictionaries: #()
         category: baselineName.
       RPackageOrganizer default registerPackageNamed: baselineName ].
