@@ -1,2 +1,2 @@
 classifier
-	^ classifier
+	^ MethodClassifier new

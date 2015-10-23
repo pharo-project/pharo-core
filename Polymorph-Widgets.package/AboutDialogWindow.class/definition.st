@@ -1,4 +1,4 @@
-DialogWindow subclass: #AboutDialogWindow
+LongMessageDialogWindow subclass: #AboutDialogWindow
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

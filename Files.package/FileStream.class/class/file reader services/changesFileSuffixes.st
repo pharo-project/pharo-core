@@ -1,0 +1,4 @@
+changesFileSuffixes
+
+	^#('changes')
+
