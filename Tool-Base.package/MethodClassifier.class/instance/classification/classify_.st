@@ -8,3 +8,5 @@ classify: aMethod
 		ifTrue: [ ^ aMethod category ].
 	(self classifyByOtherImplementors: aMethod)
 		ifTrue: [ ^ aMethod category ].
+	(self classifyByKnownPragma: aMethod)
+		ifTrue: [ ^ aMethod category ].

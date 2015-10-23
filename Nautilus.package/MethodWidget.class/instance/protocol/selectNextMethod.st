@@ -1,6 +1,6 @@
 selectNextMethod
 	| methodToSelect selectedMethodIndex |
-	self getMethods size = 1
+	self getMethods size <= 1
 		ifFalse:
 			[ 
 			selectedMethodIndex := self selectedMethodIndex.

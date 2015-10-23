@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '16842 Recategorize example -> examples
-	https://pharo.fogbugz.com/f/cases/16842
+ ^ '16835 Error when removing a trait in a class being browsed
+	https://pharo.fogbugz.com/f/cases/16835
 
-16845 Collection do not need initialization anymore
-	https://pharo.fogbugz.com/f/cases/16845
+16841 MethodClassifier should classify on pragma
+	https://pharo.fogbugz.com/f/cases/16841
 
-16852 SocketStream class>>#finger: calls unimplemented call getLine
-	https://pharo.fogbugz.com/f/cases/16852
-
-'
+16855 Class template mentions poolDictionary
+	https://pharo.fogbugz.com/f/cases/16855'
