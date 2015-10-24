@@ -1,4 +1,5 @@
 assert: aBlock
-	"Throw an assertion error if aBlock does not evaluates to true."
+	"Throw an assertion error if aBlock does not evaluates to true.
+	We check for true explicitly to make the assertion fail for non booleans"
 	
-	aBlock value ifFalse: [AssertionFailure signal: 'Assertion failed']
+	aBlock value == true ifFalse: [AssertionFailure signal: 'Assertion failed']

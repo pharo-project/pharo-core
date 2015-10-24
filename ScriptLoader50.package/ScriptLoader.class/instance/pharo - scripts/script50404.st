@@ -1,7 +1,7 @@
-script50403
+script50404
 
-	^ 'AST-Core-TheIntegrator.387.mcz
-AST-Tests-Core-TheIntegrator.82.mcz
+	^ 'AST-Core-TheIntegrator.389.mcz
+AST-Tests-Core-TheIntegrator.84.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.27.mcz
@@ -27,7 +27,7 @@ BlueInk-Core-TheIntegrator.11.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeExport-TheIntegrator.13.mcz
+CodeExport-TheIntegrator.15.mcz
 CodeImport-TheIntegrator.79.mcz
 CodeImportCommandLineHandlers-TheIntegrator.5.mcz
 Collections-Abstract-TheIntegrator.309.mcz
@@ -129,8 +129,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2152.mcz
-Kernel-Tests-TheIntegrator.16.mcz
+Kernel-TheIntegrator.2154.mcz
+Kernel-Tests-TheIntegrator.18.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -226,7 +226,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.743.mcz
+OpalCompiler-Core-TheIntegrator.745.mcz
 OpalCompiler-Tests-TheIntegrator.309.mcz
 OpalTools-TheIntegrator.20.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -271,7 +271,7 @@ RingChunkImporter-TheIntegrator.2.mcz
 Rubric-TheIntegrator.291.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
-SUnit-Core-TheIntegrator.154.mcz
+SUnit-Core-TheIntegrator.156.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.129.mcz

@@ -1,4 +1,4 @@
 assert: aBoolean
-
-	aBoolean ifFalse: [self signalFailure: 'Assertion failed']
+	"We check for true explicitly to make the assertion fail for non booleans"
+	aBoolean == true ifFalse: [self signalFailure: 'Assertion failed']
 			
