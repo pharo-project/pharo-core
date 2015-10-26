@@ -13,7 +13,7 @@ buildSecondColumn: aWindow
 	^ PanelMorph new
 		changeProportionalLayout;
 		addMorph: self buildClassWidget fullFrame: (LayoutFrame identity bottomOffset: 1 - (buttonSize + 4));
-		addMorph: buttons fullFrame: ((0 @ 1 corner: 1 @ 1) asLayoutFrame topOffset: 1 - buttonSize);
+		addMorph: buttons fullFrame: ((0 @ 1 corner: 1 @ 1) asLayoutFrame topOffset: 1 - (buttonSize + 1));
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
 		yourself

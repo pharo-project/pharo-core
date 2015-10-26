@@ -1,3 +1,5 @@
 windowIsClosing
 
-	isClosedHolder value: true
+	isClosedHolder value: true.
+	
+	self model windowIsClosing 

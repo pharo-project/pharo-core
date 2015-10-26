@@ -1,4 +1,4 @@
-script50404
+script50405
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.84.mcz
@@ -168,7 +168,7 @@ MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.191.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.395.mcz
+MonticelloGUI-TheIntegrator.397.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
@@ -205,7 +205,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1117.mcz
+Nautilus-TheIntegrator.1120.mcz
 Nautilus-GroupManager-TheIntegrator.15.mcz
 Nautilus-GroupManagerUI-TheIntegrator.24.mcz
 Nautilus-Tests-TheIntegrator.25.mcz
@@ -289,7 +289,7 @@ Slot-TheIntegrator.697.mcz
 Slot-Tests-TheIntegrator.64.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.12.mcz
-Spec-Core-TheIntegrator.432.mcz
+Spec-Core-TheIntegrator.435.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -298,7 +298,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.239.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.294.mcz
+Spec-Tools-TheIntegrator.298.mcz
 StartupPreferences-TheIntegrator.141.mcz
 System-Announcements-TheIntegrator.106.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz
@@ -331,11 +331,11 @@ System-Support-TheIntegrator.1173.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
-Text-Core-EstebanLorenzano.44.mcz
+Text-Core-TheIntegrator.46.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.102.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
-Text-Scanning-TheIntegrator.31.mcz
+Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.113.mcz
 Tool-Catalog-EstebanLorenzano.26.mcz
@@ -374,7 +374,7 @@ Versionner-Core-Commands-ChristopheDemarey.61.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.102.mcz
 Versionner-Core-Model-EstebanLorenzano.51.mcz
 Versionner-Spec-Browser-EstebanLorenzano.179.mcz
-Versionner-Tests-Core-Commands-TheIntegrator.20.mcz
+Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-TheIntegrator.17.mcz

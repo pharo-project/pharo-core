@@ -3,7 +3,7 @@ runTestForAMethod: aMethod notifying: aBoolean priority: aPriority
 	testMethod := aMethod correspondingTestMethod.
 	testMethod ifNil: [ ^ self ].
 	testClass := testMethod methodClass.
-	(aMethod hasFailedTest or: [ aMethod hasErrorTest ])
+	(testMethod hasFailedTest or: [ testMethod hasErrorTest ])
 		ifTrue: [ testClass debug: testMethod selector ].
 	testResult := testClass run: testMethod selector.
 	testResult updateResultsInHistory.
