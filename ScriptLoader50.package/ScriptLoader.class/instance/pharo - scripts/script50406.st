@@ -1,4 +1,4 @@
-script50405
+script50406
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.84.mcz
@@ -23,7 +23,7 @@ Balloon-TheIntegrator.126.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
-BlueInk-Core-TheIntegrator.11.mcz
+BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -37,9 +37,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.217.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.186.mcz
-Collections-Strings-TheIntegrator.378.mcz
+Collections-Strings-TheIntegrator.380.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.16.mcz
+Collections-Tests-TheIntegrator.18.mcz
 Collections-Unordered-TheIntegrator.224.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz

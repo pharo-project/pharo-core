@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '16862 1px missing on Nautilus UI
-	https://pharo.fogbugz.com/f/cases/16862
+ ^ '16863 Make expandMacros more consistent with general use
+	https://pharo.fogbugz.com/f/cases/16863
 
-16864 DNU on running tests from nautilus (on non TestCase subclass)
-	https://pharo.fogbugz.com/f/cases/16864
-
-16802 MessageBrowser does not unregister itself for system announcements
-	https://pharo.fogbugz.com/f/cases/16802
-
-16869 move all messages #emphasizeScanner from Text-Core package to Text-Scanning 
-	https://pharo.fogbugz.com/f/cases/16869
-
-16868 Monticello Browser does not unregister itself for system announcements
-	https://pharo.fogbugz.com/f/cases/16868'
+16462 BIConfigurableFormatter should not use asString
+	https://pharo.fogbugz.com/f/cases/16462'

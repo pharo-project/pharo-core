@@ -2,14 +2,14 @@ handleLineForArgument: anArgument
 	(self keepBlockInMessage and: [ anArgument isBlock ])
 		ifTrue:
 			[ 
-			anArgument asString size > self maxLineLength
+			anArgument sourceInterval size > self maxLineLength
 				ifTrue: [ self newLine ]
 				ifFalse: [ self space ] ]
 		ifFalse:
 			[ 
 			((self willBeMultiline: anArgument)
 				or:
-					[ anArgument asString size> self maxLineLength ])
+					[ anArgument sourceInterval size > self maxLineLength ])
 				ifTrue:
 					[ 
 					self isInCascadeNode
