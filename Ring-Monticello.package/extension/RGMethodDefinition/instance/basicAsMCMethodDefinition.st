@@ -2,7 +2,7 @@ basicAsMCMethodDefinition
    "Creates a MCMethodDefinition from the receiver"
    self isActive ifTrue: [ 
 		self compiledMethod sourceFileStream ifNotNil: [ :file|
-			^ self asMCMethodDefinitionFromFile: file]].
+			[^ self asMCMethodDefinitionFromFile: file] ensure: [file close]]].
 	
    ^ MCMethodDefinition
 		className: self theNonMetaParentName
@@ -10,4 +10,4 @@ basicAsMCMethodDefinition
 		selector: self selector
 		category: self protocol
 		timeStamp: self stamp
-		source: self sourceCode
+		source: self sourceCode 
