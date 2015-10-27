@@ -1,2 +1,2 @@
 keyboardFocus: aMorphOrNil
-	keyboardFocus := aMorphOrNil
+	self newKeyboardFocus: aMorphOrNil

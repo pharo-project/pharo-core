@@ -1,8 +1,9 @@
 newKeyboardFocus: aMorphOrNil
 	"Make the given morph the new keyboard focus, canceling the previous keyboard focus if any. If the argument is nil, the current keyboard focus is cancelled."
 	| oldFocus |
-	oldFocus := self keyboardFocus.
+	keyboardFocus == aMorphOrNil ifTrue: [ ^self ].
+	oldFocus := keyboardFocus.
+	keyboardFocus := aMorphOrNil.
 	
-	self keyboardFocus: aMorphOrNil.
-	oldFocus ifNotNil: [oldFocus == aMorphOrNil ifFalse: [oldFocus keyboardFocusChange: false]].
+	oldFocus ifNotNil: [oldFocus keyboardFocusChange: false].
 	aMorphOrNil ifNotNil: [ aMorphOrNil keyboardFocusChange: true ].

@@ -6,4 +6,4 @@ releaseCachedState
 	self removeAllMorphs.
 	self initialize.	"nuke everything"
 	self privateOwner: oo.
-	self releaseAllFoci.
+	self releaseAllFocus.

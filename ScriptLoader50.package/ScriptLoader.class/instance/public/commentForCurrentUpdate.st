@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16863 Make expandMacros more consistent with general use
-	https://pharo.fogbugz.com/f/cases/16863
+ ^ '16874 RBRefersToClassRule should handle classes that are not in method dict
+	https://pharo.fogbugz.com/f/cases/16874
 
-16462 BIConfigurableFormatter should not use asString
-	https://pharo.fogbugz.com/f/cases/16462'
+16856 Any KeyboardFocus change in the HandMorph should be announced
+	https://pharo.fogbugz.com/f/cases/16856'
