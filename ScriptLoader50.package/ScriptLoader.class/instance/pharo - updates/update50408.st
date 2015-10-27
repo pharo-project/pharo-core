@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16850 RingChunkImporter>>#removedMethod:with: calls: addRemovedSelector:
+update50408
+	"self new update50408"
+	self withUpdateLog: '16850 RingChunkImporter>>#removedMethod:with: calls: addRemovedSelector:
 	https://pharo.fogbugz.com/f/cases/16850
 
 15969 move method refactoring does not work anymore
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/16836
 
 16876 Improve speed of OrderedDictionary>>#atRandom:
-	https://pharo.fogbugz.com/f/cases/16876'
+	https://pharo.fogbugz.com/f/cases/16876'.
+	self loadTogether: self script50408 merge: false.
+	self flushCaches.

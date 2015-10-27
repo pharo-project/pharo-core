@@ -5,7 +5,7 @@ subclass: aName uses: aTraitCompositionOrArray instanceVariableNames: someInstan
 		uses: aTraitCompositionOrArray
 		with: [ 
 			self
-				subclass: aName
+				private_subclass: aName
 				instanceVariableNames: someInstanceVariableNames
 				classVariableNames: someClassVariableNames
 				poolDictionaries: someSharedPoolNames

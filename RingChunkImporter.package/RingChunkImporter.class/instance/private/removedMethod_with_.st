@@ -6,5 +6,5 @@ removedMethod: string with: aChunk
 		ifTrue:[ orClass := self classNamed: tokens first. 
 		^ (tokens second == #class
 			ifTrue: [ orClass theMetaClass ]
-			ifFalse:[ orClass ]) addRemovedSelector: tokens last ].
+			ifFalse:[ orClass ]) removeSelector: tokens last ].
 	doIts add: aChunk

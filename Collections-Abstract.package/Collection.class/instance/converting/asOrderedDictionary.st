@@ -1,0 +1,3 @@
+asOrderedDictionary
+
+	^ self as: OrderedDictionary
