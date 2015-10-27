@@ -1,5 +1,5 @@
 testLinkOneShot
-	| sendNode link |
+	| sendNode |
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 
 		metaObject: self; 

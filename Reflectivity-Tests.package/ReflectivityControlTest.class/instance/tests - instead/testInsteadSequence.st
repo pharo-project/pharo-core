@@ -1,5 +1,5 @@
 testInsteadSequence
-	| seqNode link |
+	| seqNode |
 	seqNode := (ReflectivityExamples >> #exampleAssignment) ast body.
 	self assert: seqNode isSequence.
 	link := MetaLink new
@@ -14,5 +14,3 @@ testInsteadSequence
 	ReflectivityExamples new exampleAssignment.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleAssignment

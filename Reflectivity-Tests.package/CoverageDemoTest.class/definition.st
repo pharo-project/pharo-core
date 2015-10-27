@@ -1,5 +1,5 @@
 TestCase subclass: #CoverageDemoTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'link selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Tests'

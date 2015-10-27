@@ -1,5 +1,5 @@
 TestCase subclass: #ReflectivityReificationTest
-	instanceVariableNames: 'tag'
+	instanceVariableNames: 'tag link'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Tests'

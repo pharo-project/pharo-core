@@ -1,5 +1,6 @@
 testCoverageControlFlow
-	| link |
+	selector := #exampleIfTrueIfFalse.
+
 	link := MetaLink new
 		metaObject: #node;
 		selector: #tagExecuted.
@@ -10,7 +11,6 @@ testCoverageControlFlow
 	self deny:  (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes first hasBeenExecuted. self flag: #TBD. "should be true. need to implement links on optimized block bodies"
 	self deny:  (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes first body hasBeenExecuted.
 	
-	self assert:  (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes second hasBeenExecuted.
-	self assert:  (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes second body hasBeenExecuted.
+	self assert: (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes second hasBeenExecuted.
+	self assert: (ReflectivityExamples >> #exampleIfTrueIfFalse) blockNodes second body hasBeenExecuted.
 	self assert: (ReflectivityExamples >> #exampleIfTrueIfFalse) ast hasBeenExecuted.
-	ReflectivityExamples compileAll

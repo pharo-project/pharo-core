@@ -6,4 +6,3 @@ testSetLinkOnGlobalVariable
 	self assert: (globalVar links includes: link).
 	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = ReflectiveMethod.
 	globalVar removeProperty: #links.
-	ReflectivityExamples compileAll.

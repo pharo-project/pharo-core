@@ -1,5 +1,5 @@
 testInsteadAssign
-	| assignmentNode link instance |
+	| assignmentNode instance |
 	assignmentNode := (ReflectivityExamples >> #exampleAssignment) assignmentNodes first.
 	self assert: assignmentNode isAssignment.
 	link := MetaLink new
@@ -12,5 +12,3 @@ testInsteadAssign
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
 	self assert: instance exampleAssignment = 3.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleAssignment

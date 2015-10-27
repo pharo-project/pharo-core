@@ -1,5 +1,5 @@
 testBeforeSend
-	| sendNode link |
+	| sendNode |
 	sendNode := (ReflectivityExamples >> #exampleMethod) sendNodes first.
 	link := MetaLink new
 		metaObject: self;
@@ -12,5 +12,3 @@ testBeforeSend
 	self assert: ReflectivityExamples new exampleMethod = 5.
 	self assert: tag class = RBMessageNode.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleMethod

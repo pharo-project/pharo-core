@@ -1,5 +1,5 @@
 testLinkoptionInlineMetaObject
-	| sendNode link |
+	| sendNode |
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 
 		metaObject: self; 
@@ -14,4 +14,3 @@ testLinkoptionInlineMetaObject
 	"if we now change the meta object, the method should not be invalidated"
 	link metaObject: self class new.
 	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod.
-	link uninstall.

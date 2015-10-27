@@ -1,5 +1,5 @@
 testAfterSequence
-	| sequence link |
+	| sequence |
 	sequence := (ReflectivityExamples >> #exampleMethod) ast body.
 	self assert: sequence isSequence.
 	link := MetaLink new
@@ -13,5 +13,3 @@ testAfterSequence
 	self assert: ReflectivityExamples new exampleMethod = 5.
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleMethod

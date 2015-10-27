@@ -1,2 +1,3 @@
 tearDown
-	ReflectivityExamples recompile
+	link ifNotNil: [link uninstall].
+	ReflectivityExamples recompile: selector.

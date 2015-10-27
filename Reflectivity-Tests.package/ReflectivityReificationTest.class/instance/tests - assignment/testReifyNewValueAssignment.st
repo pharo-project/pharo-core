@@ -1,5 +1,5 @@
 testReifyNewValueAssignment
-	| varNode link instance|
+	| varNode instance|
 	varNode := (ReflectivityExamples>>#exampleAssignment) assignmentNodes first.
 	link := MetaLink new 
 		metaObject: self; 
@@ -11,5 +11,3 @@ testReifyNewValueAssignment
 	instance := ReflectivityExamples new .
 	self assert: (instance exampleAssignment = 3).
 	self assert: (tag = 3).
-
-	link uninstall. 

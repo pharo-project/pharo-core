@@ -1,5 +1,5 @@
 testAfterMethodPrimitive
-	| methodNode link |
+	| methodNode |
 	ReflectivityExamples recompile: #examplePrimitiveMethod.
 	methodNode := (ReflectivityExamples >> #examplePrimitiveMethod) ast.
 	link := MetaLink new
@@ -14,5 +14,3 @@ testAfterMethodPrimitive
 	self assert: ReflectivityExamples new examplePrimitiveMethod class = ByteString.
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #examplePrimitiveMethod) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #examplePrimitiveMethod

@@ -1,5 +1,5 @@
 testInsteadVariableReadIvar
-	| varNode link instance |
+	| varNode instance |
 	varNode := (ReflectivityExamples >> #exampleIvarRead) variableReadNodes first.
 	link := MetaLink new
 		metaObject: #object;
@@ -12,5 +12,3 @@ testInsteadVariableReadIvar
 	instance := ReflectivityExamples new.
 	self assert: instance exampleIvarRead value = 33.
 	self deny: (ReflectivityExamples >> #exampleIvarRead) isQuick.	"yes, we changed the method"
-	link uninstall.
-	ReflectivityExamples recompile: #exampleIvarRead.

@@ -1,5 +1,5 @@
 testReifyNode
-	| varNode instance link|
+	| varNode instance |
 	varNode := (ReflectivityExamples>>#exampleIvarRead) ast body statements last value.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testReifyNode
 	self assert: (instance exampleIvarRead = 33).
 	self assert: (tag = varNode).
 
-	link uninstall. 

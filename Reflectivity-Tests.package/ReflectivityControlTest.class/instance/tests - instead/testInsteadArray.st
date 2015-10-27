@@ -1,5 +1,5 @@
 testInsteadArray
-	| literalArray link |
+	| literalArray |
 	literalArray := (ReflectivityExamples >> #exampleArray) ast statements first value.
 	self assert: literalArray isArray.
 	link := MetaLink new
@@ -12,5 +12,3 @@ testInsteadArray
 	self assert: ReflectivityExamples new exampleArray = 3.
 	self assert: (ReflectivityExamples >> #exampleArray) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleArray) isQuick.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleArray

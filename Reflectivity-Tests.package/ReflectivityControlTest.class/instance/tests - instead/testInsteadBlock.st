@@ -1,5 +1,5 @@
 testInsteadBlock
-	| blockNode link |
+	| blockNode |
 	blockNode := (ReflectivityExamples >> #exampleBlock) ast statements first value receiver.
 	self assert: blockNode isBlock.
 	link := MetaLink new
@@ -12,5 +12,3 @@ testInsteadBlock
 	self assert: (ReflectivityExamples >> #exampleBlock) class = ReflectiveMethod.
 	self assert: ReflectivityExamples new exampleBlock == 3.
 	self assert: (ReflectivityExamples >> #exampleBlock) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleBlock

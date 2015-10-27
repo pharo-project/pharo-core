@@ -1,5 +1,5 @@
 testInsteadVariableReadTemp
-	| varNode link instance |
+	| varNode instance |
 	varNode := (ReflectivityExamples >> #exampleAssignment) variableReadNodes first.
 	link := MetaLink new
 		metaObject: #context;
@@ -11,5 +11,3 @@ testInsteadVariableReadTemp
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
 	self assert: instance exampleAssignment value = 3.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleAssignment

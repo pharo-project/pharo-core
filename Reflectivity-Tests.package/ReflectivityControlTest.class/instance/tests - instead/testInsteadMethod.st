@@ -1,5 +1,5 @@
 testInsteadMethod
-	| node link |
+	| node |
 	node := (ReflectivityExamples >> #exampleMethod) ast.
 	link := MetaLink new
 		metaObject: self;
@@ -12,5 +12,3 @@ testInsteadMethod
 	ReflectivityExamples new exampleMethod.
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleMethod

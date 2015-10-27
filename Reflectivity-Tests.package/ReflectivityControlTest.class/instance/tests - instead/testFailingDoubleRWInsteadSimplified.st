@@ -17,5 +17,3 @@ testFailingDoubleRWInsteadSimplified
 			
 	readNode link: readLink.
 	readLink uninstall.
-	
-	(ReflectivityExamples>>#exampleLazyInit) recompile.

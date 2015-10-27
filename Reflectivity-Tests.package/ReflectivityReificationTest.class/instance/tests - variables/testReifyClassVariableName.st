@@ -1,5 +1,5 @@
 testReifyClassVariableName
-	| classVar instance link|
+	| classVar instance |
 	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testReifyClassVariableName
 	instance := ReflectivityExamples new.
 	self assert: (instance exampleClassVarRead = #AClassVar).
 	self assert: (tag = #ClassVar).
-	link uninstall. 

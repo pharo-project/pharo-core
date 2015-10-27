@@ -1,5 +1,5 @@
 testbeforeArray
-	| arrayNode link |
+	| arrayNode |
 	arrayNode := (ReflectivityExamples >> #exampleArray) ast statements first value.
 	self assert: arrayNode isArray.
 	link := MetaLink new
@@ -12,5 +12,3 @@ testbeforeArray
 	self assert: ReflectivityExamples new exampleArray isArray.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleArray) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleArray

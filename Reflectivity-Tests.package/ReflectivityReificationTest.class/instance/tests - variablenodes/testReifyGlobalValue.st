@@ -1,5 +1,5 @@
 testReifyGlobalValue
-	| varNode instance link|
+	| varNode instance |
 	varNode := (ReflectivityExamples>>#exampleGlobalRead) ast body statements last value.
 	link := MetaLink new 
 		metaObject: self; 
@@ -11,5 +11,3 @@ testReifyGlobalValue
 	instance := ReflectivityExamples new .
 	self assert: (instance exampleGlobalRead = GlobalForTesting).
 	self assert: (tag = GlobalForTesting).
-
-	link uninstall. 

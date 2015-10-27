@@ -1,5 +1,5 @@
 testInsteadSend
-	| sendNode link instance |
+	| sendNode instance |
 	sendNode := (ReflectivityExamples >> #exampleMethod) sendNodes first.
 	link := MetaLink new
 		metaObject: #receiver;
@@ -11,5 +11,3 @@ testInsteadSend
 	self assert: (ReflectivityExamples >> #exampleMethod) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
 	self assert: instance exampleMethod = 5.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleMethod

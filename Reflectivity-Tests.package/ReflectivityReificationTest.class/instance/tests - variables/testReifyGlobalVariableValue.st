@@ -1,5 +1,5 @@
 testReifyGlobalVariableValue
-	| globalVar instance link|
+	| globalVar instance |
 	globalVar := GlobalForTesting binding.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testReifyGlobalVariableValue
 	instance := ReflectivityExamples new.
 	self assert: (instance exampleGlobalRead = GlobalForTesting).
 	self assert: (tag = #GlobalForTesting).
-	link uninstall. 

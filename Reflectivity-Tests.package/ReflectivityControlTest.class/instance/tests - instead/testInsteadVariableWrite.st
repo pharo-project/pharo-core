@@ -1,5 +1,5 @@
 testInsteadVariableWrite
-	| varNode link instance |
+	| varNode instance |
 	varNode := (ReflectivityExamples >> #exampleAssignment) variableWriteNodes first.
 	link := MetaLink new
 		metaObject: #context;
@@ -11,5 +11,3 @@ testInsteadVariableWrite
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = ReflectiveMethod.
 	instance := ReflectivityExamples new.
 	self assert: instance exampleAssignment = 3.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleAssignment.

@@ -1,5 +1,5 @@
 testBeforeVariable
-	| variableNode link |
+	| variableNode |
 	variableNode := (ReflectivityExamples >> #exampleGlobalRead) ast statements first value.
 	self assert: variableNode isVariable.
 	link := MetaLink new
@@ -13,5 +13,3 @@ testBeforeVariable
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleGlobalRead) isQuick.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleGlobalRead

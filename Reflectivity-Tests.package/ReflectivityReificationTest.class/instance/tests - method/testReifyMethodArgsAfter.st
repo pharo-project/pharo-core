@@ -1,5 +1,5 @@
 testReifyMethodArgsAfter
-	| methodNode link instance|
+	| methodNode instance|
 	methodNode := (ReflectivityExamples>>#exampleWithArg:) ast.
 	link := MetaLink new 
 		metaObject: self; 
@@ -13,4 +13,3 @@ testReifyMethodArgsAfter
 	instance := ReflectivityExamples new .
 	self assert: ((instance exampleWithArg: 3) = 5).
 	self assert: (tag = #(3)).
-	link uninstall. 

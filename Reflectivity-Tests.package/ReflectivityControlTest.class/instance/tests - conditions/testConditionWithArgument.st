@@ -1,5 +1,5 @@
 testConditionWithArgument
-	| sendNode link |
+	| sendNode |
 	sendNode := (ReflectivityExamples >> #exampleMethod) sendNodes first.
 	link := MetaLink new
 		metaObject: self;
@@ -15,5 +15,3 @@ testConditionWithArgument
 	tag := nil.
 	self assert: ReflectivityExamples new exampleMethod = 5.
 	self assert: tag isNil.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleMethod

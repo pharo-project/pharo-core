@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '16850 RingChunkImporter>>#removedMethod:with: calls: addRemovedSelector:
-	https://pharo.fogbugz.com/f/cases/16850
+ ^ '16254 Failing test: ReleaseTest>>testLocalMethodsOfTheClassShouldNotBeRepeatedInItsTraits
+	https://pharo.fogbugz.com/f/cases/16254
 
-15969 move method refactoring does not work anymore
-	https://pharo.fogbugz.com/f/cases/15969
-
-16836 Cant remove an instance variable and a trait in one step
-	https://pharo.fogbugz.com/f/cases/16836
-
-16876 Improve speed of OrderedDictionary>>#atRandom:
-	https://pharo.fogbugz.com/f/cases/16876'
+16880 #tearDown for ReflectivityControlTest
+	https://pharo.fogbugz.com/f/cases/16880'

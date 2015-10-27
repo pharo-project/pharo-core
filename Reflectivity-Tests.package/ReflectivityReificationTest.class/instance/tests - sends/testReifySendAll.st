@@ -1,5 +1,5 @@
 testReifySendAll
-	| sendNode link instance|
+	| sendNode instance|
 	sendNode := (ReflectivityExamples>>#exampleMethod) ast body statements first value.
 	link := MetaLink new 
 		metaObject: #receiver; 
@@ -10,4 +10,3 @@ testReifySendAll
 	self assert: (ReflectivityExamples>>#exampleMethod) class = ReflectiveMethod.
 	instance := ReflectivityExamples new .
 	self assert: (instance exampleMethod = 5).
-	link uninstall. 

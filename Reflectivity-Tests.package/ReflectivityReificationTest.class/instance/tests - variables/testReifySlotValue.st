@@ -1,5 +1,5 @@
 testReifySlotValue
-	| iVar instance link |
+	| iVar instance |
 	iVar := ReflectivityExamples slotNamed: #ivar.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testReifySlotValue
 	instance := ReflectivityExamples new.
 	self assert: (instance exampleIvarRead = 33).
 	self assert: (tag = 33).
-	link uninstall. 

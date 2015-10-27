@@ -1,5 +1,5 @@
 testAfterMethodWithTemps
-	| methodNode link |
+	| methodNode |
 	ReflectivityExamples recompile: #exampleAssignment.
 	methodNode := (ReflectivityExamples >> #exampleAssignment) ast.
 	link := MetaLink new
@@ -13,5 +13,3 @@ testAfterMethodWithTemps
 	self assert: ReflectivityExamples new exampleAssignment  = 3.
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #exampleAssignment) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleAssignment

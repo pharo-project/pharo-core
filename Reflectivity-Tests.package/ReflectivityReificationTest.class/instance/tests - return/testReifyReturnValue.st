@@ -1,5 +1,5 @@
 testReifyReturnValue
-	| returnNode instance link|
+	| returnNode instance |
 	returnNode := (ReflectivityExamples>>#exampleAssignment) ast body statements last.
 	link := MetaLink new 
 		metaObject: self; 
@@ -11,5 +11,3 @@ testReifyReturnValue
 	instance := ReflectivityExamples new .
 	self assert: (instance exampleAssignment = 3).
 	self assert: (tag = 3).
-
-	link uninstall. 

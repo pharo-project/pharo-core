@@ -1,5 +1,5 @@
 testReifyMethodThisContext
-	| sendNode link instance|
+	| sendNode instance|
 	sendNode := (ReflectivityExamples>>#exampleMethod) ast.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testReifyMethodThisContext
 	instance := ReflectivityExamples new.
 	self assert: (instance exampleMethod = 5).
 	self assert: (tag class = Context ).
-	link uninstall. 

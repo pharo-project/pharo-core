@@ -1,5 +1,5 @@
 testBeforeBlockSequenceNoValue
-	| sequence link |
+	| sequence |
 	sequence := (ReflectivityExamples >> #exampleBlockNoValue) ast statements first value body.
 	self assert: sequence isSequence.
 	link := MetaLink new
@@ -14,5 +14,3 @@ testBeforeBlockSequenceNoValue
 	ReflectivityExamples new exampleBlockNoValue value.
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleBlockNoValue) class = CompiledMethod.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleBlockNoValue

@@ -29,5 +29,4 @@ testFailingDoubleRWInstead
 	readSites do: [ :readNode | readNode link: readLink ].
 	writeSites do: [ :writeNode | writeNode link: writeLink ].
 	readLink uninstall.
-	writeLink uninstall.	
-	(ReflectivityExamples>>#exampleLazyInit) recompile.
+	writeLink uninstall.

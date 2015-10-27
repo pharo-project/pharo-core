@@ -1,2 +1,0 @@
-supportsNilKey
-	^ true

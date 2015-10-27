@@ -1,5 +1,5 @@
 testInsteadClassVariable
-	| classVar link |
+	| classVar |
 	self skip.
 	classVar := ReflectivityExamples classVariableNamed: #ClassVar.
 	link := MetaLink new
@@ -14,5 +14,3 @@ testInsteadClassVariable
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleClassVarRead) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleClassVarRead) isQuick.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleClassVarRead

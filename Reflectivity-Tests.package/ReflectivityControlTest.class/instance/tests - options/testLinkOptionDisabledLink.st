@@ -1,5 +1,5 @@
 testLinkOptionDisabledLink
-	| sendNode link |
+	| sendNode |
 	sendNode := (ReflectivityExamples>>#exampleMethod) sendNodes first.
 	link := MetaLink new 
 		metaObject: self; 
@@ -12,4 +12,3 @@ testLinkOptionDisabledLink
 	self assert: (ReflectivityExamples new exampleMethod = 5).
 	self assert: tag isNil.
 	self assert: (ReflectivityExamples>>#exampleMethod) class = CompiledMethod.
-	link uninstall.

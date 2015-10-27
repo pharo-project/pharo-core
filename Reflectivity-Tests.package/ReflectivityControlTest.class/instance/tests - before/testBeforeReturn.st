@@ -1,5 +1,5 @@
 testBeforeReturn
-	| returnNode link |
+	| returnNode |
 	returnNode := (ReflectivityExamples >> #exampleLiteral) ast statements first.
 	self assert: returnNode isReturn.
 	link := MetaLink new
@@ -13,5 +13,3 @@ testBeforeReturn
 	self assert: tag = 'yes'.
 	self assert: (ReflectivityExamples >> #exampleLiteral) class = CompiledMethod.
 	self deny: (ReflectivityExamples >> #exampleLiteral) isQuick.
-	link uninstall.
-	ReflectivityExamples recompile: #exampleLiteral

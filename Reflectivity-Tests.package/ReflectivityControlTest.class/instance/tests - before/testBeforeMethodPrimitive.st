@@ -1,5 +1,5 @@
 testBeforeMethodPrimitive
-	| methodNode link |
+	| methodNode |
 	methodNode := (ReflectivityExamples >> #examplePrimitiveMethod) ast.
 	link := MetaLink new
 		metaObject: self;
@@ -14,5 +14,4 @@ testBeforeMethodPrimitive
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #examplePrimitiveMethod) class = CompiledMethod.
 	link uninstall.
-	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.	
-	ReflectivityExamples recompile: #examplePrimitiveMethod
+	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
