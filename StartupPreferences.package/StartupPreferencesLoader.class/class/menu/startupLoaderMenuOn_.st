@@ -1,10 +1,12 @@
 startupLoaderMenuOn: aBuilder 
 	<worldMenu>
 	
-	(aBuilder item: #startupLoader)
+	(aBuilder item: #SystemStartupLoader)
 		action: [ self default loadFromDefaultLocations ];
 		label: 'Run startup scripts';
-		parent: #System;
-		order: 2;
+		parent: #SystemStartup;
+		order: 1;
 		help: 'Run startup "scripts';
-		icon: Smalltalk ui icons scriptManagerIcon 
+		icon: Smalltalk ui icons scriptManagerIcon.
+		
+	aBuilder withSeparatorAfter 
