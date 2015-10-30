@@ -1,0 +1,2 @@
++ string
+	^ self withRelativeReference: string

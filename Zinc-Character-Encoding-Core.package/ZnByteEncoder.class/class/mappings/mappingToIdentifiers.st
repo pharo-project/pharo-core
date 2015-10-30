@@ -2,7 +2,8 @@ mappingToIdentifiers
 	"Return a dictionay mapping from encoding specifications to a list of encoding names."
 	
 	^ Dictionary newFromPairs: #(
-		#iso88591Mapping #('iso88591' 'latin1') 
+		"#asciiMapping #('ascii')"
+		"#iso88591Mapping #('iso88591' 'latin1')"
 		#iso88592Mapping #('iso88592' 'latin2') 
 		#iso88593Mapping #('iso88593' 'latin3') 
 		#iso88594Mapping #('iso88594' 'latin4') 
@@ -24,6 +25,7 @@ mappingToIdentifiers
 		#cp1256Mapping #('cp1256' 'windows1256' 'xcp1256')
 		#cp1257Mapping #('cp1257' 'windows1257' 'xcp1257')
 		#cp1258Mapping #('cp1258' 'windows1258' 'xcp1258')
+		#cp850Mapping #('cp850' 'ibm850' 'oem850' 'doslatin1')
 		#cp866Mapping #('cp866' 'ibm866')
 		#cp874Mapping #('cp874' 'iso885911' 'windows874' 'dos874')
 		#koi8rMapping #('koi8r' 'koi8')

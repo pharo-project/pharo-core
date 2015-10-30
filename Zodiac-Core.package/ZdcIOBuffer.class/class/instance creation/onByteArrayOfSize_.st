@@ -1,2 +1,2 @@
 onByteArrayOfSize: size
-	^ self on: (ByteArray new: size)
+	^ self on: (ZdcByteArrayManager current byteArrayOfSize: size zero: true)

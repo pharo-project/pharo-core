@@ -1,7 +1,6 @@
 printOn: stream
 	super printOn: stream.
-	self code notNil
-		ifFalse: [ ^ self ].
+	self code ifNil: [ ^ self ].
 	stream nextPut: $(.
 	self printCodeAndReasonOn: stream.
 	stream nextPut: $)

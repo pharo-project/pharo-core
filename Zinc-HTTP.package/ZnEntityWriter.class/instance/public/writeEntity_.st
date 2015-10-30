@@ -11,7 +11,7 @@ writeEntity: entity
 		ifFalse: [ 
 			(isChunked and: [ self contentType isBinary not ])
 				ifTrue: [ bufferedStream := actualStream := ZnUtils bufferedWriteStreamOn: actualStream ] ].
-	self withDefaultUtf8Encoding: [ entity writeOn: actualStream ].
+	entity writeOn: actualStream.
 	gzipStream 
 		ifNotNil: [ gzipStream finish ].
 	bufferedStream 

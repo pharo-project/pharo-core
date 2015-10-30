@@ -37,6 +37,7 @@ version263: spec
 		spec 
 			package: 'Zinc-Patch-HTTPSocket' with: 'Zinc-Patch-HTTPSocket-MarcusDenker.4';
 			package: 'Zinc-FileSystem' with: 'Zinc-FileSystem-SvenVanCaekenberghe.10';
+			package: 'Zinc-Resource-Meta-FileSystem' with: 'Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.7';
 			package: 'Zinc-pharo2-forward-compatibility' with: 'Zinc-pharo2-forward-compatibility-SvenVanCaekenberghe.1' ].
 	spec for: #'pharo3.x' do: [ 
 		spec 

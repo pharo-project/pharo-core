@@ -1,6 +1,6 @@
 readResponse
 	self signalHTTPProgress: 'Reading response'.
-	response := request method = #HEAD
+	response := (#(HEAD CONNECT) includes: request method)
 		ifTrue: [ ZnResponse readHeaderFrom: connection ]
 		ifFalse: [ 
 			self streaming

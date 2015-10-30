@@ -1,4 +1,2 @@
 portOrDefault
-	^ self hasPort
-		ifTrue: [ self port ]
-		ifFalse: [ self class defaultPortForScheme: self schemeOrDefault ]
+	^ self portIfAbsent: [ self class defaultPortForScheme: self schemeOrDefault ]

@@ -1,5 +1,5 @@
-ZnCharacterEncoder subclass: #ZnByteEncoder
-	instanceVariableNames: 'identifier byteToUnicode unicodeToByte strict'
-	classVariableNames: 'ByteTextConverters'
+ZnSimplifiedByteEncoder subclass: #ZnByteEncoder
+	instanceVariableNames: ''
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Zinc-Character-Encoding-Core'

@@ -1,0 +1,2 @@
+ascii
+	^ self newForEncoding: 'ASCII'

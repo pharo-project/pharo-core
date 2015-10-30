@@ -5,4 +5,6 @@ close
 	[ super close ] ensure: [ 
 		sslSession ifNotNil: [
 			sslSession destroy.
-			sslSession := nil ] ]
+			sslSession := nil ].
+		ZdcByteArrayManager current recycle: in; recycle: out.
+		in := out := nil ]

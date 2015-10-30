@@ -1,2 +1,2 @@
 canonicalEncodingIdentifier: string
-	^ (string select: [ :each | each isAlphaNumeric  ]) asLowercase
+	^ (string select: [ :each | each isAlphaNumeric ]) asLowercase

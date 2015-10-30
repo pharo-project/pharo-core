@@ -1,4 +1,4 @@
 initialize
 	super initialize.
-	timestamp := DateAndTime  now.
+	timestamp := DateAndTime now.
 	id := self nextId

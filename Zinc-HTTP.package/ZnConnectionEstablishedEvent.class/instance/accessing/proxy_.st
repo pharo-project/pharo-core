@@ -1,0 +1,2 @@
+proxy: anObject
+	proxy := anObject

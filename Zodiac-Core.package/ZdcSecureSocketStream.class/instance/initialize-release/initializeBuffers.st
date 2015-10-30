@@ -4,5 +4,5 @@ initializeBuffers
 	
 	readBuffer := ZdcIOBuffer onByteArrayOfSize: 16 * 1024.
 	writeBuffer := ZdcIOBuffer onByteArrayOfSize: 4 * 1024.
-	in := ByteArray new: 4096.
-	out := ByteArray new: (16 + 1) * 1024
+	in := ZdcByteArrayManager current byteArrayOfSize: 4096 zero: false.
+	out := ZdcByteArrayManager current byteArrayOfSize: (16 + 1) * 1024 zero: false

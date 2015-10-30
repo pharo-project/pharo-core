@@ -1,2 +1,0 @@
-knownEncodingIdentifiers
-	^ ByteTextConverters keys

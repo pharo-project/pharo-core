@@ -1,13 +1,10 @@
 newConnectionTo: url
-	| initialMilliseconds proxied |
+	| initialMilliseconds |
 	self signalHTTPProgress: 'Connecting to ',  url authority.
 	initialMilliseconds := Time millisecondClockValue.
+	(connection notNil and: [ connection isConnected ]) 
+		ifTrue: [ connection close ].
 	connection := ZnNetworkingUtils socketStreamToUrl: url.
-	proxied := ZnNetworkingUtils shouldProxyUrl: url.
-	"Note that the proxy server itself cannot be HTTPS"
-	(proxied not and: [ #(https wss) includes: url scheme ]) 
-		ifTrue: [
-			self certificate ifNotNil: [ :certificate | 
-				connection sslSession certificateName: certificate ].
-			connection connect ].  
+	url hasSecureScheme
+		ifTrue: [ self setupTLSTo: url ].
 	self logConnectionEstablishedTo: url started: initialMilliseconds

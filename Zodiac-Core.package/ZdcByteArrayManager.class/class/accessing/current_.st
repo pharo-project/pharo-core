@@ -1,0 +1,2 @@
+current: anObject
+	Current := anObject

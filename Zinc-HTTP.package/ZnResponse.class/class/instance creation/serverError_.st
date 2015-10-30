@@ -1,6 +1,2 @@
 serverError: string
-	^ self new
-		statusLine: ZnStatusLine internalServerError;
-		headers: ZnHeaders defaultResponseHeaders;
-		entity: (ZnEntity textCRLF: string);
-		yourself
+	^ self serverErrorWithEntity: (ZnEntity textCRLF: string)

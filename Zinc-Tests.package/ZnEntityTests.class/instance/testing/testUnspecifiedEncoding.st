@@ -3,8 +3,6 @@ testUnspecifiedEncoding
 	json := '{"text":"Der Weg zur Hölle ist mit guten Vorsätzen gepflastert."}'.
 	entity := ZnEntity with: json type: ZnMimeType applicationJson setCharSetUTF8.
 	bytes := entity asByteArray.
-	entity := ZnEntity with: json type: ZnMimeType applicationJson.
-	self assert: entity encoder equals: ZnNullEncoder new.
 	ZnDefaultCharacterEncoder 
 		value: ZnUTF8Encoder new
 		during: [
