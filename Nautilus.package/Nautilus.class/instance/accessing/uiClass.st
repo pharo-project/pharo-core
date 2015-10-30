@@ -1,3 +1,2 @@
 uiClass
-
-	^ uiClass ifNil: [ self defaultUIClass ]
+	^ PackageTreeNautilusUI

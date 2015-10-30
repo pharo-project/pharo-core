@@ -1,0 +1,2 @@
+initMCVersionCache
+	MCVersionCache := nil

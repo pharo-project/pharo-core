@@ -1,5 +1,5 @@
 classIconFor: aClass
-	((aClass includesBehavior: (Smalltalk globals at: #TestCase ifAbsent: [ false ])) and: [ aClass isAbstract not ])
+	(aClass isTestCase and: [ aClass isAbstract not ])
 		ifTrue: [ | icon button |
 			icon :=  Smalltalk ui icons iconNamed: #testNotRunIcon.
 
@@ -18,7 +18,7 @@ classIconFor: aClass
 						borderWidth: 0.
 			^ button ]
 		ifFalse: [
-			(aClass organization classComment isEmpty and: [ Nautilus emptyCommentWarning ])
+			(aClass hasComment not and: [ Nautilus emptyCommentWarning ])
 				ifTrue: [| button |
 					button := IconicButton new 
 								target: self;

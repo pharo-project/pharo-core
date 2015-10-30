@@ -1,5 +1,5 @@
 Model subclass: #MCTool
 	instanceVariableNames: 'morph label modal modalValue'
-	classVariableNames: ''
+	classVariableNames: 'MCVersionCache'
 	poolDictionaries: ''
 	category: 'MonticelloGUI'
