@@ -1,4 +1,4 @@
-script50411
+script50412
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2158.mcz
+Kernel-TheIntegrator.2160.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -299,7 +299,7 @@ Spec-MorphicAdapters-TheIntegrator.241.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.300.mcz
-StartupPreferences-TheIntegrator.143.mcz
+StartupPreferences-TheIntegrator.145.mcz
 System-Announcements-TheIntegrator.106.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -323,7 +323,7 @@ System-OSEnvironments-TheIntegrator.4.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.322.mcz
+System-Settings-TheIntegrator.324.mcz
 System-Settings-Tests-TheIntegrator.6.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
