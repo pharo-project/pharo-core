@@ -13,9 +13,6 @@ methodModified: anAnnouncement
 			method := anAnnouncement newMethod.
 			selectedMethod := self selectedMethod.
 			self removeFromMethodsIconsCache: method.
-			method isTestMethod
-				ifTrue: [ "Should update class icon"
-					ClassesIconsCache removeKey: method methodClass ifAbsent: []].
 			self updateClassView.
 			oldMethod := anAnnouncement oldMethod.
 			(selectedMethod = oldMethod)

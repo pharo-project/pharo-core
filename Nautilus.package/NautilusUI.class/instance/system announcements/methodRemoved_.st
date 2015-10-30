@@ -12,9 +12,7 @@ methodRemoved: anAnnouncement
 			self removeAllFromMethodsIconsCache: method.
 			method isTestMethod
 				ifTrue:
-					[ 
-					ClassesIconsCache removeKey: method methodClass ifAbsent: [  ].
-					self updateClassView ].	"Should update class icon"
+					[self updateClassView ].	"Should update class icon"
 			self updateCategoryAndMethodList.
 			(method methodClass isMeta and: [ method methodClass hasMethods not ])
 				ifTrue: [ self changed: #instanceButtonLabel ] ]

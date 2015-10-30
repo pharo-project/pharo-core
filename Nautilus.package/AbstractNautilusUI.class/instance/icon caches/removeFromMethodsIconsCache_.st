@@ -4,5 +4,4 @@ removeFromMethodsIconsCache: aMethod
 	| corresponding |
 	corresponding := aMethod correspondingMethods.
 	corresponding do: [:each | self methodsIconsCache removeKey: each ifAbsent: []].
-	self removeFromClassesIconsCache: aMethod methodClass.
 	self methodsIconsCache removeKey: aMethod ifAbsent: [ ].

@@ -1,11 +1,4 @@
 classIconFor: aClass
-
-	ClassesIconsCache 
-		at: aClass 
-		ifPresent: [:icon | 
-			 icon class == IconicButtonStateHolder ifFalse: [ ^ icon ].
-			^ icon asIconTargetting: self ].
-
 	((aClass includesBehavior: (Smalltalk globals at: #TestCase ifAbsent: [ false ])) and: [ aClass isAbstract not ])
 		ifTrue: [ | icon button |
 			icon :=  Smalltalk ui icons iconNamed: #testNotRunIcon.
@@ -23,7 +16,6 @@ classIconFor: aClass
 						extent: 12 @ 12;
 						helpText: 'Run the tests';
 						borderWidth: 0.
-			 ClassesIconsCache at: aClass put: (IconicButtonStateHolder forNautilus: button).
 			^ button ]
 		ifFalse: [
 			(aClass organization classComment isEmpty and: [ Nautilus emptyCommentWarning ])
@@ -37,7 +29,6 @@ classIconFor: aClass
 								extent: 12 @ 12;
 								helpText:'Edit the comment';
 								borderWidth: 0.
-					 ClassesIconsCache at: aClass put: (IconicButtonStateHolder forNautilus: button).
 					^ button ]].
 
-	^ ClassesIconsCache at: aClass put: (aClass systemIcon)
+	^ aClass systemIcon

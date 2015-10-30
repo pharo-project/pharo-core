@@ -7,7 +7,6 @@ runTestForAMethod: aMethod notifying: aBoolean priority: aPriority
 		ifTrue: [ testClass debug: testMethod selector ].
 	testResult := testClass run: testMethod selector.
 	testResult updateResultsInHistory.
-	ClassesIconsCache removeKey: aMethod methodClass ifAbsent: [  ].
 	aBoolean
 		ifFalse: [ ^ self ].
 	color := Color gray.

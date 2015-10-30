@@ -2,7 +2,6 @@ runTestsOfClass: aClass notifying: aBoolean
 	| color |
 	aClass resetHistory.
 	aClass suite run updateResultsInHistory.
-	ClassesIconsCache removeKey: aClass ifAbsent: [].	
 	
 	aBoolean ifFalse: [ ^self ].
 	color := Color gray.

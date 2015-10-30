@@ -4,6 +4,6 @@ defineGetterMethod
 	selector := self safeMethodNameFor: definingClass
 				basedOn: variableName asString.
 	definingClass 
-		compile: ('<1s><n><t>^ <2s>' expandMacrosWith: selector with: variableName)
+		compile: ('<1s><r><t>^ <2s>' expandMacrosWith: selector with: variableName)
 		classified: #(#accessing).
 	^selector

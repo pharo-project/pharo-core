@@ -1,2 +1,0 @@
-resetClassesIconsCache
-	ClassesIconsCache removeAll.
