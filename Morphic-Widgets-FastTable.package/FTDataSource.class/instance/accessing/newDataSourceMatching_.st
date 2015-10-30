@@ -1,0 +1,2 @@
+newDataSourceMatching: aString
+	self subclassResponsibility

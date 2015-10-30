@@ -1,0 +1,2 @@
+ghostText
+	^ 'Search...'

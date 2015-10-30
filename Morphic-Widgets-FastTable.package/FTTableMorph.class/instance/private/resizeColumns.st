@@ -4,4 +4,4 @@ resizeColumns
 	 redundancy)"
 	self columns size > 1 ifFalse: [ ^ self ].
 	self columns last 
-		width: (self width - (self columns allButLast sum: [ :each | each width ]))
+		width: (self width - (self columns allButLast sum: [ :each | each width ifNil: [0]]))

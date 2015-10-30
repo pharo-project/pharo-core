@@ -1,0 +1,2 @@
+resizeWidget
+	self subclassResponsibility 

@@ -1,4 +1,5 @@
 wantsDroppedMorph: aMorph event: event
+	aMorph isTransferable ifFalse: [ ^false ].
 	^ self dataSource 
 		wantsDropElements: aMorph passenger
 		type: aMorph dragTransferType

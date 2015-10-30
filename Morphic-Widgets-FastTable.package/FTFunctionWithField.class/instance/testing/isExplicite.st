@@ -1,0 +1,2 @@
+isExplicite
+	^ field isNotNil

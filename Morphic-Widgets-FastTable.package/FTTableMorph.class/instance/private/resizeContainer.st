@@ -1,7 +1,9 @@
 resizeContainer
-	| width height doubleBorder |
-
-	doubleBorder := self borderWidth * 2.
-	width := self bounds width - self verticalScrollBarWidth - doubleBorder.
-	height := self bounds height - doubleBorder.
-	self container bounds: (self bounds topLeft extent: width@height)
+	| topLeft bottomRight |
+	topLeft := (self bounds left - self borderWidth) @ self bounds top - self borderWidth.
+	bottomRight := (self bounds right - self verticalScrollBarWidth - self borderWidth) @ self bounds bottom - self borderWidth.
+	self container
+		bounds:
+			(function isExplicite
+				ifTrue: [ function resizeContainerFrom: topLeft to: bottomRight ]
+				ifFalse: [ topLeft corner: bottomRight ])

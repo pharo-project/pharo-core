@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '16892 Zn Update October 2015
-	https://pharo.fogbugz.com/f/cases/16892'
+ ^ '16884 Update FastTable (see description to know more)
+	https://pharo.fogbugz.com/f/cases/16884'

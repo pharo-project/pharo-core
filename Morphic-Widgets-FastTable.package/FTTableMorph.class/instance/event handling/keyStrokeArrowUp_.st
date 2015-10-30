@@ -4,7 +4,7 @@ keyStrokeArrowUp: event
 	rowIndex := self selectedRowIndex.
 	rowIndex > 1 ifFalse: [ ^ self ].
 	
-	self resetSearch.
+	self resetFunction.
 	selectionStrategy 
 		selectRowIndex: (rowIndex - 1) 
 		event: event

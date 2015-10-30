@@ -1,0 +1,2 @@
+childrenBlock: aBlockClosure
+	childrenBlock := aBlockClosure

@@ -1,0 +1,2 @@
+resetFunction
+	function reset

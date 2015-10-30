@@ -1,0 +1,2 @@
+defaultContainer
+	^ FTTableContainerMorph new

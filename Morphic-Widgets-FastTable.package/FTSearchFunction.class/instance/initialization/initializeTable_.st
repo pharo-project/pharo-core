@@ -1,2 +1,0 @@
-initializeTable: aTable
-	table := aTable

@@ -1,0 +1,2 @@
+resizeWidget
+	"Do nothing"

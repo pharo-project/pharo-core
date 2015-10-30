@@ -1,0 +1,2 @@
+maxDepth: anObject
+	maxDepth := anObject

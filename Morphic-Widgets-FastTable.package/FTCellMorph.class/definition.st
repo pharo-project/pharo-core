@@ -1,5 +1,5 @@
 Morph subclass: #FTCellMorph
-	instanceVariableNames: ''
+	instanceVariableNames: 'topSeparator'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-FastTable'

@@ -1,5 +1,5 @@
-Object subclass: #FTSearchFunction
-	instanceVariableNames: 'table currentSelIndex currentHighlightedIndexes'
+FTFunctionWithField subclass: #FTSearchFunction
+	instanceVariableNames: 'currentSelIndex currentHighlightedIndexes pattern'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-FastTable'
+	category: 'Morphic-Widgets-FastTable-Functions'

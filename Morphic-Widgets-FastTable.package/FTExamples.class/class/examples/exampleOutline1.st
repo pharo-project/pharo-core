@@ -1,7 +1,7 @@
 exampleOutline1
 	<example>
 	| list |
-	list := FTOutlineTableMorph new
+	list := FTTableMorph new
 		extent: 200 @ 400;
 		dataSource:
 			(FTOutlineDataSource

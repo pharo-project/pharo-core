@@ -1,1 +1,0 @@
-I contains visible row for a FTOutlineFastTableMorph and I render a separator if needed between two set of elements.

@@ -1,5 +1,6 @@
-initialize 
+initialize
 	super initialize.
+	topSeparator := false.
 	self
 		clipSubmorphs: true;
 		layoutPolicy: TableLayout new;
@@ -8,4 +9,3 @@ initialize
 		listDirection: #leftToRight;
 		listCentering: #topLeft;
 		wrapCentering: #center
-	

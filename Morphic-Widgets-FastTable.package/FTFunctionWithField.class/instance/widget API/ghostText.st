@@ -1,0 +1,2 @@
+ghostText
+	self subclassResponsibility 

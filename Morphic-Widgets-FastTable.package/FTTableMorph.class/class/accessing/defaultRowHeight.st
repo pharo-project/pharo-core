@@ -1,2 +1,2 @@
 defaultRowHeight
-	^ 20
+	^ StandardFonts defaultFont pixelSize + 7

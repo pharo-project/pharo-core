@@ -3,7 +3,7 @@ keyStrokeArrowDown: event
 	rowIndex := self selectedRowIndex.
 	(rowIndex < self numberOfRows) ifFalse: [ ^ self ].
 	
-	self resetSearch.
+	self resetFunction.
 	self selectionStrategy 
 		selectRowIndex: (rowIndex + 1) 
 		event: event

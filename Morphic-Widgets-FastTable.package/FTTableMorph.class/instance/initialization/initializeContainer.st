@@ -1,3 +1,3 @@
 initializeContainer
-	container := FTTableContainerMorph new.
+	container := self defaultContainer.
 	self addMorph: container

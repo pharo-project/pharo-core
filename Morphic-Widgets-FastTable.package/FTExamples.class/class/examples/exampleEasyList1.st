@@ -7,7 +7,7 @@ exampleEasyList1
 		extent: 300@550;
 		elements: Morph methods;
 		icon: [ :method | (FTExampleMethodModel method: method) actionOn: nil ];
-		display: [ :method | method selector ];		
+		"display: [ :method | method selector ];	"	
 		yourself.
 		
 	^ list openInWindow
