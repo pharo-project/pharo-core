@@ -1,6 +1,7 @@
 basicCheck: aMethod 
 	| ownerProtocol |
 	ownerProtocol := aMethod protocol.
+	ownerProtocol ifNil: [ ^ false ].
 	(ownerProtocol == #'as yet unclassified' or: [ 
 	 ownerProtocol first = $*	 ]) ifTrue: [ ^ false ].
 	

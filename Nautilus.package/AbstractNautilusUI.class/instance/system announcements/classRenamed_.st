@@ -1,6 +1,7 @@
 classRenamed: anAnnouncement
 	| class |
 	class := anAnnouncement classRenamed.
+	self setWindowTitle.
 	window ifNil: [ ^ self ].
 	window isDisplayed
 		ifFalse: [ ^ self ].

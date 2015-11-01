@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '16894 Better generator class comment
-	https://pharo.fogbugz.com/f/cases/16894
+ ^ '16896 Update Nautiluss title when we Rename the browed class.
+	https://pharo.fogbugz.com/f/cases/16896
 
-16881 MCLazyVersion: avoid aggressive fetch of version info
-	https://pharo.fogbugz.com/f/cases/16881
+16904 Comment for CollapsedMorph
+	https://pharo.fogbugz.com/f/cases/16904
 
-16900 Small Nautilus cleanup
-	https://pharo.fogbugz.com/f/cases/16900'
+16909 Improve Interval comment
+	https://pharo.fogbugz.com/f/cases/16909
+
+16907 Can not inspect  doIt methods 
+	https://pharo.fogbugz.com/f/cases/16907'
