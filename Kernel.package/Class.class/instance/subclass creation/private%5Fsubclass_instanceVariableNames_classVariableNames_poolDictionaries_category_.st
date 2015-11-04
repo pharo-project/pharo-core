@@ -5,7 +5,7 @@ private_subclass: t instanceVariableNames: f classVariableNames: d poolDictionar
 		builder
 			superclass: self;
 			name: t;
-			layoutClass: self layout class;
+			layoutClass: self classLayout class;
 			slots: f asSlotCollection;
 			sharedVariablesFromString: d;
 			sharedPools: s;

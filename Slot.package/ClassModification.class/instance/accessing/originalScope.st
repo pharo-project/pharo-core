@@ -1,2 +1,2 @@
 originalScope
-	^ target layout slotScope
+	^ target classLayout slotScope

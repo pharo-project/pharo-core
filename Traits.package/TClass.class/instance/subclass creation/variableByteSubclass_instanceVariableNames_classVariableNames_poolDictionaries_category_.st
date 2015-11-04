@@ -7,7 +7,7 @@ variableByteSubclass: t instanceVariableNames: f
 	| oldClassOrNil actualLayoutClass |
 	oldClassOrNil := self environment at: t ifAbsent:[nil].
 	actualLayoutClass := (oldClassOrNil notNil
-				   and: [oldClassOrNil layout class  == CompiledMethodLayout ])
+				   and: [oldClassOrNil classLayout class  == CompiledMethodLayout ])
 					ifTrue: [CompiledMethodLayout]
 					ifFalse: [ByteLayout].
 					

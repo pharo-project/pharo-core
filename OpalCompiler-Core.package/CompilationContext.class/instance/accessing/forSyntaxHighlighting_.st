@@ -1,0 +1,2 @@
+forSyntaxHighlighting: aBoolean
+	forSyntaxHighlighting := aBoolean

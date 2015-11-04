@@ -7,7 +7,7 @@ resetIvarSlots
 	block := [ :class | 
 	class instVarNames
 		withIndexDo: [ :ivarName :index | 
-			class layout slotScope
+			class classLayout slotScope
 				at: index
 				put:
 					((InstanceVariableSlot named: ivarName asSymbol)

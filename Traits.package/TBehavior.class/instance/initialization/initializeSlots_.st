@@ -1,2 +1,2 @@
 initializeSlots: anObject 
-	self layout initializeInstance: anObject
+	self classLayout initializeInstance: anObject

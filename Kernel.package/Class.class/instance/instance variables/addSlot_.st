@@ -3,9 +3,9 @@ addSlot: aSlot
 		builder
 			superclass: self superclass;
 			name: self name;
-			layoutClass: self layout class;
+			layoutClass: self classLayout class;
 			slots: (self slots copyWith: aSlot);
-			classSlots: self class layout slots;
+			classSlots: self class classLayout slots;
 			sharedVariablesFromString: self classVariablesString;
 			sharedPools: self sharedPoolsString;
 			category: self category;

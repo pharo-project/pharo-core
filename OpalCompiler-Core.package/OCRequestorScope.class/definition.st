@@ -1,5 +1,5 @@
 OCAbstractScope subclass: #OCRequestorScope
-	instanceVariableNames: 'requestor'
+	instanceVariableNames: 'requestor compilationContext'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-Semantics'

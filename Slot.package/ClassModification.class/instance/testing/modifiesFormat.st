@@ -1,3 +1,3 @@
 modifiesFormat
 
-	^ (layout format = target layout format) not
+	^ (layout format = target classLayout format) not

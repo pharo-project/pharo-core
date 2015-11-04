@@ -15,9 +15,9 @@ definitionForNautilusWithSlots
 		aStream cr; tab; nextPutAll: 'uses: ';
 			nextPutAll: self traitCompositionString].		
 			
-	(self layout isKindOf: FixedLayout) ifFalse: [
+	(self classLayout isKindOf: FixedLayout) ifFalse: [
 		aStream cr; tab; nextPutAll: 'layout: ';
-			nextPutAll: self layout class name].
+			nextPutAll: self classLayout class name].
 	aStream cr; tab; nextPutAll: 'slots: ';
 			nextPutAll: self slotDefinitionString.
 	aStream cr; tab; nextPutAll: 'classVariables: ';

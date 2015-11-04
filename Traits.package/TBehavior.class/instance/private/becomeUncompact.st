@@ -10,7 +10,7 @@ becomeUncompact
 
 	"Update instspec so instances will be compact. 
 	The layout has the responsibility for setting the format."
-	self layout compactClassIndex: 0.
+	self classLayout compactClassIndex: 0.
 	
 	"Make up new instances and become old ones into them"
 	self updateInstancesFrom: self.

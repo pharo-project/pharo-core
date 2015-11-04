@@ -14,4 +14,4 @@ sharedVariableOrSharedPoolChangedFrom: oldClass to: newClass by: classModificati
 	oldClass subclasses do: [ :each |
 		each superclass: newClass.
 		newClass addSubclass: each.
-		each layout slotScope ifNotEmpty: [ :scope | scope parentScope: newClass layout slotScope ] ].
+		each classLayout slotScope ifNotEmpty: [ :scope | scope parentScope: newClass classLayout slotScope ] ].

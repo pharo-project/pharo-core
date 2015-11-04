@@ -1,4 +1,4 @@
 methodModification
 	^ methodModification ifNil: [
-		methodModification := MethodModification new: target layout fieldSize.
+		methodModification := MethodModification new: target classLayout fieldSize.
 		self buildModificationMapFor: methodModification ]

@@ -1,2 +1,2 @@
 slotNamed: aName
-	^self layout resolveSlot: aName asSymbol
+	^self classLayout resolveSlot: aName asSymbol

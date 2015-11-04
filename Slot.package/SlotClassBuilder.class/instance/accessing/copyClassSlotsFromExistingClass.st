@@ -6,4 +6,4 @@ copyClassSlotsFromExistingClass
 			at: name 
 			ifAbsent: [ ^ self ].
 
-	self classSlots: oldClass class layout slotScope visibleSlotNames.
+	self classSlots: oldClass class classLayout slotScope visibleSlotNames.

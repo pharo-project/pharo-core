@@ -1,4 +1,4 @@
 superLayout
 	^ superclass
 		ifNil: [ EmptyLayout instance ]
-		ifNotNil: [ superclass layout ]
+		ifNotNil: [ superclass classLayout ]

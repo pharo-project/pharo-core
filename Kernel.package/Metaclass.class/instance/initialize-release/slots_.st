@@ -7,7 +7,7 @@ slots: slotsDefinition
 		builder
 			superclass: theClass superclass;
 			name: theClass name;
-			layoutClass: theClass layout class;
+			layoutClass: theClass classLayout class;
 			slots: theClass slots;
 			sharedVariablesFromString: theClass classVariablesString;
 			sharedPools: theClass sharedPoolsString;

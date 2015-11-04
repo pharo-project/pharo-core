@@ -1,6 +1,6 @@
 propagate: aModification to: aTarget
 	origin := aModification.
 	target := aTarget.
-	self layout: (target layout 
+	self classLayout: (target classLayout 
 		reshapeFrom: origin oldLayout slotScope
 		to: origin newLayout).

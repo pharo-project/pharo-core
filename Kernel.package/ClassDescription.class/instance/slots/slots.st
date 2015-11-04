@@ -1,2 +1,2 @@
 slots
-	^self layout visibleSlots
+	^self classLayout visibleSlots

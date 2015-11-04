@@ -1,14 +1,6 @@
 commentForCurrentUpdate
- ^ '16911 UTF8InvalidText should be subclass of Error instead of Exception
-	https://pharo.fogbugz.com/f/cases/16911
+ ^ '16518 AST based Syntax Coloring: Semantic analysis problems
+	https://pharo.fogbugz.com/f/cases/16518
 
-16906 SmallInteger>>fromString:radix: purpose?
-	https://pharo.fogbugz.com/f/cases/16906
-
-16902 Improve Array comment
-	https://pharo.fogbugz.com/f/cases/16902
-
-16905 Remove activeOnlyOnTop Ivar from SystemWindow
-	https://pharo.fogbugz.com/f/cases/16905
-
-'
+16635 Rename layout to classLayout (step 3 use new accessors)
+	https://pharo.fogbugz.com/f/cases/16635'

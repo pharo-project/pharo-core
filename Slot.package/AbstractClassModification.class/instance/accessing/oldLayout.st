@@ -1,2 +1,2 @@
 oldLayout
-	^ target layout
+	^ target classLayout

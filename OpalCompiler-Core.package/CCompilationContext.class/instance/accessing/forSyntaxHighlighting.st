@@ -1,0 +1,2 @@
+forSyntaxHighlighting
+		^ forSyntaxHighlighting ifNil: [ ^false ]
