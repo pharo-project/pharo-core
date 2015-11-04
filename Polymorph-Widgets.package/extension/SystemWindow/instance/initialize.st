@@ -4,7 +4,6 @@ initialize
 	super initialize.
 	labelString ifNil: [labelString := 'Untitled Window'].
 	isCollapsed := false.
-	activeOnlyOnTop := true.
 	paneMorphs := Array new.
 	self layoutPolicy: ProportionalLayout new.
 	self clipSubmorphs: true.

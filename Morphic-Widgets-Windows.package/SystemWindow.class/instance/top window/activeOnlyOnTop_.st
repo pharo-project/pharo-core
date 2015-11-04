@@ -1,2 +1,0 @@
-activeOnlyOnTop: trueOrFalse
-	activeOnlyOnTop := trueOrFalse

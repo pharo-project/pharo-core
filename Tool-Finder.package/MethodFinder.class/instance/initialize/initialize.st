@@ -155,7 +155,7 @@ initialize
 "SmallInteger, LargeNegativeInteger, LargePositiveInteger"
 	#("arithmetic" "bit manipulation" highBit "testing" "comparing" "copying" "converting" "printing" 
 "system primitives" digitAt: digitLength 
-"private" fromString:radix: ) do: [:sel | Approved add: sel].
+"private" ) do: [:sel | Approved add: sel].
 	#(digitAt:put: ) do: [:sel | AddAndRemove add: sel].
 
 "Float"

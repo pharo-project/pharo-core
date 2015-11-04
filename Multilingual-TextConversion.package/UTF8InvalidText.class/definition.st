@@ -1,4 +1,4 @@
-Exception subclass: #UTF8InvalidText
+Error subclass: #UTF8InvalidText
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
