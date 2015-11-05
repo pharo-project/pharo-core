@@ -1,6 +1,7 @@
 typeOfSubclass: aSymbol
 	#(
 		(subclass: normal)
+		(named: normal)
 		(variableSubclass: variable)
 		(variableByteSubclass: bytes)
 		(variableWordSubclass: words)

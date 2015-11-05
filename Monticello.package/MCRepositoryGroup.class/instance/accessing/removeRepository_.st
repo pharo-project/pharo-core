@@ -1,2 +1,3 @@
 removeRepository: aRepository
-	repositories remove: aRepository ifAbsent: []
+	repositories remove: aRepository ifAbsent: [ ^ self ].
+	self announceRepositoryRemoved: aRepository
