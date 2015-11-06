@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16935 Source Sans and Code fonts do not support non-latin characters (symbols or cyrillic)
-	https://pharo.fogbugz.com/f/cases/16935
+ ^ '16814 Critics Browser seriously broken
+	https://pharo.fogbugz.com/f/cases/16814
 
-16940 better tearDown ReflectiveMethodTest
-	https://pharo.fogbugz.com/f/cases/16940'
+16923 Improve OrderedCollection comment.
+	https://pharo.fogbugz.com/f/cases/16923'
