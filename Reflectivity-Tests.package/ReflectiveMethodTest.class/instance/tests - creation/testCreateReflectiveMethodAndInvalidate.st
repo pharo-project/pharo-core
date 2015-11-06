@@ -1,5 +1,6 @@
 testCreateReflectiveMethodAndInvalidate
 	| compiledMethod reflectiveMethod |
+	selector := #exampleMethod.
 	compiledMethod := ReflectivityExamples>>#exampleMethod.
 	reflectiveMethod := ReflectiveMethod on: compiledMethod.
 	self assert: reflectiveMethod class = ReflectiveMethod.

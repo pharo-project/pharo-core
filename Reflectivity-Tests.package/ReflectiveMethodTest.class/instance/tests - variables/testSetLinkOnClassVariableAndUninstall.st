@@ -1,5 +1,6 @@
 testSetLinkOnClassVariableAndUninstall
 	| classVar link |
+	selector := #exampleClassVarRead.
 	link := MetaLink new.
 	classVar := (ReflectivityExamples classVariableNamed: #ClassVar).
 	classVar link: link.

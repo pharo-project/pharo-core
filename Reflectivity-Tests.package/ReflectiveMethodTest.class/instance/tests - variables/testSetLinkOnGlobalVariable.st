@@ -1,8 +1,11 @@
 testSetLinkOnGlobalVariable
 	| globalVar link |
+	selector := #exampleGlobalRead.
 	link := MetaLink new.
-	globalVar := GlobalForTesting binding.
-	globalVar link: link.
+	globalVar := (Smalltalk globals at: #GlobalForTesting) binding.
+	globalVar link: link. 
 	self assert: (globalVar links includes: link).
 	self assert: (ReflectivityExamples >> #exampleGlobalRead) class = ReflectiveMethod.
+	link uninstall.
 	globalVar removeProperty: #links.
+	

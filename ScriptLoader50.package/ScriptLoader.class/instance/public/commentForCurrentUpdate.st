@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '16934 Some ImageForms become transparent when dragging them
-	https://pharo.fogbugz.com/f/cases/16934
+ ^ '16935 Source Sans and Code fonts do not support non-latin characters (symbols or cyrillic)
+	https://pharo.fogbugz.com/f/cases/16935
 
-16917 No way to prevent radio button from desactivating
-	https://pharo.fogbugz.com/f/cases/16917
-
-16930 NewVersionBrowser: issue with browsing versions of class side methods
-	https://pharo.fogbugz.com/f/cases/16930
-
-16706 TextModel with Rubric Widgets dont update TextModels selection
-	https://pharo.fogbugz.com/f/cases/16706'
+16940 better tearDown ReflectiveMethodTest
+	https://pharo.fogbugz.com/f/cases/16940'

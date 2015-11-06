@@ -1,5 +1,6 @@
 testSetLinkOnInstanceVariableAndUninstall
 	| ivar link |
+	selector := #exampleIvarRead.
 	link := MetaLink new.
 	ivar := ReflectivityExamples slotNamed: #ivar.
 	ivar link: link.

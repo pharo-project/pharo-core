@@ -8,5 +8,5 @@ testSetLinkWithPragmaOptionsPerClass
 	sendNode removeLink: link.
 	(ReflectivityExamples class>>#exampleMethodWithMetaLinkOptionsViaClass) destroyTwin.
 	self assert: (ReflectivityExamples class>>#exampleMethodWithMetaLinkOptionsViaClass) class = CompiledMethod.
-	self assert: (ReflectivityExamples class>>#exampleMethodWithMetaLinkOptionsViaClass) reflectiveMethod = nil.
-	
+	self assert: (ReflectivityExamples class>>#exampleMethodWithMetaLinkOptionsViaClass) reflectiveMethod isNil.
+	ReflectivityExamples class recompile: #exampleMethodWithMetaLinkOptionsViaClass

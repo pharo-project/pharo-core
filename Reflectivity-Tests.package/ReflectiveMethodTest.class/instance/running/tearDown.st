@@ -1,2 +1,3 @@
 tearDown
-	ReflectivityExamples recompile
+	selector ifNotNil: [  
+		ReflectivityExamples recompile: selector]

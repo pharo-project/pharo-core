@@ -1,5 +1,5 @@
 TestCase subclass: #ReflectiveMethodTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Tests'

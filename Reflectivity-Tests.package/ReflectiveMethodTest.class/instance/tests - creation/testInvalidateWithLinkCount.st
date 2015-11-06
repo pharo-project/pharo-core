@@ -1,4 +1,5 @@
 testInvalidateWithLinkCount
+	selector := #exampleMethod.
 	(ReflectivityExamples>>#exampleMethod) createTwin. 
 	(ReflectivityExamples>>#exampleMethod) invalidate. 
 	(ReflectivityExamples>>#exampleMethod) linkCount: 1.

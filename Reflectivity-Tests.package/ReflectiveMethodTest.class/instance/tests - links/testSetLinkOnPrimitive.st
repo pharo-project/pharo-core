@@ -1,5 +1,6 @@
 testSetLinkOnPrimitive
 	| methodNode link |
+	selector := #examplePrimitiveMethod.
 	link := MetaLink new.
 	methodNode := (ReflectivityExamples>>#examplePrimitiveMethod) ast.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
