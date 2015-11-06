@@ -22,12 +22,11 @@ fullDrawOn: aCanvas
 	subBnds := Rectangle merging: (submorphs collect: [:m | m fullBounds]).
 	self updateCacheCanvas: aCanvas.
 	(cacheCanvas isNil 
-		or: [cachedCanvasHasHoles and: [cacheCanvas depth = 1]]) 
-			ifTrue: 
-				["could not use caching due to translucency; do full draw"
-
-				self nonCachingFullDrawOn: aCanvas.
-				^self].
+		or: [cachedCanvasHasHoles and: [cacheCanvas depth = 1]]
+	)ifTrue: ["could not use caching due to translucency; do full draw"
+		self nonCachingFullDrawOn: aCanvas.
+		^self
+	].
 
 	"--> begin rounded corners hack <---"
 	roundCorners := cachedCanvasHasHoles == false 
@@ -69,5 +68,12 @@ fullDrawOn: aCanvas
 						do: [:r | shadowCanvas fillRectangle: r color: Color black]]]].
 
 	"draw morphs in front of the shadow using the cached Form"
-	aCanvas translucentImage: cacheCanvas form at: subBnds origin.
+	cachedCanvasHasHoles 
+		ifTrue: [aCanvas paintImage: cacheCanvas form at: subBnds origin]
+		ifFalse: 	[
+			aCanvas 
+			drawImage: cacheCanvas form
+			at: subBnds origin
+			sourceRect: cacheCanvas form boundingBox
+		].
 	self drawOn: aCanvas	"draw the hand itself in front of morphs"

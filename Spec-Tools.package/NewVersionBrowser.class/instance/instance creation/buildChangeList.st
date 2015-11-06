@@ -3,7 +3,7 @@ buildChangeList
 	
 	^ (SourceFiles
 		changeRecordsFrom: rgMethod sourcePointer
-		className: rgMethod className
+		className: rgMethod theNonMetaClassName
 		isMeta: rgMethod isMetaSide)
 		collectWithIndex: [ :c :i | | rg |
 			rg := c asRingDefinition.

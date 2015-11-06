@@ -1,4 +1,4 @@
-script50420
+script50421
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -173,7 +173,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.498.mcz
-Morphic-Core-TheIntegrator.221.mcz
+Morphic-Core-TheIntegrator.224.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.66.mcz
@@ -268,7 +268,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.291.mcz
+Rubric-TheIntegrator.295.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.158.mcz
@@ -289,16 +289,16 @@ Slot-TheIntegrator.699.mcz
 Slot-Tests-TheIntegrator.64.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.12.mcz
-Spec-Core-TheIntegrator.435.mcz
+Spec-Core-TheIntegrator.438.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.241.mcz
+Spec-MorphicAdapters-TheIntegrator.244.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.300.mcz
+Spec-Tools-TheIntegrator.302.mcz
 StartupPreferences-TheIntegrator.145.mcz
 System-Announcements-TheIntegrator.106.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz

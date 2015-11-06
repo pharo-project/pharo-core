@@ -1,5 +1,5 @@
 RubScrolledTextMorph subclass: #RubPluggableTextMorph
-	instanceVariableNames: 'askBeforeDiscardingEdits getEnabledSelector setSelectionSelector'
+	instanceVariableNames: 'askBeforeDiscardingEdits getEnabledSelector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Widgets'

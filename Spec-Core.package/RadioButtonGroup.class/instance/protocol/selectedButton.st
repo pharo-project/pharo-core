@@ -1,3 +1,0 @@
-selectedButton
-
-	^ selectedButton

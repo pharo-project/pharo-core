@@ -1,8 +1,10 @@
 initialize
 
 	super initialize.
+	
 	actionWhenActivatedHolder := [] asValueHolder.
 	actionWhenDesactivatedHolder := [] asValueHolder.
+	canDeselectByClick := false asValueHolder.
 	enabledHolder := true asValueHolder.
 	stateHolder := false asValueHolder.
 	labelClickableHolder := true asValueHolder. 

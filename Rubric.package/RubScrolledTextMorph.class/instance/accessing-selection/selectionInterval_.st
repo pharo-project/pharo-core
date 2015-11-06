@@ -1,2 +1,2 @@
-selectionInterval: sel
-	self setSelection: sel
+selectionInterval: anInterval
+	self setSelection: anInterval
