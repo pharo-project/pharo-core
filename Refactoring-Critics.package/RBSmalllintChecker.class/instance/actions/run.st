@@ -1,4 +1,5 @@
 run
+	rule resetResult.
 	environment classesAndTraits
 		do: [ :class |
 			self checkClass: class.

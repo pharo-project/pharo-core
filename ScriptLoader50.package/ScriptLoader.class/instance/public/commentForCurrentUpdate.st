@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '16832 Some Morph improvements
-	https://pharo.fogbugz.com/f/cases/16832'
+ ^ '16946 revert 16814: Monkey completely broken
+	https://pharo.fogbugz.com/f/cases/16946'
