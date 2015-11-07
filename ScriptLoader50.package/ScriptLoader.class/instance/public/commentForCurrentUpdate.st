@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '16814 Critics Browser seriously broken
-	https://pharo.fogbugz.com/f/cases/16814
-
-16923 Improve OrderedCollection comment.
-	https://pharo.fogbugz.com/f/cases/16923'
+ ^ '16832 Some Morph improvements
+	https://pharo.fogbugz.com/f/cases/16832'

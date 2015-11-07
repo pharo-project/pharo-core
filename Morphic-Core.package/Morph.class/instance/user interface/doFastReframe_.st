@@ -2,10 +2,10 @@ doFastReframe: ptName
 
 	| newBounds |
 	"For fast display, only higlight the rectangle during loop"
-	newBounds := self boundsInWorld newRectButtonPressedDo: [:f :pt | 
-		f 
+	newBounds := self boundsInWorld newRectButtonPressedDo: [:rectangle :cursorPoint | 
+		rectangle
 			withSideOrCorner: ptName
-			setToPoint: pt
+			setToPoint: cursorPoint
 			minExtent: self minimumExtent].
 	Display deferUpdatesIn: Display boundingBox while: [
 		self bounds: newBounds].

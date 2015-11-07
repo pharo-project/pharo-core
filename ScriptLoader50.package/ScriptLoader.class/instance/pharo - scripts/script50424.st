@@ -1,4 +1,4 @@
-script50423
+script50424
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -111,7 +111,7 @@ Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.165.mcz
-Graphics-Files-TheIntegrator.66.mcz
+Graphics-Files-TheIntegrator.70.mcz
 Graphics-Fonts-TheIntegrator.102.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.183.mcz
@@ -172,9 +172,10 @@ MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.498.mcz
-Morphic-Core-TheIntegrator.224.mcz
+Morphic-Base-TheIntegrator.501.mcz
+Morphic-Core-TheIntegrator.225.mcz
 Morphic-Examples-TheIntegrator.46.mcz
+Morphic-Exporting-TheIntegrator.4.mcz
 Morphic-Tests-TheIntegrator.2.mcz
 Morphic-Widgets-Basic-TheIntegrator.66.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -186,10 +187,10 @@ Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.28.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.15.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.17.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.74.mcz
+Morphic-Widgets-Windows-TheIntegrator.76.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -231,7 +232,7 @@ OpalCompiler-Tests-TheIntegrator.309.mcz
 OpalTools-TheIntegrator.20.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1285.mcz
+Polymorph-Widgets-TheIntegrator.1287.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.70.mcz
 ProfStef-Help-TheIntegrator.16.mcz
