@@ -5,4 +5,4 @@ templateForSubclassOf: priorClassName category: systemCategoryName
 	instanceVariableNames: ''''
 	classVariableNames: ''''
 	poolDictionaries: ''''
-	category: ''' , systemCategoryName asString , ''''
+	package: ''' , systemCategoryName asString , ''''

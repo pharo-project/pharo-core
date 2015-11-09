@@ -1,4 +1,4 @@
-script50427
+script50428
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2166.mcz
+Kernel-TheIntegrator.2167.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -161,7 +161,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-TheIntegrator.143.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1088.mcz
+Monticello-TheIntegrator.1089.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -206,13 +206,13 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1128.mcz
-Nautilus-GroupManager-TheIntegrator.15.mcz
-Nautilus-GroupManagerUI-TheIntegrator.24.mcz
-Nautilus-Tests-TheIntegrator.25.mcz
-NautilusCommon-TheIntegrator.290.mcz
-NautilusGroupAutoBuilder-FranckWarlouzet.6.mcz
-NautilusRefactoring-TheIntegrator.255.mcz
+Nautilus-TheIntegrator.1130.mcz
+Nautilus-GroupManager-TheIntegrator.16.mcz
+Nautilus-GroupManagerUI-TheIntegrator.25.mcz
+Nautilus-Tests-TheIntegrator.26.mcz
+NautilusCommon-TheIntegrator.291.mcz
+NautilusGroupAutoBuilder-TheIntegrator.7.mcz
+NautilusRefactoring-TheIntegrator.256.mcz
 Network-Kernel-TheIntegrator.120.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -286,7 +286,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.699.mcz
+Slot-TheIntegrator.701.mcz
 Slot-Tests-TheIntegrator.64.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.12.mcz
@@ -338,7 +338,7 @@ Text-Edition-TheIntegrator.102.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.115.mcz
+Tool-Base-TheIntegrator.116.mcz
 Tool-Catalog-EstebanLorenzano.26.mcz
 Tool-CriticBrowser-TheIntegrator.19.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.840.mcz
+Traits-TheIntegrator.842.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

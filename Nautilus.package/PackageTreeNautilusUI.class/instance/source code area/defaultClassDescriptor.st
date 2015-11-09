@@ -10,5 +10,5 @@ defaultClassDescriptor
 			'Object subclass: #NameOfSubclass
 	instanceVariableNames: ''''
 	classVariableNames: ''''
-	category: ''' ].
+	package: ''' ].
 	^ self selectedPackage ifNotNil: [ :package | string , package categoryName , '''' ] ifNil: [ string , '''' ]

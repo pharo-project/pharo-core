@@ -4,4 +4,4 @@ buildTestClassDefinitionFrom: aClass
 	instanceVariableNames: ''''
 	classVariableNames: ''''
 	poolDictionaries: ''''
-	category: ''',(self buildTestPackageNameFrom:aClass),''''
+	package: ''',(self buildTestPackageNameFrom:aClass),''''

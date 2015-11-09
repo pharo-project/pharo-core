@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '16958 Fix name analysis RF 
-	https://pharo.fogbugz.com/f/cases/16958
+ ^ '14109 When removing an ivar from a class, all packages of classes that are subclasses are Dirty
+	https://pharo.fogbugz.com/f/cases/14109
 
-16954 Smalltalk globals cleaning in ProtoObject and Tools
-	https://pharo.fogbugz.com/f/cases/16954
+16952 Change class template creation
+	https://pharo.fogbugz.com/f/cases/16952
 
-16956 DNU from Syntaxhighligher tries to parse method in VersionBrowser
-	https://pharo.fogbugz.com/f/cases/16956'
+15542 Monticello marks a package dirty if you install an extension method package with a name starting with the first packages name
+	https://pharo.fogbugz.com/f/cases/15542'

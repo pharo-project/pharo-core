@@ -5,12 +5,12 @@ managersForCategory: aSystemCategory do: aBlock
 	cat := aSystemCategory ifNil:[^nil]. "yes this happens; for example in eToy projects"
 	"first ask PackageInfos, their package name might not match the category"
 	self registry do: [:mgr | 
-		(mgr packageSet includesSystemCategory: aSystemCategory)	ifTrue: [
+		(mgr packageSet packages anySatisfy:[:p | p name beginsWith: aSystemCategory])	ifTrue: [
 			aBlock value: mgr.
 			foundOne := true.
 		]
 	].
-	foundOne ifTrue: [^self].
+   foundOne ifTrue: [^self].
 	["Loop over categories until we found a matching one"
 	self registry at: (MCPackage named: cat) ifPresent:[:mgr|
 		aBlock value: mgr.
