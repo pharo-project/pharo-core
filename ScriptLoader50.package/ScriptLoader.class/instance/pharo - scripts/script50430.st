@@ -1,4 +1,4 @@
-script50429
+script50430
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2167.mcz
+Kernel-TheIntegrator.2168.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -229,7 +229,7 @@ OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.748.mcz
 OpalCompiler-Tests-TheIntegrator.309.mcz
-OpalTools-TheIntegrator.20.mcz
+OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1289.mcz
@@ -288,8 +288,8 @@ Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.702.mcz
 Slot-Tests-TheIntegrator.65.mcz
-SmartSuggestions-TheIntegrator.178.mcz
-SmartSuggestions-Tests-TheIntegrator.12.mcz
+SmartSuggestions-TheIntegrator.180.mcz
+SmartSuggestions-Tests-TheIntegrator.13.mcz
 Spec-Core-TheIntegrator.438.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz

@@ -7,4 +7,5 @@ treeIn: a
 			on: $o
 			entitled: 'Open'
 			with: [ :tree | tree selection ];
-		format: [ :each | each printString].
+		format: [ :each | each printString];
+		when: [ :anObject | anObject methodOrBlockNode notNil ].
