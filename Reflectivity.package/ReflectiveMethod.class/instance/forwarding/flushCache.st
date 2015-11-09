@@ -1,2 +1,2 @@
 flushCache
-	^compiledMethod flushCache
+	<primitive: 116>

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '14109 When removing an ivar from a class, all packages of classes that are subclasses are Dirty
-	https://pharo.fogbugz.com/f/cases/14109
+ ^ '16941 Slots can not have non-latin names
+	https://pharo.fogbugz.com/f/cases/16941
 
-16952 Change class template creation
-	https://pharo.fogbugz.com/f/cases/16952
+16965 Smalltalk globals cleaned in system navigator and organiser and TClass
+	https://pharo.fogbugz.com/f/cases/16965
 
-15542 Monticello marks a package dirty if you install an extension method package with a name starting with the first packages name
-	https://pharo.fogbugz.com/f/cases/15542'
+16966 Invalidate whole image: more fixes
+	https://pharo.fogbugz.com/f/cases/16966'

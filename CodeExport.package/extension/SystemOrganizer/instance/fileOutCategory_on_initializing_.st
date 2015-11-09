@@ -11,7 +11,7 @@ fileOutCategory: category on: aFileStream initializing: aBool
 		tempClass := Class new.
 		tempClass shouldFileOutPools ifTrue: [
 			poolSet := poolSet select: [:aPool |
-				tempClass shouldFileOutPool: (Smalltalk globals keyAtIdentityValue: aPool)].
+				tempClass shouldFileOutPool: (self environment keyAtIdentityValue: aPool)].
 			poolSet do: [:aPool | tempClass fileOutPool: aPool onFileStream: aFileStream]]].
 	traits, classes
 		do: [:each | 

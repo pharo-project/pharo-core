@@ -3,7 +3,7 @@ duplicateClassWithNewName: aSymbol
 	copysName := aSymbol asSymbol.
 	copysName = self name
 		ifTrue: [ ^ self ].
-	(Smalltalk globals includesKey: copysName)
+	(self environment includesKey: copysName)
 		ifTrue: [ ^ self error: copysName , ' already exists' ].
 	newDefinition := self definition copyReplaceAll: '#' , self name asString with: '#' , copysName asString.
 	class := self class compiler source: newDefinition; logged: true; evaluate.

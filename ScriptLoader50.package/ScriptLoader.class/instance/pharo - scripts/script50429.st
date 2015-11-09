@@ -1,4 +1,4 @@
-script50428
+script50429
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -27,7 +27,7 @@ BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
-CodeExport-TheIntegrator.15.mcz
+CodeExport-TheIntegrator.17.mcz
 CodeImport-TheIntegrator.79.mcz
 CodeImportCommandLineHandlers-TheIntegrator.5.mcz
 Collections-Abstract-TheIntegrator.311.mcz
@@ -252,7 +252,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.237.mcz
+Reflectivity-TheIntegrator.239.mcz
 Reflectivity-Examples-TheIntegrator.12.mcz
 Reflectivity-Tests-TheIntegrator.186.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -286,8 +286,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.701.mcz
-Slot-Tests-TheIntegrator.64.mcz
+Slot-TheIntegrator.702.mcz
+Slot-Tests-TheIntegrator.65.mcz
 SmartSuggestions-TheIntegrator.178.mcz
 SmartSuggestions-Tests-TheIntegrator.12.mcz
 Spec-Core-TheIntegrator.438.mcz
@@ -328,7 +328,7 @@ System-Settings-TheIntegrator.324.mcz
 System-Settings-Tests-TheIntegrator.6.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1173.mcz
+System-Support-TheIntegrator.1175.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.842.mcz
+Traits-TheIntegrator.843.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
