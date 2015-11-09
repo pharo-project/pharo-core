@@ -4,11 +4,7 @@ activate
 	self activatedModalChild ifTrue: [ ^self ].
 	
 	self addPaneSplittersIfNeeded.
-	
-	TopWindow ifNotNil: [ 
-		TopWindow rememberKeyboardFocus: ActiveHand keyboardFocus
-	].
-	
+		
 	super activate.
 	
 	self isEmbedded ifFalse: [

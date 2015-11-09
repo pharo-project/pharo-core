@@ -8,13 +8,15 @@ testResizingClosing
 	self assert: (coll isEmpty).
 	window minimizeOrRestore.
 	
-	"Resizing, moving, collapsing "
-	self assert: (coll size = 3).
+	"Resizing, moving, deActivation, collapsing "
+	self assert: (coll size = 4).
 	self assert: (coll first isResized).
 	self assert: (coll second isMoved).
-	self assert: (coll third isCollapsed).
+	self assert: (coll third isDeActivated).
+	self assert: (coll fourth isCollapsed).
+
 	window delete.
 
-	self assert: (coll size = 4).
-	self assert: (coll fourth isClosed).
+	self assert: (coll size = 5).
+	self assert: (coll fifth isClosed).
 	window := nil

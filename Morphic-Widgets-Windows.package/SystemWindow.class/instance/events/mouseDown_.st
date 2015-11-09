@@ -4,23 +4,9 @@ mouseDown: evt
 		
 	self isEmbedded ifTrue: [^self].
 	
-	TopWindow == self
+	self isTopWindow
 		ifTrue: [self comeToFront] "rise above non-window morphs"
-		ifFalse:[
-			TopWindow ifNotNil: [:w |
-				w rememberKeyboardFocus: evt hand keyboardFocus
-			].
-		
-			evt hand releaseKeyboardFocus. 
-				
-			self activate.
-			self announce: (
-				WindowActivated new 
-					event: evt; 
-					window: self; 
-					yourself
-				).
-		].
+		ifFalse:[	self activate].
 
 	evt wasHandled: false.
 	self submorphsDo: [ :morph | morph processEvent: evt ].

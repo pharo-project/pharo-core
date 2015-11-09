@@ -1,0 +1,3 @@
+isActivated
+
+	^false

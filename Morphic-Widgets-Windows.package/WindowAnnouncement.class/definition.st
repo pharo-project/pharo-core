@@ -1,5 +1,5 @@
 Announcement subclass: #WindowAnnouncement
-	instanceVariableNames: 'window event'
+	instanceVariableNames: 'window'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-Windows-Announcements'

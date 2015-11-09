@@ -3,4 +3,4 @@ isWindowActive: aSystemWindow
 	True if the receiver is active and the window is the
 	current page."
 	
-	^ self tabGroup page == aSystemWindow and: [aSystemWindow topWindow == aSystemWindow]
+	^ self tabGroup page == aSystemWindow and: [aSystemWindow isTopWindow ]

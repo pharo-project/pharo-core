@@ -1,0 +1,3 @@
+isTopWindow
+
+	^self == TopWindow 

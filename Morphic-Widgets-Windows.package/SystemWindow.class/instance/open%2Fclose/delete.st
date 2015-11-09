@@ -5,8 +5,9 @@ delete
 	
 	| thisWorld animateClose announcement |
 	self mustNotClose ifTrue: [^ self].
-	(self owner notNil and: [self owner isWorldMorph])
-		ifTrue: [self activate].
+	"(self owner notNil and: [self owner isWorldMorph])
+		ifTrue: [self activate]."
+		
 	model ifNotNil: [ model okToChange ifFalse: [ ^ self ] ].
 	animateClose := (self visible and: [self world notNil and: [
 		self theme settings animationSettings useAnimation and: [

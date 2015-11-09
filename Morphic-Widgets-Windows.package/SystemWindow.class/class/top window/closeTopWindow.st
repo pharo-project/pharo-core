@@ -1,4 +1,6 @@
 closeTopWindow
 	"Try to close the top window.  It may of course decline"
-	TopWindow ifNotNil:
-		[TopWindow delete]
+	TopWindow ifNotNil: [ :window | 
+		TopWindow := nil. 
+		window delete.
+	]

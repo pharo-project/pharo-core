@@ -1,14 +1,11 @@
 versionsBrowserListMenu: aBuilder
 	<contextMenu>
-	<newVersionBrowserListMenu>
-	| tool browser model |
+	<versionBrowserListMenu>
+	| browser model |
 	model := aBuilder model.
 	browser := aBuilder model browser.
-	tool := browser model.
 	browser selectedMessage notNil
 		ifTrue: [ 
-			| message |
-			message := browser selectedMessage compiledMethod.
 			(aBuilder item: #'Compare to current')
 				help: 'Compare selected version to the current version';
 				target: model;

@@ -23,5 +23,5 @@ browserForList: aList
 	browser toolbarModel versionModel 
 		label: 'Revert';
 		action: [ self revert: browser selectedItem ].
-	browser listModel menu:[:menu | menu addAllFromPragma:'newVersionBrowserListMenu' target:self].
+	browser listModel menu:[:menu | menu addAllFromPragma:'versionBrowserListMenu' target:self].
 	^ browser.

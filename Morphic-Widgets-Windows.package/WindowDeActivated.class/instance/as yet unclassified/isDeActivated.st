@@ -1,0 +1,3 @@
+isDeActivated
+
+	^true

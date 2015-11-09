@@ -1,2 +1,0 @@
-event: evt
-	event := evt
