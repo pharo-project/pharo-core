@@ -1,0 +1,2 @@
+childrenItemsBlock: aBlock
+	childrenItemsBlock := aBlock

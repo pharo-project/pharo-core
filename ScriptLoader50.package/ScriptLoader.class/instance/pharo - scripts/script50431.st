@@ -1,4 +1,4 @@
-script50430
+script50431
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -116,7 +116,7 @@ Graphics-Fonts-TheIntegrator.102.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.183.mcz
 Graphics-Resources-TheIntegrator.34.mcz
-Graphics-Shapes-TheIntegrator.2.mcz
+Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.78.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.37.mcz
@@ -227,8 +227,8 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.748.mcz
-OpalCompiler-Tests-TheIntegrator.309.mcz
+OpalCompiler-Core-TheIntegrator.751.mcz
+OpalCompiler-Tests-TheIntegrator.311.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -252,7 +252,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.239.mcz
+Reflectivity-TheIntegrator.241.mcz
 Reflectivity-Examples-TheIntegrator.12.mcz
 Reflectivity-Tests-TheIntegrator.186.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -290,13 +290,13 @@ Slot-TheIntegrator.702.mcz
 Slot-Tests-TheIntegrator.65.mcz
 SmartSuggestions-TheIntegrator.180.mcz
 SmartSuggestions-Tests-TheIntegrator.13.mcz
-Spec-Core-TheIntegrator.438.mcz
+Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.250.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.244.mcz
+Spec-MorphicAdapters-TheIntegrator.245.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.308.mcz

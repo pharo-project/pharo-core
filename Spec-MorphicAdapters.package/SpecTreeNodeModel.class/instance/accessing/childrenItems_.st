@@ -1,3 +1,2 @@
 childrenItems: aCollection
-
 	childrenItems := aCollection

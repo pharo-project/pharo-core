@@ -1,4 +1,2 @@
 contents
-	^ contents ifNil: [ 
-		contents := self childrenItems collect: [:ci | 
-			self childNodeFromItem: ci ] ]
+	^ self childrenItems collect: [ :child | self childNodeFromItem: child ]

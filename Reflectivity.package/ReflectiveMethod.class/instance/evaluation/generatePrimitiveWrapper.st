@@ -9,11 +9,11 @@ generatePrimitiveWrapper
 	send := RBMessageNode
 		receiver: (RBLiteralNode value: wrappedMethod)
 		selector:  #valueWithReceiver:arguments: 
-		arguments: {RBVariableNode named: #self . RBArrayNode statements: ast variableNodes }.
+		arguments: {RBSelfNode named: #self . RBArrayNode statements: ast arguments }.
 	
 	wrapperMethod := RBMethodNode
 		selector: ast selector
-		arguments: ast variableNodes 
+		arguments: ast arguments 
 		body: (RBReturnNode value: send) asSequenceNode.
 		
 	wrapperMethod methodClass: ast methodClass.

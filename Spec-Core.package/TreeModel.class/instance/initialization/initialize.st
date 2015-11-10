@@ -32,6 +32,8 @@ initialize
 	columns := { TreeColumnModel new
 		displayBlock: [:node | (self wrapItem: node content) ] } asValueHolder.
 	
+	autoRefreshOnExpand := false asValueHolder.
+	
 	"Since my nodes are already morphs, dragging them will actually extract them from their owner"
 	dragTransformationBlock := [ :item :source | item complexContents ] asValueHolder.
 

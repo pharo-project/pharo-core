@@ -1,0 +1,2 @@
+autoRefreshOnExpand
+	^ autoRefreshOnExpand value
