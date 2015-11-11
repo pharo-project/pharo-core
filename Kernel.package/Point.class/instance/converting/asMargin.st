@@ -1,2 +1,2 @@
 asMargin
-	^ Margin fromPoint: self.
+	^ Margin fromPoint: self

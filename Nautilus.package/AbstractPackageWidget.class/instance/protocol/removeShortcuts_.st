@@ -1,2 +1,0 @@
-removeShortcuts: aSymbol
-	self subclassResponsibility 

@@ -1,2 +1,0 @@
-selectPackage: aPackage
-	self subclassResponsibility 

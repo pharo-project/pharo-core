@@ -1,2 +1,0 @@
-hasFocus
-	self subclassResponsibility 

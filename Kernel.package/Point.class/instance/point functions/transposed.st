@@ -1,2 +1,2 @@
 transposed
-	^y@x
+	^ y @ x

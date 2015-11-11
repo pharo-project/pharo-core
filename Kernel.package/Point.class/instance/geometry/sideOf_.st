@@ -1,6 +1,5 @@
 sideOf: otherPoint 
-	"Returns #left, #right or #center if the otherPoint lies to the left, right 
-	or on the line given by the vector from 0@0 to self"
+	"Returns #left, #right or #center if the otherPoint lies to the left, right or on the line given by the vector from 0@0 to self"
 	| side |
 	side := (self crossProduct: otherPoint) sign.
-	^ {  #right. #center. #left  } at: side + 2
+	^ { #right . #center . #left } at: side + 2

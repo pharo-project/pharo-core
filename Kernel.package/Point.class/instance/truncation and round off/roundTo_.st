@@ -4,4 +4,4 @@ roundTo: grid
 	
 	| gridPoint |
 	gridPoint := grid asPoint.
-	^(x roundTo: gridPoint x) @ (y roundTo: gridPoint y)
+	^ (x roundTo: gridPoint x) @ (y roundTo: gridPoint y)

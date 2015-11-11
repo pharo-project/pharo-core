@@ -1,2 +1,0 @@
-selectGroup: aGroup
-	self subclassResponsibility 

@@ -1,6 +1,7 @@
 insideTriangle: p1 with: p2 with: p3 
 	"Return true if the receiver is within the triangle defined by the three coordinates.
 	Note: This method computes the barycentric coordinates for the receiver and tests those coordinates."
+
 	| p0 b0 b1 b2 b3 |
 	p0 := self.
 	b0 := (p2 x - p1 x) * (p3 y - p1 y) - ((p3 x - p1 x) * (p2 y - p1 y)).

@@ -1,2 +1,2 @@
 isZero
-	^x isZero and:[y isZero]
+	^ x isZero and: [ y isZero ]

@@ -1,2 +1,0 @@
-takeKeyboardFocus
-	self subclassResponsibility 
