@@ -1,0 +1,2 @@
+installReflectiveMethod
+	self installMethod: self

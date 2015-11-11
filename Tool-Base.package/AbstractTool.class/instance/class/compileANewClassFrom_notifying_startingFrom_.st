@@ -14,7 +14,7 @@ compileANewClassFrom: aString notifying: aController startingFrom: aClass
 		ifTrue: [^ self defineTrait: aString notifying: aController ].
 		
 	keywdIx := defTokens findFirst: [:x | x beginsWith: 'category'].
-	envt := self browsedEnvironment.
+	envt := Smalltalk globals.
 	keywdIx := defTokens findFirst: [:x | '*subclass*' match: x].
 	newClassName := (defTokens at: keywdIx+1) copyWithoutAll: '#()'.
 	((oldClass isNil or: [oldClass theNonMetaClass name asString ~= newClassName])
