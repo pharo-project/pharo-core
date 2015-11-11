@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16984 fixed menu on category in nautilus
-	https://pharo.fogbugz.com/f/cases/16984
+ ^ '16983 add <disableReflectivity> pragma, use to to be able to put links on the whole Kernel
+	https://pharo.fogbugz.com/f/cases/16983
 
-16981 Round the top corners of MenuTitleMorph if the menu itself uses rounded corners
-	https://pharo.fogbugz.com/f/cases/16981
-
-16973 clean all methods of point
-	https://pharo.fogbugz.com/f/cases/16973'
+16982 New ConfigurationOfRubric available
+	https://pharo.fogbugz.com/f/cases/16982'

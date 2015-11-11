@@ -1,0 +1,2 @@
+withoutShoutStyler
+	self withoutDecoratorNamed: #shoutStyler

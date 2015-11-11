@@ -1,5 +1,7 @@
 registerTextArea 
 	super registerTextArea.
-	textArea announcer when:  RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self.
-	textArea announcer when:  MorphGotFocus send: #whenTextAreaGotFocus: to: self.	
-	textArea announcer when:  MorphLostFocus send: #whenTextAreaLostFocus: to: self.	
+	
+	textArea announcer weak 
+	when:  RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self;
+	when:  MorphGotFocus send: #whenTextAreaGotFocus: to: self;	
+	when:  MorphLostFocus send: #whenTextAreaLostFocus: to: self.	

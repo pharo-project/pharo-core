@@ -1,0 +1,2 @@
+reflectivityDisabled
+	^self hasPragmaNamed: #disableReflectivity

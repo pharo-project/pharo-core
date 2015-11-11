@@ -1,4 +1,4 @@
 updateTextAreaWhenPlugged
-	self textArea withShoutStyler.
+	self withShoutStyler.
 	super updateTextAreaWhenPlugged
 

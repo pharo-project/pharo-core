@@ -1,0 +1,3 @@
+textArea
+	"for #whenTextAreaSelectionChanged:"
+	^self

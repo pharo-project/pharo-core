@@ -1,0 +1,2 @@
+shoutStyler
+	^ self decoratorNamed: #shoutStyler
