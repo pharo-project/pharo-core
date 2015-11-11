@@ -1,4 +1,4 @@
-script624
+script625
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -199,8 +199,8 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.645.mcz
-OpalCompiler-Tests-TheIntegrator.285.mcz
+OpalCompiler-Core-TheIntegrator.647.mcz
+OpalCompiler-Tests-TheIntegrator.287.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
 Pharo-Help-TheIntegrator.15.mcz
