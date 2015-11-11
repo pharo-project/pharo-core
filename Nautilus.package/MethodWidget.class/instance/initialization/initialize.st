@@ -1,4 +1,4 @@
 initialize
 
 	super initialize.
-	methodsSelection := IdentityDictionary new.
+	methodsSelection := OrderedCollection new.

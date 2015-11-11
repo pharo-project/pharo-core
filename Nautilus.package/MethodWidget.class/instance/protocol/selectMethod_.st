@@ -1,3 +1,4 @@
 selectMethod: aMethod
-
-	methodsSelection at: aMethod put: true
+	aMethod
+		ifNotNil: [ self removeSelectionOf: aMethod.
+			methodsSelection add: aMethod ]

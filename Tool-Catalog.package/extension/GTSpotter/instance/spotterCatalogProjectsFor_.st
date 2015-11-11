@@ -10,5 +10,6 @@ spotterCatalogProjectsFor: aStep
 			actLogic: [ :item | 
 				aStep exit.
 				(UIManager default confirm: 'Would you like to install ', item name, '?') 
-					 ifTrue: [ item installStableVersion ]];
+					 ifTrue: [ item installStableVersion.
+								  UIManager inform: item name, ' installed'. ]];
 			wantsToDisplayOnEmptyQuery: true

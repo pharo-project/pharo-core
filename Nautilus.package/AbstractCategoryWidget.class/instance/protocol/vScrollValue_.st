@@ -1,3 +1,0 @@
-vScrollValue: aNumber
-
-	^ self subclassResponsibility

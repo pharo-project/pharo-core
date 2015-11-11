@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '16971 fix: support primitive methods wit arguments
-	https://pharo.fogbugz.com/f/cases/16971
+ ^ '16891 MethodWidget should use a dictionary to store selected methods (Was: FT: Multi selection can happen when it should not)
+	https://pharo.fogbugz.com/f/cases/16891
 
-16918 Cant configure a tree to auto refresh when a node is folded and then unfolded
-	https://pharo.fogbugz.com/f/cases/16918
+16980 Folding CategoryWidget into superclass
+	https://pharo.fogbugz.com/f/cases/16980
 
-16908 wrong source node for pc in mustBeBooleanInMagic
-	https://pharo.fogbugz.com/f/cases/16908
-
-16970 Cleaning Graphics-Shapes categorisation
-	https://pharo.fogbugz.com/f/cases/16970'
+16979 Integrate latest version of Catalog browser 12.11.2015
+	https://pharo.fogbugz.com/f/cases/16979'

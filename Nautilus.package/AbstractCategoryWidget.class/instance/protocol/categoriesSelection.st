@@ -1,3 +1,0 @@
-categoriesSelection
-
-	^ self subclassResponsibility

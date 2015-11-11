@@ -1,3 +1,0 @@
-searchedElement: index
-
-	^ self subclassResponsibility

@@ -5,14 +5,14 @@ updateMethodSelection: aMethod
 		resetCategorySelection.
 
 	model ui categoryWidget
-		categoriesSelection at: aMethod category put: true.
+		categoriesSelectionAt: aMethod category put: true.
 
 	model ui methodWidget 
 		resetMethodList;
 		resetMethodSelection.
 		
 	model ui methodWidget 
-		methodsSelection at: aMethod category put: true.
+		methodsSelectionAt: aMethod category put: true.
 
 	model ui resetClassesListSelection.
 	model ui classWidget selectClass: aMethod methodClass.

@@ -1,11 +1,7 @@
 methodSelectionAt: anIndex
-
-	| elt assoc |
+	| elt |
 	elt := self getMethods at: anIndex ifAbsent: [ ^ false ].
-	
-	(methodsSelection keys identityIncludes: elt) ifFalse: [ ^ false].
-	
-	assoc := methodsSelection associationAt: elt ifAbsent: [ ^ false ].
-	assoc key selector = elt selector 
-		ifTrue: [ ^ assoc value ]
-		ifFalse: [ ^ false ]
+	^ methodsSelection
+		detect: [ :meth | meth methodClass = elt methodClass and: [ meth selector = elt selector ] ]
+		ifFound: [ :meth | meth ]
+		ifNone: [ false ]

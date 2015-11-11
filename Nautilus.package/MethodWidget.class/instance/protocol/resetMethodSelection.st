@@ -1,3 +1,3 @@
 resetMethodSelection
 
-	self methodsSelection removeAll
+	methodsSelection := OrderedCollection new

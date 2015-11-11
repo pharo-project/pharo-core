@@ -1,1 +1,1 @@
-CategoryWidget is the basic implementation of a wiget managing categories
+AbstractCategoryWidget is an abstraction describing a widget used to manage categories
