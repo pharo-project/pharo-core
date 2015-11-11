@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16990 Class definition got broken
-	https://pharo.fogbugz.com/f/cases/16990
+ ^ '16991 fix: be able to invalidate the whole image (classes and metaclasses)
+	https://pharo.fogbugz.com/f/cases/16991
 
-16989 simplify installing reflective method
-	https://pharo.fogbugz.com/f/cases/16989'
+16985 #methodDictAddSelectorSilently:withMethod: not needed
+	https://pharo.fogbugz.com/f/cases/16985'

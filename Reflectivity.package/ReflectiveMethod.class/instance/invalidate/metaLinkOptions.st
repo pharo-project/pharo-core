@@ -7,6 +7,8 @@ metaLinkOptions
 	#compiledMethod: -> #( + optionCompileOnLinkInstallation).
 	#ast -> #( + optionCompileOnLinkInstallation).
 	#installCompiledMethod -> #( + optionCompileOnLinkInstallation).
+	#installReflectiveMethod -> #( + optionCompileOnLinkInstallation).
+	#installMethod:-> #( + optionCompileOnLinkInstallation).
 	#installLink: -> #( + optionCompileOnLinkInstallation).
 	#reinstallASTInCache -> #( + optionCompileOnLinkInstallation).
 	#removeLink -> #( + optionCompileOnLinkInstallation).
