@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '16986 folding PackageWidget into AbstractPackageWidget, ClassWidget into AbstractClassWidget and rest 
-	https://pharo.fogbugz.com/f/cases/16986'
+ ^ '16997 Update to Catalog 0.11 (Easy loading, setting to switch of catalog spotter integration)
+	https://pharo.fogbugz.com/f/cases/16997
+
+16994 GrowlMorph position improvement
+	https://pharo.fogbugz.com/f/cases/16994
+
+16995 StandardWindow>>#flash should not block the UI thread
+	https://pharo.fogbugz.com/f/cases/16995'

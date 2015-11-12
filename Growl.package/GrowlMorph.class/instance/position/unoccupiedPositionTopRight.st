@@ -1,9 +1,15 @@
 unoccupiedPositionTopRight
 
-	| b morphs |
-	b := (World topRight - (self width @ 0)) extent: self extent.
-	morphs := self class allSubInstances select: [:m | m world == World].
-	[self is: b saneWithRespectTo: morphs] whileFalse: [
-		b := b translateBy: 0@10.
-		b bottom > World height ifTrue: [^ (World topRight - (self width @ 0))]].
-	^ b origin
+	| startPos area rect morphs |
+	
+	startPos := (self width + 10 @ 10 negated).
+	area := World clearArea.
+	rect := (area topRight - startPos) extent: self extent.
+	
+	morphs := self activeGrowlMorphs.	
+	[self is: rect saneWithRespectTo: morphs] whileFalse: [
+		rect := rect translateBy: 0@10.
+		rect bottom > area height ifTrue: [^ (area topRight - startPos) ]
+	].
+
+	^ rect origin

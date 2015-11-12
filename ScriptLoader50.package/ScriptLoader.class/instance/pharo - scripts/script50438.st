@@ -1,4 +1,4 @@
-script50437
+script50438
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -119,7 +119,7 @@ Graphics-Resources-TheIntegrator.34.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.78.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
-Growl-TheIntegrator.37.mcz
+Growl-TheIntegrator.39.mcz
 HelpSystem-Core-TheIntegrator.133.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.2.mcz
@@ -190,7 +190,7 @@ Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.17.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.78.mcz
+Morphic-Widgets-Windows-TheIntegrator.80.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz

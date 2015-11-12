@@ -1,6 +1,8 @@
 spotterCatalogProjectsFor: aStep
 	<spotterOrder: 90>
 	
+	CatalogSettings displayCatalogProjectsInSpotter ifFalse: [ ^self ].
+	
 	aStep listProcessor			 
 			allCandidates: [ CatalogProvider new refresh projects ];
 			title: 'Catalog Projects';

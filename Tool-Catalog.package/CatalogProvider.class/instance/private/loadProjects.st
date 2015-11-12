@@ -3,7 +3,7 @@ loadProjects
 	
 	jsonString := ZnClient new
 		beOneShot;
-		url: 'http://catalog.pharo.org/catalog/json';
+		url: CatalogSettings catalogSourceURL;
 		get.
 		
 	^ (STON reader on: jsonString readStream) next
