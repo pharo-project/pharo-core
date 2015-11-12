@@ -1,3 +1,0 @@
-resetMethodIconCache
-
-	MethodsIconsCache removeAll

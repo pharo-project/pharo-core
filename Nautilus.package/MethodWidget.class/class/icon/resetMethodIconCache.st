@@ -1,0 +1,3 @@
+resetMethodIconCache
+
+	MethodsIconsCache := WeakIdentityKeyDictionary new 

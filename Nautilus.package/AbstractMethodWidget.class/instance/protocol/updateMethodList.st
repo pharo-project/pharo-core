@@ -1,2 +1,0 @@
-updateMethodList
-	self subclassResponsibility 

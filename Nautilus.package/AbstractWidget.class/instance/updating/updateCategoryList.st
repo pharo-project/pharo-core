@@ -1,2 +1,0 @@
-updateCategoryList
-	self subclassResponsibility 

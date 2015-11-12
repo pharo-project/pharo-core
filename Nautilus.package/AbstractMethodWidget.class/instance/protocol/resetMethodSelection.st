@@ -1,2 +1,0 @@
-resetMethodSelection
-	self subclassResponsibility 

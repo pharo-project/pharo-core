@@ -10,3 +10,4 @@ wantsDroppedMorph: transferMorph event: anEvent inMorph: destinationLM
 	srcType == #getCategoryItem:
 		ifTrue: [ ^ dstType == #getClassItem: ].
 	^ false
+	

@@ -1,4 +1,4 @@
-AbstractClassWidget subclass: #ClassWidget
+AbstractWidget subclass: #ClassWidget
 	instanceVariableNames: 'classesList classesSelection classesListElements cachedHierarchy showHierarchy'
 	classVariableNames: ''
 	poolDictionaries: ''

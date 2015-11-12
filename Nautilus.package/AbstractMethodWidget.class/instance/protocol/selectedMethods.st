@@ -1,3 +1,0 @@
-selectedMethods
-
-	^ self subclassResponsibility

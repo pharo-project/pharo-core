@@ -1,1 +1,0 @@
-AbstractPackageWidget is an abstraction describing a widget used to manage packages

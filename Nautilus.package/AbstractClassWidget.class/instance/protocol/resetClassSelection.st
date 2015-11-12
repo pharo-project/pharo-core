@@ -1,2 +1,0 @@
-resetClassSelection
-	self subclassResponsibility 

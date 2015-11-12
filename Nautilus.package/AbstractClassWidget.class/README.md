@@ -1,1 +1,0 @@
-AbstractClassWidget is an abstraction describing a widget used to manage a list of classes.

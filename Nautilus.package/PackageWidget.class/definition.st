@@ -1,4 +1,4 @@
-AbstractPackageWidget subclass: #PackageWidget
+AbstractWidget subclass: #PackageWidget
 	instanceVariableNames: 'packagesList packagesSelection packagesListElements groupsSelection'
 	classVariableNames: ''
 	poolDictionaries: ''

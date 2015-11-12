@@ -1,3 +1,0 @@
-vScrollValue
-
-	^ self subclassResponsibility

@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '16991 fix: be able to invalidate the whole image (classes and metaclasses)
-	https://pharo.fogbugz.com/f/cases/16991
-
-16985 #methodDictAddSelectorSilently:withMethod: not needed
-	https://pharo.fogbugz.com/f/cases/16985'
+ ^ '16986 folding PackageWidget into AbstractPackageWidget, ClassWidget into AbstractClassWidget and rest 
+	https://pharo.fogbugz.com/f/cases/16986'

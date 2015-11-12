@@ -1,3 +1,0 @@
-getMethods
-
-	^ self model getMethods

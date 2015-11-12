@@ -1,2 +1,0 @@
-selectClass: aClass
-	self subclassResponsibility 

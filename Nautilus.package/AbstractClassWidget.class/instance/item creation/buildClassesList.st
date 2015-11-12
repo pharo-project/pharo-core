@@ -1,2 +1,0 @@
-buildClassesList
-	^ self subclassResponsibility 
