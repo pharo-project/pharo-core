@@ -1,5 +1,5 @@
 contentsForMember: member
-	^[(member contentStreamFromEncoding: 'utf8') text contents] on: ZnInvalidUTF8
+	^[(member contentStreamFromEncoding: 'utf8') text contents] on: ZnInvalidUTF8, UTF8InvalidText
 		do: [:exc | 
 			"Case of legacy encoding, presumably it is latin-1.
 			But if contents starts with a null character, it might be a case of WideString encoded in UTF-32BE"

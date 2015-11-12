@@ -1,9 +1,8 @@
 commentForCurrentUpdate
- ^ '16992 deprecate methodDictAddSelectorSilently:withMethod:
-	https://pharo.fogbugz.com/f/cases/16992
+ ^ '16960 fix DNU hasBindingOf:
+	https://pharo.fogbugz.com/f/cases/16960
 
-16952 Change class template creation
-	https://pharo.fogbugz.com/f/cases/16952
+16998 Loading old monticello files throws UTF8InvalidText
+	https://pharo.fogbugz.com/f/cases/16998
 
-16975 versionner (Object>>#name) 
-	https://pharo.fogbugz.com/f/cases/16975'
+'

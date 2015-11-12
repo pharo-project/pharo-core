@@ -1,4 +1,4 @@
-script50439
+script50440
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2171.mcz
+Kernel-TheIntegrator.2176.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -161,7 +161,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-TheIntegrator.143.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1089.mcz
+Monticello-TheIntegrator.1092.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.28.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -234,7 +234,7 @@ Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1289.mcz
 PragmaCollector-TheIntegrator.10.mcz
-ProfStef-Core-TheIntegrator.70.mcz
+ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.71.mcz
@@ -372,8 +372,8 @@ UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-ChristopheDemarey.61.mcz
-Versionner-Core-DependenciesModel-MarcusDenker.102.mcz
-Versionner-Core-Model-EstebanLorenzano.51.mcz
+Versionner-Core-DependenciesModel-ChristopheDemarey.103.mcz
+Versionner-Core-Model-ChristopheDemarey.52.mcz
 Versionner-Spec-Browser-EstebanLorenzano.179.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
