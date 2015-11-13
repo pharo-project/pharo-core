@@ -1,4 +1,4 @@
-script50441
+script50442
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -206,7 +206,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1140.mcz
+Nautilus-TheIntegrator.1143.mcz
 Nautilus-GroupManager-TheIntegrator.16.mcz
 Nautilus-GroupManagerUI-TheIntegrator.25.mcz
 Nautilus-Tests-TheIntegrator.26.mcz
@@ -252,9 +252,9 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.249.mcz
-Reflectivity-Examples-TheIntegrator.15.mcz
-Reflectivity-Tests-TheIntegrator.189.mcz
+Reflectivity-TheIntegrator.251.mcz
+Reflectivity-Examples-TheIntegrator.16.mcz
+Reflectivity-Tests-TheIntegrator.190.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -288,13 +288,13 @@ Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.702.mcz
 Slot-Tests-TheIntegrator.65.mcz
-SmartSuggestions-TheIntegrator.180.mcz
+SmartSuggestions-TheIntegrator.182.mcz
 SmartSuggestions-Tests-TheIntegrator.13.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.250.mcz
+Spec-Inspector-TheIntegrator.252.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.245.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz

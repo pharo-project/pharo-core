@@ -9,5 +9,5 @@ execute
 				ifNotNil: [ 
 					specialisation = #when:
 						ifTrue: [self breakpointForCondition ]
-						ifFalse: [ (Breakpoint inNode: context selectedNode) break: specialisation withArguments: #()]]]
-		ifTrue: [ Breakpoint removeAll. ]
+						ifFalse: [ (Breakpoint in: context selectedNode) break: specialisation withArguments: #()]]]
+		ifTrue: [ Breakpoint removeFrom: context selectedNode]

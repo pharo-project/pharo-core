@@ -3,5 +3,5 @@ toggleBreakOnEntryIn: aMethod
 
 	aMethod ifNil: [ ^ self ].
 	aMethod hasBreakpoint
-		ifTrue: [ Breakpoint2 removeFrom: aMethod ]
-		ifFalse: [ Breakpoint2 installOn: aMethod ]
+		ifTrue: [ Breakpoint removeFrom: aMethod ast]
+		ifFalse: [ (Breakpoint in: aMethod ast) always]

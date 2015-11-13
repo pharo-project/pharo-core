@@ -1,4 +1,4 @@
-Halt subclass: #Breakpoint2
+Halt subclass: #Break
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

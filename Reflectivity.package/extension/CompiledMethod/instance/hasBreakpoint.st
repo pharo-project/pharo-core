@@ -2,4 +2,4 @@ hasBreakpoint
 	| methodNode |
 	methodNode := self ast.
 	methodNode hasMetalinkBefore ifFalse: [ ^false ].
-	^methodNode beforeLinks anySatisfy: [ :link | link metaObject = Breakpoint2 ]
+	^methodNode beforeLinks anySatisfy: [ :link | link metaObject = Break ]

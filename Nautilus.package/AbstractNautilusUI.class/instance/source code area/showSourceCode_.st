@@ -5,6 +5,6 @@ showSourceCode: anAnnouncement
 	formatter formatAsYouReadPolicy
 		ifTrue: [ 
 			self sourceTextModel
-				formatSourceCodeInView;
-				hasUnacceptedEdits: false ].
-	self sourceTextModel clearUndoManager
+				formatSourceCodeInView].
+	self sourceTextModel clearUndoManager.
+	self sourceTextModel hasUnacceptedEdits: false

@@ -1,0 +1,2 @@
+condition: aCondition
+	condition := aCondition

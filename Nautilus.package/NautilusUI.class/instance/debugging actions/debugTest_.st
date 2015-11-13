@@ -1,5 +1,4 @@
 debugTest: aMethod
-	(Breakpoint inNode: aMethod ast) 
-		level: nil;
+	(Breakpoint in: aMethod ast) 
 		once.
 	aMethod methodClass run: aMethod selector.

@@ -1,4 +1,4 @@
-inNode: aRBProgramNode
+in: aRBProgramNode
 	^self new 
 		node: aRBProgramNode;
 		yourself
