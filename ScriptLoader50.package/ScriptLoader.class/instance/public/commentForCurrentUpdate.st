@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '17002 EyeInspectorTest assumes that EyeInspector is the default inspector
-	https://pharo.fogbugz.com/f/cases/17002
+ ^ '17006 Remove usage of when:send:to in NECMenuMorph 
+	https://pharo.fogbugz.com/f/cases/17006
 
-17005 text pane of Nautilus is always returns true for #hasUnacceptedEdits
-	https://pharo.fogbugz.com/f/cases/17005
+17003 Remove usage of triggerEvent: #extent ...  in ImageMorph
+	https://pharo.fogbugz.com/f/cases/17003
 
-17004 Unify Breakpoint with Breakpoint2
-	https://pharo.fogbugz.com/f/cases/17004
-
-17001 new rubric configuration
-	https://pharo.fogbugz.com/f/cases/17001'
+16925 Monticello does not take into account RPackage model
+	https://pharo.fogbugz.com/f/cases/16925'

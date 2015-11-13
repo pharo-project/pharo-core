@@ -1,4 +1,4 @@
-script50442
+script50443
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -161,9 +161,9 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-TheIntegrator.143.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1092.mcz
+Monticello-TheIntegrator.1093.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
-Monticello-Tests-TheIntegrator.28.mcz
+Monticello-Tests-TheIntegrator.31.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.191.mcz
@@ -172,7 +172,7 @@ MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.504.mcz
+Morphic-Base-TheIntegrator.506.mcz
 Morphic-Core-TheIntegrator.225.mcz
 Morphic-Examples-TheIntegrator.46.mcz
 Morphic-Exporting-TheIntegrator.4.mcz
@@ -197,7 +197,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.215.mcz
+NECompletion-TheIntegrator.217.mcz
 NECompletion-Tests-TheIntegrator.2.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
@@ -269,7 +269,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-StephaneDucasse.297.mcz
+Rubric-TorstenBergmann.298.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.158.mcz
@@ -294,7 +294,7 @@ Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.252.mcz
+Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.245.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz

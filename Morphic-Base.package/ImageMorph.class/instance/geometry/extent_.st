@@ -1,4 +1,4 @@
 extent: aPoint
-	"Do nothing; my extent is determined by my image Form."
-		
-	self triggerEvent: #extent with: aPoint
+	"Do nothing; 
+		My extent is determined by my image Form. 
+		For subclasses which need to set the extent, use #basicExtent:"
