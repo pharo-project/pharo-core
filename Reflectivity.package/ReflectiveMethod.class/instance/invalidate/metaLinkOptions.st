@@ -11,7 +11,7 @@ metaLinkOptions
 	#installMethod:-> #( + optionCompileOnLinkInstallation).
 	#installLink: -> #( + optionCompileOnLinkInstallation).
 	#reinstallASTInCache -> #( + optionCompileOnLinkInstallation).
-	#removeLink -> #( + optionCompileOnLinkInstallation).
+	#removeLink: -> #( + optionCompileOnLinkInstallation).
 	#selector: -> #( + optionCompileOnLinkInstallation).
 	#run:with:in: -> #( + optionCompileOnLinkInstallation).
 	#compiledMethod -> #( + optionCompileOnLinkInstallation).

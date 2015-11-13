@@ -1,0 +1,3 @@
+break 
+	<debuggerCompleteToSender>
+	self signal

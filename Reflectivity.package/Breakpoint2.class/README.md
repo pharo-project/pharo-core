@@ -1,0 +1,1 @@
+I am a Breakpoint signal.On my class side I provide some methods to instal and remove breakpoints
