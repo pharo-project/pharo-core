@@ -1,15 +1,18 @@
-fixAutomatically: aQACritic 
+fixAutomatically: aQACritic
+
+	| change |
+	change := aQACritic change.
 
 	ReEngine uniqueInstance notifyViewedDiffFor: aQACritic of: entity.
 	
-	(DiffModel new
+	(TextModel new
 		title: 'Apply the proposed changes?';
-		showOptions: true;
 		extent: 800@600;
-		leftText: aQACritic target sourceCode;
-		rightText: aQACritic suggestedCode;
-		contextClass: aQACritic target methodClass;
+		text: change diffedText;
+		disable;
 		openDialogWithSpec)
-			okAction: [ aQACritic fixAutomatically ];
+			okAction: [
+				ReEngine uniqueInstance notifyCritic: aQACritic AutoFixedFor: entity.
+				change execute ];
 			centered;
 			modalRelativeTo: self window

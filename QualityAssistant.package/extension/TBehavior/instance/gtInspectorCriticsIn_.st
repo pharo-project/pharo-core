@@ -2,11 +2,10 @@ gtInspectorCriticsIn: composite
 	"This provides a list of all critics"
 	<gtInspectorPresentationOrder: 20>
 	| critics |
-	critics := self critics.
 	
 	composite list 
-		when: [ critics notEmpty ];
-		title: critics size asString, (' critic' asPluralBasedOn: critics);
+		when: [ QASettings inspectorPluggin and: [ (critics := self critics) notEmpty ] ];
+		title: [ critics size asString, (' critic' asPluralBasedOn: critics) ];
 		titleIcon: [ CircleMorph new
 			extent: 16 @ 16;
 			borderWidth: 0;

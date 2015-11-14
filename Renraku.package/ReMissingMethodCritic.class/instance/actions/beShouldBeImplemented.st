@@ -1,0 +1,3 @@
+beShouldBeImplemented
+
+	source := '^ self shouldBeImplemented' 

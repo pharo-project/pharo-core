@@ -1,6 +1,5 @@
 initialize
 
-	rules := RBCompositeLintRule allGoodRules
-		removeRule: RBImplementedNotSentRule new;
-		removeRule: RBModifiesCollectionRule new;
-		leaves.
+	super initialize.
+	self reset.
+	self subscribe 

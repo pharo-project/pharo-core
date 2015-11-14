@@ -1,0 +1,3 @@
+excludedRuleNames
+
+	^ #(RBImplementedNotSentRule)

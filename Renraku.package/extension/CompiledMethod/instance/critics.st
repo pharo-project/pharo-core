@@ -5,7 +5,7 @@ critics
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := ReEngine uniqueInstance rules.
+	rules := ReEngine uniqueInstance methodRules.
 	critics := Set new.
 	rules
 		reject: [ :rule |
@@ -14,12 +14,7 @@ critics
 			[  builder bansRule: rule for: self methodClass ] ] ]
 		thenDo: [ :rule |
 			rule resetResult.
-			rule checkMethod: self.
-			rule critics ifNotEmpty: [
-				critics add: (ReCritic
-					for: self
-					by: rule
-					at: (rule result selectionIntervalFor: self definition)) ].
+			rule check: self forCriticsDo: [ :critic | critics add: critic ].
 			Processor yield ].
 	
 	ReEngine uniqueInstance notifyEntity: self CriticizedWith: critics. 

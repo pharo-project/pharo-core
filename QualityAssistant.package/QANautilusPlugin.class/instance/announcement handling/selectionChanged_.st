@@ -1,3 +1,0 @@
-selectionChanged: ann
-
-	self updateMorph  

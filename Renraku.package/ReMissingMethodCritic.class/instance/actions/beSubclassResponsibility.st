@@ -1,0 +1,3 @@
+beSubclassResponsibility
+
+	source := '^ self subclassResponsibility' 

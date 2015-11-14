@@ -1,0 +1,3 @@
+change
+	
+	^ self subclassResponsibility 

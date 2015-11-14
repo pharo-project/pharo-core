@@ -1,1 +1,0 @@
-I'm a ctitic report for an entity regarding a certain rule

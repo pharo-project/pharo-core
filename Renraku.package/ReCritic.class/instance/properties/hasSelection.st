@@ -1,3 +1,0 @@
-hasSelection
-
-	^ selection isNotNil 

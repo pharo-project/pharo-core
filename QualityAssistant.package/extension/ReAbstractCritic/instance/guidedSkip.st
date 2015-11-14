@@ -1,0 +1,3 @@
+guidedSkip
+
+	target guidedBan: self  

@@ -1,3 +1,0 @@
-isAutofixable
-
-	^ rule isTransformationRule 

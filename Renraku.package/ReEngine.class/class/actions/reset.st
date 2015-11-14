@@ -1,3 +1,3 @@
 reset
 	<script>
-	self uniqueInstance initialize
+	uniqueInstance := nil

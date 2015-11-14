@@ -1,0 +1,3 @@
+inspectorPluggin
+	
+	^ self uniqueInstance inspectorPluggin
