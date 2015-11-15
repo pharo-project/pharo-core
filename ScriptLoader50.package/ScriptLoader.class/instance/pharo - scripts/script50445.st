@@ -1,4 +1,4 @@
-script50444
+script50445
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -21,7 +21,7 @@ Athens-Morphic-TheIntegrator.59.mcz
 Athens-Text-NicolaiHess.16.mcz
 Balloon-TheIntegrator.126.mcz
 Balloon-Tests-TheIntegrator.2.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.12.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.17.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
@@ -120,7 +120,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.78.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.39.mcz
-HelpSystem-Core-TheIntegrator.133.mcz
+HelpSystem-Core-TheIntegrator.135.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.2.mcz
 HudsonBuildTools20-TheIntegrator.82.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2176.mcz
+Kernel-TheIntegrator.2178.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -232,12 +232,12 @@ OpalCompiler-Tests-TheIntegrator.311.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1289.mcz
+Polymorph-Widgets-TheIntegrator.1291.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.71.mcz
+QualityAssistant-YuriyTymchuk.79.mcz
 RPackage-Core-TheIntegrator.415.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-TheIntegrator.12.mcz
@@ -246,7 +246,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.292.mcz
-Refactoring-Critics-TheIntegrator.244.mcz
+Refactoring-Critics-TheIntegrator.246.mcz
 Refactoring-Environment-TheIntegrator.74.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
@@ -259,8 +259,8 @@ Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.18.mcz
-Renraku-YuriyTymchuk.82.mcz
-Renraku-Test-YuriyTymchuk.17.mcz
+Renraku-YuriyTymchuk.88.mcz
+Renraku-Test-YuriyTymchuk.18.mcz
 Ring-ChangesExtensions-TheIntegrator.1.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.233.mcz
@@ -272,7 +272,7 @@ RingChunkImporter-TheIntegrator.4.mcz
 Rubric-TorstenBergmann.298.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
-SUnit-Core-TheIntegrator.158.mcz
+SUnit-Core-TheIntegrator.160.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.129.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.848.mcz
+Traits-TheIntegrator.851.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

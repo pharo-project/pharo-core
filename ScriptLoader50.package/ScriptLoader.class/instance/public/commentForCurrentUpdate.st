@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '16916 QualityAssistant v2.0
-	https://pharo.fogbugz.com/f/cases/16916'
+ ^ '17012 simplify Class>>#copy
+	https://pharo.fogbugz.com/f/cases/17012
+
+17016 multiple close window shortcuts
+	https://pharo.fogbugz.com/f/cases/17016
+
+17013 improve #isUsed 
+	https://pharo.fogbugz.com/f/cases/17013'

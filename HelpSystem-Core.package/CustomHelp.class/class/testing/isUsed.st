@@ -1,5 +1,5 @@
 isUsed
 	"all my sublasses are used"
-	^self name = 'RBLintRule'
+	^self name = 'CustomHelp'
 		ifTrue: [ super isUsed ]
 		ifFalse: [ true ]
