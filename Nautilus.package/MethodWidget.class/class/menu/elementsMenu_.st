@@ -16,8 +16,8 @@ elementsMenu: aBuilder
 			action: [ target toggleBreakPoint ];
 			order: 199;
 			label: (target selectedMethod hasBreakpoint
-					ifFalse: [ 'Add breakpoint (experimental)']
-					ifTrue: [ 'Remove breakpoint (experimental)'] )].
+					ifFalse: [ 'Add breakpoint']
+					ifTrue: [ 'Remove breakpoint'] )].
 		
 	tmp := ((aBuilder item: #'Browse full')
 		keyText: 'b, f' if: Nautilus useOldStyleKeys not;

@@ -7,7 +7,6 @@ copy
 		setFormat: format;
 		setName: name;
 		organization: self organization copy;
-		instanceVariables: instanceVariables copy;
 		classPool: classPool copy;
 		sharedPools: sharedPools copy.
 	self class instSize+1 to: self class instSize do:

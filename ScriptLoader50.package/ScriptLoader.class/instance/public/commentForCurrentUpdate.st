@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17011 #instVarNames should get data from layout
-	https://pharo.fogbugz.com/f/cases/17011
+ ^ '17025 unify naming: break, not halt
+	https://pharo.fogbugz.com/f/cases/17025
 
-17018 Wrong Documention in WidgetExamples
-	https://pharo.fogbugz.com/f/cases/17018
+17023 Do not update instanceVariables ivar
+	https://pharo.fogbugz.com/f/cases/17023
 
-17019 Add a dedicated MethodContainsBreakAction
-	https://pharo.fogbugz.com/f/cases/17019'
+17020 PackageWidget has un-used packagesListElements variable
+	https://pharo.fogbugz.com/f/cases/17020'

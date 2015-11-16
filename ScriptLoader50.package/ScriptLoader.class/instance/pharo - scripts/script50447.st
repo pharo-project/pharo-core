@@ -1,4 +1,4 @@
-script50446
+script50447
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2178.mcz
+Kernel-TheIntegrator.2180.mcz
 Kernel-Tests-TheIntegrator.20.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -206,7 +206,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1145.mcz
+Nautilus-TheIntegrator.1148.mcz
 Nautilus-GroupManager-TheIntegrator.16.mcz
 Nautilus-GroupManagerUI-TheIntegrator.25.mcz
 Nautilus-Tests-TheIntegrator.26.mcz
@@ -252,7 +252,7 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.251.mcz
+Reflectivity-TheIntegrator.253.mcz
 Reflectivity-Examples-TheIntegrator.16.mcz
 Reflectivity-Tests-TheIntegrator.190.mcz
 Regex-Core-TheIntegrator.38.mcz
@@ -286,9 +286,9 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.702.mcz
-Slot-Tests-TheIntegrator.65.mcz
-SmartSuggestions-TheIntegrator.182.mcz
+Slot-TheIntegrator.705.mcz
+Slot-Tests-TheIntegrator.66.mcz
+SmartSuggestions-TheIntegrator.184.mcz
 SmartSuggestions-Tests-TheIntegrator.13.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.854.mcz
+Traits-TheIntegrator.856.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

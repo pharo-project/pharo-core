@@ -1,6 +1,6 @@
 breakpointSelectionMenu
 	^ UIManager default
-		chooseFrom: #('halt once' 'halt always' 'halt on condition')
+		chooseFrom: #('break once' 'break always' 'break on condition')
 		values:
 			{#once.
 			#always.

@@ -1,10 +1,7 @@
 showHierarchy: aBoolean
-	self okToChange
-		ifFalse: [ ^ nil ].
 	self packageWidget enabled: aBoolean not.
 	aBoolean
 		ifTrue: [ self basicShowHierarchy ].
-	self resetPackageGroupsList.
 	self resetClassesList.
 	self classWidget showHierarchy: aBoolean.
 	"If showPackages false(Hierarchy)-->true(Flat) then selected package needs to synch to that of selected class"

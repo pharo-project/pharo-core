@@ -1,2 +1,2 @@
 once
-	self installLink: self haltLinkOneShot.	
+	self installLink: self breakLinkOneShot.	

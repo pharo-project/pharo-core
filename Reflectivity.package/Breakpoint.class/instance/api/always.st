@@ -1,3 +1,3 @@
 always
-	self installLink: self haltLink.	
+	self installLink: self breakLink.	
 

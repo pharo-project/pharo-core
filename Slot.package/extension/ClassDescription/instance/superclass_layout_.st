@@ -5,5 +5,3 @@ superclass: aSuperclass layout: aLayout
 		superclass: aSuperclass
 		methodDictionary: MethodDictionary new
 		format: aLayout format.
-	
-	instanceVariables := layout instVarNames asArray

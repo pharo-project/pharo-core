@@ -1,5 +1,5 @@
 when: aCondition	
 	condition:= aCondition.
-	self installLink: self conditionalHaltLink.	
+	self installLink: self breakLinkConditional.	
 
 	

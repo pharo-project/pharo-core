@@ -1,5 +1,5 @@
 AbstractWidget subclass: #PackageWidget
-	instanceVariableNames: 'packagesList packagesSelection packagesListElements groupsSelection'
+	instanceVariableNames: 'packagesList packagesSelection groupsSelection'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Nautilus-Widgets'
