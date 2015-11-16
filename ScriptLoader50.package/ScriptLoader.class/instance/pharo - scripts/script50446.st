@@ -1,4 +1,4 @@
-script50445
+script50446
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -174,7 +174,7 @@ MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.506.mcz
 Morphic-Core-TheIntegrator.225.mcz
-Morphic-Examples-TheIntegrator.46.mcz
+Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Exporting-TheIntegrator.4.mcz
 Morphic-Tests-TheIntegrator.4.mcz
 Morphic-Widgets-Basic-TheIntegrator.66.mcz
@@ -206,11 +206,11 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1143.mcz
+Nautilus-TheIntegrator.1145.mcz
 Nautilus-GroupManager-TheIntegrator.16.mcz
 Nautilus-GroupManagerUI-TheIntegrator.25.mcz
 Nautilus-Tests-TheIntegrator.26.mcz
-NautilusCommon-TheIntegrator.293.mcz
+NautilusCommon-TheIntegrator.295.mcz
 NautilusGroupAutoBuilder-TheIntegrator.7.mcz
 NautilusRefactoring-TheIntegrator.256.mcz
 Network-Kernel-TheIntegrator.120.mcz
@@ -232,7 +232,7 @@ OpalCompiler-Tests-TheIntegrator.311.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1291.mcz
+Polymorph-Widgets-TheIntegrator.1293.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.851.mcz
+Traits-TheIntegrator.854.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
