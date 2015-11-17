@@ -1,2 +1,2 @@
 instanceVariables
-	^instanceVariables.
+	^self instVarNames.

@@ -5,7 +5,7 @@ initializeWidgets
 	self initializeSelectorList.
 	self initializeMethodBodyPane.
 	
-	showClassSide := self instantiate: RadioButtonModel.
+	showClassSide := self newCheckBox.
 	showClassSide label: 'Class side'.
 	showClassSide state: false.
 	

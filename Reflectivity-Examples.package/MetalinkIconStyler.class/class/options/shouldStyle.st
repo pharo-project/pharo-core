@@ -1,0 +1,2 @@
+shouldStyle
+	^false

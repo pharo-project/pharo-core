@@ -1,0 +1,2 @@
+iconBlock: aNode
+	^[:seg :event ]

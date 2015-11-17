@@ -1,4 +1,4 @@
-AbstractIconStyler subclass: #MetalinkIconStyler
+AbstractIconStyler subclass: #BreakpointIconStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

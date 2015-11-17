@@ -4,5 +4,5 @@ initializePresenter
 	self wireProtocols.
 	self wireSelectors.
 	
-	showClassSide stateHolder 
+	showClassSide 
 		whenChangedDo: [ self refreshClasses: self packages selectedItem ].

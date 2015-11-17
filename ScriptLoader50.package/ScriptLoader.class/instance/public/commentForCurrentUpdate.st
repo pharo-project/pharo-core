@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17029 New FastTable configuration (see description)
-	https://pharo.fogbugz.com/f/cases/17029
+ ^ '17027 nil out instanceVariables and remove accessor
+	https://pharo.fogbugz.com/f/cases/17027
 
-17026 Code critique should ignore meta link globals
-	https://pharo.fogbugz.com/f/cases/17026'
+17033 Visualization of Breakpoints 
+	https://pharo.fogbugz.com/f/cases/17033
+
+17030 ExternalBrowser can not switch back to the instance side 
+	https://pharo.fogbugz.com/f/cases/17030'

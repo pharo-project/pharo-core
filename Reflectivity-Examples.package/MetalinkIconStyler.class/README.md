@@ -1,1 +1,1 @@
-I'm in charge to styling an ast with highlighting. To highglight something I need the rubric text model in textModel.
+I'm in charge to style an ast when there are metalinks
