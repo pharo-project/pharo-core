@@ -1,5 +1,2 @@
 roots: aCollection children: aBlock
-	^ self new
-		items: aCollection;
-		childrenBlock: aBlock;
-		yourself
+	^ self root: (self rootItemFor: aCollection) children: aBlock

@@ -1,5 +1,5 @@
 FTDataSource subclass: #FTTreeDataSource
-	instanceVariableNames: 'childrenBlock items maxDepth'
-	classVariableNames: ''
+	instanceVariableNames: 'childrenBlock rootItem maxDepth searchStrategy'
+	classVariableNames: 'SearchStrategies'
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-FastTable-DataSource'
+	category: 'Morphic-Widgets-FastTable-Tree'

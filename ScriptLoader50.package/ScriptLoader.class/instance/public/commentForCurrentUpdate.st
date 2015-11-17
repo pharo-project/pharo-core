@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17025 unify naming: break, not halt
-	https://pharo.fogbugz.com/f/cases/17025
+ ^ '17029 New FastTable configuration (see description)
+	https://pharo.fogbugz.com/f/cases/17029
 
-17023 Do not update instanceVariables ivar
-	https://pharo.fogbugz.com/f/cases/17023
-
-17020 PackageWidget has un-used packagesListElements variable
-	https://pharo.fogbugz.com/f/cases/17020'
+17026 Code critique should ignore meta link globals
+	https://pharo.fogbugz.com/f/cases/17026'

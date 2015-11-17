@@ -1,0 +1,2 @@
+children: aCollectionOfItem 
+	children := aCollectionOfItem

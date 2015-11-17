@@ -1,2 +1,2 @@
-data: anObject
-	data := anObject
+data: aData
+	self subclassResponsibility 

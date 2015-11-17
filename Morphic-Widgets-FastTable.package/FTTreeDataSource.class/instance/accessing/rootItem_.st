@@ -1,0 +1,2 @@
+rootItem: anObject
+	rootItem := anObject

@@ -1,5 +1,5 @@
 Object subclass: #FTTreeItem
-	instanceVariableNames: 'data isExpanded dataSource children depth'
+	instanceVariableNames: 'dataSource children'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-FastTable-DataSource'
+	category: 'Morphic-Widgets-FastTable-Tree'

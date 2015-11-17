@@ -1,6 +1,8 @@
 filter
 	pattern ifNil: [ ^ self ].
-	table dataSource: (initialDataSource newDataSourceMatching: (self patternFromString: pattern)).
+	pattern
+		ifEmpty: [ table dataSource: initialDataSource readyToBeDisplayed.  ]
+		ifNotEmpty: [ table dataSource: (initialDataSource newDataSourceMatching: (self patternFromString: pattern)) ].
 	table refresh.
 	self isExplicite
 		ifTrue: [ self resizeWidget ]

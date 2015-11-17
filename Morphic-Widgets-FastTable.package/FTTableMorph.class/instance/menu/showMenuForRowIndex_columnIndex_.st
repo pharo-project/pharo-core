@@ -7,7 +7,8 @@ showMenuForRowIndex: rowIndex columnIndex: columnIndex
 	menu := self dataSource 
 		menuColumn: (columnIndex ifNotNil: [self columns at: columnIndex])
 		row: (rowIndex ifNil: [0]).
-	menu ifNil: [ ^ self ].
+		
+	(menu isNil or: [ menu isInWorld ]) ifTrue: [ ^ self ].
 	
 	menu popUpInWorld: self currentWorld
 

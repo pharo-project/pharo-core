@@ -1,0 +1,2 @@
+addSourceToRootItem
+	rootItem dataSource: self

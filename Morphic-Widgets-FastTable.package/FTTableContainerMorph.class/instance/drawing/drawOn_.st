@@ -1,8 +1,7 @@
 drawOn: canvas
 	| x y cellWidth cellHeight rowsToDisplay rowSubviews highligtedRowIndexes primarySelectionIndex |
 
-	self bounds ifNil: [ ^ self ]. "Nothing to show yet"
-	self owner ifNil: [ ^ self ].
+	(self bounds isNil or: [ self owner isNil ]) ifTrue: [ ^ self ]. "Nothing to show yet"
 
 	x := self left + self class rowLeftMargin.
 	y := self top.	

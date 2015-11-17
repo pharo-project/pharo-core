@@ -1,0 +1,2 @@
+pattern: aStringOrRegex
+	pattern := aStringOrRegex

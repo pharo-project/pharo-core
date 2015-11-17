@@ -1,8 +1,8 @@
 execute
 	actionBlock
 		cull: table dataSource
-		cull: field getTextFromModel
+		cull: field getTextFromModel asString
 		cull:
 			(table selectedRowIndex = 0
-				ifFalse: [ table dataSource elementAt: table selectedRowIndex ]
+				ifFalse: [ table dataSource realElementAt: table selectedRowIndex ]
 				ifTrue: [ nil ])

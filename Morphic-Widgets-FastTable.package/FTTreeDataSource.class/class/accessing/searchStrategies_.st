@@ -1,0 +1,2 @@
+searchStrategies: anObject
+	SearchStrategies := anObject

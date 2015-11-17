@@ -1,0 +1,2 @@
+expandAll
+	self subclassResponsibility

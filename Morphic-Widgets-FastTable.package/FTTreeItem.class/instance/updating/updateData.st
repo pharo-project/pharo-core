@@ -1,0 +1,2 @@
+updateData
+	self subclassResponsibility

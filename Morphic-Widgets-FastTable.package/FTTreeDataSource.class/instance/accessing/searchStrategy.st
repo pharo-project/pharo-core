@@ -1,0 +1,2 @@
+searchStrategy
+	^ searchStrategy ifNil: [ #default ]

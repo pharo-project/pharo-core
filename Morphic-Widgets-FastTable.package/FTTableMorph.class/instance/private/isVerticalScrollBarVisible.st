@@ -1,2 +1,2 @@
 isVerticalScrollBarVisible
-	^ self submorphs includes: self verticalScrollBar 
+	^ self verticalScrollBar owner isNotNil

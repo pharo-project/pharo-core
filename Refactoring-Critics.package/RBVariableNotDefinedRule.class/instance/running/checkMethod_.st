@@ -7,6 +7,7 @@ checkMethod: aMethod
 						ifFalse: [ 
 							(aMethod methodClass bindingOf: literal key) == literal
 								ifFalse: [ 
-									result
-										addMethod: aMethod;
-										addSearchString: literal key ] ] ] ]
+										(literal name = #RFMetaLink) ifFalse: [  
+											result
+											addMethod: aMethod;
+											addSearchString: literal key ] ] ] ] ]

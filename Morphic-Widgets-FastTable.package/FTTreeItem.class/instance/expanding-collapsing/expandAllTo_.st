@@ -1,0 +1,2 @@
+expandAllTo: aDepth
+	self subclassResponsibility
