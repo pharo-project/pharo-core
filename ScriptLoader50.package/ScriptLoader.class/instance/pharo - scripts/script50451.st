@@ -1,4 +1,4 @@
-script50450
+script50451
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -177,7 +177,7 @@ Morphic-Core-TheIntegrator.225.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Exporting-TheIntegrator.4.mcz
 Morphic-Tests-TheIntegrator.4.mcz
-Morphic-Widgets-Basic-TheIntegrator.66.mcz
+Morphic-Widgets-Basic-TheIntegrator.68.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-usmanbhatti.119.mcz
@@ -190,7 +190,7 @@ Morphic-Widgets-Tabs-TheIntegrator.16.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.17.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.80.mcz
+Morphic-Widgets-Windows-TheIntegrator.82.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -288,7 +288,7 @@ Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
-SmartSuggestions-TheIntegrator.186.mcz
+SmartSuggestions-TheIntegrator.188.mcz
 SmartSuggestions-Tests-TheIntegrator.13.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz

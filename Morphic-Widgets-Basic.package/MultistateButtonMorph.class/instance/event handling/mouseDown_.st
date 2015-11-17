@@ -4,4 +4,3 @@ mouseDown: evt
 	super mouseDown: evt.
 	self enabled ifFalse: [^self].
 	self down: true.
-	self triggerEvent: #down 

@@ -1,1 +1,1 @@
-This class defines AST node menus for breakpoints
+This class is an abstrat class for defining breakpoint commands

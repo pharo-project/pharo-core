@@ -4,6 +4,7 @@ mouseUp: evt
 	super mouseUp: evt.
 	self enabled ifFalse: [^self].
 	self down: false.
-	(self containsPoint: evt cursorPoint)
-		ifTrue: [self triggerEvent: #up]
-		ifFalse: [self triggerEvent: #upOutside]
+	
+	(self containsPoint: evt cursorPoint) ifTrue: [ 
+		self doAnnounce: (ButtonClicked morph: self).
+	]

@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17034 Improve discoverability of the smart Suggestions
-	https://pharo.fogbugz.com/f/cases/17034
+ ^ '17010 MultistateButtonMorph to use announcement instead of #triggerEvent: 
+	https://pharo.fogbugz.com/f/cases/17010
 
-17036 BreakPoints:  fix browser refresh after adding a breakpoint
-	https://pharo.fogbugz.com/f/cases/17036
-
-17031 add preference completing whole method. off by default
-	https://pharo.fogbugz.com/f/cases/17031'
+17037 Simplify suggestions for Breakpoints
+	https://pharo.fogbugz.com/f/cases/17037'
