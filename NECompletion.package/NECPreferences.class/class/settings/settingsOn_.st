@@ -19,6 +19,8 @@ settingsOn: aBuilder
 								domainValues: availableControllers ].
 					(aBuilder setting: #backgroundColor)
 						label: 'Background Color'.
+					(aBuilder setting: #overrideModel)
+						label: 'Complete whole methods'.	
 					(aBuilder setting: #expandPrefixes)
 						label: 'Complete common prefixes using TAB in the suggested completions' translated.
 					(aBuilder setting: #useEnterToAccept)

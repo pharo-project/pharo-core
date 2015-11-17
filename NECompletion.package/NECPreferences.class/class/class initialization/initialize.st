@@ -1,5 +1,6 @@
 initialize
 	enabled := true.
+	overrideModel := false.
 	caseSensitive := true.
 	smartCharacters := true.
 	expandPrefixes := true.
