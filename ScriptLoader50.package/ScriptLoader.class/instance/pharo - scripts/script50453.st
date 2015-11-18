@@ -1,4 +1,4 @@
-script50452
+script50453
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -172,8 +172,8 @@ MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.509.mcz
-Morphic-Core-TheIntegrator.225.mcz
+Morphic-Base-TheIntegrator.511.mcz
+Morphic-Core-TheIntegrator.228.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Exporting-TheIntegrator.4.mcz
 Morphic-Tests-TheIntegrator.6.mcz
@@ -187,10 +187,10 @@ Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.30.mcz
 Morphic-Widgets-Tabs-TheIntegrator.16.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.17.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.82.mcz
+Morphic-Widgets-Windows-TheIntegrator.84.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -206,7 +206,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1154.mcz
+Nautilus-TheIntegrator.1156.mcz
 Nautilus-GroupManager-TheIntegrator.16.mcz
 Nautilus-GroupManagerUI-TheIntegrator.25.mcz
 Nautilus-Tests-TheIntegrator.26.mcz
@@ -232,7 +232,7 @@ OpalCompiler-Tests-TheIntegrator.311.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1293.mcz
+Polymorph-Widgets-TheIntegrator.1295.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -269,7 +269,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.300.mcz
+Rubric-TheIntegrator.302.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.160.mcz
@@ -288,15 +288,15 @@ Shout-TheIntegrator.280.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
-SmartSuggestions-TheIntegrator.190.mcz
-SmartSuggestions-Tests-TheIntegrator.13.mcz
+SmartSuggestions-TheIntegrator.191.mcz
+SmartSuggestions-Tests-TheIntegrator.14.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.252.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.245.mcz
+Spec-MorphicAdapters-TheIntegrator.247.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.308.mcz
@@ -334,7 +334,7 @@ System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
 Text-Core-TheIntegrator.46.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.102.mcz
+Text-Edition-TheIntegrator.104.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz

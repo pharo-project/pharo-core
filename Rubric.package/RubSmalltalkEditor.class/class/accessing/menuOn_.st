@@ -1,10 +1,11 @@
 menuOn: aBuilder
 
 	<RubSmalltalkCodeMenu>
+	
 	aBuilder
 		item: 'Suggestions...';
-		selector: #smartSuggestions;
-		target: aBuilder model textArea editor;
+		selector: #value;
+		target: [SugsMenuBuilder showMenuFor: aBuilder model];
 		keyText: 't ';
 		order: 0;
 		icon: Smalltalk ui icons smallAuthoringTools;

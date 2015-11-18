@@ -13,7 +13,7 @@ windowsOn: aBuilder
 				action: [World expandAll];
 				help: 'Expand all collapsed windows back to their expanded forms' translated.
 			(aBuilder item: #'Fit all windows') 
-				action: [World fitAll];
+				action: [World fitAllVisibleWindows];
 				help: 'Fit all open windows as visible in World' translated.
 			(aBuilder item: #'Close all debuggers') 
 				action: [Smalltalk tools debugger closeAllDebuggers].

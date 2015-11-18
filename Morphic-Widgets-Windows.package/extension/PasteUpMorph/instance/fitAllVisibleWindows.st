@@ -1,4 +1,4 @@
-fitAll
+fitAllVisibleWindows
 	"Fit all windows as visible"
 	|allowedArea|
 	allowedArea := RealEstateAgent maximumUsableAreaInWorld: World.

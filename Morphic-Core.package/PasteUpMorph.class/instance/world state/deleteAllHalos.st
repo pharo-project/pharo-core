@@ -5,3 +5,4 @@ deleteAllHalos
 				ifTrue: [each target delete]].
 	self hands
 		do: [:each | each removeHalo]"
+	self flag: #???

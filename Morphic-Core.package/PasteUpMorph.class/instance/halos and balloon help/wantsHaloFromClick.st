@@ -1,3 +1,3 @@
 wantsHaloFromClick
-	(owner isSystemWindow) ifTrue: [^ false].
-	^ true.
+	 ^owner isSystemWindow not
+

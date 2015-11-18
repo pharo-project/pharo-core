@@ -6,7 +6,7 @@ smalltalkEditorMenuOn: aBuilder
 	"
 	<contextMenu>
 	<smalltalkEditorMenu>
-	
+	self deprecated: 'This appears to be dead code.'.
 	aBuilder
 				item: 'Suggestions'; 
 				selector: #smartSuggestions;

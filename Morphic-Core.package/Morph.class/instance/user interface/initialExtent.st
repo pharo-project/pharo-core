@@ -1,6 +1,3 @@
 initialExtent
-	| ext |
-	(ext := self valueOfProperty: #initialExtent)
-		ifNotNil:
-			[^ ext].
-	^700@500
+	
+	 ^(self valueOfProperty: #initialExtent) ifNil: [ 700@500 ] ifNotNil: [ :ext | ext ]

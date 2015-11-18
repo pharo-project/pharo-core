@@ -12,6 +12,6 @@ package: aPackage class: aClass protocol: aProtocol method: aMethod
 										protocol: aProtocol
 										method: aMethod).
 	self ui ifNotNil: [ self ui sourceTextModel announce: NautilusMethodSelected ].
-	self addIconStyle.
+	self ui ifNotNil: [ self ui resetIconStyle ].
 	
 	self registerHistoryNewEntry

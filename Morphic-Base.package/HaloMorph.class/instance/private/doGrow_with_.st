@@ -10,6 +10,6 @@ doGrow: evt with: growHandle
 		newExtent := (originalExtent x * scale) asInteger @ (originalExtent y * scale) asInteger
 	].
 	(newExtent x < 1 or: [newExtent y < 1 ]) ifTrue: [^ self].
-	target renderedMorph setExtentFromHalo: (extentToUse := newExtent).
+	target renderedMorph extent: (extentToUse := newExtent).
 	growHandle position: evt cursorPoint - (growHandle extent // 2).
 	self layoutChanged.
