@@ -1,6 +1,6 @@
 label
-	self hasUnacceptedEdits ifTrue: [ ^'accept to enable breakpoints' ].
+	self hasUnacceptedEdits ifTrue: [ ^'Accept to enable breakpoints' ].
 
 	^self selectedNodeHasBreakpoint
-		ifFalse: [ 'break here' translated ]
-		ifTrue: [ 'remove all breakpoints' translated ]
+		ifFalse: [ 'Break here' translated ]
+		ifTrue: [ 'Remove all breakpoints' translated ]

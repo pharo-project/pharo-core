@@ -3,9 +3,11 @@ metaLinkModified: anAnnouncement
 	window ifNil: [ ^ self ].
 	window isDisplayed ifFalse: [ ^ self ].
 	method := self selectedMethod.
+	method ifNil: [ ^self ].
+	
 	anAnnouncement link methods 
 		detect: [ :meth | meth selector = method selector ]
-		ifFound: [ 			
+		ifFound: [ 	
 				self forceSelectedMethod: method.
 				self updateCategoryAndMethodList.
 				self highlightCategory: method]

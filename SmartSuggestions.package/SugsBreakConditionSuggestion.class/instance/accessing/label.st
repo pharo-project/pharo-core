@@ -1,2 +1,2 @@
 label
-	^'break on condition' translated
+	^'Break on condition' translated

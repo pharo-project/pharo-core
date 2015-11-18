@@ -4,4 +4,5 @@ wireClasses
 			self resetProtocolSelection.
 			class 
 				ifNil: [ protocols items: #() ] 
-				ifNotNil: [ protocols items: (self protocolsOfClass: class) ] ]
+				ifNotNil: [ protocols items: (self protocolsOfClass: class).
+					         self showClassDefinition ] ]
