@@ -1,0 +1,2 @@
+numMethodTempVars
+	^ numMethodTempVars

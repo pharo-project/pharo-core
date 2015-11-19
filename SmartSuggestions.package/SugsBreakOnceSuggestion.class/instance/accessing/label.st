@@ -1,2 +1,2 @@
 label
-	^ 'Break once here' translated
+	^ 'Break once' translated
