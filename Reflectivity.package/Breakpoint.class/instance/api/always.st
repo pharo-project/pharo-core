@@ -1,3 +1,3 @@
 always
-	self installLink: self breakLink.	
+	self link: self breakLink.	
 

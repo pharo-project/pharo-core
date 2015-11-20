@@ -1,3 +1,0 @@
-removeLabel
-	
-	^ 'Remove'

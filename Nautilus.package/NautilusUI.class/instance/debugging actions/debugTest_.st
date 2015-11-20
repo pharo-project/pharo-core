@@ -1,4 +1,6 @@
 debugTest: aMethod
-	(Breakpoint in: aMethod ast) 
-		once.
+	Breakpoint new
+		node: aMethod ast; 
+		once;
+		install.
 	aMethod methodClass run: aMethod selector.

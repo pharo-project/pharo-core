@@ -4,4 +4,4 @@ toggleBreakOnEntryIn: aMethod
 	aMethod ifNil: [ ^ self ].
 	aMethod hasBreakpoint
 		ifTrue: [ Breakpoint removeFrom: aMethod ast]
-		ifFalse: [ (Breakpoint in: aMethod ast) always]
+		ifFalse: [ Breakpoint new node: aMethod ast; always; install]

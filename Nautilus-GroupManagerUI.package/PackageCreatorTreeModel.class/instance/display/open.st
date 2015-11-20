@@ -1,4 +1,4 @@
 open
-	(DialogGroupManagerWithPackagesSelectionUI on: self)
+	(DialogGroupManagerUI on: self)
 		title: 'Group Manager' translated;
 		openInWorld

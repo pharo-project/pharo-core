@@ -1,1 +1,0 @@
-I am a UI to add packages in groups with the possibility to select multiple ones

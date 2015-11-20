@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '13854 frameSize calculated wrongly for #lineSegmentsDo: 
-	https://pharo.fogbugz.com/f/cases/13854
+ ^ '17053 Merge DialogGroupManagerWithPackagesSelectionUI  into DialogGroupManagerUI
+	https://pharo.fogbugz.com/f/cases/17053
 
-17055 simplify Breakpoint API and menu entries a little
-	https://pharo.fogbugz.com/f/cases/17055
+17059 builder style API for Breakpoint
+	https://pharo.fogbugz.com/f/cases/17059
 
-17052 Small cleanup GroupManager model
-	https://pharo.fogbugz.com/f/cases/17052
-
-17051 browsing a method directly via spotter does not show visualization of breakpoints if it has any breakpoint
-	https://pharo.fogbugz.com/f/cases/17051'
+17058 recompile whole image after compiler change
+	https://pharo.fogbugz.com/f/cases/17058'

@@ -1,0 +1,2 @@
+link: aMetaLink
+	link := aMetaLink

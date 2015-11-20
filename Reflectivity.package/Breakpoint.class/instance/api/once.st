@@ -1,2 +1,2 @@
 once
-	self installLink: self breakLinkOneShot.	
+	self link: self breakLinkOneShot.	
