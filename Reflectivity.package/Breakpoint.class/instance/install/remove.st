@@ -1,3 +1,4 @@
 remove	 
-	link uninstall
+	link uninstall.
+	AllBreakpoints remove: self.
 	

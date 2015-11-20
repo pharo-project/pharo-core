@@ -10,7 +10,7 @@ hookFor: aLink
 				ifTrue: [RFLiteralVariableNode value: aLink metaObject]
 				ifFalse: [RBMessageNode receiver: (RFLiteralVariableNode value: aLink)
 											 selector: #metaObject ]].
-	hook := RBMessageNode 
+	hook := RFMessageNode 
 		receiver: receiver
 		selector: aLink selector 
 		arguments: (aLink arguments collect: [: each | self genReification: each for: aLink]).

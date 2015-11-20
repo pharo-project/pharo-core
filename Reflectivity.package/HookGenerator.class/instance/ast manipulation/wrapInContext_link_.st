@@ -1,5 +1,5 @@
 wrapInContext: hook link: aLink
-	^RBMessageNode 
+	^RFMessageNode 
 		receiver: aLink asLiteralNode
 		selector: #valueInContext:
 		arguments: {self encloseInBlock: hook}

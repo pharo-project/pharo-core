@@ -1,2 +1,3 @@
-removeAll
-	self allInstancesDo: #remove.
+removeAll 
+	<script>
+	AllBreakpoints do: #remove.

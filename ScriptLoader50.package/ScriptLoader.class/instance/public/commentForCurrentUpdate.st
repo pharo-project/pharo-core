@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17053 Merge DialogGroupManagerWithPackagesSelectionUI  into DialogGroupManagerUI
-	https://pharo.fogbugz.com/f/cases/17053
+ ^ '17068 fix debug highlight of breakpoints
+	https://pharo.fogbugz.com/f/cases/17068
 
-17059 builder style API for Breakpoint
-	https://pharo.fogbugz.com/f/cases/17059
-
-17058 recompile whole image after compiler change
-	https://pharo.fogbugz.com/f/cases/17058'
+17067 Breakpoint #removeAll
+	https://pharo.fogbugz.com/f/cases/17067'

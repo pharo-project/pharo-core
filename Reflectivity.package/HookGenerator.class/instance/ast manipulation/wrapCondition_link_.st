@@ -21,7 +21,7 @@ wrapCondition: hook link: aLink
 											 selector: #condition ])
 			selector: condSelector
 			arguments: condArguments.
-	^RBMessageNode
+	^RFMessageNode
 				receiver: conditionExpression
 				selector: #ifTrue:
 				arguments: {linkBlock}

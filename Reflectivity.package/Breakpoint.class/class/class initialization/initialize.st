@@ -1,0 +1,2 @@
+initialize
+	AllBreakpoints := OrderedCollection new

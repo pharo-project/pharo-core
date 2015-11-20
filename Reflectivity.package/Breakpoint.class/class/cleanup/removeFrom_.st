@@ -1,4 +1,5 @@
 removeFrom: aNode
-	| links |
+	| links breakpointsToRemove |
 	links := aNode beforeLinks select: [ :link | link metaObject = Break].
-	links do: #uninstall.
+	breakpointsToRemove := AllBreakpoints select: [ :br | links includes: br link].
+	breakpointsToRemove do: #remove.
