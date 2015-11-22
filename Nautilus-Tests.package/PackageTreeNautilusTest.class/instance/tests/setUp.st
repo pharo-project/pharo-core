@@ -1,4 +1,4 @@
 setUp
 	super setUp.
-	self compiledMethod: (PackageTreeNautilusUI>>#addClassIn:).
+	self compiledMethod: (NautilusUI>>#addClassIn:).
 	lastValue := SharedPackageFilterPatternsHolder instance lastValue.

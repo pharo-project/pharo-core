@@ -1,0 +1,2 @@
+classAffected: anObject
+	classAffected := anObject

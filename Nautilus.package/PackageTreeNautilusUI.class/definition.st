@@ -1,5 +1,5 @@
 NautilusUI subclass: #PackageTreeNautilusUI
-	instanceVariableNames: 'packagePattern searchWidget packagePatternString'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Nautilus-Tree'
+	category: 'Nautilus'

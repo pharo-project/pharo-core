@@ -11,4 +11,6 @@ renameClass: aClass from: oldName to: newName
 	self add: oldref.  "Old association preserves old refs"
 	Smalltalk renamedClass: aClass from: oldName to: newName.
 	self flushClassNameCache.
-	SystemAnnouncer uniqueInstance classRenamed: aClass from: oldName to: newName inCategory: category
+	SystemAnnouncer uniqueInstance classRenamed: aClass from: oldName to: newName inCategory: category.
+	aClass subclassesDo:[:subclass |
+		SystemAnnouncer uniqueInstance classParentOf: subclass renamedFrom: oldName to: newName].

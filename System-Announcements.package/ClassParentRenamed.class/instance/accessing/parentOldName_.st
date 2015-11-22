@@ -1,0 +1,2 @@
+parentOldName: anObject
+	parentOldName := anObject

@@ -1,5 +1,6 @@
 fullBrowse
-	^ self model class
+	| ret |
+	ret := self model class
 		openOnPackage: self selectedPackage
 		class: self selectedClass
 		category: self selectedCategory
@@ -9,4 +10,7 @@ fullBrowse
 		showHierarchy: self showHierarchy
 		showComment: self showComment
 		showInstance: self showInstance
-		showCategories: true
+		showCategories: true.
+		
+	ret packagePatternString: self packagePatternString.
+	^ret.

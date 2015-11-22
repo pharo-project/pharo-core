@@ -1,0 +1,2 @@
+parentNewName: anObject
+	parentNewName := anObject
