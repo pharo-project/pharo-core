@@ -1,4 +1,4 @@
-script50457
+script50458
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -34,13 +34,13 @@ Collections-Abstract-TheIntegrator.311.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.221.mcz
+Collections-Sequenceable-TheIntegrator.223.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.380.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.20.mcz
-Collections-Unordered-TheIntegrator.226.mcz
+Collections-Tests-TheIntegrator.22.mcz
+Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.93.mcz
 CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.598.mcz
