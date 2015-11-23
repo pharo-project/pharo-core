@@ -28,8 +28,8 @@ testClassRespectsPolymorphismWithTrait
 			#basicLocalSelectors: #traitComposition #addInstVarNamed: #newAnonymousSubclass #definitionForNautilus #definitionForNautilusWithSlots #addSlot:
 			) asSet.
 		
-	"#classTrait:, #isClassTrait, #classTrait, #isBaseTrait and #baseTrait have their equivalent for classes but with different name
-	#nautilusIcon and #initialize are implemented differently for traits, classes have their implentation in Object"
+	"#classTrait:, #isClassTrait, #classTrait, #isBaseTrait and #baseTrait have their equivalent for classes but with different name.
+	 #initialize is implemented differently for traits, classes have their implentation in Object"
 	self
 		assertCollection: (Trait localSelectors difference: Class localSelectors)
 		equals: #(

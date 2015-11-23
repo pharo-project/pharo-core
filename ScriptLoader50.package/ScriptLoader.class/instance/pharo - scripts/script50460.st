@@ -1,4 +1,4 @@
-script50459
+script50460
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -79,7 +79,7 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.392.mcz
 FuelTools-Debugger-StephaneDucasse.12.mcz
-GT-Inspector-AndreiChis.344.mcz
+GT-Inspector-TheIntegrator.346.mcz
 GT-InspectorExtensions-Core-AndreiChis.178.mcz
 GT-Playground-AndreiChis.115.mcz
 GT-Spotter-AndreiChis.325.mcz
@@ -130,7 +130,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2184.mcz
-Kernel-Tests-TheIntegrator.20.mcz
+Kernel-Tests-TheIntegrator.22.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -161,7 +161,7 @@ Metacello-TestsCommonMC.pharo20-EstebanLorenzano.4.mcz
 Metacello-TestsPlatform.squeakCommon-MarcusDenker.19.mcz
 Metacello-ToolBox-TheIntegrator.143.mcz
 Metacello-Tutorial-EstebanLorenzano.27.mcz
-Monticello-TheIntegrator.1093.mcz
+Monticello-TheIntegrator.1095.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.31.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -324,8 +324,8 @@ System-OSEnvironments-TheIntegrator.4.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-Settings-TheIntegrator.324.mcz
-System-Settings-Tests-TheIntegrator.6.mcz
+System-Settings-TheIntegrator.326.mcz
+System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
 System-Support-TheIntegrator.1177.mcz
@@ -358,7 +358,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1515.mcz
 Tools-Test-TheIntegrator.4.mcz
-Traits-TheIntegrator.858.mcz
+Traits-TheIntegrator.860.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

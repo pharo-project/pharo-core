@@ -1,7 +1,7 @@
 registerInterestOnSystemChangesOnAnnouncer: anAnnouncer
 	anAnnouncer 
 		when: RPackageRenamed send: #packageRenamed: to: self;
-		when: ClassAdded, ClassModifiedClassDefinition, ClassRenamed, ClassCommented send: #classModified: to: self;
+		when: ClassAdded, ClassModifiedClassDefinition, ClassRenamed, ClassCommented , ClassParentRenamed send: #classModified: to: self;
 		when: ClassRepackaged send: #classMoved: to: self;
 		when: ClassRemoved send: #classRemoved: to: self;
 		when: MethodAdded, MethodModified, MethodRecategorized send: #methodModified: to: self;
