@@ -1,5 +1,5 @@
 Object subclass: #DebugSession
-	instanceVariableNames: 'interruptedContext interruptedProcess errorWasInUIProcess'
-	classVariableNames: ''
+	instanceVariableNames: 'name interruptedContext interruptedProcess errorWasInUIProcess'
+	classVariableNames: 'LogDebuggerStackToFile'
 	poolDictionaries: ''
 	category: 'DebuggerModel'

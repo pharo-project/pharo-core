@@ -1,16 +1,14 @@
 debug: aCompiledMethod receiver: anObject in: evalContext
-
- 	 | guineaPig debugger context |
-
-       guineaPig := [
-              aCompiledMethod
-                       valueWithReceiver: anObject
-                       arguments: (evalContext ifNil: [ #() ] ifNotNil: [ { evalContext } ]) ] newProcess.
-       context := guineaPig suspendedContext.
-       debugger :=  Smalltalk tools debugger new
-               process: guineaPig
-               controller: nil
-               context: context.
-       debugger openFullNoSuspendLabel: 'Debug it'.
-       [ debugger interruptedContext method == aCompiledMethod ]
-               whileFalse: [ debugger send ]
+	| guineaPig context debugSession |
+	guineaPig := [ aCompiledMethod
+		valueWithReceiver: anObject
+		arguments: (evalContext ifNil: [ #() ] ifNotNil: [ {evalContext} ]) ]
+		newProcess.
+	context := guineaPig suspendedContext.
+	
+	debugSession := guineaPig newDebugSessionNamed: 'debug it' startedAt: context.
+	debugSession stepIntoUntil: [:currentContext | 
+		currentContext method == aCompiledMethod ].
+	
+	Smalltalk tools debugger openOn: debugSession withFullView: true.
+	

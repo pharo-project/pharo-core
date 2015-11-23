@@ -1,0 +1,3 @@
+isAboutUIProcess
+
+	^errorWasInUIProcess 

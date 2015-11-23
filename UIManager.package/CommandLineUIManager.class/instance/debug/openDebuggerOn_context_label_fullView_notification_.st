@@ -1,4 +1,4 @@
-debugProcess: process context: context title: title full: bool
+openDebuggerOn: process context: context label: title fullView: bool notification: notificationString
 	| description |
 	description := String streamContents: [ :stream |
 		stream
@@ -7,7 +7,8 @@ debugProcess: process context: context title: title full: bool
 			cr;
 			nextPutAll: 'context:';
 			cr;
-			print: context ].
+			print: context.
+		notificationString ifNotNil: [ stream nextPutAll: notificationString ] ].
 	self 
 		logTitle: title
 		andDescription: description 

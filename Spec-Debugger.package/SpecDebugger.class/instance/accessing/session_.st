@@ -1,3 +1,4 @@
 session: aSession
 
-	sessionHolder value: aSession 
+	sessionHolder value: aSession.
+	self label: aSession name

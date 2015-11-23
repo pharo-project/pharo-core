@@ -1,7 +1,7 @@
 debug: context title: title full: bool
 	
 	^ UIManager default
-		debugProcess: self 
+		openDebuggerOn: self 
 		context: context 
-		title: title 
-		full: bool
+		label: title 
+		fullView: bool

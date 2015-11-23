@@ -1,4 +1,4 @@
-script50460
+script50461
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -53,7 +53,7 @@ ContributingToTheCatalogHelp-TheIntegrator.4.mcz
 Debugger-Tests-TheIntegrator.2.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.112.mcz
+DebuggerModel-TheIntegrator.114.mcz
 Deprecated50-TheIntegrator.32.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -78,7 +78,7 @@ Fuel-TheIntegrator.817.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.392.mcz
-FuelTools-Debugger-StephaneDucasse.12.mcz
+FuelTools-Debugger-TheIntegrator.14.mcz
 GT-Inspector-TheIntegrator.346.mcz
 GT-InspectorExtensions-Core-AndreiChis.178.mcz
 GT-Playground-AndreiChis.115.mcz
@@ -129,7 +129,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2184.mcz
+Kernel-TheIntegrator.2185.mcz
 Kernel-Tests-TheIntegrator.22.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -232,7 +232,7 @@ OpalCompiler-Tests-TheIntegrator.313.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1295.mcz
+Polymorph-Widgets-TheIntegrator.1298.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -269,7 +269,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.302.mcz
+Rubric-TheIntegrator.304.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.160.mcz
@@ -291,7 +291,7 @@ Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.197.mcz
 SmartSuggestions-Tests-TheIntegrator.14.mcz
 Spec-Core-TheIntegrator.440.mcz
-Spec-Debugger-TheIntegrator.252.mcz
+Spec-Debugger-TheIntegrator.255.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
@@ -334,7 +334,7 @@ System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
 Text-Core-TheIntegrator.46.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.104.mcz
+Text-Edition-TheIntegrator.106.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
@@ -356,8 +356,8 @@ Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
-Tools-TheIntegrator.1515.mcz
-Tools-Test-TheIntegrator.4.mcz
+Tools-TheIntegrator.1518.mcz
+Tools-Test-TheIntegrator.6.mcz
 Traits-TheIntegrator.860.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
@@ -365,7 +365,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.171.mcz
+UIManager-TheIntegrator.173.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

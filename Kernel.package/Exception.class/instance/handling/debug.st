@@ -3,4 +3,3 @@ debug
 	Processor activeProcess 
 		debug: self signalerContext
 		title: self description
-		full: false
