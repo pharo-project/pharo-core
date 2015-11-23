@@ -1,2 +1,2 @@
 open
-	^ (self uiClass on: self) open
+	^ (FinderUI on: self) open

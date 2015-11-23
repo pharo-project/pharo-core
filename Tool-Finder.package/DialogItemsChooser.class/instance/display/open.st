@@ -1,5 +1,5 @@
 open
 
-	(self uiClass on: self)
+	(DialogItemsChooserUI on: self)
 			title: self title;
 			openInWorld

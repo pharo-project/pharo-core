@@ -1,5 +1,5 @@
-NautilusUI subclass: #PackageTreeNautilusUI
+Announcer subclass: #ReSystemAnnouncer
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Nautilus'
+	category: 'Renraku-Announcements'

@@ -1,5 +1,13 @@
 removeRenrakuCrap
+
+	| qaPackage |
+	
+	qaPackage := (#QualityAssistant asPackageIfAbsent: [ ^ self ]).
+	
+	self removedExtendedCLasses do: [ :className |
+		className asClassIfPresent: [ :class |
+			class protocols
+    			select: [ :prot | prot asLowercase beginsWith: qaPackage methodCategoryPrefix ]
+    			thenDo: [ :prot | class removeProtocol: prot ] ] ].
     
-  #ReCritic asClassIfPresent: [ :class | class removeProtocol: '*qualityAssistant' ].
-    
-	#QualityAssistant asPackage mcWorkingCopy modified: false
+	qaPackage mcWorkingCopy modified: false

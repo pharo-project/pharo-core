@@ -1,4 +1,4 @@
-script50461
+script50462
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -206,10 +206,10 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1163.mcz
+Nautilus-TheIntegrator.1165.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
-Nautilus-Tests-TheIntegrator.28.mcz
+Nautilus-Tests-TheIntegrator.30.mcz
 NautilusCommon-TheIntegrator.295.mcz
 NautilusGroupAutoBuilder-TheIntegrator.7.mcz
 NautilusRefactoring-TheIntegrator.256.mcz
@@ -227,7 +227,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.753.mcz
+OpalCompiler-Core-TheIntegrator.755.mcz
 OpalCompiler-Tests-TheIntegrator.313.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -289,7 +289,7 @@ Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.197.mcz
-SmartSuggestions-Tests-TheIntegrator.14.mcz
+SmartSuggestions-Tests-TheIntegrator.16.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.255.mcz
 Spec-Examples-TheIntegrator.98.mcz
@@ -343,12 +343,12 @@ Tool-Catalog-TorstenBergmann.29.mcz
 Tool-CriticBrowser-TheIntegrator.19.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
-Tool-DependencyAnalyser-UI-ChristopheDemarey.36.mcz
+Tool-DependencyAnalyser-UI-TheIntegrator.38.mcz
 Tool-Diff-TheIntegrator.21.mcz
 Tool-ExternalBrowser-TheIntegrator.42.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.53.mcz
+Tool-Finder-TheIntegrator.55.mcz
 Tool-ImageCleaner-TheIntegrator.10.mcz
 Tool-ProcessBrowser-TheIntegrator.10.mcz
 Tool-Profilers-TheIntegrator.19.mcz

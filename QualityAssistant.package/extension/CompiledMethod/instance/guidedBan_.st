@@ -2,7 +2,7 @@ guidedBan: aCritic
 
 	| candidates |
 	
-	ReEngine uniqueInstance notifyBanInitiatedFor: aCritic of: self.
+	ReSystemAnnouncer uniqueInstance notifyBanInitiatedFor: aCritic of: self.
 	
 	candidates := { self . self methodClass }.
 	

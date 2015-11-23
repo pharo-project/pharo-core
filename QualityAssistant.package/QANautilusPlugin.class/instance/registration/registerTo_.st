@@ -6,7 +6,7 @@ registerTo: aModel
 		when: NautilusProtocolSelected send: #otherSelected:  to: self; 	 
 		when: NautilusMethodSelected   send: #methodSelected: to: self.
 		
-	ReEngine uniqueInstance announcer weak
+	ReSystemAnnouncer uniqueInstance weak
 		when: ReCriticBanned
 		send: #criticBanned:
 		to: self

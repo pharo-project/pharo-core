@@ -2,4 +2,4 @@ setUp
 	"Setting up code for NautilusUITest"
 
 
-	nautilusUI := PackageTreeNautilusUI on: Nautilus new.
+	nautilusUI := NautilusUI on: Nautilus new.

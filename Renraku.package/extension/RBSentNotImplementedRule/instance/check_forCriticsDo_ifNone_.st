@@ -1,13 +1,14 @@
 check: aMethod forCriticsDo: aCriticBlock ifNone: alternativeBlock
 
-	| messages |
-	messages := aMethod messages reject: [ :each | each == aMethod selector or: [ self implementorsExists: each ] ].
-	messages
-		ifEmpty: [ alternativeBlock value ]
-		ifNotEmpty: [ :collection |
-			collection collect: [ :message |
-				ReStringSearchCritic
+	| implementors |
+	implementors := (SystemNavigation default allMethods collect: #selector) asSet.
+	
+	(aMethod messages
+		select: [ :each | (implementors includes: each) not ]
+		thenCollect: [ :each |
+			aCriticBlock cull: (ReStringSearchCritic
 					for: aMethod
 					by: self
-					badSubstring: message ]
-			thenDo: [ :critic | aCriticBlock value: critic ] ]
+					badSubstring: each) ])
+				
+	ifEmpty: alternativeBlock 

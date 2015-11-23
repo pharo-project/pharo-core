@@ -1,5 +1,5 @@
-pre0_9_0: spec
-	<version: 'v0.9.0-pre'>
+pre0_10_0: spec
+	<version: 'v0.10.0-pre'>
 	
 	spec
 		for: #'common'

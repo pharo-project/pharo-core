@@ -5,7 +5,7 @@ critics
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := ReEngine uniqueInstance classRules.
+	rules := ReRuleManager uniqueInstance classRules.
 	critics := Set new.
 	rules
 		reject: [ :rule |
@@ -16,6 +16,6 @@ critics
 			rule check: self forCriticsDo: [ :critic | critics add: critic ].
 			Processor yield ].
 	
-	ReEngine uniqueInstance notifyEntity: self CriticizedWith: critics. .
+	ReSystemAnnouncer uniqueInstance notifyEntity: self CriticizedWith: critics. .
 	
 	^ critics
