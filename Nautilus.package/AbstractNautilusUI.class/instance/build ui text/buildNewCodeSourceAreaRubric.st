@@ -7,6 +7,7 @@ buildNewCodeSourceAreaRubric
 		withTextSegmentIcons;
 		yourself.
 	self updateSourceCodeAreaWith: self sourceCode.
+	self sourceTextModel hasUnacceptedEdits: false.
 	scrolledText textArea announcer when: RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self.
 	self sourceTextModel announcer weak
 		when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self;

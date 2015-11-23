@@ -1,2 +1,5 @@
 methods
-	^nodes collect: [ :node | node methodNode compiledMethod ] as: Set
+	^nodes flatCollect: [ :entity |
+		(entity isKindOf: RBProgramNode) 
+			ifTrue: [ {entity methodNode compiledMethod}  ]
+			ifFalse: [ entity usingMethods ] ]
