@@ -7,6 +7,6 @@ notify: anError at: aLocation in: source
 		code: source
 		error: anError
 		location: aLocation
-		debugger: (Smalltalk tools debugger context: thisContext)
+		debugSession: (Processor activeProcess newDebugSessionNamed: 'Stack of the Syntax Error' startedAt: thisContext)
 		doitFlag: false.
 	self class open: self.

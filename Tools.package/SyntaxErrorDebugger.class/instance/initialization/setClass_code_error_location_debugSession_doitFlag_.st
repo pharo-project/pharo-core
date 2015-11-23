@@ -1,9 +1,9 @@
-setClass: aClass code: aString error: errorMessage location: anErrorPosition debugger: aDebugger doitFlag: flag
+setClass: aClass code: aString error: errorMessage location: anErrorPosition debugSession: aDebugSession doitFlag: flag
 
 	class := aClass.
 	error := errorMessage.
-	location := anErrorPosition.
-	debugger := aDebugger.
+	location := anErrorPosition.	
+	debugSession := aDebugSession.
 	selector := aClass compiler parseSelector: aString.
 	contents := self checkForUnprintableCharacters: aString.
 	self highlightError.

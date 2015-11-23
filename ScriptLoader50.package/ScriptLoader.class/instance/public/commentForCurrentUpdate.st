@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17081 remove PackageTreeNautilusUI
-	https://pharo.fogbugz.com/f/cases/17081
+ ^ '17082 Opening debugger API cleanup. Part2
+	https://pharo.fogbugz.com/f/cases/17082
 
-17085 QualityAssistant v2.1
-	https://pharo.fogbugz.com/f/cases/17085
+17093 use Set #parseOptions: in Opal
+	https://pharo.fogbugz.com/f/cases/17093
 
-17078 Dont transform method argument access extra tempVars for to:do: transformations
-	https://pharo.fogbugz.com/f/cases/17078'
+17092 Make ensure: wrapping optional for #after on sends
+	https://pharo.fogbugz.com/f/cases/17092'

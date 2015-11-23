@@ -5,6 +5,6 @@ notify: message at: location in: code
 		inClass: STCommandLineHandler
 		category: nil 
 		withCode: code
-		doitFlag: nil
+		doitFlag: false
 		errorMessage: message
 		location: location.

@@ -6,7 +6,7 @@ syntaxError: aSyntaxError
 		code: aSyntaxError errorCode
 		error: aSyntaxError errorMessage
 		location: aSyntaxError location
-		debugger: (Smalltalk tools debugger context: aSyntaxError signalerContext)
+		debugSession: (Processor activeProcess newDebugSessionNamed: 'Stack of the Syntax Error' startedAt: aSyntaxError signalerContext)
 		doitFlag: aSyntaxError doitFlag.
 		
 	self category: aSyntaxError category.
