@@ -1,3 +1,0 @@
-handlesMouseUp: event
-
-	^ true

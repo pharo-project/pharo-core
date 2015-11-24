@@ -4,9 +4,7 @@ testBasic
 	process := Process
 		forContext: context
 		priority: Processor userInterruptPriority.
-	debugger := Smalltalk tools debugger new
-		process: process
-		context: context.
+	debugger := Smalltalk tools debugger on: (process newDebugSessionNamed: 'test debugging' startedAt: context).
 	debugger stack expand.
 	self assert: debugger stack selectedIndex = 1.
 	printedString := OpalCompiler isActive

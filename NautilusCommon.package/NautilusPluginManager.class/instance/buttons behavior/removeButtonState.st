@@ -1,3 +1,2 @@
 removeButtonState
-	
-	^ self selectedPlugins isEmpty not
+	^ self selectedPlugins isNotEmpty

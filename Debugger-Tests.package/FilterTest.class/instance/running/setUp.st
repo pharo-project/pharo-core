@@ -4,13 +4,10 @@ setUp
 	process := Process 
 		forContext: context 
 		priority: Processor userInterruptPriority.
-	session := DebugSession 
-		process: process 
-		context: context.
+	session := process newDebugSessionNamed: 'test session' startedAt: context.
 	nilContext := [ self isNil ] asContext.
 	otherProcess := Process 
 		forContext: nilContext 
 		priority: Processor userInterruptPriority.
-	otherSession := (DebugSession 
-		process: otherProcess 
-		context: nilContext) stepInto
+	otherSession := otherProcess newDebugSessionNamed: 'other session' startedAt: nilContext.
+	otherSession stepInto

@@ -1,7 +1,5 @@
 testCorrectlyCreateDebugSession
 
-	session := DebugSession process: process context: context.
-
 	self assert: session isNotNil.	
 	self assert: process isSuspended.
 	self assert: session interruptedContext equals: context.

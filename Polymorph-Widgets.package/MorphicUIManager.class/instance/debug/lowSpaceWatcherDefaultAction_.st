@@ -1,6 +1,6 @@
-interruptName: labelString preemptedProcess: theInterruptedProcess
+lowSpaceWatcherDefaultAction: theInterruptedProcess
 	"Create a Notifier on the active scheduling process with the given label."
-	| preemptedProcess projectProcess |
+	| preemptedProcess projectProcess debugSession |
 	ActiveHand ifNotNil:[ActiveHand interrupted].
 	ActiveWorld := World. "reinstall active globals"
 	ActiveHand := World primaryHand.
@@ -13,4 +13,13 @@ interruptName: labelString preemptedProcess: theInterruptedProcess
 	preemptedProcess priority < projectProcess priority 
 		ifTrue:[preemptedProcess := projectProcess].
 	preemptedProcess suspend.
-	Smalltalk tools debugger openInterrupt: labelString onProcess: preemptedProcess.
+	
+	debugSession := preemptedProcess 
+		newDebugSessionNamed: 'Space is low' 
+		startedAt: preemptedProcess suspendedContext.		
+	debugSession logStackToFileIfNeeded.
+	
+	Smalltalk tools debugger 
+		openOn: debugSession 
+		withFullView: false 
+		andNotification: self lowSpaceWarningMessage

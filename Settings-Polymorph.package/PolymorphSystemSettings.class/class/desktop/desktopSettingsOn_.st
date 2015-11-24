@@ -16,5 +16,16 @@ desktopSettingsOn: aBuilder
 			(aBuilder setting: #desktopImageFileName)
 				type: #FilePathEncoder;
 				description: 'The path of an image file which will be imported as a form and displayed as your desktop background';
-				label: 'Desktop background image file name']
+				label: 'Desktop background image file name';
+			with: [
+				(aBuilder pickOne: #desktopImageLayout) label: 'Layout';
+				 description: 'Size and placement of the background image';
+				 target: self;
+				 order: 0;
+				 default: #scaled;
+				 domainValues: #(#center #tiled #scaled #scaledAspect
+		#topLeft #topCenter #topRight #rightCenter
+		#bottomRight #bottomCenter #bottomLeft #leftCenter).
+				]]
+		
 						

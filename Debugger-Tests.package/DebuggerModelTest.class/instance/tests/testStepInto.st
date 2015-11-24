@@ -1,7 +1,5 @@
 testStepInto
 
-	session:= DebugSession process: process context: context.
-
 	self deny: (session isContextPostMortem: context).
 	self assert: session interruptedContext equals: context.
 	self assert: session interruptedContext printString equals: '[ Set new ] in DebuggerModelTest>>setUp' .

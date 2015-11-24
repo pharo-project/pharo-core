@@ -1,4 +1,4 @@
-script50463
+script50464
 
 	^ 'AST-Core-TheIntegrator.389.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -50,10 +50,10 @@ Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.4.mcz
-Debugger-Tests-TheIntegrator.2.mcz
+Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-StephaneDucasse.76.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.115.mcz
+DebuggerModel-TheIntegrator.116.mcz
 Deprecated50-TheIntegrator.32.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -186,7 +186,7 @@ Morphic-Widgets-NewList-TheIntegrator.7.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.30.mcz
-Morphic-Widgets-Tabs-TheIntegrator.16.mcz
+Morphic-Widgets-Tabs-TheIntegrator.18.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
@@ -210,7 +210,7 @@ Nautilus-TheIntegrator.1165.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
-NautilusCommon-TheIntegrator.295.mcz
+NautilusCommon-TheIntegrator.297.mcz
 NautilusGroupAutoBuilder-TheIntegrator.7.mcz
 NautilusRefactoring-TheIntegrator.256.mcz
 Network-Kernel-TheIntegrator.120.mcz
@@ -232,7 +232,7 @@ OpalCompiler-Tests-TheIntegrator.313.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1298.mcz
+Polymorph-Widgets-TheIntegrator.1299.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -279,7 +279,7 @@ SUnit-UI-TheIntegrator.129.mcz
 SUnit-UITesting-TheIntegrator.27.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.82.mcz
+Settings-Polymorph-TheIntegrator.85.mcz
 Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
@@ -291,7 +291,7 @@ Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.197.mcz
 SmartSuggestions-Tests-TheIntegrator.16.mcz
 Spec-Core-TheIntegrator.440.mcz
-Spec-Debugger-TheIntegrator.255.mcz
+Spec-Debugger-TheIntegrator.256.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
@@ -357,7 +357,7 @@ Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1519.mcz
-Tools-Test-TheIntegrator.6.mcz
+Tools-Test-TheIntegrator.7.mcz
 Traits-TheIntegrator.860.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz

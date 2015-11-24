@@ -2,7 +2,7 @@ desktopBackgroundChanged
 	| fill |
 	self desktopImageFileName
 		ifEmpty: [UIManager default currentWorld world backgroundMorph: nil]
-		ifNotEmpty: [^ [Form setBackgroundFromImageFileNamed: self desktopImageFileName]
+		ifNotEmpty: [^ [World backgroundImage: (Form fromFileNamed: self desktopImageFileName) layout: self desktopImageLayout ]
 				on: Error
 				do: []].
 	self useDesktopGradientFill

@@ -8,7 +8,6 @@ buildString
 				ifNotNil: [ :class | 
 					mdl selectedMethod
 						ifNotNil: [ :method | 
-							self haltOnce.
 							s
 								nextPutAll:
 									(AnnotationRequest new

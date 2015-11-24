@@ -1,3 +1,2 @@
 addButtonState
-	
-	^ self selectedPluginClasses isEmpty not
+	^ self selectedPluginClasses isNotEmpty

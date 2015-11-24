@@ -1,4 +1,4 @@
-lowSpaceChoices
+lowSpaceWarningMessage
 	"Return a notifier message string to be presented when space is running low."
 
 	^ 'Warning! Pharo is almost out of memory!
