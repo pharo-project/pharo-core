@@ -1,2 +1,0 @@
-shouldStyleNode: aNode
-	self subclassResponsibility 

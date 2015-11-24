@@ -1,2 +1,0 @@
-useExperimentalFastTable: aBoolean
-	useExperimentalFastTable := aBoolean

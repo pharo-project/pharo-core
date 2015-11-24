@@ -1,2 +1,2 @@
 entities
-	^{RBVariableNode. RBAssignmentNode. RBReturnNode. LiteralVariable . Slot}
+	^{RBVariableNode. RBAssignmentNode. RBReturnNode. RBMessageNode . LiteralVariable . Slot}

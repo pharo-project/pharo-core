@@ -1,0 +1,1 @@
+This class defines AST node menus to clear history of watchpoint on a node

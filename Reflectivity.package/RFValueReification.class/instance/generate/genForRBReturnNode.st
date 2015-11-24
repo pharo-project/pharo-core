@@ -1,2 +1,2 @@
 genForRBReturnNode
-	^RBVariableNode named: #RFReifyReturnValueVar
+	^RBVariableNode named: #RFReifyValueVar

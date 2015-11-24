@@ -1,0 +1,2 @@
+shouldStyleNode: aNode
+	^aNode hasWatchpoint

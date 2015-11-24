@@ -1,5 +1,5 @@
 preamble: aNode
 	(aNode isKindOf: RBProgramNode) ifFalse: [ ^#() ].
-	^aNode isReturn 
-		ifTrue: [RFStoreIntoTempNode named: #RFReifyReturnValueVar]
-		ifFalse: [ #() ].
+	^(aNode isReturn or: [ aNode isMessage])
+		ifTrue: [RFStoreIntoTempNode named: #RFReifyValueVar]
+		ifFalse: [ #() ]. 

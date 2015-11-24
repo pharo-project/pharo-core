@@ -1,0 +1,2 @@
+deleteHistory
+	values := OrderedCollection new.

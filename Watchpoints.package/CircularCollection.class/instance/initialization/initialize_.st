@@ -1,0 +1,3 @@
+initialize: anInteger
+
+	maxSize := anInteger.

@@ -7,7 +7,7 @@ testAfterSendWeak
 		selector: #tagExec:;
 		control: #after;
 		option: #(+ optionWeakAfter);
-		arguments: #(#node).
+		arguments: #(node).
 	sendNode link: link.
 	self assert: sendNode hasMetalinkAfter.
 	self assert: (ReflectivityExamples >> #exampleMethod) class = ReflectiveMethod.

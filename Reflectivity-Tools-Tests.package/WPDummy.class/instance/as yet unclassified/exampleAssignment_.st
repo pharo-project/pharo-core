@@ -1,0 +1,4 @@
+exampleAssignment: anObject
+	foo := anObject.
+	
+	

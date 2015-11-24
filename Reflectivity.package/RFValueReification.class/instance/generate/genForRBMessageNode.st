@@ -1,0 +1,2 @@
+genForRBMessageNode
+	^RBVariableNode named: #RFReifyValueVar

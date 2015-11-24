@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '17095 small code critique cleanup in NautilusCommon
-	https://pharo.fogbugz.com/f/cases/17095
+ ^ '17097 add support for #value for MessageSend #after
+	https://pharo.fogbugz.com/f/cases/17097
 
-17094 Small code critique cleanup in Morphic-Widgets-Tabs
-	https://pharo.fogbugz.com/f/cases/17094
+17087 Nautilus: remove setting #useExperimentalFastTable
+	https://pharo.fogbugz.com/f/cases/17087
 
-17090 Opening debugger API cleanup. Part3
-	https://pharo.fogbugz.com/f/cases/17090
-
-16936 Desktop Background Image changes aspect ratio whenever the Pharo World window does 
-	https://pharo.fogbugz.com/f/cases/16936'
+17096 Watchpoints
+	https://pharo.fogbugz.com/f/cases/17096'

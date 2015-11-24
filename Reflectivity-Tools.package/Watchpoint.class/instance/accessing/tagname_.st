@@ -1,0 +1,2 @@
+tagname: anObject
+	tagname := anObject

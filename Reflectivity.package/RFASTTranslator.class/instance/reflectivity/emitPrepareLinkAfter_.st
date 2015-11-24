@@ -3,8 +3,8 @@ emitPrepareLinkAfter: aNode
 	| copied |
 	copied := #().
 	aNode hasMetalinkAfter ifFalse: [^self].
-	aNode allAfterAreWeak ifTrue: [ ^self ].
 	self emitPreamble: aNode.
+	aNode allAfterAreWeak ifTrue: [ ^self ].
 	aNode isMethod ifTrue: [ copied := aNode argumentNames, aNode tempNames ].
 	methodBuilder
 		pushClosureCopyCopiedValues: copied
