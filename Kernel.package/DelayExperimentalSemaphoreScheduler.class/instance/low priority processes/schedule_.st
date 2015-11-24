@@ -1,5 +1,7 @@
 schedule: aDelay
 
+	aDelay schedulerBeingWaitedOn ifTrue: [^self error: 'This Delay has already been scheduled.'].
+
 	scheduledDelay == nil ifFalse: [ scheduledDelayIsNil wait ].  
 
 	"It is assumed that bytecode inlining and the system's co-operative multitasking 

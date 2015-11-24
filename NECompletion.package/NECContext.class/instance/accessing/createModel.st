@@ -10,7 +10,9 @@ createModel
 			and: [theClass notNil])
 				ifTrue: [self isStartOfMethodDefinition 
 					ifTrue: [^ NECOverrideModel class: theClass]]].
-						
+			
+	self completionTokenIsLiteral ifTrue:[ ^ NECEmptyModel new].
+				
 	modelClass := NECUntypedModel.		
 	(controller model respondsTo: #modelClass) 
 		ifTrue: [

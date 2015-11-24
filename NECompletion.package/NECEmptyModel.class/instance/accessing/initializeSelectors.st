@@ -1,0 +1,2 @@
+initializeSelectors
+	self resetSelectors

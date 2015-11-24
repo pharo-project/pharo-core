@@ -5,6 +5,5 @@ unschedule: aDelay
 				timingSemaphore signal.
 				^true.
 				].
-		Transcript show: 'U'.
 		true.
 	] whileTrue.	
