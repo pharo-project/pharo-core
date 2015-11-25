@@ -1,5 +1,5 @@
 ComposableModel subclass: #WatchpointWindow
-	instanceVariableNames: 'watchpoint label list inspectIt'
+	instanceVariableNames: 'watchpoint numItems menu list inspectIt'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Reflectivity-Tools-Watchpoints'

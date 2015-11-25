@@ -1,6 +1,6 @@
-script50467
+script50468
 
-	^ 'AST-Core-TheIntegrator.389.mcz
+	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
 Announcements-Core-TheIntegrator.62.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -255,7 +255,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.276.mcz
 Reflectivity-Examples-TheIntegrator.23.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.4.mcz
+Reflectivity-Tools-TheIntegrator.6.mcz
 Reflectivity-Tools-Tests-TheIntegrator.4.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -290,7 +290,7 @@ Shout-TheIntegrator.283.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
-SmartSuggestions-TheIntegrator.198.mcz
+SmartSuggestions-TheIntegrator.202.mcz
 SmartSuggestions-Tests-TheIntegrator.16.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.256.mcz

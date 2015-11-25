@@ -1,0 +1,2 @@
+menu: anObject
+	menu := anObject

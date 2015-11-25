@@ -1,13 +1,13 @@
 initializeWidgets
-	| tagName |
-	label := self newLabel.
+
 	list := self newList.
 	inspectIt := self newButton.
 	
-	tagName := self watchpoint tagname.
-	label label: (tagName isAllSeparators ifTrue: [ 'Unnamed Watchpoint' ] ifFalse: [ tagName ]).
+	self setupMenu.
 	
 	list displayBlock: [ :assoc | assoc value asString].
+	numItems := 7.
 	self refreshItems.
 	
 	inspectIt label: 'Inspect ...'.
+	inspectIt enabled: false.

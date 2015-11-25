@@ -3,6 +3,6 @@ defaultSpec
 	^ SpecLayout composed
 		newColumn: [ :col |
 			col
-				newRow: [ :row | row add: #label ] height: self toolbarHeight;
+				add: #menu height: (self toolbarHeight);
 				add: #list;
-				newRow: [ :row | row add: #inspectIt ] height: self toolbarHeight ]
+				add: #inspectIt height: self toolbarHeight ]
