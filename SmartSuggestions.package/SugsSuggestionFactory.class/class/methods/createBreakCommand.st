@@ -1,7 +1,5 @@
 createBreakCommand
-	<methodCommand>
-	<messageCommand>
-	<assignmentCommand>
+	<globalCommand>
 	^ SugsBreakAlwaysSuggestion
 		icon: Smalltalk ui icons smallCancelIcon
 		position: 10

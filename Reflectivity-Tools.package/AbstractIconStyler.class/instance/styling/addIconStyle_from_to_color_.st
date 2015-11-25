@@ -7,7 +7,7 @@ addIconStyle: aNode from: start to: stop color: aColor
 		text addSegment: r.
 		
 		r label: (self iconLabel: aNode).
-		r icon: self icon.
+		r icon: (self iconFor: aNode).
 		r iconBlock: (self iconBlock: aNode).
 		r color: aColor.
 		r borderColor: self borderColor.

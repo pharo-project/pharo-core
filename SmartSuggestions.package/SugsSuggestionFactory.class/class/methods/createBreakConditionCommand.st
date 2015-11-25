@@ -1,7 +1,5 @@
 createBreakConditionCommand
-	<methodCommand>
-	<messageCommand>
-	<assignmentCommand>
+	<globalCommand>
 	^ SugsBreakConditionSuggestion
 		icon: Smalltalk ui icons smallCancelIcon
 		position: 12

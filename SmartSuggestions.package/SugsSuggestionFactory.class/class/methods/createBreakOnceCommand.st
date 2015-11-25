@@ -1,7 +1,5 @@
 createBreakOnceCommand
-	<methodCommand>
-	<messageCommand>
-	<assignmentCommand>
+	<globalCommand>
 	^ SugsBreakOnceSuggestion
 		icon: Smalltalk ui icons smallCancelIcon
 		position: 11 

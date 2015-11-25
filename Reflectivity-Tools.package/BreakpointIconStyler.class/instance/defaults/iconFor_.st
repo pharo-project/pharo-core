@@ -1,2 +1,2 @@
-icon
+iconFor: aNode
 	^self iconProvider iconNamed: #haltIcon .

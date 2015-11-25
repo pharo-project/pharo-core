@@ -1,4 +1,5 @@
 cleanUp
+	<script>
 	collectorForInstancesVariable := nil.
 	collectorForTemporaryVariable := nil.
 	collectorForUndeclaredVariable := nil.

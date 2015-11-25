@@ -1,4 +1,4 @@
-script50468
+script50469
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -238,7 +238,7 @@ ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.82.mcz
-RPackage-Core-TheIntegrator.415.mcz
+RPackage-Core-TheIntegrator.417.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-TheIntegrator.12.mcz
 Random-Core-TheIntegrator.4.mcz
@@ -253,10 +253,10 @@ Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.276.mcz
-Reflectivity-Examples-TheIntegrator.23.mcz
+Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.6.mcz
-Reflectivity-Tools-Tests-TheIntegrator.4.mcz
+Reflectivity-Tools-TheIntegrator.7.mcz
+Reflectivity-Tools-Tests-TheIntegrator.6.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -290,7 +290,7 @@ Shout-TheIntegrator.283.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
-SmartSuggestions-TheIntegrator.202.mcz
+SmartSuggestions-TheIntegrator.203.mcz
 SmartSuggestions-Tests-TheIntegrator.16.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.256.mcz
@@ -351,7 +351,7 @@ Tool-ExternalBrowser-TheIntegrator.42.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.55.mcz
-Tool-ImageCleaner-TheIntegrator.10.mcz
+Tool-ImageCleaner-TheIntegrator.13.mcz
 Tool-ProcessBrowser-TheIntegrator.10.mcz
 Tool-Profilers-TheIntegrator.19.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz

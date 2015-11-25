@@ -1,10 +1,7 @@
 showMenuFor: model
 	| suggs menu context |
 
-	context := [ SugsAbstractContext contextFor: model ]
-		ifError: [ 
-			"If we aren't in the right context we will fail in populate the suggestions so... better not"
-			^ self ].
+	context := SugsAbstractContext contextFor: model.
 	suggs := SugsMenuBuilder findSuggestionsFor: context.
 	menu := UIManager default newMenuIn: model model for: model.
 	menu addTitle: 'Suggestions > ' , context selectedNodeText.

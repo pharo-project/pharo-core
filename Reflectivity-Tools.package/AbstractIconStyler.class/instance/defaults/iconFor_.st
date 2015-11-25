@@ -1,0 +1,2 @@
+iconFor: aNode
+	^nil
