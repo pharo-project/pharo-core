@@ -1,5 +1,5 @@
 label
-	^context selectedNode hasWatchpoint
+	^self selectedNodeHasWatchpoint
 		ifFalse: [ 'Add Watchpoint' translated ]
 		ifTrue: [ 'Remove Watchpoint' translated ]
 	

@@ -26,12 +26,12 @@ setupMenu
 				item 
 					name: nil; description: 'Stop Monitoring';
 					icon: Smalltalk ui icons stop;
-					action: [ self watchpoint uninstall ]].
+					action: [ self watchpoint stop ]].
 			group addItem: [ :item |
 				item
 					name: nil; description: 'Start Monitoring';
 					icon: Smalltalk ui icons smallPrintIt ;
-					action: [ self watchpoint install ]]].
+					action: [ self watchpoint start ]]].
 
 
 	menu addGroup: [ :group | 
@@ -44,4 +44,4 @@ setupMenu
 				item
 					name: nil; description: 'Browse ...';
 					icon: Smalltalk ui icons nautilus;
-					action: [ self watchpoint compiledMethod browse ]]].
+					action: [Smalltalk tools browser openOnMethod: (self watchpoint compiledMethod) ]]].

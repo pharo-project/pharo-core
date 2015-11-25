@@ -1,4 +1,4 @@
-script50469
+script50470
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -42,10 +42,8 @@ Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.22.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.93.mcz
-CollectionsTests-TheIntegrator.709.mcz
 Compiler-TheIntegrator.598.mcz
 Compression-TheIntegrator.171.mcz
-Compression-Registration-TheIntegrator.5.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
@@ -115,7 +113,6 @@ Graphics-Files-TheIntegrator.70.mcz
 Graphics-Fonts-TheIntegrator.102.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.183.mcz
-Graphics-Resources-TheIntegrator.34.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.78.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
@@ -129,7 +126,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2187.mcz
+Kernel-TheIntegrator.2188.mcz
 Kernel-Tests-TheIntegrator.22.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -166,7 +163,7 @@ Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.31.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
-MonticelloFileTree-Core-TheIntegrator.191.mcz
+MonticelloFileTree-Core-TheIntegrator.193.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
@@ -175,7 +172,6 @@ Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.513.mcz
 Morphic-Core-TheIntegrator.230.mcz
 Morphic-Examples-TheIntegrator.48.mcz
-Morphic-Exporting-TheIntegrator.4.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.68.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
@@ -240,7 +236,6 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.82.mcz
 RPackage-Core-TheIntegrator.417.mcz
 RPackage-Tests-TheIntegrator.175.mcz
-Random-TheIntegrator.12.mcz
 Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
@@ -255,7 +250,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.276.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.7.mcz
+Reflectivity-Tools-TheIntegrator.9.mcz
 Reflectivity-Tools-Tests-TheIntegrator.6.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -263,7 +258,6 @@ Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.18.mcz
 Renraku-YuriyTymchuk.91.mcz
 Renraku-Test-YuriyTymchuk.18.mcz
-Ring-ChangesExtensions-TheIntegrator.1.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.233.mcz
 Ring-Monticello-TheIntegrator.40.mcz
@@ -290,8 +284,8 @@ Shout-TheIntegrator.283.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
-SmartSuggestions-TheIntegrator.203.mcz
-SmartSuggestions-Tests-TheIntegrator.16.mcz
+SmartSuggestions-TheIntegrator.205.mcz
+SmartSuggestions-Tests-TheIntegrator.18.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.256.mcz
 Spec-Examples-TheIntegrator.98.mcz

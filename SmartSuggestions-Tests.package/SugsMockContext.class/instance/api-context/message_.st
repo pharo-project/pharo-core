@@ -1,2 +1,2 @@
 message: theName
-	^ message:= theName.
+	^ message := theName.
