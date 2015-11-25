@@ -2,4 +2,4 @@ Halt subclass: #Break
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity-Breakpoints'
+	category: 'Reflectivity-Tools-Breakpoints'

@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '17103 support for watchpoint with optionWeakAfter metalink
+update50467
+	"self new update50467"
+	self withUpdateLog: '17103 support for watchpoint with optionWeakAfter metalink
 	https://pharo.fogbugz.com/f/cases/17103
 
 17107 Strange effect after opening the Debugger: sometimes two UI processes
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17101
 
 17100 DropEvent should not check the type in #sentTo:
-	https://pharo.fogbugz.com/f/cases/17100'
+	https://pharo.fogbugz.com/f/cases/17100'.
+	self loadTogether: self script50467 merge: false.
+	self flushCaches.

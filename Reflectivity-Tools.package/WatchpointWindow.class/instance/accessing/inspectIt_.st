@@ -1,0 +1,2 @@
+inspectIt: anObject
+	inspectIt := anObject

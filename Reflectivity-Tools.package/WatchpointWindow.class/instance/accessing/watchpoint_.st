@@ -1,0 +1,2 @@
+watchpoint: anObject
+	watchpoint := anObject

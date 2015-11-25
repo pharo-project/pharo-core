@@ -2,4 +2,4 @@ AbstractIconStyler subclass: #BreakpointIconStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Reflectivity-Examples'
+	category: 'Reflectivity-Tools-Breakpoints'

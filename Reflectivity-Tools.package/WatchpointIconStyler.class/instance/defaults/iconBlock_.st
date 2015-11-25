@@ -1,3 +1,2 @@
 iconBlock: aNode
-	^[ :seg :event | 
-		aNode watchpoint inspect]
+	^[ :seg :event | WatchpointWindow openOn: aNode watchpoint]
