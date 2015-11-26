@@ -2,5 +2,5 @@ createBreakCommand
 	<globalCommand>
 	^ SugsBreakAlwaysSuggestion
 		icon: Smalltalk ui icons smallCancelIcon
-		position: 10
+		position: 15
 		keyText: 'b,a'

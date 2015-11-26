@@ -7,4 +7,4 @@ createWatchpointCommand
 	<classVarCommand>
 	^ SugsWatchpointSuggestion
 		icon: Smalltalk ui icons haloView
-		position: 15.
+		position: 18.

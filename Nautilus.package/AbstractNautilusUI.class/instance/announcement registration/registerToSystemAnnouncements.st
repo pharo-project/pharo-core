@@ -12,6 +12,7 @@ registerToSystemAnnouncements
 		when: ClassCommented send: #classCommented: to: self;
 		when: ClassRecategorized send: #classRecategorized: to: self;
 		when: ClassModifiedClassDefinition send: #classDefinitionModified: to: self;
+		when: ClassParentRenamed send: #classParentRenamed: to: self;
 		when: ClassRemoved send: #classRemoved: to: self;
 		when: ClassRenamed send: #classRenamed: to: self;
 		when: ClassReorganized send: #classReorganized: to: self;

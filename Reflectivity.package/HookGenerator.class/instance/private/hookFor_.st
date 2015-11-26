@@ -16,7 +16,11 @@ hookFor: aLink
 		arguments: (aLink arguments collect: [: each | self genReification: each for: aLink]).
 	
 	(self hasOption: #optionOneShot for: aLink) ifTrue: [
-			hook := RBSequenceNode statements: { hook .  RBMessageNode receiver: (RFLiteralVariableNode value: aLink) selector: #uninstall }]  .
+			hook := RBSequenceNode statements: {
+				RBMessageNode
+					receiver: (RFLiteralVariableNode value: aLink)
+					selector: #uninstall.
+				hook }].
 	aLink hasCondition ifTrue: [hook := self wrapCondition: hook link: aLink].
 	(aLink hasMetaLevel or: [self hasOption: #optionMetalevel for: aLink]) ifTrue: [hook := self wrapInContext: hook link: aLink].		
 			
