@@ -1,4 +1,4 @@
-script50470
+script50471
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -202,7 +202,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1167.mcz
+Nautilus-TheIntegrator.1169.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -250,7 +250,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.276.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.9.mcz
+Reflectivity-Tools-TheIntegrator.11.mcz
 Reflectivity-Tools-Tests-TheIntegrator.6.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -295,7 +295,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.247.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.308.mcz
+Spec-Tools-TheIntegrator.310.mcz
 StartupPreferences-TheIntegrator.145.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz

@@ -44,4 +44,9 @@ setupMenu
 				item
 					name: nil; description: 'Browse ...';
 					icon: Smalltalk ui icons nautilus;
-					action: [Smalltalk tools browser openOnMethod: (self watchpoint compiledMethod) ]]].
+					action: [Smalltalk tools browser openOnMethod: (self watchpoint compiledMethod) ]].
+			group addItem: [ :item |
+				item
+					name: nil; description: 'Remove !';
+					icon: Smalltalk ui icons delete;
+					action: [self watchpoint uninstall ]]].

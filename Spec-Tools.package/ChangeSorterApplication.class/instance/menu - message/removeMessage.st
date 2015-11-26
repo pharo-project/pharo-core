@@ -4,6 +4,9 @@ removeMessage
 	self okToChange
 		ifFalse: [^ self].
 	self selectedSelector
-		ifNotNil: [:selector |
-				(self model removeMethod: selector inClass: self selectedClass)
+		ifNotNil: [:selector | | class method | 
+			class := self selectedClass.
+				(class includesSelector: selector) ifFalse:[^ self].
+				method := class>>selector.
+				(self model removeMethod: method inClass: class)
 					ifTrue: [ self updateMessagesList ]]
