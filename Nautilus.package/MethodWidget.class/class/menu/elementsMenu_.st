@@ -4,20 +4,33 @@ elementsMenu: aBuilder
 	target := aBuilder model.
 	selectedMethods := target selectedMethods.
 	
+	(aBuilder item: #'ToggleBreakPoint')
+		action: [ target toggleBreakpoint ];
+		order: 150;
+		label: (target selectedMethod hasBreakpoint
+				ifFalse: [ 'Add breakpoint']
+				ifTrue: [ 'Remove breakpoint'] ).
+	
+	(aBuilder item: #'ToggleBreakPointOnce')
+		action: [ target toggleBreakpointOnce ];
+		order: 151;
+		enabledBlock: [ target selectedMethod hasBreakpoint not ];
+		label: 'Add break once'.
+		
+	(aBuilder item: #'ToggleBreakPointCondition')
+		action: [ target toggleBreakpointCondition ];
+		order: 152;
+		enabledBlock: [ target selectedMethod hasBreakpoint not ];
+		label: 'Add break condition...';
+		withSeparatorAfter.	
+		
+
 	(aBuilder item: #'Find Method...')
 		keyText: 'f, m' if: Nautilus useOldStyleKeys not;
 		keyText: 'f' if: Nautilus useOldStyleKeys;
 		action: [ target findMethod ];
-		order: 0;
+		order: 199;
 		help: 'Search for a method by name'.
-	
-	target selectedMethod ifNotNil: [ 
-		(aBuilder item: #'ToggleBreakPoint')
-			action: [ target toggleBreakPoint ];
-			order: 199;
-			label: (target selectedMethod hasBreakpoint
-					ifFalse: [ 'Add breakpoint']
-					ifTrue: [ 'Remove breakpoint'] )].
 		
 	tmp := ((aBuilder item: #'Browse full')
 		keyText: 'b, f' if: Nautilus useOldStyleKeys not;

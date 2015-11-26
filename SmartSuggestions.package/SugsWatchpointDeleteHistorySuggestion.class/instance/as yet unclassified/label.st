@@ -1,3 +1,0 @@
-label
-	^'Delete Watchpoint History'
-	

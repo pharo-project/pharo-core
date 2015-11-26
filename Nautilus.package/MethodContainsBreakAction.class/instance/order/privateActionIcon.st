@@ -2,7 +2,7 @@ privateActionIcon
 	"Return the icon for this action"
 	^ IconicButton new
 		target: self browser;
-		actionSelector: #toggleBreakPoint;
+		actionSelector: #toggleBreakpoint;
 		arguments: {};
 		labelGraphic: (Smalltalk ui icons iconNamed: #haltIcon);
 		color: Color transparent;

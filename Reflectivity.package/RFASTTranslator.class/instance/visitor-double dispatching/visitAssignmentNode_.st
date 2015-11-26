@@ -10,4 +10,6 @@ visitAssignmentNode: anAssignmentNode
 					 anAssignmentNode variable hasMetalinkInstead
 						ifTrue: [ self emitMetaLinkInstead: anAssignmentNode variable]
 						ifFalse: [ anAssignmentNode variable binding emitStore: methodBuilder]].
+	self emitMetaLinkAfterNoEnsure: anAssignmentNode variable.
 	self emitMetaLinkAfterNoEnsure: anAssignmentNode.
+	
