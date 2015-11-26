@@ -1,4 +1,4 @@
-script50471
+script50472
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -37,7 +37,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.223.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.380.mcz
+Collections-Strings-TheIntegrator.382.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.22.mcz
 Collections-Unordered-TheIntegrator.227.mcz
@@ -126,7 +126,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2188.mcz
+Kernel-TheIntegrator.2189.mcz
 Kernel-Tests-TheIntegrator.22.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -169,8 +169,8 @@ MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.513.mcz
-Morphic-Core-TheIntegrator.230.mcz
+Morphic-Base-TheIntegrator.515.mcz
+Morphic-Core-TheIntegrator.232.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.68.mcz
@@ -186,7 +186,7 @@ Morphic-Widgets-Tabs-TheIntegrator.18.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.40.mcz
-Morphic-Widgets-Windows-TheIntegrator.84.mcz
+Morphic-Widgets-Windows-TheIntegrator.86.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -202,7 +202,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1169.mcz
+Nautilus-TheIntegrator.1171.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -228,7 +228,7 @@ OpalCompiler-Tests-TheIntegrator.313.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1299.mcz
+Polymorph-Widgets-TheIntegrator.1301.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -247,11 +247,11 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.129.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
-Reflectivity-TheIntegrator.276.mcz
+Reflectivity-TheIntegrator.277.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.11.mcz
-Reflectivity-Tools-Tests-TheIntegrator.6.mcz
+Reflectivity-Tools-TheIntegrator.13.mcz
+Reflectivity-Tools-Tests-TheIntegrator.8.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -354,7 +354,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.7.mcz
-Traits-TheIntegrator.860.mcz
+Traits-TheIntegrator.861.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

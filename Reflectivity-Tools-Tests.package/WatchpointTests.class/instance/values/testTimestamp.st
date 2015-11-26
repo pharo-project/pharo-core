@@ -9,7 +9,7 @@ testTimestamp
 		|older newer|
 		older := watchpoint values at: i.
 		newer := watchpoint values at: i + 1.
-		self assert: (older key < newer key).
+		self assert: (older key <= newer key).
 	]. 
 	
 	watchpoint uninstall.
