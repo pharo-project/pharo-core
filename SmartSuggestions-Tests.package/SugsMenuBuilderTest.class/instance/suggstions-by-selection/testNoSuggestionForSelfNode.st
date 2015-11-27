@@ -1,5 +1,6 @@
 testNoSuggestionForSelfNode
-	| suggestions |
+	| suggestions expected |
 
 	suggestions :=SugsMenuBuilder findSuggestionsFor: SugsMockContext selfContext.
-	self assert: suggestions isEmpty.
+	expected := SugsSuggestionFactory globalCommands .	
+	self assert: (expected allSatisfy:[:expect | suggestions includes: expect]).

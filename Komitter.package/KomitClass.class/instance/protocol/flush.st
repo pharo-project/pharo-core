@@ -1,6 +1,5 @@
 flush
 	super flush.
-	
 	definition := nil.
 	operations removeAll.
 	methods ifNotNil: [ :m | m do: [ :e | e flush ] ].

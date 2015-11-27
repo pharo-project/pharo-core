@@ -2,6 +2,6 @@ trackedClass: trackedClass
 
 	^ classes 
 		at: trackedClass name
-		ifAbsentPut: [ super new 
+		ifAbsentPut: [ self new 
 			trackedClass: trackedClass;
 			yourself ]

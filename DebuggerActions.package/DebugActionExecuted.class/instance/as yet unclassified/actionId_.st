@@ -1,3 +1,0 @@
-actionId: aSymbol
-
-	actionId := aSymbol

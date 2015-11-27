@@ -1,6 +1,3 @@
 uninitializedVariable: variableNode
 	variableNode binding markRead.
-	^ OCUninitializedVariableWarning new
-		node: variableNode;
-		compilationContext: compilationContext;
-		signal
+	variableNode propertyAt: #semanticWarning put: #unitialized.

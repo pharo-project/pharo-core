@@ -3,6 +3,6 @@ package: package
 	^ packages 
 		at: package name 
 		ifAbsentPut: [
-			super new
+			self new
 				package: package;
 				yourself ]

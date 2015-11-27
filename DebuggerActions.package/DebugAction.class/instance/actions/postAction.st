@@ -1,3 +1,3 @@
 postAction
 
-	self notifyDebugger
+	self notifyDebuggingActionExecuted

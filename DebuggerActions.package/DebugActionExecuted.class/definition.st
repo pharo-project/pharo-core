@@ -1,5 +1,5 @@
 Announcement subclass: #DebugActionExecuted
-	instanceVariableNames: 'actionId'
+	instanceVariableNames: 'debuggingAction'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'DebuggerActions'

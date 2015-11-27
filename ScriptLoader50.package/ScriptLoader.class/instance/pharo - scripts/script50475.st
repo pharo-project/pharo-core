@@ -1,4 +1,4 @@
-script50474
+script50475
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -49,7 +49,7 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.4.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-StephaneDucasse.76.mcz
+DebuggerActions-TheIntegrator.78.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.118.mcz
 Deprecated50-TheIntegrator.32.mcz
@@ -134,7 +134,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.150.mcz
+Komitter-TheIntegrator.152.mcz
 Manifest-Core-TheIntegrator.236.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -169,7 +169,7 @@ MonticelloGUI-TheIntegrator.401.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.515.mcz
+Morphic-Base-TheIntegrator.516.mcz
 Morphic-Core-TheIntegrator.232.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
@@ -223,8 +223,8 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.757.mcz
-OpalCompiler-Tests-TheIntegrator.313.mcz
+OpalCompiler-Core-TheIntegrator.759.mcz
+OpalCompiler-Tests-TheIntegrator.315.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -285,7 +285,7 @@ Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.209.mcz
-SmartSuggestions-Tests-TheIntegrator.18.mcz
+SmartSuggestions-Tests-TheIntegrator.20.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.256.mcz
 Spec-Examples-TheIntegrator.98.mcz

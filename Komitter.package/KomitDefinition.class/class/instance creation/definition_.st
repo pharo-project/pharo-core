@@ -3,6 +3,6 @@ definition: definition
 	^ definitions
 		at: definition className
 		ifAbsentPut: [ 
-			super new
+			self new
 				definition: definition;
 				yourself ]
