@@ -1,3 +1,0 @@
-onWidgetBuilt
-
-	needRefresh := true

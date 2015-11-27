@@ -1,4 +1,4 @@
-script50475
+script50476
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -165,7 +165,7 @@ MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.193.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
-MonticelloGUI-TheIntegrator.401.mcz
+MonticelloGUI-TheIntegrator.403.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
@@ -223,8 +223,8 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.759.mcz
-OpalCompiler-Tests-TheIntegrator.315.mcz
+OpalCompiler-Core-TheIntegrator.760.mcz
+OpalCompiler-Tests-TheIntegrator.316.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -250,7 +250,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.282.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.13.mcz
+Reflectivity-Tools-TheIntegrator.15.mcz
 Reflectivity-Tools-Tests-TheIntegrator.8.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -287,7 +287,7 @@ Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.209.mcz
 SmartSuggestions-Tests-TheIntegrator.20.mcz
 Spec-Core-TheIntegrator.440.mcz
-Spec-Debugger-TheIntegrator.256.mcz
+Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.98.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz

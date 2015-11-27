@@ -1,1 +1,0 @@
-I get signalled when a temporary variable is declared but never used.  My default action is to allow it since it is benign.

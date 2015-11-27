@@ -4,13 +4,6 @@ initialize
 	labelHolder := nil asValueHolder.
 	super initialize.
 	
-	needRefresh := false.
-	
-	self announcer
-		when: WidgetBuilt
-		send: #onWidgetBuilt
-		to: self.
-		
 	self whenWindowChanged: [ :w | 
 		w whenClosedDo: [ self clear ] ].
 	

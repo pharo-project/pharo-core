@@ -1,6 +1,3 @@
 unusedVariable: variableNode
 
-	^ OCUnusedVariableWarning new
-		node: variableNode;
-		compilationContext: compilationContext;
-		signal
+	variableNode propertyAt: #semanticWarning put: 'unused variable'

@@ -1,0 +1,2 @@
+setUp
+	b := MCWorkingCopyBrowser new.
