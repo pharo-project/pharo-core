@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '16555 Correct and Improve Spec example DynamicWidgetChange
+update50477
+	"self new update50477"
+	self withUpdateLog: '16555 Correct and Improve Spec example DynamicWidgetChange
 	https://pharo.fogbugz.com/f/cases/16555
 
 17161 Missing subclass responsibility implementation in some Font subclasses
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17157
 
 17153 BreakpointIconStyler>>#iconLabel is dead code
-	https://pharo.fogbugz.com/f/cases/17153'
+	https://pharo.fogbugz.com/f/cases/17153'.
+	self loadTogether: self script50477 merge: false.
+	self flushCaches.

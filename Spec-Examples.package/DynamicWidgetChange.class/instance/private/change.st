@@ -9,4 +9,4 @@ change
 	self needRebuild: false.
 	button needRebuild: false.
 	
-	self openWithSpec
+	self buildWithSpec

@@ -1,2 +1,2 @@
 overrideModel: aBoolean
-	^overrideModel
+	overrideModel := aBoolean

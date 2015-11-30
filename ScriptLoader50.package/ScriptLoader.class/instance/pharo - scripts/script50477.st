@@ -1,4 +1,4 @@
-script50476
+script50477
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -68,9 +68,9 @@ Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.15.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.12.mcz
-FontInfrastructure-TheIntegrator.8.mcz
+FontInfrastructure-TheIntegrator.10.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.714.mcz
+FreeType-TheIntegrator.716.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-TheIntegrator.817.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -193,7 +193,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.223.mcz
+NECompletion-TheIntegrator.225.mcz
 NECompletion-Tests-TheIntegrator.4.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
@@ -250,7 +250,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.282.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.15.mcz
+Reflectivity-Tools-TheIntegrator.17.mcz
 Reflectivity-Tools-Tests-TheIntegrator.8.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -288,7 +288,7 @@ SmartSuggestions-TheIntegrator.209.mcz
 SmartSuggestions-Tests-TheIntegrator.20.mcz
 Spec-Core-TheIntegrator.440.mcz
 Spec-Debugger-TheIntegrator.258.mcz
-Spec-Examples-TheIntegrator.98.mcz
+Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
