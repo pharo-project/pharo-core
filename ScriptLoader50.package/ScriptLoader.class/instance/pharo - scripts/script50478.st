@@ -1,4 +1,4 @@
-script50477
+script50478
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -169,7 +169,7 @@ MonticelloGUI-TheIntegrator.403.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.516.mcz
+Morphic-Base-TheIntegrator.521.mcz
 Morphic-Core-TheIntegrator.232.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
@@ -202,7 +202,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1175.mcz
+Nautilus-TheIntegrator.1178.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -250,7 +250,7 @@ Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.282.mcz
 Reflectivity-Examples-TheIntegrator.25.mcz
 Reflectivity-Tests-TheIntegrator.199.mcz
-Reflectivity-Tools-TheIntegrator.17.mcz
+Reflectivity-Tools-TheIntegrator.19.mcz
 Reflectivity-Tools-Tests-TheIntegrator.8.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -265,7 +265,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.88.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.304.mcz
+Rubric-TheIntegrator.306.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.160.mcz
@@ -375,7 +375,6 @@ Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-TheIntegrator.17.mcz
-Watchpoints-TheIntegrator.2.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.41.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.23.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz

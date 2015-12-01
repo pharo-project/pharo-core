@@ -3,7 +3,7 @@ activateOwnerMenu: evt
 	 If it does not contain the pointer position, pass it through the owner chain."
 
 	| popUpOwner |
-	(owner isNil or: [ owner isMenuItemMorph not or: [ owner isMenuMorph not ] ]) ifTrue: [ ^ false ].
+	(owner isNil or: [ owner isMenuMorph not ]) ifTrue: [ ^ false ].
 	(owner fullContainsPoint: evt position)
 		ifTrue: [ 
 			owner activate: evt.
