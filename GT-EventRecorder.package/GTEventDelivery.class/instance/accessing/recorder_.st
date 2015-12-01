@@ -1,0 +1,2 @@
+recorder: anObject
+	recorder := anObject

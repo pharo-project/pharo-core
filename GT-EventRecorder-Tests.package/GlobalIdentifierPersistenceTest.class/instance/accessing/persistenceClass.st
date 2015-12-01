@@ -1,0 +1,2 @@
+persistenceClass
+	^ self subclassResponsibility

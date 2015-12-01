@@ -1,6 +1,6 @@
 testEnteringTextInPort
 	| composite textMorph |
-	composite := GLMCompositePresentation new with: [ :a | a rubricText display: '' ].
+	composite := GLMCompositePresentation new with: [ :a | a text display: '' ].
 	window := composite openOn: 4.
 	textMorph := self find: RubScrolledTextMorph in: window.
 	self simulateOnlyOneClickOn: textMorph.

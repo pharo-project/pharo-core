@@ -2,7 +2,7 @@ presentation
 	^ GLMCompositePresentation new
 		with: [ :a | 
 			| t seg |
-			t := a rubricText.
+			t := a text.
 			seg := RubPlainSegmentMorph from: 400 to: 746.
 			seg color: (Color green alpha: 0.3).
 			seg setBalloonText: 'This sentence should be removed. Click on it to remove it'.

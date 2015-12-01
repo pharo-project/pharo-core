@@ -1,0 +1,2 @@
+removeLiberatedCollectors
+	collectors removeLiberatedCollectors

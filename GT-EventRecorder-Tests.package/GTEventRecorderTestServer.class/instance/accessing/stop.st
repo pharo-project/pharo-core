@@ -1,0 +1,2 @@
+stop
+	server stop

@@ -1,0 +1,2 @@
+previous: aGlobalIdentifierPersistence
+	previousPersistence := aGlobalIdentifierPersistence

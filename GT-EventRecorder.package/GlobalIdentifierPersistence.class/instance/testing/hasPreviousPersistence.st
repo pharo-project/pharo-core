@@ -1,0 +1,2 @@
+hasPreviousPersistence
+	^ previousPersistence notNil

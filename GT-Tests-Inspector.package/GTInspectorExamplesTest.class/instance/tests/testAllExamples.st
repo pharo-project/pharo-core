@@ -1,7 +1,6 @@
 testAllExamples
-	Object withAllSubclasses
+	self allExamplesClasses
 		do: [ :eachClass | 
 			eachClass gtExamples do: [ :exampleToTest | 
-				self checkAllPresentationsOf: exampleToTest.
-				exampleToTest detachResultFromSystem ] ]
-		displayingProgress: 'Testing GTInspector examples (#testAllExamples)'
+				exampleToTest ignoreTest ifTrue: [ 
+					self checkAllPresentationsOf: exampleToTest ] ] ]

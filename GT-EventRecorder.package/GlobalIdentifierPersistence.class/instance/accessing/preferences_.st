@@ -1,0 +1,2 @@
+preferences: anObject
+	preferences := anObject

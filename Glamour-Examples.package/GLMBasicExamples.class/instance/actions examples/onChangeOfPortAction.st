@@ -4,7 +4,7 @@ onChangeOfPortAction
 
 	^ GLMCompositePresentation new 
 		with: [ :composite |
-			composite rubricText 
+			composite text 
 				onChangeOfPort: #text act: [ :textPresentation | 
 					Transcript cr; cr; show: textPresentation text ] ];
 		act: [ Transcript open ] entitled: 'Open Transcript'

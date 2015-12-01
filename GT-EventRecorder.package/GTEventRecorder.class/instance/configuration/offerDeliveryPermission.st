@@ -1,0 +1,2 @@
+offerDeliveryPermission
+	delivery offerPermission

@@ -1,0 +1,2 @@
+sendDiagnosticsAndUsageData: aBoolean
+	sendDiagnosticsAndUsageData := aBoolean

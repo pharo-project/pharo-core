@@ -1,0 +1,3 @@
+delivery
+	"Testing purpose."
+	^ delivery

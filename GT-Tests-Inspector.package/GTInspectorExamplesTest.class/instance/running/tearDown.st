@@ -1,5 +1,6 @@
 tearDown
 	super tearDown.
-	 
-	(Smalltalk classNamed: #GTExampleOrganizer) 
-		ifNotNil: [ :class | class instance resetResults ]
+	
+	pragmas := nil.
+	GTExampleOrganizer instance reset.
+	GTExampleOrganizer start.

@@ -1,3 +1,3 @@
 configurationBlockForProcessorsCreatedBy: aMethod
 	
-	^ configurationBlocks at: aMethod name ifAbsent: [ self nullConfigurationBlock ]
+	^ configurationBlocks at: aMethod printString ifAbsent: [ self nullConfigurationBlock ]

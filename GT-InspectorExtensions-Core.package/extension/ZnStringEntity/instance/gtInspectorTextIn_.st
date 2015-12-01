@@ -1,5 +1,5 @@
 gtInspectorTextIn: composite
 	<gtInspectorPresentationOrder: 30>
-	composite rubricText
+	composite text
 		title: 'Contents';
 		format: self string

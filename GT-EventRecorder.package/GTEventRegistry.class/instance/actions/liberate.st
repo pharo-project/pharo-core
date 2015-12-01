@@ -1,0 +1,2 @@
+liberate
+	self object: nil.

@@ -1,5 +1,5 @@
 evaluatorIn: composite
-	^ composite pharoPlayground
+	^ composite pharoScript
 		doItReceiver: #yourself;
 		display: [ :object | 
 			String streamContents: [ :stream | 

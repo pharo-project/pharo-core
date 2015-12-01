@@ -1,2 +1,0 @@
-canSendUsageData
-	^ GTSpotterEventRecorderSettings sendUsageData

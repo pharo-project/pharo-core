@@ -1,0 +1,2 @@
+canSendDiagnosticsAndUsageData
+	^ privacy value

@@ -1,6 +1,6 @@
 testSelectionIntervalInitialization
 	| presentation |
-	presentation := GLMTextPresentation new
+	presentation := GLMRubricTextPresentation new
 		initialize: [ :pres | pres selectionInterval: (3 to: 9) ].
 	self assert: presentation selectionInterval equals: nil.
 	presentation initializePresentation.

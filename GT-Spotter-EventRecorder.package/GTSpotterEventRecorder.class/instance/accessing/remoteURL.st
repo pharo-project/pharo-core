@@ -1,2 +1,0 @@
-remoteURL
-	^ GTSpotterEventRecorderSettings url

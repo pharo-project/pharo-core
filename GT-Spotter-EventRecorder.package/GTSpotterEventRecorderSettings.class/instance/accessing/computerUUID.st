@@ -1,2 +1,0 @@
-computerUUID
-	^ computerUUID

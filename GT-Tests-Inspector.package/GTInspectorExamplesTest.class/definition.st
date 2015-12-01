@@ -1,5 +1,5 @@
 TestCase subclass: #GTInspectorExamplesTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'pragmas'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Tests-Inspector'

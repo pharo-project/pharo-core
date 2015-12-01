@@ -12,7 +12,7 @@ testConditionalPresentation
 					a list when: [ :x | x > 42 ] ].
 	((browser paneNamed: #one) port: #selection) value: 42.
 	self assert: (browser paneNamed: #two) matchingPresentations size equals: 1.
-	self assert: ((browser paneNamed: #two) matchingPresentations first isKindOf: GLMTextPresentation).
+	self assert: ((browser paneNamed: #two) matchingPresentations first isKindOf: GLMRubricTextPresentation).
 	((browser paneNamed: #one) port: #selection) value: 43.
 	self assert: (browser paneNamed: #two) matchingPresentations size equals: 1.
 	self assert: ((browser paneNamed: #two) matchingPresentations first isKindOf: GLMListPresentation)

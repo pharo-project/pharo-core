@@ -1,0 +1,2 @@
+stored: anObject
+	stored := anObject

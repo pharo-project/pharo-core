@@ -1,6 +1,6 @@
 gtInspectorStScriptIn: composite
 	<gtInspectorPresentationOrder: 0>
-	composite pharoPlayground
+	composite pharoScript
 			title: 'Script';
 			display: [ self readStreamDo: [ :s | s contents ] ];
 			act: [ :text |

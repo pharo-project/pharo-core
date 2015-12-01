@@ -1,7 +1,9 @@
 testCreationWithTransmissionContext
-	| anEvent aContext |
+	| anEvent aContext portOne portTwo |
 	aContext := OrderedCollection new.
-	anEvent := GLMPortEvent on: 1 previouslyValued: 2 in: aContext.
-	self assert: anEvent port equals: 1.
-	self assert: anEvent oldValue equals: 2.
+	portOne := (GLMSimplePort new) name: #portOne; value: 1.
+	portTwo := (GLMSimplePort new) name: #portTwo; value: 2.
+	anEvent := GLMPortEvent on: portOne previouslyValued: portTwo in: aContext.
+	self assert: anEvent port equals: portOne.
+	self assert: anEvent oldValue equals: portTwo.
 	self assert: anEvent transmissionContext equals: aContext

@@ -3,10 +3,13 @@ openGlobalSpotter
 		
 	self reset.
 	spotterModel := GTSpotter new.
-	(Smalltalk hasClassNamed: #GTSpotterEventRecorder) ifTrue: [ 
-		#GTSpotterEventRecorder asClass instance 
+	(Smalltalk hasClassNamed: #GTSpotterEventCollector) ifTrue: [ 
+		#GTSpotterEventCollector asClass new
+			perform: #occupant: with: spotterModel;
+			perform: #category: with: #spotter;
+			register;
 			perform: #linkToSpotter: with: spotterModel;
-			perform: #recordSpotterOpenEvent ] .
+			perform: #recordSpotterOpenEvent ].
 	
 	GTSpotterMorph new
 		extent: (World width / 2.4 @ (World height / 1.6)) asIntegerPoint;

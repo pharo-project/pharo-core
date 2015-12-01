@@ -1,0 +1,2 @@
+numberOfCollectors
+	^ collectors size

@@ -1,0 +1,2 @@
+persistenceClass
+	^ GlobalIdentifierFuelPersistence

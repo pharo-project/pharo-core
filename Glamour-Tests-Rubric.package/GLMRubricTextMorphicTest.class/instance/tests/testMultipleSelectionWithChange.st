@@ -1,6 +1,6 @@
 testMultipleSelectionWithChange
 	| composite textMorph textPresentation |
-	composite := GLMCompositePresentation new with: [ :a | a rubricText display: '123456789' ].
+	composite := GLMCompositePresentation new with: [ :a | a text display: '123456789' ].
 	window := composite openOn: 4.
 	textMorph := self find: RubScrolledTextMorph in: window.
 	self assert: textMorph selectionInterval isEmpty.

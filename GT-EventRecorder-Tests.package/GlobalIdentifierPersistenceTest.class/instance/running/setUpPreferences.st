@@ -1,0 +1,2 @@
+setUpPreferences
+	self subclassResponsibility

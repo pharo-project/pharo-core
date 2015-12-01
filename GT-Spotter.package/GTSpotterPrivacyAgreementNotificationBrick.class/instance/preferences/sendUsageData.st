@@ -1,4 +1,4 @@
 sendUsageData
 	| settingsClass |
-	settingsClass := #GTSpotterEventRecorderSettings asClassIfAbsent: [ ^ false ].
-	^ settingsClass sendUsageData
+	settingsClass := #Privacy asClassIfAbsent: [ ^ false ].
+	^ settingsClass sendDiagnosticsAndUsageData

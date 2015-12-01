@@ -1,0 +1,2 @@
+preSuspendingAction: aBlockClosure 
+	preSuspendingAction := aBlockClosure

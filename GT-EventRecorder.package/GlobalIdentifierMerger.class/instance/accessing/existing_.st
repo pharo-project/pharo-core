@@ -1,0 +1,2 @@
+existing: anObject
+	existing := anObject

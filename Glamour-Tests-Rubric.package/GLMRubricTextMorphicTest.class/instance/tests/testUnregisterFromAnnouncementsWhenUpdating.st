@@ -3,7 +3,7 @@ testUnregisterFromAnnouncementsWhenUpdating
 	numberOfExecutions := 0.
 	announcingCollection := GLMAnnouncingCollection new.
 	composite :=  GLMCompositePresentation new with: [ :a | 
-					(a rubricText)
+					(a text)
 						updateOn: GLMItemAdded from: [ announcingCollection ];
 						display: [ 
 								numberOfExecutions := numberOfExecutions + 1. 

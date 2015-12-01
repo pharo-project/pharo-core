@@ -1,2 +1,0 @@
-persistSettings
-	SettingBrowser new exportSettings

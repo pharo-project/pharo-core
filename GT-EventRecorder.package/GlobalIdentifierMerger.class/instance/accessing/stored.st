@@ -1,0 +1,2 @@
+stored
+	^ stored

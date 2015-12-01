@@ -1,2 +1,2 @@
 text 
-	^ self custom: GLMTextPresentation new
+	^ self custom: GLMRubricTextPresentation new

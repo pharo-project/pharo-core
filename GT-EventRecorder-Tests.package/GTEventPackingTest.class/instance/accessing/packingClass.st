@@ -1,0 +1,2 @@
+packingClass
+	^ self subclassResponsibility

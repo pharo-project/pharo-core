@@ -1,0 +1,2 @@
+deactivateDelivery
+	^ delivery deactivate

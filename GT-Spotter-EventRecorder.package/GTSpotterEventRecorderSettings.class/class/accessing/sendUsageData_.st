@@ -1,2 +1,0 @@
-sendUsageData: aBoolean
-	sendUsageData := aBoolean.

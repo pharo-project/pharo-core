@@ -1,0 +1,2 @@
+sendEntityNames: aBoolean
+	sendEntityNames := aBoolean

@@ -1,6 +1,6 @@
 testExplicitAcceptDoesNotAffectTextPort
 	| composite textMorph |
-	composite := GLMCompositePresentation new with: [ :a | a rubricText display: '123' ].
+	composite := GLMCompositePresentation new with: [ :a | a text display: '123' ].
 	window := composite openOn: 4.
 	textMorph := self find: RubScrolledTextMorph in: window.
 	self simulateOnlyOneClickOn: textMorph.

@@ -1,0 +1,2 @@
+materialize: aByteArray
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+announceSuspendingDelivery
+	preSuspendingAction ifNotNil: #value

@@ -7,4 +7,4 @@ onChildrenLayouted
 	self asyncTask
 		perform: [ self updateMorphBounds ]
 		delay: 400
-		priority: Processor lowestPriority
+		priority: Processor userBackgroundPriority + 1

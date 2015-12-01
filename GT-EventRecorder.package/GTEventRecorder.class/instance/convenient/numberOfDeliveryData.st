@@ -1,0 +1,2 @@
+numberOfDeliveryData
+	^ delivery size

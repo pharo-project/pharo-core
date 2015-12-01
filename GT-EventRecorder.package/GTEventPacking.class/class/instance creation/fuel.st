@@ -1,0 +1,2 @@
+fuel
+	^ GTFuelPacking new

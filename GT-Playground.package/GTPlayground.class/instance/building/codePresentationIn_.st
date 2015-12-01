@@ -1,3 +1,3 @@
 codePresentationIn: composite
 
-	^ composite pharoPlayground
+	^ composite pharoScript

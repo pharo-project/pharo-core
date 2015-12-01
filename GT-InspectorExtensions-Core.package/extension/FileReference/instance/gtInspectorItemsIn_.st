@@ -26,4 +26,14 @@ gtInspectorItemsIn: composite
 				ifFalse: [ GLMUIThemeExtraIcons glamorousBrowse ] ];
 		when: [self isDirectory and: [self hasChildren]];
 		selectionAct: [:table | table selection delete. table update] entitled: 'Delete';
+		act: [ :table |
+			 (UIManager default request: 'New Directory name?' initialAnswer: '') 
+					ifNotNil: [:name | (self / name) ensureCreateDirectory ].
+			 table update
+			 ] icon: GLMUIThemeExtraIcons glamorousFolder entitled: 'Create Directory';		
+		act: [ :table |
+			 (UIManager default request: 'New File name?' initialAnswer: '') 
+					ifNotNil: [:name | (self / name) ensureCreateFile ].
+			 table update
+			 ] icon: GLMUIThemeExtraIcons glamorousBrowse entitled: 'Create File';		
 		act: [ :table | table update ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Refresh'

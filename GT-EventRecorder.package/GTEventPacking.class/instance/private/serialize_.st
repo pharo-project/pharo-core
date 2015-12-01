@@ -1,0 +1,2 @@
+serialize: anObject
+	^ self subclassResponsibility

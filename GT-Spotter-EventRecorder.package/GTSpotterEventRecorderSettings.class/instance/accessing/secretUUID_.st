@@ -1,2 +1,0 @@
-secretUUID: anUUID
-	secretUUID := anUUID

@@ -1,0 +1,2 @@
+sessionUUID
+	^ self at: #sessionUUID

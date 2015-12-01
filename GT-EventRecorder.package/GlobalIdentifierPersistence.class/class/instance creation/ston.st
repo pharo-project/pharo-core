@@ -1,0 +1,2 @@
+ston
+	^ GlobalIdentifierStonPersistence new

@@ -1,0 +1,2 @@
+ston
+	^ GTStonPacking new

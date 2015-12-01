@@ -1,2 +1,0 @@
-expectedFailures
-	^ super expectedFailures, #(testOKeyCanBeOverriden)

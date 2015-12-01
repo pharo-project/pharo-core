@@ -1,0 +1,2 @@
+default
+	^ self ston

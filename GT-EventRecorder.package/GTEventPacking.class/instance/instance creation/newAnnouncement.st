@@ -1,0 +1,2 @@
+newAnnouncement
+	^ GTEventAnnouncement new

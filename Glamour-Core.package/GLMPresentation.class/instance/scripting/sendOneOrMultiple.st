@@ -1,0 +1,2 @@
+sendOneOrMultiple
+	self sendOneOrMultipleAs: Array

@@ -5,11 +5,11 @@ testUpdate
 	browser transmit to: #one; andShow: [ :a | 
 		a dynamic presentation: [:some :object | 
 			some custom: presentationObject ]].
-	presentationObject := GLMTextPresentation new.
+	presentationObject := GLMRubricTextPresentation new.
 	window := browser openOn: 42.
 	dynamicContainerMorph := window submorphs last submorphs first submorphs first.
 	self assert: (dynamicContainerMorph isKindOf: PanelMorph).
-	self assert: (dynamicContainerMorph submorphs first isKindOf: PluggableTextMorph).
+	self assert: (dynamicContainerMorph submorphs first isKindOf: RubScrolledTextMorph).
 	presentationObject := GLMListPresentation new.
 	browser update.
 	dynamicContainerMorph := window submorphs last submorphs first submorphs first.

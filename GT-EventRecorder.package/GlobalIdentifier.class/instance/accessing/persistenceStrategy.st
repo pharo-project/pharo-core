@@ -1,0 +1,2 @@
+persistenceStrategy
+	^ persistenceStrategy

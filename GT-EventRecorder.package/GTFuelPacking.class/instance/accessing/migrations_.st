@@ -1,0 +1,2 @@
+migrations: aCollectionOrNil
+	migrations := aCollectionOrNil

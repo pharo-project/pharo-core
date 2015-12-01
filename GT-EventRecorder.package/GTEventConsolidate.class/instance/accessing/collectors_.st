@@ -1,0 +1,2 @@
+collectors: aCollection 
+	collectors := aCollection

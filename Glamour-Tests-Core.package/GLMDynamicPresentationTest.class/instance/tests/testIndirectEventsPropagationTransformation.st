@@ -3,7 +3,7 @@ testIndirectEventsPropagationTransformation
 	counter := 0.
 	dynamic := GLMDynamicPresentation new.
 	dynamic entity: '42'.
-	dynamic display: [ :entity | textPresentation := GLMTextPresentation new ].
+	dynamic display: [ :entity | textPresentation := GLMRubricTextPresentation new ].
 	"Build the presentation"
 	dynamic currentPresentation.
 	

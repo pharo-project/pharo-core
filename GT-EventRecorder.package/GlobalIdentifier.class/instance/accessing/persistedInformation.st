@@ -1,0 +1,2 @@
+persistedInformation
+	^ persistedInformation

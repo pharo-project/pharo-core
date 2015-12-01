@@ -1,2 +1,2 @@
 settings
-	^ GTSpotterEventRecorderSettings uniqueInstance
+	^ GlobalIdentifier uniqueInstance

@@ -1,0 +1,2 @@
+isDeliveryActive
+	^ delivery isActive
