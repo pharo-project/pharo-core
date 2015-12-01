@@ -8,7 +8,7 @@ inputWidget
 			ifNotNil: [:selector | self typeClass perform: selector with: self]].
 	inputWidget
 		ifNotNil: [(inputWidget respondsTo: #model:) 
-			ifTrue: [inputWidget model: self]]. 
+		  ifTrue: [inputWidget model ifNil: [inputWidget model: self]]].
 	xtraDialogWidget 
 		ifNotNil: [inputWidget := inputWidget ifNil: [xtraDialogWidget] 
 			ifNotNil: [ self theme  newRowIn: World for: {inputWidget. xtraDialogWidget}]].

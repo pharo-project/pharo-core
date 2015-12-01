@@ -1,2 +1,0 @@
-emptyCommentWarning: aBoolean
-	emptyCommentWarning := aBoolean

@@ -1,6 +1,6 @@
 loadCompletePackageSnapshot
 	| definitions |
-	definitions := package snapshot definitions asOrderedCollection.
+	definitions := OrderedCollection withAll: package snapshot definitions.
 	
 	self dependencies 
 		do: [ :each| definitions addAll: each package snapshot definitions ]

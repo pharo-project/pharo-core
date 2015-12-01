@@ -18,7 +18,7 @@ classIconFor: aClass
 						borderWidth: 0.
 			^ button ]
 		ifFalse: [
-			(aClass hasComment not and: [ Nautilus emptyCommentWarning ])
+			(aClass hasComment not )
 				ifTrue: [| button |
 					button := IconicButton new 
 								target: self;

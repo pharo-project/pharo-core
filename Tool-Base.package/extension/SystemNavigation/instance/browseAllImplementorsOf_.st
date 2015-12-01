@@ -8,5 +8,5 @@ browseAllImplementorsOf: selector
 	^ self
 		browseMessageList: (self allImplementorsOf: selector)
 		name: 'Implementors of ' , selector
-		autoSelect: nil
+		autoSelect: selector
 		refreshingBlockSelector: #setRefreshingBlockForImplementorsOf:

@@ -1,7 +1,7 @@
 loadCompleteSnapshot
 	|definitions|
 	
-	definitions := self snapshot definitions asOrderedCollection.
+	definitions := OrderedCollection withAll: package snapshot definitions.
 	
 	self dependencies 
 		do: [ :each| definitions addAll: each resolve completeSnapshot definitions ]

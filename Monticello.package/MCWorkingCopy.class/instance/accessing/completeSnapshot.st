@@ -4,7 +4,7 @@ completeSnapshot
 	
 	| definitions |
 	
-	definitions := self snapshot definitions asOrderedCollection.
+	definitions := OrderedCollection withAll: package snapshot definitions.
 	
 	self requiredPackages 
 		do: [ :aPackage| definitions addAll: aPackage workingCopy completeSnapshot definitions ]
