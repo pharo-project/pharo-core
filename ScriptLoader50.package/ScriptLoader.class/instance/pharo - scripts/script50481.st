@@ -1,4 +1,4 @@
-script50480
+script50481
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -171,7 +171,7 @@ MonticelloGUI-TheIntegrator.403.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.521.mcz
+Morphic-Base-TheIntegrator.522.mcz
 Morphic-Core-TheIntegrator.232.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
@@ -204,7 +204,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1179.mcz
+Nautilus-TheIntegrator.1181.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -225,7 +225,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.760.mcz
+OpalCompiler-Core-TheIntegrator.763.mcz
 OpalCompiler-Tests-TheIntegrator.316.mcz
 OpalTools-TheIntegrator.22.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -288,7 +288,7 @@ Slot-TheIntegrator.705.mcz
 Slot-Tests-TheIntegrator.66.mcz
 SmartSuggestions-TheIntegrator.209.mcz
 SmartSuggestions-Tests-TheIntegrator.20.mcz
-Spec-Core-TheIntegrator.440.mcz
+Spec-Core-TheIntegrator.442.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -297,7 +297,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.247.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.310.mcz
+Spec-Tools-TheIntegrator.312.mcz
 StartupPreferences-TheIntegrator.145.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz

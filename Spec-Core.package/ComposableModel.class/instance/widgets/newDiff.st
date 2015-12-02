@@ -1,0 +1,2 @@
+newDiff
+	^ self instantiate: DiffModel

@@ -1,1 +1,0 @@
-This error is raised when the BytecodeGenerator cannot encode in the bytecode the IR nodes.

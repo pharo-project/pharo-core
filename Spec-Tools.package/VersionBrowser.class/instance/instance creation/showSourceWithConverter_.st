@@ -2,7 +2,7 @@ showSourceWithConverter: aConverter
 	| behavior |
 	
 	behavior := browser textModel behavior.
-	browser instantiateModels: #(textModel TextModel).
+	browser textModel: browser newText.
 	browser textModel beForCode.
 	browser needRebuild: false.
 	browser openWithSpec.

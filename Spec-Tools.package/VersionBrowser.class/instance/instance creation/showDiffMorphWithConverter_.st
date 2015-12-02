@@ -2,7 +2,7 @@ showDiffMorphWithConverter: aConverter
 	| behavior |
 	
 	behavior := browser textModel behavior.
-	browser instantiateModels: #(textModel DiffModel).
+	browser textModel: browser newDiff.
 	browser needRebuild: false.
 	browser openWithSpec.
 	browser textConverter: aConverter.
