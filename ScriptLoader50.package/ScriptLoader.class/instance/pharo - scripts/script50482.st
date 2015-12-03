@@ -1,4 +1,4 @@
-script50481
+script50482
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -195,8 +195,8 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.225.mcz
-NECompletion-Tests-TheIntegrator.4.mcz
+NECompletion-TheIntegrator.226.mcz
+NECompletion-Tests-TheIntegrator.6.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
@@ -242,11 +242,11 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.292.mcz
+Refactoring-Core-TheIntegrator.294.mcz
 Refactoring-Critics-TheIntegrator.248.mcz
 Refactoring-Environment-TheIntegrator.74.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
-Refactoring-Tests-Core-TheIntegrator.129.mcz
+Refactoring-Tests-Core-TheIntegrator.131.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.19.mcz
 Reflectivity-TheIntegrator.282.mcz
@@ -284,8 +284,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.283.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.705.mcz
-Slot-Tests-TheIntegrator.66.mcz
+Slot-TheIntegrator.708.mcz
+Slot-Tests-TheIntegrator.68.mcz
 SmartSuggestions-TheIntegrator.209.mcz
 SmartSuggestions-Tests-TheIntegrator.20.mcz
 Spec-Core-TheIntegrator.442.mcz

@@ -4,13 +4,12 @@ createModel
 	self receiverClass
 		ifNotNil: [^ NECTypedModel class: receiverClass].
 
-
-	NECPreferences overrideModel ifTrue: [ 
-		(controller workspace isNil
-			and: [theClass notNil])
-				ifTrue: [self isStartOfMethodDefinition 
-					ifTrue: [^ NECOverrideModel class: theClass]]].
-			
+	(controller workspace isNil and: [ theClass notNil ])
+		ifTrue: [ self isStartOfMethodDefinition
+				ifTrue: [ NECPreferences overrideModel
+						ifTrue: [ ^ NECOverrideModel class: theClass ]
+						ifFalse: [ ^ NECEmptyModel new ] ] ].
+							
 	self completionTokenIsLiteral ifTrue:[ ^ NECEmptyModel new].
 				
 	modelClass := NECUntypedModel.		
