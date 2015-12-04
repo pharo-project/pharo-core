@@ -3,12 +3,7 @@ gtInspectorMappingsIn: composite
 	composite table 
 		title: 'Keys';
 		display: [ 
-			((self targets collect: #category)
-				add: self directKeymaps;
-				yourself)
-				flatCollect: [ :category | 
-					category allEntries keymaps collect: [ :key | key -> category ] ]
-				 ];
+			self gtAllKeyCategoryPairs ];
 		filterOn: [ :text :each | each gtDisplayString includesSubstring: text caseSensitive: false ];
 		column: 'Shortcut' evaluated: [ :assoc | assoc key shortcut gtDisplayString ] width: 120;
 		column: 'Action' evaluated: [ :assoc | assoc key action gtDisplayString ];

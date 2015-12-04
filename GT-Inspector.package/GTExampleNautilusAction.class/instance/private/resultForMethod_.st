@@ -1,4 +1,4 @@
 resultForMethod: aCompiledMethod
 	^ aCompiledMethod gtExamples 
-		ifNotEmpty: [ :examples | examples first result ]
+		ifNotEmpty: [ :examples | examples first resultCached ]
 		ifEmpty: [ nil ]

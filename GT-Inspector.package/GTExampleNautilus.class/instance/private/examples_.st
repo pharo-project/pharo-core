@@ -1,4 +1,4 @@
 examples: aCollection
 	^ aCollection size = 1
-		ifTrue: [ aCollection first ]
+		ifTrue: [ aCollection anyOne ]
 		ifFalse: [ aCollection ]

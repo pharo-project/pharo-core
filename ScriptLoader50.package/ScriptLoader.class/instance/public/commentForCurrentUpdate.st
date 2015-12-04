@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '17167 disable NEC completion in method comments
-	https://pharo.fogbugz.com/f/cases/17167
-
-17181 Rename layout to classLayout (step 3.5 replace implementation in Behavior)
-	https://pharo.fogbugz.com/f/cases/17181
-
-16724 new removal of RubPluggableTextMorph
-	https://pharo.fogbugz.com/f/cases/16724
-
-17178 Move checking logic of #handleMouseMove: into #handlesMouseMove: 
-	https://pharo.fogbugz.com/f/cases/17178'
+ ^ '17184 Update GTools version 3.2.2
+	https://pharo.fogbugz.com/f/cases/17184'

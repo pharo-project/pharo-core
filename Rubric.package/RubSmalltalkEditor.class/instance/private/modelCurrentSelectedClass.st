@@ -4,8 +4,8 @@ modelCurrentSelectedClass
 	" IT'S A TEMP SOLUTION -- BenjaminVanRyseghem 14/04/11"
 
 	" From now, all tools should use #selectedBehavior, waiting for a better solution - Thx Nice "
-	(self model respondsTo: #selectedBehavior)
-		ifTrue: [^ self model selectedBehavior ].
+	(self model interactionModel respondsTo: #selectedBehavior)
+		ifTrue: [^ self model interactionModel selectedBehavior ].
 	
 	" old selectors in order of uses "
 	(self model respondsTo: #selectedClass)

@@ -4,6 +4,6 @@ runExample: example fromContainer: aContainer
 	example ignoreTest ifTrue: [ ^ self ].
 	self shouldnt: [ exampleResult := example run ] raise: Error.
 	exampleResult isError 
-		ifTrue: [ ^ result class signalErrorWith: exampleResult asString  ].
+		ifTrue: [ ^ result class signalErrorWith: exampleResult gtDisplayString  ].
 	exampleResult isFailure 
-		ifTrue: [ ^ result class signalFailureWith: exampleResult asString  ] 
+		ifTrue: [ ^ result class signalFailureWith: exampleResult gtDisplayString  ] 

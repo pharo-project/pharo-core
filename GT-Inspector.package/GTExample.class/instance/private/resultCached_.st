@@ -1,4 +1,4 @@
 resultCached: aResult
 	self ignoreCache ifFalse: [ result := aResult ].
-	GTExampleNautilus methodChanged: self method.
+	GTExampleNautilus methodUpdated: self method with: aResult.
 	^ aResult
