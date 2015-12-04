@@ -1,3 +1,0 @@
-withNewList
-
-	listMorph := self buildMorph.

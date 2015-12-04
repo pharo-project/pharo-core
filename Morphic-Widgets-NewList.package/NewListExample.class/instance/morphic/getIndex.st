@@ -1,3 +1,0 @@
-getIndex
-
-	^ index

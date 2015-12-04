@@ -1,4 +1,4 @@
-script50482
+script50483
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -67,7 +67,7 @@ Files-TheIntegrator.404.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.15.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
-FontChooser-TheIntegrator.12.mcz
+FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.10.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.716.mcz
@@ -172,7 +172,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.522.mcz
-Morphic-Core-TheIntegrator.232.mcz
+Morphic-Core-TheIntegrator.234.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.68.mcz
@@ -180,7 +180,7 @@ Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.24.mcz
 Morphic-Widgets-FastTable-usmanbhatti.119.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
-Morphic-Widgets-NewList-TheIntegrator.7.mcz
+Morphic-Widgets-NewList-TheIntegrator.9.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.30.mcz
@@ -195,7 +195,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.226.mcz
+NECompletion-TheIntegrator.228.mcz
 NECompletion-Tests-TheIntegrator.6.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
@@ -284,10 +284,10 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.283.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.708.mcz
-Slot-Tests-TheIntegrator.68.mcz
-SmartSuggestions-TheIntegrator.209.mcz
-SmartSuggestions-Tests-TheIntegrator.20.mcz
+Slot-TheIntegrator.710.mcz
+Slot-Tests-TheIntegrator.69.mcz
+SmartSuggestions-TheIntegrator.210.mcz
+SmartSuggestions-Tests-TheIntegrator.21.mcz
 Spec-Core-TheIntegrator.442.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz

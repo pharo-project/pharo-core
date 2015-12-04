@@ -10,7 +10,7 @@ createModel
 						ifTrue: [ ^ NECOverrideModel class: theClass ]
 						ifFalse: [ ^ NECEmptyModel new ] ] ].
 							
-	self completionTokenIsLiteral ifTrue:[ ^ NECEmptyModel new].
+	self completionTokenIsLiteralOrComment ifTrue:[ ^ NECEmptyModel new].
 				
 	modelClass := NECUntypedModel.		
 	(controller model respondsTo: #modelClass) 

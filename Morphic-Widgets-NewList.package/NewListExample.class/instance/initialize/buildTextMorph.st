@@ -1,2 +1,0 @@
-buildTextMorph
-	^ RubPluggableTextMorph new

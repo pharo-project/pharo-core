@@ -1,2 +1,2 @@
 layout: aClassLayout
-	layout := aClassLayout
+	self classLayout: aClassLayout

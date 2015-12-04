@@ -1,3 +1,0 @@
-withOldList
-
-	listMorph := self buildMorphWithOld.

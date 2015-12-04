@@ -1,5 +1,5 @@
 newFontPointSizeField
-	^ (RubPluggableTextMorph
+	^ (RubScrolledTextMorph
 		on: self
 		text: #pointSizeString
 		accept: #pointSizeString:)

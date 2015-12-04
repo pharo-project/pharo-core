@@ -1,3 +1,0 @@
-headerTitle
-
-	^ 'My Title'
