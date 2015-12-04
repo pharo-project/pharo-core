@@ -11,7 +11,6 @@ buildPackageSearch
 		setIndexSelector: #packageSearchUpdate:;
 		yourself.
 		
-	searchWidget contentMorph autoAccept: true.
 	textMorph := searchWidget contentMorph textMorph.	
 	self setShortcuts: #NautilusGlobalShortcuts to: textMorph.
 	textMorph bindKeyCombination: Character tab asKeyCombination toAction: [ textMorph navigateFocusForward ].
