@@ -1,3 +1,0 @@
-unload
-	PluggableTextMorph stylingClass: nil
-	

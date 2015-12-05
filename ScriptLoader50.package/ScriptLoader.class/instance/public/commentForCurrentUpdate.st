@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17187 make link de- installation more stable
-	https://pharo.fogbugz.com/f/cases/17187
+ ^ '17196 Remove check for event handler in #handlesMouseMove:
+	https://pharo.fogbugz.com/f/cases/17196
 
-17188 remove unsent methods from AbstracTool and Nautilus
-	https://pharo.fogbugz.com/f/cases/17188
+17191 remove option #useAstColoring
+	https://pharo.fogbugz.com/f/cases/17191
 
-17163 remove Setting #warningAllowed
-	https://pharo.fogbugz.com/f/cases/17163'
+17079 no syntax highlighting in TimeProfilers code pane
+	https://pharo.fogbugz.com/f/cases/17079'

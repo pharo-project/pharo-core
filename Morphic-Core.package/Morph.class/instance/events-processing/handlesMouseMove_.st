@@ -3,7 +3,8 @@ handlesMouseMove: anEvent
 		* the hand is not dragging anything,
 			+ and some button is down,
 			+ and the receiver is the current mouse focus."
-	self eventHandler ifNotNil: [:handler | ^handler handlesMouseMove: anEvent ].
+			
+	"self eventHandler ifNotNil: [:handler | ^handler handlesMouseMove: anEvent ]."
 				
 	^anEvent hand submorphs isEmpty and: [ 	 
 		(anEvent anyButtonPressed and:[

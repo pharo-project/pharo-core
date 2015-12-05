@@ -1,2 +1,0 @@
-useAstColoring
-	^ PluggableTextMorph stylingClass = SHRBTextStyler 

@@ -1,4 +1,4 @@
-script50486
+script50487
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -172,7 +172,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.522.mcz
-Morphic-Core-TheIntegrator.234.mcz
+Morphic-Core-TheIntegrator.237.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.68.mcz
@@ -282,7 +282,7 @@ Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.9.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.15.mcz
-Shout-TheIntegrator.283.mcz
+Shout-TheIntegrator.285.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.710.mcz
 Slot-Tests-TheIntegrator.69.mcz
