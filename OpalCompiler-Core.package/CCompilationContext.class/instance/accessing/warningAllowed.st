@@ -1,2 +1,0 @@
-warningAllowed
-	^ self class warningAllowed

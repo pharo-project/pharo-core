@@ -1,2 +1,0 @@
-warningAllowed: aBoolean
-	WarningAllowed := aBoolean
