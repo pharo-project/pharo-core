@@ -2,7 +2,7 @@ pushClosureCopyNumCopiedValues: numCopied numArgs: numArgs2 to: toSeqId
 	| blockSeqId |
 	blockSeqId := self newDummySeqId.
 	stack pop: numCopied.
-	stacks at: blockSeqId put: (stack linkTo: (stacks at: blockSeqId ifAbsentPut: [ nil ])).
+	stacks at: blockSeqId put: ((IRClosureStackCount new numMethodTempVars:(numberOfTemps)) startAt: (numArgs2+numCopied)).
 	stack push.
 	stacks at: toSeqId put: (stack linkTo: (stacks at: toSeqId ifAbsentPut: [ nil ])).
 	self

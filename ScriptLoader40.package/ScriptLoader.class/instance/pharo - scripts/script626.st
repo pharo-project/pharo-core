@@ -1,4 +1,4 @@
-script625
+script626
 
 	^ 'AST-Core-TheIntegrator.286.mcz
 AST-Tests-Core-TheIntegrator.65.mcz
@@ -152,7 +152,7 @@ MonticelloFileTree-Core-TheIntegrator.182.mcz
 MonticelloFileTree-FileSystem-Utilities-MarcusDenker.32.mcz
 MonticelloGUI-TheIntegrator.343.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
-Morphic-Base-TheIntegrator.441.mcz
+Morphic-Base-TheIntegrator.443.mcz
 Morphic-Core-TheIntegrator.170.mcz
 Morphic-Examples-TheIntegrator.40.mcz
 Morphic-Widgets-Basic-TheIntegrator.41.mcz
@@ -166,7 +166,7 @@ Morphic-Widgets-Tabs-TheIntegrator.12.mcz
 Morphic-Widgets-Taskbar-StephaneDucasse.7.mcz
 Morphic-Widgets-Tree-TheIntegrator.27.mcz
 Morphic-Widgets-Windows-TheIntegrator.47.mcz
-MorphicTests-TheIntegrator.99.mcz
+MorphicTests-TheIntegrator.101.mcz
 Multilingual-Encodings-MarcusDenker.47.mcz
 Multilingual-Languages-StephaneDucasse.40.mcz
 Multilingual-OtherLanguages-MarcusDenker.12.mcz
@@ -199,7 +199,7 @@ NonInteractiveTranscript-TheIntegrator.15.mcz
 OSWindow-Core-TheIntegrator.20.mcz
 OSWindow-SDL2-EstebanLorenzano.19.mcz
 OSWindow-VM-IgorStasenko.2.mcz
-OpalCompiler-Core-TheIntegrator.647.mcz
+OpalCompiler-Core-TheIntegrator.649.mcz
 OpalCompiler-Tests-TheIntegrator.287.mcz
 OpalDecompiler-TheIntegrator.31.mcz
 OpalTools-TheIntegrator.16.mcz
