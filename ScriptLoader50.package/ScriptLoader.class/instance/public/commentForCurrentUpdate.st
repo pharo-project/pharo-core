@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17196 Remove check for event handler in #handlesMouseMove:
-	https://pharo.fogbugz.com/f/cases/17196
+ ^ '17189 remove check for PluggableTextMorph in TextMorph>>#moudeDown:
+	https://pharo.fogbugz.com/f/cases/17189
 
-17191 remove option #useAstColoring
-	https://pharo.fogbugz.com/f/cases/17191
+17145 remove watchpoint package
+	https://pharo.fogbugz.com/f/cases/17145
 
-17079 no syntax highlighting in TimeProfilers code pane
-	https://pharo.fogbugz.com/f/cases/17079'
+16962 Code pane should not show all spaces selected when one is selected
+	https://pharo.fogbugz.com/f/cases/16962'

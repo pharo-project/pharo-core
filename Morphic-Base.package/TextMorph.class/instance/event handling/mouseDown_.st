@@ -1,8 +1,6 @@
 mouseDown: evt 
 	"Make this TextMorph be the keyboard input focus, if it isn't  
-	already, and repond to the text selection gesture.
-	Changed to not take keyboard focus if an owner is a
-	Pluggable Text Morph that doesn't want focus."
+	already, and repond to the text selection gesture"
 	
 	evt yellowButtonPressed
 		ifTrue: ["First check for option (menu) click"
@@ -10,8 +8,5 @@ mouseDown: evt
 				ifTrue: [ ^ self ]].
 	self handleInteraction: [editor mouseDown: evt].
 	self hasKeyboardFocus
-		ifFalse: [(self ownerThatIsA: PluggableTextMorph)
-					ifNil: [self takeKeyboardFocus]
-					ifNotNil: [:ptm | ptm wantsKeyboardFocus ifTrue: [
-							self takeKeyboardFocus]]].
+		ifFalse: [self takeKeyboardFocus].
 	super mouseDown: evt

@@ -1,1 +1,0 @@
-I'm a wrapper that make circular access to an Ordered Collection
