@@ -1,2 +1,2 @@
-loads: anObject
-    self root loads: anObject constructor: self
+loads: aStringOrCollection
+  self root loads: aStringOrCollection constructor: self

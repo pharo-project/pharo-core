@@ -1,4 +1,4 @@
 cacheDirectory: aDirectory
-  "explicitly set CacheDirectory"
+  "use class var to survive upgrade when MCGitHubRepository moved to subclass of MCGitBasedRepository"
 
   CacheDirectory := aDirectory

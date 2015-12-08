@@ -1,0 +1,2 @@
+unregister
+  actionArg := #'unregister' -> #()

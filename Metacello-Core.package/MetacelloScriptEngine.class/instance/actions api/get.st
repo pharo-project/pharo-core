@@ -9,6 +9,8 @@ get
       projectPackage := spec projectPackage.
       projectPackage repositorySpecs
         do: [ :repoSpec | repoSpec createRepository flushForScriptGet ].
+      self cacheRepository
+        ifNotNil: [ :cacheRepository | projectPackage loader loaderPolicy cacheRepository: cacheRepository ].
       projectPackage load.
       self root: (Smalltalk at: spec className asSymbol) project.
       MetacelloProjectRegistration

@@ -1,0 +1,2 @@
+isBaselineOfProjectSpec
+	^ true

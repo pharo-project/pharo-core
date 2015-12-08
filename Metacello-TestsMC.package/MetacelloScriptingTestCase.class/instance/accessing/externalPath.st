@@ -1,0 +1,2 @@
+externalPath
+    ^ 'metacello-tests/external'

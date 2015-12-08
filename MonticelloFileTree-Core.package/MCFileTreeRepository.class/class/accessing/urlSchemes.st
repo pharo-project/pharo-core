@@ -1,2 +1,2 @@
 urlSchemes
-	^ #(filetree)
+	^ #(#filetree)

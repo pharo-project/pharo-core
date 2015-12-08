@@ -1,3 +1,2 @@
 includesForPackageOrdering
-
-	^self includes
+  ^ self includes

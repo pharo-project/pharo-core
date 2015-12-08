@@ -1,7 +1,9 @@
 writeMethodPreamble: definition
-	self chunkContents: [:str |
-		stream bang.
-		str nextPutAll: definition fullClassName;
-			nextPutAll: ' methodsFor: ';
-			nextPutAll: definition category asString printString
-		]
+    stream
+        cr;
+        nextPut: $!;
+        nextPutAll: definition fullClassName;
+        nextPutAll: ' methodsFor: ';
+        nextPutAll: definition category asString printString;
+        nextPutAll: '!';
+        cr

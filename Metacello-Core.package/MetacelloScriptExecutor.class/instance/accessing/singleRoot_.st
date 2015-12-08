@@ -1,2 +1,2 @@
 singleRoot: aBool
-    singleRoot := aBool
+  singleRoot := aBool

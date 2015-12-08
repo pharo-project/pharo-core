@@ -6,4 +6,3 @@ extractSymbolicVersionSpecsFor: sourceVersionSymbol
 	pragma := coll at: 1.
 	self evaluatePragma: pragma.
 	^ self methodSections
-

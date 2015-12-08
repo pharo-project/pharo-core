@@ -1,0 +1,2 @@
+useIncoming
+  self allow

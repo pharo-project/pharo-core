@@ -1,19 +1,19 @@
 merge: aProjectRegistration
   " ... merge is done when a spec has been loaded into the image"
 
-  "only one of baselineProjectSpec or configurationProjectSpec should ever be set"
-
   self shouldBeMutable.
-  (self isValid and: [ aProjectRegistration isValid ])
-    ifFalse: [ self error: 'Invalid registrations' ].
+  aProjectRegistration validate.
   aProjectRegistration configurationProjectSpec
-    ifNotNil: [ 
-      "use aProjectRegistration's configurationProjectSpec and nil my baselineProjectSpec"
-      configurationProjectSpec := aProjectRegistration configurationProjectSpec.
+    ifNotNilDo: [ :aSpec | 
+      configurationProjectSpec := aSpec copy.
+      configurationProjectSpec versionOrNil
+        ifNotNil: [ :version | 
+          "resolve symbolic versions for loaded projects"
+          configurationProjectSpec versionString: version versionString ].
       baselineProjectSpec := nil.
-      ^ self ].
-  aProjectRegistration baselineProjectSpec
-    ifNotNil: [ 
-      "use aProjectRegistration's baselineProjectSpec and nil my configurationProjectSpec"
+      self versionInfo versionString: configurationProjectSpec versionString ]
+    ifNil: [ 
+      baselineProjectSpec := aProjectRegistration baselineProjectSpec.
       configurationProjectSpec := nil.
-      baselineProjectSpec := aProjectRegistration baselineProjectSpec ]
+      self versionInfo
+        versionString: baselineProjectSpec repositoryVersionString ]

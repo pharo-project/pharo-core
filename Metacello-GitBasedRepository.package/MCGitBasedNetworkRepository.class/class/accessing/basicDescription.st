@@ -1,0 +1,2 @@
+basicDescription
+  ^ self subclassResponsibility

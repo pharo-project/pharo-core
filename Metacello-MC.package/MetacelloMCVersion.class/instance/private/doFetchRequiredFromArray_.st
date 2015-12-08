@@ -13,4 +13,3 @@ doFetchRequiredFromArray: anArray
 			ensure: [ 
 				MetacelloPlatform current bypassProgressBars: oldBypassProgress.
 				loaderPolicy := oldPolicy ]
-	

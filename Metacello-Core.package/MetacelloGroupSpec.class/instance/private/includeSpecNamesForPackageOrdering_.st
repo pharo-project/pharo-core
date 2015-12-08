@@ -1,0 +1,2 @@
+includeSpecNamesForPackageOrdering: aVersionSpec
+  ^ #()

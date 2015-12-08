@@ -1,5 +1,5 @@
 GoferTest subclass: #MetacelloDictionaryRepositoryTest
-	instanceVariableNames: 'tempRepositories'
+	instanceVariableNames: 'tempRepositories initialWorkingCopyList'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-TestsMC'

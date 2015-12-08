@@ -1,0 +1,2 @@
+defaultRepositoryDescription: descriptionOrNil
+  DefaultRepositoryDescription := descriptionOrNil

@@ -1,0 +1,2 @@
+hasConflictWithProjectSpec: projectSpec
+	^ projectSpec hasConflictWithConfigurationSpec: self

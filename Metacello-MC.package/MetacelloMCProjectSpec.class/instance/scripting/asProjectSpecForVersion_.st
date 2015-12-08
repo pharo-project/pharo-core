@@ -1,0 +1,2 @@
+asProjectSpecForVersion: vrsn
+  ^ self

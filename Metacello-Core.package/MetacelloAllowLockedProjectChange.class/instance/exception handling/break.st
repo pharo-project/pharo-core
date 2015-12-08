@@ -1,0 +1,2 @@
+break
+  ^ self allow

@@ -1,3 +1,3 @@
 singleRoot
-    singleRoot ifNil: [ singleRoot := false ].
-    ^ singleRoot
+  singleRoot ifNil: [ singleRoot := false ].
+  ^ singleRoot

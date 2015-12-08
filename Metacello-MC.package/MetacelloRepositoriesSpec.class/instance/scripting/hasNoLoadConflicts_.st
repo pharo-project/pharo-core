@@ -1,8 +1,8 @@
-hasNoLoadConflicts: aMetacelloProjectSpec
+hasNoLoadConflicts: aMetacelloRepositoriesSpec
   | repositorySpecs anotherRepositorySpecs |
   repositorySpecs := self map values
     sort: [ :a :b | a description <= b description ].
-  anotherRepositorySpecs := aMetacelloProjectSpec map values
+  anotherRepositorySpecs := aMetacelloRepositoriesSpec map values
     sort: [ :a :b | a description <= b description ].
   repositorySpecs size ~= anotherRepositorySpecs size
     ifTrue: [ ^ false ].

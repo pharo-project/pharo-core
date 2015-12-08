@@ -1,5 +1,5 @@
 MetacelloSpec subclass: #MetacelloVersionSpec
-	instanceVariableNames: 'versionString blessing description author timestamp preLoadDoIt postLoadDoIt packageList importName'
+	instanceVariableNames: 'versionString blessing description author timestamp preLoadDoIt postLoadDoIt packageList importName importArray'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Metacello-Core-Specs'

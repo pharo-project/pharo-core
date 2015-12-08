@@ -1,0 +1,3 @@
+packageSpec: anObject
+
+   packageSpec := anObject

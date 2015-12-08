@@ -44,7 +44,7 @@ collectAllVersionsFromVersionImportPragmasInto: versionMap using: executionBlock
                                 ifTrue: [ ^ ex pass ]
                                 ifFalse: [ 
                                     self errorMap at: versionSpec versionString put: ex.
-                                    done := true.
+                                 
                                     defined := false ] ].
                     defined
                         ifTrue: [ 

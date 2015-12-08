@@ -1,2 +1,3 @@
 list
-    actionArg := #'list' -> #()
+  actionArg := #'list' -> #().
+  self singleRoot: false

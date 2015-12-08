@@ -1,7 +1,7 @@
 baseConfigurationClassIfAbsent: aBlock
 
 	^Smalltalk
-		at: #MetacelloBaseConfiguration
+		at: #'ConfigurationOf'
 		ifAbsent: [ 
 			self ensureMetacelloBaseConfiguration.
-			Smalltalk at: #MetacelloBaseConfiguration ifAbsent: aBlock ].
+			Smalltalk at: #'ConfigurationOf' ifAbsent: aBlock ].

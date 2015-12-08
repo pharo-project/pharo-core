@@ -1,2 +1,2 @@
 packageSpecsInLoadOrder
-    ^ self packages packageSpecsInLoadOrder
+  ^ self packages packageSpecsInLoadOrderFor: self

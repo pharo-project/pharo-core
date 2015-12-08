@@ -1,3 +1,2 @@
 projectSpecClass
-
-	^MetacelloMCProjectSpec
+	^ MetacelloMCNamelessProjectSpec

@@ -1,0 +1,2 @@
+useLoaded
+  self disallow

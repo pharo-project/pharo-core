@@ -1,0 +1,2 @@
+honor
+  ^ self disallow

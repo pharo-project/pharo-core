@@ -1,0 +1,2 @@
+configHasVersionString
+  ^ self versionString ~~ nil

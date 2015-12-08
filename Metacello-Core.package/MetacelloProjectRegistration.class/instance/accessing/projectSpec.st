@@ -1,4 +1,5 @@
 projectSpec
-  ^ self
-    configurationProjectSpecIfPresent: [ :spec | spec ]
-    ifAbsent: [ self baselineProjectSpec ]
+	^ baselineProjectSpec
+		ifNil: [ 
+			self assert: configurationProjectSpec notNil.
+			configurationProjectSpec ]

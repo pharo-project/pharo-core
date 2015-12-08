@@ -60,7 +60,14 @@ setUpConfiguration181
     selector: 'configuration097Issue185:'
     category: 'cat'
     timeStamp: ''
-    source: (self class sourceCodeAt: #'configuration097Issue185:') asString)}.
+    source: (self class sourceCodeAt: #'configuration097Issue185:') asString).
+  (MCMethodDefinition
+    className: className asString
+    classIsMeta: false
+    selector: 'configuration098Issue215:'
+    category: 'cat'
+    timeStamp: ''
+    source: (self class sourceCodeAt: #'configuration098Issue215:') asString)}.
   configurationRepository
     basicStoreVersion:
       (MCVersion new

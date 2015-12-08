@@ -1,8 +1,8 @@
-hasNoLoadConflicts: aMetacelloProjectSpec
-  self description = aMetacelloProjectSpec description
+hasNoLoadConflicts: aMetacelloRepositorySpec
+  self description = aMetacelloRepositorySpec description
     ifTrue: [ ^ true ].
-  self type = 'github'
+  (#('github' 'gitorious' 'bitbucket') includes: self type)
     ifTrue: [ 
       ^ self createRepository
-        hasNoLoadConflicts: aMetacelloProjectSpec createRepository ].
+        hasNoLoadConflicts: aMetacelloRepositorySpec createRepository ].
   ^ false

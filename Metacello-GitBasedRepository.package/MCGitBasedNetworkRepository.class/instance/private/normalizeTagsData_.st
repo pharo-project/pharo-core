@@ -1,0 +1,2 @@
+normalizeTagsData: jsonObject
+  ^ self subclassResponsibility

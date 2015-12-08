@@ -27,6 +27,8 @@ setUpVersionReferences
     add: (GoferVersionReference name: 'GeauxFaux-tg.32');
     add: (GoferVersionReference name: 'GeauxBeau-dkh.55');
     add: (GoferVersionReference name: 'GeauxBeau-dkh.56');
+    add: (GoferVersionReference name: 'Issue339-JanKurs.1');
+    add: (GoferVersionReference name: 'Issue339-JanKurs.11');
     add:
         (GoferVersionReference name: 'ConfigurationOfNautilusWithoutPackages-dkh.55');
     add:

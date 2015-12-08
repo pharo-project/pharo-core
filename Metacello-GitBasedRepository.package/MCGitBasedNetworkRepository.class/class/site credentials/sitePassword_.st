@@ -1,0 +1,2 @@
+sitePassword: aString
+  sitePassword := aString

@@ -6,4 +6,4 @@ testDirectoryRepository
     self assert: repoSpec type = 'directory'.
     repo := repoSpec createRepository.
     self assert: repo class == MCDirectoryRepository.
-    self assert: repo description = '/opt/mcexamples' asFileReference fullName
+    self assert: repo description = '/opt/mcexamples'

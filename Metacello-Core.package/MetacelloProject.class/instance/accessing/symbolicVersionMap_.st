@@ -1,5 +1,3 @@
 symbolicVersionMap: aDictionary
 
 	symbolicVersionMap := aDictionary
-				
-				

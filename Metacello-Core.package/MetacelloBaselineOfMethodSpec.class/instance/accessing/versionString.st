@@ -1,0 +1,2 @@
+versionString
+  ^ MetacelloMCBaselineProject singletonVersionName

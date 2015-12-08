@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17211 FastTable update (see description)
-	https://pharo.fogbugz.com/f/cases/17211'
+ ^ '15456 Load latest version of metacello
+	https://pharo.fogbugz.com/f/cases/15456'

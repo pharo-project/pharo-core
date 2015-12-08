@@ -7,10 +7,14 @@ baselineNamed: baseName
       "Create the configuration class"
       self ensureMetacello.
       BaselineOf
-        subclass: baselineName
-        instanceVariableNames: #()
-        classVariableNames: #()
-        poolDictionaries: #()
+        subclass: baselineName asSymbol
+        instanceVariableNames: ''
+        classVariableNames: ''
+        poolDictionaries: ''
         category: baselineName.
-      RPackageOrganizer default registerPackageNamed: baselineName ].
-  project := (MetacelloPlatform current globalNamed: baselineName asSymbol) project
+      MetacelloPlatform current registerPackageNamed: baselineName.
+      (MetacelloPlatform current globalNamed: baselineName asSymbol)
+        compile: 'baseline: spec <baseline>'
+        classified: 'baseline'	"a bit of a hack here to create an initial null basline method" ].
+  project := (MetacelloPlatform current globalNamed: baselineName asSymbol)
+    project

@@ -8,4 +8,3 @@ stable: spec
 	
 	"Specfiy which exact version you want to load"
 	spec for: #'common' version: '1.0'.
-	

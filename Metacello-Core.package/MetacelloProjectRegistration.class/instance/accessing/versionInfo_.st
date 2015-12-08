@@ -1,0 +1,2 @@
+versionInfo: aMetacelloProjectRegistrationVersionInfo
+  versionInfo := aMetacelloProjectRegistrationVersionInfo

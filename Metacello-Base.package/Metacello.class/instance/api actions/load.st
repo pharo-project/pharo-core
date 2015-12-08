@@ -1,3 +1,2 @@
 load
-    self addStatement: #'load:' args: #(#()).
-    ^ self execute
+  ^ self execute: #'load:' args: #(#())

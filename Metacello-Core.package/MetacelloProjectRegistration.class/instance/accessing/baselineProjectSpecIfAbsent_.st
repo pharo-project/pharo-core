@@ -1,2 +1,2 @@
 baselineProjectSpecIfAbsent: absentBlock
-    ^ baselineProjectSpec ifNil: absentBlock
+  ^ baselineProjectSpec ifNil: absentBlock

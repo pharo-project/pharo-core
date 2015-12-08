@@ -1,2 +1,2 @@
 baseName
-    ^ MetacelloScriptEngine baseNameOf: (configurationProjectSpec ifNil: [ baselineProjectSpec ]) className
+	^ self projectSpec baseName

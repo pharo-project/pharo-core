@@ -1,2 +1,2 @@
-import: anObject
-    importName := anObject
+import: aString
+  importName := aString

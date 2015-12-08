@@ -13,4 +13,4 @@ allPackagesForSpecNamed: aStringOrArray ifAbsent: aBlock
 	^aStringOrArray 
 		resolvePackageSpecsNamedForMetacelloMCVersion: self 
 		visited: MetacelloVisitedPackages new 
-		ifAbsent: aBlock 
+		ifAbsent: aBlock

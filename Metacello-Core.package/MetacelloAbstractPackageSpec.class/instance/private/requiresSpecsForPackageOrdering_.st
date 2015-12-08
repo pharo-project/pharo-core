@@ -1,0 +1,2 @@
+requiresSpecsForPackageOrdering: aVersionSpec
+  ^ {self}

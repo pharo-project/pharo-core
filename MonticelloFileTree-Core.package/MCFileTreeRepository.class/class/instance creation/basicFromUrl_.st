@@ -1,3 +1,2 @@
-basicFromUrl: aZnUrl 
-	^ self new 
-		directory: aZnUrl asFileReferenceWithRelativePath
+basicFromUrl: aZnUrl
+	^ self new directory: (self urlAsFileReference: aZnUrl)

@@ -1,5 +1,5 @@
-MCFileTreeRepository subclass: #MCGitHubRepository
-	instanceVariableNames: 'projectPath projectVersion repoPath'
-	classVariableNames: 'CacheDirectory DownloadCache'
+MCGitBasedNetworkRepository subclass: #MCGitHubRepository
+	instanceVariableNames: ''
+	classVariableNames: 'CacheDirectory DownloadCache ETagsCache'
 	poolDictionaries: ''
 	category: 'Metacello-GitHub'

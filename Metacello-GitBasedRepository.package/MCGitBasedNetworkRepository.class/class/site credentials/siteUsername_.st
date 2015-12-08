@@ -1,0 +1,2 @@
+siteUsername: aString
+  siteUsername := aString
