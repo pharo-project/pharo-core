@@ -1,2 +1,3 @@
 initialize
-	isExpanded := false
+	isExpanded := false.
+	recentlyChanged := false

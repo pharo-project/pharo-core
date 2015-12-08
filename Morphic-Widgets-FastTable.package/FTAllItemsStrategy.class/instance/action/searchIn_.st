@@ -12,6 +12,6 @@ searchIn: item
 			(item children select: [ :child | self searchIn: child ])
 				ifNotEmpty: [ selfOrChildMatch := true.
 					item expand ]
-				ifEmpty: [ item unexpand.
+				ifEmpty: [ item collapse.
 					index := itemIndex ] ].
 	^ selfOrChildMatch

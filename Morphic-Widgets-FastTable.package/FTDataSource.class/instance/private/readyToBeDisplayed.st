@@ -1,2 +1,4 @@
 readyToBeDisplayed
-	"when reverting to initial data source, if we want to perform any actions"
+	"I am a method call when I am set to a FTTableMorph. I can be override, for example the dataSource of glamour send an announcement to update the dataSource of a Refderer."
+
+	

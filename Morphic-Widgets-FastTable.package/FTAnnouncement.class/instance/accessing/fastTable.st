@@ -1,0 +1,2 @@
+fastTable
+	^ fastTable

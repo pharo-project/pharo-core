@@ -1,11 +1,10 @@
 initialize 
 	super initialize.
-	self color: self backgroundColor.
 	showColumnHeaders := true.
 	selectedRowIndexes := #().
 	highlightedRowIndexes := #().
 	columns := #().
-	needToggleAtMooseUp := false.
+	needToggleAtMouseUp := false.
 	self beSingleSelection.
 	self enableSearch.
 	self initializeScrollBars.

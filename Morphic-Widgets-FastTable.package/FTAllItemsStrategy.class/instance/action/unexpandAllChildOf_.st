@@ -3,4 +3,4 @@ unexpandAllChildOf: anItem
 		do: [ :item | 
 			item isExpanded
 				ifTrue: [ self unexpandAllChildOf: item ].
-			item unexpand ]  displayingProgress: [:each | 'Rearanging ' , each name]
+			item collapse ]  displayingProgress: [:each | 'Rearanging ' , each name]

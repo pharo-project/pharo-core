@@ -2,8 +2,10 @@ exampleexampleOneSubLevelTree
 	<example>
 	| ds |
 	ds := FTTreeDataSource
-		roots: ((ProtoObject allSubclasses sort: [ :a :b | a asString < b asString ]) reject: [ :e | e asString endsWith: 'class' ])
-		children: [ :item | item subclasses sort: [ :a :b | a asString < b asString ] ].
+		roots:
+			((ProtoObject allSubclasses reject: [ :e | e name endsWith: 'class' ])
+				sort: [ :a :b | a name < b name ])
+		children: [ :item | item subclasses sort: [ :a :b | a name < b name ] ].
 	ds maxDepth: 1.
 	FTTableMorph new
 		extent: 200 @ 400;

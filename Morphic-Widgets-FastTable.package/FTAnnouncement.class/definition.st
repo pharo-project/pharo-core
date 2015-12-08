@@ -1,5 +1,5 @@
 Announcement subclass: #FTAnnouncement
-	instanceVariableNames: ''
+	instanceVariableNames: 'fastTable'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-FastTable-Announcement'

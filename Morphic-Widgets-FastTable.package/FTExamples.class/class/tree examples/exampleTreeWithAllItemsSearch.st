@@ -7,7 +7,7 @@ exampleTreeWithAllItemsSearch
 			level even
 				ifTrue: [ 1 to: item / 2 ]
 				ifFalse: [ 1 to: item - 1 ] ].
-	ds searchStrategies: #allItems.
+	ds searchStrategy: #allItems.
 	FTTableMorph new
 		extent: 200 @ 400;
 		dataSource: ds;

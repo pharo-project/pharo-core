@@ -1,0 +1,2 @@
+collapseAll
+	self subclassResponsibility

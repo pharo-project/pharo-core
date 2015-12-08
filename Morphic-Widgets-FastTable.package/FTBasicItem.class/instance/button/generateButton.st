@@ -1,4 +1,4 @@
 generateButton
 	^ isExpanded
 		ifTrue: [ self expandedButton ]
-		ifFalse: [ self unexpandedButton ]
+		ifFalse: [ self collpasedButton ]

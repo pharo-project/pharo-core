@@ -1,0 +1,3 @@
+defaultColor
+
+	^self class defaultBackgroundColor

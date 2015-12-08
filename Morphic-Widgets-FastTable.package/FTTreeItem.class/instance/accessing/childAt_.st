@@ -8,4 +8,5 @@ childAt: anIndex
 			size := item numberOfVisibleChildren + 1.
 			tmpIndex <= size
 				ifTrue: [ ^ item selfOrChildAt: tmpIndex ]
-				ifFalse: [ tmpIndex := tmpIndex - size ] ]
+				ifFalse: [ tmpIndex := tmpIndex - size ] ].
+	self errorSubscriptBounds: anIndex

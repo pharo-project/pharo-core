@@ -1,4 +1,4 @@
 themeChanged
-	self color: self backgroundColor.
+	self color: self defaultColor.
 	super themeChanged.
 	self refresh

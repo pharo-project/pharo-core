@@ -1,7 +1,7 @@
 expandedButton
 	^ IconicButton new
 		target: self;
-		actionSelector: #unexpandAndRefresh;
+		actionSelector: #collapseAndRefresh;
 		arguments: {};
 		labelGraphic: self class expandedForm;
 		color: Color transparent;

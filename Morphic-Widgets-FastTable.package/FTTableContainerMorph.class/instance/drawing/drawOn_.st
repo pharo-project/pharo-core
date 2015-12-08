@@ -6,7 +6,7 @@ drawOn: canvas
 	x := self left + self class rowLeftMargin.
 	y := self top.	
 	cellWidth := self width - self class rowLeftMargin.
-	cellHeight := self owner rowHeight. 
+	cellHeight := self owner rowHeight rounded. 
 	highligtedRowIndexes := 
 		self owner selectedRowIndexes, 
 		self owner highlightedRowIndexes.
@@ -21,7 +21,7 @@ drawOn: canvas
 	rowsToDisplay := self exposedRows.
 	rowSubviews := OrderedCollection new: rowsToDisplay size + 1.
 	headerRow ifNotNil: [ 
-		headerRow bounds: (x@y extent: cellWidth@cellHeight).
+		headerRow bounds: (self left@y extent: self width@cellHeight).
 		y := y + cellHeight + self owner intercellSpacing.		
 		rowSubviews add: headerRow ].
 	

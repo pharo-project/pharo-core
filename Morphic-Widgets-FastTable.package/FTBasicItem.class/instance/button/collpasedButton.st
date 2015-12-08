@@ -1,4 +1,4 @@
-unexpandedButton
+collpasedButton
 	^ IconicButton new
 		target: self;
 		actionSelector: #expandAndRefresh;
