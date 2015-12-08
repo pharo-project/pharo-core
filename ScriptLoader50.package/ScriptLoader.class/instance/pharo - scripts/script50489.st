@@ -1,4 +1,4 @@
-script50488
+script50489
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -195,8 +195,8 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.228.mcz
-NECompletion-Tests-TheIntegrator.6.mcz
+NECompletion-TheIntegrator.230.mcz
+NECompletion-Tests-TheIntegrator.8.mcz
 NativeBoost-Core-TheIntegrator.171.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
@@ -204,7 +204,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1183.mcz
+Nautilus-TheIntegrator.1186.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -230,7 +230,7 @@ OpalCompiler-Tests-TheIntegrator.316.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1301.mcz
+Polymorph-Widgets-TheIntegrator.1304.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -377,7 +377,6 @@ Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.42.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-TheIntegrator.17.mcz
-Watchpoints-TheIntegrator.2.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.41.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.23.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz

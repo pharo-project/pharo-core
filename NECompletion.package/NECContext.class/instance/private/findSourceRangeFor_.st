@@ -10,5 +10,5 @@ findSourceRangeFor: aNumber
 						ifTrue: [^ index + 2]
 						ifFalse: [(ranges at: index + 2) type = #globalVar
 								ifTrue: [^ index + 2]
-								ifFalse: [(ranges at: index + 1) isAssignment 
+								ifFalse: [(ranges at: index + 3) isAssignment 
 										ifFalse: [^ nil]]]]]

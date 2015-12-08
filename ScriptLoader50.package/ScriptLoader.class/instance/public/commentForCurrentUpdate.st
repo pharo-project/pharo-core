@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17189 remove check for PluggableTextMorph in TextMorph>>#moudeDown:
-	https://pharo.fogbugz.com/f/cases/17189
+ ^ '17209 NEC wrong type guessing
+	https://pharo.fogbugz.com/f/cases/17209
 
-17145 remove watchpoint package
-	https://pharo.fogbugz.com/f/cases/17145
+10312 TextHighlightByBounds and TextHighlight are near duplicated classes
+	https://pharo.fogbugz.com/f/cases/10312
 
-16962 Code pane should not show all spaces selected when one is selected
-	https://pharo.fogbugz.com/f/cases/16962'
+17205 DNU when accepting an empty string 
+	https://pharo.fogbugz.com/f/cases/17205'

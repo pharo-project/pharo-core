@@ -1,3 +1,0 @@
-textMorph
-
-	^ textMorph
