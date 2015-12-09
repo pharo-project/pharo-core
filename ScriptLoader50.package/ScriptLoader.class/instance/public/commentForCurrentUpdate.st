@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '15456 Load latest version of metacello
-	https://pharo.fogbugz.com/f/cases/15456'
+ ^ '17221 clean dirty packages after metacello update
+	https://pharo.fogbugz.com/f/cases/17221
+
+17219 Class Definitions not in Changes... again again
+	https://pharo.fogbugz.com/f/cases/17219
+
+17217 Remove PasteUpMorph>>#addMorphs:
+	https://pharo.fogbugz.com/f/cases/17217'
