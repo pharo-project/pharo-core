@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17221 clean dirty packages after metacello update
-	https://pharo.fogbugz.com/f/cases/17221
+ ^ '17212 DNU on MCFileRepository class>>#basicFromUrl:
+	https://pharo.fogbugz.com/f/cases/17212
 
-17219 Class Definitions not in Changes... again again
-	https://pharo.fogbugz.com/f/cases/17219
-
-17217 Remove PasteUpMorph>>#addMorphs:
-	https://pharo.fogbugz.com/f/cases/17217'
+17213 DNU when trying to retrieve version info from filetree repository
+	https://pharo.fogbugz.com/f/cases/17213'
