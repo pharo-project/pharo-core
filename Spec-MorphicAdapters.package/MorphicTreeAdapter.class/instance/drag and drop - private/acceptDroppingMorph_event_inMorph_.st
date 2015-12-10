@@ -5,4 +5,4 @@ acceptDroppingMorph: draggedMorph event: event inMorph: source
 		ifNil:  [ 0 ]
 		ifNotNil: [:w | w scrollerSubMorphFromPoint: event position ].
 
-	^ self acceptDropBlock valueWithEnoughArguments: { draggedMorph. event. source. item }
+	^ self acceptDropBlock valueWithEnoughArguments: { draggedMorph model model . event. source model model model. item model nodeModel }

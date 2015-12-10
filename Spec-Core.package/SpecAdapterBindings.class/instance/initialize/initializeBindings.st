@@ -22,6 +22,7 @@ initializeBindings
 		at: #TabAdapter				put: #TabAdapter;
 		at: #TextAdapter				put: #TextAdapter;
 		at: #TextInputFieldAdapter		put: #TextInputFieldAdapter;
+		at: #TransferAdapter			put: #TransferAdapter;
 		at: #TreeAdapter				put: #TreeAdapter;
 		at: #TreeColumnAdapter		put: #TreeColumnAdapter;
 		at: #TreeNodeAdapter			put: #TreeNodeAdapter;		

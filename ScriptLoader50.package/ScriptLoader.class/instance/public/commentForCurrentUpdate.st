@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17212 DNU on MCFileRepository class>>#basicFromUrl:
-	https://pharo.fogbugz.com/f/cases/17212
+ ^ '17216 Morph>>#removeDropShadow does not remove the shadowOffset
+	https://pharo.fogbugz.com/f/cases/17216
 
-17213 DNU when trying to retrieve version info from filetree repository
-	https://pharo.fogbugz.com/f/cases/17213'
+17208 Remove rounded corners from MenuModel parent item
+	https://pharo.fogbugz.com/f/cases/17208
+
+16920 In TreeModel>>acceptDropBlock: the block receives morphs as arguments
+	https://pharo.fogbugz.com/f/cases/16920'

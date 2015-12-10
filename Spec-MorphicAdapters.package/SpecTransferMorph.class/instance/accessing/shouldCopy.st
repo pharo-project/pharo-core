@@ -1,0 +1,3 @@
+shouldCopy
+
+	^ self dragHand shiftPressed

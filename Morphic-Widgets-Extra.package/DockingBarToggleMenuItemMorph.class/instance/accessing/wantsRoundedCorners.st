@@ -1,3 +1,3 @@
 wantsRoundedCorners
-	^  true
+	^self theme currentSettings preferRoundCorner
 		

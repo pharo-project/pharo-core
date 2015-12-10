@@ -1,4 +1,4 @@
-script50493
+script50494
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -177,12 +177,12 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.524.mcz
-Morphic-Core-TheIntegrator.239.mcz
+Morphic-Core-TheIntegrator.240.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.68.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
-Morphic-Widgets-Extra-TheIntegrator.24.mcz
+Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-CyrilFerlicot.142.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
@@ -293,13 +293,13 @@ Slot-TheIntegrator.710.mcz
 Slot-Tests-TheIntegrator.69.mcz
 SmartSuggestions-TheIntegrator.210.mcz
 SmartSuggestions-Tests-TheIntegrator.21.mcz
-Spec-Core-TheIntegrator.442.mcz
+Spec-Core-TheIntegrator.444.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.247.mcz
+Spec-MorphicAdapters-TheIntegrator.249.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.312.mcz

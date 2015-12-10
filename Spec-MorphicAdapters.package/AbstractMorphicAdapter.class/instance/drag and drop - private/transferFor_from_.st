@@ -1,3 +1,2 @@
-transferFor: passenger from:  source
-
-	^ self transferBlock cull:passenger cull: source
+transferFor: passenger from: source
+	^ (self transferBlock cull: passenger cull: self model) buildWithSpec

@@ -1,0 +1,3 @@
+passenger
+
+	^ [ self model passenger ]

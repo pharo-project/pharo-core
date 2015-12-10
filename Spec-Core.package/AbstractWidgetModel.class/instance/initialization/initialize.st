@@ -11,7 +11,7 @@ initialize
 	dragTransformationBlock := [ :item :source | item ] asValueHolder.
 	wantDropBlock := [ :draggedItem :event :source | self dropEnabled ] asValueHolder.
 	acceptDropBlock := [ :draggedItem :event :source | ] asValueHolder.
-	transferBlock := [:passenger :source | super transferFor: passenger from: source ] asValueHolder.
+	transferBlock := [:passenger :source | self transferFor: passenger from: source ] asValueHolder.
 	color := self defaultColor asValueHolder.
 	
 	helpHolder whenChangedDo: [:string | 

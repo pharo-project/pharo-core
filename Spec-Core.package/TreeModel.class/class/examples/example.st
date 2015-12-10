@@ -14,6 +14,14 @@ example
 	m 
 		dragEnabled: true;
 		dropEnabled: true;
-		acceptDropBlock: [ :transfer :event :source :receiver |  self halt ].
+		wantDropBlock: [ :draggedItem :event :source | 
+			draggedItem isTransferable and: [ draggedItem source = m ] ];
+		acceptDropBlock: [ :transfer :event :source :receiver | 
+			Transcript 
+				show: 'Dragged node '; 
+				show: transfer passenger content; 
+				show: ' to node '; 
+				show: receiver content; 
+				cr ].
 		
 	^ m

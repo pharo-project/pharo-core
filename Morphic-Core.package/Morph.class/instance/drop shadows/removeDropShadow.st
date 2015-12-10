@@ -2,5 +2,6 @@ removeDropShadow
 	self hasDropShadow ifFalse:[^self].
 	self changed.
 	self hasDropShadow: false.
-	fullBounds ifNotNil:[fullBounds := self privateFullBounds].
+	self shadowOffset: 0@0.
+	self layoutChanged.
 	self changed.
