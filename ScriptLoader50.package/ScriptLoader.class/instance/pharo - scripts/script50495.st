@@ -1,4 +1,4 @@
-script50494
+script50495
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -186,7 +186,7 @@ Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-CyrilFerlicot.142.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.62.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.64.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.30.mcz
 Morphic-Widgets-Tabs-TheIntegrator.18.mcz
