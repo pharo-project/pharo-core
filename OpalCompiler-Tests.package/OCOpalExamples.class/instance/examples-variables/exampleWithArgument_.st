@@ -1,0 +1,2 @@
+exampleWithArgument: anArg
+	^ anArg

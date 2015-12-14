@@ -1,4 +1,4 @@
-script50495
+script50496
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
@@ -36,12 +36,12 @@ Collections-Abstract-TheIntegrator.311.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.223.mcz
+Collections-Sequenceable-TheIntegrator.225.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.382.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.22.mcz
+Collections-Tests-TheIntegrator.24.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.93.mcz
 Compiler-TheIntegrator.598.mcz
@@ -230,8 +230,8 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.765.mcz
-OpalCompiler-Tests-TheIntegrator.316.mcz
+OpalCompiler-Core-TheIntegrator.767.mcz
+OpalCompiler-Tests-TheIntegrator.319.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
