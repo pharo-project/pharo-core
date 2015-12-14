@@ -1,4 +1,4 @@
-script50497
+script50498
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -144,7 +144,6 @@ Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-EstebanLorenzano.2194.mcz
 Kernel-Tests-TheIntegrator.22.mcz
-KernelTests-TheIntegrator.798.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -336,7 +335,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.96.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-EstebanLorenzano.6.mcz
+System-OSEnvironments-EstebanLorenzano.8.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
