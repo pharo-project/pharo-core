@@ -1,7 +1,7 @@
 at: key put: value
 
 	| hash |
-	(keys at: (hash := key largeIdentityHash + 1))
+	(keys at: (hash := key largeIdentityHash \\ 4096 + 1))
 		ifNil: [ 
 			keys at: hash put: (Array with: key).
 			values at: hash put: (Array with: value).

@@ -1,0 +1,24 @@
+function: functionSignature module: moduleNameOrLibrary
+	| sender ffiMethod |
+	
+	sender := thisContext sender sender.
+
+	"Build new method"
+	ffiMethod := self newBuilder build: [ :builder | 
+		builder
+			signature: functionSignature;  
+			sender: sender;
+			module: moduleNameOrLibrary ].
+	ffiMethod 
+		selector: sender selector;
+		methodClass: sender methodClass.		
+	"Replace with generated ffi method"
+	sender methodClass methodDict 
+		at: sender selector
+		put: ffiMethod.
+	"Register current method as compiled for ffi"
+	FFIMethodRegistry uniqueInstance registerMethod: ffiMethod.
+	"Resend"
+	sender return: (sender receiver 
+		withArgs: sender arguments 
+		executeMethod: ffiMethod)

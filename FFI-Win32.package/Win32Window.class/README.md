@@ -1,0 +1,1 @@
+Here's a simple Win32 example:	| hwnd dc dst |	hwnd _ Win32Window getFocus. "fetch the window currently having the focus"	dc _ hwnd getDC. "grab the dc or the window"	dst _ 100.	dc moveTo: 0@0.	"draw a rect"	dc lineTo: dst@0. dc lineTo: dst@dst. dc lineTo: 0@dst. dc lineTo: 0@0.	"and a cross"	dc lineTo: dst@dst. dc moveTo: dst@0. dc lineTo: 0@dst.	hwnd releaseDC: dc.

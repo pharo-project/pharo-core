@@ -1,4 +1,4 @@
-NBExternalStructure subclass: #CairoGlyph
+FFIExternalStructure subclass: #CairoGlyph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

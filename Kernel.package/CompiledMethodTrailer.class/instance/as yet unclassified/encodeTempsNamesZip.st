@@ -1,0 +1,2 @@
+encodeTempsNamesZip
+		self encodeUsingZip

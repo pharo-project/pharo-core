@@ -1,0 +1,2 @@
+externalType 
+	^ ExternalType unsignedByte

@@ -1,0 +1,2 @@
+signedShort
+	^AtomicTypes at: 'short'

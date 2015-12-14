@@ -1,0 +1,2 @@
+index: anObject
+	index := anObject

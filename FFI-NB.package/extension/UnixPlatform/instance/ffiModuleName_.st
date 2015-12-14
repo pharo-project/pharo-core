@@ -1,0 +1,2 @@
+ffiModuleName: aLibrary 
+	^ aLibrary unixModuleName

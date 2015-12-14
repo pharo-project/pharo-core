@@ -1,0 +1,2 @@
+isExternalAddress
+	^ handle isExternalAddress

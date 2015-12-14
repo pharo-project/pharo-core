@@ -1,3 +1,2 @@
 leadingChar
-
-	^ (value bitAnd: (16r3FC00000)) bitShift: -22.
+	^ (self asInteger bitAnd: 1069547520) bitShift: -22

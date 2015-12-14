@@ -1,0 +1,3 @@
+lastError
+
+	^(self new) initializeWithLastError

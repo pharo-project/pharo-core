@@ -1,4 +1,4 @@
-NBExternalObject subclass: #CairoFontOptions
+FFIExternalObject subclass: #CairoFontOptions
 	uses: TCairoLibrary
 	instanceVariableNames: ''
 	classVariableNames: ''

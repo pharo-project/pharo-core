@@ -1,4 +1,4 @@
-NBExternalObject subclass: #AthensCairoPath
+FFIExternalObject subclass: #AthensCairoPath
 	uses: TCairoLibrary
 	instanceVariableNames: ''
 	classVariableNames: ''

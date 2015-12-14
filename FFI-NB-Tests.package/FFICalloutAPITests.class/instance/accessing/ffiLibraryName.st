@@ -1,0 +1,2 @@
+ffiLibraryName
+	^ 'SqueakFFIPrims'

@@ -1,0 +1,1 @@
+I'm implement a callout mechanism to be used with nb calls formatting.Callout arguments can be either:- an integer constant, boolean or nil- a type name (string or symbol)- a class name- a class variable- any other object, which responds to #asExternalTypeOn:

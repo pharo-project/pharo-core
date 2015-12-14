@@ -1,0 +1,1 @@
+This class wrappes the Windows 32 shell.Try 	Win32Shell new shellOpen: 'c:\image.bmp' 		to open a document	Win32Shell new shellOpen: 'c:\myprogram.exe' 	to start an executable	Win32Shell new shellExplore: 'c:\'				to explore a directory	Win32Shell new shellFind: 'c:\' 					to initiate a searchNote that this class is platform specific.  

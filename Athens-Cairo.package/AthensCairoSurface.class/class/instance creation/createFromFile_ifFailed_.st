@@ -6,7 +6,7 @@ createFromFile: aFileName ifFailed: aBlock
 	surface :=  self primCreateFromFile: cstring.
 	surface isSuccess not
 		ifTrue: [ 
-			self destroySurfaceHandle: surface handle value.
+			self destroySurfaceHandle: surface handle getHandle asInteger.
 			^ aBlock cull: surface status ]
 		ifFalse: [ surface initialize ].
 	^ surface .

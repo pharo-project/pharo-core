@@ -1,19 +1,22 @@
 normalize
 	"Check for leading zeroes and return shortened copy if so"
 	| sLen val len oldLen minVal |
-	<primitive: 'primNormalizeNegative' module:'LargeIntegers'>
+	<primitive: 'primNormalizeNegative' module: 'LargeIntegers'>
 	"First establish len = significant length"
 	len := oldLen := self digitLength.
 	[len = 0 ifTrue: [^0].
 	(self digitAt: len) = 0]
 		whileTrue: [len := len - 1].
 
-	"Now check if in SmallInteger range"
-	sLen := 4  "SmallInteger minVal digitLength".
+	"Now check if in SmallInteger range.
+	 Fast compute SmallInteger minVal digitLength"
+	sLen := SmallInteger minVal < -16r40000000
+				ifTrue: [8]
+				ifFalse: [4].
 	len <= sLen ifTrue:
 		[minVal := SmallInteger minVal.
 		(len < sLen
-			or: [(self digitAt: sLen) < minVal lastDigit])
+		 or: [(self digitAt: sLen) < minVal lastDigit])
 			ifTrue: ["If high digit less, then can be small"
 					val := 0.
 					len to: 1 by: -1 do:

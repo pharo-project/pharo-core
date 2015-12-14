@@ -1,0 +1,2 @@
+externalType: anExternalType 
+	externalType := anExternalType

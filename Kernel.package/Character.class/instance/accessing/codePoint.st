@@ -1,3 +1,3 @@
 codePoint
 	"Just for ANSI Compliance"	
-	^value
+	^self asciiValue

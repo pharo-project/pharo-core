@@ -7,7 +7,7 @@ remove: anObject ifAbsent: aBlock
 			tally := tally - 1.
 			^anObject ].
 		^aBlock value ].
-	list := (array at: (hash := anObject largeIdentityHash + 1)) ifNil: [ ^aBlock value ].
+	list := (array at: (hash := anObject largeIdentityHash \\ 4096 + 1)) ifNil: [ ^aBlock value ].
 	(list fuelPointsTo: anObject) ifFalse: [ ^aBlock value ].
 	1 to: (size := tallies at: hash) do: [ :index |
 		(list at: index) == anObject 	ifTrue: [

@@ -1,0 +1,2 @@
+setErrorCodeName: aString
+	errorCodeName := aString

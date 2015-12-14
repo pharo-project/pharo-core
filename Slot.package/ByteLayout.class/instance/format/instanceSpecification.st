@@ -1,2 +1,2 @@
 instanceSpecification
-	^ 8
+	^ 16

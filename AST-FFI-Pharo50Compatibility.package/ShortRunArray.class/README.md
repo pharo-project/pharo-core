@@ -1,0 +1,1 @@
+I'm a class needed to load FFI and nothing else. FFI declares ExternalObject to be in the startup list after myself. That's why in my initialize class side method I declare myself to be in the startup list.

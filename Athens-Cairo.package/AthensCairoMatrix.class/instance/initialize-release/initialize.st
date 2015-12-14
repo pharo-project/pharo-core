@@ -1,2 +1,4 @@
 initialize
-	self loadIdentity.
+	super initialize.
+	self loadIdentity
+	

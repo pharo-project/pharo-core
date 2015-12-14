@@ -1,0 +1,2 @@
+returnType: anObject
+	returnType := anObject

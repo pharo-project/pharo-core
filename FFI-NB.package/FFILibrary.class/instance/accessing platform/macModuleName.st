@@ -1,0 +1,2 @@
+macModuleName 
+	^ self subclassResponsibility

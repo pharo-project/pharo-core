@@ -1,0 +1,2 @@
+asAlien
+	^self

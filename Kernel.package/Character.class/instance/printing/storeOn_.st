@@ -1,14 +1,24 @@
-storeOn: aStream
-	"Common character literals are preceded by '$', however special need to be encoded differently: for some this might be done by using one of the shortcut constructor methods for the rest we have to create them by ascii-value."
-
-	| name |
+storeOn: arg1
+	| tmp1 |
 	self shouldBePrintedAsLiteral
-		ifTrue: [ aStream nextPut: $$; nextPut: self ]
-		ifFalse: [
-			name := self class constantNameFor: self.
-			name notNil
-				ifTrue: [ aStream nextPutAll: self class name; space; nextPutAll: name ]
-				ifFalse: [
-					aStream 
-						nextPut: $(; nextPutAll: self class name; 
-						nextPutAll: ' value: '; print: value; nextPut: $) ] ].
+		ifTrue: [ | tmp3 |
+			tmp3 := arg1.
+			tmp3
+				nextPut: $$;
+				nextPut: self ]
+		ifFalse: [ tmp1 := self class constantNameFor: self.
+			tmp1 notNil
+				ifTrue: [ | tmp5 |
+					tmp5 := arg1.
+					tmp5
+						nextPutAll: self class name;
+						space;
+						nextPutAll: tmp1 ]
+				ifFalse: [ | tmp7 |
+					tmp7 := arg1.
+					tmp7
+						nextPut: $(;
+						nextPutAll: self class name;
+						nextPutAll: ' value: ';
+						print: self asInteger;
+						nextPut: $) ] ]

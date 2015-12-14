@@ -1,2 +1,3 @@
 serializeOn: anEncoder
-	anEncoder encodeByte: self asciiValue
+
+	anEncoder encodeUint32: self asInteger

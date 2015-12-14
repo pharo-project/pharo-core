@@ -1,0 +1,2 @@
+dataSize
+	^self sizeField abs

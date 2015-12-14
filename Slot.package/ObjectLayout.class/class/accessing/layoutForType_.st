@@ -11,4 +11,6 @@ layoutForType: typeSymbol
 		ifTrue: [ ^ VariableLayout ].
 	typeSymbol = #normal 
 		ifTrue: [ ^ FixedLayout ].
+	typeSymbol = #immediate 
+		ifTrue: [ ^ ImmediateLayout ].
 	Error signal: 'Invalid layout type: ', typeSymbol asString.

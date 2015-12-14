@@ -4,10 +4,10 @@ finalizeResourceData: data
 	id := data second.
 	contextHandle := data third.
 	
-	(self findSurface: id) = handle ifFalse: [ 
-		self error: 'surface is not registered with surface plugin'.
-		].
+	(self findSurface: id) = handle value ifFalse: [ 
+		"self error: 'surface is not registered with surface plugin'."
+		^ self ].
 	
 	self unregisterSurfaceWithId: id.
-	self destroyContextHandle: contextHandle. 
-	self destroySurfaceHandle: handle.
+	self destroyContextHandle: contextHandle value. 
+	self destroySurfaceHandle: handle value

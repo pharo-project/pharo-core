@@ -1,6 +1,7 @@
 testBecomeCompactAndUncompact
-
 	| originalCompactClassesArray |
+	
+	self skip. "Compact classes do not exist anymore in Spur."
 	aClass := self makeWithLayout: FixedLayout.	
 	self assert: aClass indexIfCompact equals: 0.
 	originalCompactClassesArray := Smalltalk compactClassesArray copy.

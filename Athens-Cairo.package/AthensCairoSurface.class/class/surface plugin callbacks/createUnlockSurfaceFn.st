@@ -9,14 +9,6 @@ createUnlockSurfaceFn
 		surface is unmodified all arguments are set to zero.
 
 	"
-
-	| fn |
-
-	fn := NBNativeFunctionGen 
-		cdecl: #(int (int handle, int x, int y, int w, int h) )
-		emit: [:gen :proxy :asm | 
-			"do nothing"
-		].
-	
-	fn install.
-	^ fn address
+	^ FFICallback 
+		signature: #(int (int handle, int x, int y, int w, int h))
+		block: [ :handle :x :y :w :h | 0 "Do nothing" ]

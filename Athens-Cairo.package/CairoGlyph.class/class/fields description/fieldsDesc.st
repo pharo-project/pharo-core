@@ -1,6 +1,7 @@
 fieldsDesc
+	"self rebuildFieldAccessors"
 	^ #(
 	ulong        index;
-	double               x;
-	double               y;
+	double       x;
+	double       y;
 	)

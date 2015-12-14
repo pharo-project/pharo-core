@@ -1,0 +1,2 @@
+platformName
+	^ self os platformName

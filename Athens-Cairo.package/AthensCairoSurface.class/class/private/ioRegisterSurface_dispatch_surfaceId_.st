@@ -8,7 +8,6 @@ ioRegisterSurface: aCairoSurfaceHandle dispatch: sqSurfaceDispatchPtr surfaceId:
 	otherwise.
 
 "
-
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>
-	
-	self nbCall: #( bool ioRegisterSurface(ulong aCairoSurfaceHandle, void * sqSurfaceDispatchPtr, int *idHolder) ) module: #SurfacePlugin
+
+	self nbCall: #(bool ioRegisterSurface(int aCairoSurfaceHandle, void *sqSurfaceDispatchPtr, void *idHolder)) module: #SurfacePlugin

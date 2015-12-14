@@ -1,0 +1,2 @@
+argName: anObject
+	argName := anObject

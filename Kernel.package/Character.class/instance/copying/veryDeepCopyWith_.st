@@ -1,2 +1,3 @@
 veryDeepCopyWith: deepCopier
-	"Return self.  I can't be copied."
+	"Answer the receiver, because Characters are unique."
+	^self

@@ -1,0 +1,2 @@
+getMousePoint
+	^self apiGetMousePoint: self

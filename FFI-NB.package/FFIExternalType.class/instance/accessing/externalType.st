@@ -1,0 +1,2 @@
+externalType
+	^ self subclassResponsibility

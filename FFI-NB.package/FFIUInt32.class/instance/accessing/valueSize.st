@@ -1,0 +1,2 @@
+valueSize
+	^ 4

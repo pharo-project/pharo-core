@@ -1,5 +1,5 @@
 primitiveGarbageCollect
-	"Primitive. Reclaims all garbage and answers the number of bytes of available space."
+	"Primitive. Reclaims all garbage and answers the size of the largest free chunk in old space.."
 
 	<primitive: 130>
-	^ self primBytesLeft
+	^self primitiveFailed

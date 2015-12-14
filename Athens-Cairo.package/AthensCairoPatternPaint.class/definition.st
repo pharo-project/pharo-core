@@ -1,4 +1,4 @@
-NBExternalObject subclass: #AthensCairoPatternPaint
+FFIExternalObject subclass: #AthensCairoPatternPaint
 	uses: TCairoLibrary
 	instanceVariableNames: ''
 	classVariableNames: ''

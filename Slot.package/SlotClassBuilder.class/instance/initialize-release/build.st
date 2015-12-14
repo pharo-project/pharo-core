@@ -11,8 +11,7 @@ build
 							slots: classSlots
 							sharedVariables: #()
 							sharedPools: ''
-							traitComposition: classTraitComposition
-							compactClassIndex: oldClass class indexIfCompact.
+							traitComposition: classTraitComposition.
 	
 	classChange := ClassModification
 							modify: oldClass
@@ -21,13 +20,10 @@ build
 							slots: slots
 							sharedVariables: sharedVariables
 							sharedPools: sharedPoolsString
-							traitComposition: traitComposition
-							compactClassIndex: oldClass indexIfCompact.
+							traitComposition: traitComposition.
 
 	self apply: metaChange.
 	self apply: classChange.
-
-	comment ifNotNil: [result classComment: comment stamp: commentStamp].
 
 	result instanceSide 
 		declareClassVariables: sharedVariables;
@@ -35,10 +31,5 @@ build
 
 	result isMeta ifFalse: [
 		installer recategorize: result to: category ].
-	
-	"call all slots and allow them to modify the class"
-	classChange additions do: [ :each | each installingIn: result].
-	classChange removals do: [ :each | each removingFrom: result].
-	result classLayout slots do: [ :each | each layoutChanged: result]. 
 	
 	^ result instanceSide

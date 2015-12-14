@@ -1,4 +1,4 @@
-NBExternalStructure subclass: #AthensCairoMatrix
+FFIExternalStructure subclass: #AthensCairoMatrix
 	uses: TCairoLibrary
 	instanceVariableNames: ''
 	classVariableNames: ''

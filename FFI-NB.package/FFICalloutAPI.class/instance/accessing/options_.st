@@ -1,0 +1,2 @@
+options: anObject
+	options := anObject

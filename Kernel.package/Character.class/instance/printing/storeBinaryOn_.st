@@ -1,5 +1,4 @@
-storeBinaryOn: aStream
-	"Store the receiver on a binary (file) stream"
-	value < 256 
-		ifTrue:[aStream basicNextPut: value]
-		ifFalse:[aStream nextInt32Put: value].
+storeBinaryOn: arg1
+	self asInteger < 256
+		ifTrue: [ arg1 basicNextPut: self asInteger ]
+		ifFalse: [ arg1 nextInt32Put: self asInteger ]

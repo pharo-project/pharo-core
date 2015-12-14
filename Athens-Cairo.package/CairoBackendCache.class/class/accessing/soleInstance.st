@@ -1,2 +1,0 @@
-soleInstance
-	^ soleInstance

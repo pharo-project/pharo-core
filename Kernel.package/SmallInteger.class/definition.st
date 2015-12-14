@@ -1,4 +1,4 @@
-Integer subclass: #SmallInteger
+Integer immediateSubclass: #SmallInteger
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

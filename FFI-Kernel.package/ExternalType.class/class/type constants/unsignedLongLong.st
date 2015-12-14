@@ -1,0 +1,2 @@
+unsignedLongLong
+	^AtomicTypes at: 'ulonglong'

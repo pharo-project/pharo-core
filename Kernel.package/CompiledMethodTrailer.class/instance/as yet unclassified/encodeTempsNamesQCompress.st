@@ -1,0 +1,2 @@
+encodeTempsNamesQCompress
+		self encodeUsingQCompress

@@ -1,4 +1,4 @@
-NBExternalStructure subclass: #CairoFontExtents
+FFIExternalStructure subclass: #CairoFontExtents
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

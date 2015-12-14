@@ -1,0 +1,2 @@
+isAnonymous
+	^ self functionName isNil

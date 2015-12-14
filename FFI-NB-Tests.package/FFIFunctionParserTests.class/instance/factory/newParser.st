@@ -1,0 +1,2 @@
+newParser
+	^ FFIFunctionParser new

@@ -5,4 +5,5 @@ kindOfSubclass
 	type = #bytes ifTrue: [^ ' variableByteSubclass: '].
 	type = #weak ifTrue: [^ ' weakSubclass: ' ].
 	type = #compiledMethod ifTrue: [^ ' variableByteSubclass: ' ].
+	type = #immediate ifTrue: [ ^ ' immediateSubclass: ' ].
 	self error: 'Unrecognized class type'

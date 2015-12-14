@@ -33,33 +33,8 @@ createLockSurfaceFn
 		yet. It is up to the support code to compute accurate alignment if necessary.
 	"
 
-	| fn |
-
-	fn := NBNativeFunctionGen 
-		cdecl: #(int (int handle, int *pitch, int x, int y, int w, int h) )
-		emit: [:gen :proxy :asm | | callInfo fnPtr |
-
-			" the handle is a handle to cairo image surface (cairo_surface_t *) "
-
-			"*pitch = cairo_image_surface_get_stride ( handle )"
-			asm cdeclCall: [:call |
-				call push: (gen arg: #handle).
-				asm
-					mov: (self fnPtr: 'cairo_image_surface_get_stride') asUImm32 to: asm EAX;
-					call: asm EAX
-			] alignment: gen stackAlignment;
-			
-			mov: (gen arg: #pitch) to: asm EDX;
-			mov: asm EAX to: asm EDX ptr.
-		
-			" return cairo_image_surface_get_data ()"
-			asm cdeclCall: [:call |
-				call push: (gen arg: #handle).
-				asm
-					mov: (self fnPtr: 'cairo_image_surface_get_data') asUImm32 to: asm EAX;
-					call: asm EAX
-			] alignment: gen stackAlignment
-		].
-	
-	fn install.
-	^ fn address
+	^ FFICallback 
+		signature: #(int (int handle, int *pitch, int x, int y, int w, int h))
+		block: [ :handle :pitch :x :y :w :h |
+			pitch signedLongAt: 1 put: (self get_stride: handle).
+			self get_data: handle ]

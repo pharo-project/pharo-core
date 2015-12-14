@@ -1,0 +1,2 @@
+stdcall
+	callingConvention := #stdcall

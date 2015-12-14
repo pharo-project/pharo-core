@@ -1,0 +1,2 @@
+cdecl
+	callingConvention := #cdecl

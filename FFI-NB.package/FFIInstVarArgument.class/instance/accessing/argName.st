@@ -1,0 +1,2 @@
+argName
+	^ argName

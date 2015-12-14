@@ -1,0 +1,2 @@
+| anInteger
+	^self bitOr: anInteger

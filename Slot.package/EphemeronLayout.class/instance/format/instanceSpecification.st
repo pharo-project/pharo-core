@@ -1,0 +1,2 @@
+instanceSpecification
+	^ 5

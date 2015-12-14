@@ -1,4 +1,4 @@
-NBExternalArray subclass: #CairoGlyphsArray
+FFIExternalArray subclass: #CairoGlyphsArray
 	instanceVariableNames: 'allocatedByCairo'
 	classVariableNames: ''
 	poolDictionaries: ''

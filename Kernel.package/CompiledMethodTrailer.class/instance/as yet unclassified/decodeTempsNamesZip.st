@@ -1,0 +1,2 @@
+decodeTempsNamesZip
+		self decodeZip

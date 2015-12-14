@@ -1,0 +1,2 @@
+typeSize 
+	^ self type typeSize

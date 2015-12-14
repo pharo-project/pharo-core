@@ -1,3 +1,2 @@
 charCode
-
-	^ (value bitAnd: 16r3FFFFF).
+	^ self asInteger bitAnd: 4194303

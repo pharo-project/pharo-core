@@ -1,0 +1,2 @@
+compiledSpec: aWordArray
+	compiledSpec := aWordArray.

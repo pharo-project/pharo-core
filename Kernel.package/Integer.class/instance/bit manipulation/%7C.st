@@ -1,2 +1,0 @@
-| aNumber
-	^ self bitOr: aNumber

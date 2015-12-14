@@ -6,7 +6,7 @@ renderGlyphs: cairoGlyphs
 		setScaledFont: font.
 	canvas paint loadOnCairoCanvas: canvas.
 
-	canvas showGlyphs: cairoGlyphs address size: cairoGlyphs size.
+	canvas showGlyphs: cairoGlyphs getHandle size: cairoGlyphs size.
 	font unlock.
 
 	

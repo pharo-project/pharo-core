@@ -8,10 +8,12 @@ normalize
 	(self digitAt: len) = 0]
 		whileTrue: [len := len - 1].
 
-	"Now check if in SmallInteger range"
-	sLen := SmallInteger maxVal digitLength.
+	"Now check if in SmallInteger range.  Fast compute SmallInteger maxVal digitLength"
+	sLen := SmallInteger maxVal > 16r3FFFFFFF
+				ifTrue: [8]
+				ifFalse: [4].
 	(len <= sLen
-		and: [(self digitAt: sLen) <= (SmallInteger maxVal digitAt: sLen)])
+	 and: [(self digitAt: sLen) <= (SmallInteger maxVal digitAt: sLen)])
 		ifTrue: ["If so, return its SmallInt value"
 				val := 0.
 				len to: 1 by: -1 do:

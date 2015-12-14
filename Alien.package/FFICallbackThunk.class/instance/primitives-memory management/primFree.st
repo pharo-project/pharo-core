@@ -1,0 +1,2 @@
+primFree
+	self shouldNotImplement

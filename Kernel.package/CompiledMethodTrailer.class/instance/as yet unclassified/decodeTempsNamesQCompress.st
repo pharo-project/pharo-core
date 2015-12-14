@@ -1,0 +1,2 @@
+decodeTempsNamesQCompress
+		self qDecompress

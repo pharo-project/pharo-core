@@ -1,0 +1,2 @@
+receiverArgumentLoader
+	^ FFISelfArgument new

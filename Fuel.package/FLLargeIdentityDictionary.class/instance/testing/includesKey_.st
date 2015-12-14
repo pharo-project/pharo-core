@@ -1,7 +1,7 @@
 includesKey: key
 
 	| hash |
-	^(keys at: (hash := key largeIdentityHash + 1))
+	^(keys at: (hash := key largeIdentityHash \\ 4096 + 1))
 		ifNil: [ false ]
 		ifNotNil: [ :keyList | 
 			key 

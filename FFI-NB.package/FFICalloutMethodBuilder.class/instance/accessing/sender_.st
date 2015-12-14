@@ -1,0 +1,2 @@
+sender: anObject
+	sender := anObject

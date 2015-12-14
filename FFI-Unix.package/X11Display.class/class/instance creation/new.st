@@ -1,0 +1,2 @@
+new
+	^ self on: nil

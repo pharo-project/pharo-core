@@ -1,5 +1,4 @@
 compactClassesArray
 	"Smalltalk compactClassesArray"
-	"Return the array of 31 classes whose instances may be
-	represented compactly"
-	^ self specialObjectsArray at: 29
+	"Backward-compatibility support.  Spur does not have compact classes."
+	^{}

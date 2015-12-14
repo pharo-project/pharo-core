@@ -1,0 +1,2 @@
+structureSize
+	^ self byteSize

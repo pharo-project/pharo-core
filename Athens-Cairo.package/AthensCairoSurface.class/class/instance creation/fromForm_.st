@@ -17,7 +17,7 @@ fromForm: aForm
 		(pixel bitAnd: 16rFF000000) + (b<<16) + (g<<8) + r
 		].
 	
-	NativeBoost memCopy: newBits to: surface getDataPtr size: (form width * form height *4).
+	LibC memCopy: newBits to: surface getDataPtr getHandle size: (form width * form height *4).
 	
 	surface markDirty.
 

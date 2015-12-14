@@ -1,0 +1,2 @@
+void
+	^AtomicTypes at: 'void'

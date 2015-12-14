@@ -1,4 +1,3 @@
 largeIdentityHash
 
-	<primitive: 75>
-	self primitiveFailed
+	^ self basicIdentityHash 

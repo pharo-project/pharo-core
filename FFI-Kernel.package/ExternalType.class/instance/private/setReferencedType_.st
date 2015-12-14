@@ -1,0 +1,2 @@
+setReferencedType: aType
+	referencedType := aType

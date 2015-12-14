@@ -1,0 +1,3 @@
+largeIdentityHash
+
+	^ self identityHash

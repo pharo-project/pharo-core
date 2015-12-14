@@ -1,3 +1,3 @@
 fuelAccept: aGeneralMapper
 
-	^aGeneralMapper visitCharacter: self
+	^aGeneralMapper visitHookPrimitive: self

@@ -1,2 +1,3 @@
 hasNewFinalization
-	^ HasNewFinalization == true
+	"new finalization is always false"
+	^ false

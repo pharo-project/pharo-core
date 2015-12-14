@@ -1,7 +1,7 @@
 removeKey: key ifAbsent: aBlock
 
 	| hash |
-	(keys at: (hash := key largeIdentityHash + 1)) ifNotNil: [ :keyList |
+	(keys at: (hash := key largeIdentityHash \\ 4096 + 1)) ifNotNil: [ :keyList |
 		| size |
 		1 to: (size := tallies at: hash) do: [ :index |
 			(keyList at: index) == key ifTrue: [

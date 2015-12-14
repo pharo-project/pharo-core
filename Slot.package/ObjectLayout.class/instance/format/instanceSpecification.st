@@ -1,0 +1,2 @@
+instanceSpecification
+	self subclassResponsibility

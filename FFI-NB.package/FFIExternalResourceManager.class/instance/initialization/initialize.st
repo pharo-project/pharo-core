@@ -1,0 +1,2 @@
+initialize 
+	registry := WeakRegistry new

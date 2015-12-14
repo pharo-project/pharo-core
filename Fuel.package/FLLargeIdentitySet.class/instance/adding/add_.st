@@ -6,7 +6,7 @@ add: anObject
 			includesNil := true.
 			tally := tally + 1 ].
 		^anObject ].
-	(array at: (hash := anObject largeIdentityHash + 1))
+	(array at: (hash := anObject largeIdentityHash \\ 4096 + 1))
 		ifNil: [ 
 			array at: hash put: (Array with: anObject).
 			tallies at: hash put: 1.

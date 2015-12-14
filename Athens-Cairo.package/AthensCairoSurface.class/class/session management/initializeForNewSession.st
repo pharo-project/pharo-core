@@ -1,19 +1,11 @@
 initializeForNewSession
-	| ptr |
-	uniqueSession := NativeBoost uniqueSessionObject.
-	
+	session := Smalltalk session.
 	"create a dispatch structure"
-	dispatchStruct := dispatch := SQSurfaceDispatch new.
-	
-	dispatch 
+	dispatchStruct := SQSurfaceDispatch externalNew.
+	dispatchStruct 
 		getSurfaceFormatFn: self createGetSurfaceFormatFn;
 		lockSurfaceFn: self createLockSurfaceFn;
 		unlockSurfaceFn: self createUnlockSurfaceFn;
 		showSurfaceFn: self createShowSurfaceFn.
-		
-	"now we should place this structure to external memory"
-	
-	ptr := NativeBoost allocate: (SQSurfaceDispatch instanceSize).
-	NativeBoost memCopy: dispatch address to: ptr size: (SQSurfaceDispatch instanceSize).
-	
-	dispatch := ptr.
+	"assign the pointer"
+	dispatch := dispatchStruct getHandle.

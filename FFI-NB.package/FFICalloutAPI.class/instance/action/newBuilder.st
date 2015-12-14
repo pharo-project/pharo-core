@@ -1,0 +1,2 @@
+newBuilder
+	^ FFICalloutMethodBuilder calloutAPI: self

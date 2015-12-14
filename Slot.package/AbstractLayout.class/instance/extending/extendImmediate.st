@@ -1,0 +1,2 @@
+extendImmediate
+	^ ImmediateLayout new

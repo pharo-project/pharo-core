@@ -1,0 +1,2 @@
+generatedFieldProtocolName
+	^ 'accessing structure variables'

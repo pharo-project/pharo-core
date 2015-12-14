@@ -1,3 +1,2 @@
 setValue: newValue
-	value ifNotNil:[^self error:'Characters are immutable'].
-	value := newValue.
+	self error: 'Characters are immutable'

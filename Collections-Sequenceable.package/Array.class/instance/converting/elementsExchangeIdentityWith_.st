@@ -1,14 +1,26 @@
 elementsExchangeIdentityWith: otherArray
-	"This primitive performs a bulk mutation, causing all pointers to the elements of this array to be replaced by pointers to the corresponding elements of otherArray.  At the same time, all pointers to the elements of otherArray are replaced by pointers to the corresponding elements of this array.  The identityHashes remain with the pointers rather than with the objects so that objects in hashed structures should still be properly indexed after the mutation."
+	"This primitive performs a bulk mutation, causing all pointers to the elements of the
+	 receiver to be replaced by pointers to the corresponding elements of otherArray.
+	 At the same time, all pointers to the elements of otherArray are replaced by
+	 pointers to the corresponding elements of this array.  The identityHashes remain
+	 with the pointers rather than with the objects so that objects in hashed structures
+	 should still be properly indexed after the mutation."
 
-	<primitive: 128>
-	otherArray class == Array ifFalse: [^ self error: 'arg must be array'].
-	self size = otherArray size ifFalse: [^ self error: 'arrays must be same size'].
-	(self anySatisfy: [:obj | obj class == SmallInteger]) ifTrue: [^ self error: 'can''t become SmallIntegers'].
-	(otherArray anySatisfy: [:obj | obj class == SmallInteger]) ifTrue: [^ self error: 'can''t become SmallIntegers'].
-	self with: otherArray do:[:a :b| a == b ifTrue:[^self error:'can''t become yourself']].
-
-	"Must have failed because not enough space in forwarding table (see ObjectMemory-prepareForwardingTableForBecoming:with:twoWay:).  Do GC and try again only once"
-	(Smalltalk bytesLeft: true) = Smalltalk primitiveGarbageCollect
-		ifTrue: [^ self primitiveFailed].
-	^ self elementsExchangeIdentityWith: otherArray
+	<primitive: 128 error: ec>
+	ec == #'bad receiver' ifTrue:
+		[^self error: 'receiver must be of class Array'].
+	ec == #'bad argument' ifTrue:
+		[^self error: (otherArray class == Array
+						ifTrue: ['arg must be of class Array']
+						ifFalse: ['receiver and argument must have the same size'])].
+	ec == #'inappropriate operation' ifTrue:
+		[^self error: 'can''t become immediates such as SmallIntegers or Characters'].
+	ec == #'no modification' ifTrue:
+		[^self error: 'can''t become immutable objects'].
+	ec == #'object is pinned' ifTrue:
+		[^self error: 'can''t become pinned objects'].
+	ec == #'insufficient object memory' ifTrue:
+		[Smalltalk garbageCollect < 1048576 ifTrue:
+			[Smalltalk growMemoryByAtLeast: 1048576].
+		 ^self elementsExchangeIdentityWith: otherArray].
+	self primitiveFailed

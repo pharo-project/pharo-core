@@ -1,5 +1,5 @@
 AthensCairoPatternPaint subclass: #AthensCairoPatternSurfacePaint
-	instanceVariableNames: 'surface origin direction extent'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'AthensCairoDefs'
 	category: 'Athens-Cairo-Paints'

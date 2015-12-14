@@ -1,0 +1,2 @@
+defaultCalloutAPIClass
+	^ FFICalloutAPI	

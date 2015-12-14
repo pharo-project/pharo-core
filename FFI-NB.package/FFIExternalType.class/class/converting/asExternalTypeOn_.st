@@ -1,0 +1,2 @@
+asExternalTypeOn: generator
+	^ self new

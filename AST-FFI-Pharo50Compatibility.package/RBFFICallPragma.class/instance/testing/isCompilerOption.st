@@ -1,0 +1,2 @@
+isCompilerOption
+	^ false

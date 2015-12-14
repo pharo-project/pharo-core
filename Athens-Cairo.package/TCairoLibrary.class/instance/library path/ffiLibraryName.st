@@ -1,0 +1,2 @@
+ffiLibraryName
+	^ self class ffiLibraryName

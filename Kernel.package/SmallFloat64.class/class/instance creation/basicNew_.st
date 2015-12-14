@@ -1,0 +1,2 @@
+basicNew: anInteger
+	^self basicNew

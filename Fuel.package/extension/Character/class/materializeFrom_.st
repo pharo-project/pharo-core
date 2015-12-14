@@ -1,3 +1,3 @@
 materializeFrom: aDecoder
 
-	^self value: aDecoder nextEncodedByte
+	^self value: aDecoder nextEncodedUint32

@@ -1,6 +1,6 @@
 createSurface
 	| extent |
 	extent := self extent asIntegerPoint.
-	(scene respondsTo: #createSurface:) ifTrue: [
-		surface := scene createSurface: extent.
-	  ] ifFalse: [ surface := AthensCairoSurface extent: extent].
+	surface := (scene respondsTo: #createSurface:) 
+		ifTrue: [ scene createSurface: extent ] 
+		ifFalse: [ AthensCairoSurface extent: extent].

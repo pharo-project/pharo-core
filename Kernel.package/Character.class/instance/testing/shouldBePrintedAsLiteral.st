@@ -1,3 +1,2 @@
 shouldBePrintedAsLiteral
-
-	^value between: 33 and: 255
+	^ self asInteger between: 33 and: 255

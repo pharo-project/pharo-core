@@ -1,2 +1,0 @@
-initialize
-	self initElementType: #CairoGlyph

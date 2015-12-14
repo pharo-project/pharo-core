@@ -8,15 +8,6 @@ createShowSurfaceFn
 		a Squeak DisplayScreen.
 
 	"
-
-	| fn |
-
-	fn := NBNativeFunctionGen 
-		cdecl: #(int (int handle, int x, int y, int w, int h))
-		emit: [:gen :proxy :asm | 
-			"do nothing"
-			asm mov: 1 to: asm EAX
-		].
-	
-	fn install.
-	^ fn address
+	^ FFICallback 
+		signature: #(int (int handle, int x, int y, int w, int h))
+		block: [ :handle :x :y :w :h | 0 "Do nothing" ]

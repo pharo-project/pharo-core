@@ -1,3 +1,2 @@
 isOctetCharacter
-
-	^ value < 256.
+	^ self asInteger < 256

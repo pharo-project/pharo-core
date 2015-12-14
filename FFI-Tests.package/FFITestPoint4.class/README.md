@@ -1,0 +1,1 @@
+A class used for testing structures as arguments for the FFI.

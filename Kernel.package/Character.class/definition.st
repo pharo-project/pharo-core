@@ -1,5 +1,5 @@
-Magnitude subclass: #Character
-	instanceVariableNames: 'value'
+Magnitude immediateSubclass: #Character
+	instanceVariableNames: ''
 	classVariableNames: 'CharacterTable DigitValues'
 	poolDictionaries: ''
 	category: 'Kernel-BasicObjects'

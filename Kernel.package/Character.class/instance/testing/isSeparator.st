@@ -1,10 +1,12 @@
 isSeparator
-	"Answer whether the receiver is one of the separator characters--space, 
-	cr, tab, line feed, or form feed."
-
-	value = 32 ifTrue: [^true].	"space"
-	value = 13 ifTrue: [^true].	"cr"
-	value = 9 ifTrue: [^true].	"tab"
-	value = 10 ifTrue: [^true].	"line feed"
-	value = 12 ifTrue: [^true].	"form feed"
-	^false
+	self asInteger = 32
+		ifTrue: [ ^ true ].
+	self asInteger = 13
+		ifTrue: [ ^ true ].
+	self asInteger = 9
+		ifTrue: [ ^ true ].
+	self asInteger = 10
+		ifTrue: [ ^ true ].
+	self asInteger = 12
+		ifTrue: [ ^ true ].
+	^ false

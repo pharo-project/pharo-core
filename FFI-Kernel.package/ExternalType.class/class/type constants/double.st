@@ -1,0 +1,2 @@
+double
+	^AtomicTypes at: 'double'

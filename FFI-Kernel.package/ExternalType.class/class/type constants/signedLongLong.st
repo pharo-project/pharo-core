@@ -1,0 +1,2 @@
+signedLongLong
+	^AtomicTypes at: 'longlong'

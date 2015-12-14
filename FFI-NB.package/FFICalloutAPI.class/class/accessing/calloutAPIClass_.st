@@ -1,0 +1,2 @@
+calloutAPIClass: aClass
+	CalloutAPIClass := aClass

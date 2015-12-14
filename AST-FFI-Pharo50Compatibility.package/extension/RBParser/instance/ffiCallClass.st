@@ -1,0 +1,2 @@
+ffiCallClass
+	^ RBFFICallPragma

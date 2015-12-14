@@ -1,0 +1,2 @@
+handle: anObject
+	handle := anObject

@@ -1,0 +1,2 @@
+isVoid
+	^ true

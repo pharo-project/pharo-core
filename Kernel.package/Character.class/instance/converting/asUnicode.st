@@ -1,17 +1,13 @@
 asUnicode
-
-	| table charset v |
-	self leadingChar = 0 
-		ifTrue: [^ value].
-	
-	charset := self characterSet.
-	charset isCharset 
-		ifFalse: [^ self charCode].
-	
-	table := charset ucsTable.
-	table ifNil: [^ 16rFFFD].
-
-	v := table at: self charCode + 1.
-	v = -1 ifTrue: [^ 16rFFFD].
-
-	^ v.
+	| tmp1 tmp2 tmp3 |
+	self leadingChar = 0
+		ifTrue: [ ^ self asInteger ].
+	tmp2 := self characterSet.
+	tmp2 isCharset
+		ifFalse: [ ^ self charCode ].
+	tmp1 := tmp2 ucsTable.
+	tmp1 ifNil: [ ^ 65533 ].
+	tmp3 := tmp1 at: self charCode + 1.
+	tmp3 = -1
+		ifTrue: [ ^ 65533 ].
+	^ tmp3

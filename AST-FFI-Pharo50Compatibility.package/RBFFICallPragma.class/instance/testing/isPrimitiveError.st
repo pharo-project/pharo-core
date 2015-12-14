@@ -1,0 +1,2 @@
+isPrimitiveError
+	^ false

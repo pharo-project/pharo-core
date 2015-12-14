@@ -13,4 +13,4 @@ initialize
 	ftFontRenderer := CairoFreetypeFontRenderer new
 		canvas: context. 
 	
-	NBExternalResourceManager addResource: self.
+	FFIExternalResourceManager addResource: self.

@@ -4,4 +4,4 @@ extendSmallInteger
 			layout: self;
 			subType: #compiledMethod;
 			signal ].
-	^ SmallIntegerLayout new
+	^ ImmediateLayout new

@@ -1,0 +1,2 @@
+short
+	^self signedShort

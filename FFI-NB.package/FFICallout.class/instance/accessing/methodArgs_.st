@@ -1,0 +1,2 @@
+methodArgs: anArray
+	methodArgs := anArray

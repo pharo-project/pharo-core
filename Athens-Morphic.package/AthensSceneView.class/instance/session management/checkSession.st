@@ -1,5 +1,3 @@
 checkSession
-
 	session == Smalltalk session ifFalse: [ 
-		self initializeForNewSession
-		 ]
+		self initializeForNewSession ]
