@@ -1,4 +1,4 @@
-script50498
+script50499
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -63,7 +63,7 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FFI-Kernel-EstebanLorenzano.29.mcz
 FFI-MacOS-spd.5.mcz
-FFI-NB-EstebanLorenzano.37.mcz
+FFI-NB-EstebanLorenzano.41.mcz
 FFI-NB-Legacy-EstebanLorenzano.3.mcz
 FFI-NB-Tests-EstebanLorenzano.20.mcz
 FFI-Pools-eem.3.mcz
@@ -335,7 +335,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.96.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-EstebanLorenzano.8.mcz
+System-OSEnvironments-EstebanLorenzano.12.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
