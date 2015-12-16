@@ -1,10 +1,10 @@
-script50503
+script50504
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
 Alien-eem.25.mcz
-Announcements-Core-TheIntegrator.62.mcz
+Announcements-Core-EstebanLorenzano.65.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.27.mcz
 AsmJit-Core-TheIntegrator.10.mcz
@@ -47,7 +47,7 @@ Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.24.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-EstebanLorenzano.95.mcz
-Compiler-TheIntegrator.598.mcz
+Compiler-EstebanLorenzano.600.mcz
 Compression-TheIntegrator.171.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
