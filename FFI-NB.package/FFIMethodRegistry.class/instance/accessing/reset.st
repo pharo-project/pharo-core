@@ -1,8 +1,8 @@
 reset
-	"Recompile methods is the easiest way (so far) to force a FFI recompilation, needed in 
-	 particular when we change platforms"
+	"FFI compiled methods will keep the old method as a property, making easy to replace it 
+	 when changing platforms."
 	self compiledMethods do: [ :each |
-		each methodClass
-			compileSilently: each sourceCode 
-			classified: each category ].
+		each methodClass methodDict 
+			at: each selector 
+			put: (each propertyValueAt: #ffiNonCompiledMethod)].
 	self compiledMethods removeAll

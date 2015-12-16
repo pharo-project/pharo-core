@@ -12,7 +12,10 @@ function: functionSignature module: moduleNameOrLibrary
 	ffiMethod 
 		selector: sender selector;
 		methodClass: sender methodClass.		
-	"Replace with generated ffi method"
+	"Replace with generated ffi method, but save old one for future use"
+	ffiMethod 
+		propertyValueAt: #ffiNonCompiledMethod 
+		put: (sender methodClass methodDict at: sender selector).
 	sender methodClass methodDict 
 		at: sender selector
 		put: ffiMethod.
