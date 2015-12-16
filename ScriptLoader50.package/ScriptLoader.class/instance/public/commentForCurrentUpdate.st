@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '17250 copy methods from Behavior to TBehavior (spur migration)
-	https://pharo.fogbugz.com/f/cases/17250
+ ^ '17237 restore trait methods (spur migration)
+	https://pharo.fogbugz.com/f/cases/17237
 
 '
