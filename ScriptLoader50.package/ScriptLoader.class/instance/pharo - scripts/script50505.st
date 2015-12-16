@@ -1,4 +1,4 @@
-script50504
+script50505
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -42,7 +42,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-EstebanLorenzano.227.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-EstebanLorenzano.384.mcz
+Collections-Strings-EstebanLorenzano.385.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.24.mcz
 Collections-Unordered-TheIntegrator.227.mcz
@@ -142,8 +142,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-EstebanLorenzano.2198.mcz
-Kernel-Tests-TheIntegrator.22.mcz
+Kernel-EstebanLorenzano.2201.mcz
+Kernel-Tests-EstebanLorenzano.24.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -373,7 +373,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.7.mcz
-Traits-EstebanLorenzano.865.mcz
+Traits-EstebanLorenzano.867.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
