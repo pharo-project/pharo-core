@@ -1,4 +1,4 @@
-script50500
+script50501
 
 	^ 'AST-Core-TheIntegrator.391.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -39,14 +39,14 @@ Collections-Abstract-TheIntegrator.311.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.225.mcz
+Collections-Sequenceable-EstebanLorenzano.227.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.382.mcz
+Collections-Strings-EstebanLorenzano.384.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.24.mcz
 Collections-Unordered-TheIntegrator.227.mcz
-Collections-Weak-TheIntegrator.93.mcz
+Collections-Weak-EstebanLorenzano.95.mcz
 Compiler-TheIntegrator.598.mcz
 Compression-TheIntegrator.171.mcz
 Compression-Tests-TheIntegrator.2.mcz
@@ -89,7 +89,7 @@ FreeType-Tests-TheIntegrator.2.mcz
 Fuel-EstebanLorenzano.818.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
-FuelTests-TheIntegrator.392, FuelTests-EstebanLorenzano.391.mcz
+FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.14.mcz
 GT-EventRecorder-JurajKubelka.50.mcz
 GT-EventRecorder-Tests-JurajKubelka.30.mcz
@@ -302,7 +302,7 @@ ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.285.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-EstebanLorenzano.711.mcz
-Slot-Tests-TheIntegrator.69, Slot-Tests-EstebanLorenzano.65.mcz
+Slot-Tests-EstebanLorenzano.71.mcz
 SmartSuggestions-TheIntegrator.210.mcz
 SmartSuggestions-Tests-TheIntegrator.21.mcz
 Spec-Core-TheIntegrator.444.mcz
@@ -315,7 +315,7 @@ Spec-MorphicAdapters-TheIntegrator.249.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.312.mcz
-StartupPreferences-TheIntegrator.145.mcz
+StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.4.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -327,7 +327,7 @@ System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.9.mcz
 System-FileRegistry-TheIntegrator.50.mcz
-System-Finalization-TheIntegrator.22.mcz
+System-Finalization-EstebanLorenzano.24.mcz
 System-Hashing-TheIntegrator.47.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
@@ -335,7 +335,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.96.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-EstebanLorenzano.12.mcz
+System-OSEnvironments-EstebanLorenzano.14.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
@@ -343,7 +343,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1177.mcz
+System-Support-EstebanLorenzano.1179.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
