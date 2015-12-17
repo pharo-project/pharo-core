@@ -1,6 +1,6 @@
-script50505
+script50506
 
-	^ 'AST-Core-TheIntegrator.391.mcz
+	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
 AST-Tests-Core-TheIntegrator.86.mcz
 Alien-eem.25.mcz
@@ -90,7 +90,7 @@ Fuel-EstebanLorenzano.818.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
-FuelTools-Debugger-TheIntegrator.14.mcz
+FuelTools-Debugger-TheIntegrator.15.mcz
 GT-EventRecorder-JurajKubelka.50.mcz
 GT-EventRecorder-Tests-JurajKubelka.30.mcz
 GT-Inspector-StefanReichhart.355.mcz
@@ -102,7 +102,7 @@ GT-SpotterExtensions-Core-AndreiChis.172.mcz
 GT-Tests-Inspector-AndreiChis.49.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-StefanReichhart.15.mcz
-Generated-code-non-existing-package-EstebanLorenzano.2.mcz
+Generated-code-non-existing-package-TheIntegrator.3.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
 Glamour-Core-AndreiChis.306.mcz
@@ -143,7 +143,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-EstebanLorenzano.2201.mcz
-Kernel-Tests-EstebanLorenzano.24.mcz
+Kernel-Tests-TheIntegrator.26.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -232,7 +232,7 @@ Network-Kernel-TheIntegrator.120.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.103.mcz
-Network-Tests-TheIntegrator.2.mcz
+Network-Tests-TheIntegrator.4.mcz
 Network-UUID-TheIntegrator.36.mcz
 Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.31.mcz
@@ -242,7 +242,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.767.mcz
+OpalCompiler-Core-TheIntegrator.768.mcz
 OpalCompiler-Tests-TheIntegrator.319.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -281,7 +281,7 @@ Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.233.mcz
 Ring-Monticello-TheIntegrator.40.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
-Ring-Tests-Kernel-TheIntegrator.88.mcz
+Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
 Rubric-TheIntegrator.310.mcz
@@ -302,7 +302,7 @@ ShoreLine-Report-UI-TommasoDalSasso.15.mcz
 Shout-TheIntegrator.285.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-EstebanLorenzano.711.mcz
-Slot-Tests-EstebanLorenzano.71.mcz
+Slot-Tests-TheIntegrator.73.mcz
 SmartSuggestions-TheIntegrator.210.mcz
 SmartSuggestions-Tests-TheIntegrator.21.mcz
 Spec-Core-TheIntegrator.444.mcz
@@ -343,7 +343,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-EstebanLorenzano.1179.mcz
+System-Support-TheIntegrator.1182.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz

@@ -9,8 +9,8 @@ testSimpleCreate
 	
 	self assert: (message text matchesRegex: 'Date\: [[:alpha:]]+, \d+ [[:alpha:]]+ \d+ \d\d\:\d\d\:\d\d [-+]\d\d\d\d
 From\: community@world.st
-Subject\: Great Progress
 To\: pharo-project@lists.gforge.inria.fr, pharo-users@lists.gforge.inria.fr
+Subject\: Great Progress
 
 Pharo is getting so cool!
 ').

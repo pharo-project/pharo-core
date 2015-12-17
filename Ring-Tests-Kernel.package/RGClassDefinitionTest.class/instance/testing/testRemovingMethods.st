@@ -15,9 +15,9 @@ testRemovingMethods
 			   sourced: 'size
 							^ lastIndex - firstIndex + 1'.
 	
-	self assert: (newClass selectors = #(add: size)).
+	self assert: (newClass selectors asSet = #(add: size) asSet).
 	newClass removeSelector: #join:.
-	self assert: (newClass selectors = #(add: size)).
+	self assert: (newClass selectors asSet = #(add: size) asSet).
 	newClass removeMethod: newMethod.
 	self assert: ((newClass includesSelector: #add:) not).
 	newClass removeSelector: #size.

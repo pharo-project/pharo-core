@@ -17,8 +17,8 @@ testAddingMethods
 			   sourced: 'fakeMethod
 							^lastIndex - firstIndex + 1'.
 	
-	self assert: (newClass hasMethods).
-	self assert: (newClass selectors = #(add: size)).
+	self assert: (newClass hasMethods).	
+	self assert: (newClass selectors asSet = #(add: size) asSet).
 	self assert: (newClass includesSelector: #add:).
 	self assert: ((newClass methodNamed: #add:) = newMethod).
 	self assert: (newClass methods size = 2).
