@@ -16,8 +16,7 @@ sizeInMemory
 		]
 	].
 
-	contentBytes > 255 ifTrue:	[ contentBytes := contentBytes +  (2 * Smalltalk wordSize) ]
-						ifFalse:	[ self class isCompact
-									ifFalse: [ contentBytes := contentBytes + Smalltalk wordSize]
-								].
+	contentBytes > 255 
+		ifTrue:	[ contentBytes := contentBytes +  (2 * Smalltalk wordSize) ]
+		ifFalse:	[ contentBytes := contentBytes + Smalltalk wordSize].
 	^contentBytes

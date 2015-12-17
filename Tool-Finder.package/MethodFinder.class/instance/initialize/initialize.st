@@ -51,10 +51,7 @@ initialize
 "accessing method dictionary" allSelectors compiledMethodAt: compiledMethodAt:ifAbsent: firstCommentAt: lookupSelector: selectors selectorsDo: selectorsWithArgs: "slow but useful ->" sourceCodeAt: sourceCodeAt:ifAbsent: sourceMethodAt: sourceMethodAt:ifAbsent:
 "accessing instances and variables" allClassVarNames allInstVarNames allSharedPools classVarNames instVarNames instanceCount sharedPools someInstance subclassInstVarNames
 "testing class hierarchy" inheritsFrom: kindOfSubclass
-"testing method dictionary" canUnderstand: classThatUnderstands: hasMethods includesSelector: whichClassIncludesSelector: whichSelectorsAccess: whichSelectorsReferTo: whichSelectorsStoreInto:
-"enumerating"
-"user interface"
-"private" indexIfCompact) do: [:sel | Approved add: sel].
+"testing method dictionary" canUnderstand: classThatUnderstands: hasMethods includesSelector: whichClassIncludesSelector: whichSelectorsAccess: whichSelectorsReferTo: whichSelectorsStoreInto:) do: [:sel | Approved add: sel].
 
 "ClassDescription"
 	#("initialize-release" 

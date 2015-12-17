@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '17256 clean up #becomeCompact
-	https://pharo.fogbugz.com/f/cases/17256
+ ^ '17258 remove "super initialize" from CompilationContext and CCcompilationContext
+	https://pharo.fogbugz.com/f/cases/17258
 
-17265 Spur Migration - RGClassDefinitionTest is depending on the order of keys for asserting some tests
-	https://pharo.fogbugz.com/f/cases/17265
+17266 Compact classes cleanup
+	https://pharo.fogbugz.com/f/cases/17266
 
-17264 The text value of MailMessage has changed the order of the fields. 
-	https://pharo.fogbugz.com/f/cases/17264
-
-'
+17262 AST-FFI-Pharo50Compatibility has wrong repository associated
+	https://pharo.fogbugz.com/f/cases/17262'
