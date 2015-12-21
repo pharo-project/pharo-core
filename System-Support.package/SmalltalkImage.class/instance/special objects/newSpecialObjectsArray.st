@@ -65,7 +65,7 @@ newSpecialObjectsArray
 	"array of objects referred to by external code"
 	newArray at: 39 put: (self primitiveGetSpecialObjectsArray at: 39).	"external semaphores"
 	newArray at: 40 put: nil. "Reserved for Mutex in Cog VMs"
-	newArray at: 41 put: ((self primitiveGetSpecialObjectsArray at: 41) ifNil: [LinkedList new]). "Reserved for a LinkedList instance for overlapped calls in CogMT"
+	newArray at: 41 put: ((self primitiveGetSpecialObjectsArray at: 41) ifNil: [ProcessList new]). "Reserved for a ProcessList instance for overlapped calls in CogMT"
 	newArray at: 42 put: ((self primitiveGetSpecialObjectsArray at: 42) ifNil: [Semaphore new]). "finalization Semaphore"
 	newArray at: 43 put: LargeNegativeInteger.
 	"External objects for callout.

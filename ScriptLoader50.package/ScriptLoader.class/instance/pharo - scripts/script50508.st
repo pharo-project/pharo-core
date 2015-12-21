@@ -1,4 +1,4 @@
-script50507
+script50508
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -86,7 +86,7 @@ FontInfrastructure-TheIntegrator.10.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.716.mcz
 FreeType-Tests-TheIntegrator.2.mcz
-Fuel-EstebanLorenzano.818.mcz
+Fuel-TheIntegrator.820.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
@@ -142,7 +142,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2203.mcz
+Kernel-TheIntegrator.2204.mcz
 Kernel-Tests-TheIntegrator.28.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -343,7 +343,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1182.mcz
+System-Support-TheIntegrator.1184.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.8.mcz
 Tests-TheIntegrator.745.mcz
@@ -372,7 +372,7 @@ Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
-Tools-Test-TheIntegrator.7.mcz
+Tools-Test-TheIntegrator.10.mcz
 Traits-TheIntegrator.869.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz

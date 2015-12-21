@@ -3,12 +3,9 @@ pointersToExcept: objectsToExclude
 	| c pointers object objectsToAlwaysExclude |
 	Smalltalk garbageCollect.
 	pointers := OrderedCollection new.
-	"SystemNavigation >> #allObjectsDo: is inlined here with a slight modification: the marker object is pointers. This gives better results, because the value of pointers, it's inner objects and transient method contexts will not be iterated over."
-	object := self someObject.
-	[ object == pointers ] whileFalse: [
-		( object pointsTo: self ) ifTrue: [
-			pointers add: object ].
-		object := object nextObject ].
+
+	SystemNavigation default allObjectsDo: [ :e | (e pointsTo: self) ifTrue: [ pointers add: e ]  ].
+
 	objectsToAlwaysExclude := {
 		thisContext.
 		thisContext sender.
