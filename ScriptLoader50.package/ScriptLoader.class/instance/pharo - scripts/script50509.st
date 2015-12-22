@@ -1,4 +1,4 @@
-script50508
+script50509
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -177,7 +177,7 @@ Metacello-TestsPlatform.squeakCommon-ChristopheDemarey.21.mcz
 Metacello-TestsReference-dkh.20.mcz
 Metacello-ToolBox-ChristopheDemarey.146.mcz
 Metacello-Tutorial-dkh.26.mcz
-Monticello-EstebanLorenzano.1104.mcz
+Monticello-TheIntegrator.1105.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.33.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -192,7 +192,7 @@ Morphic-Base-TheIntegrator.524.mcz
 Morphic-Core-TheIntegrator.240.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
-Morphic-Widgets-Basic-TheIntegrator.68.mcz
+Morphic-Widgets-Basic-TheIntegrator.70.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-CyrilFerlicot.142.mcz
@@ -311,7 +311,7 @@ Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.249.mcz
+Spec-MorphicAdapters-TheIntegrator.251.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.312.mcz
