@@ -1,4 +1,4 @@
-script50509
+script50510
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -102,6 +102,7 @@ GT-SpotterExtensions-Core-AndreiChis.172.mcz
 GT-Tests-Inspector-AndreiChis.49.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-StefanReichhart.15.mcz
+GTInspector-Help-TheIntegrator.3.mcz
 Generated-code-non-existing-package-TheIntegrator.3.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-TorstenBergmann.109.mcz
@@ -137,7 +138,7 @@ HelpSystem-Core-TheIntegrator.135.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.2.mcz
 HudsonBuildTools20-TheIntegrator.82.mcz
-ImportingResource-Help-TheIntegrator.2.mcz
+ImportingResource-Help-TheIntegrator.4.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz

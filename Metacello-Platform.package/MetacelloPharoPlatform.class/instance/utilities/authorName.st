@@ -1,3 +1,0 @@
-authorName
-
-	^Author fullName

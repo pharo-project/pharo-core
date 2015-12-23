@@ -1,4 +1,4 @@
-MetacelloPlatform subclass: #MetacelloPharoPlatform
+MetacelloPharoCommonPlatform subclass: #MetacelloPharo30Platform
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
