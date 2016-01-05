@@ -1,4 +1,4 @@
-script50510
+script50511
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -15,7 +15,7 @@ AsmJit-StackManagement-SvenVanCaekenberghe.11.mcz
 AsmJit-Tests-TheIntegrator.21.mcz
 AsmJit-x86-TheIntegrator.40.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-EstebanLorenzano.100.mcz
+Athens-Cairo-TheIntegrator.103.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-maxmattone.54.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -165,8 +165,7 @@ Metacello-GitBasedRepository-dkh.16.mcz
 Metacello-GitHub-topa.47.mcz
 Metacello-MC-TheIntegrator.731.mcz
 Metacello-PharoCommonPlatform-ChristopheDemarey.17.mcz
-Metacello-Platform.pharo20-TheIntegrator.38.mcz
-Metacello-Platform.pharo30-ChristopheDemarey.9.mcz
+Metacello-Platform-TheIntegrator.1.mcz
 Metacello-ProfStef-MarcusDenker.16.mcz
 Metacello-Reference-dkh.36.mcz
 Metacello-TestsCommonMC.pharo20-dkh.5.mcz
@@ -215,14 +214,14 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.230.mcz
 NECompletion-Tests-TheIntegrator.8.mcz
-NativeBoost-Core-TheIntegrator.171.mcz
+NativeBoost-Core-TheIntegrator.173.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
 NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1186.mcz
+Nautilus-TheIntegrator.1189.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -288,7 +287,7 @@ RingChunkImporter-TheIntegrator.4.mcz
 Rubric-TheIntegrator.310.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
-SUnit-Core-TheIntegrator.160.mcz
+SUnit-Core-TheIntegrator.163.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.129.mcz
@@ -312,7 +311,7 @@ Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.251.mcz
+Spec-MorphicAdapters-TheIntegrator.252.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.312.mcz

@@ -1,5 +1,5 @@
 classIconFor: aClass
-	(aClass isTestCase and: [ aClass isAbstract not ])
+	(aClass isTestCase and: [ aClass isAbstract not and: [ aClass hasTestSelectors ] ])
 		ifTrue: [ | icon button |
 			icon :=  Smalltalk ui icons iconNamed: #testNotRunIcon.
 

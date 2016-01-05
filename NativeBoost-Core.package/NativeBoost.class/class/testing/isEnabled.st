@@ -3,4 +3,4 @@ isEnabled
 	
 	<primitive: #primitiveIsEnabled module: #NativeBoostPlugin>
 	
-	^ self primitiveFailed
+	^ false
