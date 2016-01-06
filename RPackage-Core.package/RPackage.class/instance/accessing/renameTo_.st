@@ -1,4 +1,5 @@
 renameTo: aSymbol
+	"Rename a package with a different name, provided as a symbol"
 	| oldName newName oldCategoryNames repositoryGroup |
 
 	oldName := self name.

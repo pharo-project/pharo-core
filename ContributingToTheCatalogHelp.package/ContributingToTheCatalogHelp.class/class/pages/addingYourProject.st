@@ -9,7 +9,7 @@ addingYourProject
 If you do not know what a Configuration is, we advise you to have a look at DeepIntoPharo, a very cool book :-) about the advanced features of Pharo. The book is available online: http://deepintopharo.com
 The book contains a chapter about Metacello. Metacello is the platform that handles configurations. You can also use Versionner, a UI to creates configurations.
 
-Once you have your configuration, you need to defines meta informations under some particual methods name:
+Once you have your configuration, you need to defines meta informations under some particual methods name, located in the __CLASS SIDE__:
 	- #catalogDescription  ==> A small paragraph describing your project.
 	- #catalogContactInfo ==> Contact information such as email, mailing lists and website.
 	- #catalogKeywords ==> An array of keys to better index your project

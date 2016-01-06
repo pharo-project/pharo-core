@@ -1,4 +1,5 @@
 methods
+	"Return all the methods defined in this package. Including extension methods (i.e., methods defined on a class that is not defined by me)"
 	| methods |
 	
 	methods := OrderedCollection new.

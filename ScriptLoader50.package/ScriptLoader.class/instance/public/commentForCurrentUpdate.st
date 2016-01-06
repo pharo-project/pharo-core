@@ -1,14 +1,9 @@
 commentForCurrentUpdate
- ^ '17280 Athens restoreAfter: doesnt work
-	https://pharo.fogbugz.com/f/cases/17280
+ ^ '17321 Improvement of CatalogHelp
+	https://pharo.fogbugz.com/f/cases/17321
 
-17308 Only show clickable testIcon for non abstract test classes that has tests
-	https://pharo.fogbugz.com/f/cases/17308
+17305 Comments on the class RPackage
+	https://pharo.fogbugz.com/f/cases/17305
 
-17263 Monkey fails with Exception: PrimitiveFailed: primitive #isEnabled in NativeBoost class failed 
-	https://pharo.fogbugz.com/f/cases/17263
-
-17306 MorphicLabelAdapter does not honor initial color
-	https://pharo.fogbugz.com/f/cases/17306
-
-'
+17313 Missing primitive methods in Context
+	https://pharo.fogbugz.com/f/cases/17313'
