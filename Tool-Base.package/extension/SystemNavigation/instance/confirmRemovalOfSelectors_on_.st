@@ -3,7 +3,7 @@ confirmRemovalOfSelectors: aCollection on: aClass
 	should be removed, 2 if it should be removed followed by a senders  
 	browse, and 3 if it should not be removed."
 	| collection count answer caption allCalls selectors oneCalls |
-	collection := aCollection asOrderedCollection.
+	collection := aCollection copy asOrderedCollection.
 	oneCalls := OrderedCollection new.
 	aCollection do: [:sel | 
 		allCalls := self allCallsOn: sel.

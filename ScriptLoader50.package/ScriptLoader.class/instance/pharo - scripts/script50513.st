@@ -1,4 +1,4 @@
-script50512
+script50513
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -353,7 +353,7 @@ Text-Edition-TheIntegrator.106.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.124.mcz
+Tool-Base-TheIntegrator.126.mcz
 Tool-Catalog-TorstenBergmann.29.mcz
 Tool-CriticBrowser-TheIntegrator.19.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
@@ -373,7 +373,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.10.mcz
-Traits-TheIntegrator.869.mcz
+Traits-TheIntegrator.870.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

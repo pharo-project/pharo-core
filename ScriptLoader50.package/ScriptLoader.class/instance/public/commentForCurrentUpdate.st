@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17321 Improvement of CatalogHelp
-	https://pharo.fogbugz.com/f/cases/17321
+ ^ '17312 VM crash when using Athens + FreeType in Windows
+	https://pharo.fogbugz.com/f/cases/17312
 
-17305 Comments on the class RPackage
-	https://pharo.fogbugz.com/f/cases/17305
+17317 Simplify line 8 in TClass>>#duplicateClassWithNewName: 
+	https://pharo.fogbugz.com/f/cases/17317
 
-17313 Missing primitive methods in Context
-	https://pharo.fogbugz.com/f/cases/17313'
+17318 Multi deletion of methods do not work anymore
+	https://pharo.fogbugz.com/f/cases/17318'
