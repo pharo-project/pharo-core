@@ -1,4 +1,4 @@
-script50513
+script50514
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -63,9 +63,9 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FFI-Kernel-EstebanLorenzano.29.mcz
 FFI-MacOS-spd.5.mcz
-FFI-NB-EstebanLorenzano.43.mcz
-FFI-NB-Legacy-EstebanLorenzano.3.mcz
-FFI-NB-Tests-EstebanLorenzano.20.mcz
+FFI-NB-TheIntegrator.48.mcz
+FFI-NB-Legacy-EstebanLorenzano.4.mcz
+FFI-NB-Tests-EstebanLorenzano.23.mcz
 FFI-Pools-eem.3.mcz
 FFI-Tests-EstebanLorenzano.8.mcz
 FFI-Unix-mtf.4.mcz
@@ -214,7 +214,7 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.230.mcz
 NECompletion-Tests-TheIntegrator.8.mcz
-NativeBoost-Core-TheIntegrator.173.mcz
+NativeBoost-Core-TheIntegrator.174.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
 NativeBoost-Pools-CamilloBruni.13.mcz
