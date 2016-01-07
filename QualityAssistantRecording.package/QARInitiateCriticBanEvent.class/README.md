@@ -1,0 +1,1 @@
+Critic logger event of an initiation of a ban. (e.g. if banning on class level you have to decide if the critc will be banned for a class of the method for the ban to take place)

@@ -1,4 +1,4 @@
-script50514
+script50515
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -63,9 +63,9 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FFI-Kernel-EstebanLorenzano.29.mcz
 FFI-MacOS-spd.5.mcz
-FFI-NB-TheIntegrator.48.mcz
-FFI-NB-Legacy-EstebanLorenzano.4.mcz
-FFI-NB-Tests-EstebanLorenzano.23.mcz
+FFI-NB-EstebanLorenzano.50.mcz
+FFI-NB-Legacy-TheIntegrator.5.mcz
+FFI-NB-Tests-TheIntegrator.24.mcz
 FFI-Pools-eem.3.mcz
 FFI-Tests-EstebanLorenzano.8.mcz
 FFI-Unix-mtf.4.mcz
@@ -144,7 +144,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2205.mcz
-Kernel-Tests-TheIntegrator.28.mcz
+Kernel-Tests-TheIntegrator.30.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz

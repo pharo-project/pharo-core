@@ -1,0 +1,1 @@
+Main critic logger event superclass

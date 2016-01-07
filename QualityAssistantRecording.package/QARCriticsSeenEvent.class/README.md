@@ -1,0 +1,1 @@
+Critic logger event when critics are displayed (seen) in qa nautilus plugin

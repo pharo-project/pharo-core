@@ -1,0 +1,2 @@
+asQAREvent
+	^ QARInitiateCriticBanEvent fromAnnouncement: self

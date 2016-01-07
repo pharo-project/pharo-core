@@ -1,0 +1,1 @@
+Critic logger event when critics are requested and so calculated for an antity

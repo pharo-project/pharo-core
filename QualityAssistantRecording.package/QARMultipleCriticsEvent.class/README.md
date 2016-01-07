@@ -1,0 +1,1 @@
+Critic logger event superclass with multiple ctitics about an entity

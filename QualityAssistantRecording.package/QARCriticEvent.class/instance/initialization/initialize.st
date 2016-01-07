@@ -1,0 +1,3 @@
+initialize
+
+	timestamp := DateAndTime now

@@ -1,0 +1,2 @@
+asQAREvent
+	^ QARViewedDiffEvent fromAnnouncement: self

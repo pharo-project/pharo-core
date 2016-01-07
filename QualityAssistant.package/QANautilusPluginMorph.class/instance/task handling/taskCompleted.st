@@ -5,4 +5,8 @@ taskCompleted
 	deselectAll.
 		
 	self removeMorph: progressMorph.
-	self addMorphFront: listMorph 
+	self addMorphFront: listMorph.
+	
+	entity ifNotNil: [ ReSystemAnnouncer uniqueInstance
+								notifyCriticsSeen: critics
+								of: entity ].

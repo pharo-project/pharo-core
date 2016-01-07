@@ -1,0 +1,1 @@
+Critic logger event about viewing froposed autofix diff
