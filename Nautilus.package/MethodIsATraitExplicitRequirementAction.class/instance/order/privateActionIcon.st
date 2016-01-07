@@ -6,6 +6,6 @@ privateActionIcon
 			actionSelector: #browse;
 			labelGraphic: (Smalltalk ui icons iconNamed: #traitRequiredMethodIcon) ;
 			color: Color transparent;
-			extent: 12 @ 12;
+			extent: self iconExtent;
 			helpText: 'Browse the trait';
 			borderWidth: 0

@@ -16,9 +16,7 @@ interCyclePause: milliSecs
         		ifFalse: [ wait2 ]. 
 		].
 		
-	wait > 0 ifTrue: 
-	[	(Delay forMilliseconds: wait) waitOtherwise: [ self inform: 'WorldState>>interCyclePause failed.' ] 
-	].
+	wait > 0 ifTrue: [	(Delay forMilliseconds: wait) wait ].
 
 	lastCycleTime := Time millisecondClockValue.
 	CanSurrenderToOS := true.

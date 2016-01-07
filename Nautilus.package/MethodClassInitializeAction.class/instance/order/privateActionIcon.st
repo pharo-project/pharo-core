@@ -6,6 +6,6 @@ privateActionIcon
 		 	arguments: { method };
 			labelGraphic: (Smalltalk ui icons scriptManagerIcon) ;
 			color: Color transparent;
-			extent: 12 @ 12;
+			extent: self iconExtent;
 			helpText: '(Re)initialize class';
 			borderWidth: 0 

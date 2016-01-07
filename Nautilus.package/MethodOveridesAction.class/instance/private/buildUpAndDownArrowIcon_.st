@@ -13,7 +13,7 @@ buildUpAndDownArrowIcon: aMethod
 				arguments: { aMethod };
 				labelGraphic: (Smalltalk ui icons iconNamed: #arrowDoubleUpIcon);
 				color: Color transparent;
-				extent: 12 @ 6;
+				extent: 16 @ 8;
 				helpText: 'Browse overriden message';
 				borderWidth: 0.
 				
@@ -23,7 +23,7 @@ buildUpAndDownArrowIcon: aMethod
 				arguments: { aMethod };
 				labelGraphic: (Smalltalk ui icons iconNamed: #arrowDoubleDownIcon);
 				color: Color transparent;
-				extent: 12 @ 6;
+				extent: 16 @ 8;
 				helpText: 'Browse overriding messages';
 				borderWidth: 0.
 				

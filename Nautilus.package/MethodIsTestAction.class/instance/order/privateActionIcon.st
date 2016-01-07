@@ -18,5 +18,5 @@ privateActionIcon
 		labelGraphic: testIcon;
 		color: Color transparent;
 		helpText: 'Run the test';
-		extent: 12 @ 12;
+		extent: self iconExtent;
 		borderWidth: 0

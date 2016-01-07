@@ -1,4 +1,4 @@
-script50515
+script50516
 
 	^ 'AST-Core-TheIntegrator.392.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -26,7 +26,7 @@ Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFFINB-EstebanLorenzano.10.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-ChristopheDemarey.87.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.25.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.26.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
@@ -189,7 +189,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.524.mcz
-Morphic-Core-TheIntegrator.240.mcz
+Morphic-Core-TheIntegrator.242.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.6.mcz
 Morphic-Widgets-Basic-TheIntegrator.70.mcz
@@ -221,7 +221,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1189.mcz
+Nautilus-TheIntegrator.1193.mcz
 Nautilus-GroupManager-TheIntegrator.18.mcz
 Nautilus-GroupManagerUI-TheIntegrator.29.mcz
 Nautilus-Tests-TheIntegrator.30.mcz
@@ -252,7 +252,8 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.82.mcz
+QualityAssistant-YuriyTymchuk.84.mcz
+QualityAssistantRecording-YuriyTymchuk.6.mcz
 RPackage-Core-TheIntegrator.419.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-Core-TheIntegrator.4.mcz

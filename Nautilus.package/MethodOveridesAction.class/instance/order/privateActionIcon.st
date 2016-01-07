@@ -15,7 +15,7 @@ privateActionIcon
 						labelGraphic: (Smalltalk ui icons iconNamed: #arrowUpIcon);
 						color: Color transparent;
 						helpText: 'Browse overriden message';
-						extent: 12 @ 12;
+						extent: self iconExtent;
 						borderWidth: 0 ] ]
 		ifFalse: [ 
 			isOverridden
@@ -27,5 +27,5 @@ privateActionIcon
 						labelGraphic: (Smalltalk ui icons iconNamed: #arrowDownIcon);
 						color: Color transparent;
 						helpText: 'Browse overriding messages';
-						extent: 12 @ 12;
+						extent: self iconExtent;
 						borderWidth: 0 ] ]

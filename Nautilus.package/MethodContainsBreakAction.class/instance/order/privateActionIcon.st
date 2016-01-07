@@ -7,5 +7,5 @@ privateActionIcon
 		labelGraphic: (Smalltalk ui icons iconNamed: #haltIcon);
 		color: Color transparent;
 		helpText: 'remove breakpoint';
-		extent: 12 @ 12;
+		extent: self iconExtent;
 		borderWidth: 0

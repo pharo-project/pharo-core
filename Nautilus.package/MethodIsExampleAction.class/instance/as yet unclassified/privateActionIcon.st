@@ -6,6 +6,6 @@ privateActionIcon
 		 	arguments: { method };
 			labelGraphic: (Smalltalk ui icons iconNamed: #smallDoItIcon) ;
 			color: Color transparent;
-			extent: 12 @ 12;
+			extent: self iconExtent;
 			helpText: 'Run the example';
 			borderWidth: 0 

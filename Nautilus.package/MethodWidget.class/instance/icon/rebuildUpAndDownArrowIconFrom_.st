@@ -1,19 +1,18 @@
 rebuildUpAndDownArrowIconFrom: array
 
-	| container up down |
+	| container |
 	
 	container := Morph new.
 	container 
-		extent: 12@12;
-		color: Color transparent.
-		
-	up := array first asIconTargetting: self model.
-				
-	down := array second asIconTargetting: self model.
-				
-	^ container
+		extent: 16@16;
+		color: Color transparent;
 		changeTableLayout;
-		listDirection: #topToBottom;
-		addMorph: down;
-		addMorph: up;
-		yourself
+		wrapCentering: #center;
+		cellPositioning: #topCenter;
+		listDirection: #topToBottom.
+		
+	array 
+	collect: [ :each | each asIconTargetting: self model ] 
+	thenDo: [ :each | container addMorphBack: each ].
+	
+	^container
