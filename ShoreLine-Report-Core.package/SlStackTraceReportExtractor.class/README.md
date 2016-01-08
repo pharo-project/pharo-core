@@ -1,1 +1,0 @@
-A SlStackTraceReportExtractor extracts the stacktrace from the exception context.

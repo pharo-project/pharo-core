@@ -1,6 +1,5 @@
 extract
 
-	^ SlReportMessage new
-		metadata: self extractMetadata;
-		payload: self extractPayload;
+	^ self extractMetadata
+		at: #payload put: self extractPayload;
 		yourself

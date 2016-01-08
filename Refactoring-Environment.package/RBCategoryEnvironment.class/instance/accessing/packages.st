@@ -1,2 +1,2 @@
 packages
-	self shouldBeImplemented.
+	^ self classes collect: #package

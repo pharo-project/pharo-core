@@ -8,7 +8,6 @@ defaultSpec
 				add: #sendButton;
 				add: #cancel ] height: 26;
 			newRow: [ :row | row
-				"add: #granularity;"
 				add: #autoSubmit;
 				add: #help width: 16 ] height: 20;
 			newRow: #(stack) ]

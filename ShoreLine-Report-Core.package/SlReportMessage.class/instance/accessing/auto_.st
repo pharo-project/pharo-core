@@ -1,2 +1,0 @@
-auto: anObject
-	auto := anObject

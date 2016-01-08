@@ -1,3 +1,3 @@
 extractPayload
 
-	^ self subclassResponsibility 
+	^ (debugger session stack collect: [ :e | e asString ]) asArray

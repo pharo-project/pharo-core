@@ -1,2 +1,0 @@
-date: anObject
-	date := anObject

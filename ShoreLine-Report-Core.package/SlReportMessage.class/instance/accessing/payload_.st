@@ -1,2 +1,0 @@
-payload: anObject
-	payload := anObject

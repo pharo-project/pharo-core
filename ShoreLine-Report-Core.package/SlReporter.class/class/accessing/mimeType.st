@@ -1,3 +1,3 @@
 mimeType
 
-	^ ZnMimeType main: 'application' sub: 'x-fuel'
+	^ ZnMimeType applicationSton

@@ -1,2 +1,0 @@
-granularity
-	^ granularity

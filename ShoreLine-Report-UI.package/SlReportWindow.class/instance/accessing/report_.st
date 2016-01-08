@@ -1,4 +1,2 @@
-report: aReport
-
-	report := aReport.
-	self displayReportContents
+report: anObject
+	report := anObject

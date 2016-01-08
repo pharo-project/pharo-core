@@ -1,3 +1,3 @@
 defaultExtractor
 
-	^ SlStackTraceReportExtractor
+	^ SlReportExtractor

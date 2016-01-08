@@ -1,3 +1,3 @@
 serialize: aReport
 
-	^ FLSerializer serializeToByteArray: aReport asDictionary
+	^ self serializeSTON: aReport
