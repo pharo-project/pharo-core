@@ -1,3 +1,3 @@
 isActionHandled
 
-	^ method literals includesAnyOf: #( halt halt: halt:onCount: haltIf: haltIfNil haltIfShiftPressed haltOnCount: haltOnce)
+	^ method containsHalt

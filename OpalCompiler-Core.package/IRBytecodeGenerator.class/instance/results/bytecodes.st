@@ -1,7 +1,8 @@
 bytecodes
 	| stream |
 	self updateJumpOffsets.
-	stream := (ByteArray new: 100) writeStream.  
+	stream := (ByteArray new: 100) writeStream. 
+	primitiveBytes ifNotNil: [stream nextPutAll: primitiveBytes contents].
 	orderSeq do: [ :seqId | |lastInstr|
 			"If the instruction will emit bytes, record the first byte emitted as the instructions bytecode index"
 			lastInstr := IRInstruction new -> 1.
