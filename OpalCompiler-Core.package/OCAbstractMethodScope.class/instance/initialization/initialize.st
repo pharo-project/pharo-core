@@ -5,6 +5,5 @@ initialize
 	copiedVars := OCKeyedSet keyBlock: [:var | var name].
 	id := 0.
 	
-	thisContextVar := OCSpecialVariable new
-		name: 'thisContext';
+	thisContextVar := OCThisContextVariable new
 		scope: self; yourself.

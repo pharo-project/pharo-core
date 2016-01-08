@@ -1,11 +1,9 @@
 initialize
   
 	vars := Dictionary new.
-	selfVar := OCSpecialVariable new
-		name: 'self';
+	selfVar := OCSelfVariable new
 		scope: self;
 		yourself.
-	superVar := OCSpecialVariable new
-		name: 'super';
+	superVar := OCSuperVariable new
 		scope: self;
 		yourself.

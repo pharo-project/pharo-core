@@ -1,3 +1,0 @@
-markArg
-
-	usage := #arg

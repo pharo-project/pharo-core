@@ -1,0 +1,2 @@
+isSuper
+	^true

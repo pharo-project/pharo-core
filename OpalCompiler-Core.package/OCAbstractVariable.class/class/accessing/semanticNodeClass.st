@@ -1,0 +1,2 @@
+semanticNodeClass
+	self subclassResponsibility 

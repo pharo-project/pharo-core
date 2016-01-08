@@ -1,2 +1,0 @@
-isWritable
-	^ self isArg not

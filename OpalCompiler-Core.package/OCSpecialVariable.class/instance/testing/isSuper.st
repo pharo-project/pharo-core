@@ -1,2 +1,0 @@
-isSuper
-	^name = 'super'

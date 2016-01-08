@@ -2,7 +2,7 @@ visitVariableNode: aVariableNode
 	"re-lookup the temorary variables..."
 	
 	| var |
-	self changeVariableClass: aVariableNode.
+	aVariableNode adaptToSemanticNode.
 	aVariableNode isTemp ifFalse: [^self].
 	var := scope lookupVar: aVariableNode name.
 	aVariableNode binding: var.

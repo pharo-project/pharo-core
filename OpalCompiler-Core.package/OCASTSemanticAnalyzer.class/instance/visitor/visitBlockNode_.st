@@ -5,6 +5,6 @@ visitBlockNode: aBlockNode
 	scope := scope newBlockScope: blockcounter. 
 	aBlockNode scope: scope. scope node: aBlockNode.
 	
-	aBlockNode arguments do: [:node | (self declareVariableNode: node) markArg].
+	aBlockNode arguments do: [:node | self declareArgumentNode: node ].
 	self visitNode: aBlockNode body.
 	scope := scope popScope.

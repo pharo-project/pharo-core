@@ -1,0 +1,2 @@
+isThisContext
+	^false

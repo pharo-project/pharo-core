@@ -1,2 +1,0 @@
-isContext
-	^name = 'thisContext'

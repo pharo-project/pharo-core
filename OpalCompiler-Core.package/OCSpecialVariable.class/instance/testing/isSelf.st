@@ -1,2 +1,0 @@
-isSelf
-	^name = 'self'
