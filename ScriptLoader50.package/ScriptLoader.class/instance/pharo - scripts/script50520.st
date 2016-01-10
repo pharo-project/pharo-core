@@ -1,4 +1,4 @@
-script50519
+script50520
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -188,10 +188,10 @@ MonticelloGUI-TheIntegrator.405.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.524.mcz
+Morphic-Base-TheIntegrator.527.mcz
 Morphic-Core-TheIntegrator.242.mcz
 Morphic-Examples-TheIntegrator.48.mcz
-Morphic-Tests-TheIntegrator.6.mcz
+Morphic-Tests-TheIntegrator.8.mcz
 Morphic-Widgets-Basic-TheIntegrator.70.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
@@ -204,7 +204,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.30.mcz
 Morphic-Widgets-Tabs-TheIntegrator.18.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.40.mcz
+Morphic-Widgets-Tree-TheIntegrator.42.mcz
 Morphic-Widgets-Windows-TheIntegrator.86.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.45.mcz

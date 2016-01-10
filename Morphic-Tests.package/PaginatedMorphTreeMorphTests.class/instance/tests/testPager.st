@@ -7,7 +7,7 @@ testPager
 	treeMorph := aModel defaultTreeMorph.
 	treeMorph pageSize: 30.
 	treeMorph buildContents.
-	aWindow addMorph: treeMorph fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1) offsets: (0 @ 0 corner: 0 @ 0)).
+	aWindow addMorph: treeMorph fullFrame: LayoutFrame identity.
 	aWindow open.
 	aModel expandItemPath: { 40 }.
 	self assert: treeMorph pager currentPage == 2.

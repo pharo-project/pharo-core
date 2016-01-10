@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17251 Quick method primitive not set correctly for #spurVMHeader:
-	https://pharo.fogbugz.com/f/cases/17251
+ ^ '17361 Better LayoutFrame class comments and class method comments are needed
+	https://pharo.fogbugz.com/f/cases/17361
 
-17346 move #haltIfShiftPressed to Deprecated50
-	https://pharo.fogbugz.com/f/cases/17346'
+17363 (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)) = LayoutFrame identity should be true and it is not.
+	https://pharo.fogbugz.com/f/cases/17363
+
+17364 PaginateMorph uses Wrong LayoutFrame API
+	https://pharo.fogbugz.com/f/cases/17364'

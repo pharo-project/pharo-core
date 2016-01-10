@@ -1,2 +1,2 @@
 bottomFraction
-	^bottomFraction
+	^ bottomFraction
