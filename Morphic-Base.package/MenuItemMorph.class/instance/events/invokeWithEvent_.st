@@ -17,5 +17,6 @@ invokeWithEvent: evt
 			ifFalse:
 				[selArgCount = arguments size
 					ifTrue: [target perform: selector withArguments: arguments]
-					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)]].
+					ifFalse: [target perform: selector withArguments: (arguments copyWith: evt)].
+		self insistMenu ].
 		self changed].

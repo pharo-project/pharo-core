@@ -1,0 +1,3 @@
+countingMenu
+
+	^ self class countingMenu

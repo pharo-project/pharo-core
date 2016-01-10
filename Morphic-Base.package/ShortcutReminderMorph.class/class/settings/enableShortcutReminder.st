@@ -1,0 +1,3 @@
+enableShortcutReminder
+	
+	^ Enabled ifNil: [ false ]
