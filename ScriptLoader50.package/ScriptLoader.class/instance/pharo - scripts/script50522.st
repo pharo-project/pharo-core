@@ -1,4 +1,4 @@
-script50521
+script50522
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -221,13 +221,13 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1195.mcz
-Nautilus-GroupManager-TheIntegrator.18.mcz
-Nautilus-GroupManagerUI-TheIntegrator.29.mcz
-Nautilus-Tests-TheIntegrator.30.mcz
-NautilusCommon-TheIntegrator.301.mcz
-NautilusGroupAutoBuilder-TheIntegrator.7.mcz
-NautilusRefactoring-TheIntegrator.256.mcz
+Nautilus-TheIntegrator.1196.mcz
+Nautilus-GroupManager-TheIntegrator.19.mcz
+Nautilus-GroupManagerUI-TheIntegrator.30.mcz
+Nautilus-Tests-TheIntegrator.31.mcz
+NautilusCommon-TheIntegrator.302.mcz
+NautilusGroupAutoBuilder-TheIntegrator.8.mcz
+NautilusRefactoring-TheIntegrator.257.mcz
 Network-Kernel-TheIntegrator.120.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -374,7 +374,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.10.mcz
-Traits-TheIntegrator.870.mcz
+Traits-TheIntegrator.871.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

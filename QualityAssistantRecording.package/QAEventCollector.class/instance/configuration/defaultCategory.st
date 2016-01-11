@@ -1,0 +1,2 @@
+defaultCategory
+	^ #qualityAssistant

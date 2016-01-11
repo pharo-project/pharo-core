@@ -1,3 +1,0 @@
-unload
-
-	self uniqueInstance liberate
