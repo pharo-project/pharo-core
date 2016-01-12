@@ -1,4 +1,4 @@
-script50522
+script50523
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -26,7 +26,7 @@ Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFFINB-EstebanLorenzano.10.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-ChristopheDemarey.87.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.26.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.27.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
@@ -253,7 +253,7 @@ ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.84.mcz
-QualityAssistantRecording-YuriyTymchuk.6.mcz
+QualityAssistantRecording-YuriyTymchuk.7.mcz
 RPackage-Core-TheIntegrator.419.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-Core-TheIntegrator.4.mcz
@@ -276,7 +276,7 @@ Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.18.mcz
-Renraku-YuriyTymchuk.91.mcz
+Renraku-YuriyTymchuk.92.mcz
 Renraku-Test-YuriyTymchuk.18.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.235.mcz
@@ -304,8 +304,8 @@ Shout-TheIntegrator.285.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-EstebanLorenzano.711.mcz
 Slot-Tests-TheIntegrator.75.mcz
-SmartSuggestions-TheIntegrator.210.mcz
-SmartSuggestions-Tests-TheIntegrator.21.mcz
+SmartSuggestions-TheIntegrator.214.mcz
+SmartSuggestions-Tests-TheIntegrator.22.mcz
 Spec-Core-TheIntegrator.444.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
@@ -318,7 +318,7 @@ Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.312.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
-System-BasicCommandLineHandler-TheIntegrator.4.mcz
+System-BasicCommandLineHandler-TheIntegrator.6.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
 System-Changes-TheIntegrator.292.mcz
@@ -326,7 +326,7 @@ System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-SvenVanCaekenberghe.32.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
-System-CommandLineHandler-TheIntegrator.9.mcz
+System-CommandLineHandler-TheIntegrator.12.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-EstebanLorenzano.24.mcz
 System-Hashing-TheIntegrator.47.mcz
@@ -373,7 +373,7 @@ Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
-Tools-Test-TheIntegrator.10.mcz
+Tools-Test-TheIntegrator.12.mcz
 Traits-TheIntegrator.871.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz

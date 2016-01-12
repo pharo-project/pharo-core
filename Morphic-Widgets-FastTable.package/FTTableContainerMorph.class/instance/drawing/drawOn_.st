@@ -1,7 +1,7 @@
 drawOn: canvas
 	| x y cellWidth cellHeight rowsToDisplay rowSubviews highligtedRowIndexes primarySelectionIndex |
 
-	(self bounds isNil or: [ self owner isNil ]) ifTrue: [ ^ self ]. "Nothing to show yet"
+	self canRefreshValues ifFalse: [ ^ self ]. "Nothing to update yet"
 
 	x := self left + self class rowLeftMargin.
 	y := self top.	

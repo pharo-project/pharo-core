@@ -1,4 +1,4 @@
-TestCase subclass: #DebuggerTest
+TestCase subclass: #SpecDebuggerTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,0 +1,3 @@
+sugsContext
+
+	^ SugsGlamourCodeContext model: self
