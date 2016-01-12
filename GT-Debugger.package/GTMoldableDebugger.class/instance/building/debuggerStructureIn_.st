@@ -1,0 +1,3 @@
+debuggerStructureIn: browser
+	self subclassResponsability
+		

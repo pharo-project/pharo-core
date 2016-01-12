@@ -3,6 +3,6 @@ d: anInteger
 	<label: 'Dummy #d:, depends #c:'>
 	<description: 'should raise an exception as the argument is not anInteger'>
 	<depends: #c:>
-	<raises: MessageNotUnderstood>
+	<raises: #MessageNotUnderstood>
 	
 	^ 1 + anInteger

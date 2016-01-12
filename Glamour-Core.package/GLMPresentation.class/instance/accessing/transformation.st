@@ -1,3 +1,3 @@
 transformation 
 	 
-	^transformation ifNil: [transformation := #yourself]
+	^transformation ifNil: [transformation := [:x | x ]]

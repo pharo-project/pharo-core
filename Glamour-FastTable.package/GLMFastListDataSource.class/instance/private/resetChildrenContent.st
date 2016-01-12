@@ -1,0 +1,2 @@
+resetChildrenContent
+	elements := self calculateElements

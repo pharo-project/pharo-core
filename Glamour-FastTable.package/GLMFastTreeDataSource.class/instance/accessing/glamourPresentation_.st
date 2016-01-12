@@ -1,0 +1,2 @@
+glamourPresentation: aGLMFastTreePresentation
+	glamourPresentation := aGLMFastTreePresentation

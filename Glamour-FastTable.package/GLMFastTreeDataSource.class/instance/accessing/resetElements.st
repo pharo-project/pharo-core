@@ -1,0 +1,2 @@
+resetElements
+	self updateData

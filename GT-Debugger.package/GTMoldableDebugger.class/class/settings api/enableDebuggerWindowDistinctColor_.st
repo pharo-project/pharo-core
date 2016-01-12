@@ -1,0 +1,2 @@
+enableDebuggerWindowDistinctColor: aBoolean
+	EnableDebuggerWindowDistinctColor := aBoolean.

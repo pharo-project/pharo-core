@@ -1,0 +1,2 @@
+showTitle
+	shouldShowTitle := true

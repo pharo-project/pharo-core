@@ -1,0 +1,3 @@
+samePackageContextStyleFor: aContext
+
+	^ {TextColor black}

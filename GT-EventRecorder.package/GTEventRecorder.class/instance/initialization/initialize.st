@@ -1,7 +1,10 @@
 initialize
 	super initialize.
+	privacy := [ Privacy sendDiagnosticsAndUsageData ].
 	collectors := GTEventCollectors new.
 	delivery := GTEventDelivery new.
 	delivery recorder: self.
 	packing := GTEventPacking default.
-	privacy := [ Privacy sendDiagnosticsAndUsageData ]
+	self canSendDiagnosticsAndUsageData 
+			ifTrue: [ delivery offerPermission ]
+			ifFalse: [ delivery withdrawPermission ]

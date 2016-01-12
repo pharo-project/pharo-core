@@ -1,0 +1,2 @@
+sugsContext
+	^SugsDebuggerContext model: self

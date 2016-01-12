@@ -1,0 +1,2 @@
+createDataSourceFrom: aPresentation
+	self subclassResponsibility

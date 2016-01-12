@@ -1,0 +1,2 @@
+codePresentationSelector: aSelector
+	codePresentationSelector := aSelector

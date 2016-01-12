@@ -1,0 +1,2 @@
+resetChildrenContent
+	self explicitRequirement

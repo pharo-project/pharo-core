@@ -1,3 +1,4 @@
 iconClass: aClassOrClassName selector: aSelector
-	self classNamed: aClassOrClassName do: [ :class | 
-		form := (class perform: aSelector) ]
+	self initializeIconWith: [ 
+		self classNamed: aClassOrClassName do: [ :class | 
+			form := (class perform: aSelector) ] ]

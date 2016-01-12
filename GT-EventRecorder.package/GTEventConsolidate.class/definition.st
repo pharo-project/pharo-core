@@ -2,4 +2,4 @@ Object subclass: #GTEventConsolidate
 	instanceVariableNames: 'collectors'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-EventRecorder-Core'
+	category: 'GT-EventRecorder-Support'

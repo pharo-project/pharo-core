@@ -1,0 +1,3 @@
+executeAction
+
+	self debugger updateSelectionInterval

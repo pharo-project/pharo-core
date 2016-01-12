@@ -1,0 +1,2 @@
+printStringOf: anObject
+	self subclassResponsibility

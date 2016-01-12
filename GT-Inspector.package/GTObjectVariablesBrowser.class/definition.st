@@ -1,4 +1,4 @@
-GLMCompositePresentation subclass: #GTObjectVariablesBrowser
+GTRawObjectVariablesBrowser subclass: #GTObjectVariablesBrowser
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

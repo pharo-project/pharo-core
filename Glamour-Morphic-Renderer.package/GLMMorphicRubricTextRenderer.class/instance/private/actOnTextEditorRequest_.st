@@ -1,3 +1,3 @@
 actOnTextEditorRequest: ann
 
-	textMorph textArea editor perform: ann selector	
+	ann action value: textMorph textArea editor 	

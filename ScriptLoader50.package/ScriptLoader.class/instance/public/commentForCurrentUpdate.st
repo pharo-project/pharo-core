@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '17355 Rename DebuggerTest to SpecDebuggerTest
-	https://pharo.fogbugz.com/f/cases/17355
-
-17372 New ConfigurationOfFastTable (see description for details)
-	https://pharo.fogbugz.com/f/cases/17372
-
-17378 Improve command line handler documentation and help
-	https://pharo.fogbugz.com/f/cases/17378
-
-17146 Suggestions in the playground--> Error
-	https://pharo.fogbugz.com/f/cases/17146'
+ ^ '17341 Integrate  GTools version 3.6 using a postload
+	https://pharo.fogbugz.com/f/cases/17341'

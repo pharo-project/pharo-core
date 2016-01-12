@@ -1,0 +1,3 @@
+defaultLabel
+
+	^ 'Profile it'

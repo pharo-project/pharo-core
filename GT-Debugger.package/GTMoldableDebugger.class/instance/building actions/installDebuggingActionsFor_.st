@@ -1,0 +1,3 @@
+installDebuggingActionsFor: aPresentation
+
+	self subclassResponsibility

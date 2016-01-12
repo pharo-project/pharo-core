@@ -1,0 +1,2 @@
+minimumPageNumberForScrollbar: aNumber
+	minimumPageNumberForScrollbar := aNumber

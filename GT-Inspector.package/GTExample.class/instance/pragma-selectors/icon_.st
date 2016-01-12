@@ -1,2 +1,3 @@
 icon: aSelector
-	self iconThemeSelector: aSelector
+	self initializeIconWith: [ 
+		self iconThemeSelector: aSelector ]

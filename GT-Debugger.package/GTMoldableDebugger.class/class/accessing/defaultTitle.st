@@ -1,0 +1,2 @@
+defaultTitle
+	self subclassResponsability

@@ -1,0 +1,3 @@
+debuggerToTest
+
+	^ GTGenericStackDebugger

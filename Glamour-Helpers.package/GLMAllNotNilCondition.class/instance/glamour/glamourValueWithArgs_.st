@@ -1,3 +1,3 @@
 glamourValueWithArgs: anArray 
 	 
-	^anArray allSatisfy: [:each | each notNil]
+	^anArray allSatisfy: [:each | each isNil not]

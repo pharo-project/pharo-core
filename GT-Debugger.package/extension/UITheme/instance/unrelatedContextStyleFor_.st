@@ -1,0 +1,3 @@
+unrelatedContextStyleFor: aContext
+
+	^ {TextColor gray}

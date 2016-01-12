@@ -1,2 +1,3 @@
 iconThemeSelector: aSelector
-	form := (Smalltalk ui icons perform: aSelector)
+	self initializeIconWith: [ 
+		form := (Smalltalk ui icons perform: aSelector) ]

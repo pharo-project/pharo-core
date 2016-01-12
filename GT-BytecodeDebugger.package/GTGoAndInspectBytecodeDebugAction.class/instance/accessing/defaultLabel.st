@@ -1,0 +1,3 @@
+defaultLabel
+
+	^ 'Go and inspect'

@@ -1,0 +1,2 @@
+glamourColumn
+	^ glamourColumn

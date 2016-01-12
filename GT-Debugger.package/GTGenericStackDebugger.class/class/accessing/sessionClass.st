@@ -1,0 +1,3 @@
+sessionClass
+
+	^ DebugSession 

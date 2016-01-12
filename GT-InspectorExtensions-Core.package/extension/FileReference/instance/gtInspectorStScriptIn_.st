@@ -15,4 +15,4 @@ gtInspectorStScriptIn: composite
 				icon: GLMUIThemeExtraIcons glamorousSave
 				on: $s
 				entitled: 'Save';
-			when: [ self extension = 'st' or: [self extension = 'ph'] ]
+			when: [ self isFile and: [ self extension = 'st' or: [self extension = 'ph'] ] ]

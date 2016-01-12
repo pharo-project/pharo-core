@@ -1,0 +1,3 @@
+defaultLabel
+
+	^ 'Debug Glamorously'

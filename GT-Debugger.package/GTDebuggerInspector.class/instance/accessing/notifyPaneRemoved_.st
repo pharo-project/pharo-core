@@ -1,0 +1,2 @@
+notifyPaneRemoved: anObject
+	notifyPaneRemoved := anObject

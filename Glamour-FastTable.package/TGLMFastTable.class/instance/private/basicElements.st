@@ -1,0 +1,2 @@
+basicElements
+	^ self glamourPresentation displayValue

@@ -1,0 +1,3 @@
+availableAutomatically
+
+	^ false

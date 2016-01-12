@@ -11,7 +11,7 @@ addContent: aBlockWhoseValueReturnsAMorph
 		WorldState addDeferredUIMessage:  [
 			self contentsMorph
 				removeAllMorphs;
-				addMorph: newMorph fullFrame: (LayoutFrame fractions: (0@0 corner: 1@1))	
+				addMorph: newMorph fullFrame: (LayoutFrame identity)	
 		]
 	] newProcess. 
 	process priority: Processor userBackgroundPriority.

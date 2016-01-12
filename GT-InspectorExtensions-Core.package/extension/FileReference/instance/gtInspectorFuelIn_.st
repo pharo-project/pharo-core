@@ -15,4 +15,4 @@ FLMaterializer materializeFromFileNamed: 'GTtest.fuel'"
 				(FLMaterializer materializeHeaderFromFileNamed: self fullName) gtGetMetaData ];
 			column: 'Property' evaluated: [:assoc| assoc key ];
 			column: 'Value' evaluated: [:assoc| assoc value];
-			when: [ self extension = 'fuel' ]
+			when: [ self isFile and: [self extension = 'fuel' ] ]

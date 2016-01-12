@@ -1,2 +1,3 @@
 iconSelector: aSelector
-	form := (self provider perform: aSelector)
+	self initializeIconWith: [ 
+		form := (self provider perform: aSelector) ]

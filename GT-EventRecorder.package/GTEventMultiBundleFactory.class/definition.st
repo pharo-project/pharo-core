@@ -2,4 +2,4 @@ Object subclass: #GTEventMultiBundleFactory
 	instanceVariableNames: 'multiBundles'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-EventRecorder-Core'
+	category: 'GT-EventRecorder-Support'

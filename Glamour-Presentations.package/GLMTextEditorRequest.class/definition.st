@@ -1,5 +1,5 @@
 Announcement subclass: #GLMTextEditorRequest
-	instanceVariableNames: 'selector'
+	instanceVariableNames: 'action'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Presentations-Announcements'

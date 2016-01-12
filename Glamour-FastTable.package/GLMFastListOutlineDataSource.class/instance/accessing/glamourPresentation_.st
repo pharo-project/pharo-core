@@ -1,0 +1,2 @@
+glamourPresentation: aGlamourPresentation
+	glamourPresentation := aGlamourPresentation

@@ -1,0 +1,2 @@
+resetElements
+	elements := nil

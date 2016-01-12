@@ -1,0 +1,3 @@
+selectionInterval
+
+	^ self selectionIntervalForPane: #code

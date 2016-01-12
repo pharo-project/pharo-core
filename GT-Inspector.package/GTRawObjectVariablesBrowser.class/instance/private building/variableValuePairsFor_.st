@@ -1,0 +1,2 @@
+variableValuePairsFor: anObject
+	self subclassResponsibility 

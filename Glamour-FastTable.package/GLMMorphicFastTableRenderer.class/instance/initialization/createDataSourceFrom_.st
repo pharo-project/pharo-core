@@ -1,0 +1,2 @@
+createDataSourceFrom: aPresentation
+	^ GLMFastTableDataSource new

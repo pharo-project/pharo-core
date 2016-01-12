@@ -1,0 +1,2 @@
+updateAnnouncementBlock: aBlockClosure 
+	updateAnnouncementBlock := aBlockClosure

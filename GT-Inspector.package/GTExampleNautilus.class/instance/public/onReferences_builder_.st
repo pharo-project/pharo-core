@@ -1,6 +1,6 @@
 onReferences: aLiteral builder: aBuilder
 	(aBuilder item: #'Examples of ...')
-		order: 10000;
+		order: 90000;
 		action: [
 			(SystemNavigation default examplesReferencesTo: aLiteral) 
 				ifNotEmpty: [ :examples | examples inspect ]

@@ -1,0 +1,2 @@
+contextToSelectFrom: aSession
+	^ aSession testContext

@@ -1,0 +1,2 @@
+handlesContext: aContext
+	self subclassResponsibility 

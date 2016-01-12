@@ -3,4 +3,4 @@ gtInspectorGifIn: composite
 	composite morph
 			title: 'Picture';
 			display: [ self binaryReadStreamDo: [ :stream | GIFReadWriter formFromStream: stream ] ];
-			when: [ self mimeTypes notNil and: [ self mimeTypes first matches: ZnMimeType imageGif ] ]
+			when: [ self isFile and: [self mimeTypes notNil and: [ self mimeTypes first matches: ZnMimeType imageGif ] ] ]

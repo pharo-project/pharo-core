@@ -12,4 +12,4 @@ testSimple
 	window := browser openOn: (1 to: 42).
 	((browser paneNamed: #one) port: #selection) value: 42.
 	(Delay forMilliseconds: 1000) wait.
-	self assert: (self find: PluggableTextMorph in: GLMWatcherWindow uniqueInstance) text equals: '42'
+	self assert: (self find: RubScrolledTextMorph in: GLMWatcherWindow uniqueInstance) text equals: '42'

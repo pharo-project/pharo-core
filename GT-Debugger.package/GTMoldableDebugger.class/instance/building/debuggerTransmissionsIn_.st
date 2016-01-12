@@ -1,0 +1,2 @@
+debuggerTransmissionsIn: browser
+	self subclassResponsibility 

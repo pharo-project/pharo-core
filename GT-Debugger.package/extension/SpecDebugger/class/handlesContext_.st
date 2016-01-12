@@ -1,0 +1,3 @@
+handlesContext: aContext
+
+	^ true

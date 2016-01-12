@@ -1,0 +1,2 @@
+resetChildrenContent
+	items := self calculateItems.

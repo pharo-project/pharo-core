@@ -1,0 +1,3 @@
+gtDebuggerSUnitPrint
+
+	^ self printString

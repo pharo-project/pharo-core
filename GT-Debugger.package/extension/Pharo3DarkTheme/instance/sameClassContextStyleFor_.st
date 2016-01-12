@@ -1,0 +1,3 @@
+sameClassContextStyleFor: aContext 
+
+	^ {TextColor cyan}

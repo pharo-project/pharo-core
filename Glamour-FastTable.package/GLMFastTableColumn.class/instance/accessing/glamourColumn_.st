@@ -1,0 +1,2 @@
+glamourColumn: anObject
+	glamourColumn := anObject

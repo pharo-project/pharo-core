@@ -1,0 +1,3 @@
+activationPredicate
+
+	^  GTSUnitActivationPredicate new

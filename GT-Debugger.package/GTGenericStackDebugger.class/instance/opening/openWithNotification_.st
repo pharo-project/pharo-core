@@ -1,0 +1,3 @@
+openWithNotification: aString
+
+	self openWithFullView

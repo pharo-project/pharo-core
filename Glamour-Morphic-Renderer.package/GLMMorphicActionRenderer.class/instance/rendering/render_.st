@@ -1,15 +1,27 @@
 render: anAction
-	^ (UITheme current
-		newButtonIn: nil
-		for: anAction
-		getState: nil
-		action: self actionSelector
-		arguments: self actionArguments
-		getEnabled: nil
-		label: (AlphaImageMorph new image: anAction icon)
-		help: (anAction title , Character tab asString , anAction shortcutAsString) trimBoth)
+	|b|
+	b := PluggableButtonMorph
+			on: anAction getState: nil action: self actionSelector.
+	b
+		theme: UITheme current;
+		arguments: (self actionArguments ifNil: [{b}]);
+		cornerStyle: (UITheme current buttonCornerStyleIn: nil);
+		hResizing: #shrinkWrap;
+		vResizing: #shrinkWrap;
+		getEnabledSelector: nil;
+		setBalloonText: (anAction title , Character tab asString , anAction shortcutAsString) trimBoth;
+		extent: b minExtent;
+		removeProperty: #theme.
+	anAction shouldShowTitle 
+		ifTrue: [ b 
+				icon: anAction icon ;
+				label: anAction title font: UITheme current buttonFont ]
+		ifFalse: [ b label: (AlphaImageMorph new image: anAction icon) ].
+	
+	"this is a hack to tell the GLMUITheme to not draw the border and the fill, and to disable the focus"
+	b 
 		valueOfProperty: #noBorder ifAbsentPut: [ true ];
 		valueOfProperty: #noFill ifAbsentPut: [ true ];
 		setProperty: #wantsKeyboardFocusNavigation toValue: false;
-		borderWidth: 0;
-		yourself	"this is a hack to tell the GLMUITheme to not draw the border and the fill"	"to disable the focus"
+		borderWidth: 0.
+	^ b	

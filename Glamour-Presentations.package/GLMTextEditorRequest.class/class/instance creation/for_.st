@@ -1,3 +1,3 @@
 for: aSelector
 
-	^ self new selector: aSelector
+	^ self new action: [ :editor | editor perform: aSelector ]

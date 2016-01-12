@@ -1,0 +1,4 @@
+retrieveStackFrom: aSession
+
+	^ aSession stack
+		

@@ -1,0 +1,2 @@
+shouldShowTitle: anObject
+	shouldShowTitle := anObject

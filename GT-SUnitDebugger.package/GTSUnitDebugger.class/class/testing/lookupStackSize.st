@@ -1,0 +1,2 @@
+lookupStackSize
+	^ 10

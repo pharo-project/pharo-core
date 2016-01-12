@@ -1,0 +1,3 @@
+reservedNames
+
+	^ #( 'self')

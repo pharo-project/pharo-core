@@ -1,0 +1,2 @@
+notifyPaneRemoved
+	^ notifyPaneRemoved ifNil: [ false ]

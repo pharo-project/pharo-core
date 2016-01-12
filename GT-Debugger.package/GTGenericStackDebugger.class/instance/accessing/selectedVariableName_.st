@@ -1,0 +1,2 @@
+selectedVariableName: anObject
+	selectedVariableName := anObject

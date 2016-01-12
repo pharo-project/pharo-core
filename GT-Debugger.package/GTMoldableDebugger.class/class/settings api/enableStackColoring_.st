@@ -1,0 +1,2 @@
+enableStackColoring: aBoolean
+	EnableStackColoring := aBoolean.

@@ -1,5 +1,5 @@
 GLMFinder subclass: #GLMPager
-	instanceVariableNames: 'scrollButtonIconRenderBlock'
+	instanceVariableNames: 'scrollButtonIconRenderBlock minimumPageNumberForScrollbar'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Pager-Glamour'

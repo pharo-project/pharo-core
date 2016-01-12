@@ -1,0 +1,2 @@
+createFastTable
+	^ FTTableMorph new

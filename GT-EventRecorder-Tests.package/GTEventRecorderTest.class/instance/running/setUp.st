@@ -3,7 +3,7 @@ setUp
 	self setUpServer.
 	semaphore := Semaphore new.
 	recorder := GTEventRecorder new.
-	recorder offerPrivacy.
+	recorder offerPrivacy; offerDeliveryPermission.
 	collector1 := GTEventCollector new.
 	collector1 url: server url.
 	collector2 := GTEventCollector new.

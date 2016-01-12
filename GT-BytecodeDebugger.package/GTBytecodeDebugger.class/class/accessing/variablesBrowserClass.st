@@ -1,0 +1,3 @@
+variablesBrowserClass
+
+	^ GTBytecodeDebuggerVariablesBrowser

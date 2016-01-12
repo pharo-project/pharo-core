@@ -1,0 +1,2 @@
+debuggerToTest
+	self subclassResponsability

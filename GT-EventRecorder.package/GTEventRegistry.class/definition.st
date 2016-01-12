@@ -2,4 +2,4 @@ Object subclass: #GTEventRegistry
 	instanceVariableNames: 'weakHolder'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'GT-EventRecorder-Core'
+	category: 'GT-EventRecorder-Support'

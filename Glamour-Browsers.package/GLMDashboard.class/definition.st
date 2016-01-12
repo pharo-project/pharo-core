@@ -1,5 +1,5 @@
 GLMExplicitBrowser subclass: #GLMDashboard
-	instanceVariableNames: 'panesExtents extentStrategy defaultPaneExtent'
+	instanceVariableNames: 'panesLayouts'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Browsers-Dashboard'

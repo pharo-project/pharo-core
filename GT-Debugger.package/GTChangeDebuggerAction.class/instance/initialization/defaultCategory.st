@@ -1,0 +1,3 @@
+defaultCategory 
+	
+	^ 'Available Debuggers'

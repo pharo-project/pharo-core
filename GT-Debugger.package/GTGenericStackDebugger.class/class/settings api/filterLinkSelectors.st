@@ -1,0 +1,2 @@
+filterLinkSelectors
+	^ false

@@ -3,4 +3,4 @@ gtInspectorJpegIn: composite
 	composite morph
 			title: 'Picture';
 			display: [ self binaryReadStreamDo: [ :stream | ImageReadWriter formFromStream: stream ] ];
-			when: [ self mimeTypes notNil and: [ self mimeTypes first matches: ZnMimeType imageJpeg ] ]
+			when: [ self isFile and: [self mimeTypes notNil and: [ self mimeTypes first matches: ZnMimeType imageJpeg ] ] ]
