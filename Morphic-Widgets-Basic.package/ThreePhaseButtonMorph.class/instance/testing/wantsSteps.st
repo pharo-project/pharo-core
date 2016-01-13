@@ -1,2 +1,2 @@
 wantsSteps
-	^(self hasProperty: #doesButtonAction) or:[super wantsSteps]
+	^self hasProperty: #doesButtonAction
