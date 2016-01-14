@@ -1,4 +1,4 @@
-script50526
+script50527
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -226,7 +226,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1196.mcz
+Nautilus-TheIntegrator.1198.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz

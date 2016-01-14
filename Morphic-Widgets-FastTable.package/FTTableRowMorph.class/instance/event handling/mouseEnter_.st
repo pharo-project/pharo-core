@@ -1,3 +1,7 @@
 mouseEnter: evt
 
-	self color: self mouseOverColor 
+	self color: (
+		selectionColor isTransparent 
+			ifTrue: [ self mouseOverColor ]
+			ifFalse: [ self mouseOverColor mixed: 0.5 with: selectionColor ]
+	)

@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17125 Metadata-less compatibility with FileTree
-	https://pharo.fogbugz.com/f/cases/17125
+ ^ '17379 FastTable mouse over on highlighted item
+	https://pharo.fogbugz.com/f/cases/17379
 
-17363 (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)) = LayoutFrame identity should be true and it is not.
-	https://pharo.fogbugz.com/f/cases/17363
-
-17380 OrderedDictionary and OrderedDictionaryTest refactoring
-	https://pharo.fogbugz.com/f/cases/17380'
+17386 Nautilus test notification should show test results
+	https://pharo.fogbugz.com/f/cases/17386'

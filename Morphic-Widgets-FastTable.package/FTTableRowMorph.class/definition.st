@@ -1,5 +1,5 @@
 Morph subclass: #FTTableRowMorph
-	instanceVariableNames: ''
+	instanceVariableNames: 'selectionColor'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-FastTable'

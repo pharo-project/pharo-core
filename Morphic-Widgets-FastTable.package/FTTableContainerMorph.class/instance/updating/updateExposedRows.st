@@ -12,7 +12,7 @@ updateExposedRows
 	exposedRows := SmallDictionary new.
 	startIndex to: ((startIndex + visibleRows - 1) min: self owner numberOfRows) do: [ :rowIndex | 
 		| row |
-		row := (FTTableRowMorph table: self owner) privateOwner: self.
+		row := FTTableRowMorph table: self owner.
 		1 to: numberOfColumns do: [ :columnIndex | 
 			| cell |
 			cell := (self owner dataSource 
@@ -20,4 +20,5 @@ updateExposedRows
 				row: rowIndex).  
 			cell width: (columnWidths at: columnIndex).
 			row addMorphBack: cell ].
+		row privateOwner: self.
 		exposedRows at: rowIndex put: row ]

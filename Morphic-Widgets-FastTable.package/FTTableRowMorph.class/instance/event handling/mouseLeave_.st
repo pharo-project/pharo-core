@@ -1,3 +1,3 @@
 mouseLeave: evt
-
-	self color: self defaultColor 
+	
+	self color: self selectionColor 

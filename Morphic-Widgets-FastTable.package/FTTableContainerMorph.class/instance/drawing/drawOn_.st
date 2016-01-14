@@ -29,15 +29,12 @@ drawOn: canvas
 		visibleHeight := cellHeight min: (self bottom - y). 
 		row bounds: (x@y extent: cellWidth@visibleHeight).
 		y := y + visibleHeight + self owner intercellSpacing.
-		rowSubviews add: ((highligtedRowIndexes includes: rowIndex) 
-			ifTrue: [ 
-				"IMPORTANT: I need to set owner to nil because otherwise it will trigger an 
-				 invalidation of the owner when adding morph to selectionMorph, causing an 
-				 infinite loop"
-				self 
-					toSelectionRow: (row privateOwner: nil) 
-					primary: primarySelectionIndex = rowIndex ]
-			ifFalse: [ row ]) ].		
+		
+		(highligtedRowIndexes includes: rowIndex) ifTrue: [ 
+			row selectionColor: (self owner colorForSelection: primarySelectionIndex = rowIndex)
+		].
+		rowSubviews add: row.
+	].
 		
 	submorphs := rowSubviews asArray.
 	super drawOn: canvas.

@@ -1,15 +1,16 @@
 runTestsOfClass: aClass notifying: aBoolean
-	| color |
+	| color result |
 	aClass resetHistory.
-	aClass suite run updateResultsInHistory.
+	result := aClass suite run.
+	result updateResultsInHistory.
 	
 	aBoolean ifFalse: [ ^self ].
 	color := Color gray.
-	aClass hasPassedTest ifTrue: [ color :=  Color green ].
-	aClass hasFailedTest ifTrue: [ color :=  Color yellow ].
-	aClass hasErrorTest ifTrue: [ color :=  Color red ].
+	result hasPassed ifTrue: [ color :=  Color green ].
+	result hasFailures ifTrue: [ color :=  Color yellow ].
+	result hasErrors ifTrue: [ color :=  Color red ].
 			
 	self 
-		notifyTitle: 'Test Finished' 
-		contents: 'Class: ', aClass name
+		notifyTitle: aClass name 
+		contents: result printString
 		color: color
