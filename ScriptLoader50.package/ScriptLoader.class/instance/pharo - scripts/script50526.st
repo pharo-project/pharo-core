@@ -1,4 +1,4 @@
-script50525
+script50526
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -26,7 +26,7 @@ Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFFINB-EstebanLorenzano.10.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-ChristopheDemarey.87.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.27.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.28.mcz
 BaselineOfRenraku-YuriyTymchuk.4.mcz
 BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
@@ -39,12 +39,12 @@ Collections-Abstract-TheIntegrator.311.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-EstebanLorenzano.227.mcz
+Collections-Sequenceable-TheIntegrator.229.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-EstebanLorenzano.385.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.24.mcz
+Collections-Tests-TheIntegrator.26.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-EstebanLorenzano.95.mcz
 Compiler-EstebanLorenzano.600.mcz
@@ -187,13 +187,13 @@ Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.33.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
-MonticelloFileTree-Core-TheIntegrator.134.mcz
+MonticelloFileTree-Core-TheIntegrator.136.mcz
 MonticelloFileTree-FileSystem-Utilities-dkh.28.mcz
 MonticelloGUI-TheIntegrator.405.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.528.mcz
+Morphic-Base-TheIntegrator.530.mcz
 Morphic-Core-TheIntegrator.242.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.8.mcz
@@ -258,7 +258,7 @@ ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.84.mcz
-QualityAssistantRecording-YuriyTymchuk.7.mcz
+QualityAssistantRecording-YuriyTymchuk.8.mcz
 RPackage-Core-TheIntegrator.419.mcz
 RPackage-Tests-TheIntegrator.175.mcz
 Random-Core-TheIntegrator.4.mcz
@@ -281,7 +281,7 @@ Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.18.mcz
-Renraku-YuriyTymchuk.92.mcz
+Renraku-YuriyTymchuk.93.mcz
 Renraku-Test-YuriyTymchuk.18.mcz
 Ring-Core-Containers-TheIntegrator.41.mcz
 Ring-Core-Kernel-TheIntegrator.235.mcz

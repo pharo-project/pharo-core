@@ -1,21 +1,19 @@
 testHash
-	| dictionary |
+	| dictionary otherDictionary internalDictionary otherInternalDictionary |
 
 	dictionary := self emptyDictionary.
-	self assert: dictionary hash = self emptyDictionary hash.
-	self emptyInternalDictionary hash =
-		self internalDictionaryWithSingleAssociation hash
-		ifFalse: [
-			self deny:
-				dictionary hash = self dictionaryWithSingleAssociation hash].
-	self emptyInternalDictionary hash = self internalDictionaryWithAssociations hash
-		ifFalse: [self deny: dictionary hash = self dictionaryWithAssociations hash].
+	otherDictionary := self emptyDictionary.
+	internalDictionary := self emptyInternalDictionary.
+	otherInternalDictionary := self emptyInternalDictionary.
+	self assert: dictionary hash = otherDictionary hash.
+	self dictionaryAssociations do: [:each |
+		dictionary add: each.
+		internalDictionary add: each copy.
+		"if the internal hashes differ after adding to one, the external should too"
+		internalDictionary hash = otherInternalDictionary hash
+			ifFalse: [self deny: dictionary hash = otherDictionary hash].
 
-	dictionary := self dictionaryWithSingleAssociation.
-	self assert: dictionary hash = self dictionaryWithSingleAssociation hash.
-	(self internalDictionaryWithSingleAssociation hash =
-		self internalDictionaryWithAssociations hash)
-		ifFalse: [self deny: dictionary hash = self dictionaryWithAssociations hash].
-
-	dictionary := self dictionaryWithAssociations.
-	self assert: dictionary hash = self dictionaryWithAssociations hash.
+		otherDictionary add: each copy.
+		otherInternalDictionary add: each copy.
+		"should be equal regardless now"
+		self assert: dictionary hash = otherDictionary hash].

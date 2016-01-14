@@ -1,2 +1,2 @@
 associationsSelect: aBlock
-	^ self speciesNewFrom: (self associations select: aBlock)
+	^ self species newFrom: (self associations select: aBlock)

@@ -2,10 +2,8 @@
 	self == anObject
 		ifTrue: [^ true].
 
-	self species == anObject species
-		ifFalse: [^ false].
-
-	(anObject isDictionary and: [anObject size = self size])
+	(self species == anObject species
+		and: [self size = anObject size])
 		ifFalse: [^ false].
 
 	dictionary associationsDo: [:each |

@@ -1,10 +1,10 @@
 hash
-	^self species hash bitXor: 
-		(self leftFraction bitXor: 
-		(self leftOffset bitXor: 
-		(self topFraction bitXor:
-		(self topOffset bitXor: 
-		(self rightFraction bitXor: 
-		(self rightOffset bitXor: 
-		(self bottomFraction bitXor: 
-		self bottomOffset)))))))
+	^(((((((( self species hash
+		+ leftFraction hash) hashMultiply
+		+ leftOffset hash) hashMultiply
+		+ topFraction hash) hashMultiply
+		+ topOffset hash) hashMultiply
+		+ rightFraction hash) hashMultiply
+		+ rightOffset hash) hashMultiply
+		+ bottomFraction hash) hashMultiply
+		+ bottomOffset hash) hashMultiply
