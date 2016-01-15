@@ -8,4 +8,9 @@ updatePackageGroupAndClassList
 	"I need to restore selection (otherwise, nothing goes to the right position)"
 	self packageWidget updateList.
 	self selectedPackage: selectedPackage.
-	self selectedClass: selectedClass.
+	(selectedPackage isNil or: [ selectedClass isNil ])
+		ifTrue: [ ^ self ].
+	"only reselect the former class"
+	"if it is still in this package"
+	(selectedPackage includesClass: selectedClass)
+		ifTrue: [ self selectedClass: selectedClass ]

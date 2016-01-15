@@ -1,4 +1,4 @@
-script50527
+script50528
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -200,7 +200,7 @@ Morphic-Tests-TheIntegrator.8.mcz
 Morphic-Widgets-Basic-TheIntegrator.71.mcz
 Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-CyrilFerlicot.147.mcz
+Morphic-Widgets-FastTable-HenrikNergaard.148.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.64.mcz
@@ -226,7 +226,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1198.mcz
+Nautilus-TheIntegrator.1200.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -290,7 +290,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-mcamp.313.mcz
+Rubric-TheIntegrator.316.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.163.mcz
@@ -311,7 +311,7 @@ Slot-EstebanLorenzano.711.mcz
 Slot-Tests-TheIntegrator.75.mcz
 SmartSuggestions-TheIntegrator.214.mcz
 SmartSuggestions-Tests-TheIntegrator.22.mcz
-Spec-Core-TheIntegrator.444.mcz
+Spec-Core-TheIntegrator.447.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
