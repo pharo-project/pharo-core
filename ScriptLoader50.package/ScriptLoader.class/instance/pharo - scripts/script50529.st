@@ -1,4 +1,4 @@
-script50528
+script50529
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -290,7 +290,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.316.mcz
+Rubric-TheIntegrator.319.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.163.mcz

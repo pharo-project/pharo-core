@@ -1,7 +1,13 @@
 drawHighlightsOn: aCanvas
 	"Draw the highlights."
 
-	| b o |
-	b := self manageLayoutInBounds: self innerBounds.
-	o := self scrollPane scroller offset.
-	aCanvas clipBy: self clippingBounds during: [ :c | self highlights do: [ :h | h drawOn: c in: b offset: o ] ]
+	| scrollBounds scrollOffset |
+	
+	scrollBounds := self scrollPane innerBounds.
+	scrollOffset := self scrollPane scroller offset.
+	
+	aCanvas clipBy: self clippingBounds during: [ :canvas | 
+		self highlights do: [ :highlight | 
+			highlight drawOn: canvas in: scrollBounds offset: scrollOffset 
+		] 
+	]
