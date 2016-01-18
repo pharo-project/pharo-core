@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17201 Marking Diffs broken in Pharo5
-	https://pharo.fogbugz.com/f/cases/17201'
+ ^ '17395 Integrate GTools 3.8
+	https://pharo.fogbugz.com/f/cases/17395'

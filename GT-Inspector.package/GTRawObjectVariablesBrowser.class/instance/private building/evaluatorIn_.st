@@ -7,8 +7,9 @@ evaluatorIn: composite
 					nextPutAll: (self printStringOf: object);
 					cr;
 					nextPutAll: (GTSnippets snippetAt: object class)] ];
-		onChangeOfPort: #text act: [ :text :object |
+		onChangeOfPort: #text act: [ :textPresentation :object |
 				GTSnippets 
 					snippetAt: object class 
-					put: (self stringWithoutInitialCommentFrom: text text asString) ];
+					put: (self stringWithoutInitialCommentFrom: textPresentation text asString).
+				 textPresentation clearUserEdits ];
 		installDefaultSelectionActions

@@ -29,4 +29,6 @@ codeIn: a
 				yourself);
 		dynamicActions: [ self actionsForPreviousContents ];
 		dynamicActionsOnSelection: [ self contextMenuActions ];
-		onChangeOfPort: #text act: [ :text :page | page saveContent: text text ]
+		onChangeOfPort: #text act: [ :text :page | 
+			page saveContent: text text.
+			text clearUserEdits ]

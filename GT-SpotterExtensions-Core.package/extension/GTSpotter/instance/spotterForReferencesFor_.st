@@ -4,5 +4,6 @@ spotterForReferencesFor: aStep
 	aStep listProcessor
 		title: 'References';
 		filter: GTNullFilter item: [ :filter :context | 
-			SystemNavigation default allReferencesToSubstring: context textTrimmed do: filter ];
+			context textTrimmed asClassIfPresent: [ :class |
+				SystemNavigation default allReferencesTo: class binding do: filter ] ];
 		itemName: [ :method | method gtDisplayString ]

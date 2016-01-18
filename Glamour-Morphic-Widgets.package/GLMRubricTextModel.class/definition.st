@@ -1,5 +1,5 @@
 GLMMorphicModel subclass: #GLMRubricTextModel
-	instanceVariableNames: 'announcer primarySelectionInterval'
+	instanceVariableNames: 'primarySelectionInterval hasUnacceptedEdits'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Widgets'

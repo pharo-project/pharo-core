@@ -9,7 +9,7 @@ gtInspectorActions
 	all := (Pragma 
 				allNamed: #gtInspectorAction
 				from: self class 
-				to: Object) collect: [:eachPragma |
+				to: ProtoObject) collect: [:eachPragma |
 					thisContext 
 						object: self 
 						perform: eachPragma selector 
