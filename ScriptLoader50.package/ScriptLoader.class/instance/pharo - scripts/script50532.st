@@ -1,4 +1,4 @@
-script50531
+script50532
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -157,7 +157,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.152.mcz
-Manifest-Core-TheIntegrator.238.mcz
+Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.78.mcz
@@ -226,7 +226,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1200.mcz
+Nautilus-TheIntegrator.1201.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -290,7 +290,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.319.mcz
+Rubric-TheIntegrator.321.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.163.mcz
@@ -309,7 +309,7 @@ Shout-TheIntegrator.285.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-EstebanLorenzano.711.mcz
 Slot-Tests-TheIntegrator.75.mcz
-SmartSuggestions-TheIntegrator.214.mcz
+SmartSuggestions-TheIntegrator.216.mcz
 SmartSuggestions-Tests-TheIntegrator.22.mcz
 Spec-Core-TheIntegrator.447.mcz
 Spec-Debugger-TheIntegrator.258.mcz
@@ -320,7 +320,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.252.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.312.mcz
+Spec-Tools-TheIntegrator.317.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.6.mcz

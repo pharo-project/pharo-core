@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '17314 MNU: PackageTreePackageSelection>>packageName if we try to run code critics on scoped package
+update50532
+	"self new update50532"
+	self withUpdateLog: '17314 MNU: PackageTreePackageSelection>>packageName if we try to run code critics on scoped package
 	https://pharo.fogbugz.com/f/cases/17314
 
 17407 Smart suggestions shortcut should use Cmd instead of Meta
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17405
 
 17396 "MonticelloRepositoryBrowser example" MNU
-	https://pharo.fogbugz.com/f/cases/17396'
+	https://pharo.fogbugz.com/f/cases/17396'.
+	self loadTogether: self script50532 merge: false.
+	self flushCaches.
