@@ -1,6 +1,6 @@
-gtDebuggerStateIn: composite
+gtDebuggerRawIn: composite
 	<gtDebuggerPresentationOrder: 15>
 	
 	(GTProtoObjectVariablesBrowser new variablesIn: composite)
-		title: 'State';
+		title: 'Raw';
 		send: #value

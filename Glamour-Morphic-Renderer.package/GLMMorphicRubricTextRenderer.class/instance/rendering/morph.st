@@ -1,12 +1,8 @@
 morph
-	|morph|
-	morph := RubScrolledTextMorph new
+	^ RubScrolledTextMorph new
 		getSelectionSelector: #primarySelectionInterval;
-		model: textModel;
 		color: Smalltalk ui theme backgroundColor;
+		textColor: Smalltalk ui theme  textColor;
 		textFont: StandardFonts defaultFont;
+		model: textModel;
 		yourself.
-	self flag: 'Temporary solution until Moose moves to Pharo 4'.
-	(Smalltalk ui theme class canPerform: #textColor) ifTrue: [ 
-		morph textColor: Smalltalk ui theme  textColor ].
-	^ morph

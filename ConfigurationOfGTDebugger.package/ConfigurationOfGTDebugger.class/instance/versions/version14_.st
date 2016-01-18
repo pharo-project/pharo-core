@@ -11,4 +11,4 @@ version14: spec
 			package: 'GT-Debugger' with: 'GT-Debugger-AndreiChis.297';
 			package: 'GT-BytecodeDebugger' with: 'GT-BytecodeDebugger-AndreiChis.28';
 			package: 'GT-SUnitDebugger' with: 'GT-SUnitDebugger-AndreiChis.24';
-			package: 'GT-Tests-Debugger' with: 'GT-Tests-Debugger-AndreiChis.5'. ].
+			package: 'GT-Tests-Debugger' with: 'GT-Tests-Debugger-AndreiChis.9'. ].

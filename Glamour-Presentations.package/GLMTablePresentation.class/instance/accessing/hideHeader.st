@@ -1,0 +1,2 @@
+hideHeader
+	shouldShowHeader := false

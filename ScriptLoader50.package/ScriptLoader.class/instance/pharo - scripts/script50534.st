@@ -1,4 +1,4 @@
-script50533
+script50534
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -15,7 +15,7 @@ AsmJit-StackManagement-SvenVanCaekenberghe.11.mcz
 AsmJit-Tests-TheIntegrator.21.mcz
 AsmJit-x86-TheIntegrator.40.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-TheIntegrator.105.mcz
+Athens-Cairo-TheIntegrator.107.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-maxmattone.54.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -345,6 +345,8 @@ System-OSEnvironments-EstebanLorenzano.14.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.73.mcz
 System-Serial Port-StephaneDucasse.23.mcz
+System-SessionManager-ChristopheDemarey.12.mcz
+System-SessionManager-Tests-ChristopheDemarey.6.mcz
 System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
@@ -386,7 +388,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.175.mcz
+UIManager-TheIntegrator.176.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

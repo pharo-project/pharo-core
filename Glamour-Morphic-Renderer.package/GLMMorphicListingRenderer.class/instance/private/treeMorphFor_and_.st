@@ -15,7 +15,7 @@ treeMorphFor: tmpTreeModel and: aPresentation
 		dropEnabled: tmpTreeModel dropEnabled;		
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		layoutFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1)).
+		layoutFrame: (LayoutFrame identity).
 	columns := aPresentation columns isEmpty 
 		ifTrue: [ OrderedCollection with: (MorphTreeColumn new rowMorphGetSelector: #elementColumn)]
 		ifFalse: [

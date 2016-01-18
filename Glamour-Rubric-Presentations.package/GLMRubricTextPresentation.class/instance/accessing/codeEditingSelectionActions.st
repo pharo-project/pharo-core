@@ -8,6 +8,7 @@ codeEditingSelectionActions
 					aPresentation cut ]; 
 				icon: (uitheme smallCutIcon);
 				shortcut: $x; 
+				withSeparatorBefore;
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Copy';

@@ -12,4 +12,7 @@ specificTableMorphInitializiation
 						width: each width;
 						glamourColumn: each;
 						target: tableModel actionSelector: #sortByColumn: arguments: {each};
-						yourself ])
+						yourself ]).
+	presentation shouldShowHeader 
+		ifFalse: [ tableMorph hideColumnHeaders ]
+		ifTrue: [ tableMorph showColumnHeaders ]

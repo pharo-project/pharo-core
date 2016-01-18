@@ -1,8 +1,8 @@
 morph
 	|morph|
 	morph := RubScrolledTextMorph new
-		model: textModel;
 		beForSmalltalkScripting;
+		model: textModel;
 		getSelectionSelector: #primarySelectionInterval;
 		textFont: StandardFonts codeFont;
 		color: Smalltalk ui theme backgroundColor;

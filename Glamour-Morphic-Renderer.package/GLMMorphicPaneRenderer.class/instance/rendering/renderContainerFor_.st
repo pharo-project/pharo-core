@@ -5,5 +5,5 @@ renderContainerFor: aPane
 		withTitleOrNilOf: aPane presentations.
 		
 	container
-		addMorph: contentMorph fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1));
+		addMorph: contentMorph fullFrame: (LayoutFrame identity);
 		adoptPaneColor: Color transparent

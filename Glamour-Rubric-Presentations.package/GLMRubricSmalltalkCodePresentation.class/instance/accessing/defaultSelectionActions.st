@@ -1,6 +1,5 @@
 defaultSelectionActions
 
 	^ self executionSelectionActions, 
-		self codeEditingSelectionActions, 
-		self browsingSelectionActions
-	
+		self browsingSelectionActions,
+		self codeEditingSelectionActions

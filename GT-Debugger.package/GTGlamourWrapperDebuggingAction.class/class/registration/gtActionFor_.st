@@ -6,4 +6,4 @@ gtActionFor: aDebugger
 	^ aDebugger codePresentation defaultSelectionActions collect: [ :each | 
 			self new 
 				glamourAction: each;
-				order: (index := index + 5) ]
+				order: (index := index + 10) ]

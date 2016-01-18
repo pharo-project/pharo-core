@@ -1,4 +1,4 @@
-setAlpha: alpha
+drawWithAlpha: alpha
 
 	<primitive: #primitiveNativeCall module: #NativeBoostPlugin>
 	

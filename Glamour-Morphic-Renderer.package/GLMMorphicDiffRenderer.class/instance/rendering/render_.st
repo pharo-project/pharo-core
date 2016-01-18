@@ -5,7 +5,7 @@ render: aPresentation
 		to: aPresentation displayValue last
 		contextClass: aPresentation contextClassValue)
 "			onKeyStrokeSend: #keystroke:from: to: textModel;
-"			layoutFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1));
+"			layoutFrame: (LayoutFrame identity);
 			vResizing: #spaceFill;
 			hResizing: #spaceFill;
 			yourself.

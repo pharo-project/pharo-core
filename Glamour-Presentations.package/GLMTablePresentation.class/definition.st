@@ -1,5 +1,5 @@
 GLMListingPresentation subclass: #GLMTablePresentation
-	instanceVariableNames: 'columns children rootsExpanded'
+	instanceVariableNames: 'columns children rootsExpanded shouldShowHeader'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Presentations'

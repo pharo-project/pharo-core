@@ -4,7 +4,7 @@ renderCompositiePresentation: aCompositePresentation
 	paneMorph
 		addMorph: 
 			(self newColumnWith:  { (self renderObject: aCompositePresentation).  (self buttonRowFrom: self buttons) }) 
-			fullFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1));
+			fullFrame: (LayoutFrame identity);
 		"addMorphBack: (self buttonRowFrom: self buttons)  ;  "
 		adoptPaneColor: paneMorph paneColor.
 	

@@ -10,7 +10,7 @@ renderWithTree: aBrowser
 		borderStyle: (BorderStyle inset width: 1);
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;
-		layoutFrame: (LayoutFrame fractions: (0 @ 0 corner: 1 @ 1));
+		layoutFrame: (LayoutFrame identity);
 		preferedPaneColor: Color white;	
 		model: treeModel;
 		columns: ( OrderedCollection with: (MorphTreeColumn new rowMorphGetSelector: #elementColumn)).

@@ -1,5 +1,5 @@
-gtDebuggerStateIn: composite
+gtDebuggerRawIn: composite
 	
 	(GTObjectVariablesBrowser new variablesIn: composite)
-		title: 'State';
+		title: 'Raw';
 		send: #value
