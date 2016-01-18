@@ -1,0 +1,2 @@
+sessionManager: aSessionManager
+	sessionManager := aSessionManager

@@ -1,0 +1,2 @@
+sessionManager
+	^ sessionManager

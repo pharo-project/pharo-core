@@ -1,0 +1,2 @@
+errorHandler
+	^ errorHandler ifNil: [ self ]

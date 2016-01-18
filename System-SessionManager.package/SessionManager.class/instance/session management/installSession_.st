@@ -1,0 +1,2 @@
+installSession: aWorkingSession 
+	currentSession := aWorkingSession

@@ -1,0 +1,2 @@
+startupHandler: aBlockClosure
+	startupHandler := aBlockClosure

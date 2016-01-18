@@ -1,0 +1,2 @@
+uninstall
+	manager uninstallSession: self

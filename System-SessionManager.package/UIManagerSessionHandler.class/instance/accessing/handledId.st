@@ -1,0 +1,2 @@
+handledId
+	^ self class name

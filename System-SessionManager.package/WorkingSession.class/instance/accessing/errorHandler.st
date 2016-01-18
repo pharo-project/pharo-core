@@ -1,0 +1,2 @@
+errorHandler
+	^ UIManager default

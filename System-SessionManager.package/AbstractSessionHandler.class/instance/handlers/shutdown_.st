@@ -1,0 +1,2 @@
+shutdown: isImageQuitting
+	self subclassResponsibility

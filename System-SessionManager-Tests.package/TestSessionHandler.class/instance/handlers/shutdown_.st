@@ -1,0 +1,2 @@
+shutdown: isImageQuitting
+	shutdownHandler value

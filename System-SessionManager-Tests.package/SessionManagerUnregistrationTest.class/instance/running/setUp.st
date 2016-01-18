@@ -1,0 +1,2 @@
+setUp
+	sessionManager := SessionManager new

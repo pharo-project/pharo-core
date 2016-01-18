@@ -1,0 +1,2 @@
+install
+	manager installSession: self

@@ -1,0 +1,2 @@
+startup: isImageStarting
+	self subclassResponsibility

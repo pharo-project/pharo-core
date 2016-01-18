@@ -1,0 +1,2 @@
+registeredClassName: aClassName 
+	registeredClassName := aClassName

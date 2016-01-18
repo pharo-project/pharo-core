@@ -1,0 +1,2 @@
+startup: isImageStarting
+	startupHandler value

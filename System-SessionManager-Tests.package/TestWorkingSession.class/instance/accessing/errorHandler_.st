@@ -1,0 +1,2 @@
+errorHandler: anErrorHandler
+	errorHandler := anErrorHandler

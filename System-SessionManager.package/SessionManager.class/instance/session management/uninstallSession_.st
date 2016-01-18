@@ -1,0 +1,2 @@
+uninstallSession: aWorkingSession 
+	currentSession := nil

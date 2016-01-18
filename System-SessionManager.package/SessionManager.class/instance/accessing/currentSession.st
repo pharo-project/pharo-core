@@ -1,0 +1,2 @@
+currentSession
+	^ currentSession

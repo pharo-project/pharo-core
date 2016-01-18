@@ -1,0 +1,2 @@
+shutdownHandler: aBlockClosure
+	shutdownHandler := aBlockClosure
