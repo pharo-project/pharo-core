@@ -1,0 +1,3 @@
+isValidForCurrentSystemConfiguration
+
+	^ false

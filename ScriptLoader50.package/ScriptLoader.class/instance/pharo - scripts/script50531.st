@@ -1,4 +1,4 @@
-script50530
+script50531
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -15,7 +15,7 @@ AsmJit-StackManagement-SvenVanCaekenberghe.11.mcz
 AsmJit-Tests-TheIntegrator.21.mcz
 AsmJit-x86-TheIntegrator.40.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-TheIntegrator.103.mcz
+Athens-Cairo-TheIntegrator.105.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-maxmattone.54.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -90,18 +90,18 @@ Fuel-TheIntegrator.820.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
-FuelTools-Debugger-TheIntegrator.15.mcz
+FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-AndreiChis.28.mcz
-GT-Debugger-AndreiChis.293.mcz
+GT-Debugger-AndreiChis.297.mcz
 GT-EventRecorder-JurajKubelka.53.mcz
 GT-EventRecorder-Tests-JurajKubelka.32.mcz
-GT-Inspector-StefanReichhart.367.mcz
-GT-InspectorExtensions-Core-AndreiChis.192.mcz
-GT-Playground-AndreiChis.117.mcz
+GT-Inspector-AndreiChis.370.mcz
+GT-InspectorExtensions-Core-YuriyTymchuk.193.mcz
+GT-Playground-AndreiChis.118.mcz
 GT-SUnitDebugger-AndreiChis.24.mcz
 GT-Spotter-TudorGirba.336.mcz
 GT-Spotter-EventRecorder-JurajKubelka.107.mcz
-GT-SpotterExtensions-Core-TudorGirba.185.mcz
+GT-SpotterExtensions-Core-TudorGirba.187.mcz
 GT-Tests-Debugger-AndreiChis.5.mcz
 GT-Tests-Inspector-TudorGirba.50.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -119,9 +119,9 @@ Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-AndreiChis.105.mcz
 Glamour-Morphic-Renderer-AndreiChis.338.mcz
 Glamour-Morphic-Theme-AndreiChis.221.mcz
-Glamour-Morphic-Widgets-AndreiChis.187.mcz
+Glamour-Morphic-Widgets-AndreiChis.188.mcz
 Glamour-Presentations-AndreiChis.181.mcz
-Glamour-Rubric-Presentations-AndreiChis.47.mcz
+Glamour-Rubric-Presentations-AndreiChis.48.mcz
 Glamour-Tests-Core-CyrilFerlicot.110.mcz
 Glamour-Tests-Morphic-SkipLentz.133.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
@@ -148,7 +148,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2207.mcz
+Kernel-TheIntegrator.2209.mcz
 Kernel-Tests-TheIntegrator.30.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -157,7 +157,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.152.mcz
-Manifest-Core-TheIntegrator.236.mcz
+Manifest-Core-TheIntegrator.238.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.78.mcz
@@ -252,7 +252,7 @@ OpalCompiler-Tests-TheIntegrator.321.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1304.mcz
+Polymorph-Widgets-TheIntegrator.1307.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -266,7 +266,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.294.mcz
-Refactoring-Critics-TheIntegrator.248.mcz
+Refactoring-Critics-TheIntegrator.251.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
@@ -283,7 +283,7 @@ Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.18.mcz
 Renraku-YuriyTymchuk.93.mcz
 Renraku-Test-YuriyTymchuk.18.mcz
-Ring-Core-Containers-TheIntegrator.41.mcz
+Ring-Core-Containers-TheIntegrator.43.mcz
 Ring-Core-Kernel-TheIntegrator.235.mcz
 Ring-Monticello-TheIntegrator.40.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
@@ -386,7 +386,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.173.mcz
+UIManager-TheIntegrator.175.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz

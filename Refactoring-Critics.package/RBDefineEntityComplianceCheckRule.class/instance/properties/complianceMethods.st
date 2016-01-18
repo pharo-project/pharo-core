@@ -1,0 +1,3 @@
+complianceMethods
+
+	^ #(checksMethod checksClass checksPackage)

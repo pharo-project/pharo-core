@@ -1,13 +1,13 @@
 asUnicode
-	| tmp1 tmp2 tmp3 |
+	| table charset value |
 	self leadingChar = 0
 		ifTrue: [ ^ self asInteger ].
-	tmp2 := self characterSet.
-	tmp2 isCharset
+	charset := self characterSet.
+	charset isCharset
 		ifFalse: [ ^ self charCode ].
-	tmp1 := tmp2 ucsTable.
-	tmp1 ifNil: [ ^ 65533 ].
-	tmp3 := tmp1 at: self charCode + 1.
-	tmp3 = -1
+	table := charset ucsTable.
+	table ifNil: [ ^ 65533 ].
+	value := table at: self charCode + 1.
+	value = -1
 		ifTrue: [ ^ 65533 ].
-	^ tmp3
+	^ value

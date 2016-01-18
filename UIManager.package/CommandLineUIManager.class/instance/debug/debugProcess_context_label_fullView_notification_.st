@@ -1,4 +1,4 @@
-openDebuggerOn: process context: context label: title fullView: bool notification: notificationString
+debugProcess: process context: context label: title fullView: bool notification: notificationString
 	| description |
 	description := String streamContents: [ :stream |
 		stream

@@ -6,7 +6,7 @@ serializeTestFailureContext: aContext toFileNamed: aFilename
 		addPostMaterializationAction:
 			[ :materialization | 
 			UIManager default
-				openDebuggerOn: Processor activeProcess
+				debugProcess: Processor activeProcess
 				context: materialization root
 				label: 'External stack'
 				fullView: false ].

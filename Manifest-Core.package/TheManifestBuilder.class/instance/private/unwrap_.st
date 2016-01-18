@@ -9,5 +9,7 @@ unwrap: aCollection
 			(rgobject isClass and: [ rgobject  realClass notNil ])
 				ifTrue: [ unwrapCollection add: rgobject realClass ].
 			(rgobject isMethod and: [ rgobject method notNil ])
-				ifTrue: [ unwrapCollection add: rgobject method ] ].
+				ifTrue: [ unwrapCollection add: rgobject method ].
+			(rgobject isPackage and: [ rgobject realPackage notNil ])
+				ifTrue: [ unwrapCollection add: rgobject realPackage ] ].
 	^ unwrapCollection
