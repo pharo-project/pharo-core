@@ -1,6 +1,6 @@
 FFIExternalObject subclass: #AthensCairoPatternPaint
 	uses: TCairoLibrary
-	instanceVariableNames: ''
+	instanceVariableNames: 'surface origin direction extent'
 	classVariableNames: ''
 	poolDictionaries: 'AthensCairoDefs'
 	category: 'Athens-Cairo-Paints'
