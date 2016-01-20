@@ -51,7 +51,7 @@ newSpecialObjectsArray
 	newArray at: 27 put: ByteArray.
 	newArray at: 28 put: Process.
 	"An array of up to 31 classes whose instances will have compact headers; an empty array in Spur"
-	newArray at: 29 put: self compactClassesArray.
+	newArray at: 29 put: {}.
 	newArray at: 30 put: ((self primitiveGetSpecialObjectsArray at: 30) ifNil: [Semaphore new]). "delay Semaphore"
 	newArray at: 31 put: ((self primitiveGetSpecialObjectsArray at: 31) ifNil: [Semaphore new]). "user interrupt Semaphore"
 	"Entries 32 - 34 unreferenced. Previously these contained prototype instances to be copied for fast initialization"

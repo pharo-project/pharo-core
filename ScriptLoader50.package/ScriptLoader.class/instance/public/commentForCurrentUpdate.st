@@ -1,6 +1,8 @@
 commentForCurrentUpdate
- ^ '17425 unload BaselineOfFFINB
-	https://pharo.fogbugz.com/f/cases/17425
+ ^ '17267 fix senders of #compactClassesArray 
+	https://pharo.fogbugz.com/f/cases/17267
 
-17427 deprecated Form class>>#unload
-	https://pharo.fogbugz.com/f/cases/17427'
+17077 ReleaseTest testMethodsWithUnboundGlobals fails for some slotexamples
+	https://pharo.fogbugz.com/f/cases/17077
+
+'
