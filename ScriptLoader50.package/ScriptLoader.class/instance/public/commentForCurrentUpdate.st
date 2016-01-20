@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17415 SimpleButtonMorph lacks #themeChanged
-	https://pharo.fogbugz.com/f/cases/17415
+ ^ '17425 unload BaselineOfFFINB
+	https://pharo.fogbugz.com/f/cases/17425
 
-17357 Lost instance variables (AthensCairoPatternSurfacePaint)
-	https://pharo.fogbugz.com/f/cases/17357
-
-17422 Rename FFI-NB to UnifiedFFI
-	https://pharo.fogbugz.com/f/cases/17422'
+17427 deprecated Form class>>#unload
+	https://pharo.fogbugz.com/f/cases/17427'

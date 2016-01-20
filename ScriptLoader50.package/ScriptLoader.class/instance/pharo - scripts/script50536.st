@@ -1,4 +1,4 @@
-script50535
+script50536
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -63,9 +63,6 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FFI-Kernel-EstebanLorenzano.29.mcz
 FFI-MacOS-spd.5.mcz
-FFI-NB-EstebanLorenzano.50.mcz
-FFI-NB-Legacy-TheIntegrator.5.mcz
-FFI-NB-Tests-TheIntegrator.24.mcz
 FFI-Pools-eem.3.mcz
 FFI-Tests-EstebanLorenzano.8.mcz
 FFI-Unix-mtf.4.mcz
@@ -131,7 +128,7 @@ Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.165.mcz
-Graphics-Files-TheIntegrator.70.mcz
+Graphics-Files-TheIntegrator.72.mcz
 Graphics-Fonts-TheIntegrator.102.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.183.mcz
@@ -390,6 +387,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.176.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
+UnifiedFFI-TheIntegrator.2.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.1.mcz
+UnifiedFFI-Tests-EstebanLorenzano.1.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
