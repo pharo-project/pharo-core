@@ -1,8 +1,9 @@
 commentForCurrentUpdate
- ^ '17267 fix senders of #compactClassesArray 
-	https://pharo.fogbugz.com/f/cases/17267
+ ^ '17444 SVColorSelectorMorph should not use (World displayWorldSafely)
+	https://pharo.fogbugz.com/f/cases/17444
 
-17077 ReleaseTest testMethodsWithUnboundGlobals fails for some slotexamples
-	https://pharo.fogbugz.com/f/cases/17077
+17408 The generic stack debugger defines double meaning for some keybindings when editing code
+	https://pharo.fogbugz.com/f/cases/17408
 
-'
+17335 We should add a #ffiSizeOf: 
+	https://pharo.fogbugz.com/f/cases/17335'

@@ -1,3 +1,3 @@
 defaultKeyText
 
-	^ 'r'
+	^ 'A'

@@ -1,4 +1,4 @@
-script50537
+script50538
 
 	^ 'AST-Core-TheIntegrator.395.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -53,7 +53,7 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.7.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-TheIntegrator.78.mcz
+DebuggerActions-TheIntegrator.80.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.118.mcz
 Deprecated50-TheIntegrator.34.mcz
@@ -194,7 +194,7 @@ Morphic-Core-TheIntegrator.242.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.8.mcz
 Morphic-Widgets-Basic-TheIntegrator.74.mcz
-Morphic-Widgets-ColorPicker-StephaneDucasse.17.mcz
+Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-HenrikNergaard.148.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
