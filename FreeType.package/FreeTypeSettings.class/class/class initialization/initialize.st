@@ -1,6 +1,4 @@
 initialize
-	"
-	self initialize
-	"
 	Smalltalk removeFromStartUpList: self.
-	Smalltalk addToStartUpList: self . 
+	Smalltalk addToStartUpList: self.
+	SessionManager default registerGuiClassNamed: self name 

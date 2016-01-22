@@ -1,3 +1,3 @@
-startUp: resuming
+startUp: isImageStarting
 	ChangesLog default.
-	resuming ifTrue: [Smalltalk openSourceFiles]
+	isImageStarting ifTrue: [Smalltalk openSourceFiles]

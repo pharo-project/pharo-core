@@ -1,2 +1,3 @@
 initialize
-	TheStdioHandles := Array new: 3
+	TheStdioHandles := Array new: 3.
+	SessionManager default registerSystemClassNamed: self name

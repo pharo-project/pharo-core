@@ -1,5 +1,5 @@
-startUp: resuming
+startUp: isImageStarting
 
 	"only handle when lauching a new image"
-	resuming ifFalse: [ ^ self ].
+	isImageStarting ifFalse: [ ^ self ].
 	EndianCache := nil.

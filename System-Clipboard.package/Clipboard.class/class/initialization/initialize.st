@@ -1,6 +1,6 @@
 initialize
-	"Clipboard initialize"
+	self startUp: true.
 
 	Smalltalk addToStartUpList: self.
 	Smalltalk addToShutDownList: self.
-	self startUp: true.
+	SessionManager default registerSystemClassNamed: self name

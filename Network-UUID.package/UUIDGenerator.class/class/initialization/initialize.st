@@ -1,2 +1,3 @@
 initialize
-  Smalltalk addToStartUpList: self 
+	Smalltalk addToStartUpList: self.
+	SessionManager default registerNetworkClassNamed: self name

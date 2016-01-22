@@ -33,6 +33,7 @@ parts
 	(#'System-Localization' -> #()).
 	(#'System-Model' -> #()).
 	(#'System-Platforms' -> #()).
+	(#'System-SessionManager' -> #()).
 	(#'System-Sources' -> #()).
 	(#'System-Support' -> #()).
 	(#Traits -> #()).

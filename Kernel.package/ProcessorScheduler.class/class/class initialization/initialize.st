@@ -1,5 +1,6 @@
 initialize
-     
+	"ProcessorScheduler initialize."
+	     
 	SystemRockBottomPriority := 10.
 	SystemBackgroundPriority := 20.
 	UserBackgroundPriority := 30.
@@ -9,4 +10,6 @@ initialize
 	HighIOPriority := 70.
 	TimingPriority := 80.
 
-	"ProcessorScheduler initialize."
+	SessionManager default
+		registerSystemClassNamed: self name
+		atPriority: 30.

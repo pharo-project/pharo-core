@@ -1,3 +1,2 @@
-shutDown: quitting
-
-	quitting ifTrue: [ self flushAndVoidStdioFiles ]
+shutDown: isImageQuitting
+	isImageQuitting ifTrue: [ self flushAndVoidStdioFiles ]

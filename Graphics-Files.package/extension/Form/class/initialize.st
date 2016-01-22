@@ -1,3 +1,0 @@
-initialize
-
-	FileServices registerFileReader: self

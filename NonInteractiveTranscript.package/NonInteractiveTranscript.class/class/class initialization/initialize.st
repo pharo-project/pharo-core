@@ -1,4 +1,3 @@
 initialize
 	"Make sure to cleanup on shutdown"
-	
-	Smalltalk addToShutDownList: self	
+	SessionManager default registerSystemClassNamed: self name

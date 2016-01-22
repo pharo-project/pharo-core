@@ -1,5 +1,5 @@
-startUp: booting
-	booting ifFalse: [ ^ self ].
+startUp: isImageStarting
+	isImageStarting ifFalse: [ ^ self ].
 	
 	self clearRegistry.
 	"update session"

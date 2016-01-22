@@ -1,0 +1,3 @@
+isValidForCurrentSystemConfiguration
+
+	^ Smalltalk isHeadless not

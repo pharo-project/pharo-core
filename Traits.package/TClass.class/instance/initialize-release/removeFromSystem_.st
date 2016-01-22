@@ -5,6 +5,7 @@ removeFromSystem: logged
 	"keep the class name and category for triggering the system change message. If we wait to long, then we get obsolete information which is not what we want."
 
 	"tell class to deactivate and unload itself-- two separate events in the module system"
+	self release.
 	self unload.
 	self traitUsers do: [ :user | user removeFromComposition: self ].
 	self superclass ifNotNil:

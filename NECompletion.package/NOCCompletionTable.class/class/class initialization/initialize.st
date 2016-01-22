@@ -4,4 +4,6 @@ initialize
 		when: MethodAdded, MethodModified 
 			send: #methodChanged: 
 			to: self.
+			
 	Smalltalk addToShutDownList: self.
+	SessionManager default registerToolClassNamed: self name

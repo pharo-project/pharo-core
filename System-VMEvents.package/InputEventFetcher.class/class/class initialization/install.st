@@ -1,8 +1,10 @@
 install
 	"InputEventFetcher install"
+	Default := self new.
+	Default startUp.
 
 	Smalltalk addToStartUpList: self after: Cursor.
 	Smalltalk addToShutDownList: self after: Form.
-
-	Default := self new.
-	Default startUp
+	SessionManager default
+		registerSystemClassNamed: self name 
+		atPriority: 40.

@@ -1,3 +1,3 @@
 cachedDefinitions
-	Definitions ifNil: [ Definitions := WeakIdentityKeyDictionary new ].
-	^ Definitions
+	^ Definitions 
+		ifNil: [ Definitions := WeakIdentityKeyDictionary new ]

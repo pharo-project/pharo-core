@@ -1,5 +1,5 @@
-startUp: resuming
-	resuming
+startUp: isImageStarting
+	isImageStarting
 		ifFalse: [ ^ self ].
 	self voidStdioFiles.
 	[ TheStdioHandles := self stdioHandles ]
