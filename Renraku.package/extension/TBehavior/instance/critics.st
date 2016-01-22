@@ -1,5 +1,5 @@
 critics
-
+	<eProperty>
 	| rules critics manifest builder |
 	
 	builder := TheManifestBuilder new.
@@ -16,6 +16,6 @@ critics
 			rule check: self forCriticsDo: [ :critic | critics add: critic ].
 			Processor yield ].
 	
-	ReSystemAnnouncer uniqueInstance notifyEntity: self CriticizedWith: critics. .
+	ReSystemAnnouncer uniqueInstance notifyEntity: self criticizedWith: critics. .
 	
 	^ critics

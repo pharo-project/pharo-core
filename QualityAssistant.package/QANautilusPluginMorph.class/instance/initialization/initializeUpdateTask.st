@@ -1,3 +1,5 @@
 initializeUpdateTask
 
-	updateTask := GLMAsyncTask new.
+	updateTask := GLMAsyncTask new
+		priority: Processor userBackgroundPriority;
+		yourself.

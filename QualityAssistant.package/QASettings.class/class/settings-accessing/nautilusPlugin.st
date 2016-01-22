@@ -1,0 +1,3 @@
+nautilusPlugin
+	
+	^ QANautilusPlugin isInstalled

@@ -1,0 +1,3 @@
+initializeSourceAnchor: anAnchor
+
+	sourceAnchor := anAnchor

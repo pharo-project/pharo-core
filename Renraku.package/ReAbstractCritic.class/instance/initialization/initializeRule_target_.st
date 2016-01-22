@@ -1,5 +1,5 @@
 initializeRule: aRule target: anEntity
 
-	self initialize.
-	rule := aRule.
-	target := anEntity 
+	self
+		initializeRule: aRule
+		sourceAnchor: (ReSourceAnchor entity: anEntity)

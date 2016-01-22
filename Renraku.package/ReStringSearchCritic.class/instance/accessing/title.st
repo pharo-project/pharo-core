@@ -1,2 +1,0 @@
-title
-	^ '[', badSubstring , '] ', super title

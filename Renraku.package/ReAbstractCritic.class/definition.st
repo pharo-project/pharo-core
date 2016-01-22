@@ -1,5 +1,5 @@
-Object subclass: #ReAbstractCritic
-	instanceVariableNames: 'rule target'
+ReProperty subclass: #ReAbstractCritic
+	instanceVariableNames: 'rule'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku'
+	category: 'Renraku-Critics'

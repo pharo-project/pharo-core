@@ -4,4 +4,4 @@ testTarget
 	rule := (RBLintRule allSubclasses select: #isVisible)	 anyOne new.
 	critic := ReAbstractCritic for: thisContext method by: rule.
 	
-	self assert: critic target equals: thisContext method
+	self assert: critic sourceAnchor entity equals: thisContext method

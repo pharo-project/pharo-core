@@ -1,0 +1,2 @@
+action: anObject
+	action := anObject

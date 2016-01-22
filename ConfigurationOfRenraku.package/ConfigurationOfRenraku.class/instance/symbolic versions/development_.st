@@ -3,4 +3,4 @@ development: spec
 	
 	spec for: #'pharo4.x' version: 'v0.7.0'.
 	
-	spec for: #'pharo5.x' version: 'v0.10.0-pre'
+	spec for: #'pharo5.x' version: 'v0.12.0-pre'

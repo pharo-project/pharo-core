@@ -1,0 +1,3 @@
+checksAST
+
+	^ true

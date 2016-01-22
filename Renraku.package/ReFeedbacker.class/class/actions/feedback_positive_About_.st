@@ -9,7 +9,7 @@ feedback: aComment positive: aBoolean About: aReCritic
 		formAt: 'pharoVersion' put: SystemVersion current highestUpdate asString;
 		formAt: 'author' put: Author fullName;
 		formAt: 'rule' put: aReCritic rule class name;
-		formAt: 'target' put: aReCritic target name;
+		formAt: 'target' put: aReCritic sourceAnchor entity name;
 		formAt: 'time' put: DateAndTime now asString;
 		formAt: 'positive' put: aBoolean asString;
 		formAt: 'comment' put: aComment;

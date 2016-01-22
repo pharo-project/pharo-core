@@ -6,9 +6,9 @@ check: aMethod forCriticsDo: aCriticBlock ifNone: alternativeBlock
 	(aMethod messages
 		select: [ :each | (implementors includes: each) not ]
 		thenCollect: [ :each |
-			aCriticBlock cull: (ReStringSearchCritic
+			aCriticBlock cull: (ReStringBasedCritic
 					for: aMethod
 					by: self
-					badSubstring: each) ])
+					badString: each) ])
 				
 	ifEmpty: alternativeBlock 

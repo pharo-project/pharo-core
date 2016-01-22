@@ -1,0 +1,1 @@
+I allow to provide a string that should be matched in the source entity and converted to an interval

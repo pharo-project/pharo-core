@@ -12,5 +12,5 @@ check: aClass forCriticsDo: aCriticBlock ifNone: alternativeBlock
 				isWritten ifFalse: [ isWritten := (class whichSelectorsAssign: each) isNotEmpty ].
 				isRead and: [ isWritten ] ] ]
 		thenCollect: [ :varName | aCriticBlock cull: (
-			ReStringSearchCritic for: aClass by: self badSubstring: varName)
+			ReStringBasedCritic for: aClass by: self badString: varName)
 			 ]) ifEmpty: alternativeBlock

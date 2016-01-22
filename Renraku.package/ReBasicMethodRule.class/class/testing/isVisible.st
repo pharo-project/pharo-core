@@ -1,0 +1,2 @@
+isVisible
+	^ self name ~= #ReBasicMethodRule

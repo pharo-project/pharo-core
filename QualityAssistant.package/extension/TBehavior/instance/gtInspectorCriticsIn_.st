@@ -1,22 +1,22 @@
 gtInspectorCriticsIn: composite
-	"This provides a list of all critics"
+	"This provides a list of all external properties"
 	<gtInspectorPresentationOrder: 20>
-	| critics |
+	| eProperties |
 	
 	composite list 
-		when: [ QASettings inspectorPluggin and: [ (critics := self critics) notEmpty ] ];
-		title: [ critics size asString, (' critic' asPluralBasedOn: critics) ];
+		when: [ QASettings inspectorPluggin and: [ (eProperties := self externalProperties) notEmpty ] ];
+		title: [ eProperties size asString, (' critic' asPluralBasedOn: eProperties) ];
 		titleIcon: [ CircleMorph new
 			extent: 16 @ 16;
 			borderWidth: 0;
 			color: Color red darker darker;
 			addMorphCentered:
-				(critics size asStringMorph
+				(eProperties size asStringMorph
 					color: Color white;
 					emphasis: 1;
 					yourself);
 			iconOrThumbnail ];
-		display: [ self critics ];
+		display: [ self externalProperties ];
 		icon: #icon;
 		format: #title;
 		tags: [ :critic | { critic rule group } ]

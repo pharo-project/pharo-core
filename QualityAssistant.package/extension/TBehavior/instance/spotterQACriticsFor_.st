@@ -1,15 +1,15 @@
 spotterQACriticsFor: aStep
 	<spotterOrder: 0>
-	| critics |
+	| eProperties |
 	
 	"A way to disable plugin from prefs"
-	critics := QASettings spotterPlugin
-		ifTrue: [ self critics asArray ]
+	eProperties := QASettings spotterPlugin
+		ifTrue: [ self externalProperties asArray ]
 		ifFalse: [ #() ].
 	
 	aStep listProcessor
 		title: 'QA Critics';
-		items: [ critics ];
+		items: [ eProperties ];
 		itemName: #title;
 		itemIcon: #icon;
 		filter: GTFilterSubstring

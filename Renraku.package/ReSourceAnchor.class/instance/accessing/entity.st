@@ -1,0 +1,2 @@
+entity
+	^ self sourceEntity

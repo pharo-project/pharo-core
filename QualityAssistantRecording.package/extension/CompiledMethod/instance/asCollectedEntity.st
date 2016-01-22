@@ -1,0 +1,2 @@
+asCollectedEntity
+	^ self asCollectedRingDefinition

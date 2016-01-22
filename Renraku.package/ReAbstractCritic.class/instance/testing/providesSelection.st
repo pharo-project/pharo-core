@@ -1,3 +1,0 @@
-providesSelection
-
-	^ self subclassResponsibility 

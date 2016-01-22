@@ -1,0 +1,2 @@
+isCritic
+	^ false

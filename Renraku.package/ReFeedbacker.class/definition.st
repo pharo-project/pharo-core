@@ -2,4 +2,4 @@ Object subclass: #ReFeedbacker
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku'
+	category: 'Renraku-Utility'

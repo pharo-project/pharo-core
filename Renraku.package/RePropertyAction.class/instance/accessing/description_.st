@@ -1,0 +1,2 @@
+description: anObject
+	description := anObject

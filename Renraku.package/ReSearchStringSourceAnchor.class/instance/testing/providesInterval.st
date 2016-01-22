@@ -1,0 +1,3 @@
+providesInterval
+
+	^ searchString notNil

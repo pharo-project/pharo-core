@@ -1,12 +1,13 @@
 critics
-
+	<eProperty>
 	| rules critics manifest builder |
 	
+		
 	builder := TheManifestBuilder new.
 	manifest := builder manifestOf: self.
 		
-	rules := ReRuleManager uniqueInstance methodRules.
-	critics := Set new.
+	rules    := ReRuleManager uniqueInstance methodRules.
+	critics  := Set new.
 	rules
 		reject: [ :rule |
 			manifest isNotNil and:
@@ -17,6 +18,7 @@ critics
 			rule check: self forCriticsDo: [ :critic | critics add: critic ].
 			Processor yield ].
 	
-	ReSystemAnnouncer uniqueInstance notifyEntity: self CriticizedWith: critics. 
 	
-	^ critics
+	ReSystemAnnouncer uniqueInstance notifyEntity: self criticizedWith: critics. 
+	
+	^ critics, self ast critics

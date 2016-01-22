@@ -1,0 +1,3 @@
+initializeEnitity: anEntity 
+	
+	sourceEntity := anEntity

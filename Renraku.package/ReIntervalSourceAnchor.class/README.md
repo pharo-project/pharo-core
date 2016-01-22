@@ -1,0 +1,1 @@
+I allow to specify the interval in a source code

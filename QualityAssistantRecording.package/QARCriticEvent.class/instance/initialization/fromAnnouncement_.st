@@ -1,3 +1,3 @@
 fromAnnouncement: anAnnouncement
 
-	entity := anAnnouncement entity asCollectedRingDefinition
+	entity := anAnnouncement entity asCollectedEntity 
