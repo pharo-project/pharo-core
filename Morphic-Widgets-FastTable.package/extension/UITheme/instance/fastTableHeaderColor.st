@@ -1,0 +1,2 @@
+fastTableHeaderColor
+	^ self lightBackgroundColor

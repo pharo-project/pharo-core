@@ -13,8 +13,7 @@ updateExposedRows
 	startIndex to: ((startIndex + visibleRows - 1) min: self owner numberOfRows) do: [ :rowIndex | 
 		| row |
 		row := FTTableRowMorph table: self owner.
-		1 to: numberOfColumns do: [ :columnIndex | 
-			| cell |
+		1 to: numberOfColumns do: [ :columnIndex | | cell |
 			cell := (self owner dataSource 
 				cellColumn: (columns at: columnIndex)
 				row: rowIndex).  

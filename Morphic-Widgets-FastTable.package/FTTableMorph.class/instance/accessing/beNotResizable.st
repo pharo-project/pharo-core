@@ -1,0 +1,2 @@
+beNotResizable
+	resizable := false

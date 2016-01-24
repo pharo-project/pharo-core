@@ -1,0 +1,2 @@
+isResizable
+	^ resizable

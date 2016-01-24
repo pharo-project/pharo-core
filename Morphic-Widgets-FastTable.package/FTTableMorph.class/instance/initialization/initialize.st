@@ -5,6 +5,7 @@ initialize
 	highlightedRowIndexes := #().
 	columns := #().
 	needToggleAtMouseUp := false.
+	self beNotResizable.
 	self beSingleSelection.
 	self enableSearch.
 	self initializeScrollBars.

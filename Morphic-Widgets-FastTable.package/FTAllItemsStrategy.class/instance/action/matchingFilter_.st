@@ -1,9 +1,10 @@
 matchingFilter: anItem
 	((anItem children collect: [ :it | self matchingFilter: it ]) reject: #isNil)
-		ifNotEmpty: [ :coll | 
+		ifNotEmpty:
+			[ :coll | 
 			^ (self newStaticItemFrom: anItem)
 				children: coll asArray;
 				dataSource: anItem dataSource;
-				expand;
+				expandWithoutChange;
 				yourself ].
-	^ (pattern matchesIn: anItem asString) ifEmpty: [ nil ] ifNotEmpty: [ self newStaticItemFrom: anItem ]
+	^ (pattern matchesIn: (self dataSource toString: anItem)) ifEmpty: [ nil ] ifNotEmpty: [ self newStaticItemFrom: anItem ]

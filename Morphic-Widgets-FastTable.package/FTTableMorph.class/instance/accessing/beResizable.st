@@ -1,0 +1,2 @@
+beResizable
+	resizable := true

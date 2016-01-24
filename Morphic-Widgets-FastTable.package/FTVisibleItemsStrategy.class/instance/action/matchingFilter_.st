@@ -2,13 +2,12 @@ matchingFilter: anItem
 	anItem isExpanded
 		ifTrue:
 			[ ((anItem children collect: [ :each | self matchingFilter: each ]) reject: #isNil)
-				ifNotEmpty:
-					[ :coll | 
+				ifNotEmpty: [ :coll | 
 					^ (self newStaticItemFrom: anItem)
 						children: coll asArray;
-						expand;
+						expandWithoutChange;
 						yourself ] ].
-	^ (pattern matchesIn: anItem asString)
+	^ (pattern matchesIn: (self dataSource toString: anItem))
 		ifNotEmpty: [ anItem isExpanded
 				ifTrue: [ self newStaticItemFrom: anItem ]
 				ifFalse: [ anItem ] ]

@@ -1,2 +1,0 @@
-asString
-	^ dataSource toString: data

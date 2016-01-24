@@ -22,20 +22,22 @@ drawOn: canvas
 	rowSubviews := OrderedCollection new: rowsToDisplay size + 1.
 	headerRow ifNotNil: [ 
 		headerRow bounds: (self left@y extent: self width@cellHeight).
-		y := y + cellHeight + self owner intercellSpacing.		
+		y := y + cellHeight + self owner intercellSpacing y.		
 		rowSubviews add: headerRow ].
 	
 	rowsToDisplay keysAndValuesDo: [ :rowIndex :row | | visibleHeight |
 		visibleHeight := cellHeight min: (self bottom - y). 
 		row bounds: (x@y extent: cellWidth@visibleHeight).
-		y := y + visibleHeight + self owner intercellSpacing.
+		y := y + visibleHeight + self owner intercellSpacing y.
 		
 		(highligtedRowIndexes includes: rowIndex) ifTrue: [ 
-			row selectionColor: (self owner colorForSelection: primarySelectionIndex = rowIndex)
-		].
-		rowSubviews add: row.
-	].
-		
+			row selectionColor: (self owner colorForSelection: primarySelectionIndex = rowIndex) ].
+		rowSubviews add: row ].
+						
 	submorphs := rowSubviews asArray.
+	
+	owner isResizable 
+		ifTrue: [ self addResizeSplitters ].
+	
 	super drawOn: canvas.
 	needsRefreshExposedRows := false

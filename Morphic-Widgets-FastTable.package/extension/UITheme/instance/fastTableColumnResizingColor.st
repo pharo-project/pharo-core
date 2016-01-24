@@ -1,0 +1,2 @@
+fastTableColumnResizingColor
+	^ self selectionColor

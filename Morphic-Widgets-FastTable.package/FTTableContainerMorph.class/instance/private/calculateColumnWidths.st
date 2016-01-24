@@ -9,10 +9,12 @@ calculateColumnWidths
 	remainingWidth := self owner bounds width.
 
 	widths := self owner columns
-		collect: [ :c | | columnWidth | columnWidth := c acquireWidth: remainingWidth. 
-			remainingWidth := remainingWidth - columnWidth. columnWidth ].
+		collect: [ :c | | columnWidth | 
+			columnWidth := c acquireWidth: remainingWidth. 
+			remainingWidth := remainingWidth - columnWidth. 
+			columnWidth ].
    "all fit - finish"		
-	undefinedColumnWidths := widths count:#isZero.
+	undefinedColumnWidths := widths count: #isZero.
    undefinedColumnWidths isZero ifTrue:[^ widths].
 
    "collect and distribute remaining space"

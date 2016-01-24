@@ -1,0 +1,2 @@
+resizerWidth
+	^ 8

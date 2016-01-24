@@ -1,0 +1,2 @@
+canResizeColumn
+	^ container owner isResizable
