@@ -1,3 +1,5 @@
 removeStayUpItems
 
-	menuItems select: [ :menuItem | menuItem isStayUpItem ] thenDo: [ :each | each delete ].
+	self menuItems
+		select: [ :menuItem | menuItem isStayUpItem ]
+		thenDo: [ :each | each delete ].

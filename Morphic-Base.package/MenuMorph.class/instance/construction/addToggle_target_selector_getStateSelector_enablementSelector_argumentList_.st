@@ -9,4 +9,4 @@ addToggle: aString target: anObject selector: aSymbol getStateSelector: stateSym
 		arguments: argList;
 		getStateSelector: stateSymbol;
 		enablementSelector: enableSymbol.
-	^ self addMorphBack: item.
+	^ self addMenuItem: item

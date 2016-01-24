@@ -1,4 +1,3 @@
 hasSubMenu: aMenuMorph
 
-	^menuItems anySatisfy: [ :menuItem | menuItem hasSubMenu: aMenuMorph ]
-	
+	^submorphs anySatisfy: [ :m | m isMenuItemMorph and: (m hasSubMenu: aMenuMorph) ]

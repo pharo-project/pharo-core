@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '17301 Morph>>#drawOnAthensCanvas: should only fill innerBounds
-	https://pharo.fogbugz.com/f/cases/17301
+ ^ '17423 PopupChoiceDialogWindow keyboard navigation
+	https://pharo.fogbugz.com/f/cases/17423
 
-17384 RBNulllFormater>>#format: should not return nil
-	https://pharo.fogbugz.com/f/cases/17384'
+17435 ClassOrganisation>>#changeFromString: MNU for empty change
+	https://pharo.fogbugz.com/f/cases/17435'

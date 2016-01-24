@@ -1,3 +1,4 @@
 lastItem
-	
-	^menuItems ifEmpty: [ submorphs last ] ifNotEmpty: [ menuItems last ] 
+
+	submorphs reverseDo: [ :each | (each isMenuItemMorph) ifTrue: [ ^each ] ].
+	^submorphs last

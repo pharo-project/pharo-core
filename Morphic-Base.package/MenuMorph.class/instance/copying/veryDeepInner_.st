@@ -7,4 +7,3 @@ veryDeepInner: deepCopier
 	stayUp := stayUp veryDeepCopyWith: deepCopier.
 	popUpOwner := popUpOwner.		"Weakly copied"
 	activeSubMenu := activeSubMenu. "Weakly copied"
-	menuItems := menuItems.
