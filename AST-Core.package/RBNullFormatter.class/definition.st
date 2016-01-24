@@ -1,5 +1,5 @@
 RBProgramNodeVisitor subclass: #RBNullFormatter
-	instanceVariableNames: ''
+	instanceVariableNames: 'codeStream'
 	classVariableNames: 'FormatAsYouReadPolicy'
 	poolDictionaries: ''
 	category: 'AST-Core-Formatter'
