@@ -1,2 +1,2 @@
 showClassDefinition
-	method text: self classes selectedItem definition
+	method text: (self classes selectedItem definition  ifNil:[''])

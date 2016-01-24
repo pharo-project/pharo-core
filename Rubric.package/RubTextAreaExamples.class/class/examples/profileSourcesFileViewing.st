@@ -4,12 +4,20 @@ profileSourcesFileViewing
 
 	"self profileSourcesFileViewing"
 
+	| contents |
+	
+	contents := nil.
+	
 	self
-		show: 'Wait a moment, the sources file is huge' translated
-		while: [ 
-			TimeProfiler
-				spyAllOn: [ 
-					(RubEditingArea new
-						beWrapped;
-						width: 600;
-						updateTextWith: (FileStream readOnlyFileNamed: Smalltalk sourcesFile basename) contents) openInWorld ] ]
+	show: 'Wait a moment loading text, the sources file is huge' translated
+	while: [ 
+		contents := (FileStream readOnlyFileNamed: Smalltalk sourcesFile basename) contents
+	].
+
+	TimeProfiler spyAllOn: [ 
+		RubEditingArea new
+			beWrapped;
+			width: 600;
+			updateTextWith: contents;
+			openInWorld  
+	]

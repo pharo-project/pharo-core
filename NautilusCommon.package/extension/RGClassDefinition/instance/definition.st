@@ -1,3 +1,0 @@
-definition
-
-	^ self realClass definition

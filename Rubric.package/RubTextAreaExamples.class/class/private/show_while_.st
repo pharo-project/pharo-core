@@ -8,15 +8,8 @@ show: aMessage while: aBlock
 		setTextWith: aMessage;
 		font: (LogicalFont familyName: 'Arial' pointSize: 20);
 		textColor: Color white;
+		openInWorld;
 		centered;
 		yourself.
-	m
-		openInWorld;
-		centered.
-	WorldState
-		addDeferredUIMessage: [ 
-			World displayWorldSafely.
-			Cursor wait
-				showWhile: [ 
-					aBlock
-						ensure: [ m delete ] ] ]
+	
+	[ aBlock ensure: [ m delete ] ] fork.
