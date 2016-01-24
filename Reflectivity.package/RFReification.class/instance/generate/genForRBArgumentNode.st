@@ -1,0 +1,2 @@
+genForRBArgumentNode
+	^self genForRBTemporaryNode

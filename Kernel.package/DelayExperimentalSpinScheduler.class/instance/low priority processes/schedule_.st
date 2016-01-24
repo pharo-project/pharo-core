@@ -7,7 +7,7 @@ schedule: aDelay
 	[ 	scheduledDelay == nil ifTrue: [ 
 				scheduledDelay := aDelay. 
 				timingSemaphore signal.
-				^true.
+				^self
 				].
 		true.
 	] whileTrue.	

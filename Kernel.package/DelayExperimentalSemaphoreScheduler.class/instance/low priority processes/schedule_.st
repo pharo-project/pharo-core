@@ -13,6 +13,4 @@ schedule: aDelay
 	 and signals scheduledDelayNilledSemaphore."
 	
 	timingSemaphore signal. 
-
-	^true
 	

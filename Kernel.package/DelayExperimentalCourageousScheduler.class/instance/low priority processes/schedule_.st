@@ -9,4 +9,3 @@ schedule: aDelay
 	
 	scheduledDelay := aDelay. 
 	timingSemaphore signal.
-	^true.

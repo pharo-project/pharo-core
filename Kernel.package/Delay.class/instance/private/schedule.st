@@ -1,4 +1,4 @@
 schedule
 	"Schedule this delay."
 	
-	^Scheduler schedule: self.
+	Scheduler schedule: self.
