@@ -1,2 +1,2 @@
 lastIsReturn
-	^ self body lastIsReturn
+	^ false

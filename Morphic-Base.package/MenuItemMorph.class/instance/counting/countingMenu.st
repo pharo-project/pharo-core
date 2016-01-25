@@ -1,3 +1,0 @@
-countingMenu
-
-	^ ShortcutReminderMorph countingMenu

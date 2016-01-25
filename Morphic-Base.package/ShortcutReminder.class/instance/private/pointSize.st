@@ -1,0 +1,3 @@
+pointSize
+
+	^size value: self

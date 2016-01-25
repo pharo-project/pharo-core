@@ -1,1 +1,0 @@
-Annoys you when you use menu instead of shortcut.(self with: 'Youpi') openInHand

@@ -1,0 +1,4 @@
+resetCount
+
+	countDict := Dictionary new. 
+	

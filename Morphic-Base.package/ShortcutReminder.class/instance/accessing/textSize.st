@@ -1,0 +1,3 @@
+textSize
+
+	^size

@@ -1,0 +1,5 @@
+showShortcut
+
+	ShortcutReminder showShortcut: self
+
+	

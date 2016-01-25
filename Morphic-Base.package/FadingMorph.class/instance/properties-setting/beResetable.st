@@ -1,0 +1,3 @@
+beResetable
+
+	resetable := true

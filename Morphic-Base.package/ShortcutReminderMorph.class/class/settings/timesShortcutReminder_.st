@@ -1,3 +1,0 @@
-timesShortcutReminder: anInteger 
-	
-	TimesToRemindSameShortcut := anInteger

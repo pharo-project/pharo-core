@@ -1,0 +1,3 @@
+textColor
+
+	^textColor

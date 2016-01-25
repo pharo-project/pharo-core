@@ -1,0 +1,2 @@
+hasBlockReturn
+	^ self body lastIsReturn
