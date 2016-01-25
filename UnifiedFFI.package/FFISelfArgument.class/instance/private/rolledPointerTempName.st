@@ -1,0 +1,2 @@
+rolledPointerTempName
+	^ self rolledPointerTempNameFor: #self

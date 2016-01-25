@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	self setHandle: ExternalAddress new
+	self setHandle: ExternalAddress new.

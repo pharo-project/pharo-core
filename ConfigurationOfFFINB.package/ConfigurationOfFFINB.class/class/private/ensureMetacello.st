@@ -1,3 +1,0 @@
-ensureMetacello
-
-	(self baseConfigurationClassIfAbsent: []) ensureMetacello

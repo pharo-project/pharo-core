@@ -1,5 +1,7 @@
 emitArgument: aBuilder context: aContext
  	self loader
 		emitArgument: aBuilder 
-		context: aContext
-		objectClass: self objectClass
+		type: self
+		context: aContext 
+		objectClass: self objectClass	
+		instVarName: #handle

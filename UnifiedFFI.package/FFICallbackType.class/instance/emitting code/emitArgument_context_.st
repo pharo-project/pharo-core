@@ -1,6 +1,7 @@
 emitArgument: aBuilder context: aContext
  	self loader
-		emitArgument: aBuilder 
+		emitArgument: aBuilder
+		type: self 
 		context: aContext 
 		objectClass: self objectClass 
 		instVarName: #thunk

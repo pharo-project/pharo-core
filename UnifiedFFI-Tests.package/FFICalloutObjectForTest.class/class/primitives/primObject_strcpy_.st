@@ -1,4 +1,4 @@
 primObject: anObject strcpy: aString
 	self
 		ffiCall: #( char *strcpy ( FFICalloutObjectForTest anObject, const char *aString ) )
-		module: 'libc'
+		module: LibC

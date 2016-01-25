@@ -12,6 +12,8 @@ generateFFICallout: builder spec: functionSpec
 	builder pushConsArray: functionSpec arguments size.
 	"send call and store into result"
 	builder send: #invokeWithArguments:.
+	functionSpec arguments
+		do: [ :each | each emitReturnArgument: builder context: sender ].
 	"convert in case return type needs it. And return reseult"
 	^ functionSpec returnType
 		emitReturn: builder

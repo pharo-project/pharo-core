@@ -1,4 +1,5 @@
 emitArgument: aBuilder context: aContext 
-	^ self loader 
+	self loader 
 		emitArgument: aBuilder 
+		type: self 
 		context: aContext
