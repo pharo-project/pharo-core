@@ -4,8 +4,11 @@ testVisitXMLParserConfigurationWithVersion101
 	| visitor config project version |
 	
 	visitor := MCModel2MTModelVisitor new.
-	classFactory duplicateClass: ConfigurationOfVersionnerTestXMLParserTemplate withNewName: 'ConfigurationOfVersionnerTestXMLParser'.
-	config := (Smalltalk globals at: #ConfigurationOfVersionnerTestXMLParser).
+	
+	config := 
+	Smalltalk globals at: #ConfigurationOfVersionnerTestXMLParser ifAbsent: [ 
+		classFactory duplicateClass: ConfigurationOfVersionnerTestXMLParserTemplate withNewName: 'ConfigurationOfVersionnerTestXMLParser'
+	].
 	version := config project version: '1.1'.
 	project := visitor visitConfiguration: config withVersion: version.
 	

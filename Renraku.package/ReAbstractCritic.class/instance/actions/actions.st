@@ -18,7 +18,7 @@ actions
 				| change |
 				change := critic change.
 
-				ReSystemAnnouncer uniqueInstance notifyViewedDiffFor: critic of: critic target.
+				ReSystemAnnouncer uniqueInstance notifyViewedDiffFor: critic of: critic sourceAnchor entity.
 	
 				(TextModel new
 					title: 'Apply the proposed changes?';

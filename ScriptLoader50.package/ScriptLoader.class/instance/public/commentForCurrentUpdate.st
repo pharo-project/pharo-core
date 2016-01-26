@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17474 adapt Athens to UnifiedFFI 0.11 (pointer arity logic)
-	https://pharo.fogbugz.com/f/cases/17474
+ ^ '17466 testVisitXMLParserConfigurationWithVersion101 failing 
+	https://pharo.fogbugz.com/f/cases/17466
 
-17421 RubTextMethodLink and RubTextClassLink Leaks (TextStyling related)
-	https://pharo.fogbugz.com/f/cases/17421
+17438 New Rubric Configuration
+	https://pharo.fogbugz.com/f/cases/17438
 
-17442 Improve Morph>>#flash
-	https://pharo.fogbugz.com/f/cases/17442'
+17454 QualityAssistant v2.3.3
+	https://pharo.fogbugz.com/f/cases/17454'

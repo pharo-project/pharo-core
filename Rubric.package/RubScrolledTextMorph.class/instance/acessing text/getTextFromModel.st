@@ -3,6 +3,6 @@ getTextFromModel
 
 	| newText |
 	self getTextSelector ifNil: [^Text new].
-	newText := (self model perform: self getTextSelector withEnoughArguments: {self}) asText.
+	newText := (self model perform: self getTextSelector withEnoughArguments: {self}).
 	newText ifNil: [^Text new].
-	^newText copy
+	^newText copy asText

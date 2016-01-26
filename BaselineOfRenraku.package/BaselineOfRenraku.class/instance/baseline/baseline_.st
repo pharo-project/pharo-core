@@ -6,7 +6,8 @@ baseline: spec
 		spec
 			preLoadDoIt: #unsubscribeReEngine;
 			package: 'Renraku';
-			package: 'Renraku-Test' with: [ spec requires: 'Renraku' ].
+			package: 'Renraku-Test' with: [ spec requires: 'Renraku' ];
+			postLoadDoIt: #resetRuleManager.
 
 		spec
 			group: 'default' with: #('Renraku' 'Renraku-Test');
