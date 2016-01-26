@@ -1,6 +1,6 @@
 flash
-	| fs w |
+	| fs |
 	fs := self fillStyle.
-	self fillStyle: Color black.
-	(w := self world) ifNotNil: [w displayWorldSafely].
-	self fillStyle: fs
+	self fillStyle: self flashFillStyle.
+	
+	self addAlarm: #flashDone: withArguments: { fs } after: 50

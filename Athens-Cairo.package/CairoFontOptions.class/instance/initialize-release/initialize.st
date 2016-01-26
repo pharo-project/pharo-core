@@ -1,3 +1,3 @@
 initialize 
-	self registerAsExternalResource.
+	self autoRelease.
 	self setDefaults

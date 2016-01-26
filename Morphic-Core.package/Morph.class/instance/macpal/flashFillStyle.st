@@ -1,0 +1,3 @@
+flashFillStyle
+
+	^Color black

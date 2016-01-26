@@ -12,7 +12,7 @@ glyphsOf: aString from: start to: end
 		convertString: utfConverter buffer 
 		len: utf8Len
 		ofFont: font 
-		toGlyphs: ptr gcpointer
+		toGlyphs: ptr
 		numGlyphs: lenValue 
 		x: 0.0 
 		y: 0.0.

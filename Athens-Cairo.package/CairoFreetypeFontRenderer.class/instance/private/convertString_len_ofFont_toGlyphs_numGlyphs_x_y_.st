@@ -12,7 +12,7 @@ http://www.cairographics.org/manual/cairo-User-Fonts.html#cairo-user-scaled-font
 			double y,
 			void * utf8String,
 			int strlen,
-			void ** glyphs,
+			CairoGlyphsArray ** glyphs,
 			int * numGlyphs,
 			0,
 			0,
