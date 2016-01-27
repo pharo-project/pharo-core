@@ -7,4 +7,5 @@ startUp: resuming
 		 GCMallocedAliens ifNotNil:
 			[:gcMallocedAliens| gcMallocedAliens removeAll].
 		"The io lock is off in the new session, so we shut down the process if it's running."
-		ProcessIoEvents := false]
+		ProcessIoEvents := false.
+		WordSize := Smalltalk wordSize]

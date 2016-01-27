@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17466 testVisitXMLParserConfigurationWithVersion101 failing 
-	https://pharo.fogbugz.com/f/cases/17466
+ ^ '17482 load UnifiedFFI 0.11.2
+	https://pharo.fogbugz.com/f/cases/17482
 
-17438 New Rubric Configuration
-	https://pharo.fogbugz.com/f/cases/17438
-
-17454 QualityAssistant v2.3.3
-	https://pharo.fogbugz.com/f/cases/17454'
+17479 Interval class comment mixes step/stop when explaining Instance Variables
+	https://pharo.fogbugz.com/f/cases/17479'

@@ -10,8 +10,8 @@ ensureInSpecialObjectsArray
 	self ~~ Alien ifTrue: [^self].
 
 	index := 53.
-	((Smalltalk includesKey: #ObjectMemory)
-	 and: [((Smalltalk at: #ObjectMemory) classPool at: #ClassAlien ifAbsent: []) ~~ (index - 1)]) ifTrue:
+	((Smalltalk includesKey: #VMObjectIndices)
+	 and: [((Smalltalk at: #VMObjectIndices) classPool at: #ClassAlien ifAbsent: []) ~= (index - 1)]) ifTrue:
 		[self error: 'index probably wrong'].
 
 	Smalltalk specialObjectsArray size < index ifTrue:
@@ -22,5 +22,5 @@ ensureInSpecialObjectsArray
 		and: [(Smalltalk specialObjectsArray at: index) ~~ self]]) ifTrue:
 		[self error: 'SystemDictionary>>recreateSpecialObjectsArray appears incompatible'].
 
-	(Smalltalk specialObjectsArray at: index) == nil ifTrue:
+	(Smalltalk specialObjectsArray at: index) ifNil:
 		[Smalltalk specialObjectsArray at: index put: self]

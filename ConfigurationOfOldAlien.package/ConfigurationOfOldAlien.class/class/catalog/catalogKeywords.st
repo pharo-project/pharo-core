@@ -1,2 +1,0 @@
-catalogKeywords
-	^ #(ffi callbacks system)

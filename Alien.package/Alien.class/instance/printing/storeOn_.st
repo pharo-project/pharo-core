@@ -1,23 +1,25 @@
 storeOn: aStream
 	| sizeField |
-	(sizeField := self sizeField) > 0	ifTrue:
+	(sizeField := self sizeField) ~= 0 ifTrue:
 		[aStream nextPut: $(].
 	aStream nextPut: $(; print: self class.
 	sizeField = 0
 		ifTrue:
-			[aStream
-				nextPutAll: ' forPointer: '; nextPutAll: self addressField storeStringHex]
+			[aStream nextPutAll: ' forPointer: '; nextPutAll: self addressField storeStringHex]
 		ifFalse:
 			[aStream
-				nextPutAll: ' basicNew: '; print: sizeField + 4; nextPut: $);
-				crtab; nextPutAll: 'sizeFieldPut: '; print: sizeField.
-			 sizeField > 0 ifTrue:
-				[1 to: sizeField by: 4 do:
-					[:i| | v |
-					(v := self unsignedLongAt: i) ~= 0 ifTrue:
-						[aStream
-							nextPut: $;; crtab;
-							nextPutAll: 'unsignedLongAt: '; print: i;
-							nextPutAll: ' put: '; print: v]]].
-				aStream nextPut: $;; crtab; nextPutAll: #yourself].
+				nextPutAll: (sizeField < 0 ifTrue: [' newC: '] ifFalse: [' new: ']);
+				print: (sizeField := sizeField abs); nextPut: $).
+			 1 to: sizeField by: 4 do:
+				[:i| | v |
+				(v := self unsignedLongAt: i) ~= 0 ifTrue:
+					[aStream
+						crtab;
+						nextPutAll: 'unsignedLongAt: '; print: i;
+						nextPutAll: ' put: '; print: v; nextPut: $;]].
+			 aStream crtab; nextPutAll: #yourself].
 	aStream nextPut: $)
+
+	"{	(Alien forPointer: 0) storeString.
+		(Alien new: 8) storeString.
+		(Alien newC: 8) storeString }"

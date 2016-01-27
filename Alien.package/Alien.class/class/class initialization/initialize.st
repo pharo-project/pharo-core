@@ -1,8 +1,9 @@
 initialize
 	"Alien initialize"
-	LoadedLibraries isNil ifTrue:
+	LoadedLibraries ifNil:
 		[LoadedLibraries := Dictionary new].
-	GCMallocedAliens isNil ifTrue:
+	GCMallocedAliens ifNil:
 		[GCMallocedAliens := AlienWeakTable newForOwner: self].
+	WordSize := Smalltalk wordSize.
 	self ensureInSpecialObjectsArray.
 	self ensureNotifiedAtStartup
