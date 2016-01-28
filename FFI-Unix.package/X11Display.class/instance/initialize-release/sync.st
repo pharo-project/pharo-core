@@ -1,2 +1,0 @@
-sync
-	^self XSync: self

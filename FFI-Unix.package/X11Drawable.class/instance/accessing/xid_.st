@@ -1,2 +1,0 @@
-xid: anUnsignedInteger
-	xid := anUnsignedInteger

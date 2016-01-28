@@ -1,2 +1,0 @@
-flush
-	self XFlush: self

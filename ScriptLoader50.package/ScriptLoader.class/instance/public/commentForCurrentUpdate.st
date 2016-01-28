@@ -1,6 +1,12 @@
 commentForCurrentUpdate
- ^ '17482 load UnifiedFFI 0.11.2
-	https://pharo.fogbugz.com/f/cases/17482
+ ^ '17468 HelpBrowser should offer an API for selecting topics
+	https://pharo.fogbugz.com/f/cases/17468
 
-17479 Interval class comment mixes step/stop when explaining Instance Variables
-	https://pharo.fogbugz.com/f/cases/17479'
+17465 Change TopWindow before passivating the old
+	https://pharo.fogbugz.com/f/cases/17465
+
+17480 Add Timestamp in a filename
+	https://pharo.fogbugz.com/f/cases/17480
+
+17483 unload FFI platform packages
+	https://pharo.fogbugz.com/f/cases/17483'

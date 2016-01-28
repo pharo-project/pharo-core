@@ -1,2 +1,0 @@
-drawable: aDrawable
-	drawable := aDrawable

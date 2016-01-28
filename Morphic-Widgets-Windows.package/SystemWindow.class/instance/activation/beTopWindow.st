@@ -1,6 +1,10 @@
 beTopWindow
 	
-	TopWindow ifNotNil: [ :oldWindow | oldWindow privateBePassive ].
+	| oldTopWindow |
 	
+	oldTopWindow := TopWindow.
 	TopWindow := self.
+	
+	oldTopWindow ifNotNil: [ oldTopWindow privateBePassive ].
+	
 	self announceActivated.

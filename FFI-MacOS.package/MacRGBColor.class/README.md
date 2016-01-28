@@ -1,1 +1,0 @@
-See class comment for MacRect.

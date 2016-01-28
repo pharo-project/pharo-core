@@ -1,2 +1,0 @@
-display: aDisplay
-	display := aDisplay

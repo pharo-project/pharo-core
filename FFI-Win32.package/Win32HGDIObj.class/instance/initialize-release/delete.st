@@ -1,2 +1,0 @@
-delete
-	self apiDeleteObject: self

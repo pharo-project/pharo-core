@@ -1,2 +1,0 @@
-displayString
-	^self XDisplayString: self
