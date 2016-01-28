@@ -1,0 +1,2 @@
+createStdout
+	^ VTermOutputDriver stdout

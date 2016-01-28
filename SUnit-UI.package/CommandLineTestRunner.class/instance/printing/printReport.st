@@ -1,4 +1,9 @@
 printReport
-	self stderr lf; 
-		nextPutAll: 'Finished running '; print: maxTest; 
-		nextPutAll: ' Test'; nextPutAll: (maxTest = 1 ifTrue: [''] ifFalse: ['s']); lf
+	| cr |
+	cr := OSPlatform current lineEnding.
+	
+	self stderr
+		<< cr
+		<< 'Finished running ' << maxTest asString  
+		<< ' Test' << (maxTest = 1 ifTrue: [''] ifFalse: ['s'])
+		<< cr

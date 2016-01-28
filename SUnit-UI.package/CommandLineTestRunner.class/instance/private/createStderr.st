@@ -1,0 +1,2 @@
+createStderr
+	^ Stdio stderr

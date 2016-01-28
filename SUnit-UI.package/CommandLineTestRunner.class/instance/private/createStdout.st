@@ -1,0 +1,2 @@
+createStdout
+	^ Stdio stdout

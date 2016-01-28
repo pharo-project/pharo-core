@@ -1,0 +1,2 @@
+createStderr
+	^ VTermOutputDriver stderr

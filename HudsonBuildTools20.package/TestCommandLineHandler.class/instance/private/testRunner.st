@@ -1,4 +1,4 @@
 testRunner
-	^ (self hasOption: 'junit-xml-output')
-		ifTrue: [ HDTestReport ]
-		ifFalse: [ CommandLineTestRunner ]
+	(self hasOption: 'junit-xml-output') ifTrue: [ ^ HDTestReport ].
+	(self hasOption: 'no-xterm') ifTrue: [ ^ CommandLineTestRunner ].
+	^ VTermTestRunner

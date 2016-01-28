@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '17468 HelpBrowser should offer an API for selecting topics
-	https://pharo.fogbugz.com/f/cases/17468
+ ^ '17484 FullscreenMorph should not "be" a docking bar
+	https://pharo.fogbugz.com/f/cases/17484
 
-17465 Change TopWindow before passivating the old
-	https://pharo.fogbugz.com/f/cases/17465
+17473 Some rpackages have a strange state
+	https://pharo.fogbugz.com/f/cases/17473
 
-17480 Add Timestamp in a filename
-	https://pharo.fogbugz.com/f/cases/17480
-
-17483 unload FFI platform packages
-	https://pharo.fogbugz.com/f/cases/17483'
+17488 tests from command line not always can be run with XTerm
+	https://pharo.fogbugz.com/f/cases/17488'

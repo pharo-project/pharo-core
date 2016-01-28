@@ -5,5 +5,5 @@ informResults: results
 				results sum: #suiteTotal.
 				results sum: #suitePassing.
 				results sum: #suiteFailures.
-				results sum: #suiteErrors });
-		lf
+				results sum: #suiteErrors })
+		<< OSPlatform current lineEnding
