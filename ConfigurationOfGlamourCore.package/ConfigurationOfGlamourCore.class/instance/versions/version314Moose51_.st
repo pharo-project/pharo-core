@@ -26,7 +26,8 @@ version314Moose51: spec
 			package: 'Glamour-Browsers' with: 'Glamour-Browsers.Moose51-CyrilFerlicot.110';
 			package: 'Glamour-Tests-Core' with: 'Glamour-Tests-Core.Moose51-CyrilFerlicot.105';
 			package: 'Glamour-Tests-Morphic' with: 'Glamour-Tests-Morphic.Moose51-CyrilFerlicot.125';
-			package: 'Glamour-Morphic-Renderer' with:'Glamour-Morphic-Renderer.Moose51-CyrilFerlicot.325'.
+			package: 'Glamour-Morphic-Renderer' with:'Glamour-Morphic-Renderer.Moose51-CyrilFerlicot.325';
+			package: 'Glamour-Presentations' with: 'Glamour-Presentations.Moose51-CyrilFerlicot.178'.
 		
 		spec 
 			project: 'Rubric' with: '1.2.14.Moose51' ].
