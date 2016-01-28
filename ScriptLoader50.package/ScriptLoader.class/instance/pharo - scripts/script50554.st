@@ -1,4 +1,4 @@
-script50553
+script50554
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -300,7 +300,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.715.mcz
+Slot-TheIntegrator.717.mcz
 Slot-Tests-TheIntegrator.80.mcz
 SmartSuggestions-TheIntegrator.216.mcz
 SmartSuggestions-Tests-TheIntegrator.22.mcz
