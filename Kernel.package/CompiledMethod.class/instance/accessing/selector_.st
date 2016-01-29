@@ -3,6 +3,7 @@ selector: aSelector
 	 or, if the method has any properties or pragmas, the selector of
 	 the MethodProperties stored in the penultimate literal."
 	| penultimateLiteral nl | 
+	Symbol internSelector:  aSelector.
 	(penultimateLiteral := self penultimateLiteral) isMethodProperties
 		ifTrue: [penultimateLiteral selector: aSelector]
 		ifFalse: [(nl := self numLiterals) < 2 ifTrue:

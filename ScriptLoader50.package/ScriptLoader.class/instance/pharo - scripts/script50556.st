@@ -1,4 +1,4 @@
-script50555
+script50556
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -41,7 +41,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.231.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.388.mcz
+Collections-Strings-EstebanLorenzano.390.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.26.mcz
 Collections-Unordered-TheIntegrator.227.mcz
@@ -141,7 +141,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2217.mcz
+Kernel-EstebanLorenzano.2219.mcz
 Kernel-Tests-TheIntegrator.30.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -210,7 +210,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.233.mcz
+NECompletion-EstebanLorenzano.235.mcz
 NECompletion-Tests-TheIntegrator.8.mcz
 NativeBoost-Core-TheIntegrator.174.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
@@ -283,7 +283,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-NicolaiHess.327.mcz
+Rubric-EstebanLorenzano.329.mcz
 STON-Core-SvenVanCaekenberghe.58.mcz
 STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.163.mcz

@@ -1,4 +1,5 @@
 commentForCurrentUpdate
- ^ '16735 Replace Startup/Shutdown list with SessionManager
-	https://pharo.fogbugz.com/f/cases/16735
+ ^ '17496 add table for all defined method selectors and use it in code completion and syntax highlighting
+	https://pharo.fogbugz.com/f/cases/17496
+
 '

@@ -1,9 +1,9 @@
 visitMessageNode: aMessageNode
 	| style link |
 	style := #keyword.
-	(Symbol findInterned: aMessageNode selector asString)
+	(Symbol findInternedSelector: aMessageNode selector asString)
 		ifNil: [ 
-			style := (Symbol thatStartsCaseSensitive: aMessageNode selector asString skipping: nil) isNil
+			style := (Symbol selectorThatStartsCaseSensitive: aMessageNode selector asString skipping: nil) isNil
 				ifTrue: [ #undefinedKeyword ]
 				ifFalse: [ #incompleteKeyword ] ].
 	link := RubTextMethodLink selector: aMessageNode selector.
