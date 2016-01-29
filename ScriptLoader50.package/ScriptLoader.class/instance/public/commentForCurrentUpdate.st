@@ -1,5 +1,5 @@
 commentForCurrentUpdate
- ^ '17496 add table for all defined method selectors and use it in code completion and syntax highlighting
-	https://pharo.fogbugz.com/f/cases/17496
+ ^ '17490 Command Line Handler test runner should print a small stack for failures and errors
+	https://pharo.fogbugz.com/f/cases/17490
 
 '

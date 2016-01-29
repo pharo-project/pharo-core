@@ -1,5 +1,5 @@
 printFailure: anError of: aTestCase 
 	self
-		print: anError printString 
+		print: (self shortStackDescriptionFor: anError)
 		short: ' [FAIL]' 
 		of: aTestCase 

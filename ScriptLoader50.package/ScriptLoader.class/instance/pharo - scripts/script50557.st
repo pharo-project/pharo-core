@@ -1,4 +1,4 @@
-script50556
+script50557
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -289,7 +289,7 @@ STON-Tests-SvenVanCaekenberghe.53.mcz
 SUnit-Core-TheIntegrator.163.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-TheIntegrator.131.mcz
+SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.27.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
