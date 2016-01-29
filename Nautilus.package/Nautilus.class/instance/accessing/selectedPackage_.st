@@ -1,3 +1,3 @@
 selectedPackage: anObject
-	selectedPackage := anObject.
+	selectedPackage := anObject asNautilusSelection.
 	self selectedClass: nil

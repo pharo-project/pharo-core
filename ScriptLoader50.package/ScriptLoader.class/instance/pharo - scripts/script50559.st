@@ -1,4 +1,4 @@
-script50558
+script50559
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -53,9 +53,9 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.7.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-TheIntegrator.80.mcz
+DebuggerActions-EstebanLorenzano.81.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.118.mcz
+DebuggerModel-EstebanLorenzano.120.mcz
 Deprecated50-TheIntegrator.36.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -84,7 +84,7 @@ FuelCommandLineHandler-TheIntegrator.27.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
-GT-BytecodeDebugger-AndreiChis.28.mcz
+GT-BytecodeDebugger-EstebanLorenzano.30.mcz
 GT-Debugger-AndreiChis.307.mcz
 GT-EventRecorder-JurajKubelka.53.mcz
 GT-EventRecorder-Tests-JurajKubelka.32.mcz
@@ -116,7 +116,7 @@ Glamour-Morphic-Widgets-AndreiChis.188.mcz
 Glamour-Presentations-TudorGirba.182.mcz
 Glamour-Rubric-Presentations-AndreiChis.50.mcz
 Glamour-Tests-Core-CyrilFerlicot.110.mcz
-Glamour-Tests-Morphic-SkipLentz.133.mcz
+Glamour-Tests-Morphic-EstebanLorenzano.135.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
 Glamour-Tests-Rubric-AndreiChis.16.mcz
 Gofer-Core-TheIntegrator.237.mcz
@@ -219,7 +219,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1204.mcz
+Nautilus-EstebanLorenzano.1206.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
