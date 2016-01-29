@@ -1,3 +1,4 @@
 commentForCurrentUpdate
- ^ '17487 SlotClassBuilder>>#update:to: outdated
-	https://pharo.fogbugz.com/f/cases/17487'
+ ^ '16735 Replace Startup/Shutdown list with SessionManager
+	https://pharo.fogbugz.com/f/cases/16735
+'
