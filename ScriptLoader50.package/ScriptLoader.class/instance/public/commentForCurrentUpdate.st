@@ -1,10 +1,4 @@
 commentForCurrentUpdate
- ^ '17489 remove testSmoke
-	https://pharo.fogbugz.com/f/cases/17489
-
-17463 NautilusUI>>#updatePackages MessageNotUnderstood: RPackage>>item
-	https://pharo.fogbugz.com/f/cases/17463
-
-17459 #isInterruptedContextPostMortem should not be used
-	https://pharo.fogbugz.com/f/cases/17459
+ ^ '16735 Replace Startup/Shutdown list with SessionManager
+	https://pharo.fogbugz.com/f/cases/16735
 '

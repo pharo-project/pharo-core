@@ -4,5 +4,5 @@ startUp: resuming
 
 	(resuming or: [ self alwaysRestart ])
 		ifTrue: [
-			Smalltalk addDeferredStartupAction: [ 
+			Smalltalk session addDeferredStartupAction: [ 
 				self managedServers do: [ :each | each start ] ] ]

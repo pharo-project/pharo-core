@@ -1,4 +1,4 @@
-script50559
+script50560
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -56,7 +56,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-EstebanLorenzano.81.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-EstebanLorenzano.120.mcz
-Deprecated50-TheIntegrator.36.mcz
+Deprecated50-EstebanLorenzano.38.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -316,7 +316,7 @@ Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.317.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
-System-BasicCommandLineHandler-TheIntegrator.10.mcz
+System-BasicCommandLineHandler-EstebanLorenzano.13.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
 System-Changes-TheIntegrator.292.mcz
@@ -344,7 +344,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1190.mcz
+System-Support-EstebanLorenzano.1194.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.14.mcz
 Tests-TheIntegrator.745.mcz
@@ -401,7 +401,7 @@ Versionner-Tests-Resources-TheIntegrator.17.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.41.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.23.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
-Zinc-HTTP-SvenVanCaekenberghe.440.mcz
+Zinc-HTTP-EstebanLorenzano.442.mcz
 Zinc-Resource-Meta-Core-SvenVanCaekenberghe.55.mcz
 Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz
