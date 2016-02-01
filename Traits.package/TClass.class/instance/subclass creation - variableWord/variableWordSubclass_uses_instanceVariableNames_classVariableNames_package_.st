@@ -1,5 +1,5 @@
 variableWordSubclass: className uses: aTraitCompositionOrArray instanceVariableNames: instVarNames
-	classVariableNames: classVarNames category: cat
+	classVariableNames: classVarNames package: cat
 	"Added to allow for a simplified subclass creation experience. "
 
 	^ self variableWordSubclass: className
@@ -7,4 +7,4 @@ variableWordSubclass: className uses: aTraitCompositionOrArray instanceVariableN
 		instanceVariableNames: instVarNames
 		classVariableNames: classVarNames
 		poolDictionaries: ''
-		category: cat
+		package: cat

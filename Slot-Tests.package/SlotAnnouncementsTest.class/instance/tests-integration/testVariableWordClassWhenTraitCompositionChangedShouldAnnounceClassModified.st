@@ -9,7 +9,7 @@ testVariableWordClassWhenTraitCompositionChangedShouldAnnounceClassModified
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: self aCategory.
+		package: self aCategory.
 
 	self assert: self collectedAnnouncements size isZero.
 	
@@ -20,7 +20,7 @@ testVariableWordClassWhenTraitCompositionChangedShouldAnnounceClassModified
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: self aCategory.
+		package: self aCategory.
 	
 	self assert: self collectedAnnouncements size equals: 1.
 	announcement := self collectedAnnouncements first.

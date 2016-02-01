@@ -6,4 +6,4 @@ variableWordSubclass: className instanceVariableNames: instVarNames
 		instanceVariableNames: instVarNames  
 		classVariableNames: classVarNames 
 		poolDictionaries: ''
-		category: cat
+		package: cat

@@ -1,2 +1,2 @@
 url: aStringOrUrl
-	url := aStringOrUrl asUrl
+	url := aStringOrUrl ifNotNil: [ aStringOrUrl asUrl ]

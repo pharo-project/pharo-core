@@ -9,7 +9,7 @@ testVariableWordClassWithTraitCreatedShouldntAnnounceClassModified
 		instanceVariableNames: ''
 		classVariableNames: ''
 		poolDictionaries: ''
-		category: self aCategory.
+		package: self aCategory.
 
 	self assert: self collectedAnnouncements size isZero.
 	self assert: aClass classLayout isVariable.

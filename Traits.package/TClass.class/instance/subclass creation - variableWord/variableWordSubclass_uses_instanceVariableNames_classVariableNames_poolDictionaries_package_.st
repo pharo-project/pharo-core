@@ -1,4 +1,4 @@
-variableWordSubclass: aName uses: aTraitComposition instanceVariableNames: someInstanceVariableNames classVariableNames: someClassVariableNames poolDictionaries: someSharedPoolNames category: aCategory
+variableWordSubclass: aName uses: aTraitComposition instanceVariableNames: someInstanceVariableNames classVariableNames: someClassVariableNames poolDictionaries: someSharedPoolNames package: aCategory
 	"Creates a new class as a subclass of an existing class (the receiver) 
 	in which the subclass is to have indexable word-sized nonpointer variables."
 	
@@ -11,4 +11,4 @@ variableWordSubclass: aName uses: aTraitComposition instanceVariableNames: someI
 				instanceVariableNames: someInstanceVariableNames
 				classVariableNames: someClassVariableNames
 				poolDictionaries: someSharedPoolNames
-				category: aCategory ]
+				package: aCategory ]

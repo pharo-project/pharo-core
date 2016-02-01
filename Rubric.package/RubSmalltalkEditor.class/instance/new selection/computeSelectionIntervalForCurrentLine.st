@@ -1,9 +1,11 @@
 computeSelectionIntervalForCurrentLine
-	| i s interval  |
+	| i left right s |
 	s := self string.
 	i := s encompassParagraph: self selectionInterval.
-	interval := self computeSelectionIntervalFromCodeIn: s at: i.
-	interval ifNotEmpty: [ ^ i first - 1 + interval ].
-	interval := self computeSelectionIntervalFromCommentIn: s at: i.
-	interval ifNotEmpty: [ ^ i first - 1 + interval ].
-	^ 0 to: -1
+	left := i first.
+	right := i last.
+	[ left <= right and: [ (s at: left) = $" or: [(s at: left) isSeparator] ] ]
+		whileTrue: [ left := left + 1 ].
+	[ left <= right and: [ (s at: right) = $"  or: [(s at: right) isSeparator] ] ]
+		whileTrue: [ right := right - 1 ].
+	^ left to: right
