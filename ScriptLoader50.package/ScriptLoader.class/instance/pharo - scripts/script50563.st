@@ -1,4 +1,4 @@
-script50562
+script50563
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -56,7 +56,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-EstebanLorenzano.81.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-EstebanLorenzano.120.mcz
-Deprecated50-EstebanLorenzano.38.mcz
+Deprecated50-TheIntegrator.40.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -72,7 +72,7 @@ FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
 Files-TheIntegrator.408.mcz
 Files-Tests-TheIntegrator.12.mcz
-Flashback-Decompiler-TheIntegrator.15.mcz
+Flashback-Decompiler-TheIntegrator.17.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.13.mcz
@@ -187,7 +187,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
 Morphic-Base-TheIntegrator.536.mcz
-Morphic-Core-TheIntegrator.246.mcz
+Morphic-Core-TheIntegrator.248.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.8.mcz
 Morphic-Widgets-Basic-TheIntegrator.74.mcz
@@ -240,7 +240,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.778.mcz
+OpalCompiler-Core-TheIntegrator.780.mcz
 OpalCompiler-Tests-TheIntegrator.321.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz

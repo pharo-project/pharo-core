@@ -1,0 +1,2 @@
+getClass
+	^class

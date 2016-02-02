@@ -1,7 +1,10 @@
 submorphNamed: aName ifNone: aBlock 
-	"Find the first submorph with this name, or a button with an action selector of that name"
+	self 
+		deprecated: 'do not use'
+		on: 	'2 February 2016' 
+		in: 'Pharo-5.0-50562'.
 
-	
+	"Find the first submorph with this name, or a button with an action selector of that name"
 	self submorphs do: 
 			[:button | | sub args | 
 			(button respondsTo: #actionSelector) 

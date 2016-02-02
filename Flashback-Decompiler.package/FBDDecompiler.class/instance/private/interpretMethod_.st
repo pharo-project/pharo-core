@@ -1,4 +1,5 @@
 interpretMethod: aCompiledMethod
+	self maybeSkipCallPrimitiveBytecode: aCompiledMethod.
 	aCompiledMethod isQuick
 		ifTrue: [ self quickMethod ]
 		ifFalse: [ 
