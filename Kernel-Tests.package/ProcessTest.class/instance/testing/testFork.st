@@ -1,15 +1,17 @@
 testFork
 
-	| hasBlockRun block return |
+	| hasBlockRun block return checkAssert |
+	checkAssert := Semaphore new.
 	hasBlockRun := false.
-	block := [ hasBlockRun := true ].
+	block := [ hasBlockRun := true. checkAssert signal.].
 	return := block fork.
 	
-	"Returns immediately"
+	"Returns immediately, forked block not yet run"
 	self deny: hasBlockRun.
 	
 	"Returns a process - Blue book specifies that it returns the block itself"
 	self assert: (return isKindOf: Process).
 	
 	"Forked process has been scheduled"
-	self assert: Processor nextReadyProcess equals: return.
+	checkAssert wait.
+	self assert: hasBlockRun 

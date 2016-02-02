@@ -1,4 +1,4 @@
-script50561
+script50562
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -142,7 +142,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2222.mcz
-Kernel-Tests-TheIntegrator.30.mcz
+Kernel-Tests-TheIntegrator.32.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -205,7 +205,7 @@ Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.45.mcz
 Morphic-Widgets-Windows-TheIntegrator.90.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
-Multilingual-Languages-TheIntegrator.48.mcz
+Multilingual-Languages-TheIntegrator.50.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
@@ -304,13 +304,13 @@ Slot-TheIntegrator.720.mcz
 Slot-Tests-TheIntegrator.83.mcz
 SmartSuggestions-TheIntegrator.216.mcz
 SmartSuggestions-Tests-TheIntegrator.22.mcz
-Spec-Core-TheIntegrator.447.mcz
+Spec-Core-TheIntegrator.449.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.252.mcz
+Spec-MorphicAdapters-TheIntegrator.254.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.317.mcz
@@ -344,7 +344,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-EstebanLorenzano.1194.mcz
+System-Support-TheIntegrator.1196.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.14.mcz
 Tests-TheIntegrator.745.mcz

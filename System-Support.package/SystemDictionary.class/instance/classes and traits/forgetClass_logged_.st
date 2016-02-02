@@ -4,7 +4,6 @@ forgetClass: aClass logged: aBool
 
 	aBool ifTrue: [SystemAnnouncer uniqueInstance classRemoved: aClass fromCategory: aClass category].		
 	self organization removeElement: aClass name.
-	Smalltalk removeFromStartUpList: aClass.
-	Smalltalk removeFromShutDownList: aClass.
+	SessionManager default unregisterClassNamed: aClass name.
 	self removeKey: aClass name ifAbsent: [].
 	self flushClassNameCache

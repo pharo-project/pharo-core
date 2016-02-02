@@ -10,6 +10,7 @@ initializeBindings
 		at: #LabelAdapter				put: #LabelAdapter;
 		at: #ListAdapter				put: #ListAdapter;
 		at: #IconListAdapter			put: #IconListAdapter;
+		at: #FastTableAdapter			put: #FastTableAdapter;
 		at: #DropListAdapter			put: #DropListAdapter;
 		at: #MultiColumnListAdapter	put: #MultiColumnListAdapter;
 		at: #MenuAdapter				put: #MenuAdapter;
