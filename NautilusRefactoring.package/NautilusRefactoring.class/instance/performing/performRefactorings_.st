@@ -1,3 +1,4 @@
+"protocol: performing"
 performRefactorings: aCollectionRefactoring
 	aCollectionRefactoring ifNil: [ ^ self ].
 	aCollectionRefactoring do: [ :each | each model environment: self model browsedEnvironment ].
@@ -9,4 +10,4 @@ performRefactorings: aCollectionRefactoring
 		on: RBRefactoringWarning
 		do: [ :exception | self handleWarning: exception ] ]
 		on: RBRefactoringError
-		do: [ :exception | self handleError: exception ]
+		do: [ :exception | self handleFailure: exception ]
