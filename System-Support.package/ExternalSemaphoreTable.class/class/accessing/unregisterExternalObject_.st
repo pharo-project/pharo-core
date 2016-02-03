@@ -1,2 +1,2 @@
 unregisterExternalObject: anObject
-	ProtectRemove critical: [self safelyUnregisterExternalObject: anObject]
+	ProtectRemove critical: [self privateUnregisterExternalObject: anObject]

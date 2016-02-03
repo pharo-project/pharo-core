@@ -1,5 +1,6 @@
-safelyRegisterExternalObject: anObject
-	"Register the given object in the external objects array and return its index. If it is already there, just return its index."
+privateRegisterExternalObject: anObject
+	"Register the given object in the external objects array and return its index. If it is already there, just return its index.
+	Calls to this method must be guarded against simultaneous removes from multiple threads."
 
 	| objects firstEmptyIndex |
 	objects := self unprotectedExternalObjects.

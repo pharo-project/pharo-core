@@ -1,6 +1,6 @@
 debugTest: aMethod
-	Breakpoint new
-		node: aMethod ast; 
-		once;
+	| breakpoint  |
+	breakpoint := Breakpoint new
+		node: aMethod ast;
 		install.
-	aMethod methodClass run: aMethod selector.
+	[aMethod methodClass run: aMethod selector] ensure: [ breakpoint remove ].

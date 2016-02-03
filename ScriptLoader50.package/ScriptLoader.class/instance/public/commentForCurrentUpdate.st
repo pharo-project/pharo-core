@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17366 wrong TempsNamesQCompress method trailer ?
-	https://pharo.fogbugz.com/f/cases/17366
+ ^ '17328 Missing RemoveExternalObjectsTable critical section
+	https://pharo.fogbugz.com/f/cases/17328
 
-17406 Renaming a class using the class menu "rename" option allows for non-capitalized class name
-	https://pharo.fogbugz.com/f/cases/17406'
+17455 Debug test in contextmenu of methodPane
+	https://pharo.fogbugz.com/f/cases/17455
+
+17475 no package information for class side trait methods - again
+	https://pharo.fogbugz.com/f/cases/17475'

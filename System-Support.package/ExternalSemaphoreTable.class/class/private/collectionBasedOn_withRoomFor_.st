@@ -12,6 +12,9 @@ collectionBasedOn: externalObjects withRoomFor: anObject
 		ifTrue: [newObjects := externalObjects]
 		ifFalse: [
 			newObjects := externalObjects species new: newSize. 
-			newObjects replaceFrom: 1 to:  externalObjects size with: externalObjects startingAt: 1.	
-			self unprotectedExternalObjects: newObjects.].
+			"This is only called when adding objects, so caller is responsible for holding ProtectAdd lock.
+			Obtain the remove lock as well while swapping the list with a new one, so we don't end up with dead semaphores in newObjects that are removed from externalObjects simultaneously by other threads."
+			ProtectRemove critical: [
+				newObjects replaceFrom: 1 to:  externalObjects size with: externalObjects startingAt: 1.	
+			self unprotectedExternalObjects: newObjects].].
 	^newObjects

@@ -1,2 +1,2 @@
 registerExternalObject: anObject
-	^ ProtectAdd critical: [self safelyRegisterExternalObject: anObject]
+	^ ProtectAdd critical: [self privateRegisterExternalObject: anObject]

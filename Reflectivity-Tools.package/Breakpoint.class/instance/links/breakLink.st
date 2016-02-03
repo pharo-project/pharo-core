@@ -3,4 +3,4 @@ breakLink
 	^ MetaLink new
 		metaObject: Break;
 		selector: #break;
-		options: #(+ optionCompileOnLinkInstallation)
+		options: options

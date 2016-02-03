@@ -1,6 +1,6 @@
-safelyUnregisterExternalObject: anObject
+privateUnregisterExternalObject: anObject
 	"Unregister the given object in the external objects array. Do nothing if it isn't registered.
-	JMM change to return if we clear the element, since it should only appear once in the array"
+	Calls to this method must be guarded against simultaneous removes from multiple threads."
 
 	| objects |
 	anObject ifNil: [^ self].

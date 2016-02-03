@@ -10,7 +10,7 @@ basicInitializeFromMC
 	Smalltalk allClassesAndTraits 
 		do: [ :eachBehavior | 
 			self initializeFromMCMethodsFor: eachBehavior.
-			self initializeFromMCMethodsFor: eachBehavior class ]
+			self initializeFromMCMethodsFor: eachBehavior theMetaClass ]
 		displayingProgress: 'Importing methods'.
 
 	Smalltalk allClassesAndTraits 
@@ -19,8 +19,8 @@ basicInitializeFromMC
 				self 
 					initializeFromMCExtensionsFor: eachBehavior 
 					protocol: eachProtocol ].
-			eachBehavior class organization extensionProtocols do: [ :eachProtocol | 
+			eachBehavior theMetaClass organization extensionProtocols do: [ :eachProtocol | 
 				self 
-					initializeFromMCExtensionsFor: eachBehavior class 
+					initializeFromMCExtensionsFor: eachBehavior theMetaClass 
 					protocol: eachProtocol ] ]
 		displayingProgress: 'Importing extensions'.
