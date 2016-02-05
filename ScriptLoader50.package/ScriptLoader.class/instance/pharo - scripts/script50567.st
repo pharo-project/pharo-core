@@ -1,4 +1,4 @@
-script50566
+script50567
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -41,9 +41,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.233.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.392.mcz
+Collections-Strings-TheIntegrator.393.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.26.mcz
+Collections-Tests-TheIntegrator.28.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.98.mcz
 Compiler-EstebanLorenzano.600.mcz
@@ -301,7 +301,7 @@ ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.720.mcz
-Slot-Tests-TheIntegrator.83.mcz
+Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.216.mcz
 SmartSuggestions-Tests-TheIntegrator.22.mcz
 Spec-Core-TheIntegrator.449.mcz
@@ -334,7 +334,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.100.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-TheIntegrator.18.mcz
+System-OSEnvironments-TheIntegrator.20.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.78.mcz
 System-Serial Port-StephaneDucasse.23.mcz
@@ -344,7 +344,7 @@ System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.44.mcz
-System-Support-TheIntegrator.1197.mcz
+System-Support-TheIntegrator.1199.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.14.mcz
 Tests-TheIntegrator.745.mcz

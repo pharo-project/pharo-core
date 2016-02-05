@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17521 recategorizing uncategorised method
-	https://pharo.fogbugz.com/f/cases/17521
+ ^ '17526 growMemoryByAtLeast: duplicated
+	https://pharo.fogbugz.com/f/cases/17526
 
-17522 Failing test: ReleaseTest>>#testInstalledMethodsWithIncorrectTrailerKind
-	https://pharo.fogbugz.com/f/cases/17522
+17530 fix testDangerousClassesConditions
+	https://pharo.fogbugz.com/f/cases/17530
 
-17479 Interval class comment mixes step/stop when explaining Instance Variables
-	https://pharo.fogbugz.com/f/cases/17479'
+17242 String>>compare:caseSensitive seems to be failing for extended charset comparisons
+	https://pharo.fogbugz.com/f/cases/17242'
