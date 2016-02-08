@@ -1,2 +1,2 @@
 isEmpty
-	^ builder changes isEmpty
+	^ self builder changes isEmpty

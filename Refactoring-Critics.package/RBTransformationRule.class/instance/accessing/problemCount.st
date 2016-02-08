@@ -1,2 +1,2 @@
 problemCount
-	^ builder problemCount
+	^ self builder problemCount
