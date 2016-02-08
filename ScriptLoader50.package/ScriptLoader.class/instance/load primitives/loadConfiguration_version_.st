@@ -4,4 +4,4 @@ loadConfiguration: configurationName version: version
 		configuration: configurationName;
 		version: version;
 		load ]
-	on: MCMergeOrLoadWarning do: [ :w | w resume: true ]
+	on: Warning do: [ :w | w resume: true ]
