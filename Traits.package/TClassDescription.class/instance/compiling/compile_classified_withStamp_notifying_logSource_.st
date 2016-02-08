@@ -24,7 +24,7 @@ compile: text classified: category withStamp: changeStamp notifying: requestor l
 		notifying: requestor.
 			
 	self instanceSide 
-		noteCompilationOf: selector 
+		noteCompilationOfMethod: method 
 		meta: self isClassSide.
 
 	^ selector

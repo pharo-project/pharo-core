@@ -1,4 +1,4 @@
-script50567
+script50568
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -175,7 +175,7 @@ Metacello-TestsPlatform.squeakCommon-ChristopheDemarey.21.mcz
 Metacello-TestsReference-dkh.20.mcz
 Metacello-ToolBox-ChristopheDemarey.146.mcz
 Metacello-Tutorial-dkh.26.mcz
-Monticello-TheIntegrator.1111.mcz
+Monticello-TheIntegrator.1113.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.6.mcz
 Monticello-Tests-TheIntegrator.33.mcz
 MonticelloConfigurations-MarcusDenker.70.mcz
@@ -186,7 +186,7 @@ MonticelloGUI-TheIntegrator.405.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-ChristopheDemarey.30.mcz
-Morphic-Base-TheIntegrator.536.mcz
+Morphic-Base-TheIntegrator.538.mcz
 Morphic-Core-TheIntegrator.248.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.8.mcz
@@ -374,7 +374,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.12.mcz
-Traits-TheIntegrator.880.mcz
+Traits-TheIntegrator.882.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

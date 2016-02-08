@@ -1,5 +1,7 @@
 loadConfiguration: configurationName version: version
-	Gofer it 
-		repository: self inboxRepositoryDefault;
-		configurationOf: configurationName;
-		loadVersion: version
+	[ Metacello new
+		repository: self inboxRepositoryUrlString;
+		configuration: configurationName;
+		version: version;
+		load ]
+	on: MCMergeOrLoadWarning do: [ :w | w resume: true ]
