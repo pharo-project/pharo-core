@@ -1,0 +1,2 @@
+bookName 
+	^'GT Spotter'

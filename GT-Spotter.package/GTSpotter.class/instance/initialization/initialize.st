@@ -1,4 +1,4 @@
 initialize
 	super initialize.
 	
-	processorsFilter := GTSpotterNullProcessorFilter new
+	processorsFilter := GTSpotterSettingsProcessorFilter new

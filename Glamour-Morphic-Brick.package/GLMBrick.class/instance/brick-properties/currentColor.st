@@ -1,0 +1,2 @@
+currentColor
+	^ self color

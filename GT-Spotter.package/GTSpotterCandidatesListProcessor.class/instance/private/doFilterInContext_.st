@@ -1,2 +1,2 @@
 doFilterInContext: aSpotterContext
-	^ filterBlock gtFilter value: aSpotterContext
+	^ aSpotterContext doFilter: filterBlock gtFilter forProcessor: self

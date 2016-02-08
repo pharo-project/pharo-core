@@ -1,0 +1,3 @@
+keymap: aKeymap
+
+	keymap := aKeymap

@@ -1,0 +1,2 @@
+doContinueFilterInContext: aSpotterContext
+	^ aSpotterContext doContinueFilterForProcessor: self

@@ -2,10 +2,10 @@ inspectorDiffIn: aComposite
 
 	^ aComposite tabulator 
 		with: [ :aTabulator |
+			aTabulator when: [ self session supportsDiff].
 			aTabulator 
 				column: #actual;
 				column: #expected.
-			"aTabulator when: [ self session isActive ]."
 			aTabulator transmit to: #actual; andShow: [ :anotherComposite |
 				anotherComposite  dynamic 
 					display: [:anObject |

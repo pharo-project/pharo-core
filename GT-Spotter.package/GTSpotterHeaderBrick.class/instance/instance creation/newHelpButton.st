@@ -1,0 +1,3 @@
+newHelpButton
+
+	^ GLMHintableActionButtonBrick new

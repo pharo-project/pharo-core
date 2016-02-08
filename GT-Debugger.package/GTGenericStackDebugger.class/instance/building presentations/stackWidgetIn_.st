@@ -6,9 +6,6 @@ stackWidgetIn: composite
 		column: 'Class' 
 			evaluated: [ :aContext | self formatStackClassColumnForContext: aContext]
 			width: 300;
-		column: nil 
-			evaluated: [ :aContext | '' ]
-			width: 5;
 		column: 'Method' 
 			evaluated: [ :aContext | self formatStackMethodColumnForContext: aContext ];
 		column: 'Other' 

@@ -1,3 +1,3 @@
 gtInspectorItems
-	^ OrderedCollection
+	^ Array
 		 with: (#eventTimestamp -> self timestamp) withAll: self associations

@@ -1,0 +1,2 @@
+hasFilteredCandidates
+	^ self allFilteredCandidates notEmpty

@@ -1,4 +1,5 @@
 testNoOverlappingCodeEditorKeyBindings
+	<expectedFailure>
 	| context process codeEditor keymaps doubleKeymaps |
 	context := [ 20 factorial ] asContext.
 	process := Process

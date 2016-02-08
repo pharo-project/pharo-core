@@ -1,0 +1,2 @@
+defaultContinuing
+	^ false

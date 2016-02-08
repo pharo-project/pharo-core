@@ -1,3 +1,3 @@
 testContext
 
-	^ assertionContext sender
+	^ testContext

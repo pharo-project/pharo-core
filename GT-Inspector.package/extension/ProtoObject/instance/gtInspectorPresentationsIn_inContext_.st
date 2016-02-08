@@ -5,7 +5,7 @@ gtInspectorPresentationsIn: composite inContext: aGTInspector
 	Subclasses might want to override it for more special behavior."
 	| pragmas |
 	pragmas := Pragma
-		allNamed: #gtInspectorPresentationOrder:
+		allNamed: aGTInspector class extensionsPragma
 		from: self class
 		to: ProtoObject
 		sortedUsing: [ :x :y | (x argumentAt: 1) < (y argumentAt: 1) ].

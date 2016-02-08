@@ -1,3 +1,3 @@
 matchContext: aContext
 	
-	^ aContext selector == #assert:equals:
+	^ aContext methodClass isTestCase

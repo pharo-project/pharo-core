@@ -1,3 +1,3 @@
 isEmpty
 	^ self text isNil
-		or: [ self text isEmpty ]
+		or: [ self textTrimmed isEmpty ]

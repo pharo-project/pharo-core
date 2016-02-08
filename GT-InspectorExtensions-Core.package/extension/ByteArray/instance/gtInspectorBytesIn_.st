@@ -13,7 +13,7 @@ gtInspectorBytesIn: composite
 							index = 1 ifFalse: [ 
 								index - 1 \\ 8 = 0 ifTrue: [ out cr ] ifFalse: [ out space ] ].
 								each printOn: out base: 16 nDigits: 2 ] ]).
-					'latin1' -> ([ ZnByteEncoder latin1 decodeBytes: self ]
+					'latin1' -> ([ ZnCharacterEncoder latin1 decodeBytes: self ]
 											on: ZnCharacterEncodingError do: [ :exception | exception ]).
 					'utf8' -> ([ ZnUTF8Encoder new decodeBytes: self ] 
 											on: ZnCharacterEncodingError do: [ :exception | exception ]).

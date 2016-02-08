@@ -1,0 +1,3 @@
+testFailingAssestionThroughAHelperMethod
+
+	self intermediaryCheckWithFailure

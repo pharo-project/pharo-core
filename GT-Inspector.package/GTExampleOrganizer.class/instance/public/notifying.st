@@ -1,2 +1,2 @@
 notifying
-	^ notifying ifNil: [ true ]
+	^ notifying ifNil: [ false ]

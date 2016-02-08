@@ -2,6 +2,8 @@ specificTableMorphInitializiation
 	| presentation |
 	super specificTableMorphInitializiation.
 	presentation := tableModel glamourPresentation.
+	tableMorph intercellSpacing: tableModel glamourPresentation intercellSpacing.
+	tableMorph beResizable.
 	tableMorph
 		columns:
 			(presentation columns

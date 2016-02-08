@@ -1,2 +1,2 @@
 contextToSelectFrom: aSession
-	^ aSession testContext
+	^ aSession assertionCallerContext ifNil: [ aSession testContext ]

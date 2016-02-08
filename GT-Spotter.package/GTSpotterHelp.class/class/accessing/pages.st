@@ -1,0 +1,2 @@
+pages
+	^#(overview keybindings extensions)

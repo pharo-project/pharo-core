@@ -3,6 +3,7 @@ gtInspectorGTExamplesIn: composite
 	composite list 
 		title: 'Examples';
 		display: [ self gtExamples ];
-		icon: #icon;
-		format: #gtDisplayString;
+		icon: [:each | each icon];
+		format: [:each | String streamContents: [:s | each gtDisplaySummaryOn: s]] ;
+		send: [ :each | each returnValue ];
 		when: [ self gtExamples notEmpty ]

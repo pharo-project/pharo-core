@@ -1,3 +1,3 @@
 hasShortcut 
 	 
-	^self shortcut notNil
+	^self keymap notNil

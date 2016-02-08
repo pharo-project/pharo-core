@@ -1,2 +1,0 @@
-contextToTest
-	self subclassResponsibility

@@ -31,9 +31,16 @@ variablesIn: composite
 									reject: [ :each | each pointsOnlyWeaklyTo: list selection ]) inspect ] 
 			on: $t
 			entitled: 'Open pointers to';
-		selectionAct: [:list | 
-			self systemNavigation browseAllAccessesTo: list rawSelection key from: list entity class ] 
-			entitled: 'List methods using this variable';
-		selectionAct: [:list | 
-			self systemNavigation browseAllStoresInto: list rawSelection key from: list entity class ] 
-			entitled: 'List methods storing into this variable'		
+		dynamicActionsOnSelection: [ :presentation |
+			(presentation entity class hasInstVarNamed: presentation rawSelection key)
+				ifTrue: [ 
+					{
+						GLMGenericAction new 
+								action: [:list | self systemNavigation browseAllAccessesTo: list rawSelection key from: list entity class ]; 
+								title: 'List methods using this variable'.
+						GLMGenericAction new 
+								action: [:list | self systemNavigation browseAllStoresInto: list rawSelection key from: list entity class ]; 
+								title: 'List methods storing into this variable'.		
+					}
+					]
+				ifFalse: [ #() ] ]

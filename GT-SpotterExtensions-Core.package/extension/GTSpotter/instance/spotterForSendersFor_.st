@@ -4,5 +4,7 @@ spotterForSendersFor: aStep
 	aStep listProcessor
 		title: 'Senders';
 		filter: GTNullFilter item: [ :filter :context | 
-			SystemNavigation default allSendersToSubstring: context textTrimmed do: filter ];
+			SystemNavigation default
+				allSendersToString: context textTrimmed 
+				do: filter ];
 		wantsToDisplayOnEmptyQuery: false

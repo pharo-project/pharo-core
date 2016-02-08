@@ -1,6 +1,6 @@
 inspectorExtendingMethods
 	^ (Object withAllSubclasses
 		flatCollect: [ :each | 
-			(Pragma allNamed: #gtInspectorPresentationOrder: in: each) 
+			(Pragma allNamed: self extensionsPragma in: each) 
 				collect: [ :p | p method asRingDefinition ] ])
 		sorted

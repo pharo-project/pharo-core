@@ -1,3 +1,3 @@
 testObject
 
-	^ testObject
+	^ testContext receiver

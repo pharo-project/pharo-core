@@ -1,0 +1,3 @@
+defaultIcon
+
+	^ GLMUIThemeExtraIcons glamorousHelp

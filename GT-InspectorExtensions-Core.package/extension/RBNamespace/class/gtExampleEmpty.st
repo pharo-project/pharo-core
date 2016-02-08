@@ -1,0 +1,4 @@
+gtExampleEmpty
+	<gtExample>
+	
+	^ self new

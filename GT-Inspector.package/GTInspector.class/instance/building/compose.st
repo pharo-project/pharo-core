@@ -1,6 +1,14 @@
 compose
 	self title: [:anObject | 'Inspector on ', (self printObjectAsAnItem: anObject)].
 	self act: [:b | b update] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Update'.
+	self act: [:b | 
+		| tree item |
+		tree := (HelpBrowser open instVarNamed: #treeMorph).
+		item := tree allItems detect: [:each | 
+			each complexContents item key = GTInspectorHelp key].
+		tree selection: item ] 
+		icon: GLMUIThemeExtraIcons glamorousHelp 
+		entitled: 'Help'.
 	self act: [:b | b presentationFilter ifNotNil: [ :filter | filter changeFilterRequestFor: b] ] entitled: 'Filter presentations'.
 	self pager with: [ :browser | 
 		browser fixedSizePanes: self class numberOfInspectorPanes.

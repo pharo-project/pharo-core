@@ -17,4 +17,4 @@ gtInspectorContentsIn: composite
 				icon: GLMUIThemeExtraIcons glamorousSave
 				on: $s
 				entitled: 'Save';
-			when: [ self isFile and: [ #('pillar' 'txt') includes: self extension ] ]
+			when: [ self isFile ]

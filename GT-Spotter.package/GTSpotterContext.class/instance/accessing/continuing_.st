@@ -1,0 +1,2 @@
+continuing: anObject
+	continuing := anObject

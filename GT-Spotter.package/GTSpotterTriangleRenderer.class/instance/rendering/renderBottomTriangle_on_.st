@@ -7,5 +7,7 @@ renderBottomTriangle: aBrick on: aCanvas
 	a := aBrick brickBounds topLeft + (((width / 2 - height) max: 0) @ 0).
 	b := aBrick brickBounds topLeft + (((width / 2 + height) min: width) @ 0).
 	c := aBrick brickBounds bottomLeft + (width / 2 @ 0).
+		
+	self renderTriangle: aBrick on: aCanvas with: { a asIntegerPoint . b asIntegerPoint . c asIntegerPoint}.
 	
-	self renderTriangle: aBrick on: aCanvas with: { a asIntegerPoint . b asIntegerPoint . c asIntegerPoint}
+	

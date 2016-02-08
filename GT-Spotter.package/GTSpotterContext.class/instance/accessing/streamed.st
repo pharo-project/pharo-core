@@ -1,0 +1,2 @@
+streamed
+	^ streamed

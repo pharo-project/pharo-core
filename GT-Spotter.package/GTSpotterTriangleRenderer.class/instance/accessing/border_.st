@@ -1,0 +1,2 @@
+border: anInteger
+	border := anInteger

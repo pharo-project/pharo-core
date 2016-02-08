@@ -1,5 +1,5 @@
 DebugSession subclass: #GTSUnitDebugSession
-	instanceVariableNames: 'assertionContext expectedResult actualResult testObject'
+	instanceVariableNames: 'assertionContext expectedResult actualResult testContext assertionCallerContext'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-SUnitDebugger'
