@@ -8,7 +8,7 @@ recomposeFrom: start to: stop delta: delta
 	"Have to recompose line above in case a word-break was affected."
 
 	| startLine newLines |
-	self lines ifNil: [ ^self ].
+	self lines isEmptyOrNil ifTrue: [ ^self ].
 	startLine := (self lineIndexOfCharacterIndex: start) - 1 max: 1.
 	[ startLine > 1 and: [ (self lines at: startLine - 1) top = (self lines at: startLine) top ] ]
 		whileTrue: [ startLine := startLine - 1 ].	"Find leftmost of line pieces"

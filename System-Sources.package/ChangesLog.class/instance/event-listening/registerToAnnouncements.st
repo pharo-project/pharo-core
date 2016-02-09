@@ -1,5 +1,5 @@
 registerToAnnouncements
-	SystemAnnouncer uniqueInstance 
+	SystemAnnouncer uniqueInstance weak
 		when: ClassRemoved 
 			send: #logClassRemoved:
 			to: self;
