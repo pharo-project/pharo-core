@@ -1,5 +1,8 @@
 testPrintString
 	"Test using generic FFI spec"
-	| result |
-	result := self ffiPrintString:'Hello World!'.
-	self assert: result = 'Hello World!'.
+	| result buffer |
+	
+	buffer := ByteArray new: 12.
+	result := self ffiCopyString: 'Hello World!' to: buffer.
+	self assert: result equals: 'Hello World!'.
+	self assert: buffer asString equals: 'Hello World!'.	

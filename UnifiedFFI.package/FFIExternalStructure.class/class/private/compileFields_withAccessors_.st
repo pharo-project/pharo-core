@@ -15,4 +15,5 @@ compileFields: specArray withAccessors: defineBoolean
 	compiledSpec := {ExternalType pointerSpec}. 
 	"Now I can reconsider it"
 	compiledSpec := fieldSpec compileSpec copyWithFirst: (offset - 1 bitOr: FFIFlagStructure).
-	ExternalType noticeModificationOf: self
+	ExternalType noticeModificationOf: self.
+	^ compiledSpec

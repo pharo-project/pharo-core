@@ -1,2 +1,2 @@
 asExternalTypeOn: generator
-	^ FFIConst value: self type: (generator resolveExternalType: #uint32)
+	^ FFIConst value: self type: (generator resolveExternalType: #int32)

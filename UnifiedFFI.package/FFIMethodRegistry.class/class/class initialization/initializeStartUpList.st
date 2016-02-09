@@ -1,12 +1,8 @@
 initializeStartUpList
-	Smalltalk 
-		removeFromStartUpList: self;
-		addToStartUpList: self after: OSPlatform.
+	SessionManager default 
+		registerSystemClassNamed: #ExternalObject atPriority: 60; 
+		registerSystemClassNamed: #Alien atPriority: 60;
+		registerSystemClassNamed: #FFICallbackThunk atPriority: 60;
+		registerSystemClassNamed: #FFIMethodRegistry atPriority: 60.
+
 	
-	"Ensure FFI startUp: is in the correct place"
-	self flag: #todo. "This should not be necesary after a while... but like that we are sure
-	initialization is in the right place"
-	Smalltalk removeFromStartUpList: ShortRunArray.
-	Smalltalk 
-		removeFromStartUpList: ExternalObject;
-		addToStartUpList: ExternalObject before: FFIMethodRegistry.

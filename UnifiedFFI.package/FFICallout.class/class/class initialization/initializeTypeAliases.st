@@ -53,5 +53,7 @@ initializeTypeAliases
 		double 			float64
 		shortFloat 		float16
 		"Special types"
-		oop 				FFIOop)
+		oop 				FFIOop
+		ByteArray       FFIOop
+		ExternalAddress FFIOop)
 	

@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17458 Integrate GTools version 3.10
-	https://pharo.fogbugz.com/f/cases/17458'
+ ^ '17535 FFI tests fails because now plugins are builtin
+	https://pharo.fogbugz.com/f/cases/17535'

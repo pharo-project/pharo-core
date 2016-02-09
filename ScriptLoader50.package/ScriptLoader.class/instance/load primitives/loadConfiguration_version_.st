@@ -1,7 +1,6 @@
 loadConfiguration: configurationName version: version
-	[ Metacello new
-		repository: self inboxRepositoryUrlString;
-		configuration: configurationName;
-		version: version;
-		load ]
+	[ Gofer it 
+		repository: self inboxRepositoryDefault;
+		configurationOf: configurationName;
+		loadVersion: version ]
 	on: Warning do: [ :w | w resume: true ]
