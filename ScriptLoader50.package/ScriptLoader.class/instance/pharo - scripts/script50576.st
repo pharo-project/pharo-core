@@ -1,4 +1,4 @@
-script50575
+script50576
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -191,7 +191,7 @@ Morphic-Tests-TheIntegrator.8.mcz
 Morphic-Widgets-Basic-TheIntegrator.74.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-EstebanLorenzano.161.mcz
+Morphic-Widgets-FastTable-GuillermoPolito.162.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.64.mcz
@@ -223,7 +223,7 @@ Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
 NautilusCommon-TheIntegrator.304.mcz
 NautilusGroupAutoBuilder-TheIntegrator.8.mcz
-NautilusRefactoring-TheIntegrator.260.mcz
+NautilusRefactoring-TheIntegrator.263.mcz
 Network-Kernel-TheIntegrator.123.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -372,7 +372,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.12.mcz
-Traits-TheIntegrator.882.mcz
+Traits-TheIntegrator.884.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-NicolaiHess.52.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
