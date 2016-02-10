@@ -1,4 +1,4 @@
-script50574
+script50575
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -41,7 +41,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.233.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.393.mcz
+Collections-Strings-TheIntegrator.395.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.28.mcz
 Collections-Unordered-TheIntegrator.227.mcz
@@ -336,8 +336,8 @@ System-OSEnvironments-TheIntegrator.20.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.78.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-ChristopheDemarey.12.mcz
-System-SessionManager-Tests-ChristopheDemarey.6.mcz
+System-SessionManager-ChristopheDemarey.15.mcz
+System-SessionManager-Tests-ChristopheDemarey.8.mcz
 System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
