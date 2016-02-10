@@ -1,6 +1,6 @@
-unregisterClassNamed: aClassName 
+unregisterHandler: anHandlerId 
 	priorityLists values
 		do: [ :handlers |
 				handlers 
-					detect: [ :handler | handler handledId = aClassName ]
+					detect: [ :handler | handler handledId = anHandlerId ]
 					ifFound: [ :handler | handlers remove: handler ] ]

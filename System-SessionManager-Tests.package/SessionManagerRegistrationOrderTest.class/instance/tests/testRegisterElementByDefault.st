@@ -1,6 +1,6 @@
 testRegisterElementByDefault
-	manager register: 'anObject'.
+	manager register: (ClassSessionHandler forClassNamed: 'anObject').
 
 	self 
-		assert: manager startupList
+		assertHandledId: manager startupList
 		equals: #( 'anObject' ).

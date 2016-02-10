@@ -1,6 +1,6 @@
 testRegisterSystemElement
-	self register: 'anObject' atSystemPriority: 1.
+	manager registerSystemClassNamed: 'anObject' atPriority: 1.
 
 	self 
-		assert: manager startupList
+		assertHandledId: manager startupList
 		equals: #( 'anObject' ).

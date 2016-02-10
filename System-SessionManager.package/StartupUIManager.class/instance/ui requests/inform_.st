@@ -1,4 +1,5 @@
 inform: aString
 	(ProvideAnswerNotification signal: aString) 
 		ifNotNil: [:answer | ^true].
-	Smalltalk addDeferredStartupAction: [ UIManager default inform: aString ].
+	self sessionManager 
+		addDeferredStartupAction: [ UIManager default inform: aString ].

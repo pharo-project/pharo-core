@@ -1,4 +1,4 @@
-script50573
+script50574
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -140,7 +140,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2226.mcz
-Kernel-Tests-TheIntegrator.32.mcz
+Kernel-Tests-TheIntegrator.33.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz

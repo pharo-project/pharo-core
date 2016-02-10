@@ -1,2 +1,2 @@
 testTallyInstructions
-	self assert: (Context tallyInstructions: aBlockContext) size =  26.
+	self assert: (Context tallyInstructions: aBlockContext ) size equals: 27

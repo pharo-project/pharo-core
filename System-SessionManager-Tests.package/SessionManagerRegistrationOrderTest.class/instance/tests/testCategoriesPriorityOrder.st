@@ -1,7 +1,8 @@
 testCategoriesPriorityOrder
-	manager register: 'anObject'.
-	self register: 'aFirstSubscription' atSystemPriority: 100.
+	manager 
+		register: (ClassSessionHandler forClassNamed: 'anObject');
+		registerSystemClassNamed: 'aFirstSubscription' atPriority: 100.
 	
 	self 
-		assert: manager startupList 
+		assertHandledId: manager startupList 
 		equals: #( 'aFirstSubscription' 'anObject' ).

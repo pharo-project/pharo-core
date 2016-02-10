@@ -1,10 +1,11 @@
 testSubscriptionReverseOrder
-	self register: 'aFirstSubscription' atSystemPriority: 100.
-	manager register: 'anObject'.
+	manager
+		registerSystemClassNamed: 'aFirstSubscription' atPriority: 100;
+		register: (ClassSessionHandler forClassNamed: 'anObject').
 
 	self 
-		assert: manager startupList 
+		assertHandledId: manager startupList 
 		equals: #( 'aFirstSubscription' 'anObject' ).
 	self 
-		assert: manager shutdownList 
+		assertHandledId: manager shutdownList 
 		equals: #( 'anObject' 'aFirstSubscription' ).

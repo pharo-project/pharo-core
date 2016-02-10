@@ -1,9 +1,10 @@
 testPriorityOrderInTheSameCategoryIsRespected
-	self
-		register: 'aFirstSubscription' atSystemPriority: 100;
-		register: 'aSecondSubscription' atSystemPriority: 110;
-		register: 'aThirdSubscriptionThatShouldGoFirst' atSystemPriority: 90.
+	manager
+		registerSystemClassNamed: 'aFirstSubscription' atPriority: 100;
+		registerSystemClassNamed: 'aSecondSubscription' atPriority: 110;
+		registerSystemClassNamed: 'aThirdSubscriptionThatShouldGoFirst' atPriority: 90.
+		
 
 	self 
-		assert: manager startupList 
+		assertHandledId: manager startupList 
 		equals: #( 'aThirdSubscriptionThatShouldGoFirst' 'aFirstSubscription' 'aSecondSubscription' ).

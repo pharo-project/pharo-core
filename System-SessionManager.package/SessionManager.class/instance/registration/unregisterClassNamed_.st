@@ -1,2 +1,2 @@
 unregisterClassNamed: aClassName 
-	categories do: [ :each | each unregisterClassNamed: aClassName ]
+	self unregisterHandler: aClassName
