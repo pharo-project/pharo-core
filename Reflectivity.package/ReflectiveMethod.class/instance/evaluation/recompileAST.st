@@ -1,4 +1,6 @@
 recompileAST
+	| links |
+	OCASTSemanticCleaner clean: ast.
 	ast compilationContext 
 		semanticAnalyzerClass: RFSemanticAnalyzer;
 		astTranslatorClass: RFASTTranslator.

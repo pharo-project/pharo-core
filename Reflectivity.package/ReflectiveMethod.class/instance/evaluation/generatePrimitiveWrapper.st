@@ -1,5 +1,6 @@
 generatePrimitiveWrapper
 	| wrappedMethod send wrapperMethod |
+	OCASTSemanticCleaner clean: ast.
 	ast compilationContext 
 		semanticAnalyzerClass: RFSemanticAnalyzer;
 		astTranslatorClass: RFASTTranslator.

@@ -1,5 +1,4 @@
 visitMethodNode: aMethodNode
-	
 
 	scope := compilationContext scope newMethodScope. 
 	aMethodNode scope: scope.  scope node: aMethodNode.

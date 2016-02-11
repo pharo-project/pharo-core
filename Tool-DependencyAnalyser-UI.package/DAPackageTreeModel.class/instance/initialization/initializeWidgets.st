@@ -1,7 +1,7 @@
 initializeWidgets
 	tree := self newTree
 		multiSelection: true;
-		on: $b command do: [ self selectedItemFromTree browseInOtherNautilus ];
+		on: $b meta do: [ self selectedItemFromTree browseInOtherNautilus ];
 		columns: { TreeColumnModel new
 			displayBlock: [:node | node label ] };
 		yourself.

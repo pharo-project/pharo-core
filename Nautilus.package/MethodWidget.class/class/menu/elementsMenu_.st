@@ -7,20 +7,21 @@ elementsMenu: aBuilder
 	(aBuilder item: #'ToggleBreakPoint')
 		action: [ target toggleBreakpoint ];
 		order: 150;
-		label: (target selectedMethod hasBreakpoint
-				ifFalse: [ 'Add breakpoint']
-				ifTrue: [ 'Remove breakpoint'] ).
+		enabledBlock: [ target selectedMethod notNil ];
+		label: ((target selectedMethod isNil or: [ target selectedMethod hasBreakpoint not ])
+				ifTrue: [ 'Add breakpoint']
+				ifFalse: [ 'Remove breakpoint'] ).
 	
 	(aBuilder item: #'ToggleBreakPointOnce')
 		action: [ target toggleBreakpointOnce ];
 		order: 151;
-		enabledBlock: [ target selectedMethod hasBreakpoint not ];
+		enabledBlock: [ target selectedMethod notNil and: [ target selectedMethod hasBreakpoint not ] ];
 		label: 'Add break once'.
 		
 	(aBuilder item: #'ToggleBreakPointCondition')
 		action: [ target toggleBreakpointCondition ];
 		order: 152;
-		enabledBlock: [ target selectedMethod hasBreakpoint not ];
+		enabledBlock: [ target selectedMethod notNil and: [ target selectedMethod hasBreakpoint not ] ];
 		label: 'Add break condition...';
 		withSeparatorAfter.	
 		
