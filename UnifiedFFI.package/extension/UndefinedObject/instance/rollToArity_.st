@@ -1,0 +1,2 @@
+rollToArity: aNumber
+	^ self

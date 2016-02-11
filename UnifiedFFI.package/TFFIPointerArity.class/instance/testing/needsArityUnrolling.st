@@ -1,0 +1,2 @@
+needsArityUnrolling
+	^ self needsArityRolling

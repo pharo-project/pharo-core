@@ -4,7 +4,7 @@ emitArgument: aBuilder type: aType context: aContext objectClass: objectClass in
 		context: aContext 
 		objectClass: objectClass 
 		instVarName: aName.
-	(self needsArityRolling: aType) ifTrue: [ 
+	aType needsArityRolling ifTrue: [ 
 		self 
 			emitPointerArityRoll: aBuilder 
 			context: aContext

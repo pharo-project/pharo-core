@@ -1,6 +1,5 @@
 emitPointerArityUnroll: aBuilder type: aType context: aContext objectClass: objectClass instVarName: aName
-	(self needsArityRolling: aType) ifFalse: [ ^ self ].
-	 
+	aType needsArityUnrolling ifFalse: [ ^ self ].
 	self 
 		emitPointerArityUnroll: aBuilder 
 		context: aContext 

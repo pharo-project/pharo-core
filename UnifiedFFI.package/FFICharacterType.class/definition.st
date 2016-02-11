@@ -1,4 +1,5 @@
 FFIExternalType subclass: #FFICharacterType
+	uses: TFFIPointerArity
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

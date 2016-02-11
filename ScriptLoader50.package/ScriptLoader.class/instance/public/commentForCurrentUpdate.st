@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17573 QualityAssistant v2.3.4
-	https://pharo.fogbugz.com/f/cases/17573
+ ^ '17175 time profiler context menu shows deprecation warning
+	https://pharo.fogbugz.com/f/cases/17175
 
-16866 DiffMorph with pretty print enabled wrongly shows diff markers for unformatted text
-	https://pharo.fogbugz.com/f/cases/16866'
+17519 Fix test for no package information for class side trait methods
+	https://pharo.fogbugz.com/f/cases/17519
+
+17564 atomic pointers needs to be rolled as pointers when needed too
+	https://pharo.fogbugz.com/f/cases/17564'

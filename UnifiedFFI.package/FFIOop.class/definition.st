@@ -1,4 +1,5 @@
 FFIExternalType subclass: #FFIOop
+	uses: TFFIPointerArity
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

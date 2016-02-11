@@ -1,4 +1,4 @@
-script50578
+script50579
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -25,7 +25,7 @@ Balloon-TheIntegrator.129.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-ChristopheDemarey.87.mcz
-BaselineOfQualityAssistant-YuriyTymchuk.40.mcz
+BaselineOfQualityAssistant-YuriyTymchuk.41.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
 BlueInk-Core-TheIntegrator.12.mcz
 BlueInk-Extras-TheIntegrator.6.mcz
@@ -248,10 +248,10 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.87.mcz
-QualityAssistantRecording-YuriyTymchuk.10.mcz
+QualityAssistant-YuriyTymchuk.88.mcz
+QualityAssistantRecording-YuriyTymchuk.11.mcz
 RPackage-Core-TheIntegrator.422.mcz
-RPackage-Tests-TheIntegrator.175.mcz
+RPackage-Tests-TheIntegrator.179.mcz
 Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
@@ -272,7 +272,7 @@ Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.20.mcz
-Renraku-YuriyTymchuk.101.mcz
+Renraku-YuriyTymchuk.103.mcz
 Renraku-Test-YuriyTymchuk.19.mcz
 Ring-Core-Containers-TheIntegrator.43.mcz
 Ring-Core-Kernel-TheIntegrator.237.mcz
@@ -348,7 +348,7 @@ System-VMEvents-TheIntegrator.14.mcz
 Tests-TheIntegrator.745.mcz
 Text-Core-TheIntegrator.46.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.106.mcz
+Text-Edition-TheIntegrator.108.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
