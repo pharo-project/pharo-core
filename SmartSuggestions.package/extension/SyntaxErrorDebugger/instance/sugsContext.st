@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsSyntaxErrorDebuggerContext model: self

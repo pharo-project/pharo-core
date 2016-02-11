@@ -1,4 +1,4 @@
-script50579
+script50580
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -271,7 +271,7 @@ Reflectivity-Tools-Tests-TheIntegrator.8.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
-ReleaseTests-TheIntegrator.20.mcz
+ReleaseTests-TheIntegrator.23.mcz
 Renraku-YuriyTymchuk.103.mcz
 Renraku-Test-YuriyTymchuk.19.mcz
 Ring-Core-Containers-TheIntegrator.43.mcz
@@ -300,8 +300,8 @@ Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.720.mcz
 Slot-Tests-TheIntegrator.85.mcz
-SmartSuggestions-TheIntegrator.216.mcz
-SmartSuggestions-Tests-TheIntegrator.22.mcz
+SmartSuggestions-TheIntegrator.220.mcz
+SmartSuggestions-Tests-TheIntegrator.23.mcz
 Spec-Core-TheIntegrator.449.mcz
 Spec-Debugger-TheIntegrator.258.mcz
 Spec-Examples-TheIntegrator.100.mcz
@@ -381,9 +381,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.178.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.16.mcz
-UnifiedFFI-Legacy-TheIntegrator.2.mcz
-UnifiedFFI-Tests-EstebanLorenzano.6.mcz
+UnifiedFFI-EstebanLorenzano.17.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.1.mcz
+UnifiedFFI-Tests-TheIntegrator.7.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz

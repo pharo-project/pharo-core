@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17175 time profiler context menu shows deprecation warning
-	https://pharo.fogbugz.com/f/cases/17175
+ ^ '17113 Context menu in SyntaxErrorDebugger broken
+	https://pharo.fogbugz.com/f/cases/17113
 
-17519 Fix test for no package information for class side trait methods
-	https://pharo.fogbugz.com/f/cases/17519
+17558 Update Rubric: In Linux some shortcuts use alt, some others ctrl
+	https://pharo.fogbugz.com/f/cases/17558
 
-17564 atomic pointers needs to be rolled as pointers when needed too
-	https://pharo.fogbugz.com/f/cases/17564'
+17561 Add a release test to test the presence of critical classes in startup list
+	https://pharo.fogbugz.com/f/cases/17561'

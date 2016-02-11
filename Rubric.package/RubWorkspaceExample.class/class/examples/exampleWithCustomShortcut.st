@@ -5,9 +5,9 @@ exampleWithCustomShortcut
 
     "define a custom shortcut  - notice  the call to textArea"
 
-    text textArea removeKeyCombination: $s command.
+    text textArea removeKeyCombination: $s meta.
 	 text setText: 'Hit cmd $s to revert the text'.
-    text textArea on:$s command do:[
+    text textArea on: $s meta do:[
         text setText: text text asString reverse].
 
     window := StandardWindow new.
