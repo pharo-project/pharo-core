@@ -1,0 +1,1 @@
+Critic logger event of a critic description viewed

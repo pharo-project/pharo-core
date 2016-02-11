@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '17418 new breakpoint does not work on certain conditions  
-	https://pharo.fogbugz.com/f/cases/17418
+ ^ '17573 QualityAssistant v2.3.4
+	https://pharo.fogbugz.com/f/cases/17573
 
-15839 class rename does not show changes that will be applied
-	https://pharo.fogbugz.com/f/cases/15839
-
-17557 Update DependencyAnalyzer: In Linux some shortcuts use alt, some others ctrl
-	https://pharo.fogbugz.com/f/cases/17557
-
-17569 Context menu in method pane is broken if no method is selected
-	https://pharo.fogbugz.com/f/cases/17569'
+16866 DiffMorph with pretty print enabled wrongly shows diff markers for unformatted text
+	https://pharo.fogbugz.com/f/cases/16866'

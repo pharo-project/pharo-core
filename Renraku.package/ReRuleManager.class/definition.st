@@ -1,5 +1,5 @@
 Object subclass: #ReRuleManager
-	instanceVariableNames: 'classRules methodRules packageRules astRules'
+	instanceVariableNames: 'rules'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Renraku-Utility'

@@ -1,5 +1,7 @@
 initialize
 
 	super initialize.
-	self reset.
-	self subscribe 
+	
+	self 
+	resetRules;
+	subscribe 

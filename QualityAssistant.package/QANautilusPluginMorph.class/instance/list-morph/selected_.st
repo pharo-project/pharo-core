@@ -1,6 +1,11 @@
 selected: index
+	| critic |
+
 	(index == 0 or:
 	[ pluginDelegate isNil ]) ifTrue: [ ^ self ].
 	
-	
-	pluginDelegate criticSelected: (critics at: index)
+	critic := (critics at: index).
+	pluginDelegate criticSelected: critic.
+	ReSystemAnnouncer uniqueInstance
+		notifyCritic: critic
+		clickedOnFor: entity.

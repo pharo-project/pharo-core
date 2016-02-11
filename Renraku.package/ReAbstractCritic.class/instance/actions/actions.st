@@ -7,18 +7,22 @@ actions
 	actions add: (RePropertyAction new
 			icon: (Smalltalk ui icons iconNamed: #smallQuestionIcon);
 			description: 'View rationale behind the rule';
-			action: [ :crit | crit popDescriptionUp ];
+			action: [ :crit |
+				crit popDescriptionUp.
+				ReSystemAnnouncer uniqueInstance
+					notifyCritic: crit
+					descriptionViewedFor: crit sourceAnchor entity ];
 			yourself).
 	
 	self providesChange ifTrue: [ 
 		actions add: (RePropertyAction new
 			icon: (Smalltalk ui icons iconNamed: #repairIcon);
 			description: 'Automatically resolve the issue';
-			action: [ :critic |
+			action: [ :crit |
 				| change |
-				change := critic change.
+				change := crit change.
 
-				ReSystemAnnouncer uniqueInstance notifyViewedDiffFor: critic of: critic sourceAnchor entity.
+				ReSystemAnnouncer uniqueInstance notifyViewedDiffFor: crit of: crit sourceAnchor entity.
 	
 				(TextModel new
 					title: 'Apply the proposed changes?';
@@ -27,8 +31,8 @@ actions
 					disable;
 					openDialogWithSpec)
 						okAction: [ ReSystemAnnouncer uniqueInstance
-								notifyCritic: critic
-								AutoFixedFor: critic target.
+								notifyCritic: crit
+								AutoFixedFor: crit sourceAnchor entity.
 								change execute ];
 			centered ];
 			yourself) ].

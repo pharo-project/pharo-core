@@ -1,5 +1,3 @@
 packageRules
 
-	packageRules ifNil: [ self initializeRules ].
-	
-	^ packageRules
+	^rules select: [ :rule | rule class checksPackage ]

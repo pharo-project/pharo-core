@@ -1,0 +1,2 @@
+asQAREvent
+	^ QARCriticClickedOn fromAnnouncement: self

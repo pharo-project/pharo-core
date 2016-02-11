@@ -1,4 +1,4 @@
-script50577
+script50578
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -183,7 +183,7 @@ MonticelloFileTree-FileSystem-Utilities-dkh.28.mcz
 MonticelloGUI-TheIntegrator.405.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
-Moose-Algos-Graph-ChristopheDemarey.30.mcz
+Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.540.mcz
 Morphic-Core-TheIntegrator.248.mcz
 Morphic-Examples-TheIntegrator.48.mcz
@@ -357,8 +357,8 @@ Tool-Catalog-TorstenBergmann.29.mcz
 Tool-CriticBrowser-TheIntegrator.19.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
-Tool-DependencyAnalyser-UI-TheIntegrator.38.mcz
-Tool-Diff-TheIntegrator.21.mcz
+Tool-DependencyAnalyser-UI-GuillermoPolito.39.mcz
+Tool-Diff-TheIntegrator.23.mcz
 Tool-ExternalBrowser-TheIntegrator.47.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz

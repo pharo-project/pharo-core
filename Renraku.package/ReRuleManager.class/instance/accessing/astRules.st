@@ -1,5 +1,3 @@
 astRules
-
-	astRules ifNil: [ self initializeRules ].
 	
-	^ astRules
+	^rules select: [ :rule | rule class checksAST ]

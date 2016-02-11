@@ -1,5 +1,3 @@
 methodRules
 
-	methodRules ifNil: [ self initializeRules ].
-
-	^ methodRules
+	^rules select: [ :rule | rule class checksMethod ]
