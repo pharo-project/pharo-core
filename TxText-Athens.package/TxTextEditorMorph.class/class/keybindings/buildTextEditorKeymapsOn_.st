@@ -16,15 +16,15 @@ buildTextEditorKeymapsOn: aBuilder
 		Character backspace. #handleBackspaceKey.
 		Character pageDown. #movePageDown.
 		Character pageUp. #movePageUp.
-		$z command. #undo.
+		$z meta. #undo.
 		Character arrowRight shift. #extendSelectionRight.
 		Character arrowLeft shift. #extendSelectionLeft.
 		Character arrowUp shift. #extendSelectionUp.
 		Character arrowDown shift. #extendSelectionDown.
-		$v command. #pasteClipboard.
-		$c command. #copyToClipboard.
-		$x command. #cutToClipboard.
-		$a command. #selectAll.
+		$v meta. #pasteClipboard.
+		$c meta. #copyToClipboard.
+		$x meta. #cutToClipboard.
+		$a meta. #selectAll.
 		
 	 } pairsDo: [ :key :action |
 		(aBuilder shortcut: action )

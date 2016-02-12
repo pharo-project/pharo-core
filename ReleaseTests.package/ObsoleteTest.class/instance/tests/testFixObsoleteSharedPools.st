@@ -1,6 +1,5 @@
 testFixObsoleteSharedPools
 	| poolClass obsoletePoolName testClass preFixObsoleteClassNames postFixObsoleteClassNames |
-	self skip.
 	poolClass := classFactory newClass. "provides unique name over time via class variable counter"
 	testClass := classFactory  
 		newSubclassOf: classFactory defaultSuperclass 
