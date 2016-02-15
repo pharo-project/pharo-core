@@ -1,2 +1,0 @@
-nbLibraryNameOrHandle
-	^ CairoLibraryLoader getLibraryHandle

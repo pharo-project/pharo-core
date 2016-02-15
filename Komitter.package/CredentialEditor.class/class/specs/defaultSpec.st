@@ -1,5 +1,5 @@
 defaultSpec
-	<sepc: #default>
+	<spec: #default>
 	
 	^ SpecLayout composed
 		newColumn: [ :col |

@@ -1,4 +1,4 @@
 cornerStyle
 	"Answer the value of cornerStyle"
 
-	^cornerStyle
+	^cornerStyle ifNil: [#square]

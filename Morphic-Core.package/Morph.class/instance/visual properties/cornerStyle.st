@@ -4,5 +4,6 @@ cornerStyle
 		#rounded
 	according to the current corner style."
 
-	self assureExtension.
-	^extension cornerStyle ifNil: [#square]
+	^extension 
+		ifNil: [ #square ]
+		ifNotNil: [ extension cornerStyle ]

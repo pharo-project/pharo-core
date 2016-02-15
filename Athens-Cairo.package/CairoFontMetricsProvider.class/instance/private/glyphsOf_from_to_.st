@@ -7,17 +7,11 @@ glyphsOf: aString from: start to: end
 	ptr := CairoGlyphsArray externalNew: utf8Len.
 	lenValue := ByteArray new: 4.
 	lenValue nbUInt32AtOffset: 0 put: len.
-	
-	"somehow scaled font is buggy and calculated glyphs have wrong extents,
-	setting font size manually and retrieving 'fixed' scaled font solves the problem"
-	canvas
-		setScaledFont: font;
-		setFontSize: originalFont pixelSize.
-	
+		
 	error := self 
 		convertString: utfConverter buffer 
 		len: utf8Len
-		ofFont: canvas getScaledFont 
+		ofFont: cairoFont 
 		toGlyphs: ptr
 		numGlyphs: lenValue 
 		x: 0.0 
@@ -26,13 +20,12 @@ glyphsOf: aString from: start to: end
 	error = CAIRO_STATUS_SUCCESS ifFalse: [  ^ CairoGlyphsArray new: 0 ].
 
 	glyphsSize := lenValue nbUInt32AtOffset: 0.
-   font getExtentsOfGlyphs: ptr getHandle ofLength: glyphsSize into: glyphExtents.
-	advance := glyphExtents width @ glyphExtents height.
+   cairoFont getExtentsOfGlyphs: ptr getHandle ofLength: glyphsSize into: glyphExtents.
 	
 	glyphs := CairoGlyphsArray new: glyphsSize.
 	LibC memCopy: ptr getHandle to: glyphs getHandle size: (glyphsSize * glyphs typeSize).
 	"Apply kerning on glyphs if font supports it"
-	originalFont face hasKerning
+	font face hasKerning
 		ifTrue: [ self applyKerningOn: glyphs of: aString from: start to: end ].
 	self freeGlyphs: ptr getHandle.
 		

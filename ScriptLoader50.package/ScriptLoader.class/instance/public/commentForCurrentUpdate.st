@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '14165 ObsoleteTest>>#testFixObsoleteSharedPools
-	https://pharo.fogbugz.com/f/cases/14165
+ ^ '17586 CredentialEditor class defaultSpec wrong pragma name
+	https://pharo.fogbugz.com/f/cases/17586
 
-16428 cmd+r (rename temporary) does not works all the time
-	https://pharo.fogbugz.com/f/cases/16428
+17583 Morph>>#cornerStyle sets the extension variable
+	https://pharo.fogbugz.com/f/cases/17583
 
-17556 Update TxText: In Linux some shortcuts use alt, some others ctrl
-	https://pharo.fogbugz.com/f/cases/17556
-
-17330 Push up method refactoring triggers debuggers 
-	https://pharo.fogbugz.com/f/cases/17330'
+17579 Update Athens version 3.8
+	https://pharo.fogbugz.com/f/cases/17579'

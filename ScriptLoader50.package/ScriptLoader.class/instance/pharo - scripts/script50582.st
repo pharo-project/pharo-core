@@ -1,4 +1,4 @@
-script50581
+script50582
 
 	^ 'AST-Core-TheIntegrator.399.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -147,7 +147,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.152.mcz
+Komitter-TheIntegrator.155.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -185,9 +185,9 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.540.mcz
-Morphic-Core-TheIntegrator.248.mcz
+Morphic-Core-TheIntegrator.253.mcz
 Morphic-Examples-TheIntegrator.48.mcz
-Morphic-Tests-TheIntegrator.8.mcz
+Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.74.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
@@ -374,7 +374,7 @@ Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.12.mcz
 Traits-TheIntegrator.884.mcz
 Transcript-TheIntegrator.45.mcz
-TxText-Athens-NicolaiHess.52.mcz
+TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
