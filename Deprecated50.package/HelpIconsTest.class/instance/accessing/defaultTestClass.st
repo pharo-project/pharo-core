@@ -1,2 +1,0 @@
-defaultTestClass 
-	^HelpIcons

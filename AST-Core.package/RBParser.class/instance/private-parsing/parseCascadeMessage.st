@@ -1,8 +1,11 @@
 parseCascadeMessage
 	| node receiver messages semicolons |
 	node := self parseKeywordMessage.
-	(currentToken isSpecial 
-		and: [currentToken value = $; and: [node isMessage]]) ifFalse: [^node].
+	(currentToken isSpecial and: [ currentToken value = $; ])
+		ifTrue: [ (node isVariable or: [ node hasParentheses ])
+				ifTrue: [ self parserError: 'cascaded message not allowed' ] ].
+	(currentToken isSpecial and: [ currentToken value = $; and: [ node isMessage ] ])
+		ifFalse: [ ^ node ].
 	receiver := node receiver.
 	messages := OrderedCollection new: 3.
 	semicolons := OrderedCollection new: 3.
