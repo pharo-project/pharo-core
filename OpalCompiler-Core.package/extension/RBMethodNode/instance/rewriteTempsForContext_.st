@@ -1,8 +1,9 @@
 rewriteTempsForContext: aContext
 	
-	| rewriter  |
+	| rewriter contextOnlyTemps |
 	rewriter := RBParseTreeRewriter new.
-	aContext tempNames withIndexDo: [ :tempName :index | 
+	contextOnlyTemps := self notShadowedTemporaryNamesFrom: aContext.
+	contextOnlyTemps withIndexDo: [ :tempName :index | 
 		rewriter 
 			replace: tempName, ' := ``@object'
 			with: 'ThisContext namedTempAt:', index asString,  'put: ``@object';

@@ -1,6 +1,6 @@
 execute
 
-	self newRepository ifNotNil:
+	MCTool newRepository ifNotNil:
 		[:repos | MCRepositoryGroup default addRepository: repos ].
 
 

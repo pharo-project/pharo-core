@@ -6,7 +6,7 @@ repositoryOfPackageNamed: packageName
 	workingCopy := mcPackage workingCopy.
 	repositories := workingCopy repositoryGroup repositories reject: [ :rep | rep == MCCacheRepository default ].
 	repositories
-		ifEmpty: [ repository := NautilusMonticello new newRepository.
+		ifEmpty: [ repository := MCTool newRepository.
 				   workingCopy repositoryGroup addRepository: repository. ].
 	repositories size > 1
 		ifTrue: [ 

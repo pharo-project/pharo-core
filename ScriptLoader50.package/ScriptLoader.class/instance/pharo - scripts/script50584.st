@@ -1,4 +1,4 @@
-script50583
+script50584
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -139,7 +139,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2226.mcz
+Kernel-TheIntegrator.2228.mcz
 Kernel-Tests-TheIntegrator.33.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -180,7 +180,7 @@ MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.136.mcz
 MonticelloFileTree-FileSystem-Utilities-dkh.28.mcz
-MonticelloGUI-TheIntegrator.405.mcz
+MonticelloGUI-TheIntegrator.407.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
@@ -217,7 +217,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1211.mcz
+Nautilus-TheIntegrator.1212.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -238,7 +238,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.782.mcz
+OpalCompiler-Core-TheIntegrator.784.mcz
 OpalCompiler-Tests-TheIntegrator.321.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -311,7 +311,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.254.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.320.mcz
+Spec-Tools-TheIntegrator.321.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-EstebanLorenzano.13.mcz
@@ -388,7 +388,7 @@ UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
-Versionner-Core-Commands-ChristopheDemarey.61.mcz
+Versionner-Core-Commands-TheIntegrator.63.mcz
 Versionner-Core-DependenciesModel-ChristopheDemarey.103.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
 Versionner-Spec-Browser-EstebanLorenzano.179.mcz

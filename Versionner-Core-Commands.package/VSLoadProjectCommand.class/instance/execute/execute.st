@@ -1,6 +1,6 @@
 execute
 	| mcRepository projectName configurationName  |
-	mcRepository := NautilusMonticello new newRepository.
+	mcRepository := MCTool newRepository.
 	(mcRepository isNil or: [ mcRepository location isEmpty ])
 		ifTrue: [ ^ self ].
 
