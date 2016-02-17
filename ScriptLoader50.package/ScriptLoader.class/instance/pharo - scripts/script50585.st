@@ -1,4 +1,4 @@
-script50584
+script50585
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -43,7 +43,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.395.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.28.mcz
+Collections-Tests-TheIntegrator.29.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.98.mcz
 Compiler-EstebanLorenzano.600.mcz
@@ -139,7 +139,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2228.mcz
+Kernel-TheIntegrator.2229.mcz
 Kernel-Tests-TheIntegrator.33.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
@@ -185,7 +185,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.540.mcz
-Morphic-Core-TheIntegrator.254.mcz
+Morphic-Core-TheIntegrator.256.mcz
 Morphic-Examples-TheIntegrator.48.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.74.mcz

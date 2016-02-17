@@ -1,11 +1,9 @@
 commentForCurrentUpdate
- ^ '17074 What is NautilusMonticello
-	https://pharo.fogbugz.com/f/cases/17074
+ ^ '17445 Upload Simple Test Cases for String
+	https://pharo.fogbugz.com/f/cases/17445
 
-16675 Evaluating code blocks while debugging may yield wrong values
-	https://pharo.fogbugz.com/f/cases/16675
+17509 Color should handle its naming 
+	https://pharo.fogbugz.com/f/cases/17509
 
-17597 clean some dead code in ProcessSpecificVariable
-	https://pharo.fogbugz.com/f/cases/17597
-
-'
+17598 DelayExperimentalSpinScheduler should be the default delay scheduler
+	https://pharo.fogbugz.com/f/cases/17598'
