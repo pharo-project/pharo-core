@@ -1,4 +1,4 @@
-script50585
+script50586
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -94,7 +94,7 @@ GT-SUnitDebugger-AndreiChis.32.mcz
 GT-Spotter-AliakseiSyrel.355.mcz
 GT-Spotter-EventRecorder-AndreiChis.108.mcz
 GT-SpotterExtensions-Core-TudorGirba.189.mcz
-GT-Tests-Debugger-AndreiChis.11.mcz
+GT-Tests-Debugger-TheIntegrator.13.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-StefanReichhart.15.mcz
