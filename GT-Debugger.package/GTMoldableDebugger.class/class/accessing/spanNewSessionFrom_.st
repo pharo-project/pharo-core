@@ -1,6 +1,8 @@
 spanNewSessionFrom: anotherSession
 
-	^ self sessionClass 
+	^ (self sessionClass 
 		named: anotherSession name 
 		on: anotherSession interruptedProcess 
-		startedAt: anotherSession interruptedContext
+		startedAt: anotherSession interruptedContext)
+			errorWasInUIProcess: anotherSession errorWasInUIProcess;
+			yourself

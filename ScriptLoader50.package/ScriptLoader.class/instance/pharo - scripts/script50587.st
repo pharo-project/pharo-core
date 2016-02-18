@@ -1,4 +1,4 @@
-script50586
+script50587
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -140,7 +140,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2229.mcz
-Kernel-Tests-TheIntegrator.33.mcz
+Kernel-Tests-TheIntegrator.35.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -223,7 +223,7 @@ Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
 NautilusCommon-TheIntegrator.304.mcz
 NautilusGroupAutoBuilder-TheIntegrator.8.mcz
-NautilusRefactoring-TheIntegrator.266.mcz
+NautilusRefactoring-TheIntegrator.268.mcz
 Network-Kernel-TheIntegrator.123.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
