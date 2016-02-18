@@ -1,3 +1,6 @@
 initialize
 	IdCounter := 0.
-	Smalltalk addToStartUpList: self
+	self environment 
+		at: #SessionManager 
+		ifPresent: [ :manager | manager default registerNetworkClassNamed: self name ]
+		ifAbsent: [ Smalltalk addToStartUpList: self ]

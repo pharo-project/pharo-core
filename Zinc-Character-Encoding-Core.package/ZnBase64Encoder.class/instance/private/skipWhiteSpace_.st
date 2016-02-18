@@ -1,3 +1,3 @@
 skipWhiteSpace: stream
-	[ stream atEnd not and: [ (self valueForCharacter: stream peek) isNil ] ] 
-		whileTrue: [ stream next ]
+	[ stream atEnd or: [ (self isLegalCharacter: stream peek) ] ] 
+		whileFalse: [ stream next ]

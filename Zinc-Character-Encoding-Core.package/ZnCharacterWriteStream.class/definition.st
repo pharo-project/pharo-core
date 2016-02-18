@@ -1,5 +1,5 @@
-Object subclass: #ZnCharacterWriteStream
-	instanceVariableNames: 'stream encoder'
+ZnEncodedWriteStream subclass: #ZnCharacterWriteStream
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Zinc-Character-Encoding-Core'

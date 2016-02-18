@@ -1,0 +1,2 @@
+nextCodePointFromStream: stream
+	^ stream next

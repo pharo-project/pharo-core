@@ -3,6 +3,7 @@ initialize
 		map: 'welcome' to: #welcome:;
 		map: 'help' to: #help:;
 		map: 'echo' to: #echoRequest:;
+		map: 'small' to: #small:;
 		map: 'dw-bench' to: #dwbench:;
 		map: 'favicon.ico' to: #favicon:;
 		map: 'random' to: #random:;

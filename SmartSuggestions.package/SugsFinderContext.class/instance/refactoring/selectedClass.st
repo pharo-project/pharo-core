@@ -1,0 +1,3 @@
+selectedClass
+	
+	^ model selectedClass

@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsFinderContext model: self

@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '17619 Failing test on CI: CompiledMethodTest>>#testComparison
-	https://pharo.fogbugz.com/f/cases/17619
+ ^ '17511 Inline temporary smart suggestion crashes
+	https://pharo.fogbugz.com/f/cases/17511
 
-17625 The immediateSubclass... and variableSubclass method need comments
-	https://pharo.fogbugz.com/f/cases/17625
+17606 Zn Update Februari 2016
+	https://pharo.fogbugz.com/f/cases/17606
 
-17605 Autofix raises DNU in QualityAssistant
-	https://pharo.fogbugz.com/f/cases/17605'
+17015 Failing test: SetTest>>#testAllSetsAreHealthy
+	https://pharo.fogbugz.com/f/cases/17015
+
+17590 Textmenu in Finder code pane does not work.
+	https://pharo.fogbugz.com/f/cases/17590'

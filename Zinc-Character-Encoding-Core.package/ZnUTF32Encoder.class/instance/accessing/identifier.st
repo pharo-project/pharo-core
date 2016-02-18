@@ -1,0 +1,2 @@
+identifier
+	^ #utf32

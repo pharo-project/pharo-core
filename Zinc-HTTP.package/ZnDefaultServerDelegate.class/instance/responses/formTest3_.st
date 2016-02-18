@@ -1,5 +1,5 @@
 formTest3: request
-	| contents filename contentType html |
+	| contents filename contentType page |
 	contents := filename := contentType := ''.
 	(request hasEntity and: [ request contentType matches: ZnMimeType multiPartFormData ])
 		ifTrue: [ 
@@ -9,12 +9,18 @@ formTest3: request
 					contents := part contents.
 					contentType := part  contentType.
 					contentType isBinary ifTrue: [ contents := contents hex ] ] ].
-	html := '<h1>Form Test 3</h1>',
-		'<form action="form-test-3" accept-charset="utf-8" enctype="multipart/form-data" method="post">',
-		'file <input type="file" name="file"> ',
-		'<input type="submit">',
-		'</form>',
-		'<p>filename = <em>{1}</em></p>',
-		'<p>content-type = <em>{2}</em></p>',
-		'<p>contents = <em>{3}</em></p>' format: { filename. contentType. contents }.
-	^ ZnResponse ok: (ZnEntity html: html)
+	page := ZnHtmlOutputStream streamContents: [ :html |
+		html page: 'Form Test 3' do: [ 
+			html 
+				tag: #form 
+				attributes: #(action 'form-test-3' 'accept-charset' 'utf-8' 
+									enctype 'multipart/form-data' method POST) 
+				do: [ 
+					html 
+						str: 'File'; space;
+						tag: #input attributes: #(type file name file); space;
+						tag: #input attributes: #(type submit) ];
+				tag: #p do: [ html str: 'filename = '; str: filename ];
+				tag: #p do: [ html str: 'content-type = '; str: contentType asString ];
+				tag: #p do: [ html str: 'contents = '; str: contents asString ] ] ].
+	^ ZnResponse ok: (ZnEntity html: page)

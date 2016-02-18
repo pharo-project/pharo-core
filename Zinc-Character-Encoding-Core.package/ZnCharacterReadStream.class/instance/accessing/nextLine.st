@@ -11,4 +11,4 @@ nextLine
 				ifFalse: [ 
 					char = Character cr 
 						ifTrue: [ eol := true. self peekFor: Character lf ]
-						ifFalse: [  out nextPut: char ] ] ] ]
+						ifFalse: [ out nextPut: char ] ] ] ]

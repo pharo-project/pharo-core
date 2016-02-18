@@ -1,5 +1,8 @@
 initialize
 	ManagedServers := IdentitySet new.
 	AlwaysRestart := true.
-	Smalltalk addToStartUpList: self.
-	Smalltalk addToShutDownList: self
+	self environment 
+		at: #SessionManager 
+		ifPresent: [ :manager | manager default registerNetworkClassNamed: self name ]
+		ifAbsent: [ Smalltalk addToStartUpList: self; addToShutDownList: self ]
+	

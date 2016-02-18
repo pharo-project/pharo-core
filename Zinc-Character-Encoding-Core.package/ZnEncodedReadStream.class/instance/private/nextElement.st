@@ -1,0 +1,2 @@
+nextElement
+	self subclassResponsibility 

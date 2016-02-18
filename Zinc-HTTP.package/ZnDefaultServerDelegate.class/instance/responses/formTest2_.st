@@ -1,11 +1,17 @@
 formTest2: request
-	| input html |
+	| input page |
 	input := 'input'.
 	(request hasEntity and: [ request contentType matches: ZnMimeType applicationFormUrlEncoded  ])
 		ifTrue: [ input := request entity at: #input ifAbsent: [ 'input' ] ].
-	html := '<h1>Form Test 2</h1>',
-		'<form action="form-test-2" accept-charset="utf-8" method="post">',
-		'Input <input type="input" name="input" value="{1}"> ',
-		'<input type="submit"> for input <em>{1}</em>',
-		'</form>' format: { input }.
-	^ ZnResponse ok: (ZnEntity html: html)
+	page := ZnHtmlOutputStream streamContents: [ :html |
+		html page: 'Form Test 2' do: [ 
+			html 
+				tag: #form 
+				attributes: #(action 'form-test-2' 'accept-charset' 'utf-8' method POST) 
+				do: [ 
+					html 
+						str: 'Input'; space;
+						tag: #input attributes: { #type. #input. #name. #input. #value. input }; space;
+						tag: #input attributes: #(type submit); 
+						str: 'for input'; space; tag: #em with: input ] ] ].
+	^ ZnResponse ok: (ZnEntity html: page)

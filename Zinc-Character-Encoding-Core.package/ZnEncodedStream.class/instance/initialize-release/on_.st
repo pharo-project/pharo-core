@@ -1,0 +1,2 @@
+on: wrappedStream
+	stream := wrappedStream

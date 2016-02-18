@@ -1,0 +1,2 @@
+encodedByteCountForCodePoint: codePoint
+	^ 1

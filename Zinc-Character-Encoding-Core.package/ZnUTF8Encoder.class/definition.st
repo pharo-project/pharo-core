@@ -1,4 +1,4 @@
-ZnCharacterEncoder subclass: #ZnUTF8Encoder
+ZnUTFEncoder subclass: #ZnUTF8Encoder
 	instanceVariableNames: ''
 	classVariableNames: 'ByteASCIISet ByteUTF8Encoding'
 	poolDictionaries: ''

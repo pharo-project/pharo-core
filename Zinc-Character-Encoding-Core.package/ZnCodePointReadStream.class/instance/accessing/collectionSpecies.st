@@ -1,0 +1,2 @@
+collectionSpecies
+	^ Array

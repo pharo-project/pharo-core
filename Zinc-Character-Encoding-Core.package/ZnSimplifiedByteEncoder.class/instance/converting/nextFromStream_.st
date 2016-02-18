@@ -1,5 +1,6 @@
 nextFromStream: stream
-	"In non-strict mode, we let byte values for holes in our mapping pass through"
+	"In non-strict mode, we let byte values for holes in our mapping pass through.
+	Overwritten for performance reasons"
 
 	| byteValue |
 	^ (byteValue := stream next) < 128

@@ -1,0 +1,2 @@
+nextPut: anObject
+	self subclassResponsibility

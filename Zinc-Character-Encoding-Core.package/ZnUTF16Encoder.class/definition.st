@@ -1,5 +1,5 @@
-ZnCharacterEncoder subclass: #ZnUTF16Encoder
-	instanceVariableNames: 'endianness'
+ZnEndianSensitiveUTFEncoder subclass: #ZnUTF16Encoder
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Zinc-Character-Encoding-Core'

@@ -1,5 +1,5 @@
-Object subclass: #ZnCharacterReadStream
-	instanceVariableNames: 'stream encoder peekedCharacter'
+ZnEncodedReadStream subclass: #ZnCharacterReadStream
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Zinc-Character-Encoding-Core'
