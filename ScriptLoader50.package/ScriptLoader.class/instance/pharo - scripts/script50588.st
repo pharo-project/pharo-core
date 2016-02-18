@@ -1,4 +1,4 @@
-script50587
+script50588
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -84,7 +84,7 @@ FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
-GT-Debugger-AndreiChis.312.mcz
+GT-Debugger-DenisKudryashov.313.mcz
 GT-EventRecorder-JurajKubelka.55.mcz
 GT-EventRecorder-Tests-JurajKubelka.32.mcz
 GT-Inspector-TudorGirba.382.mcz
@@ -372,7 +372,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.12.mcz
-Traits-TheIntegrator.884.mcz
+Traits-TheIntegrator.886.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

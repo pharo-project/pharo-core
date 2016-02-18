@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17602 duplicated UI processes while running tests from Nautilus
-	https://pharo.fogbugz.com/f/cases/17602
+ ^ '17619 Failing test on CI: CompiledMethodTest>>#testComparison
+	https://pharo.fogbugz.com/f/cases/17619
 
-17630 CompiledMethodTest >> #testSelector asks for Author when run
-	https://pharo.fogbugz.com/f/cases/17630
+17625 The immediateSubclass... and variableSubclass method need comments
+	https://pharo.fogbugz.com/f/cases/17625
 
-17599 Refectory change method added diff does not take into account class side methods
-	https://pharo.fogbugz.com/f/cases/17599'
+17605 Autofix raises DNU in QualityAssistant
+	https://pharo.fogbugz.com/f/cases/17605'
