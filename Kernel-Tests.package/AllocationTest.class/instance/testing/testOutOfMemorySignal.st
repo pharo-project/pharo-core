@@ -5,5 +5,4 @@ testOutOfMemorySignal
 	self should: [(1 to: 2000) collect: [:i| Array new: sz]] raise: OutOfMemory.
 
 	"Call me when this test fails, I want your machine"
-	sz := 1024*1024*1024*1024.
-	self should:[Array new: sz] raise: OutOfMemory.
+	self should:[Array new: SmallInteger maxVal] raise: OutOfMemory.

@@ -1,4 +1,4 @@
-script50589
+script50590
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -140,14 +140,14 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2229.mcz
-Kernel-Tests-TheIntegrator.35.mcz
+Kernel-Tests-TheIntegrator.37.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.55.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.96.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.155.mcz
+Komitter-TheIntegrator.157.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -238,7 +238,7 @@ OSWindow-Core-MerwanOuddane.94.mcz
 OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.784.mcz
+OpalCompiler-Core-TheIntegrator.786.mcz
 OpalCompiler-Tests-TheIntegrator.321.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -303,7 +303,7 @@ Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.222.mcz
 SmartSuggestions-Tests-TheIntegrator.25.mcz
 Spec-Core-TheIntegrator.449.mcz
-Spec-Debugger-TheIntegrator.258.mcz
+Spec-Debugger-TheIntegrator.260.mcz
 Spec-Examples-TheIntegrator.100.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.254.mcz
@@ -396,14 +396,14 @@ Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-TheIntegrator.44.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-TheIntegrator.17.mcz
-Zinc-Character-Encoding-Core-SvenVanCaekenberghe.41.mcz
-Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.23.mcz
-Zinc-FileSystem-SvenVanCaekenberghe.10.mcz
-Zinc-HTTP-EstebanLorenzano.442.mcz
-Zinc-Resource-Meta-Core-SvenVanCaekenberghe.55.mcz
-Zinc-Resource-Meta-FileSystem-TheIntegrator.8.mcz
+Zinc-Character-Encoding-Core-SvenVanCaekenberghe.45.mcz
+Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
+Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
+Zinc-HTTP-SvenVanCaekenberghe.447.mcz
+Zinc-Resource-Meta-Core-PavelKrivanek.56.mcz
+Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz
-Zinc-Tests-SvenVanCaekenberghe.235.mcz
+Zinc-Tests-SvenVanCaekenberghe.236.mcz
 Zinc-Zodiac-SvenVanCaekenberghe.35.mcz
 Zodiac-Core-SvenVanCaekenberghe.42.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz
