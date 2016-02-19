@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16993 Pharo crash if we sort a LinkedList
-	https://pharo.fogbugz.com/f/cases/16993
+ ^ '17552 In Linux some shortcuts use alt, some others ctrl
+	https://pharo.fogbugz.com/f/cases/17552
 
-17593 matching meta with ctrl or command does not work if shortcut definitions contains shift
-	https://pharo.fogbugz.com/f/cases/17593'
+17634 registerToMCAnnouncements has no no senders 
+	https://pharo.fogbugz.com/f/cases/17634
+
+17392 FreeType numCharMaps nil causes Array>>basicNew: to fail
+	https://pharo.fogbugz.com/f/cases/17392'

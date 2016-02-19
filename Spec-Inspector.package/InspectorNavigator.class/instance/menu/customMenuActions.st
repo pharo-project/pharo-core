@@ -4,7 +4,7 @@ customMenuActions
 			item
 				name: 'Dive Into' translated;
 				action: [ self diveIntoSelectedObject  ];
-				shortcut: $d command mac | $d alt win | $d alt unix].
+				shortcut: $d meta ].
 	
 		(history hasPrevious or: [ history hasNext ])
 			ifTrue: [ 
@@ -14,11 +14,11 @@ customMenuActions
 							item
 								name: 'Back' translated;
 								action: [ self inspectPrevious ];
-								shortcut: $[ command mac | $[ alt win | $[ alt unix ] ].
+								shortcut: $[ meta ] ].
 							
 					history hasNext ifTrue: [ 
 						aGroup addItem: [ :item |
 							item
 								name: 'Forward' translated;
 								action: [ self inspectNext ];
-								shortcut: $] command mac | $] alt win |  $] alt unix  ] ] ] ] ]
+								shortcut: $] meta  ] ] ] ] ]

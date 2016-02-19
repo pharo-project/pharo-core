@@ -5,4 +5,4 @@ endSubMenu: aMenu
 			anItem 
 				name: 'Copy Name';
 				action: [ self copyAccessorCode ];
-				shortcut: $c command mac | $c alt win | $c alt unix ] ]
+				shortcut: $c meta ] ]

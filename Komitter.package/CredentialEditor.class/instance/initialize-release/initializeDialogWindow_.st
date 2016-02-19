@@ -1,5 +1,5 @@
 initializeDialogWindow: aWindow
 
 	self 
-		bindKeyCombination: $m control 
+		bindKeyCombination: $m meta 
 		toAction: [ aWindow triggerOkAction ]

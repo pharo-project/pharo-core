@@ -3,6 +3,6 @@ buildShortcut: aBuilder
 
 	(aBuilder shortcut: #previousSelection)
 		category: #SmalltalkEditor
-		default: $b command shift mac| $b ctrl shift unix | $b ctrl shift 
+		default: $b meta shift 
 		do: [ :morph | morph standOutPreviousSelection ]
 		description: 'Select the previous selected scope'

@@ -4,9 +4,9 @@ buildScrollPaneShortcuts: aBuilder
 	<keymap>
 	(aBuilder shortcut: #scrollUp)
 		category: #ScrollPane
-		default: Character arrowUp ctrl | Character arrowUp command mac
+		default: Character arrowUp meta
 		do: [ :target | target scrollBar scrollUp: 3 ].
 	(aBuilder shortcut: #scrollDown)
 		category: #ScrollPane
-		default: Character arrowDown ctrl | Character arrowDown command mac
+		default: Character arrowDown meta
 		do: [ :target | target scrollBar scrollDown: 3 ].

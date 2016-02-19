@@ -3,12 +3,12 @@ buildRecategorizeShortcutsOn: aBuilder
 
 	(aBuilder shortcut: #recategorizeMethod)
 		category: #NautilusGlobalShortcuts
-		default: $m command , $m command 
+		default: $m meta , $m meta 
 		do: [ :target | target categorizeMethod ]
 		description: 'Categorize the selected method'.
 		
 	(aBuilder shortcut: #recategorizeClass)
 		category: #NautilusGlobalShortcuts
-		default: $m command , $c command 
+		default: $m meta , $c meta 
 		do: [ :target | target moveInPackage ]
 		description: 'Categorize the selected class'.

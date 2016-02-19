@@ -6,23 +6,23 @@ subMenu
 				item
 					name: 'Open';
 					icon: Smalltalk ui icons openIcon;
-					shortcut: $o command;
+					shortcut: $o meta;
 					action: [ self inform: 'Open' ] ].
 			group addItem: [ :item |
 				item 
 					name: 'Save';
 					icon: Smalltalk ui icons smallSaveIcon;
-					shortcut: $s command;
+					shortcut: $s meta;
 					action: [ self inform: 'Save' ] ].
 			group addItem: [ :item |
 				item 
 					name: 'Print';
-					shortcut: $p command;
+					shortcut: $p meta;
 					icon: Smalltalk ui icons smallPrintIcon;
 					action: [ self inform: 'Print' ] ].
 			group addItem: [ :item |
 				item 
 					name: 'Kill';
-					shortcut: $k command;
+					shortcut: $k meta;
 					icon: Smalltalk ui icons smallCancelIcon;
 					action: [ self inform: 'Kill' ] ] ]

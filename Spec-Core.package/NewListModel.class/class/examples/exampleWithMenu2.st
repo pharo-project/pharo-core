@@ -7,7 +7,7 @@ exampleWithMenu2
 			group addItem: [ :item |
 				item 
 					name: 'Odd';
-					shortcut: $o command;
+					shortcut: $o meta;
 					action: [ self logCr: 'o' ] ] ].
 
 	evenMenu := MenuModel new
@@ -15,7 +15,7 @@ exampleWithMenu2
 			group addItem: [ :item |
 				item 
 					name: 'Even';
-					shortcut: $e command;
+					shortcut: $e meta;
 					action: [ self logCr: 'e' ] ] ].
 
 	model := NewListModel new.

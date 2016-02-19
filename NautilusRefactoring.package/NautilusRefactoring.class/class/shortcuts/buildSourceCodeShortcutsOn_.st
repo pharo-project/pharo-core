@@ -2,21 +2,21 @@ buildSourceCodeShortcutsOn: aBuilder
 	<keymap>
 	(aBuilder shortcut: #rename)
 		category: #NautilusSourceCodeShortcuts
-		default: $r command
+		default: $r meta
 		do: [ :target | 
 			target sourceTextModel hasUnacceptedEdits not
 				ifTrue: [ target refactor renameTextSelection ] ]
 		description: 'Rename the current selection'.
 	(aBuilder shortcut: #extractToTemp)
 		category: #NautilusSourceCodeShortcuts
-		default: $x command shift
+		default: $x meta shift
 		do: [ :target | 
 			target sourceTextModel hasUnacceptedEdits not
 				ifTrue: [ target refactor extractToTempTextSelection ] ]
 		description: 'Extract to temp the current selection'.
 	(aBuilder shortcut: #extractToMethod)
 		category: #NautilusSourceCodeShortcuts
-		default: $m command shift
+		default: $m meta shift
 		do: [ :target | 
 			target sourceTextModel hasUnacceptedEdits not
 				ifTrue: [ target refactor extractToMethodTextSelection ] ]

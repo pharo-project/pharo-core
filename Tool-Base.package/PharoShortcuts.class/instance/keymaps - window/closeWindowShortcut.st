@@ -1,3 +1,3 @@
 closeWindowShortcut
 
-	^ $w ctrl | $w command mac
+	^ $w meta

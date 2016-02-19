@@ -16,4 +16,4 @@ browseSubMenu: aMenu
 			anItem 
 				name: 'Browse Hierarchy';
 				action: [ self browseSelectedObjectClassHierarchy ];
-				shortcut: $h command mac | $h alt win | $h alt unix ] ]
+				shortcut: $h meta ] ]

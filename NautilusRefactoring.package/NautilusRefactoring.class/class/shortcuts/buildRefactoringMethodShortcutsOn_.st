@@ -3,7 +3,7 @@ buildRefactoringMethodShortcutsOn: aBuilder
 
 	(aBuilder shortcut: #rename)
 		category: #NautilusGlobalShortcuts
-		default: $r command,  $m command
+		default: $r meta,  $m meta
 		do: [:target || scroll |
 				scroll := target methodWidget vScrollValue.
 				target refactor renameMethodFor: target selectedMethod.

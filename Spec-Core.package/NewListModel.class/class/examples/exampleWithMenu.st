@@ -11,7 +11,7 @@ exampleWithMenu
 		
 	item12 := MenuItemModel new
 		name: 'item2';
-		shortcut: $b shift command mac | $b alt shift win | $b alt shift unix;
+		shortcut: $b meta shift;
 		action: [ self halt ];
 		enabled: true;
 		yourself.
@@ -36,7 +36,7 @@ exampleWithMenu
 				g addItem: [ :i| i 
 					name: [ 'sub' , ((Character value: (DateAndTime now seconds + 60))) asString ];
 					action: [ self halt ];
-					shortcut: $d shift command mac | $d alt shift win | $d alt shift unix
+					shortcut: $d meta shift
 					]];
 					
 				yourself);

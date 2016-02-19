@@ -5,12 +5,12 @@ inspectionSubMenu: aMenu
 			item
 				name: 'Inspect' translated;
 				action: [ self inspectSelectedObjectInNewWindow ];
-				shortcut: $i command mac | $i alt win | $i alt unix ].
+				shortcut: $i meta ].
 		aGroup addItem: [ :item |
 			item
 				name: 'Explore' translated;
 				action: [ self exploreSelectedObject ];
-				shortcut: $i shift command mac | $i shift alt win | $i shift alt unix ].
+				shortcut: $i meta shift ].
 
 	self customMenuActions cull: aMenu cull: aGroup.
 			
