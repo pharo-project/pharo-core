@@ -1,4 +1,4 @@
-script50593
+script50594
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -34,7 +34,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
 CodeImport-TheIntegrator.81.mcz
 CodeImportCommandLineHandlers-TheIntegrator.5.mcz
-Collections-Abstract-TheIntegrator.311.mcz
+Collections-Abstract-TheIntegrator.313.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -43,9 +43,9 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.395.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.30.mcz
+Collections-Tests-TheIntegrator.31.mcz
 Collections-Unordered-TheIntegrator.227.mcz
-Collections-Weak-TheIntegrator.98.mcz
+Collections-Weak-TheIntegrator.100.mcz
 Compiler-EstebanLorenzano.600.mcz
 Compression-TheIntegrator.171.mcz
 Compression-Tests-TheIntegrator.2.mcz
@@ -256,7 +256,7 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.294.mcz
+Refactoring-Core-TheIntegrator.296.mcz
 Refactoring-Critics-TheIntegrator.253.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
@@ -332,7 +332,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.100.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-TheIntegrator.20.mcz
+System-OSEnvironments-TheIntegrator.23.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.78.mcz
 System-Serial Port-StephaneDucasse.23.mcz

@@ -4,8 +4,8 @@ asArray
 	works for SequenceableCollections which support the replacement 
 	primitive."
 
-	| array index |
-	array := Array new: self size.
+	| newArray index |
+	newArray := Array new: self size.
 	index := 0.
-	self do: [:each | array at: (index := index + 1) put: each].
-	^ array
+	self do: [:each | newArray at: (index := index + 1) put: each].
+	^ newArray
