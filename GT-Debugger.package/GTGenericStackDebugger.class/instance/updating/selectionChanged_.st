@@ -1,5 +1,6 @@
 selectionChanged: aContext
 	
+	self browser ifNil: [ ^ self ].
 	UIManager default defer: [ 
 		(self browser paneNamed: #stack) presentations updateToolbar ].
 	

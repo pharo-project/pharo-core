@@ -1,0 +1,3 @@
+shouldDisplayExtraCodePane
+
+	^ self session overridesDefaultSetOrTearMethods

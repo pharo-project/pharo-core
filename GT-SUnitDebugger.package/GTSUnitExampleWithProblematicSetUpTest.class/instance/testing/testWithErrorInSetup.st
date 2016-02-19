@@ -1,0 +1,2 @@
+testWithErrorInSetup
+	self assert: true

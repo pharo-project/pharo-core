@@ -4,7 +4,7 @@ openFromRubric: aMorph withResult: anObject
 	self withString: string from: aMorph.
 	self width: self width + inspectButton width.
 	textMorph
-		on: $i command
+		on: $i meta
 		do: [ anObject inspect ].
 	textMorph
 		on: Character cr asKeyCombination

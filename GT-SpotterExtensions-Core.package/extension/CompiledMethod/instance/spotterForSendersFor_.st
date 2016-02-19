@@ -3,4 +3,5 @@ spotterForSendersFor: aStep
 	aStep listProcessor
 			title: 'Senders';
 			allCandidates: [ self senders collect: #compiledMethod ];
-			filter: GTFilterSubstring
+			filter: GTFilterSubstring;
+			keyBinding: $n command

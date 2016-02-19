@@ -5,6 +5,7 @@ pack
 	collectors do: [ :eachCollector | allCollectors addLast: eachCollector ].
 	consolidatedCollectors := GTEventConsolidate new collectors: allCollectors; consolidated.
 	consolidatedCollectors do: [ :eachCollector | | bundle |
-		bundle := packing pack: eachCollector.
-		bundle data ifNotEmpty: [ delivery add: bundle ] ].
+		eachCollector size > 0 ifTrue: [ 
+			bundle := packing pack: eachCollector.
+			delivery add: bundle] ].
 	self removeLiberatedCollectors.

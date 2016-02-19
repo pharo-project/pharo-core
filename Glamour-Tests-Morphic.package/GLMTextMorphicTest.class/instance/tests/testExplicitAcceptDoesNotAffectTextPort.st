@@ -6,6 +6,6 @@ testExplicitAcceptDoesNotAffectTextPort
 	self simulateOnlyOneClickOn: textMorph.
 	self simulateKeyStrokes: '4'.
 	self assert: (composite pane port: #text) value = '1234'.
-	self simulateKeyStroke: $s command.
+	self simulateKeyStroke: $s meta.
 	self simulateKeyStrokes: '56'.
 	self assert: (composite pane port: #text) value = '123456'

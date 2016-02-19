@@ -3,4 +3,5 @@ spotterForImplementorsFor: aStep
 	aStep listProcessor
 			title: 'Implementors';
 			allCandidates: [ self implementors collect: #compiledMethod ];
-			filter: GTFilterSubstring
+			filter: GTFilterSubstring;
+			keyBinding: $m command

@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '17116 The same method is duplicated 5 times in the image
-	https://pharo.fogbugz.com/f/cases/17116
-
-17623 Failing test on CI: AllocationTest>#testOutOfMemorySignal
-	https://pharo.fogbugz.com/f/cases/17623
-
-17643  Evaluating variables while debugging may yield wrong values
-	https://pharo.fogbugz.com/f/cases/17643
-
-17639 The example for SpecPreDebugWindow  no longer works
-	https://pharo.fogbugz.com/f/cases/17639'
+ ^ '17642 Integrate GTools version 3.11
+	https://pharo.fogbugz.com/f/cases/17642'

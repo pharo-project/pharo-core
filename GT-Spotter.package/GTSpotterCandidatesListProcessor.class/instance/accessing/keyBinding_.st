@@ -1,0 +1,2 @@
+keyBinding: anObject
+	keyBinding := anObject

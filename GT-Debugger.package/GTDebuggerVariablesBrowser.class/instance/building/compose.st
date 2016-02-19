@@ -12,4 +12,4 @@ compose
 			to: #variables port: #selection; 
 			when: [ :aContext | self debugger selectedVariableName notNil and: [aContext notNil] ];
 			transformed: [ :aContext | self selectedVariableForContext: aContext ].
-		browser transmit from: #variables; toOutsidePort: #selection ]
+		browser transmit from: #variables; toOutsidePort: #selection; transformed: [ :pair | pair value ] ]

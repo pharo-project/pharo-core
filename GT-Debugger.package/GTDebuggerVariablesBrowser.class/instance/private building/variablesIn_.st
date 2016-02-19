@@ -24,7 +24,7 @@ variablesIn: composite
 			[ Text fromString: (assoc value printString contractTo: 50) ]
 					on: Error
 					do: [ Text string: 'error printing' attribute: TextColor red ] ];
-		send: #value;
+		"send: #value;"
 		morphicSelectionAct: [:list | list selection value browse ] 
 			icon: GLMUIThemeExtraIcons glamorousBrowse 
 			on: $b 

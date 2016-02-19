@@ -1,3 +1,3 @@
 close
 
-	self browser close
+	self browser ifNotNil: [ :aBrowser | aBrowser close ]

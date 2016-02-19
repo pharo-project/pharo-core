@@ -2,6 +2,6 @@ newAnnouncementFor: aGTEventCollector
 	| announcement |
 	announcement := self 
 		updateAnnouncement: self newAnnouncement 
-		withData: (self serialize: aGTEventCollector bundle).
+		for: aGTEventCollector.
 	aGTEventCollector updateAnnouncement: announcement.
 	^ announcement

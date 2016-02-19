@@ -1,3 +1,3 @@
 matchContext: aContext
 	
-	^ aContext methodClass isTestCase
+	^ aContext method isTestMethod

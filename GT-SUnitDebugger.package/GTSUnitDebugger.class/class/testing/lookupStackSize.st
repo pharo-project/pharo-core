@@ -1,2 +1,2 @@
 lookupStackSize
-	^ 10
+	^ 512

@@ -1,3 +1,5 @@
 selectedContext
 
-	^ ((self browser paneNamed: #stack) port: #selection) value
+	^ self browser ifNotNil: [
+		((self browser paneNamed: #stack) port: #selection) value ]
+	

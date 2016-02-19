@@ -1,7 +1,7 @@
 stable: spec
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '4.0'.
+	spec for: #'common' version: '4.1'.
 
 	spec for: #'pharo3.x' version: '3.0.7'.
 

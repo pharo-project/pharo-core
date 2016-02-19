@@ -5,7 +5,5 @@ testAcceptKeyCanBeOverriden
 	window := composite openOn: '4'.
 	textMorph := self find: RubScrolledTextMorph in: window.
 	self simulateOnlyOneClickOn: textMorph.
-	Smalltalk os isMacOSX ifTrue: [self simulateKeyStroke: $s command].
-	Smalltalk os isUnix ifTrue: [self simulateKeyStroke: $s alt].
-	Smalltalk os isWindows ifTrue: [self simulateKeyStroke: $s alt].
+	self simulateKeyStroke: $s meta.
 	self assert: overriden

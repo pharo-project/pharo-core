@@ -12,8 +12,9 @@ spotterModel: aSpotter
 	spotterModel class isPreviewVisible ifTrue: [ spotterModel showPreview ].
 	
 	"expanding drop down pane"
-	self spotterModel setText: '' from: nil.
-	self spotterModel currentStep process: nil.
+	self spotterModelDo: [ 
+		self spotterModel setText: '' from: nil.
+		self spotterModel currentStep process: nil ]
 	
 	
 	

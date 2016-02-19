@@ -1,6 +1,7 @@
-updateAnnouncement: aGTEventAnnouncement withData: aByteArray
+updateAnnouncement: aGTEventAnnouncement for: aGTEventCollector
 	^ aGTEventAnnouncement
-			data: aByteArray;
+			data: (self serialize: aGTEventCollector bundle);
+			category: aGTEventCollector category;
 			serializedBy: self class name;
 			eventRecorderVersion: self version;
 			timestamp: DateAndTime now;
@@ -8,6 +9,6 @@ updateAnnouncement: aGTEventAnnouncement withData: aByteArray
 			imageVersion: SystemVersion current version;
 			latestUpdate: SystemVersion current highestUpdate;
 			computerUUID: GlobalIdentifier uniqueInstance computerUUID asString;
-			sessionUUID: SmalltalkImage current session sid;
+			sessionUUID: SmalltalkImage current session sid asString;
 			sessionCreationTime: SmalltalkImage current session creationTime;
 			yourself

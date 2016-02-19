@@ -5,7 +5,5 @@ testOKeyWithCtrlCannotBeOverriden
 	window := composite openOn: '4'.
 	textMorph := self find: RubScrolledTextMorph in: window.
 	self simulateOnlyOneClickOn: textMorph.
-	Smalltalk os isMacOSX ifTrue: [self simulateKeyStroke: $o command].
-	Smalltalk os isUnix ifTrue: [self simulateKeyStroke: $o ctrl].
-	Smalltalk os isWindows ifTrue: [self simulateKeyStroke: $o ctrl].
+	self simulateKeyStroke: $o meta.
 	self assert: overriden not
