@@ -1,5 +1,5 @@
 sortedInAscendingOrderCollection
-	" return a collection sorted in an acsending order"
+	"Return a collection sorted in ascending order"
 
 	^ OrderedCollection new
 		add: 1;

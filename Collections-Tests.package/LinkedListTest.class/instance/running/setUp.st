@@ -11,8 +11,9 @@ setUp
 	elementIn := 'thisElementIsIncluded'.
 	collectionWithoutEqualElements := LinkedList new add: elementIn ; add: 'pewpew' ; add: 'normal links'; add: 'are no fun!' ;add: $x ;yourself.
 	collection5Elements := collectionWithoutEqualElements .
-	
-	"sameAtendAndBegining := LinkedList new add: Link new; add: Link new ; add: Link new; yourself."
+	unsortedCollection := LinkedList new addAll: #(57 937 92 49 0 78 -87); yourself.
+	sortedCollection := LinkedList new addAll: #(-87 0 49 57 78 92 937); yourself.
+	"sameAttendAndBegining := LinkedList new add: Link new; add: Link new ; add: Link new; yourself."
 	link := ValueLink value: 42.
 	nonEmpty1Element :=  LinkedList new add: Link new; yourself.
 	 "so that we can recognize this link"

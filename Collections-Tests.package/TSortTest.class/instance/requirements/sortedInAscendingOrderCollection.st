@@ -1,4 +1,4 @@
 sortedInAscendingOrderCollection
-" return a collection sorted in an acsending order"
-	^self explicitRequirement
+	"Return a collection sorted in ascending order"
+	^ self explicitRequirement
 	

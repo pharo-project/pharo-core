@@ -1,2 +1,2 @@
 hash
-	^ identifier hash
+	^ self eventCode hash

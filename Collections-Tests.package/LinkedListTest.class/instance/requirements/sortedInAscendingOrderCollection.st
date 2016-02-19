@@ -1,4 +1,4 @@
 sortedInAscendingOrderCollection
 	"Return a collection sorted in ascending order"
-	^nonEmpty5ElementsSorted 
+	^ sortedCollection
 	

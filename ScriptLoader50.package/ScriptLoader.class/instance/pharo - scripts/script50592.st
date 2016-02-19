@@ -1,4 +1,4 @@
-script50591
+script50592
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -38,12 +38,12 @@ Collections-Abstract-TheIntegrator.311.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.233.mcz
+Collections-Sequenceable-TheIntegrator.234.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.395.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.29.mcz
+Collections-Tests-TheIntegrator.30.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.98.mcz
 Compiler-EstebanLorenzano.600.mcz
@@ -84,16 +84,16 @@ FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
-GT-Debugger-DenisKudryashov.313.mcz
-GT-EventRecorder-JurajKubelka.55.mcz
-GT-EventRecorder-Tests-JurajKubelka.32.mcz
+GT-Debugger-AndreiChis.322.mcz
+GT-EventRecorder-JurajKubelka.59.mcz
+GT-EventRecorder-Tests-JurajKubelka.36.mcz
 GT-Inspector-TudorGirba.382.mcz
 GT-InspectorExtensions-Core-TudorGirba.200.mcz
 GT-Playground-TudorGirba.119.mcz
-GT-SUnitDebugger-AndreiChis.32.mcz
-GT-Spotter-AliakseiSyrel.355.mcz
+GT-SUnitDebugger-AndreiChis.38.mcz
+GT-Spotter-TudorGirba.359.mcz
 GT-Spotter-EventRecorder-AndreiChis.108.mcz
-GT-SpotterExtensions-Core-TudorGirba.189.mcz
+GT-SpotterExtensions-Core-StefanReichhart.190.mcz
 GT-Tests-Debugger-TheIntegrator.13.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -101,7 +101,7 @@ GT-Tests-Spotter-StefanReichhart.15.mcz
 Generated-code-non-existing-package-TheIntegrator.3.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.111.mcz
-Glamour-Core-AndreiChis.311.mcz
+Glamour-Core-GuillermoPolito.312.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-TudorGirba.56.mcz
 Glamour-Helpers-TudorGirba.40.mcz
@@ -110,13 +110,13 @@ Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-SergeStinckwich.106.mcz
 Glamour-Morphic-Renderer-AndreiChis.344.mcz
 Glamour-Morphic-Theme-AndreiChis.221.mcz
-Glamour-Morphic-Widgets-AndreiChis.189.mcz
+Glamour-Morphic-Widgets-GuillermoPolito.190.mcz
 Glamour-Presentations-TudorGirba.182.mcz
 Glamour-Rubric-Presentations-AndreiChis.50.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
-Glamour-Tests-Morphic-EstebanLorenzano.135.mcz
+Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
-Glamour-Tests-Rubric-AndreiChis.19.mcz
+Glamour-Tests-Rubric-TudorGirba.21.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
@@ -142,10 +142,10 @@ JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2229.mcz
 Kernel-Tests-TheIntegrator.37.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
-Keymapping-KeyCombinations-TheIntegrator.55.mcz
+Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
-Keymapping-Tests-TheIntegrator.96.mcz
+Keymapping-Tests-TheIntegrator.100.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.157.mcz
 Manifest-Core-TheIntegrator.239.mcz
