@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '17649 Rename method in class side does not change class side methods in other classes
-	https://pharo.fogbugz.com/f/cases/17649
-
-17648 WeakSet >>#asArray returns wrong result after some objects lifetime is finished
-	https://pharo.fogbugz.com/f/cases/17648
-
-17647 Collection asArray "array variable is shadowed"
-	https://pharo.fogbugz.com/f/cases/17647
-
-17628 OSEnvironment current "an UnixEnvironment" [Windows]
-	https://pharo.fogbugz.com/f/cases/17628'
+ ^ '17541 PharoVM crash in Moose 6.0 image when hovering mouse pointer over Roassal View
+	https://pharo.fogbugz.com/f/cases/17541'

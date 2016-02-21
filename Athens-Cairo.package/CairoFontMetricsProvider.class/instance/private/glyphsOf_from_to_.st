@@ -4,7 +4,7 @@ glyphsOf: aString from: start to: end
 	len := end-start+1.
 	utf8Len := utfConverter convert: aString from: start to: end.
 
-	ptr := CairoGlyphsArray externalNew: utf8Len.
+	ptr := ExternalAddress new.
 	lenValue := ByteArray new: 4.
 	lenValue nbUInt32AtOffset: 0 put: len.
 		
@@ -20,13 +20,13 @@ glyphsOf: aString from: start to: end
 	error = CAIRO_STATUS_SUCCESS ifFalse: [  ^ CairoGlyphsArray new: 0 ].
 
 	glyphsSize := lenValue nbUInt32AtOffset: 0.
-   cairoFont getExtentsOfGlyphs: ptr getHandle ofLength: glyphsSize into: glyphExtents.
+   cairoFont getExtentsOfGlyphs: ptr ofLength: glyphsSize into: glyphExtents.
 	
 	glyphs := CairoGlyphsArray new: glyphsSize.
-	LibC memCopy: ptr getHandle to: glyphs getHandle size: (glyphsSize * glyphs typeSize).
+	LibC memCopy: ptr to: glyphs getHandle size: (glyphsSize * glyphs typeSize).
 	"Apply kerning on glyphs if font supports it"
 	font face hasKerning
 		ifTrue: [ self applyKerningOn: glyphs of: aString from: start to: end ].
-	self freeGlyphs: ptr getHandle.
+	self freeGlyphs: ptr.
 		
 	^ glyphs 
