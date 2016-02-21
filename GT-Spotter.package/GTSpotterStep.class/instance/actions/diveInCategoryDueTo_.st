@@ -1,6 +1,4 @@
 diveInCategoryDueTo: anEventType
+	"dive in category of selected candidate"
 
-	self spotter
-		requestNextCategoryStepWith: self selected processorLink for: #diveInCategory;
-		notifyDiveInCategory: self selected processor for: anEventType
-	
+	self diveInCategory: self selected processor dueTo: anEventType

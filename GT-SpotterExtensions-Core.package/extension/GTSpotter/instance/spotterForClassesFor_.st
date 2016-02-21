@@ -5,4 +5,5 @@ spotterForClassesFor: aStep
 			title: 'Classes';
 			filter: GTFilterSubstring;
 			itemIcon: #systemIcon;
+			keyBinding: $b meta;
 			wantsToDisplayOnEmptyQuery: false

@@ -1,3 +1,3 @@
 reservedNames
 
-	^ #( 'self')
+	^ #( 'self' 'thisContext' 'stack top')

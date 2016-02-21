@@ -1,6 +1,4 @@
-onCandidateAdded: ann
-	
-	(self categoryMorphOf: ann category)
-		addBrickBack: (self buildItemFor: ann candidateLink in: ann category);
-		setAmountVisible: ((self categoryMorphOf: ann category) submorphs size) all: self waitingText.
-	self changed.
+onCandidateAdded: anAnnouncement
+	self
+		addItem: (self buildItemFor: anAnnouncement candidateLink in: anAnnouncement category)
+		to: (self categoryBrickFor: anAnnouncement category)

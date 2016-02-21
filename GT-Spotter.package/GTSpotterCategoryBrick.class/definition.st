@@ -1,4 +1,4 @@
-GLMBandBrick subclass: #GTSpotterCategoryBrick
+GLMInteractableBrick subclass: #GTSpotterCategoryBrick
 	instanceVariableNames: 'listBrick titleBrick stepModel category'
 	classVariableNames: ''
 	poolDictionaries: ''

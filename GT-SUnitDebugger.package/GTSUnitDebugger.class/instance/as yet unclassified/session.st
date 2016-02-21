@@ -1,3 +1,0 @@
-session
- 
-	^ self entity

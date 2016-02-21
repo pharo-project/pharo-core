@@ -6,4 +6,4 @@ initialize
 	
 	self iconBrick: self newIconBrick.
 	self labelBrick: self newLabelBrick.
-	self actionbarBrick: self newActionbarBrick.
+	self actionbarBrick: self newActionbarBrick

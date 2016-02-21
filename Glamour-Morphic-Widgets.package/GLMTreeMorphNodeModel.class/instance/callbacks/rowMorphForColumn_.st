@@ -15,7 +15,13 @@ rowMorphForColumn: aGlamourColumn
 				with: [ :b | b editBrick rubricBackgroundColor: b themer rubricBackgroundColor ];
 				when: #onEditMode do: [ self containerTree forceStopStepping ];
 				when: #onReadMode do: [ self containerTree resetStopStepping ];
-				when: #onSingleClicked do: [ :evt :brick | brick isReadMode ifTrue: [ self selectItem ] ];
+				when: #onSingleClicked do: [  :evt :brick | brick isReadMode ifTrue: [
+						(brick ownerThatIsA: GLMPaginatedResizableMorphTreeMorph) 
+							listManager mouseUp: evt on: brick owner owner owner.
+
+						"self containerTree 
+							deselectAll;
+							selectNodePath: self path" ] ];
 				when: #onAccepted do: [ self modified: aGlamourColumn with: contentMorph text ];
 				yourself.
 			

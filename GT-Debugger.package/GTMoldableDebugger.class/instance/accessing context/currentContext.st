@@ -1,5 +1,5 @@
 currentContext
 
 	^self selectedContext 
-		ifNil: [ self contextToSelectFrom: self session ] 
+		ifNil: [ self interruptedContext ] 
 		ifNotNil:  [ self selectedContext  ]

@@ -1,0 +1,3 @@
+newShortcutBrick
+
+	^ GLMLabelBrick new

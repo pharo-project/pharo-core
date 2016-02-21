@@ -1,9 +1,11 @@
 gtInspectorMorphExtensionIn: composite
 	<gtInspectorPresentationOrder: 15>
+	
 	^ composite table
 		title: 'Extension';
 		showOnly: 50; 
 		display: [ self extension gtInspectorVariableValuePairs asSortedCollection ];
+		when: [ extension notNil ];
 		column: 'Variable' 
 			evaluated: [:assoc | GTObjectPrinter new asNonTruncatedTextFrom: assoc key ];
 		column: 'Value' 

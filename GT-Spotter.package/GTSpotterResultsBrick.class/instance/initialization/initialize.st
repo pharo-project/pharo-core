@@ -1,4 +1,6 @@
 initialize
 	super initialize.
+	
+	categories := Dictionary new.
 	self band hSpaceFill.
-	self announcer weak when: GLMBrickScrollPositionChanged send: #onScrolled to: self
+	self announcer when: GLMBrickScrollPositionChanged send: #onScrolled to: self.

@@ -1,0 +1,2 @@
+onHovered
+	self titleBrick showActionbar

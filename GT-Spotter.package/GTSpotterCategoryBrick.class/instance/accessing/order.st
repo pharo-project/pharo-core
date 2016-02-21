@@ -1,0 +1,2 @@
+order
+	^ self category order

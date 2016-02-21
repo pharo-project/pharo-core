@@ -1,3 +1,3 @@
 categories
-
-	^ categories ifNil: [ categories := Dictionary new ]
+	<return: Dictionary>
+	^ categories

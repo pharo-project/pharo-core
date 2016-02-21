@@ -1,10 +1,9 @@
 onAllCandidatesAdded: ann
 	|categoryMorph|
-	ann candidateLinks isEmpty ifTrue: [ ^ self ].
+	ann candidateLinks ifEmpty: [ ^ self ].
 	
-	categoryMorph := self categoryMorphOf: ann category.
+	categoryMorph := self categoryBrickFor: ann category.
 	categoryMorph
-		addAllBricks: (ann candidateLinks collect: [ :each | self buildItemFor: each in: ann category ]).
-	categoryMorph
-		titleBrick setAmountVisible: (categoryMorph submorphs size) all: self waitingText.
-	self changed.
+		addAllBricks: (ann candidateLinks collect: [ :each | self buildItemFor: each in: ann category ]);
+		setAmountVisible: categoryMorph subbricksCount all: self waitingText.
+	self changed

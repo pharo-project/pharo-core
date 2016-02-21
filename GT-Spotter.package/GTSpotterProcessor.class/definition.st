@@ -1,5 +1,5 @@
 Object subclass: #GTSpotterProcessor
-	instanceVariableNames: 'allFilteredCandidates'
+	instanceVariableNames: 'allFilteredCandidates order'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Spotter-Processors'

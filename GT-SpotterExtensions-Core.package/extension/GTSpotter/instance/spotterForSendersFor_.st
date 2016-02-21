@@ -7,5 +7,5 @@ spotterForSendersFor: aStep
 			SystemNavigation default
 				allSendersToString: context textTrimmed 
 				do: filter ];
-		keyBinding: $n command;
+		keyBinding: $n meta;
 		wantsToDisplayOnEmptyQuery: false

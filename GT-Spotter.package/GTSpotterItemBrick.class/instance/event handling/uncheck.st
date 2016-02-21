@@ -2,4 +2,4 @@ uncheck
 	
 	super uncheck.
 	
-	self hideActionbar
+	self isSelected ifFalse: [ self hideActionbar ]

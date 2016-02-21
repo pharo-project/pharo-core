@@ -1,3 +1,3 @@
 selectedCategory
 
-	^ self selected processor
+	^ self selected ifNotNil: #processor

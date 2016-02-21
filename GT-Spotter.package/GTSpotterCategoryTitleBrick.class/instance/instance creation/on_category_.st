@@ -5,6 +5,10 @@ on: aStepModel category: aProcessor
 	
 	self nameBrick: self newNameBrick.
 	self nameBrick text: '#', aProcessor title.
+	
+	aProcessor keyBinding ifNotNil: [ 
+		self shortcutBrick: self newShortcutBrick.
+		self setShortcutBrickTextFor: aProcessor ].
 			
 	self amountBrick: self newAmountBrick.
 	self amountBrick text: '0/0'.
