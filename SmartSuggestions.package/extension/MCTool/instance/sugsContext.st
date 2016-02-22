@@ -1,0 +1,3 @@
+sugsContext
+	
+	^ SugsMonticelloToolContext model: self

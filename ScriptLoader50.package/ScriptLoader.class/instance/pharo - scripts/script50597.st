@@ -1,4 +1,4 @@
-script50596
+script50597
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -84,16 +84,16 @@ FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
-GT-Debugger-AndreiChis.322.mcz
+GT-Debugger-AndreiChis.328.mcz
 GT-EventRecorder-JurajKubelka.59.mcz
 GT-EventRecorder-Tests-JurajKubelka.36.mcz
 GT-Inspector-TudorGirba.382.mcz
-GT-InspectorExtensions-Core-TudorGirba.200.mcz
+GT-InspectorExtensions-Core-AndreiChis.203.mcz
 GT-Playground-TudorGirba.119.mcz
-GT-SUnitDebugger-AndreiChis.38.mcz
-GT-Spotter-TudorGirba.359.mcz
-GT-Spotter-EventRecorder-AndreiChis.108.mcz
-GT-SpotterExtensions-Core-StefanReichhart.190.mcz
+GT-SUnitDebugger-TudorGirba.39.mcz
+GT-Spotter-AliakseiSyrel.365.mcz
+GT-Spotter-EventRecorder-TheIntegrator.109.mcz
+GT-SpotterExtensions-Core-TudorGirba.193.mcz
 GT-Tests-Debugger-TheIntegrator.13.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -110,7 +110,7 @@ Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-SergeStinckwich.106.mcz
 Glamour-Morphic-Renderer-AndreiChis.344.mcz
 Glamour-Morphic-Theme-AndreiChis.221.mcz
-Glamour-Morphic-Widgets-GuillermoPolito.190.mcz
+Glamour-Morphic-Widgets-AndreiChis.191.mcz
 Glamour-Presentations-TudorGirba.182.mcz
 Glamour-Rubric-Presentations-AndreiChis.50.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
@@ -133,7 +133,7 @@ Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.137.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.2.mcz
-HudsonBuildTools20-TheIntegrator.84.mcz
+HudsonBuildTools20-TheIntegrator.87.mcz
 ImportingResource-Help-TheIntegrator.4.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
@@ -180,7 +180,7 @@ MonticelloConfigurations-MarcusDenker.70.mcz
 MonticelloFileServices-TheIntegrator.4.mcz
 MonticelloFileTree-Core-TheIntegrator.136.mcz
 MonticelloFileTree-FileSystem-Utilities-dkh.28.mcz
-MonticelloGUI-TheIntegrator.407.mcz
+MonticelloGUI-TheIntegrator.411.mcz
 MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.10.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
@@ -300,8 +300,8 @@ Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.720.mcz
 Slot-Tests-TheIntegrator.85.mcz
-SmartSuggestions-TheIntegrator.223.mcz
-SmartSuggestions-Tests-TheIntegrator.25.mcz
+SmartSuggestions-TheIntegrator.227.mcz
+SmartSuggestions-Tests-TheIntegrator.29.mcz
 Spec-Core-TheIntegrator.451.mcz
 Spec-Debugger-TheIntegrator.261.mcz
 Spec-Examples-TheIntegrator.102.mcz

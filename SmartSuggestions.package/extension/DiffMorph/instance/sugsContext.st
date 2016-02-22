@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsDiffModelContext model: self

@@ -6,6 +6,7 @@ textMorph: aSymbol
 		on: self;
 		beWrapped;
 		hScrollbarShowNever;
+		beForSmalltalkScripting;
 		yourself.
 	textMorph announcer when: RubTextAcceptRequest send: #accept to: self.
 	textMorph hasUnacceptedEdits: false.
