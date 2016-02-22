@@ -14,6 +14,6 @@ testImportAClassCategory
 		CodeImporter evaluateString: (chunk format: { class name asString }), classOrganizationString.
 		"we do not care about the order of the output just that all the elements are present"
 		self 
-			assertCollection: (classOrganizationString trimBoth findTokens: String cr, ' ') sorted
-			equals: (class organization stringForFileOut findTokens: String cr, ' ') sorted.
+			assertCollection: (classOrganizationString trimBoth findTokens: String cr, ' ()') sorted
+			equals: (class organization stringForFileOut findTokens: String cr, ' ()') sorted.
 	] ensure: [ class ifNotNil: [ class removeFromSystem ] ] ]
