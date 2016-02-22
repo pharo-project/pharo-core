@@ -1,6 +1,10 @@
 initialize
 	"Delay initialize"
-	timingSemaphore := (Smalltalk specialObjectsArray at: 30) ifNil: [ Semaphore new ].
+	
+	"Get the current timing semaphore, or install it if there is none"
+	timingSemaphore := (Smalltalk specialObjectsArray at: 30) ifNil: [ 
+		Smalltalk specialObjectsArray at: 30 put: Semaphore new ].
+	
 	delaySuspended := true.
 	accessProtect := Semaphore forMutualExclusion.
 

@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '17650 testModulePrimitive: fix test for new byte codes
-	https://pharo.fogbugz.com/f/cases/17650
+ ^ '17670 Trait and Class sends unimplemented message in #immediateByteSubclass:instanceVariableNames:classVariableNames:package: 
+	https://pharo.fogbugz.com/f/cases/17670
 
-17629 OCContextTempMappingTest tests fails on Spur Images
-	https://pharo.fogbugz.com/f/cases/17629
+17662 Improved comments for immediate and word subclasses
+	https://pharo.fogbugz.com/f/cases/17662
 
-17015 Failing test: SetTest>>#testAllSetsAreHealthy
-	https://pharo.fogbugz.com/f/cases/17015'
+17562 Add default behavior to deprecated methods used to register in startup/shutdown lists
+	https://pharo.fogbugz.com/f/cases/17562
+
+17349 DelayScheduler class>>#initialize dos not initialize well the timing semaphore
+	https://pharo.fogbugz.com/f/cases/17349'
