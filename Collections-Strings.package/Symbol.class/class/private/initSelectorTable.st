@@ -1,3 +1,7 @@
 initSelectorTable
 	SelectorTable := WeakSet new.
-	CompiledMethod allInstancesDo: [ :method | SelectorTable add: method selector ]
+	CompiledMethod
+		allInstancesDo: [ :method | 
+			| selector |
+			selector := method selector.
+			selector ifNotNil: [ SelectorTable add: selector ] ]

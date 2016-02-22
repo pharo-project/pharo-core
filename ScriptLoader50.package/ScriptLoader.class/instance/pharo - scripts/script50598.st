@@ -1,4 +1,4 @@
-script50597
+script50598
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -41,7 +41,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.234.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.395.mcz
+Collections-Strings-TheIntegrator.399.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.31.mcz
 Collections-Unordered-TheIntegrator.227.mcz
@@ -239,7 +239,7 @@ OSWindow-SDL2-MerwanOuddane.83.mcz
 OSWindow-SDL2-Examples-MerwanOuddane.7.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.786.mcz
-OpalCompiler-Tests-TheIntegrator.321.mcz
+OpalCompiler-Tests-TheIntegrator.324.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
