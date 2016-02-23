@@ -5,4 +5,4 @@ testSimulateCmdKeystroke
 	self simulateKeyStrokes: 'var := 3.'.
 	self simulateKeyStroke: $s meta.
 	self assert: ws hasUnacceptedEdits = false.
-	ws dependents first delete.
+	ws delete.

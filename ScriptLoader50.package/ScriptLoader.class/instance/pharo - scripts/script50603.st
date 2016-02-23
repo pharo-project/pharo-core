@@ -1,4 +1,4 @@
-script50602
+script50603
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -56,7 +56,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-EstebanLorenzano.81.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-EstebanLorenzano.120.mcz
-Deprecated50-TheIntegrator.48.mcz
+Deprecated50-TheIntegrator.51.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -288,7 +288,7 @@ SUnit-Core-TheIntegrator.163.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-EstebanLorenzano.138.mcz
-SUnit-UITesting-TheIntegrator.29.mcz
+SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
 Settings-Polymorph-TheIntegrator.85.mcz
@@ -336,13 +336,13 @@ System-OSEnvironments-TheIntegrator.23.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.78.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-ChristopheDemarey.15.mcz
-System-SessionManager-Tests-ChristopheDemarey.8.mcz
+System-SessionManager-ChristopheDemarey.18.mcz
+System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.328.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.46.mcz
-System-Support-TheIntegrator.1199.mcz
+System-Support-TheIntegrator.1202.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.14.mcz
 Tests-TheIntegrator.747.mcz
