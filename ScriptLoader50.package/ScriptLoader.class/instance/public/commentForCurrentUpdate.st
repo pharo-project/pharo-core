@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '17620 WeakFinalizersTest>>#testNewFinalizationSupported (Cleanup needed)
-	https://pharo.fogbugz.com/f/cases/17620
+ ^ '17674 catalog command line installer needs to resume on warning
+	https://pharo.fogbugz.com/f/cases/17674
 
-17608 Failing on CI Server: ChunkImportTestCase>>#testImportAClassCategory
-	https://pharo.fogbugz.com/f/cases/17608
-
-17640 Batch deletion of methods raise DNU in some cases
-	https://pharo.fogbugz.com/f/cases/17640
-
-16756 ZnUnknownHttpVersion(Object)>>doesNotUnderstand: #response
-	https://pharo.fogbugz.com/f/cases/16756'
+16020 Syntax Highlighting Rubric: First shows non-highlighted text, then color. Looks slow
+	https://pharo.fogbugz.com/f/cases/16020'
