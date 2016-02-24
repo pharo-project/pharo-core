@@ -1,4 +1,4 @@
-script50603
+script50604
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -121,7 +121,7 @@ Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
-Graphics-Display Objects-TheIntegrator.169.mcz
+Graphics-Display Objects-TheIntegrator.171.mcz
 Graphics-Files-TheIntegrator.74.mcz
 Graphics-Fonts-TheIntegrator.105.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
@@ -217,7 +217,7 @@ NativeBoost-Pools-CamilloBruni.13.mcz
 NativeBoost-Tests-TheIntegrator.94.mcz
 NativeBoost-Unix-TheIntegrator.19.mcz
 NativeBoost-Win32-TheIntegrator.59.mcz
-Nautilus-TheIntegrator.1214.mcz
+Nautilus-TheIntegrator.1215.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -364,7 +364,7 @@ Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.57.mcz
 Tool-ImageCleaner-TheIntegrator.13.mcz
-Tool-ProcessBrowser-TheIntegrator.14.mcz
+Tool-ProcessBrowser-TheIntegrator.16.mcz
 Tool-Profilers-TheIntegrator.19.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.20.mcz

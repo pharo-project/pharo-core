@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17676 Building Pharo-5.0-Issue-Tracker-Image fails!!
-	https://pharo.fogbugz.com/f/cases/17676
+ ^ '17540 Remove an empty protocol in hierarchy unselect the class
+	https://pharo.fogbugz.com/f/cases/17540
 
-16534 SimulateMouseSpecification broken
-	https://pharo.fogbugz.com/f/cases/16534'
+17681 Executing code inside process browser not working
+	https://pharo.fogbugz.com/f/cases/17681
+
+17524 Invisible protocol icons
+	https://pharo.fogbugz.com/f/cases/17524'

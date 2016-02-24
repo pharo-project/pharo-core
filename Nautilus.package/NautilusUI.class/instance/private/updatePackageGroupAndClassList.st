@@ -12,5 +12,5 @@ updatePackageGroupAndClassList
 		ifTrue: [ ^ self ].
 	"only reselect the former class"
 	"if it is still in this package"
-	(selectedPackage includesClass: selectedClass)
+	(self selectedClass: selectedClass belongsToPackageSelection: selectedPackage)
 		ifTrue: [ self selectedClass: selectedClass ]
