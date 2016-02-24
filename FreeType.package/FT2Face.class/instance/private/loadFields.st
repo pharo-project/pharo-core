@@ -1,6 +1,4 @@
 loadFields
-	self isValid ifFalse: [ ^ self ].
-	
-	[ self primLoadFields ] 
-	on: FT2Error
-	do:[ :e | e crLog "need to do something here, but at least I log it :(" ]
+	self isValid 
+		ifFalse: [ ^ self error: 'I cannot load face fields because face is not valid.' ].
+	self primLoadFields.

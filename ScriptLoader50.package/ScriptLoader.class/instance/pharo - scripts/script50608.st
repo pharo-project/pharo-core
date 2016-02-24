@@ -1,4 +1,4 @@
-script50607
+script50608
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -76,7 +76,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.13.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.722.mcz
+FreeType-EstebanLorenzano.725.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-TheIntegrator.820.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
