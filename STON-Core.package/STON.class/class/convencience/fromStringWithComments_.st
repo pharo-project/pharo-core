@@ -1,0 +1,2 @@
+fromStringWithComments: string
+	^ self fromStreamWithComments: string readStream

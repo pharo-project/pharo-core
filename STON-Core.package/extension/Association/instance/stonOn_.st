@@ -1,2 +1,5 @@
 stonOn: stonWriter
-	stonWriter writeAssociation: self
+	self class == STON associationClass
+		ifTrue: [ stonWriter writeAssociation: self ]
+		ifFalse: [ super stonOn: stonWriter ]
+	

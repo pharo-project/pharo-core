@@ -5,5 +5,5 @@ parseValue
 		ifTrue: [ 
 			(self isValidPropertyNameType: value)
 				ifFalse: [ self error: 'unexpected property name type' ].
-			Association key: value value: self parseValue ]
+			STON associationClass key: value value: self parseValue ]
 		ifFalse: [ value ]

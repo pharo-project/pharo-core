@@ -1,0 +1,2 @@
+stonName
+	^ #Class

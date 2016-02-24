@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17682 Integrate GTools version 3.13
-	https://pharo.fogbugz.com/f/cases/17682'
+ ^ '16893 Update STON
+	https://pharo.fogbugz.com/f/cases/16893'

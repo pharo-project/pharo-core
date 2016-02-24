@@ -1,4 +1,4 @@
-script50605
+script50606
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -91,7 +91,7 @@ GT-Inspector-TudorGirba.382.mcz
 GT-InspectorExtensions-Core-AndreiChis.203.mcz
 GT-Playground-TudorGirba.119.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-AliakseiSyrel.365.mcz
+GT-Spotter-TudorGirba.374.mcz
 GT-Spotter-EventRecorder-TheIntegrator.109.mcz
 GT-SpotterExtensions-Core-TudorGirba.193.mcz
 GT-Tests-Debugger-TheIntegrator.13.mcz
@@ -108,7 +108,7 @@ Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-AliakseiSyrel.410.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-SergeStinckwich.106.mcz
-Glamour-Morphic-Renderer-AndreiChis.344.mcz
+Glamour-Morphic-Renderer-AndreiChis.345.mcz
 Glamour-Morphic-Theme-AndreiChis.221.mcz
 Glamour-Morphic-Widgets-AndreiChis.191.mcz
 Glamour-Presentations-TudorGirba.182.mcz
@@ -338,7 +338,7 @@ System-Platforms-TheIntegrator.78.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-ChristopheDemarey.18.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.328.mcz
+System-Settings-TheIntegrator.330.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.46.mcz

@@ -1,0 +1,2 @@
+asciiOnly: boolean
+	asciiOnly := boolean
