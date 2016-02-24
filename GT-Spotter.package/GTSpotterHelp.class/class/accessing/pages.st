@@ -1,2 +1,2 @@
 pages
-	^#(overview keybindings extensions)
+	^#(overview keybindings basicExamples categoryFilterExamples diveInExamples diveInCategoryExamples extensions)

@@ -1,18 +1,30 @@
 applyFilterWithQuery
-	| prefixMatches otherMatches |
-	prefixMatches := OrderedCollection  new.
+	| exactMatches prefixMatches otherMatches nonExactMatches |
+	"we want to distinguish between exact matches"
+	exactMatches := OrderedCollection new.
+	"... results for which the query matches the prefix"
+	prefixMatches := OrderedCollection new.	
+	"... and the rest of the results"
 	otherMatches := OrderedCollection new.
+
 	self allItemsDo: [ :each | 
-		| index |
-		index := self indexForItem: each.
+		| index queryString itemName |
+		itemName := self itemFilterNameFor: each.
+		queryString := self queryForItem: each.
+		index := self indexForItemName: itemName andQuery: queryString.
 		index >= 1 ifTrue: [
 			index = 1 
 				ifTrue: [ 
-						prefixMatches add: each.
-						prefixMatches size > self itemsLimit ifFalse: [ 
-							self addItem: each  ] ]
+					itemName size = queryString size 
+						ifTrue: [ 
+							exactMatches add: each.
+							exactMatches size < self itemsLimit ifTrue: [ 
+								self addItem: each  ] ]
+						ifFalse: [ prefixMatches add: each ] ]
 				ifFalse: [ otherMatches add: each ] ] ].
-	(prefixMatches size < self itemsLimit) ifTrue: [ 
-		(otherMatches first: ((self itemsLimit - prefixMatches size) min: otherMatches size)) do: [ :each |
-			self addItem: each ] ].
-	self filteredItems: prefixMatches , otherMatches
+	nonExactMatches := prefixMatches, otherMatches.
+	(exactMatches size < self itemsLimit) ifTrue: [ 
+		| restVisibleItems |
+		restVisibleItems := nonExactMatches first: ((self itemsLimit - exactMatches size) min: nonExactMatches size).
+		self addItems: restVisibleItems ].
+	self filteredItems: exactMatches, nonExactMatches

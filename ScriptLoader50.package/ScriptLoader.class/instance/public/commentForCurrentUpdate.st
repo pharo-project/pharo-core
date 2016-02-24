@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '17540 Remove an empty protocol in hierarchy unselect the class
-	https://pharo.fogbugz.com/f/cases/17540
-
-17681 Executing code inside process browser not working
-	https://pharo.fogbugz.com/f/cases/17681
-
-17524 Invisible protocol icons
-	https://pharo.fogbugz.com/f/cases/17524'
+ ^ '17682 Integrate GTools version 3.13
+	https://pharo.fogbugz.com/f/cases/17682'
