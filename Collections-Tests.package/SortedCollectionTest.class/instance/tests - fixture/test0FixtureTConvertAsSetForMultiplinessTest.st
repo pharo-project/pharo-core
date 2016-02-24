@@ -3,12 +3,12 @@ test0FixtureTConvertAsSetForMultiplinessTest
 
 	| res |
 	self withEqualElements.
-	self withEqualElements do: [ :each | self assert: each class = Float ].
+	self withEqualElements do: [ :each | self assert: each isFloat ].
 	res := true.
 	self withEqualElements detect: [ :each | (self withEqualElements occurrencesOf: each) > 1 ] ifNone: [ res := false ].
 	self assert: res = true.	"a collection of Float without equal elements:"
 	self elementsCopyNonIdenticalWithoutEqualElements.
-	self elementsCopyNonIdenticalWithoutEqualElements do: [ :each | self assert: each class = Float ].
+	self elementsCopyNonIdenticalWithoutEqualElements do: [ :each | self assert: each isFloat ].
 	res := true.
 	self elementsCopyNonIdenticalWithoutEqualElements
 		detect: [ :each | (self elementsCopyNonIdenticalWithoutEqualElements occurrencesOf: each) > 1 ]

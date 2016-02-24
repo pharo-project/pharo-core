@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '16893 Update STON
-	https://pharo.fogbugz.com/f/cases/16893'
+ ^ '17638 Browsing calls on BoxedFloat64 shows methods with reference to Float in the code
+	https://pharo.fogbugz.com/f/cases/17638
+
+'

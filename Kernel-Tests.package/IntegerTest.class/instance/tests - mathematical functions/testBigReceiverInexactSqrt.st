@@ -9,7 +9,7 @@ testBigReceiverInexactSqrt
 	bigNum := 100 factorial squared + 1.		"Add 1 so it is not a whole square"
 	self assert: bigNum asFloat isInfinite.			"Otherwise, we chose a bad sample"
 	result := bigNum sqrt.
-	self assert: result class == Float.
+	self assert: result isFloat.
 	self deny: result isInfinite.
 	self assert: result = 100 factorial asFloat.		"No other float is closer. See following lines"
 	self assert: (result successor asFraction squared - bigNum) abs >= (result asFraction squared - bigNum) abs.

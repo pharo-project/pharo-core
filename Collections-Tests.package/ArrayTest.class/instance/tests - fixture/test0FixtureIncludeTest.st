@@ -14,7 +14,7 @@ test0FixtureIncludeTest
 	self empty.
 	self assert: self empty isEmpty.
 	self collectionOfFloat.
-	self collectionOfFloat do: [ :each | self assert: each class = Float ].
+	self collectionOfFloat do: [ :each | self assert: each isFloat ].
 	self elementInForIncludesTest.
 	anElementIn := true.
 	self nonEmpty detect: [ :each | each = self elementInForIncludesTest ] ifNone: [ anElementIn := false ].

@@ -1,4 +1,4 @@
-script50606
+script50607
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -43,7 +43,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.399.mcz
 Collections-Support-TheIntegrator.65.mcz
-Collections-Tests-TheIntegrator.33.mcz
+Collections-Tests-TheIntegrator.34.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.100.mcz
 Compiler-EstebanLorenzano.600.mcz
@@ -140,7 +140,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2231.mcz
-Kernel-Tests-TheIntegrator.37.mcz
+Kernel-Tests-TheIntegrator.40.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -282,8 +282,8 @@ Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
 Rubric-TheIntegrator.337.mcz
-STON-Core-SvenVanCaekenberghe.58.mcz
-STON-Tests-SvenVanCaekenberghe.53.mcz
+STON-Core-SvenVanCaekenberghe.67.mcz
+STON-Tests-SvenVanCaekenberghe.59.mcz
 SUnit-Core-TheIntegrator.163.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
