@@ -1,2 +1,0 @@
-resetImplementorsCache
-	implementorsCache := nil

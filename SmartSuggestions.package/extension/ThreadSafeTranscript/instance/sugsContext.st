@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsTranscriptContext model: self

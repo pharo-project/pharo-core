@@ -1,5 +1,5 @@
 RubAbstractSmalltalkMode subclass: #RubSmalltalkCodeMode
-	instanceVariableNames: ''
+	instanceVariableNames: 'classOrMetaclass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Code'

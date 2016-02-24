@@ -1,11 +1,10 @@
 setEditingModeFor: textArea withBehavior: behavior
 	behavior
 		ifNil:
-			[ 
+			[
 			self isForSmalltalkCode
 				ifTrue: [ textArea beForSmalltalkScripting ]
 				ifFalse: [ textArea beForPlainText ] ]
 		ifNotNil: [ :class | 
 			textArea
-				beForSmalltalkCode;
-				classOrMetaClass: class ]
+				beForSmalltalkCodeInClass: class ]

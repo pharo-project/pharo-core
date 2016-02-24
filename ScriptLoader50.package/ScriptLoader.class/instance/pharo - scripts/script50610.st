@@ -1,4 +1,4 @@
-script50609
+script50610
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -257,7 +257,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.296.mcz
-Refactoring-Critics-TheIntegrator.253.mcz
+Refactoring-Critics-TheIntegrator.255.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
@@ -281,7 +281,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-TheIntegrator.337.mcz
+Rubric-TheIntegrator.339.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
 SUnit-Core-TheIntegrator.163.mcz
@@ -300,15 +300,15 @@ Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.723.mcz
 Slot-Tests-TheIntegrator.85.mcz
-SmartSuggestions-TheIntegrator.227.mcz
-SmartSuggestions-Tests-TheIntegrator.29.mcz
+SmartSuggestions-TheIntegrator.231.mcz
+SmartSuggestions-Tests-TheIntegrator.30.mcz
 Spec-Core-TheIntegrator.451.mcz
 Spec-Debugger-TheIntegrator.261.mcz
 Spec-Examples-TheIntegrator.102.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.254.mcz
+Spec-MorphicAdapters-TheIntegrator.256.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.322.mcz
@@ -364,7 +364,7 @@ Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.57.mcz
 Tool-ImageCleaner-TheIntegrator.13.mcz
-Tool-ProcessBrowser-TheIntegrator.16.mcz
+Tool-ProcessBrowser-TheIntegrator.18.mcz
 Tool-Profilers-TheIntegrator.19.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.20.mcz

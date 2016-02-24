@@ -23,7 +23,7 @@ build
 				enableDragNDrop: false)
 		frame: (0.5 @ 0.0 extent: 0.5 @ 0.5).
 		
-	textModel setText: self selectedMethod.
+	textModel setText: self methodText.
 	textModel clearUserEdits.
 	scrolledText := textModel newScrolledText beForSmalltalkCode; yourself.
 	window

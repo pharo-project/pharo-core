@@ -1,2 +1,2 @@
 implementorsExists: aMessage
-	^ self implementorsCache includes: aMessage
+	^ aMessage isSelectorSymbol

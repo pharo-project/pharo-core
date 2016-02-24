@@ -1,0 +1,3 @@
+sugsContext
+
+	^ SugsProcessBrowserContext model: self
