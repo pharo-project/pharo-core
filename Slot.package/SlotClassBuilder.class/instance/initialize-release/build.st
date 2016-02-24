@@ -25,11 +25,19 @@ build
 	self apply: metaChange.
 	self apply: classChange.
 
+	comment ifNotNil: [result classComment: comment stamp: commentStamp].
+
 	result instanceSide 
 		declareClassVariables: sharedVariables;
 		sharing: sharedPoolsString.
 
 	result isMeta ifFalse: [
 		installer recategorize: result to: category ].
+	
+	"call all slots and allow them to modify the class"
+	classChange additions do: [ :each | each installingIn: result].
+	classChange removals do: [ :each | each removingFrom: result].
+	result classLayout slots do: [ :each | each layoutChanged: result]. 
+	
 	
 	^ result instanceSide
