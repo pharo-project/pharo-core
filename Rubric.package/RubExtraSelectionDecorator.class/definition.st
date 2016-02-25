@@ -1,4 +1,4 @@
-RubBasicSelectionDecorator subclass: #RubExtraSelectionDecorator
+RubParagraphDecorator subclass: #RubExtraSelectionDecorator
 	instanceVariableNames: 'findReplaceRanges findReplaceShapes secondarySelectionShapes'
 	classVariableNames: ''
 	poolDictionaries: ''

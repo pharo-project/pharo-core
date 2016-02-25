@@ -1,8 +1,8 @@
-script50610
+script50611
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
-AST-Tests-Core-TheIntegrator.91.mcz
+AST-Tests-Core-TheIntegrator.93.mcz
 Alien-eem.28.mcz
 Announcements-Core-EstebanLorenzano.65.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -140,6 +140,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2231.mcz
+Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.40.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
@@ -209,7 +210,7 @@ Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-EstebanLorenzano.235.mcz
-NECompletion-Tests-TheIntegrator.8.mcz
+NECompletion-Tests-TheIntegrator.10.mcz
 NativeBoost-Core-TheIntegrator.174.mcz
 NativeBoost-Examples-CamilloBruni.16.mcz
 NativeBoost-Mac-MarcusDenker.12.mcz
@@ -371,7 +372,7 @@ Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.35.mcz
 Tools-TheIntegrator.1521.mcz
-Tools-Test-TheIntegrator.12.mcz
+Tools-Test-TheIntegrator.14.mcz
 Traits-TheIntegrator.888.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz

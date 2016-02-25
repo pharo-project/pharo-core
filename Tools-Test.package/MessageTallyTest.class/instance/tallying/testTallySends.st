@@ -33,7 +33,7 @@ testTallySends
 	"--------"
 	tallyForPrintString := tally receivers second.
 	"Since 3.14159 is a float"
-	self assert: (tallyForPrintString theClass == Float).
+	self assert: (tallyForPrintString theClass includesBehavior: Float).
 	"the executed method is Number>>printString"
 	self assert: (tallyForPrintString method == ( Number>>#printString)).
 	self assert: (tallyForPrintString tally >= 50).
@@ -41,7 +41,7 @@ testTallySends
 	"--------"
 	tallyForPrintStringBase := tallyForPrintString receivers first.
 	"The receiver is still a Float"
-	self assert: (tallyForPrintString theClass == Float).
+	self assert: (tallyForPrintString theClass includesBehavior: Float).
 	"the executed method is Number>>printStringBase: this time"
 	self assert: (tallyForPrintStringBase method == ( Number>>#printStringBase:)).
 	self assert: (tallyForPrintStringBase tally >= 50).

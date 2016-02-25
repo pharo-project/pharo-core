@@ -1,6 +1,6 @@
 drawOnAthensCanvas: aCanvas bounds: aRectangle color: aColor
-	self drawingEnabled ifFalse: [ ^self ].
-	self selectionStart ifNil: [ ^self ].
-	self selectionStop ifNil: [ ^self ].
-	self handleDrawingOnAthensCanvas: aCanvas bounds: aRectangle.
+
+   (self canDrawDecoratorsOn: aCanvas) ifFalse: [ ^self ].
+
+	self drawOnAthensCanvas: aCanvas.
 	next drawOnAthensCanvas: aCanvas bounds: aRectangle color: aColor

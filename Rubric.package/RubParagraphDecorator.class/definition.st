@@ -1,5 +1,5 @@
 Object subclass: #RubParagraphDecorator
-	instanceVariableNames: 'next canvas displayScanner position'
+	instanceVariableNames: 'next'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Rubric-Editing-Core'

@@ -1,4 +1,13 @@
 primarySelectionInterval
-	^ self selectionStart notNil
-		ifTrue: [ self selectionStart stringIndex to: self selectionStop stringIndex - 1 ]
-		ifFalse: [ 0 to: -1 ].
+	
+	self paragraph ifNotNil: [ :paragraph | 
+		paragraph textArea ifNotNil: [ :textArea | 
+			(textArea selectionStart isNotNil and: [ 
+				textArea selectionStop isNotNil  		
+			]) ifTrue: [ 
+				^textArea selectionStart stringIndex to: textArea selectionStop stringIndex - 1
+			]
+		]	
+	].
+
+   ^0 to: -1

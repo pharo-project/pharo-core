@@ -1,2 +1,2 @@
 findRegex
-	^ self textArea ifNotNil: [ self textArea findRegex ]
+	^ self paragraph textArea ifNotNil: [ :textArea | textArea findRegex ]

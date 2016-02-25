@@ -1,4 +1,4 @@
-RubBasicSelectionDecorator subclass: #RubCurrentLineBarDecorator
+RubParagraphDecorator subclass: #RubCurrentLineBarDecorator
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

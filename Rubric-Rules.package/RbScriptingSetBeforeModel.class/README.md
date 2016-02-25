@@ -1,0 +1,1 @@
+You have to call #beForSmalltalkScripting after #model: or it will not work

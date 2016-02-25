@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '17683 but right button (menu) is broken in process browser
-	https://pharo.fogbugz.com/f/cases/17683
+ ^ '17686 Add rules about Rubric method precedence
+	https://pharo.fogbugz.com/f/cases/17686
 
-17688 speedup RBSentNotImplementedRule
-	https://pharo.fogbugz.com/f/cases/17688
+17689 BoxedFloat Fix remaining Tests
+	https://pharo.fogbugz.com/f/cases/17689
 
-17065 Transcript has no context menu
-	https://pharo.fogbugz.com/f/cases/17065
-
-17684  highlighting broken in message list (senders off / implementors of)
-	https://pharo.fogbugz.com/f/cases/17684'
+17685 Add rules to check if Float system classes are referenced
+	https://pharo.fogbugz.com/f/cases/17685'

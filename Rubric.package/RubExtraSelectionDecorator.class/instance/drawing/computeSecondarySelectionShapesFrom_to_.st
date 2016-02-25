@@ -18,5 +18,5 @@ computeSecondarySelectionShapesFrom: topLeft to: bottomRight
 				firstIndex: r first
 				lastIndex: r last + 1
 				color: (RubTextSelectionColor secondarySelection backgroundColor alpha: 0.6)
-				borderWidth: 1
+				borderWidth: 0
 				borderColor: RubTextSelectionColor secondarySelection backgroundColor muchDarker]

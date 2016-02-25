@@ -37,7 +37,7 @@ testReceiverConstant
 	text:='testIt
 	2r1.1e2 as'.
 	context := self createContextFor: text at: text size.
-	self assert: context receiverClass == Float.
+	self assert: (context receiverClass includesBehavior: Float).
 	text:='testIt
 	23s32 as'.
 	context := self createContextFor: text at: text size.
