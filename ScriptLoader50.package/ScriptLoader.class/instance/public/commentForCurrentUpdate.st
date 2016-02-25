@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17236 unload NativeBoost (spur migration)
-	https://pharo.fogbugz.com/f/cases/17236'
+ ^ '17700 add stub NB classes to easy migrations
+	https://pharo.fogbugz.com/f/cases/17700'

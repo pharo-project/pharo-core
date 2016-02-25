@@ -1,0 +1,1 @@
+I'm a stub class intended just to easy migration from NB to UFFI. There is no corresponding class to replace me (you should not need it).In case you still need it, please contact community (pharo-users, slack) to get support.
