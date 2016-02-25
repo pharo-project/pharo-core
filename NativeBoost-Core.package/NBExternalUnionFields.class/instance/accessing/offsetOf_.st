@@ -1,2 +1,0 @@
-offsetOf: fieldName
-	^ 0

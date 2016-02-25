@@ -1,3 +1,0 @@
-integerConstantArgument: int
-
-	^ #integerConstant

@@ -1,3 +1,0 @@
-value: anObject
-
-	value := anObject 

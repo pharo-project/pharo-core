@@ -1,2 +1,0 @@
-hasBase
-	^ base notNil

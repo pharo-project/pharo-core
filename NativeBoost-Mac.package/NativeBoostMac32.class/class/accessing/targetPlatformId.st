@@ -1,3 +1,0 @@
-targetPlatformId
-	
-	^ Mac32PlatformId 

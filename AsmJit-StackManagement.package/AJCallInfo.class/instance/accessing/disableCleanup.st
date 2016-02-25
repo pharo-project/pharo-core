@@ -1,2 +1,0 @@
-disableCleanup 
-	noCleanup := true

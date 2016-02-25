@@ -1,2 +1,0 @@
-pushAsPointer: gen
-	self shouldNotImplement 

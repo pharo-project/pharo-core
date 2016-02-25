@@ -1,2 +1,0 @@
-hasLabel
-	self shouldBeImplemented.

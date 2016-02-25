@@ -1,2 +1,2 @@
 type
-	^self nbUInt32AtOffset: 0
+	^self getHandle nbUInt32AtOffset: 0

@@ -1,2 +1,0 @@
-errorCode
-	^ errorCode

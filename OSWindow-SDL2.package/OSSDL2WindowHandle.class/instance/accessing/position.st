@@ -1,6 +1,6 @@
 position
 	| x y |
-	x := OSSDLIntValue new.
-	y := OSSDLIntValue new.
+	x := ByteArray new: 4.
+	y := ByteArray new: 4.
 	handle getPositionX: x y: y.
-	^ x value @ y value
+	^ ( x signedLongAt: 1) @ (y signedLongAt: 1)

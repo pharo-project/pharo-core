@@ -1,2 +1,0 @@
-isImm
-	^ true

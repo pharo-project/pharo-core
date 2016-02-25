@@ -1,3 +1,0 @@
-valueSize
-	
-	^ self pointerSize 

@@ -1,2 +1,0 @@
-extractLabels: aBlockClosure
-	" do nothing"

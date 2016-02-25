@@ -1,3 +1,0 @@
-requestor: aRequestor
-
-	requestor := aRequestor.

@@ -1,2 +1,0 @@
-type
-	^ code bitAnd: RegTypeMask

@@ -1,2 +1,0 @@
-numGPRegisters
-	^ 16

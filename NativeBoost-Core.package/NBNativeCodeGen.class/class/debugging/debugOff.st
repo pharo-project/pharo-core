@@ -1,3 +1,0 @@
-debugOff
-
-	DebugOn := false

@@ -1,2 +1,0 @@
-clearId
-	operandId := 0.

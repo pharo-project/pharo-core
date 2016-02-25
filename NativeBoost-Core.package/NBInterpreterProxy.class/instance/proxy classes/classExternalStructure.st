@@ -1,2 +1,0 @@
-classExternalStructure
-	^ self simpleCall

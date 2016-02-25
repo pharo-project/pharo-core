@@ -1,3 +1,0 @@
-isFloatObject: oop
-	 
-	^ self simpleCall

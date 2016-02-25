@@ -1,2 +1,0 @@
-defaultArgumentSize
-	^ 4

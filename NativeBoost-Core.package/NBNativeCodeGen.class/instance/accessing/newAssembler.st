@@ -1,3 +1,0 @@
-newAssembler
-
-	^ NativeBoost newAssembler 

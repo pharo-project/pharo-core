@@ -1,2 +1,0 @@
-codeSize
-	^ machineCode size

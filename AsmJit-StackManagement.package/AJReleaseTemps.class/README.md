@@ -1,1 +1,0 @@
-Handling release of temps

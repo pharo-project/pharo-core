@@ -1,2 +1,3 @@
 isAvailable
-	^ [ (NativeBoost loadSymbol: 'SDL_Init' fromModule: SDL2 moduleName) isNotNil ] ifError: [ false ]
+	^ [ (ExternalAddress loadSymbol: 'SDL_Init' from: SDL2 moduleName) notNil ] 	
+		ifError: [ false ]

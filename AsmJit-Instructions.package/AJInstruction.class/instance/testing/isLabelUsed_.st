@@ -1,2 +1,0 @@
-isLabelUsed: anAJJumpLabel
-	^ false

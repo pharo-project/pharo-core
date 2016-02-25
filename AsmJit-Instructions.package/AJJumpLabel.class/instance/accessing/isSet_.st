@@ -1,2 +1,0 @@
-isSet: anObject
-	isSet := anObject

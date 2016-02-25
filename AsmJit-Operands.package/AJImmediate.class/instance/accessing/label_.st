@@ -1,3 +1,0 @@
-label: aLabelName
-
-	label := aLabelName

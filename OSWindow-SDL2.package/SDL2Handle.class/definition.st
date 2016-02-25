@@ -1,4 +1,4 @@
-NBExternalObject subclass: #SDL2Handle
+FFIExternalObject subclass: #SDL2Handle
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'SDL2Constants SDL2Types'

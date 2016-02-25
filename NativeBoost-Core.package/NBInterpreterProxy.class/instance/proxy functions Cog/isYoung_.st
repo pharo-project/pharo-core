@@ -1,2 +1,0 @@
-isYoung: anOop
-	self shouldBeImplemented 

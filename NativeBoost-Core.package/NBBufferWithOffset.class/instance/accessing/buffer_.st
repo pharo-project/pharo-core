@@ -1,2 +1,0 @@
-buffer: anObject
-	buffer := anObject

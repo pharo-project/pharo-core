@@ -1,3 +1,0 @@
-prepareCallAlignments
-
-	callInfo callCleanup: self

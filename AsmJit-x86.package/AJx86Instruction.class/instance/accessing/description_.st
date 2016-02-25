@@ -1,2 +1,0 @@
-description: anInstructionDescription
-	description := anInstructionDescription

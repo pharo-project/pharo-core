@@ -1,2 +1,0 @@
-fnSpec
-	^ fnSpec

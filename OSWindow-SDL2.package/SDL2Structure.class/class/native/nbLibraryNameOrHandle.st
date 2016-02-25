@@ -1,2 +1,0 @@
-nbLibraryNameOrHandle
-	^ SDL2 nbLibraryNameOrHandle

@@ -1,3 +1,0 @@
-functionName
-
-	^ functionName

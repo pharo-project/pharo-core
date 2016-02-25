@@ -1,3 +1,0 @@
-length: aValue
-
-	length := aValue

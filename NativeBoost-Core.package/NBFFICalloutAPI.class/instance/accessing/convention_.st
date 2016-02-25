@@ -1,2 +1,0 @@
-convention: aCallConvention
-	conv := aCallConvention 

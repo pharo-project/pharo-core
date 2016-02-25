@@ -1,3 +1,0 @@
-size: aSmallInteger 
-
-	size := aSmallInteger

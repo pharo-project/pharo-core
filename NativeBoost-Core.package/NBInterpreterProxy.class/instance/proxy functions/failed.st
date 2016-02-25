@@ -1,2 +1,0 @@
-failed
-	^ self simpleCall

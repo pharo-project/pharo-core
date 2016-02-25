@@ -1,3 +1,0 @@
-ivarName
-
-	^ivarName

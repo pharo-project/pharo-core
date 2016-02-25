@@ -1,2 +1,0 @@
-size: aSize
-	size := aSize

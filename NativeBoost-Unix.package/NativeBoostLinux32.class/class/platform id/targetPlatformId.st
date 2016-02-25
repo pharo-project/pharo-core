@@ -1,3 +1,0 @@
-targetPlatformId
-	
-	^ Linux32PlatformId 

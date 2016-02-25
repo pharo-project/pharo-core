@@ -1,2 +1,0 @@
-objectFormat 
-	^ objectFormat 

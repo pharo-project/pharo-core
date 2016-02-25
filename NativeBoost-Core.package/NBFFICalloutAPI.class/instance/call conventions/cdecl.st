@@ -1,2 +1,0 @@
-cdecl
-	conv := #cdecl

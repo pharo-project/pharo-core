@@ -1,2 +1,0 @@
-integerArg: index
-	self shouldBeImplemented 

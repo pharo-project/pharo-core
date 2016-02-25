@@ -1,2 +1,0 @@
-setInterruptCheckChain: aFunctionAddr
-	self shouldBeImplemented 

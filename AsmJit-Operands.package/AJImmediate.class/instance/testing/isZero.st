@@ -1,2 +1,0 @@
-isZero
-	^ value = 0

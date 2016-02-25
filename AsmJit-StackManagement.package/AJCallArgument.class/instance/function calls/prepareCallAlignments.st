@@ -1,3 +1,0 @@
-prepareCallAlignments
-
-	callInfo noticeArgument: self

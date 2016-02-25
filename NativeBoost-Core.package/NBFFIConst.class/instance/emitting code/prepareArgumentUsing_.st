@@ -1,3 +1,0 @@
-prepareArgumentUsing: gen
-
-	"do nothing"

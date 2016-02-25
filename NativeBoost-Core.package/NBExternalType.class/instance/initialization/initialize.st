@@ -1,3 +1,0 @@
-initialize
-
-	pointerArity := 0.

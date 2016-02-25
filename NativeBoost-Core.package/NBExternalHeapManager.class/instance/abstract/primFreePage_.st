@@ -1,4 +1,0 @@
-primFreePage: aMemoryPage
-
-	self subclassResponsibility
- 

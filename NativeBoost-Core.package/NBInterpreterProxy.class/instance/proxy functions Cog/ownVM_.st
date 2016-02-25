@@ -1,2 +1,0 @@
-ownVM: threadIdAndFlags
-	self shouldBeImplemented 

@@ -1,3 +1,0 @@
-stackAlignment
-
-	^ 16

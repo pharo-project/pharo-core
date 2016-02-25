@@ -1,3 +1,0 @@
-initialize
-
-	self initValueType: 'int'.

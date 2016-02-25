@@ -1,2 +1,0 @@
-instructionName
-	^ #push

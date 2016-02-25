@@ -1,4 +1,0 @@
-bytes: aBytes 
-
-	bytes := aBytes
-	

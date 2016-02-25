@@ -1,3 +1,0 @@
-name
-	^ name
-		ifNil: ['undefined']

@@ -1,2 +1,0 @@
-new
-	^self basicNew initializeInternal

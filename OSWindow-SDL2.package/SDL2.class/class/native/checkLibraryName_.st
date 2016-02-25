@@ -1,2 +1,2 @@
 checkLibraryName: aName
-	^ (NativeBoost loadSymbol: 'SDL_Init' fromModule: aName) notNil
+	^ (ExternalAddress loadSymbol: 'SDL_Init' from: aName) notNil

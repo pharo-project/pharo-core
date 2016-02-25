@@ -1,1 +1,0 @@
-Abstract class for all integer external types

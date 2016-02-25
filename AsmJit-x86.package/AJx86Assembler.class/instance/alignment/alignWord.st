@@ -1,2 +1,0 @@
-alignWord
-	self addInstruction: AJAlignmentInstruction alignWord

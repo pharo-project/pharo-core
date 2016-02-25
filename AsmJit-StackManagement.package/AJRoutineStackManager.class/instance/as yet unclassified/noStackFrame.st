@@ -1,2 +1,0 @@
-noStackFrame
-	noStackFrame := true.

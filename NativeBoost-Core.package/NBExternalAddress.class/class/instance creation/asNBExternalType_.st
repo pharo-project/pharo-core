@@ -1,3 +1,0 @@
-asNBExternalType: gen
-
-	^ NBExternalAddressType new 

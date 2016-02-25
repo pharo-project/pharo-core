@@ -1,2 +1,0 @@
-asUImm
-	^ self asUnsignedLong asUImm

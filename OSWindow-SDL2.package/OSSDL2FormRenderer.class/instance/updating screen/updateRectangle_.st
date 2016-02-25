@@ -15,9 +15,10 @@ updateRectangle: rectangle
 		w: w
 		h: h.
 	pitch := form width * 4.
-	bitsAndOffset := NBBufferWithOffset new
+	self error: 'This needs to be redo with new FFI-NB'.
+	"bitsAndOffset := NBBufferWithOffset new
 		buffer: form bits;
-		offset: y * pitch + (x * 4).
+		offset: y * pitch + (x * 4)."
 	texture
 		updateTextureRect: sdlRectangle
 		formBits: bitsAndOffset

@@ -1,3 +1,0 @@
-classBitmap
-	
-	^ self simpleCall

@@ -1,3 +1,0 @@
-isReg
-
-	^ false

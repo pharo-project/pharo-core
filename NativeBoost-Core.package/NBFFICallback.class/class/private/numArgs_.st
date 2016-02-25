@@ -1,3 +1,0 @@
-numArgs: int
-
-	numArgs := int

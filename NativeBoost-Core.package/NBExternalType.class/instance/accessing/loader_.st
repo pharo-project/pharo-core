@@ -1,2 +1,0 @@
-loader: aLoader
-	loader := aLoader

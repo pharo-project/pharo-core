@@ -1,2 +1,0 @@
-isRegTypeGPW
-	^ self isRegType: RegGPW

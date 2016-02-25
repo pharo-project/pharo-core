@@ -1,2 +1,0 @@
-noStackFrame
-	^ self new noStackFrame

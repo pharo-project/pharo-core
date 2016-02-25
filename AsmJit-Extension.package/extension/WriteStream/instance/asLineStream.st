@@ -1,2 +1,0 @@
-asLineStream
-	^ AJLineStream on: self

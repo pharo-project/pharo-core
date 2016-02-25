@@ -1,3 +1,0 @@
-superclassOf:  classPointer
-	
-	^ self simpleCall

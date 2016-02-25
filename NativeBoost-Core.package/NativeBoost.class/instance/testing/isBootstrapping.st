@@ -1,2 +1,0 @@
-isBootstrapping
-	^ bootstrapping

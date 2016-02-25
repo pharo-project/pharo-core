@@ -1,3 +1,0 @@
-ioMicroMSecs
-	
-	^ self simpleCall

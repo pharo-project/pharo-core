@@ -1,2 +1,0 @@
-alignment: aStackAlignment
-	stackAlignment := aStackAlignment

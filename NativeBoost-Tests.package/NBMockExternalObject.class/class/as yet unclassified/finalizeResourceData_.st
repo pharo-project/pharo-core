@@ -1,3 +1,0 @@
-finalizeResourceData: object
-
-	object value

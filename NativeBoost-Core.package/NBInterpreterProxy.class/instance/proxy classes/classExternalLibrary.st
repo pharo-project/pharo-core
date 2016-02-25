@@ -1,2 +1,0 @@
-classExternalLibrary
-	^ self simpleCall

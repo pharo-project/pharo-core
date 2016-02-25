@@ -1,2 +1,0 @@
-valueType
-	^ valueType

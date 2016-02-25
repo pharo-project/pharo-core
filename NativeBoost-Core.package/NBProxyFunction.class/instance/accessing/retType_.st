@@ -1,3 +1,0 @@
-retType: anObject
-
-	retType := anObject

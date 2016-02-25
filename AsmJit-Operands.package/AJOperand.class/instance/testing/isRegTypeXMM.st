@@ -1,2 +1,0 @@
-isRegTypeXMM
-	^ false

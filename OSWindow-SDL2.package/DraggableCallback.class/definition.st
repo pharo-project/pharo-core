@@ -1,4 +1,4 @@
-NBFFICallback subclass: #DraggableCallback
+FFICallback subclass: #DraggableCallback
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'SDL2Constants'

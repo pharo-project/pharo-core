@@ -1,2 +1,0 @@
-hasNativeCode
-	^ self trailerKind == #NativeCodeTrailer

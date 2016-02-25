@@ -1,2 +1,0 @@
-label: anObject
-	label := anObject

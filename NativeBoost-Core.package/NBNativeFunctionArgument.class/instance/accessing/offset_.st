@@ -1,3 +1,0 @@
-offset: anObject
-
-	offset := anObject

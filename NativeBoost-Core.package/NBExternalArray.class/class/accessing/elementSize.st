@@ -1,2 +1,0 @@
-elementSize
-	^ elementSize

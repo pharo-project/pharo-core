@@ -1,2 +1,0 @@
-firstBlock
-	^ initialBlock

@@ -1,2 +1,0 @@
-isReg
-	^ true

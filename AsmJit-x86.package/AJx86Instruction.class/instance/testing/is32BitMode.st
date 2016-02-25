@@ -1,3 +1,0 @@
-is32BitMode
-
-	^ true

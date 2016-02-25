@@ -1,7 +1,0 @@
-testAssemblyMemBaseDisp
-
-	asm 
-		mov: EAX ptr + 1 -> EAX;
-		mov: EBX ptr + ECX -> EAX.
-	
-	self assert: asm bytes = #(16r8B 16r40 16r01 16r8B 16r04 16r0B) asByteArray

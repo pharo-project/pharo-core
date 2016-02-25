@@ -1,1 +1,0 @@
-This is a pseudo-instruction to indicate a place in native code for routine prologue.It is later replaced by real instructions which contain code for initializing stack frame & extra stack space required by routine.

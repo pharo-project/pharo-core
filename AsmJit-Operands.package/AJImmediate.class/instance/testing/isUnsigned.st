@@ -1,2 +1,0 @@
-isUnsigned 
-	^ isUnsigned

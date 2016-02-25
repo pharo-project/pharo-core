@@ -1,4 +1,4 @@
-ByteArray variableByteSubclass: #SDL_Event
+FFIExternalObject subclass: #SDL_Event
 	instanceVariableNames: ''
 	classVariableNames: 'EventTypeMap'
 	poolDictionaries: ''

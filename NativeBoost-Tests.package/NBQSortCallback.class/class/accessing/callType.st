@@ -1,3 +1,0 @@
-callType
-
-	^ #cdecl

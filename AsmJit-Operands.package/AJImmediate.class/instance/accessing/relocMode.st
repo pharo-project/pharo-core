@@ -1,2 +1,0 @@
-relocMode
-	^ relocMode ifNil: [#RelocNone ]

@@ -1,2 +1,0 @@
-minorVersion
-	^ self simpleCall

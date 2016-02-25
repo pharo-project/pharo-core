@@ -1,2 +1,0 @@
-tenuringIncrementalGC
-	self shouldBeImplemented 

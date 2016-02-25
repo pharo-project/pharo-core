@@ -1,2 +1,0 @@
-isInitialized
-	^ initialized == true

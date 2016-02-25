@@ -1,6 +1,6 @@
 extent
 	| w h |
-	w := OSSDLIntValue new.
-	h := OSSDLIntValue new.
+	w := ByteArray new: 4.
+	h := ByteArray new: 4.
 	handle getSizeW: w h: h.
-	^ w value @ h value
+	^ (w signedLongAt: 1) @ (h signedLongAt: 1)

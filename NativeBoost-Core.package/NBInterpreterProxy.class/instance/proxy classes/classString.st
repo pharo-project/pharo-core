@@ -1,3 +1,0 @@
-classString
-	
-	^ self simpleCall

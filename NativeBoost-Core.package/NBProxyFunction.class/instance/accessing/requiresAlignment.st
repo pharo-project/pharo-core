@@ -1,2 +1,0 @@
-requiresAlignment 
-	^ requiresAlignment ~~ false

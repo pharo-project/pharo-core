@@ -1,3 +1,0 @@
-forceInterruptCheck
-	
-	^ self gatedCall

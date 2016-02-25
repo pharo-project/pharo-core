@@ -1,2 +1,0 @@
-valueSize
-	^ 2

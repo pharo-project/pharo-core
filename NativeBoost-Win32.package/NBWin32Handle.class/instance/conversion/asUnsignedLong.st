@@ -1,2 +1,0 @@
-asUnsignedLong
-	^ handle asUnsignedLong

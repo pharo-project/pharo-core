@@ -1,2 +1,0 @@
-integerConstantArgument: aValue
-	^ aValue

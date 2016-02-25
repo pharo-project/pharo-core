@@ -1,2 +1,0 @@
-operandId
-	^ operandId

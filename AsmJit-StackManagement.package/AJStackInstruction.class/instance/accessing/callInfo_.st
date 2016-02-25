@@ -1,3 +1,0 @@
-callInfo: anObject
-
-	callInfo := anObject

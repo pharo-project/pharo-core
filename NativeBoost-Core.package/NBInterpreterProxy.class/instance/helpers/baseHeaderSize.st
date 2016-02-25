@@ -1,2 +1,0 @@
-baseHeaderSize
-	^ objectFormat baseHeaderSize

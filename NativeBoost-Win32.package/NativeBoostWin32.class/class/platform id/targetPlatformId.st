@@ -1,3 +1,0 @@
-targetPlatformId
-	
-	^ Win32PlatformId

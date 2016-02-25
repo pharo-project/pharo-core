@@ -1,2 +1,0 @@
-elementType
-	^ elementType

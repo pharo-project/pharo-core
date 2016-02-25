@@ -1,2 +1,0 @@
-newParser
-	^ NBFnSpecParser new

@@ -1,2 +1,0 @@
-isReceiver: aBool
-	isReceiver := aBool 

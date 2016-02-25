@@ -1,2 +1,0 @@
-registerName 
-	^ name asString.

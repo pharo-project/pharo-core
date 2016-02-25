@@ -1,2 +1,0 @@
-floatArg: index
-	self shouldBeImplemented 

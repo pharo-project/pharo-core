@@ -1,2 +1,0 @@
-initialize
-	level := 0

@@ -1,2 +1,0 @@
-prepareCallAlignments
-	"do nothing"

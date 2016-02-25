@@ -1,2 +1,0 @@
-is32BitMode
-	^ false

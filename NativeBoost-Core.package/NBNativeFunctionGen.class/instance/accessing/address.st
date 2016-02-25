@@ -1,2 +1,0 @@
-address
-	^ nativeFunction address

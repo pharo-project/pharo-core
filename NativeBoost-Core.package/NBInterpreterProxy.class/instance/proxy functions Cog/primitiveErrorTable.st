@@ -1,2 +1,0 @@
-primitiveErrorTable
-	self shouldBeImplemented 

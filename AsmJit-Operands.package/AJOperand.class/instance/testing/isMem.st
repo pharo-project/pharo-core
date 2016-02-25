@@ -1,3 +1,0 @@
-isMem
-
-	^ false

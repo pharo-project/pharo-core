@@ -1,3 +1,2 @@
 initialize
-
-	NBExternalResourceManager addResource: self data: data value.
+	FFIExternalResourceManager addResource: self data: self getHandle value.

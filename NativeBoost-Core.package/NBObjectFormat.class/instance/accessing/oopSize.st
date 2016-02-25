@@ -1,3 +1,0 @@
-oopSize
-
-	self subclassResponsibility 

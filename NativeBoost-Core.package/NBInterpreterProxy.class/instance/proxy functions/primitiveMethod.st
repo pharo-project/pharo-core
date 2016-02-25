@@ -1,2 +1,0 @@
-primitiveMethod
-	^ self simpleCall

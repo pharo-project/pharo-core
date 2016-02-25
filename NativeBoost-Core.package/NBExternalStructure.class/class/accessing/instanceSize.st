@@ -1,5 +1,0 @@
-instanceSize 
-	
-	^ self fields totalSize
-
-	

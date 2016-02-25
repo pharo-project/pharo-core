@@ -1,2 +1,0 @@
-requiresRex
-	^false

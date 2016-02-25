@@ -1,3 +1,0 @@
-addGCRoot: sqIntPtr
-	
-	^ self simpleCall

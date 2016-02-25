@@ -1,2 +1,0 @@
-ffiCalloutOptions 
-	^ #( + optMayGC )

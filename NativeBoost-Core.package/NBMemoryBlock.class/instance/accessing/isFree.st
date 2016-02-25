@@ -1,2 +1,0 @@
-isFree
-	^ free

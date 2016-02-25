@@ -1,2 +1,0 @@
-imm: value
-	^ value asImm 

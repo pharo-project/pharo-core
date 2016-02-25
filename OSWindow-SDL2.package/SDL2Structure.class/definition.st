@@ -1,4 +1,4 @@
-NBExternalStructure subclass: #SDL2Structure
+FFIExternalStructure subclass: #SDL2Structure
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: 'SDL2Constants SDL2Types'

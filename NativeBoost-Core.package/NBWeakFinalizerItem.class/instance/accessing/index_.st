@@ -1,2 +1,0 @@
-index: aNumber
-	index := aNumber

@@ -1,2 +1,0 @@
-isRip
-	^ true

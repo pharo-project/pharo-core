@@ -1,2 +1,0 @@
-isSet
-	^ isSet == true

@@ -1,2 +1,0 @@
-isRegTypeGPD
-	^ self isRegType: RegGPD

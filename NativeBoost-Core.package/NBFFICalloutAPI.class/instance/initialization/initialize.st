@@ -1,3 +1,0 @@
-initialize
-	conv := #cdecl.
-	options := #().

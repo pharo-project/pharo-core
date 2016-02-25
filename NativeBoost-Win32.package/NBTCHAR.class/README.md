@@ -1,1 +1,0 @@
-- depending on context, acts either as char or wchar

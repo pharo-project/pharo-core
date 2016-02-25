@@ -1,2 +1,0 @@
-finalize
-	self free

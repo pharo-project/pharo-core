@@ -1,2 +1,0 @@
-options: codeGenerationOptions
-	options := codeGenerationOptions

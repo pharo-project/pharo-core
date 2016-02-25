@@ -1,3 +1,0 @@
-primAllocatePage: numBytes
-
-	^ 0
