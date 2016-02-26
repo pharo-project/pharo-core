@@ -1,0 +1,2 @@
+sourceTextArea
+	^ self textView

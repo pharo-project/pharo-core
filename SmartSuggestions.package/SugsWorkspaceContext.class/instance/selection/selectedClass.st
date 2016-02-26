@@ -1,0 +1,2 @@
+selectedClass
+	^model selectedClassOrMetaClass

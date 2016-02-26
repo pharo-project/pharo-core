@@ -1,8 +1,2 @@
 textView
-	| v |
-	v := textModel newScrolledText
-		withRuler: RubWorkspaceBar new;
-		beWrapped;
-		yourself.
-	v announcer when: RubTextAccepted send: #whenTextAccepted: to: self.
-	^ v
+	^ textView ifNil:[ textView := self createTextView]

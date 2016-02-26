@@ -1,0 +1,2 @@
+sugsContext
+	^ SugsWorkspaceContext model: self

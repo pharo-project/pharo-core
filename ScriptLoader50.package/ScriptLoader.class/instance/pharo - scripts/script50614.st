@@ -1,4 +1,4 @@
-script50613
+script50614
 
 	^ 'AST-Core-TheIntegrator.401.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -49,7 +49,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-EstebanLorenzano.81.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-EstebanLorenzano.120.mcz
-Deprecated50-TheIntegrator.53.mcz
+Deprecated50-TheIntegrator.55.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
@@ -131,9 +131,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2231.mcz
+Kernel-TheIntegrator.2233.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.40.mcz
+Kernel-Tests-TheIntegrator.41.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -243,7 +243,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.296.mcz
-Refactoring-Critics-TheIntegrator.255.mcz
+Refactoring-Critics-TheIntegrator.258.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
@@ -287,8 +287,8 @@ Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.723.mcz
 Slot-Tests-TheIntegrator.85.mcz
-SmartSuggestions-TheIntegrator.231.mcz
-SmartSuggestions-Tests-TheIntegrator.30.mcz
+SmartSuggestions-TheIntegrator.232.mcz
+SmartSuggestions-Tests-TheIntegrator.31.mcz
 Spec-Core-TheIntegrator.451.mcz
 Spec-Debugger-TheIntegrator.261.mcz
 Spec-Examples-TheIntegrator.102.mcz
@@ -356,10 +356,10 @@ Tool-Profilers-TheIntegrator.19.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
-Tool-Workspace-TheIntegrator.35.mcz
+Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.14.mcz
-Traits-TheIntegrator.888.mcz
+Traits-TheIntegrator.890.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
