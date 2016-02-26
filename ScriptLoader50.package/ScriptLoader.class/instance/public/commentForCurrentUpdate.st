@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '17706 deprecate #implementorsExistOf:
-	https://pharo.fogbugz.com/f/cases/17706
+ ^ '17711 Reset Registry of MetacelloProjectRegistration to remove Obsolete configuration instances
+	https://pharo.fogbugz.com/f/cases/17711
 
-17461 fallback menu in Workspace 
-	https://pharo.fogbugz.com/f/cases/17461
+17712 clean old startup mechanism - part 1
+	https://pharo.fogbugz.com/f/cases/17712
 
-17652 selector weakSubclass:instanceVariableNames:classVariableNames:package: missing
-	https://pharo.fogbugz.com/f/cases/17652
-
-17693 Time offset parsing is false
-	https://pharo.fogbugz.com/f/cases/17693'
+17655 Changes in package loading behavior
+	https://pharo.fogbugz.com/f/cases/17655'

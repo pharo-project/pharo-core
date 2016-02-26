@@ -6,6 +6,7 @@ cleanUpForRelease
 	
 	FreeTypeFontProvider current initialize.
 	EmbeddedFreeTypeFontInstaller initialize.
+	#MetacelloProjectRegistration asClassIfPresent: [ :class | class resetRegistry ].
 	SystemNavigation new
 		allObjectsDo: [ :each | 
 			(each respondsTo: #releaseCachedState)

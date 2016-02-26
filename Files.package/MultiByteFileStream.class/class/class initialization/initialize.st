@@ -8,6 +8,5 @@ initialize
 	LineEndStrings at: #crlf put: (String with: Character cr with: Character lf).
 	LookAheadCount := 2048.
 	
-	Smalltalk addToStartUpList: self.
 	SessionManager default registerSystemClassNamed: self name.
 	self startUp.

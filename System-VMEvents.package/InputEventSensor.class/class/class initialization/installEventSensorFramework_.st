@@ -3,10 +3,7 @@ installEventSensorFramework: fetcherClass
 
 	| newSensor |
 	"Do some extra cleanup"
-	Smalltalk removeFromShutDownList: InputEventFetcher.
-	Smalltalk removeFromStartUpList: InputEventFetcher.
 	SessionManager default unregisterClassNamed: #InputEventFetcher.
-
 	InputEventFetcher deinstall.
 
 	newSensor := self new.
@@ -15,8 +12,6 @@ installEventSensorFramework: fetcherClass
 	
 	"Shut down old sensor"
 	Sensor shutDown.
-	Smalltalk removeFromShutDownList: Sensor class.
-	Smalltalk removeFromStartUpList: Sensor class.
 	SessionManager default unregisterClassNamed: Sensor class name.
 
 	"Note: We must use #become: here to replace all references to the old sensor with the new one, since Sensor is referenced from all the existing controllers."
@@ -25,8 +20,6 @@ installEventSensorFramework: fetcherClass
 	"Register the interrupt handler"
 	UserInterruptHandler new registerIn: InputEventFetcher default.
 
-	Smalltalk addToStartUpList: Sensor class after: fetcherClass.
-	Smalltalk addToShutDownList: Sensor class after: Form.
 	SessionManager default 
 		registerGuiClassNamed: Sensor class name 
 		atPriority: 20.

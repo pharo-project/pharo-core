@@ -13,14 +13,13 @@ versionHighlightEmphasis: aString
 	versionName := (aString copyUpToLast: $.) copyUpTo: $(.
 	packageName := versionName copyUpToLast: $-.
 	(packageName includes: $.) ifTrue: [ packageName := packageName copyUpTo: $. ].
-	
 	(loaded includes: versionName) ifTrue: [ ^ TextEmphasis underlined ].
 	selectedPackage = packageName ifTrue: [ 
 		self selectedPackageAncestors
-			ifNotNil: [ 
+			ifNotNil: [
 				(selectedPackageAncestors includes: versionName)
 					ifTrue: [ ^ TextEmphasis normal ]
 					ifFalse: [ ^ TextEmphasis bold ] ] ].
-	(newer includes: aString) ifTrue: [ ^ TextEmphasis bold ].
+	(newer includes: versionName) ifTrue: [ ^ TextEmphasis bold ].
 	(loadedPackages includes: packageName) ifFalse: [ ^ TextEmphasis bold ].
 	^ TextEmphasis normal
