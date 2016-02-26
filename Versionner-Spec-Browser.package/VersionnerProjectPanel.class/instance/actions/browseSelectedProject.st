@@ -1,2 +1,4 @@
 browseSelectedProject
-	^ projectList selectedItem ifNotNilDo: [ :selection | self browseProject: selection content configurationClass ]
+	^ self projectBoundToSelection
+		ifNotNilDo: [ :dependantProject | 
+			self browseProject: dependantProject configurationClass ]

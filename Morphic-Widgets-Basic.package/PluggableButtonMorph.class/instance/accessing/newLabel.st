@@ -1,4 +1,6 @@
 newLabel
 	"Answer a new label for the receiver."
-
-	^self theme buttonLabelFor: self
+	|lbl|
+	lbl := self theme buttonLabelFor: self.
+	font ifNotNil: [lbl font: font].
+	^lbl

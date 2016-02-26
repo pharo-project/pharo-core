@@ -1,4 +1,4 @@
-script50615
+script50616
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -179,9 +179,9 @@ MonticelloRemoteRepositories-TheIntegrator.13.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.540.mcz
 Morphic-Core-TheIntegrator.256.mcz
-Morphic-Examples-TheIntegrator.48.mcz
+Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.74.mcz
+Morphic-Widgets-Basic-TheIntegrator.76.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-GuillermoPolito.162.mcz
@@ -210,7 +210,7 @@ Nautilus-Tests-TheIntegrator.31.mcz
 NautilusCommon-TheIntegrator.304.mcz
 NautilusGroupAutoBuilder-TheIntegrator.8.mcz
 NautilusRefactoring-TheIntegrator.271.mcz
-Network-Kernel-TheIntegrator.123.mcz
+Network-Kernel-TheIntegrator.126.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.103.mcz
@@ -225,7 +225,7 @@ OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.786.mcz
-OpalCompiler-Tests-TheIntegrator.324.mcz
+OpalCompiler-Tests-TheIntegrator.326.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -289,13 +289,13 @@ Slot-TheIntegrator.723.mcz
 Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.232.mcz
 SmartSuggestions-Tests-TheIntegrator.31.mcz
-Spec-Core-TheIntegrator.451.mcz
+Spec-Core-TheIntegrator.453.mcz
 Spec-Debugger-TheIntegrator.261.mcz
-Spec-Examples-TheIntegrator.102.mcz
+Spec-Examples-TheIntegrator.104.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.256.mcz
+Spec-MorphicAdapters-TheIntegrator.258.mcz
 Spec-PolyWidgets-TheIntegrator.64.mcz
 Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.322.mcz

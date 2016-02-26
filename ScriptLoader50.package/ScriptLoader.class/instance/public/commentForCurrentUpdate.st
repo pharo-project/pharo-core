@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '17711 Reset Registry of MetacelloProjectRegistration to remove Obsolete configuration instances
-	https://pharo.fogbugz.com/f/cases/17711
+ ^ '17311 Versionner, MNU if we try to fix version of a package in a load directive.
+	https://pharo.fogbugz.com/f/cases/17311
 
-17712 clean old startup mechanism - part 1
-	https://pharo.fogbugz.com/f/cases/17712
+17703 Failing test: OCPragmaTest>>#testApicall
+	https://pharo.fogbugz.com/f/cases/17703
 
-17655 Changes in package loading behavior
-	https://pharo.fogbugz.com/f/cases/17655'
+13183 Proxy exceptions not considered by ZnClient
+	https://pharo.fogbugz.com/f/cases/13183
+
+17707 PluggableButtonMorph should respond to font: (also spec)
+	https://pharo.fogbugz.com/f/cases/17707'

@@ -4,6 +4,7 @@ initialize
 
 	actionHolder := [] asValueHolder.
 	labelHolder := '' asValueHolder.
+	fontHolder := nil asValueHolder.
 	iconHolder := nil asValueHolder.
 	stateHolder := false asValueHolder.
 	helpHolder := nil asValueHolder.
@@ -12,6 +13,7 @@ initialize
 	shortcutHolder := nil asValueHolder.
 	
 	labelHolder whenChangedDo: [ self changed: #label ].
+	fontHolder whenChangedDo: [ self changed: #font ].
 	iconHolder whenChangedDo: [ self changed: #label ].
 	stateHolder whenChangedDo: [ self changed: #state ].
 	enabledHolder whenChangedDo: [ self changed: #enabled ].

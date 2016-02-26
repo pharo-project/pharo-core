@@ -9,6 +9,7 @@ buildWidget
 				menu: nil. 	
 	button 
 		getEnabledSelector: #enabled ;
+		getFontSelector: #font ;
 		hResizing: #spaceFill ;
 		vResizing: #spaceFill ;
 		askBeforeChanging: self askBeforeChanging ;

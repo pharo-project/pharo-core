@@ -5,11 +5,11 @@ requiredProjectMenu: aMenu
 			action: [ self browseSelectedProject ]);
 		addMenuItem: (MenuItemModel new
 			name: #'edit version';
-			action: [  projectList selectedItem content editVersion.
+			action: [ self projectBoundToSelection editVersion.
 					projectList roots: project requiredProjects ]);
 		addMenuItem: (MenuItemModel new
 			name: #'edit repositories';
-			action: [  projectList selectedItem content editRepositories ]);
+			action: [ self projectBoundToSelection editRepositories ]);
 		yourself).
 
 	^ aMenu
