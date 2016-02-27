@@ -1,2 +1,0 @@
-implementorsExists: aMessage
-	^ aMessage isSelectorSymbol

@@ -5,5 +5,5 @@ initialize
 			send: #methodChanged: 
 			to: self.
 			
-	Smalltalk addToShutDownList: self.
-	SessionManager default registerToolClassNamed: self name
+	SessionManager default
+		registerToolClassNamed: self name

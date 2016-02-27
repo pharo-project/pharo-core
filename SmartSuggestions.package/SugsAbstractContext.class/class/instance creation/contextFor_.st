@@ -5,4 +5,5 @@ contextFor: anEditor
 		ifTrue: [ 
 			(anEditor model interactionModel respondsTo: #sugsContext)
 				ifTrue: [ ^ anEditor model interactionModel sugsContext ] ].
-	self error: 'Not defined context for ' , anEditor asString
+	
+	^ SugsNullContext new

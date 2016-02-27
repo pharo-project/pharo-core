@@ -1,2 +1,2 @@
 basicCheck: aMethod
-	^ aMethod messages anySatisfy: [ :each | (self implementorsExists: each) not ]
+	^ aMethod messages anySatisfy: [ :each | each isSelectorSymbol not ]

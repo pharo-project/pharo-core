@@ -1,3 +1,3 @@
 initialize
-	Smalltalk addToShutDownList: self.
-	SessionManager default registerToolClassNamed: self name
+	SessionManager default
+		registerToolClassNamed: self name
