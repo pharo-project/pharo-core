@@ -1,5 +1,5 @@
 Object subclass: #GTExampleOrganizer
-	instanceVariableNames: 'running examples notifying notifyingBeforeJobStarted'
+	instanceVariableNames: 'examples systemAnnouncements monticelloAnnouncements'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector-Examples-Utils'

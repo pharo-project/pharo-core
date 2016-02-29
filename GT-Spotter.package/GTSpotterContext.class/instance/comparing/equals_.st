@@ -1,3 +1,3 @@
 equals: aContext
 	aContext ifNil: [ ^ false ].
-   ^ self matches: aContext text
+   ^ self matches: aContext search

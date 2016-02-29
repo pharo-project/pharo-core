@@ -2,6 +2,6 @@ gtSpotterGTExamplesFor: aStep
 	<spotterOrder: 100>
 	aStep listProcessor
 		title: 'Examples';
-		allCandidates: [ self examples ];
+		allCandidates: [ GTExampleFinder allGTExamples ];
 		itemName: [ :example | example gtDisplayString ];
 		filter: GTFilterSubstring

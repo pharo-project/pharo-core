@@ -9,6 +9,6 @@ textInputFor: aTreeModel withHelpMessage: helpStringMessage
 		getEnabled: #inputTextEnabled
 		help: helpStringMessage.
 	textInput askBeforeDiscardingEdits: false.
+	textInput ghostText: helpStringMessage.
 	textInput layoutFrame: (LayoutFrame fractions: (0 @ 1 corner: 1 @ 1) offsets: (0 @ -26 corner: 0 @ -4)).
-	textInput ghostText: 'enter search query (example: "each = 5")'.
 	^ textInput

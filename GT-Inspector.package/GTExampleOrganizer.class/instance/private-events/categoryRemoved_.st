@@ -1,10 +1,10 @@
 categoryRemoved: anAnnouncement
-	self withCleanupDo: [ 
+	" TODO: example dependencies and/or proxies might be invalid !!! (string/symbol-references) "
+	self withoutExceptionsDo: [ 
 		examples keys do: [ :className |
-			(Smalltalk classNamed: className) ifNil: [ 
-				(examples removeKey: className ifAbsent: [ nil ]) ifNotNil: [ :dict | 
-					dict do: [ :example | 
-						[ example detachFromSystem ] on: Error do: [ " ignore " ] ] ] ] ].
-		
+			(examples removeKey: className ifAbsent: [ nil ]) ifNotNil: [ :dict | 
+				dict do: [ :example | 
+					[ example detachFromSystem ] on: Error do: [ " ignore " ].
+					"self example: example removed: anAnnouncement" ] ] ].
 		self checkForMissingDependencies.
 		self checkForMissingClasses ]

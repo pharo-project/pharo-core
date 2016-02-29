@@ -2,7 +2,7 @@ buildCategoryBrick: aProcessor
 	"Create and initialize new container brick to contain candidates for aProcessor.
 	Also creates a category title brick and assigns it to category brick to be
 	added later to results brick as soon as there is more than one candidate"
-	<return: GTSpotterCategoryBrick>
+	<return: #GTSpotterCategoryBrick>
 	|titleBrick categoryBrick|
 	
 	"Initialize and style category title"

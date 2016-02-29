@@ -1,6 +1,4 @@
 checkForMissingDependencies
-	self notifying ifFalse: [ ^ self ].
-
 	[ self cachedExamplesDo: [ :example | 
 		example arguments do: [ :dependency | 
 			dependency exists 

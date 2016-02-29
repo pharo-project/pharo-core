@@ -18,7 +18,7 @@ applyFilterWithQuery
 					itemName size = queryString size 
 						ifTrue: [ 
 							exactMatches add: each.
-							exactMatches size < self itemsLimit ifTrue: [ 
+							exactMatches size <= self itemsLimit ifTrue: [ 
 								self addItem: each  ] ]
 						ifFalse: [ prefixMatches add: each ] ]
 				ifFalse: [ otherMatches add: each ] ] ].

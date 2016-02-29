@@ -1,4 +1,4 @@
 initialize
 	super initialize.
 	
-	self reset.
+	self reset

@@ -1,5 +1,4 @@
 stop
-	running := false.
-	notifying := false.
-	SystemAnnouncer uniqueInstance	unsubscribe: self.
-	Job jobAnnouncer unsubscribe: self.
+	self stopJobAnnouncements. " get rid of obsolete annoucements - temporary solution only ! "
+	self stopMonticelloAnnouncements.
+	self stopSystemAnnouncements

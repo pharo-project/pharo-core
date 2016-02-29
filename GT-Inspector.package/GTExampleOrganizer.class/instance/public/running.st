@@ -1,2 +1,0 @@
-running
-	^ running ifNil: [ false ]

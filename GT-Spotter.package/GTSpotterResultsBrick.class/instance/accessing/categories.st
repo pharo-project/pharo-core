@@ -1,3 +1,3 @@
 categories
-	<return: Dictionary>
+	<return: #Dictionary>
 	^ categories

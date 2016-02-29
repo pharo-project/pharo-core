@@ -6,7 +6,5 @@ focusedMorphChanged: aMorph at: pageIndex
 	
 	focusedPageIndex = pageIndex ifFalse: [ 
 		focusedPageIndex := pageIndex.
-		self selectedPageIndex: pageIndex.
-		self notifyFocusedPageChanged.
-	]
+		self notifyFocusedPageChanged ]
 	

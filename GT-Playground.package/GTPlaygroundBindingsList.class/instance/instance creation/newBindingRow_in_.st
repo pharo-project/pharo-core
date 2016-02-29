@@ -11,4 +11,7 @@ newBindingRow: anAssociation in: aCollection
 			self newInspectButtonFor: anAssociation.
 			self newGoButtonFor: anAssociation.
 			self newRemoveButtonFor: anAssociation };
+		with: [ :aRow | aRow 	
+			when: #onMouseHover do: [ self showActionsOf: aRow ];
+			when: #onMouseUnhover do: [ self hideActionsOf: aRow ] ];
 		yourself

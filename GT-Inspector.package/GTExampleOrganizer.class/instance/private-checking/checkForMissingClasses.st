@@ -1,7 +1,5 @@
 checkForMissingClasses
-	self notifying ifFalse: [ ^ self ].
-
-	[ self examples ]
+	[ GTExampleFinder allGTExamples ]
 		on: GTExampleDeclaredClassMissing
 		do: [ :exception | 
 			self notifyForMissingClasses: exception ]
