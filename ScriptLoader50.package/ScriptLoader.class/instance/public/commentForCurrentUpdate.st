@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '17283 strange monticello repo in 507: http://www.squeaksource.com/Pharo/ 
-	https://pharo.fogbugz.com/f/cases/17283
+ ^ '17704 Failing test on CI for mac: KMCombinationTests>>#testMacMetaShouldBeCmd
+	https://pharo.fogbugz.com/f/cases/17704
 
-16436 add RBSelfSuperSentNotImplementedRule
-	https://pharo.fogbugz.com/f/cases/16436
+17713 select right fallback UIManager
+	https://pharo.fogbugz.com/f/cases/17713
 
-17622 Failing test: MethodPragmaTest>>#testPrimitiveNamedErrorCode1
-	https://pharo.fogbugz.com/f/cases/17622
-
-17714  Clean old startup mechanism - part 2
-	https://pharo.fogbugz.com/f/cases/17714
-
-17691 ProfStef menu are broken
-	https://pharo.fogbugz.com/f/cases/17691'
+17686 Add rules about Rubric method precedence
+	https://pharo.fogbugz.com/f/cases/17686'

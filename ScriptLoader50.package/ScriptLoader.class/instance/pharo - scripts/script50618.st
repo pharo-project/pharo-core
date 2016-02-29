@@ -1,4 +1,4 @@
-script50617
+script50618
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -138,7 +138,7 @@ Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
-Keymapping-Tests-TheIntegrator.100.mcz
+Keymapping-Tests-TheIntegrator.103.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.158.mcz
 Manifest-Core-TheIntegrator.239.mcz
@@ -366,7 +366,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.178.mcz
+UIManager-TheIntegrator.181.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UnifiedFFI-EstebanLorenzano.17.mcz
 UnifiedFFI-Legacy-EstebanLorenzano.1.mcz

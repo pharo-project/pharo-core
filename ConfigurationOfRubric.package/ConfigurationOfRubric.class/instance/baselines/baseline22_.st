@@ -6,4 +6,5 @@ baseline22: spec
 		spec repository: 'http://smalltalkhub.com/mc/Pharo/Rubric/main/'.
 		spec 
 			package: 'Rubric';
-			package: #'Rubric-Rules'. ].
+			package: #'Rubric-Rules' with: [
+				spec requires: #('Rubric' ). ]. ].

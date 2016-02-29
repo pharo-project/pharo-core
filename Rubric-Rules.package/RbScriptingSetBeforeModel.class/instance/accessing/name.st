@@ -1,3 +1,3 @@
 name
 
-	^ 'Calls #beForSmalltalkScripting before #model:'
+	^ 'Calls a scripting method before #model:'

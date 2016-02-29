@@ -1,0 +1,3 @@
+scriptingMethods
+
+	^ #(beForSmalltalkScripting beForSmalltalkCode)

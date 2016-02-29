@@ -3,4 +3,4 @@ forCurrentSystemConfiguration
 			detect: [ :any | 
 				any isValidForCurrentSystemConfiguration
 					and: [ any subclasses noneSatisfy: #isValidForCurrentSystemConfiguration ] ]
-			ifNone: [ NonInteractiveTranscript ]) new
+			ifNone: [ NonInteractiveUIManager ]) new

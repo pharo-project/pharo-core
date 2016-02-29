@@ -1,1 +1,1 @@
-You have to call #beForSmalltalkScripting after #model: or it will not work
+You have to call scripting methods after #model: or it will not work
