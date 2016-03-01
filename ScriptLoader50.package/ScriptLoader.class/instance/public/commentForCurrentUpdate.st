@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '17716  Clean old startup mechanism - part 3
-	https://pharo.fogbugz.com/f/cases/17716
+ ^ '17655 Changes in package loading behavior
+	https://pharo.fogbugz.com/f/cases/17655
 
-17698 Debugger step through proxies is not always working
-	https://pharo.fogbugz.com/f/cases/17698'
+17692 ProfStef does not correctly use code font
+	https://pharo.fogbugz.com/f/cases/17692'

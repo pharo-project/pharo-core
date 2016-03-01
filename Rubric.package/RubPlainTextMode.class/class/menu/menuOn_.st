@@ -1,8 +1,8 @@
 menuOn: aBuilder
 	"Specify the menu used when writing text. Try it with:
 	(PragmaMenuBuilder 
-		pragmaKeyword: 'RubTextEditorMenu'
-		model: nil) menu popUpInWorld"
+		pragmaKeyword: 'RubPlainTextMenu'
+		model: RubEditingArea new) menu popUpInWorld" 
 
 	<contextMenu>
 	<RubPlainTextMenu>

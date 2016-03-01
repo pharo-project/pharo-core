@@ -1,7 +1,7 @@
 menuOn: aBuilder
 	"Specify the menu used when writing text. Try it with:
 	(PragmaMenuBuilder 
-		pragmaKeyword: 'textEditorMenu'
+		pragmaKeyword: 'RubLineNumberMenu'
 		model: nil) menu popUpInWorld"
 
 	<contextMenu>

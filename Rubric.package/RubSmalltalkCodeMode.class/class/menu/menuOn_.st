@@ -1,9 +1,5 @@
 menuOn: aBuilder
-	"Specify the menu used when writing code. Try it with:
-	(PragmaMenuBuilder 
-		pragmaKeyword: 'smalltalkEditorMenu'
-		model: nil) menu popUpInWorld
-	"
+	"Specify the menu used when writing code."
 
 	<contextMenu>
 	<RubSmalltalkCodeMenu>
@@ -80,7 +76,7 @@ menuOn: aBuilder
 		help: nil;
 		icon: uitheme smallCopyIcon;
 		withSeparatorAfter.
-	aBuilder model model
+	aBuilder model ifNotNil: [:mod | mod model
 		ifNotNil: [ 
 			(aBuilder item: #Accept translated)
 				keyText: 's';
@@ -89,4 +85,4 @@ menuOn: aBuilder
 			(aBuilder item: #Cancel translated)
 				keyText: 'l';
 				selector: #cancel;
-				icon: uitheme smallCancelIcon ]
+				icon: uitheme smallCancelIcon ]]
