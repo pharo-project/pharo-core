@@ -1,4 +1,4 @@
-script50619
+script50620
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -55,7 +55,7 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
 FFI-Kernel-EstebanLorenzano.29.mcz
 FFI-Pools-eem.3.mcz
-FileSystem-Core-TheIntegrator.193.mcz
+FileSystem-Core-TheIntegrator.196.mcz
 FileSystem-Disk-TheIntegrator.92.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.95.mcz
@@ -78,15 +78,15 @@ FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.328.mcz
-GT-EventRecorder-JurajKubelka.59.mcz
+GT-EventRecorder-AndreiChis.60.mcz
 GT-EventRecorder-Tests-JurajKubelka.36.mcz
-GT-Inspector-TudorGirba.382.mcz
+GT-Inspector-TudorGirba.388.mcz
 GT-InspectorExtensions-Core-AndreiChis.203.mcz
-GT-Playground-TudorGirba.119.mcz
+GT-Playground-AliakseiSyrel.122.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-TudorGirba.374.mcz
+GT-Spotter-TudorGirba.379.mcz
 GT-Spotter-EventRecorder-TheIntegrator.109.mcz
-GT-SpotterExtensions-Core-TudorGirba.193.mcz
+GT-SpotterExtensions-Core-TudorGirba.197.mcz
 GT-Tests-Debugger-TheIntegrator.13.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -97,12 +97,12 @@ Glamour-Core-GuillermoPolito.312.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-TudorGirba.56.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-AliakseiSyrel.410.mcz
+Glamour-Morphic-Brick-AliakseiSyrel.412.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
-Glamour-Morphic-Pager-SergeStinckwich.106.mcz
-Glamour-Morphic-Renderer-AndreiChis.345.mcz
+Glamour-Morphic-Pager-AliakseiSyrel.107.mcz
+Glamour-Morphic-Renderer-TudorGirba.346.mcz
 Glamour-Morphic-Theme-AndreiChis.221.mcz
-Glamour-Morphic-Widgets-AndreiChis.191.mcz
+Glamour-Morphic-Widgets-AliakseiSyrel.192.mcz
 Glamour-Presentations-TudorGirba.182.mcz
 Glamour-Rubric-Presentations-AndreiChis.50.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
@@ -288,7 +288,7 @@ Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.723.mcz
 Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.234.mcz
-SmartSuggestions-Tests-TheIntegrator.31.mcz
+SmartSuggestions-Tests-TheIntegrator.33.mcz
 Spec-Core-TheIntegrator.453.mcz
 Spec-Debugger-TheIntegrator.261.mcz
 Spec-Examples-TheIntegrator.104.mcz
