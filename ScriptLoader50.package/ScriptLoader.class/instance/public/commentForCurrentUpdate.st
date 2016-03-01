@@ -1,8 +1,6 @@
 commentForCurrentUpdate
- ^ '17727 failing test: testWorkspaceIsNotAValidContext
-	https://pharo.fogbugz.com/f/cases/17727
+ ^ '17716  Clean old startup mechanism - part 3
+	https://pharo.fogbugz.com/f/cases/17716
 
-17721 Starting Image 50617 raises MNU
-	https://pharo.fogbugz.com/f/cases/17721
-
-'
+17698 Debugger step through proxies is not always working
+	https://pharo.fogbugz.com/f/cases/17698'

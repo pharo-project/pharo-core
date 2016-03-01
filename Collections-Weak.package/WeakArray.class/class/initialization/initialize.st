@@ -3,8 +3,8 @@ initialize
 	Smalltalk specialObjectsArray size < 42 
 		ifTrue: [Smalltalk recreateSpecialObjectsArray].
 
-	Smalltalk addToStartUpList: self.
-	SessionManager default registerSystemClassNamed: self name.
+	SessionManager default
+		registerSystemClassNamed: self name.
 
 	FinalizationSemaphore := Smalltalk specialObjectsArray at: 42.
 	FinalizationLock := Semaphore forMutualExclusion.

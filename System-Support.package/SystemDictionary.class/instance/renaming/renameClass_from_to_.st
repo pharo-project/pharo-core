@@ -9,7 +9,7 @@ renameClass: aClass from: oldName to: newName
 	self removeKey: oldName.
 	oldref key: newName.
 	self add: oldref.  "Old association preserves old refs"
-	Smalltalk renamedClass: aClass from: oldName to: newName.
+	SessionManager default renamedClass: aClass from: oldName to: newName.
 	self flushClassNameCache.
 	SystemAnnouncer uniqueInstance classRenamed: aClass from: oldName to: newName inCategory: category.
 	aClass subclassesDo:[:subclass |

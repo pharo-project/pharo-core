@@ -1,4 +1,4 @@
-script50620
+script50621
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -34,11 +34,11 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.234.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.399.mcz
+Collections-Strings-TheIntegrator.401.mcz
 Collections-Support-TheIntegrator.65.mcz
 Collections-Tests-TheIntegrator.34.mcz
 Collections-Unordered-TheIntegrator.227.mcz
-Collections-Weak-TheIntegrator.100.mcz
+Collections-Weak-TheIntegrator.102.mcz
 Compiler-EstebanLorenzano.600.mcz
 Compression-TheIntegrator.171.mcz
 Compression-Tests-TheIntegrator.2.mcz
@@ -62,7 +62,7 @@ FileSystem-Tests-Core-TheIntegrator.95.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.411.mcz
+Files-TheIntegrator.413.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.17.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -115,7 +115,7 @@ Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.173.mcz
 Graphics-Files-TheIntegrator.74.mcz
-Graphics-Fonts-TheIntegrator.105.mcz
+Graphics-Fonts-TheIntegrator.108.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.189.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2235.mcz
+Kernel-TheIntegrator.2237.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.42.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -178,7 +178,7 @@ MonticelloMocks-EstebanLorenzano.2.mcz
 MonticelloRemoteRepositories-TheIntegrator.13.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.540.mcz
-Morphic-Core-TheIntegrator.256.mcz
+Morphic-Core-TheIntegrator.258.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.76.mcz
@@ -196,7 +196,7 @@ Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.45.mcz
 Morphic-Widgets-Windows-TheIntegrator.90.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
-Multilingual-Languages-TheIntegrator.50.mcz
+Multilingual-Languages-TheIntegrator.53.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
@@ -215,7 +215,7 @@ Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.103.mcz
 Network-Tests-TheIntegrator.4.mcz
-Network-UUID-TheIntegrator.39.mcz
+Network-UUID-TheIntegrator.42.mcz
 Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.31.mcz
 NodeNavigation-TheIntegrator.53.mcz
@@ -229,7 +229,7 @@ OpalCompiler-Tests-TheIntegrator.326.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1313.mcz
+Polymorph-Widgets-TheIntegrator.1316.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -301,7 +301,7 @@ Spec-Tests-TheIntegrator.58.mcz
 Spec-Tools-TheIntegrator.322.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
-System-BasicCommandLineHandler-EstebanLorenzano.13.mcz
+System-BasicCommandLineHandler-TheIntegrator.16.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
 System-Changes-TheIntegrator.292.mcz
@@ -311,12 +311,12 @@ System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.12.mcz
 System-FileRegistry-TheIntegrator.50.mcz
-System-Finalization-TheIntegrator.28.mcz
+System-Finalization-TheIntegrator.32.mcz
 System-Hashing-TheIntegrator.47.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
-System-Localization-TheIntegrator.100.mcz
+System-Localization-TheIntegrator.103.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
 System-OSEnvironments-TheIntegrator.25.mcz
@@ -325,11 +325,11 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-ChristopheDemarey.18.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.330.mcz
+System-Settings-TheIntegrator.332.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.46.mcz
-System-Support-TheIntegrator.1204.mcz
+System-Support-TheIntegrator.1206.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.747.mcz

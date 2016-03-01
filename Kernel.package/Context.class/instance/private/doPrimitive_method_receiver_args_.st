@@ -1,3 +1,4 @@
+"protocol: private"
 doPrimitive: primitiveIndex method: meth receiver: aReceiver args: arguments 
 	"Simulate a primitive method whose index is primitiveIndex.  The simulated receiver and
 	 arguments are given as arguments to this message. If successful, push result and return
@@ -10,11 +11,9 @@ doPrimitive: primitiveIndex method: meth receiver: aReceiver args: arguments
 	 process, etc.  Injudicious use results in the debugger not being able to debug
 	 interesting code, such as the debugger itself.  hence use primitive 19 with care :-)"
 	"SystemNavigation new browseAllSelect: [:m| m primitive = 19]"
-	primitiveIndex = 19 ifTrue:
-		[ Smalltalk tools debugger 
-			openContext: self
-			label:'Code simulation error'
-			contents: nil].
+	"primitiveIndex = 19 ifTrue:	[ | debugSession | 
+			debugSession := Processor activeProcess newDebugSessionNamed: 'Code simulation error' startedAt: self.
+			Smalltalk tools debugger openOn: debugSession withFullView: true]."
 
 	((primitiveIndex between: 201 and: 222)
 	 and: [(self objectClass: aReceiver) includesBehavior: BlockClosure]) ifTrue:
@@ -46,12 +45,20 @@ doPrimitive: primitiveIndex method: meth receiver: aReceiver args: arguments
 			ifFalse: [self push: value]].
 
 	primitiveIndex = 188 ifTrue: "eem 5/27/2008 11:10 Object>>withArgs:executeMethod:"
-		[^Context
-			sender: self
-			receiver: aReceiver
-			method: (arguments at: 2)
-			arguments: (arguments at: 1)].
-
+		[arguments size = 2 
+			ifTrue: "normal primitive"
+				[^Context
+					sender: self
+					receiver: aReceiver
+					method: (arguments at: 2)
+					arguments: (arguments at: 1)]
+			ifFalse: "mirror primitive"
+				[^Context
+					sender: self
+					receiver: (arguments at: 1)
+					method: (arguments at: 3)
+					arguments: (arguments at: 2)]
+		].
 	"Closure primitives"
 	(primitiveIndex = 200 and: [self == aReceiver]) ifTrue:
 		"ContextPart>>closureCopy:copiedValues:; simulated to get startpc right"
