@@ -1,0 +1,2 @@
+externalTypeSize 
+	^ self representationType externalTypeSize

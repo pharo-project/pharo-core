@@ -1,3 +1,3 @@
 new
-	"External addresses are always 4 bytes long"
-	^super new: 4
+	"External addresses are either four or eight bytes long."
+	^super new: wordSize

@@ -1,6 +1,6 @@
 rollToArity: arity
 	"This will 'roll' a pointer to a certain arity. 
-	What does this means? Let's say I have a method who will be called with a ** arity: 
+	What does this means? Let's say I have a method who will be called with a ** arity (that's 'arity 2'): 
 	
 	method: aPointer
 		self ffiCall: #( method ( MyExternalObjectClass **aPointer) )

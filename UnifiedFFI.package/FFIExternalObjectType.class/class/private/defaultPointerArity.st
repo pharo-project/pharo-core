@@ -1,0 +1,2 @@
+defaultPointerArity
+	^ 1

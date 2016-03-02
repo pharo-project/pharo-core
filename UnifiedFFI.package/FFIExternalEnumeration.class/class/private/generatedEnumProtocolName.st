@@ -1,0 +1,2 @@
+generatedEnumProtocolName
+	^ 'accessing enum'

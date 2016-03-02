@@ -1,5 +1,4 @@
 emitArgument: aBuilder context: aContext 
-	self loader 
-		emitArgument: aBuilder 
-		type: self 
-		context: aContext
+	self basicEmitArgument: aBuilder context: aContext.
+	self needsArityRolling 
+		ifTrue: [ self  emitPointerArityRoll: aBuilder context: aContext ]

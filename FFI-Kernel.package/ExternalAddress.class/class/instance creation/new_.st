@@ -1,3 +1,5 @@
 new: n
-	"You better don't try this..."
-	^self shouldNotImplement
+	"Only create ExternalAddresses of the right size."
+	^n = wordSize
+		ifTrue: [super new: n]
+		ifFalse: [self shouldNotImplement]

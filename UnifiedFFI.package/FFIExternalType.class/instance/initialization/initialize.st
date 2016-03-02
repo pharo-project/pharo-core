@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	pointerArity := 0
+	pointerArity := self class defaultPointerArity

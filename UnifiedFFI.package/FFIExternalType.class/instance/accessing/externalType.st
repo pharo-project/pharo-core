@@ -1,2 +1,2 @@
 externalType
-	^ self subclassResponsibility
+	^ self class externalType

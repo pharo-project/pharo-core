@@ -1,0 +1,2 @@
+ffiCallingConvention
+	^ #cdecl

@@ -1,0 +1,2 @@
+externalTypeSize
+	^ 8

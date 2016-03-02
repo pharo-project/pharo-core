@@ -1,2 +1,2 @@
 sizeOf: aTypeName
-	^ (FFICallout new resolveType: aTypeName) typeSize
+	^ (self resolveType: aTypeName) typeSize

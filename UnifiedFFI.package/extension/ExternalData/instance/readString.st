@@ -1,0 +1,2 @@
+readString
+	^ self fromCString

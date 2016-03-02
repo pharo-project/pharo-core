@@ -12,7 +12,7 @@ emitReturn: aBuilder resultTempVar: resultVar context: aContext
 		"return instVarAt: (index of argName) put: tmpResult"
 		pushTemp: resultVar;
 		pushLiteral: (self objectClass 
-			instVarIndexFor: #handle 
+			instVarIndexFor: self instanceVariableName 
 			ifAbsent: [ self error: 'No handle instVar' ]);
 		pushTemp: #tmpResult;
 		send: #instVarAt:put:;

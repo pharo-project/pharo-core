@@ -1,0 +1,2 @@
+ffiCallingConvention
+	^ #stdcall

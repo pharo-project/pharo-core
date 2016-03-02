@@ -4,4 +4,4 @@ emitReturnArgument: builder context: aContext
 		type: self
 		context: aContext
 		objectClass: self objectClass
-		instVarName: #handle
+		instVarName: self instanceVariableName

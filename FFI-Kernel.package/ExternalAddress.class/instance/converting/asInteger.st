@@ -1,3 +1,3 @@
 asInteger
 	"convert address to integer"
-	^ self asByteArrayPointer unsignedLongAt: 1
+	^ self asByteArrayPointer integerAt: 1 size: self class wordSize signed: false

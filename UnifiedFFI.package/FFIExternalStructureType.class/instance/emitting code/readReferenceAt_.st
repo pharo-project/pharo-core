@@ -6,5 +6,5 @@ readReferenceAt: byteOffset
 			nextPutAll:' fromHandle: (handle referenceStructAt: ';
 			print: byteOffset;
 			nextPutAll:' length: ';
-			print: self valueSize;
+			print: self externalTypeSize;
 			nextPutAll:')' ].

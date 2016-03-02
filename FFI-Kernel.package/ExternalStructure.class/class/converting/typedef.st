@@ -1,0 +1,2 @@
+typedef
+	^self externalType typedef

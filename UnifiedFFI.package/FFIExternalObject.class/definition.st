@@ -2,4 +2,4 @@ ExternalObject subclass: #FFIExternalObject
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'UnifiedFFI'
+	category: 'UnifiedFFI-Objects'

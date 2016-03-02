@@ -1,0 +1,2 @@
+initialize
+	wordSize := Smalltalk wordSize
