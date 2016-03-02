@@ -1,4 +1,4 @@
-script50622
+script50623
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2237.mcz
+Kernel-TheIntegrator.2239.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.42.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -267,7 +267,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.4.mcz
-Rubric-NicolaiHess.340.mcz
+Rubric-GuillermoPolito.343.mcz
 Rubric-Rules-YuriyTymchuk.2.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
@@ -285,7 +285,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.723.mcz
+Slot-TheIntegrator.725.mcz
 Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
@@ -359,7 +359,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.14.mcz
-Traits-TheIntegrator.890.mcz
+Traits-TheIntegrator.892.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

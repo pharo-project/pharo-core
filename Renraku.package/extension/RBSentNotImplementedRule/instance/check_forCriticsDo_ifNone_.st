@@ -1,10 +1,7 @@
 check: aMethod forCriticsDo: aCriticBlock ifNone: alternativeBlock
 
-	| implementors |
-	implementors := (SystemNavigation default allMethods collect: #selector) asSet.
-	
 	(aMethod messages
-		select: [ :each | (implementors includes: each) not ]
+		select: [ :each | each isSelectorSymbol not ]
 		thenCollect: [ :each |
 			aCriticBlock cull: (ReStringBasedCritic
 					for: aMethod

@@ -10,7 +10,7 @@ updateInstancesFrom: oldClass
 	| oldInstances |
 	oldInstances := oldClass allInstances asArray.
 	oldInstances := self updateInstances: oldInstances from: oldClass isMeta: self isMeta.
-	^oldInstances
+	^nil
 
 "	| crashingBlock class |
 	class := Object subclass: #CrashTestDummy

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '17655 Changes in package loading behavior
-	https://pharo.fogbugz.com/f/cases/17655
+ ^ '17730 QualityAssistant v2.3.6
+	https://pharo.fogbugz.com/f/cases/17730
 
-17692 ProfStef does not correctly use code font
-	https://pharo.fogbugz.com/f/cases/17692'
+17529 Slot Migration is broken
+	https://pharo.fogbugz.com/f/cases/17529'
