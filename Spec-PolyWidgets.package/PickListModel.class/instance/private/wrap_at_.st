@@ -14,7 +14,7 @@ wrap: item at: index
 		listModel setSelectedItem: checkBox.
 		listModel takeKeyboardFocus ].
 	
-	checkBox whenDesactivatedDo: [ 
+	checkBox whenDeactivatedDo: [ 
 		self removePicked: item.
 		listModel setSelectedItem: checkBox.
 		listModel takeKeyboardFocus ].

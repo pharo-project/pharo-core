@@ -7,7 +7,7 @@ buildFormattedCheckBox
 			formattedCheckBox toggleState.
 			self selectorAndClassAreCorrect
 				ifTrue: [ self formatSourceCode ] ];
-		whenDesactivatedDo:
+		whenDeactivatedDo:
 				[ 
 			formattedCheckBox toggleState.
 			self selectorAndClassAreCorrect 

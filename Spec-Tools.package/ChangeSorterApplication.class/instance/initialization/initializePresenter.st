@@ -3,13 +3,13 @@ initializePresenter
 	prettyButton activationAction: [ 
 		prettyPrint := true.
 		self updateTextContents ].
-	prettyButton desactivationAction: [ 
+	prettyButton deactivationAction: [ 
 		prettyPrint := false.
 		self updateTextContents  ].
 	diffButton activationAction: [ 
 		showDiff := true.
 		self updateTextContents ].
-	diffButton desactivationAction: [ 
+	diffButton deactivationAction: [ 
 		showDiff := false.
 		self updateTextContents  ].
 	self registerChangeActions.

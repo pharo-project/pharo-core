@@ -1,5 +1,5 @@
 AbstractWidgetModel subclass: #RadioButtonModel
-	instanceVariableNames: 'actionWhenActivatedHolder actionWhenDesactivatedHolder stateHolder labelClickableHolder labelHolder canDeselectByClick'
+	instanceVariableNames: 'actionWhenActivatedHolder stateHolder labelClickableHolder labelHolder canDeselectByClick actionWhenDeactivatedHolder'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

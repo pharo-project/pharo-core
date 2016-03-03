@@ -1,4 +1,6 @@
-whenDesactivatedDo: aBlock
-	"This method is used to propagate the event that I have been desactivated"
-	
-	stateHolder whenChangedDo: [:bool | bool ifFalse: aBlock ]
+whenDesactivatedDo: aBlock 
+	self 
+		deprecated: 'Use whenDeactivatedDo: instead'
+		on: 	'1 March 2016' 
+		in: 'Pharo-5.0-50622-'.
+	^ self whenDeactivatedDo: aBlock 

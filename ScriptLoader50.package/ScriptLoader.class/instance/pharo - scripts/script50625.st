@@ -1,4 +1,4 @@
-script50624
+script50625
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -20,8 +20,8 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-ChristopheDemarey.87.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.43.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.12.mcz
-BlueInk-Extras-TheIntegrator.6.mcz
+BlueInk-Core-TheIntegrator.14.mcz
+BlueInk-Extras-TheIntegrator.8.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
@@ -53,7 +53,7 @@ Deprecated50-TheIntegrator.55.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-MarcusDenker.32.mcz
-FFI-Kernel-EstebanLorenzano.29.mcz
+FFI-Kernel-eem.37.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.196.mcz
 FileSystem-Disk-TheIntegrator.92.mcz
@@ -140,7 +140,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.103.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.158.mcz
+Komitter-TheIntegrator.160.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -289,16 +289,16 @@ Slot-TheIntegrator.725.mcz
 Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.453.mcz
+Spec-Core-TheIntegrator.455.mcz
 Spec-Debugger-TheIntegrator.261.mcz
-Spec-Examples-TheIntegrator.104.mcz
+Spec-Examples-TheIntegrator.106.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.258.mcz
-Spec-PolyWidgets-TheIntegrator.64.mcz
+Spec-PolyWidgets-TheIntegrator.66.mcz
 Spec-Tests-TheIntegrator.58.mcz
-Spec-Tools-TheIntegrator.322.mcz
+Spec-Tools-TheIntegrator.324.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.16.mcz
@@ -368,9 +368,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.181.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.17.mcz
-UnifiedFFI-Legacy-EstebanLorenzano.1.mcz
-UnifiedFFI-Tests-TheIntegrator.7.mcz
+UnifiedFFI-TheIntegrator.28.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.2.mcz
+UnifiedFFI-Tests-EstebanLorenzano.9.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz

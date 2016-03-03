@@ -49,7 +49,7 @@ openOnString
 		whenActivatedDo: [ 
 			ui needFullRebuild: false.
 			ui buildWithSpecLayout: layout ];
-		whenDesactivatedDo: [ 
+		whenDeactivatedDo: [ 
 			ui needFullRebuild: false.
 			ui buildWithSpecLayout: bottomLayout ].
 				

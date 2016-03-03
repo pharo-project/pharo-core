@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 	actionWhenActivatedHolder := [] asValueHolder.
-	actionWhenDesactivatedHolder := [] asValueHolder.
+	actionWhenDeactivatedHolder := [] asValueHolder.
 	enabledHolder := true asValueHolder.
 	stateHolder := false asValueHolder.
 	labelClickableHolder := true asValueHolder. 
@@ -10,7 +10,7 @@ initialize
 	stateHolder whenChangedDo: [:bool |
 		bool
 			ifTrue: actionWhenActivatedHolder value
-			ifFalse: actionWhenDesactivatedHolder value.
+			ifFalse: actionWhenDeactivatedHolder value.
 		self changed: #state ].
 	
 	labelClickableHolder whenChangedDo: [:aBoolean | self changed: { #labelClickable: . aBoolean } ].

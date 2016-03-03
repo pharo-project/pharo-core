@@ -2,4 +2,4 @@ initializePresenter
 
 	showPassword 
 		whenActivatedDo: [ password beDecrypted ];
-		whenDesactivatedDo: [ password beEncrypted ]
+		whenDeactivatedDo: [ password beEncrypted ]
