@@ -1,4 +1,4 @@
-script50626
+script50627
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -8,7 +8,7 @@ Announcements-Core-EstebanLorenzano.65.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.27.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-TheIntegrator.116.mcz
+Athens-Cairo-TheIntegrator.118.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -131,9 +131,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2244.mcz
+Kernel-TheIntegrator.2246.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.42.mcz
+Kernel-Tests-TheIntegrator.44.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -181,7 +181,7 @@ Morphic-Base-TheIntegrator.540.mcz
 Morphic-Core-TheIntegrator.258.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.76.mcz
+Morphic-Widgets-Basic-TheIntegrator.78.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-GuillermoPolito.162.mcz
@@ -225,11 +225,11 @@ OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.786.mcz
-OpalCompiler-Tests-TheIntegrator.326.mcz
+OpalCompiler-Tests-TheIntegrator.328.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1316.mcz
+Polymorph-Widgets-TheIntegrator.1317.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -285,12 +285,12 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.725.mcz
+Slot-TheIntegrator.727.mcz
 Slot-Tests-TheIntegrator.85.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
 Spec-Core-TheIntegrator.455.mcz
-Spec-Debugger-TheIntegrator.261.mcz
+Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.106.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
@@ -352,14 +352,14 @@ Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.57.mcz
 Tool-ImageCleaner-TheIntegrator.15.mcz
 Tool-ProcessBrowser-TheIntegrator.20.mcz
-Tool-Profilers-TheIntegrator.19.mcz
+Tool-Profilers-TheIntegrator.22.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.14.mcz
-Traits-TheIntegrator.897.mcz
+Traits-TheIntegrator.898.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

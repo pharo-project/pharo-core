@@ -1,8 +1,6 @@
 testNotUsedArgument
 
-	| newCompiledMethod originalCompiledMethod |
-	
-	(Smalltalk hasClassNamed: #Compiler) ifFalse: [^self skip].
+	| newCompiledMethod |
 	
 	newCompiledMethod := OpalCompiler new 
 								source: 'ascentOf: aCharacter
@@ -10,14 +8,8 @@ testNotUsedArgument
 								class: OCMockCompilationClass;
 								compile.
 
-	originalCompiledMethod := (Smalltalk classNamed: #Compiler) new 
-								source: 'ascentOf: aCharacter
-											^ self ascent.';
-								class: OCMockCompilationClass;
-								compile.
-					
-	self assert: newCompiledMethod numArgs = originalCompiledMethod numArgs.
-	self assert: newCompiledMethod numLiterals = originalCompiledMethod numLiterals.
-	self assert: newCompiledMethod numTemps = originalCompiledMethod numTemps.
-	self assert: newCompiledMethod primitive = originalCompiledMethod primitive.
-	self assert: newCompiledMethod header = originalCompiledMethod header
+	self assert: newCompiledMethod numArgs = 1.
+	self assert: newCompiledMethod numLiterals = 3.
+	self assert: newCompiledMethod numTemps = 1.
+	self assert: newCompiledMethod primitive = 0.
+	self assert: newCompiledMethod header = 17039363.

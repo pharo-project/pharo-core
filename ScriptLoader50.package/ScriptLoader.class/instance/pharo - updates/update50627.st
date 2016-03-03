@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '13376 Wrong TextMorph extent for ButtonMorphs
+update50627
+	"self new update50627"
+	self withUpdateLog: '13376 Wrong TextMorph extent for ButtonMorphs
 	https://pharo.fogbugz.com/f/cases/13376
 
 15733 let MessageTally ignore #home and just use #sender to handle block closures correctly
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17746
 
 17739 remove duplicated methods from Traits
-	https://pharo.fogbugz.com/f/cases/17739'
+	https://pharo.fogbugz.com/f/cases/17739'.
+	self loadTogether: self script50627 merge: false.
+	self flushCaches.

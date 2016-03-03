@@ -2,7 +2,7 @@ addSlot: aSlot
 	^self classInstaller make: [ :builder |
 		builder
 			superclass: self superclass;
-			name: self name;
+			name: self getName;
 			layoutClass: self classLayout class;
 			slots: (self slots copyWith: aSlot);
 			classSlots: self class classLayout slots;

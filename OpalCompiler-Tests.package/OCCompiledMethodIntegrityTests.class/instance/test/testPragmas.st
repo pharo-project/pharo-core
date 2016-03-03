@@ -1,8 +1,6 @@
 testPragmas
 
-	| newCompiledMethod originalCompiledMethod |
-	
-	(Smalltalk hasClassNamed: #Compiler) ifFalse: [^self skip].
+	| newCompiledMethod |
 	
 	newCompiledMethod := OpalCompiler new 
 									source: 'methodDoublePragma
@@ -10,24 +8,13 @@ testPragmas
 											<hello: 2>';
 									class: OCMockCompilationClass;
 									compile.
-
-	originalCompiledMethod := (Smalltalk classNamed: #Compiler) new 
-									source: 'methodDoublePragma
-											<hello: 5>
-											<hello: 2>';
-									class: OCMockCompilationClass;
-									compile.
-
-							
-	self assert: newCompiledMethod numArgs = originalCompiledMethod numArgs.
-	self assert: newCompiledMethod numLiterals = originalCompiledMethod numLiterals.
+									
+	self assert: newCompiledMethod numArgs = 0.
+	self assert: newCompiledMethod numLiterals = 2.
 	
 	"AdditionalState assertions"
-	self assert: newCompiledMethod literals first selector = originalCompiledMethod literals first selector.
-	self assert:  (newCompiledMethod literals first analogousCodeTo: originalCompiledMethod literals first).
+	self assert: newCompiledMethod literals first selector = #methodDoublePragma.
 	self assert: (newCompiledMethod literals first instVarNamed: 'method') = newCompiledMethod.
 		
-	self assert: newCompiledMethod literals second = originalCompiledMethod literals second.
-	self assert: newCompiledMethod numTemps = originalCompiledMethod numTemps.
-	self assert: newCompiledMethod primitive = originalCompiledMethod primitive.
-	self assert: newCompiledMethod header = originalCompiledMethod header
+	self assert: newCompiledMethod primitive = 256.
+	self assert: newCompiledMethod header = 65538.

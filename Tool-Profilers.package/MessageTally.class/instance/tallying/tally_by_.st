@@ -6,7 +6,7 @@ tally: context by: count
 	context method == method ifTrue: [^self bumpBy: count].
 	
 	"No sender? Add new branch to the tree."
-	(sender :=  context home sender) ifNil: [
+	(sender :=  context sender) ifNil: [
 		^ (self bumpBy: count) tallyPath: context by: count].
 	
 	"Find the node for the sending context (or add it if necessary)"

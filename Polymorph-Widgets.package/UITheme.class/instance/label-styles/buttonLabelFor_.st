@@ -5,4 +5,5 @@ buttonLabelFor: aButton
 	label := self buttonLabelForText: aButton label.
 	label enabled: aButton enabled.
 	label font: self buttonFont.
+	label extent: label optimalExtent.
 	^label

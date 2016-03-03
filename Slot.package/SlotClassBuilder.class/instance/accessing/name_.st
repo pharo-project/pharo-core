@@ -1,4 +1,5 @@
 name: aName
+	aName ifNil: [ ^self "for anonymous classes" ].
 	[ name := aName asSymbol ]
 		on: Error 
 		do: [ InvalidGlobalName 
