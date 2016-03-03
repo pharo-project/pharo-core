@@ -1,14 +1,12 @@
 checkClass: aClass 
 
-	| selectedClass explicitRequirementMethods |
+	| explicitRequirementMethods |
 	explicitRequirementMethods := Set new.
-	selectedClass := aClass.
-	
-	selectedClass isTrait 
+	aClass isTrait 
 		ifTrue: [ ^ self ].
 		
-	selectedClass traitComposition allSelectors do: [ :selector | | method |
-				method := selectedClass>>selector.
+	aClass traitComposition allSelectors do: [ :selector | | method |
+				method := aClass>>selector.
 				 (method isRequired and: [ method isSubclassResponsibility not ]) 
 						ifTrue: [ explicitRequirementMethods add: method ]].
 	

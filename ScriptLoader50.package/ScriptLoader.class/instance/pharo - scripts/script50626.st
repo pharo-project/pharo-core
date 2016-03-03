@@ -1,4 +1,4 @@
-script50625
+script50626
 
 	^ 'AST-Core-TheIntegrator.403.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -34,8 +34,8 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.234.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.401.mcz
-Collections-Support-TheIntegrator.65.mcz
+Collections-Strings-TheIntegrator.405.mcz
+Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.34.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.102.mcz
@@ -69,7 +69,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.16.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.728.mcz
+FreeType-TheIntegrator.731.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-TheIntegrator.821.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -115,7 +115,7 @@ Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.173.mcz
 Graphics-Files-TheIntegrator.74.mcz
-Graphics-Fonts-TheIntegrator.108.mcz
+Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.189.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2239.mcz
+Kernel-TheIntegrator.2244.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.42.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -243,7 +243,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.296.mcz
-Refactoring-Critics-TheIntegrator.259.mcz
+Refactoring-Critics-TheIntegrator.261.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
@@ -359,7 +359,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.14.mcz
-Traits-TheIntegrator.892.mcz
+Traits-TheIntegrator.897.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

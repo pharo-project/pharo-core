@@ -1,5 +1,4 @@
 flushCache
-	"Tell the interpreter to remove all entries with this symbol as a selector from its method lookup cache, if it has one.  This primitive must be called whenever a method is redefined or removed. See MethodDictionary class comment.
-	NOTE:  Only one of the two selective flush methods (Symbol or CompiledMethod) needs to be used."
+	"Tell the virtual machine to remove all entries with this symbol as a selector from its method lookup caches, if it has any.  This 	must be done whenever a method is added, redefined or removed, so that message lookups reflect the revised organization.  c.f. 	Behavior>>flushCache & CompiledMethod>>flushCache.  Essential. See MethodDictionary class comment."
 
 	<primitive: 119>
