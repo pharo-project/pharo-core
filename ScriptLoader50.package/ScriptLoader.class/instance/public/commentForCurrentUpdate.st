@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '13376 Wrong TextMorph extent for ButtonMorphs
-	https://pharo.fogbugz.com/f/cases/13376
+ ^ '17735 SHA256 hashStream: errors on strings longer than 64 characters
+	https://pharo.fogbugz.com/f/cases/17735
 
-15733 let MessageTally ignore #home and just use #sender to handle block closures correctly
-	https://pharo.fogbugz.com/f/cases/15733
-
-15562 rewrite tests that are skipped when old compiler is unloaded
-	https://pharo.fogbugz.com/f/cases/15562
-
-17746 adding a Slot to an anonymous class sets name ivar.
-	https://pharo.fogbugz.com/f/cases/17746
-
-17739 remove duplicated methods from Traits
-	https://pharo.fogbugz.com/f/cases/17739'
+17749 Do not return #nil but fall back on the decompiler in #parseTree
+	https://pharo.fogbugz.com/f/cases/17749'

@@ -1,6 +1,6 @@
-script50627
+script50628
 
-	^ 'AST-Core-TheIntegrator.403.mcz
+	^ 'AST-Core-TheIntegrator.406.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
 AST-Tests-Core-TheIntegrator.93.mcz
 Alien-eem.28.mcz
@@ -224,7 +224,7 @@ OSWindow-Core-TheIntegrator.98.mcz
 OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.786.mcz
+OpalCompiler-Core-TheIntegrator.788.mcz
 OpalCompiler-Tests-TheIntegrator.328.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -312,7 +312,7 @@ System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.12.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.32.mcz
-System-Hashing-TheIntegrator.47.mcz
+System-Hashing-TheIntegrator.50.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
@@ -332,7 +332,7 @@ System-Sources-TheIntegrator.46.mcz
 System-Support-TheIntegrator.1206.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
-Tests-TheIntegrator.747.mcz
+Tests-TheIntegrator.749.mcz
 Text-Core-TheIntegrator.46.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.108.mcz

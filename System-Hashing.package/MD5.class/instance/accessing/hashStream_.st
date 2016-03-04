@@ -11,7 +11,7 @@ hashStream: aPositionableStream
 
 	startPosition := aPositionableStream position.
 	[aPositionableStream atEnd] whileFalse: [
-		buf := aPositionableStream next: 64.
+		buf := aPositionableStream next: 64 into: (ByteArray new: 64).
 		(aPositionableStream atEnd not and: [buf size = 64])
 			ifTrue: [self processBuffer: buf]
 			ifFalse: [
