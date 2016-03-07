@@ -9,4 +9,4 @@ msgClassComment: string with: chgRec
 		theClass := self classNamed: tokens first.
 		((tokens at: (tokens size - 1)) == #class
 		ifTrue: [ theClass theMetaClass ]
-		ifFalse:[ theClass ]) comment: tokens last asText ]
+		ifFalse:[ theClass ]) comment: tokens last asString ]

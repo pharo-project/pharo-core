@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '17761 move #astNodes messages to the Reflectivity package
+update50630
+	"self new update50630"
+	self withUpdateLog: '17761 move #astNodes messages to the Reflectivity package
 	https://pharo.fogbugz.com/f/cases/17761
 
 17763 RingChunkImporter>>#msgClassComment:with: still uses Text for class comments
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17747
 
 17764 Update UFFI
-	https://pharo.fogbugz.com/f/cases/17764'
+	https://pharo.fogbugz.com/f/cases/17764'.
+	self loadTogether: self script50630 merge: false.
+	self loadConfiguration: 'UnifiedFFI' version: '0.14.2'.self flushCaches.

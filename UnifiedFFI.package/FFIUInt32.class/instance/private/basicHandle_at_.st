@@ -1,2 +1,2 @@
 basicHandle: aHandle at: index
-	aHandle unsignedLongAt: index
+	^ aHandle unsignedLongAt: index
