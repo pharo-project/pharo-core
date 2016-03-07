@@ -1,0 +1,3 @@
+showErrors
+
+	^ self uniqueInstance showErrors

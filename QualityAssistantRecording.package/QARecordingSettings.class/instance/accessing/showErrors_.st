@@ -1,0 +1,2 @@
+showErrors: anObject
+	showErrors := anObject

@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17735 SHA256 hashStream: errors on strings longer than 64 characters
-	https://pharo.fogbugz.com/f/cases/17735
+ ^ '17745 RBParser>>parseLiteralByteArrayObject doesnt consume token on error
+	https://pharo.fogbugz.com/f/cases/17745
 
-17749 Do not return #nil but fall back on the decompiler in #parseTree
-	https://pharo.fogbugz.com/f/cases/17749'
+17762 move DisplayScreen related DummyUIManager messages to the Graphics-Display Objects package
+	https://pharo.fogbugz.com/f/cases/17762
+
+17760 QualityAssistant v2.4.0
+	https://pharo.fogbugz.com/f/cases/17760'

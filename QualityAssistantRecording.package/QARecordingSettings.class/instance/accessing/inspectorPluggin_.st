@@ -1,0 +1,3 @@
+inspectorPluggin: aBool 
+	
+	inspectorPlugin := aBool

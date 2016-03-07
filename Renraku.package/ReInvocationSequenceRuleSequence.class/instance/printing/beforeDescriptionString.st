@@ -1,0 +1,3 @@
+beforeDescriptionString
+
+	^ self descriptionStringFor: before

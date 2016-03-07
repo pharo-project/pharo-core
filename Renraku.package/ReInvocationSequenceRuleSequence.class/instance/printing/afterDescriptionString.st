@@ -1,0 +1,3 @@
+afterDescriptionString
+
+	^ self descriptionStringFor: after

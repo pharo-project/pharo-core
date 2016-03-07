@@ -1,4 +1,4 @@
-Morph subclass: #QASettings
+Object subclass: #QASettings
 	instanceVariableNames: 'inspectorPlugin spotterPlugin'
 	classVariableNames: ''
 	poolDictionaries: ''
