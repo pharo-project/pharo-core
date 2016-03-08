@@ -1,4 +1,4 @@
 isIntegerRectangle
-"Answer true if all component of receiver are integral."
+	"Answer true if all component of receiver are integral."
 
-^origin isIntegerPoint and: [ corner isIntegerPoint ]
+	^ origin isIntegerPoint and: [ corner isIntegerPoint ]

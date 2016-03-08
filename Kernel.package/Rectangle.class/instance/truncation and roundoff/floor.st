@@ -1,7 +1,7 @@
 floor
-"Answer the integer rectange to the topleft of receiver.
-Return reciever if it already and integerRectange."
+	"Answer the integer rectangle to the topLeft of receiver.
+	Return receiver if it is already an integerRectangle."
 
-self isIntegerRectangle ifTrue: [ ^ self ] .
+	self isIntegerRectangle ifTrue: [ ^ self ] .
 
-^origin floor corner: corner floor
+	^ origin floor corner: corner floor

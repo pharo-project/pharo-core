@@ -1,6 +1,6 @@
 ceiling
-	"Answer the integer rectange to the bottom right of receiver.
-	Return reciever if it already and integerRectange."
+	"Answer the integer rectangle to the bottom right of receiver.
+	Return receiver if it is already an integerRectangle."
 
 	self isIntegerRectangle ifTrue: [ ^ self ].
 	^origin ceiling corner: corner ceiling

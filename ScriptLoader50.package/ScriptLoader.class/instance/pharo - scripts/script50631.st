@@ -1,4 +1,4 @@
-script50630
+script50631
 
 	^ 'AST-Core-TheIntegrator.409.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -119,7 +119,7 @@ Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.189.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
-Graphics-Tests-TheIntegrator.78.mcz
+Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.137.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2246.mcz
+Kernel-TheIntegrator.2249.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.44.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -323,7 +323,7 @@ System-OSEnvironments-TheIntegrator.25.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-ChristopheDemarey.18.mcz
+System-SessionManager-TheIntegrator.20.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.332.mcz
 System-Settings-Tests-TheIntegrator.7.mcz
@@ -368,9 +368,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.183.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-TheIntegrator.28.mcz
-UnifiedFFI-Legacy-EstebanLorenzano.2.mcz
-UnifiedFFI-Tests-EstebanLorenzano.9.mcz
+UnifiedFFI-EstebanLorenzano.30.mcz
+UnifiedFFI-Legacy-TheIntegrator.3.mcz
+UnifiedFFI-Tests-TheIntegrator.10.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
