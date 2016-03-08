@@ -1,4 +1,4 @@
-script50631
+script50632
 
 	^ 'AST-Core-TheIntegrator.409.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -31,7 +31,7 @@ Collections-Abstract-TheIntegrator.313.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.234.mcz
+Collections-Sequenceable-TheIntegrator.236.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.405.mcz
@@ -116,7 +116,6 @@ Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.175.mcz
 Graphics-Files-TheIntegrator.74.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
-Graphics-Fonts-Tests-EstebanLorenzano.3.mcz
 Graphics-Primitives-TheIntegrator.189.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
@@ -131,7 +130,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2249.mcz
+Kernel-TheIntegrator.2251.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.44.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz

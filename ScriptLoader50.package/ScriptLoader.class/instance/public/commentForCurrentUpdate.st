@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '17766 StandardSystemFontsTest is either unfinised or obsolete
-	https://pharo.fogbugz.com/f/cases/17766
+ ^ '16368 refersToLiteral: should (for now) just call hasLiteralThorough:
+	https://pharo.fogbugz.com/f/cases/16368
 
-17736 Growl raise debugger instead of a popup at startup
-	https://pharo.fogbugz.com/f/cases/17736
-
-17758 Rectangle>>#areasOutside: inconsistent return value
-	https://pharo.fogbugz.com/f/cases/17758
-
-17752 Point>>#asFloatPoint and Point>>#asIntegerPoint should not create new instances all the time. Add Point>>#isFloatPoint
-	https://pharo.fogbugz.com/f/cases/17752'
+17768  remove again isEphemeronClass and isImmediateClass
+	https://pharo.fogbugz.com/f/cases/17768'
