@@ -1,2 +1,0 @@
-variableName
-	^ variableName

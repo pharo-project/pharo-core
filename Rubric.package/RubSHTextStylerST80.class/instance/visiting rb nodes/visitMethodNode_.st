@@ -2,7 +2,7 @@ visitMethodNode: aMethodNode
 	| link |
 	aMethodNode comments do: [ :comment | self addStyle: #comment from: comment start to: comment stop ].
 	aMethodNode arguments do: [ :argument | self addStyle: #patternArg forNode: argument ].
-	link := RubTextMethodLink selector: aMethodNode selector.
+	link := TextMethodLink selector: aMethodNode selector.
 	aMethodNode selectorParts
 		with: aMethodNode keywordsPositions
 		do:

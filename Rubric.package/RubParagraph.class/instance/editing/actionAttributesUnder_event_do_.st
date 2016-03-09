@@ -3,7 +3,7 @@ actionAttributesUnder: aClickPoint event: anEvent do: aBlock
 	
 	startBlock := self characterBlockAtPoint: aClickPoint.
 	(self text attributesAt: startBlock stringIndex forStyle: self textStyle) 
-		select: [ :attribute| attribute mayActOnEvent: anEvent ]
+		select: [ :attribute| attribute rubMayActOnEvent: anEvent ]
 		thenDo: [:attribute | | range boxes| 
 			"find the boxes for the current attribute range"
 			range := self text rangeOf: attribute startingAt: startBlock stringIndex.

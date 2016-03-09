@@ -8,7 +8,7 @@ click: anEvent for: model controller: editor
 	self actionAttributesUnder: clickPoint event: anEvent do: [ :attribute| |target|
 		"evaluate the attribute action"
 		target := (model ifNil: [textArea]).
-		(attribute actOnClick: anEvent for: target in: self editor: editor) == true 	
+		(attribute rubActOnClick: anEvent for: target in: self editor: editor) == true 	
 			ifTrue: [ ^ true ]].
 	
 	(action and: [ Cursor currentCursor == Cursor webLink]) 

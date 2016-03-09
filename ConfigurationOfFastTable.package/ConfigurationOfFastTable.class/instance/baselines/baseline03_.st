@@ -8,7 +8,9 @@ baseline03: spec
 		spec 
 			package: #'Morphic-Widgets-FastTable';
 			package: 'Glamour-FastTable' with: [
-				spec requires: #('default' ). ].
+				spec 
+					repository: 'http://www.smalltalkhub.com/mc/Moose/Glamour/main';
+					requires: #('default' ). ].
 		spec 
 			group: 'default' with: #(#'Morphic-Widgets-FastTable' );
 			group: 'glamour' with: #('Glamour-FastTable' ). ].

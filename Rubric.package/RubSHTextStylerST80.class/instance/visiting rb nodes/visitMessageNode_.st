@@ -6,7 +6,7 @@ visitMessageNode: aMessageNode
 			style := (Symbol selectorThatStartsCaseSensitive: aMessageNode selector asString skipping: nil) isNil
 				ifTrue: [ #undefinedKeyword ]
 				ifFalse: [ #incompleteKeyword ] ].
-	link := RubTextMethodLink selector: aMessageNode selector.
+	link := TextMethodLink selector: aMessageNode selector.
 	self styleOpenParenthese: aMessageNode.
 	aMessageNode selectorParts
 		with: aMessageNode keywordsPositions

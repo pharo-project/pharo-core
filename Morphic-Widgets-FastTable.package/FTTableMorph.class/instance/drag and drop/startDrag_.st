@@ -7,7 +7,7 @@ startDrag: event
 	event hand anyButtonPressed ifFalse: [ ^self ].
 	self hasSelection ifFalse: [ ^ self ].
 			
-	passengers := self selectedRowIndexes collect: [ :each | self dataSource elementAt: each ].
+	passengers := self selectedRowIndexes collect: [ :each | self dataSource passengerAt: each ].
 	transferMorph := self dataSource transferFor: passengers from: self.
 	transferMorph align: transferMorph draggedMorph bottomLeft with: event position.
 	transferMorph dragTransferType: self dataSource dragTransferType.
