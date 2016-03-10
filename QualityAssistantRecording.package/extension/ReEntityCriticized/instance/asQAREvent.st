@@ -1,2 +1,0 @@
-asQAREvent
-	^ QAREntityCriticizedEvent fromAnnouncement: self

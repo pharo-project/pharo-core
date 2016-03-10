@@ -1,2 +1,3 @@
 browseMessageList: messageList name: labelString autoSelect: autoSelectString
-	^self browseMessageList: messageList name: labelString autoSelect: autoSelectString refreshingBlockSelector:nil	
+	"By default it never refreshes"
+	^self browseMessageList: messageList name: labelString autoSelect: autoSelectString refreshingBlock: [ :method | false ]

@@ -9,4 +9,4 @@ browseAllImplementorsOf: selector
 		browseMessageList: (self allImplementorsOf: selector)
 		name: 'Implementors of ' , selector
 		autoSelect: selector
-		refreshingBlockSelector: #setRefreshingBlockForImplementorsOf:
+		refreshingBlock: [:message | message selector = selector ].

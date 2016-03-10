@@ -1,2 +1,2 @@
 defaultCategory
-	^ #qualityAssistant
+	^ #qualityAssistantEvents

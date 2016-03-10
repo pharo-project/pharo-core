@@ -1,0 +1,3 @@
+dataForQAR
+
+	^ self

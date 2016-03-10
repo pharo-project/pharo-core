@@ -1,12 +1,12 @@
 commentForCurrentUpdate
- ^ '16537 FTDataSource>>elementAt: should not be there.
-	https://pharo.fogbugz.com/f/cases/16537
+ ^ '16972 Access to variable catch too much announcements
+	https://pharo.fogbugz.com/f/cases/16972
 
-16330 Text*Link users should use RubText*Link
-	https://pharo.fogbugz.com/f/cases/16330
+17787 QualityAssistant v2.5.0
+	https://pharo.fogbugz.com/f/cases/17787
 
-17774 Use isIntegerPoint instead of  "x isInteger and: [ y isInteger ]" in some Point methods
-	https://pharo.fogbugz.com/f/cases/17774
+17781 you can not use printIt Pharo Tutorials
+	https://pharo.fogbugz.com/f/cases/17781
 
-17773 CircleMorph should use default initialize methods instead of #initialize
-	https://pharo.fogbugz.com/f/cases/17773'
+17784 move asMCMethodDefinition and related messages to Monticello package
+	https://pharo.fogbugz.com/f/cases/17784'

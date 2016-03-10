@@ -1,2 +1,0 @@
-asQAREvent
-	^ QARCriticsSeenEvent fromAnnouncement: self

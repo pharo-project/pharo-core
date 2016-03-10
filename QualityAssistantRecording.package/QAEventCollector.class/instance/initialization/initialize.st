@@ -1,3 +1,6 @@
 initialize
 	super initialize.
-	self category: #qualityAssistant
+	self
+		category: #qualityAssistantEvents;
+		updateAnnouncementBlock: [ :aGTEventAnnouncement |
+			aGTEventAnnouncement at: #qaEventFormatVersion put: 1 ]

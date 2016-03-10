@@ -1,3 +1,0 @@
-spotterPlugin: aBool 
-	
-	spotterPlugin := aBool

@@ -1,2 +1,0 @@
-asQAREvent
-	^ QARCriticAutofixedEvent fromAnnouncement: self

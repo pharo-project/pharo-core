@@ -1,2 +1,0 @@
-critic
-	^ critic

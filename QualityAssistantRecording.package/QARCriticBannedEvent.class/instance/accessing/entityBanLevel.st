@@ -1,2 +1,0 @@
-entityBanLevel
-	^ entityBanLevel

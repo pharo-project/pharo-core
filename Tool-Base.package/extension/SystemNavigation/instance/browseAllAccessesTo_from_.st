@@ -6,4 +6,7 @@ browseAllAccessesTo: instVarName from: aClass
 
 	| coll |
 	coll := self allAccessesTo: instVarName from: aClass.
-	^ self browseMessageList: coll name: 'Accesses to ' , instVarName autoSelect: instVarName
+	^ self browseMessageList: coll name: 'Accesses to ' , instVarName autoSelect: instVarName refreshingBlock: [ :method | | index |
+			index := aClass instVarIndexFor: instVarName.
+			(method readsField: index)
+				or: [ method writesField: index ] ]

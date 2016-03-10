@@ -13,4 +13,10 @@ openBrowserFor: aLiteral withMethods: aCollection
 			browseMessageList: aCollection
 			name: label
 			autoSelect: autoSelect
-			refreshingBlockSelector:#setRefreshingBlockForSendersOf:]
+			refreshingBlock: [ :method | | specialFlag specialByte |
+				specialFlag := Smalltalk 
+					hasSpecialSelector: aLiteral
+					ifTrueSetByte: [ :b | specialByte := b ].
+				(method refersToLiteral: aLiteral)
+					or: [ specialFlag
+							and: [ method scanFor: specialByte ] ]]]

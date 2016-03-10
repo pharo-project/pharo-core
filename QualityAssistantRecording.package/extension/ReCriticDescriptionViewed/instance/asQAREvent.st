@@ -1,2 +1,0 @@
-asQAREvent
-	^ QARCriticDescriptionViewed fromAnnouncement: self

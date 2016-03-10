@@ -22,9 +22,8 @@ initWindow
 		setSelectedSelector: #onItemClicked:.
 	window addMorph: treeMorph fullFrame: ((0 @ 0 corner: 0.3 @ 1) asLayoutFrame topOffset: dock minExtent y).	"Text"
 	contentMorph := self sourceTextModel newScrolledText
-		beForSmalltalkCode;
+		beForSmalltalkScripting;
 		beWrapped;
-		beReadOnly;
 		yourself.
 	contentMorph menuProvider: self selector: #shoutMorphFillMenu:.
 	window addMorph: contentMorph fullFrame: ((0.3 @ 0 corner: 1 @ 1) asLayoutFrame topOffset: dock minExtent y)
