@@ -1,0 +1,3 @@
+addSlot: aSlot
+
+	^self subclassResponsibility 
