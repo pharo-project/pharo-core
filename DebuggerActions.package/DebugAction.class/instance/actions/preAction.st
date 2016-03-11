@@ -1,0 +1,3 @@
+preAction
+
+	self notifyDebuggingActionAboutToExecute

@@ -1,5 +1,5 @@
 TextLink subclass: #TextMethodLink
-	instanceVariableNames: 'hostName selector browseSenders'
+	instanceVariableNames: 'selector browseSenders'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Text-Core'

@@ -1,4 +1,4 @@
-script50635
+script50636
 
 	^ 'AST-Core-TheIntegrator.409.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -46,7 +46,7 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.7.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-EstebanLorenzano.81.mcz
+DebuggerActions-TheIntegrator.83.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-EstebanLorenzano.120.mcz
 Deprecated50-TheIntegrator.59.mcz
@@ -130,7 +130,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2254.mcz
+Kernel-TheIntegrator.2257.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.47.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -170,7 +170,7 @@ Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
 MonticelloFileServices-TheIntegrator.6.mcz
-MonticelloFileTree-Core-TheIntegrator.140.mcz
+MonticelloFileTree-Core-TheIntegrator.141.mcz
 MonticelloFileTree-FileSystem-Utilities-TheIntegrator.30.mcz
 MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
@@ -332,7 +332,7 @@ System-Support-TheIntegrator.1206.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.749.mcz
-Text-Core-TheIntegrator.46.mcz
+Text-Core-TheIntegrator.49.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.108.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz

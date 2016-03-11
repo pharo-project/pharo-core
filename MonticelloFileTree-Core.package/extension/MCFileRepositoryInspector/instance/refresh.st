@@ -1,6 +1,6 @@
 refresh
 	loadedPackages := Set new.
-	versions := repository retrieveVersionsWithPackageNames: loadedPackages.
+	versions := repository retrieveVersionsWithPackageNames: Set new.
 	newer := Set new.
 	loaded := Set new.
 	MCWorkingCopy allManagers
