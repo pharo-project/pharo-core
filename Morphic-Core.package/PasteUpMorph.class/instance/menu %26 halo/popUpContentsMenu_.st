@@ -6,4 +6,4 @@ popUpContentsMenu: evt
 	menu buildTitle: [ :titleMorph |
 		titleMorph bigTitle: self contentsMenuTitle
 	];
-	popUpEvent: evt in: (self owner ifNil: [self]).
+	popUpEvent: evt in: (self world ifNil: [self]).

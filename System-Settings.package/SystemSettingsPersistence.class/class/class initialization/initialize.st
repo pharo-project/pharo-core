@@ -1,4 +1,4 @@
 initialize
 	"in order to update settings at startup"
 	SessionManager default
-		registerSystemClassNamed: self name
+		registerUserClassNamed: self name atPriority: 9999

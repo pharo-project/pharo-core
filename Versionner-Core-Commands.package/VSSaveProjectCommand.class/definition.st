@@ -1,5 +1,5 @@
 VSVersionCommand subclass: #VSSaveProjectCommand
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'ValidateBeforeSaving'
 	poolDictionaries: ''
 	category: 'Versionner-Core-Commands'

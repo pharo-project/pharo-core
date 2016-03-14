@@ -1,0 +1,3 @@
+validateBeforeSaving: aBoolean
+
+	 ValidateBeforeSaving := aBoolean 
