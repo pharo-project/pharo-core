@@ -1,5 +1,5 @@
 Object subclass: #FFIExternalValueHolder
-	instanceVariableNames: 'data type'
+	instanceVariableNames: 'data'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'UnifiedFFI-Objects'

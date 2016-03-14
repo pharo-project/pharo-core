@@ -1,3 +1,3 @@
 booleanAt: byteOffset
-	"bool is only valid with function declarations"
-	^self shouldNotImplement
+	"Booleans are just integers in C word"
+	^(self integerAt: byteOffset size: 1 signed: false) == true

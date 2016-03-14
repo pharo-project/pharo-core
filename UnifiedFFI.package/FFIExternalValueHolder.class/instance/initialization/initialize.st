@@ -1,3 +1,3 @@
 initialize
-	data := (ExternalAddress allocate: self type typeSize) autoRelease.
+	data := ByteArray new: self type typeSize.
 	super initialize

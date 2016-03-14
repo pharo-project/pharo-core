@@ -1,3 +1,3 @@
 booleanAt: byteOffset put: value
-	"bool is only valid with function declarations"
-	^self shouldNotImplement
+	"Booleans are just integers in C word"
+	^self integerAt: byteOffset put: (value ifTrue:[1] ifFalse:[0]) size: 1 signed: false

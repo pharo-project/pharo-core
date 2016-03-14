@@ -1,0 +1,2 @@
+type: aType 
+	type := aType

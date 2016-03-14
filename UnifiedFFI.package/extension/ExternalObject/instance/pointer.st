@@ -1,0 +1,2 @@
+pointer 
+	^ self getHandle pointer

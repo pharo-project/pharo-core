@@ -1,2 +1,4 @@
-initialize 
-	self initializeStartUpList
+initialize
+	SessionManager default
+		registerSystemClassNamed: self name
+		atPriority: 60
