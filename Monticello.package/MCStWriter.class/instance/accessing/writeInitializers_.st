@@ -1,0 +1,3 @@
+writeInitializers: aBoolean
+
+	writeInitializers := aBoolean

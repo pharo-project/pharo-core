@@ -4,12 +4,10 @@ hasTestSelectors
 		(each beginsWith: 'test') and: [
 				each numArgs isZero 
 			]
-		]) 		
-		ifTrue: [ true ]
-		ifFalse: [ 
-			self shouldInheritSelectors and: [ 
-				(self ~~ self lookupHierarchyRoot) and: [ 
-					self superclass hasTestSelectors	
+		]) or: [ 
+			self superclass isTestCase and: [ 
+				self shouldInheritSelectors and: [ 
+						self superclass hasTestSelectors	
 				]
 			]
 		]

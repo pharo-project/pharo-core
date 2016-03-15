@@ -1,5 +1,5 @@
 MCWriter subclass: #MCStWriter
-	instanceVariableNames: 'initializers'
+	instanceVariableNames: 'initializers writeInitializers'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Monticello-Storing'
