@@ -1,0 +1,2 @@
+actOnClickBlock: aBlock
+	actOnClickBlock := aBlock

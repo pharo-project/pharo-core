@@ -1,9 +1,8 @@
 referencesToIt
 	"Open a references browser on the selected symbol"
 
-	| aSymbol env ref |
 	self selectLine.
-	((aSymbol := self selectedSymbol) == nil)
-			ifTrue: [^ morph flash].
-
-	self referencesTo: aSymbol
+	
+	self selectedSymbol 
+		ifNil: [ morph flash ]
+		ifNotNil: [ :symbol | self referencesTo: symbol ]

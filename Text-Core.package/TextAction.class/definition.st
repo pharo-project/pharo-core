@@ -1,5 +1,5 @@
 TextAttribute subclass: #TextAction
-	instanceVariableNames: ''
-	classVariableNames: ''
+	instanceVariableNames: 'actOnClickBlock'
+	classVariableNames: 'ActOnClickBlock'
 	poolDictionaries: ''
 	category: 'Text-Core'

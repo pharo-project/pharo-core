@@ -1,4 +1,4 @@
-script50642
+script50643
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -228,7 +228,7 @@ OpalCompiler-Tests-TheIntegrator.328.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1317.mcz
+Polymorph-Widgets-TheIntegrator.1318.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -332,9 +332,9 @@ System-Support-TheIntegrator.1208.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.751.mcz
-Text-Core-TheIntegrator.49.mcz
+Text-Core-TheIntegrator.50.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.108.mcz
+Text-Edition-TheIntegrator.110.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz

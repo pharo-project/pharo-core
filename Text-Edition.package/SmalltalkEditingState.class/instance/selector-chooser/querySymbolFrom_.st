@@ -1,6 +1,6 @@
 querySymbolFrom: aTextMorph
-	| sel pref caret nextPref |
-	sel := aTextMorph editor selectionInterval.
+	| pref |
+
 	aTextMorph editor hasSelection
 		ifFalse: [aTextMorph editor selectPrecedingIdentifier].
 	pref := String streamContents: [:strm |
