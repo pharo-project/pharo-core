@@ -1,10 +1,13 @@
 desktopBackgroundChanged
 	| fill |
+	
 	self desktopImageFileName
 		ifEmpty: [UIManager default currentWorld world backgroundMorph: nil]
-		ifNotEmpty: [^ [World backgroundImage: (Form fromFileNamed: self desktopImageFileName) layout: self desktopImageLayout ]
-				on: Error
-				do: []].
+		ifNotEmpty: [ [
+				World backgroundImage: (Form fromFileNamed: self desktopImageFileName) layout: self desktopImageLayout 
+			] on: Error	do: []
+		].
+	
 	self useDesktopGradientFill
 		ifTrue: [World fillStyle isGradientFill
 				ifTrue: [fill := World fillStyle]
@@ -29,4 +32,5 @@ desktopBackgroundChanged
 							fill normal: 0 @ World height]].
 			World fillStyle: fill]
 		ifFalse: [World color: self desktopColor].
+		
 		World changed

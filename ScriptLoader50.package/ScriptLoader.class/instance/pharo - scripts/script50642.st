@@ -1,8 +1,8 @@
-script50641
+script50642
 
-	^ 'AST-Core-TheIntegrator.409.mcz
+	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
-AST-Tests-Core-TheIntegrator.93.mcz
+AST-Tests-Core-TheIntegrator.95.mcz
 Alien-EstebanLorenzano.31.mcz
 Announcements-Core-EstebanLorenzano.65.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -20,7 +20,7 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.45.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.14.mcz
+BlueInk-Core-TheIntegrator.18.mcz
 BlueInk-Extras-TheIntegrator.8.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -277,7 +277,7 @@ SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.85.mcz
+Settings-Polymorph-TheIntegrator.88.mcz
 Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
