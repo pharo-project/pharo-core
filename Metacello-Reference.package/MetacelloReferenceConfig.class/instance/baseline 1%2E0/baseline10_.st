@@ -141,4 +141,4 @@ baseline10: spec
 			group: 'default' 
 				overrides:  #('Example-Core' 'Example-Tests' );	
 			"Remove the group 'default'"
-			removeGroup: 'default' ].									
+			removeGroup: 'default' ].

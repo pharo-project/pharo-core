@@ -1,3 +1,3 @@
 authorName
 
-	^Author fullName
+	^ Author fullName

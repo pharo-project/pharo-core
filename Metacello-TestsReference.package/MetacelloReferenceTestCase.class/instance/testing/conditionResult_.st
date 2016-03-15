@@ -9,3 +9,4 @@ conditionResult: resultString
 						copyReplaceAll: '#postloadForVersion' with: '#''postloadForVersion''')
 							copyReplaceAll: '#preloadForProject' with: '#''preloadForProject''')
 								copyReplaceAll: '#postloadForProject' with: '#''postloadForProject'''
+								
