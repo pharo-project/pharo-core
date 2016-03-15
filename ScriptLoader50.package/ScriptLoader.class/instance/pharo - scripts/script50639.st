@@ -1,4 +1,4 @@
-script50638
+script50639
 
 	^ 'AST-Core-TheIntegrator.409.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -328,10 +328,10 @@ System-Settings-TheIntegrator.334.mcz
 System-Settings-Tests-TheIntegrator.9.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.46.mcz
-System-Support-TheIntegrator.1206.mcz
+System-Support-TheIntegrator.1208.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
-Tests-TheIntegrator.749.mcz
+Tests-TheIntegrator.751.mcz
 Text-Core-TheIntegrator.49.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.108.mcz
@@ -374,10 +374,10 @@ UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
-Versionner-Core-Commands-TheIntegrator.63.mcz
+Versionner-Core-Commands-StephaneDucasse.64.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.104.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-ChristopheDemarey.180.mcz
+Versionner-Spec-Browser-StephaneDucasse.181.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.45.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
