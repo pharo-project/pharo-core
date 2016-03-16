@@ -18,9 +18,8 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 	self
 		assert:
 			(Metaclass localSelectors difference: ClassTrait localSelectors)
-				=
-					{#externalTypeAlias:.
-					#baseClass.
+				equals:
+					{#baseClass.
 					#basicLocalSelectors:.
 					#basicLocalSelectors.
 					#classClass.
@@ -31,7 +30,8 @@ testMetaclassAndTraitClassRespectsPolymorphismRules
 					#postCopy.
 					#traitComposition.
 					#traitComposition:.
-					#veryDeepCopyWith:} asSet.	"initializeWithBaseTrait: asMCDefinition -> has no equivalent in classes
+					#veryDeepCopyWith:.
+					#addSlot:} asSet.	"initializeWithBaseTrait: asMCDefinition -> has no equivalent in classes
 	baseTrait isClassTrait classTrait baseTrait isBaseTrait classTrait: -> they have their equivalent for Metaclasses
 	compile:classified:withStamp:notifying:logSource: -> the implementation for Metaclasses is in TClassDescription
 	copy -> the implementation for Metaclasses is in Object"

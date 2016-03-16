@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '17825 SlotSilentTest should also silence Author during tests
-	https://pharo.fogbugz.com/f/cases/17825
+ ^ '16508 Nautilus loses track of changes when using the debugger (restart)
+	https://pharo.fogbugz.com/f/cases/16508
 
-17797 random crash while trying to dispose a NULL handle
-	https://pharo.fogbugz.com/f/cases/17797'
+17828 failing test: testMetaclassAndTraitClassRespectsPolymorphismRules
+	https://pharo.fogbugz.com/f/cases/17828'

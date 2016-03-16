@@ -24,4 +24,5 @@ methodModified: anAnnouncement
 							self highlightCategory: method]
 						ifFalse: [
 							self selectedMethod: method.
-							self updateCategoryAndMethodList ]]]
+							self updateCategoryAndMethodList ]]
+				ifFalse: [self updateCategoryAndMethodList  ] ]
