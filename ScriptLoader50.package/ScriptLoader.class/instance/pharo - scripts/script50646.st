@@ -1,4 +1,4 @@
-script50645
+script50646
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -67,9 +67,9 @@ Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.17.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
-FontInfrastructure-TheIntegrator.16.mcz
+FontInfrastructure-TheIntegrator.18.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.731.mcz
+FreeType-TheIntegrator.736.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-TheIntegrator.821.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -233,7 +233,7 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.92.mcz
+QualityAssistant-YuriyTymchuk.93.mcz
 QualityAssistantRecording-YuriyTymchuk.20.mcz
 RPackage-Core-TheIntegrator.425.mcz
 RPackage-Tests-TheIntegrator.181.mcz
@@ -285,7 +285,7 @@ ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.732.mcz
-Slot-Tests-TheIntegrator.85.mcz
+Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
 Spec-Core-TheIntegrator.455.mcz

@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17824 QASettings>>#initialize has undeclared var spotterPlugin
-	https://pharo.fogbugz.com/f/cases/17824
+ ^ '17825 SlotSilentTest should also silence Author during tests
+	https://pharo.fogbugz.com/f/cases/17825
 
-17817 Creatng a new class where the name starts with a subclass of is considered valid class name
-	https://pharo.fogbugz.com/f/cases/17817
-
-17612 Fail on CI: RPackageReleaseTest>>#testUnpackagedClasses	
-	https://pharo.fogbugz.com/f/cases/17612'
+17797 random crash while trying to dispose a NULL handle
+	https://pharo.fogbugz.com/f/cases/17797'

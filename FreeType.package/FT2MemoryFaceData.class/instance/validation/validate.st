@@ -1,8 +1,6 @@
 validate
-	self isValid 
-		ifFalse: [
-			bytes ifNotNil:[
-				[self primMalloc: bytes]
-					on: FT2Error 
-					do:[:e |"need to do something here?"].
-				self isValid ifTrue:[self class register: self]]]
+	self isValid ifTrue: [ ^ self ].
+	bytes ifNil: [ ^ self ].
+	
+	self primMalloc: bytes.
+	self isValid ifTrue:[ self class register: self ]

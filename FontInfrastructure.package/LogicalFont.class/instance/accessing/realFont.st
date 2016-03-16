@@ -1,2 +1,4 @@
 realFont
-	^realFont ifNil:[realFont := self findRealFont]
+	realFont ifNil:[ realFont := self findRealFont ].
+	realFont validate.
+	^ realFont

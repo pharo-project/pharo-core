@@ -3,4 +3,4 @@ startUp: isImageStarting
 	
 	self clearRegistry.
 	"update session"
-	Session := Smalltalk session
+	Session := Smalltalk session.
