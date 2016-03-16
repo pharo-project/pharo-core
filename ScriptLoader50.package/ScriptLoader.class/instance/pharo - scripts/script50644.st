@@ -1,4 +1,4 @@
-script50643
+script50644
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -147,12 +147,12 @@ MenuRegistration-TheIntegrator.78.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
-Metacello-Core-EstebanLorenzano.822.mcz
+Metacello-Core-TheIntegrator.824.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-EstebanLorenzano.21.mcz
 Metacello-GitHub-EstebanLorenzano.53.mcz
 Metacello-MC-EstebanLorenzano.733.mcz
-Metacello-PharoCommonPlatform-EstebanLorenzano.20.mcz
+Metacello-PharoCommonPlatform-TheIntegrator.22.mcz
 Metacello-Platform-EstebanLorenzano.3.mcz
 Metacello-ProfStef-EstebanLorenzano.18.mcz
 Metacello-Reference-EstebanLorenzano.38.mcz
@@ -200,7 +200,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.238.mcz
+NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
 Nautilus-TheIntegrator.1219.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
@@ -233,8 +233,8 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.91.mcz
-QualityAssistantRecording-YuriyTymchuk.18.mcz
+QualityAssistant-YuriyTymchuk.92.mcz
+QualityAssistantRecording-YuriyTymchuk.20.mcz
 RPackage-Core-TheIntegrator.425.mcz
 RPackage-Tests-TheIntegrator.179.mcz
 Random-Core-TheIntegrator.4.mcz
