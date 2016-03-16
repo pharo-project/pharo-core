@@ -1,6 +1,5 @@
 validateClassName
 	"Validate the new class name. Raise warning if invalid."
-	(name beginsWith: 'a subclass of') ifTrue: [ ^self ]. "for anonymous classes" 
 	name
 		detect: [ :c | (c isAlphaNumeric or: [ c = $_ ]) not ]
 		ifFound: [ :c | InvalidGlobalName signal: 'Invalid character: ''' , c printString , '''' for: name ].
