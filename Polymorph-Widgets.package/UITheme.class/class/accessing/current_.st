@@ -9,7 +9,7 @@ current: aUITheme
 	PolymorphSystemSettings desktopColor: aUITheme desktopColor.
 	NECPreferences backgroundColor: aUITheme windowColor. 
 	Paragraph insertionPointColor: aUITheme caretColor.
-	
+	BalloonMorph setBalloonColorTo: aUITheme balloonBackgroundColor.
 	aUITheme updateWorldDockingBars.
 	
 	World themeChanged.

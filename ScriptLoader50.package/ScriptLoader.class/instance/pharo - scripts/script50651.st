@@ -1,4 +1,4 @@
-script50650
+script50651
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -95,7 +95,7 @@ Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.111.mcz
 Glamour-Core-GuillermoPolito.312.mcz
 Glamour-Examples-TudorGirba.303.mcz
-Glamour-FastTable-AndreiChis.58.mcz
+Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-AliakseiSyrel.412.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
@@ -228,7 +228,7 @@ OpalCompiler-Tests-TheIntegrator.328.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1328.mcz
+Polymorph-Widgets-TheIntegrator.1330.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -277,7 +277,7 @@ SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.88.mcz
+Settings-Polymorph-TheIntegrator.90.mcz
 Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz

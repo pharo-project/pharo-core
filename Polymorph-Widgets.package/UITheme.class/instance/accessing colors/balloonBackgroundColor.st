@@ -1,0 +1,3 @@
+balloonBackgroundColor
+
+	^self lightBaseColor

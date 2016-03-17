@@ -12,6 +12,7 @@ initializedSessionManager
 		registerSystemClassNamed: #ExternalObject atPriority: 60; "System - 60"
 		registerSystemClassNamed: #FFIMethodRegistry atPriority: 60; "System - 60"
 		registerSystemClassNamed: #FFICallbackThunk atPriority: 60; "System - 60"
+		registerSystemClassNamed: #FileLocator atPriority: 90; "System - 90"
 		
 		registerSystemClassNamed: #Stdio; "System"
 		registerSystemClassNamed: #LanguageEnvironment	; "System"
@@ -52,7 +53,7 @@ initializedSessionManager
 		registerGuiClassNamed: #LogicalFont; "GUI"
 		registerGuiClassNamed: #FT2Handle; "GUI"
 		registerGuiClassNamed: #FreeTypeSettings; "GUI"
-		registerGuiClassNamed: #WorldMorph; "GUI"
+		registerGuiClassNamed: #WorldMorph atPriority: 110; "GUI"
 		register: UIManagerSessionHandler uniqueInstance
 			inCategory: manager guiCategory 
 			atPriority: SmallInteger maxVal; "GUi - last"
