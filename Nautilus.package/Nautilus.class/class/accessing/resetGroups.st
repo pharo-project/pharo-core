@@ -1,2 +1,3 @@
-resetGroups 
+resetGroups
+	<script>
 	groups := nil

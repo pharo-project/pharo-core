@@ -1,0 +1,3 @@
+desktopColor
+
+	^Color darkGray darker

@@ -1,4 +1,4 @@
-initializeFromMCMethodsFor: aBehavior
+initializeMethodsFor: aBehavior
 	| package |
 	
 	package := aBehavior package.  

@@ -1,4 +1,4 @@
-initializeFromMCFor: aBehavior
+initializeFor: aBehavior
 	| package |
 		
 	package := self packageMatchingExtensionName: aBehavior category.

@@ -1,4 +1,4 @@
-initializeFromMCExtensionsFor: aBehavior protocol: aProtocol
+initializeExtensionsFor: aBehavior protocol: aProtocol
 	| package protocolName |
 	
 	protocolName := (aProtocol name allButFirst) trimBoth.

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17832 Transcript is in NonInteractive mode in non headless images
-	https://pharo.fogbugz.com/f/cases/17832
+ ^ '17831 [Theme] Move color changes from #installFullTheme 
+	https://pharo.fogbugz.com/f/cases/17831
 
-17833 GTools Version 3.15
-	https://pharo.fogbugz.com/f/cases/17833
+17397 We have a group for Configurations, we should have one for baselines.
+	https://pharo.fogbugz.com/f/cases/17397
 
-17543 VM crash in Windows when compiling many symbols
-	https://pharo.fogbugz.com/f/cases/17543'
+17779 allow RPackageOrganizer initialization from a list of packages
+	https://pharo.fogbugz.com/f/cases/17779'
