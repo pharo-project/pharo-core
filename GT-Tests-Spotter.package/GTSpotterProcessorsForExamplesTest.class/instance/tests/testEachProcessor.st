@@ -1,4 +1,3 @@
-"protocol: tests"
 testEachProcessor
 	Object withAllSubclasses
 		do: [ :eachClass |

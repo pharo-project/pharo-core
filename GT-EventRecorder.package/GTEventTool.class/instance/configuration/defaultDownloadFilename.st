@@ -1,2 +1,2 @@
 defaultDownloadFilename
-	^ self defaultDownloadDirectory / 'gt-events.tar.gz'
+	^ self defaultDownloadDirectory / 'gt-events.zip'

@@ -5,20 +5,20 @@ executionSelectionActions
 				title: 'Do it';
 				action: [ :aPresentation |
 					aPresentation highlightEvaluateAndDo: [ :result | ] ]; 
-				shortcut: $d; 
+				keymap: PharoShortcuts current doItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousSpawn;
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Print it';
 				action: [ :aPresentation |
 					aPresentation printSelection ]; 
-				shortcut: $p; 
+				keymap: PharoShortcuts current printItShortcut; 
 				yourself.
 		(GLMGenericAction new) 
 				title: 'Inspect it'; 
 				action: [ :aPresentation |
 					aPresentation highlightEvaluateAndDo: [ :result | result inspect ] ]; 
-				shortcut: $i; 
+				keymap: PharoShortcuts current inspectItShortcut; 
 				icon: GLMUIThemeExtraIcons glamorousInspect;
 				yourself.
 		(GLMGenericAction new) 

@@ -3,4 +3,4 @@ spotterImplementorsFor: aStep
 	^ aStep listProcessor
 		title: 'Implementors';
 		filter: GTFilterSubstring item: [ :filter :context | methods do: filter ];
-		keyBinding: $m command
+		keyBinding: $m meta

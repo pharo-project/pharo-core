@@ -1,5 +1,5 @@
 Object subclass: #GTEventTool
-	instanceVariableNames: 'semaphore process'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-EventRecorder-Core'

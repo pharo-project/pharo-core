@@ -1,5 +1,5 @@
 GLMFastListDataSource subclass: #GLMFastTableDataSource
-	instanceVariableNames: 'columnToSortBy'
+	instanceVariableNames: 'columnToSortBy stopStepping'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-FastTable-Model'

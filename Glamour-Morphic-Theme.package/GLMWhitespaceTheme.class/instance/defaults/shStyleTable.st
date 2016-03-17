@@ -1,8 +1,6 @@
-setPreferredShoutColors
-	"self setPreferredShoutColors"
+shStyleTable
 
-	SHTextStylerST80 styleTable: 
-		#(
+	^#(
 			"(symbol color [emphasisSymbolOrArray [textStyleName [pixelHeight]]])" 
 			(default 								black)
 			(invalid 									red)

@@ -5,4 +5,4 @@ spotterSendersFor: aStep
 		filter: GTFilterSubstring item: [ :filter :context | 
 			self senders do: [ :sender | 
 				filter value: sender compiledMethod ] ];
-		keyBinding: $n command
+		keyBinding: $n meta

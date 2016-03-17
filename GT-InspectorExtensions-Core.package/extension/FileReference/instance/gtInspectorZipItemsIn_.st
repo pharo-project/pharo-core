@@ -25,5 +25,5 @@ gtInspectorZipItemsIn: composite
 			each isDirectory 
 				ifTrue: [ GLMUIThemeExtraIcons glamorousFolder ] 
 				ifFalse: [ GLMUIThemeExtraIcons glamorousBrowse ] ];
-		when: [ self isFile and: [ #('zip' 'jar' 'ear' 'war') includes: self extension ] ];
+		when: [ self isFile and: [ #('zip' 'jar' 'ear' 'war' 'mcz') includes: self extension ] ];
 		act: [ :table | table update ] icon: GLMUIThemeExtraIcons glamorousRefresh entitled: 'Refresh'

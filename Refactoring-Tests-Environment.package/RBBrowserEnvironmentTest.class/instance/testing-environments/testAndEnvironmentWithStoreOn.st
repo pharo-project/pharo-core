@@ -1,9 +1,8 @@
-testAndEnvironment
+testAndEnvironmentWithStoreOn
 	| originalEnvironment objectPrintStringEnvironment andEnvironment |
-		self skip: 'Bug on VM. See: Fogbugz issue 17543'.
-	originalEnvironment := universalEnvironment referencesTo: #printOn:.
+	originalEnvironment := universalEnvironment referencesTo: #storeOn:.
 	objectPrintStringEnvironment := universalEnvironment forClass: Object
-				selectors: #(#fullPrintString).
+				selectors: #(#storeString).
 	andEnvironment := objectPrintStringEnvironment & originalEnvironment.
 	self universalTestFor: andEnvironment.
 	self assert: andEnvironment numberSelectors = 1.

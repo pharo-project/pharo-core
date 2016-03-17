@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '16508 Nautilus loses track of changes when using the debugger (restart)
-	https://pharo.fogbugz.com/f/cases/16508
+ ^ '17832 Transcript is in NonInteractive mode in non headless images
+	https://pharo.fogbugz.com/f/cases/17832
 
-17828 failing test: testMetaclassAndTraitClassRespectsPolymorphismRules
-	https://pharo.fogbugz.com/f/cases/17828'
+17833 GTools Version 3.15
+	https://pharo.fogbugz.com/f/cases/17833
+
+17543 VM crash in Windows when compiling many symbols
+	https://pharo.fogbugz.com/f/cases/17543'

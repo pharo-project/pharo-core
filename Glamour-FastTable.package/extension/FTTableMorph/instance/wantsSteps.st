@@ -1,0 +1,2 @@
+wantsSteps
+	^ self dataSource wantsSteps
