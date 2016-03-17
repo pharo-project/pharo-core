@@ -1,2 +1,0 @@
-stepTime
-	^ self dataSource stepTime

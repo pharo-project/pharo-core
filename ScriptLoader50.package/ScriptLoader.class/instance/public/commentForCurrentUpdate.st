@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '17831 [Theme] Move color changes from #installFullTheme 
-	https://pharo.fogbugz.com/f/cases/17831
-
-17397 We have a group for Configurations, we should have one for baselines.
-	https://pharo.fogbugz.com/f/cases/17397
-
-17779 allow RPackageOrganizer initialization from a list of packages
-	https://pharo.fogbugz.com/f/cases/17779'
+ ^ '17837 Revert changes to fast table morph from glamour version 3.15
+	https://pharo.fogbugz.com/f/cases/17837'
