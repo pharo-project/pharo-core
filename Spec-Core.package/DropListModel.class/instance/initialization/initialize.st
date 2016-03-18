@@ -3,7 +3,7 @@ initialize
 	super initialize.
 
 	listHolder := OrderedCollection new asValueHolder.
-	selectionHolder := Object selectionReactiveVariable.
+	selectionHolder := SelectionValueHolder new.
 	
 	listHolder whenChangedDo: [ 
 					self changed: #getList.

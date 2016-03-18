@@ -2,5 +2,5 @@ addLast: newObject
 
 	| result |
 	result := value addLast: newObject .
-	self valueChanged: newObject.
+	self valueAdded: newObject.
 	^ result

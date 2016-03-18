@@ -1,5 +1,5 @@
 at: key put: anObject
 
 	value at: key put: anObject.
-	self valueChanged: value.
+	self valueAdded: anObject.
 	^ anObject

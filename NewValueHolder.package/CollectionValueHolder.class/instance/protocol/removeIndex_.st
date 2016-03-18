@@ -2,5 +2,5 @@ removeIndex: removedIndex
 
 	| result |
 	result := value removeIndex: removedIndex.
-	self valueChanged: result.
+	self valueRemoved: result.
 	^ result

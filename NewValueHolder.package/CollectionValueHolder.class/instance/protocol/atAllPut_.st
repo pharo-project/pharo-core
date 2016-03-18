@@ -2,5 +2,5 @@ atAllPut: anObject
 	
 	| result |
 	result := value atAllPut: anObject.
-	self valueChanged: anObject.
+	self valueAdded: anObject.
 	^ result

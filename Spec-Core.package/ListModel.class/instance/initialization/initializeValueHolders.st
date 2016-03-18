@@ -1,5 +1,5 @@
 initializeValueHolders
-	selectionHolder := Object selectionReactiveVariable.
+	selectionHolder := SelectionValueHolder new.
 	listHolder := Array new asValueHolder.
 	sortingBlockHolder := self defaultSortingBlock asValueHolder.
 	filteringBlockHolder := self defaultFilteringBlock asValueHolder.

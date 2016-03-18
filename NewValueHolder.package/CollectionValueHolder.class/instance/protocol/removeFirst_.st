@@ -2,5 +2,5 @@ removeFirst: n
 
 	| result |
 	result := value removeFirst: n .
-	self valueChanged: result.
+	self valueRemoved: result.
 	^ result

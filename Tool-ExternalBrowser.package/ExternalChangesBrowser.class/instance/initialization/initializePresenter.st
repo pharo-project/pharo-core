@@ -3,4 +3,4 @@ initializePresenter
 	changes menu: [ :menu :shifted | self buildMenu: menu ].
 	selectAllButton action: [ changes selectAll ].
 	deselectAllButton action: [ changes resetSelection ].
-	fileInSelectedButton action: [ self fileIn: changes selectedItems ]
+	fileInSelectedButton action: [ self fileIn: changes selectedItemsSorted ]

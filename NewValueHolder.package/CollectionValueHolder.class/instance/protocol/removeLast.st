@@ -2,5 +2,5 @@ removeLast
 
 	| result |
 	result := value removeLast.
-	self valueChanged: result.
+	self valueRemoved: result.
 	^ result

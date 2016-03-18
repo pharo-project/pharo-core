@@ -2,5 +2,5 @@ at: index ifAbsentPut: block
 
 	| result |
 	result := value at: index ifAbsentPut: block.
-	self valueChanged: block value.
+	self valueAdded: block value.
 	^ result

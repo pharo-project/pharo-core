@@ -1,4 +1,4 @@
-script50651
+script50652
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -78,7 +78,7 @@ FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-MarcusDenker.329.mcz
-GT-EventRecorder-JurajKubelka.61.mcz
+GT-EventRecorder-AndreiChis.62.mcz
 GT-EventRecorder-Tests-JurajKubelka.36.mcz
 GT-Inspector-AlexandreBergel.389.mcz
 GT-InspectorExtensions-Core-TudorGirba.204.mcz
@@ -216,7 +216,7 @@ Network-Protocols-TheIntegrator.103.mcz
 Network-Tests-TheIntegrator.4.mcz
 Network-UUID-TheIntegrator.42.mcz
 Network-Url-MarcusDenker.99.mcz
-NewValueHolder-TheIntegrator.31.mcz
+NewValueHolder-TheIntegrator.33.mcz
 NodeNavigation-TheIntegrator.53.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
 OSWindow-Core-TheIntegrator.98.mcz
@@ -288,7 +288,7 @@ Slot-TheIntegrator.732.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.455.mcz
+Spec-Core-TheIntegrator.457.mcz
 Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.106.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -322,7 +322,7 @@ System-OSEnvironments-TheIntegrator.25.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-TheIntegrator.20.mcz
+System-SessionManager-ChristopheDemarey.20.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.334.mcz
 System-Settings-Tests-TheIntegrator.9.mcz
@@ -345,7 +345,7 @@ Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-GuillermoPolito.39.mcz
 Tool-Diff-TheIntegrator.23.mcz
-Tool-ExternalBrowser-TheIntegrator.47.mcz
+Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.57.mcz

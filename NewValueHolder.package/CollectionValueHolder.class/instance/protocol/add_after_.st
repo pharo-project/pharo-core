@@ -2,5 +2,5 @@ add: newObject after: oldObject
 	
 	| result |
 	result := value add: newObject after: oldObject.
-	self valueChanged: newObject.
+	self valueAdded: newObject.
 	^ result

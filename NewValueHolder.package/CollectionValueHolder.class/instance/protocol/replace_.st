@@ -1,4 +1,3 @@
-replace: aBlock 
-
-	value replace: aBlock .
+replace: aBlock
+	value replace: aBlock.
 	self valueChanged

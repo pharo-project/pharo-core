@@ -2,5 +2,5 @@ addAllLast: aCollection
 	
 	| result |
 	result := value addAllLast: aCollection.
-	self valueChanged: aCollection.
+	self valueAdded: aCollection.
 	^ result

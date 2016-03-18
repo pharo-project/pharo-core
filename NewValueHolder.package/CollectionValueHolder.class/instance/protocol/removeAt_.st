@@ -2,5 +2,5 @@ removeAt: index
 
 	| result |
 	result := value removeAt: index.
-	self valueChanged: result.
+	self valueRemoved: result.
 	^ result

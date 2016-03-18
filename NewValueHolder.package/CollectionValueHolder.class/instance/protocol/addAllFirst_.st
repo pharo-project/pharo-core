@@ -2,5 +2,5 @@ addAllFirst: anOrderedCollection
 	
 	| result |
 	result := value addAllFirst: anOrderedCollection.
-	self valueChanged: anOrderedCollection.
+	self valueAdded: anOrderedCollection.
 	^ result

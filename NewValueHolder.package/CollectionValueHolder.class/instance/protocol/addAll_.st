@@ -2,5 +2,5 @@ addAll: aCollection
 	
 	| result |
 	result := value addAll: aCollection.
-	self valueChanged: aCollection.
+	self valueAdded: aCollection.
 	^ result
