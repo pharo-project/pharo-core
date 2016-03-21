@@ -9,4 +9,4 @@ initializeWidgets
 		state: true;
 		whenBuiltDo: [ symbolicVersionResolutionCheckBox labelOnLeft.
 						releaseNumber accept: self nextVersionString ];
-		whenDesactivatedDo: [ self confirmSymbolicVersionResolutionDesactivation ].
+		whenDeactivatedDo: [ self confirmSymbolicVersionResolutionDesactivation ]

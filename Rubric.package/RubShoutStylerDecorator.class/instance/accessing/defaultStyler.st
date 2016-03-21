@@ -1,2 +1,2 @@
 defaultStyler
-	^ ((Smalltalk at: #RubSHTextStylerST80) ifNil: [ ^nil ]) new view: self; yourself
+	^RubSHTextStylerST80 new view: self; yourself

@@ -1,4 +1,4 @@
-script50653
+script50654
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -256,7 +256,7 @@ Reflectivity-Tools-Tests-TheIntegrator.9.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
-ReleaseTests-TheIntegrator.27.mcz
+ReleaseTests-TheIntegrator.29.mcz
 Renraku-YuriyTymchuk.110.mcz
 Renraku-Test-YuriyTymchuk.19.mcz
 Ring-Core-Containers-TheIntegrator.43.mcz
@@ -377,7 +377,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-StephaneDucasse.64.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.104.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-StephaneDucasse.181.mcz
+Versionner-Spec-Browser-TheIntegrator.184.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.45.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

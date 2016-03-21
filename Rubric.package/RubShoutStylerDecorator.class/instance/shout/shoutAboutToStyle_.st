@@ -1,2 +1,2 @@
 shoutAboutToStyle: myself 
-	^ self textArea shoutAboutToStyle: myself
+	^ self paragraph textArea shoutAboutToStyle: myself

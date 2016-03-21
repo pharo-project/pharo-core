@@ -1,3 +1,5 @@
 aboutToBeUnplugged
-	next ifNotNil: [ 
-			self textArea announcer unsubscribe: self ]
+
+	self paragraph ifNotNil: [ :paragraph |
+		paragraph textArea announcer unsubscribe: self 
+	]

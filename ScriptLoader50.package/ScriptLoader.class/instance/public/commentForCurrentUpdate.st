@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '17847 Remove #undoMove:redo:owner:bounds:predecessor: 
-	https://pharo.fogbugz.com/f/cases/17847
+ ^ '17838 Add release test checking some important order in startup list
+	https://pharo.fogbugz.com/f/cases/17838
 
-17846 Doit snapshots should be skipped
-	https://pharo.fogbugz.com/f/cases/17846
+17839 release a version with Versionner calls a deprecated method
+	https://pharo.fogbugz.com/f/cases/17839
 
-16824 Context>>#copyTo:blocks: broken
-	https://pharo.fogbugz.com/f/cases/16824
-
-17840 ChangesBrowser selectAll DNU 
-	https://pharo.fogbugz.com/f/cases/17840
-
-17851 Reduce width of DiffJointMorph 
-	https://pharo.fogbugz.com/f/cases/17851'
+17850 Update Rubric to 2.12
+	https://pharo.fogbugz.com/f/cases/17850'

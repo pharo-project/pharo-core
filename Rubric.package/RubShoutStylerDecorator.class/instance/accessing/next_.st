@@ -1,7 +1,8 @@
 next: aDecorator
 	super next: aDecorator.
 	aDecorator ifNotNil: [ 
-		self textArea announcer
+		self paragraph textArea announcer
 			when: RubTextAcceptRequest
 			send: #whenTextAcceptRequest:
-			to: self ]
+			to: self 
+	]
