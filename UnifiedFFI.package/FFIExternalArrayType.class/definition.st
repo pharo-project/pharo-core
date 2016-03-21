@@ -1,4 +1,4 @@
-FFIExternalObjectType subclass: #FFIExternalArrayType
+FFIExternalReferenceType subclass: #FFIExternalArrayType
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

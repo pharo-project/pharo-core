@@ -1,6 +1,5 @@
-FFIExternalType subclass: #FFIExternalObjectType
-	uses: TFFIPointerArity
-	instanceVariableNames: 'objectClass'
+FFIExternalReferenceType subclass: #FFIExternalObjectType
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'UnifiedFFI-Types'

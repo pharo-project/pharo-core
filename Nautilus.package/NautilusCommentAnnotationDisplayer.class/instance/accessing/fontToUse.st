@@ -1,2 +1,0 @@
-fontToUse
-	^ StandardFonts balloonFont 

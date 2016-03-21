@@ -1,4 +1,2 @@
 returnType: aType
-
-	
 	^ aType

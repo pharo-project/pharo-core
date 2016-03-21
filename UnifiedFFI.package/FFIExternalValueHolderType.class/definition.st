@@ -1,4 +1,4 @@
-FFIExternalObjectType subclass: #FFIExternalValueHolderType
+FFIExternalReferenceType subclass: #FFIExternalValueHolderType
 	instanceVariableNames: 'representationType'
 	classVariableNames: ''
 	poolDictionaries: ''

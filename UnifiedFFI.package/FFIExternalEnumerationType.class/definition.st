@@ -1,4 +1,4 @@
-FFIExternalObjectType subclass: #FFIExternalEnumerationType
+FFIExternalReferenceType subclass: #FFIExternalEnumerationType
 	instanceVariableNames: 'representationType'
 	classVariableNames: ''
 	poolDictionaries: ''

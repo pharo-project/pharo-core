@@ -1,4 +1,4 @@
-ExternalObject subclass: #FFIExternalObject
+FFIExternalReference subclass: #FFIExternalObject
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

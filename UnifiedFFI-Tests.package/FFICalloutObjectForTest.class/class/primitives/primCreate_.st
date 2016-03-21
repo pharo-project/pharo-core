@@ -1,4 +1,4 @@
 primCreate: size
 	self 
-		ffiCall: #( #FFICalloutObjectForTest malloc( size_t size ) )
+		ffiCall: #( FFICalloutObjectForTest malloc( size_t size ) )
 		module: LibC	

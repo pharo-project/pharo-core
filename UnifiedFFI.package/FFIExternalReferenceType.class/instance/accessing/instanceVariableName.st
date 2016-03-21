@@ -1,0 +1,2 @@
+instanceVariableName
+	^ self subclassResponsibility

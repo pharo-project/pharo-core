@@ -1,2 +1,0 @@
-changeExtendCommentPolicy
-	self paragraphProvider model announcer announce: NautilusExtendCommentSwitch

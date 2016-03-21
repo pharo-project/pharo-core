@@ -1,0 +1,2 @@
+naturalPointerArity
+	^ 0

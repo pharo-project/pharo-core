@@ -1,16 +1,13 @@
 parseNamedFunction: aFunctionDefinition
+	"Parse a function definition in a form of: 
 
-"
-Parse a function definition in a form of: 
+	 #( returnType functionName (arguments) )
+	 
+	 or
 
-#( returnType functionName (arguments) )
-or
+	 'returnType functionName (arguments)'
 
-'returnType functionName (arguments)'
-
-
-Answer an instance of FFIFunctionSpec class
-"
+	 Answer an instance of FFIFunctionSpec class"
 	| argsSpec typeAndName fnName |
 	
 	fnSpec := FFIFunctionSpec new.
@@ -21,16 +18,18 @@ Answer an instance of FFIFunctionSpec class
 			argsSpec := ((aFunctionDefinition copyAfter: $( ) copyUpTo: $)) trimBoth ] 
 		ifFalse: [
 			argsSpec := aFunctionDefinition last flatCollect: [:ea | ea asString, ' ' ].
-			typeAndName := aFunctionDefinition allButLast  flatCollect: [:ea | ea asString, ' ' ] ].
-	
+			typeAndName := aFunctionDefinition allButLast flatCollect: [:ea | ea asString, ' ' ] ].
+		
+	"Parse return type"
 	stream := typeAndName readStream.
-	fnSpec returnType: (requestor returnType: self parseType).
-	
+	fnSpec returnType: self parseReturn.
+
+	"Function name"	
 	fnName := self parseWord.
 	fnName ifNil: [ self error: 'function name expected' ].
-
 	fnSpec functionName: fnName.
-	
+
+	"Function arguments"	
 	stream := argsSpec readStream.
 	self parseArguments.
 
