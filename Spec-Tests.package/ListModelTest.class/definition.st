@@ -1,4 +1,4 @@
-TestCase subclass: #ListComposableModelTest
+TestCase subclass: #ListModelTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -1,4 +1,4 @@
 splitterWidth
 	"Answer the width of splitter to use for dif joins."
 	
-	^30
+	^7

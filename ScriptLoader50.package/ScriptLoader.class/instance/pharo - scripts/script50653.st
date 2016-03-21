@@ -1,4 +1,4 @@
-script50652
+script50653
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -25,7 +25,7 @@ BlueInk-Extras-TheIntegrator.8.mcz
 BlueInk-Tests-TheIntegrator.8.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
-CodeImport-TheIntegrator.81.mcz
+CodeImport-TheIntegrator.83.mcz
 CodeImportCommandLineHandlers-TheIntegrator.5.mcz
 Collections-Abstract-TheIntegrator.313.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
@@ -130,7 +130,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2257.mcz
+Kernel-TheIntegrator.2259.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.49.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -176,8 +176,8 @@ MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-TheIntegrator.15.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.542.mcz
-Morphic-Core-TheIntegrator.263.mcz
+Morphic-Base-TheIntegrator.544.mcz
+Morphic-Core-TheIntegrator.265.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.78.mcz
@@ -288,7 +288,7 @@ Slot-TheIntegrator.732.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.457.mcz
+Spec-Core-TheIntegrator.459.mcz
 Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.106.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -296,7 +296,7 @@ Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.258.mcz
 Spec-PolyWidgets-TheIntegrator.66.mcz
-Spec-Tests-TheIntegrator.58.mcz
+Spec-Tests-TheIntegrator.61.mcz
 Spec-Tools-TheIntegrator.324.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
@@ -344,7 +344,7 @@ Tool-CriticBrowser-TheIntegrator.19.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-GuillermoPolito.39.mcz
-Tool-Diff-TheIntegrator.23.mcz
+Tool-Diff-TheIntegrator.25.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
