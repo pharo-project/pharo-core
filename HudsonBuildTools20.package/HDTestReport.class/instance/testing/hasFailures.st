@@ -1,0 +1,2 @@
+hasFailures 
+	^ suiteFailures ~= 0

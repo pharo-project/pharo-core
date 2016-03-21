@@ -1,2 +1,2 @@
 hasFailuresOrErrors 
-	^ suiteFailures ~= 0 or: [ suiteErrors ~= 0 ]
+	^ self hasFailures or: [ self hasErrors ]

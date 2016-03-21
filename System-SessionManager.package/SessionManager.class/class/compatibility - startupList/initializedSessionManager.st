@@ -27,13 +27,11 @@ initializedSessionManager
 		registerSystemClassNamed: #MultiByteFileStream; "System"
 		registerSystemClassNamed: #WeakArray; "System"
 		registerSystemClassNamed: #FileStream; "System"
-		registerSystemClassNamed: #FileLocator; "System"
 		registerSystemClassNamed: #BasicCommandLineHandler; "System"
 		registerSystemClassNamed: #NonInteractiveTranscript; "System"
 		registerSystemClassNamed: #ASTCache; "System"
 		registerSystemClassNamed: #OSEnvironment; "System"
 		registerSystemClassNamed: #EndianDetector; "System"
-		registerSystemClassNamed: #SystemSettingsPersistence; "System"
 
 		registerNetworkClassNamed: #InternetConfiguration; "Network"
 		registerNetworkClassNamed: #ZnServer; "Network"
@@ -54,9 +52,8 @@ initializedSessionManager
 		registerGuiClassNamed: #FT2Handle; "GUI"
 		registerGuiClassNamed: #FreeTypeSettings; "GUI"
 		registerGuiClassNamed: #WorldMorph atPriority: 110; "GUI"
-		register: UIManagerSessionHandler uniqueInstance
-			inCategory: manager guiCategory 
-			atPriority: SmallInteger maxVal; "GUi - last"
+		registerLast: UIManagerSessionHandler uniqueInstance
+			inCategory: manager guiCategory; "GUi - last"
 
 		registerToolClassNamed: #CPUWatcher; "Tools"
 		registerToolClassNamed: #NOCCompletionTable; "Tool"
@@ -64,5 +61,8 @@ initializedSessionManager
 		registerToolClassNamed: #PharoCommonTools; "Tool"
 		registerToolClassNamed: #GTPlayBook; "Tools"
 
+		registerLast: (ClassSessionHandler forClassNamed: #SystemSettingsPersistence)
+			inCategory: manager userCategory; "Preferences loading may need to have anything else well initialized before."
+		
 		yourself.
 	^ manager

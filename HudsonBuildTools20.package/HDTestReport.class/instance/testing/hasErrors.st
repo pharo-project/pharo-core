@@ -1,0 +1,2 @@
+hasErrors 
+	^ suiteErrors ~= 0
