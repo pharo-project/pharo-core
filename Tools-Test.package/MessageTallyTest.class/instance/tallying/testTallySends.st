@@ -3,7 +3,7 @@ testTallySends
 	self debug: #testTallySends
 	"
 	
-	| tally thisMethod activeProcess allProcesses numberOfProcesses processUsedByTally tallyForPrintString tallyForPrintStringBase tallyForSmallIntegerStar |
+	| tally thisMethod allProcesses numberOfProcesses processUsedByTally tallyForPrintString tallyForPrintStringBase |
 	allProcesses := Process allInstances.
 	numberOfProcesses := allProcesses size.
 
@@ -49,12 +49,12 @@ testTallySends
 	"The method printStringBase: calls two methods:
 	   SequenceableCollection class >> streamContents: and Float >> printOn:base:"
 	
-	self assert: (tallyForPrintStringBase receivers size = 2).
+	self assert: (tallyForPrintStringBase receivers size = 1).
 	
 	"streamContents: is been tallied 13 times and printOn:base: 59 times"
-	self assert: (tallyForPrintStringBase receivers size = 2).	
-	self assert: (tallyForPrintStringBase receivers first tally) = 13.	
-	self assert: (tallyForPrintStringBase receivers second tally) >= 50.	
+	self assert: (tallyForPrintStringBase receivers size = 1).	
+	self assert: ((tallyForPrintStringBase receivers first tally) >= 128 ).	
+
 
 	"We close to explicitely release reference of the process, the class and methods"
 	tally close.

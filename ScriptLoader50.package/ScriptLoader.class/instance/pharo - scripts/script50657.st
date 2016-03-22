@@ -1,4 +1,4 @@
-script50656
+script50657
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -36,10 +36,10 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.405.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.34.mcz
+Collections-Tests-TheIntegrator.36.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.102.mcz
-Compiler-EstebanLorenzano.600.mcz
+Compiler-TheIntegrator.602.mcz
 Compression-TheIntegrator.171.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -224,7 +224,7 @@ OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.788.mcz
-OpalCompiler-Tests-TheIntegrator.328.mcz
+OpalCompiler-Tests-TheIntegrator.330.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -322,7 +322,7 @@ System-OSEnvironments-TheIntegrator.25.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-ChristopheDemarey.20.mcz
+System-SessionManager-ChristopheDemarey.21.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.334.mcz
 System-Settings-Tests-TheIntegrator.9.mcz
@@ -357,7 +357,7 @@ Tool-Transcript-TheIntegrator.20.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
-Tools-Test-TheIntegrator.14.mcz
+Tools-Test-TheIntegrator.16.mcz
 Traits-TheIntegrator.898.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
