@@ -1,4 +1,4 @@
 emitArgument: aBuilder context: aContext 
 	self basicEmitArgument: aBuilder context: aContext.
-	self needsArityRolling 
+	self needsArityPacking 
 		ifTrue: [ self  emitPointerArityRoll: aBuilder context: aContext ]

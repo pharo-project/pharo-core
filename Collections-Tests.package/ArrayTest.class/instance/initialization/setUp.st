@@ -2,7 +2,7 @@ setUp
 
 	
 	literalArray := #(1 true 3 #four).
-	selfEvaluatingArray := { 1. true. (3/4). Color black. (2 to: 4) . 5 }.
+	selfEvaluatingArray := { 1. true. (3/4). String loremIpsum. (2 to: 4) . 5 }.
 	nonSEArray1 := { 1 . Set with: 1 }.
 	nonSEarray2 := { Smalltalk globals associationAt: #Array }.
 	example1 := #(1 2 3 4 5) copy.

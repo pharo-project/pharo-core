@@ -8,7 +8,7 @@ testModulePrimitive
 
 	<primitive: ''primitiveCopyBits'' module: ''BitBltPlugin''>
 	self primitiveFailed';
-	class: BitBlt;
+	class: MockForCompilation;
 	compile.
 									
 	bytecode := aCompiledMethod symbolic asString substrings: String cr.

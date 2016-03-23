@@ -1,0 +1,2 @@
+externalTypeSize 
+	^ self externalType byteSize

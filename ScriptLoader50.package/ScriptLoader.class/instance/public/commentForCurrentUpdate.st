@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17860 LiteralDictionaryTest should be moved to Compiler
-	https://pharo.fogbugz.com/f/cases/17860
+ ^ '17859 testModulePrimitive should use mock instead of real class
+	https://pharo.fogbugz.com/f/cases/17859
 
-17829 Failing test: testTallySends
-	https://pharo.fogbugz.com/f/cases/17829
+17866 add support for HANDLE types (windows)
+	https://pharo.fogbugz.com/f/cases/17866
 
-17858 OCCompilerNotifyingTest should not use asText
-	https://pharo.fogbugz.com/f/cases/17858'
+17861 ArrayTest should not use Color
+	https://pharo.fogbugz.com/f/cases/17861'

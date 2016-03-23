@@ -1,0 +1,2 @@
+createDefaultHandle
+	^ 0

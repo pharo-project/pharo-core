@@ -1,0 +1,2 @@
+createDefaultHandle
+	^ ExternalAddress new
