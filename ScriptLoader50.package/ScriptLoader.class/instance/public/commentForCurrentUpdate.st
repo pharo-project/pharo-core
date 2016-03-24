@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17859 testModulePrimitive should use mock instead of real class
-	https://pharo.fogbugz.com/f/cases/17859
+ ^ '17872 simulation mirror primitive100 for perform with superclass is not working
+	https://pharo.fogbugz.com/f/cases/17872
 
-17866 add support for HANDLE types (windows)
-	https://pharo.fogbugz.com/f/cases/17866
-
-17861 ArrayTest should not use Color
-	https://pharo.fogbugz.com/f/cases/17861'
+17873 Simple Test Cases for String (continued)
+	https://pharo.fogbugz.com/f/cases/17873'

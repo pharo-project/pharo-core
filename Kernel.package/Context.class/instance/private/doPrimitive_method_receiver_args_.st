@@ -28,7 +28,11 @@ doPrimitive: primitiveIndex method: meth receiver: aReceiver args: arguments
 	primitiveIndex = 84 ifTrue: "afr 9/11/1998 19:50 & eem 8/18/2009 17:04" "Object>>perform:withArguments:"
 		[^self send: arguments first to: aReceiver with: (arguments at: 2) lookupIn: (self objectClass: aReceiver)].
 	primitiveIndex = 100 ifTrue: "eem 8/18/2009 16:57" "Object>>perform:withArguments:inSuperclass:"
-		[^self send: arguments first to: aReceiver with: (arguments at: 2) lookupIn: (arguments at: 3)].
+		[arguments size = 3 
+			ifTrue: [ ^self send: arguments first to: aReceiver with: (arguments at: 2) lookupIn: (arguments at: 3)]
+			ifFalse: [ ^self send: (arguments at: 2) to: (arguments at: 1) with: (arguments at: 3) lookupIn: (arguments at: 4) ]
+		].
+
 
 	"Mutex>>primitiveEnterCriticalSection
 	 Mutex>>primitiveTestAndSetOwnershipOfCriticalSection"
