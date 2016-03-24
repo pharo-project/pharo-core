@@ -1,5 +1,5 @@
 Object subclass: #FFIMethodRegistry
-	instanceVariableNames: 'lastActivePlatform compiledMethods'
+	instanceVariableNames: 'compiledMethods'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'UnifiedFFI'

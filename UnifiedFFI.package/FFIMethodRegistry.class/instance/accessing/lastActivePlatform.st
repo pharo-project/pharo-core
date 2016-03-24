@@ -1,2 +1,0 @@
-lastActivePlatform
-	^ lastActivePlatform
