@@ -1,0 +1,6 @@
+hasCandidates
+	"Return true if there are any candidates in all categories,
+	false otherwise"
+	<return: #Boolean>
+	
+	^ self candidates isEmpty not

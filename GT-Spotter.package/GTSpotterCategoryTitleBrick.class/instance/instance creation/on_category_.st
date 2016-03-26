@@ -1,7 +1,7 @@
 on: aStepModel category: aProcessor
 
 	self stepModel: aStepModel.
-	self categoryProcessor: aProcessor.
+	self category: aProcessor.
 	
 	self nameBrick: self newNameBrick.
 	self nameBrick text: '#', aProcessor title.

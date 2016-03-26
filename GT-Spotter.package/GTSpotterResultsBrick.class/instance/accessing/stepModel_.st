@@ -7,4 +7,4 @@ stepModel: aModel
 	stepModel candidates announcer weak when: GTSpotterCandidatesAmountChanged send: #onCandidatesAmountChanged: to: self.
 	stepModel announcer weak when: GTSpotterScrollPageDown send: #scrollPageDown to: self.
 	stepModel announcer weak when: GTSpotterScrollPageUp send: #scrollPageUp to: self.
-	stepModel spotter announcer weak when: GTSpotterCandidateSelected send: #onCandidateSelected: to: self.
+	stepModel announcer weak when: GTSpotterCandidateSelected send: #onCandidateSelected: to: self

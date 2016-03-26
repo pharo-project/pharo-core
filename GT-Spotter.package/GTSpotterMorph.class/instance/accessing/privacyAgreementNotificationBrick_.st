@@ -9,4 +9,5 @@ privacyAgreementNotificationBrick: aBrick
 			ifFalse: [self themer spotterThemer previewArrowWidth - (2*self themer spotterThemer previewBorderWidth)] 
 			ifTrue: [0])].
 	
+	privacyAgreementNotificationBrick settingsButtonBrick when: #onClicked send: #closeSpotter to: self.
 	self addBrickBack: privacyAgreementNotificationBrick

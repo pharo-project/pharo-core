@@ -1,5 +1,9 @@
 canDiveIn: aCandidate
-	| newFakeStep |
+	| newFakeStep canDiveIn|
+	canDiveIn := false.
 	newFakeStep := self spotter newStep origin: self origin.
-	aCandidate spotterProcessorsFor: newFakeStep.
-	^ newFakeStep processors notEmpty
+	self spotter
+		addStep: newFakeStep
+		during: [ aCandidate spotterProcessorsFor: newFakeStep.
+			canDiveIn := newFakeStep processors notEmpty ].
+	^ canDiveIn

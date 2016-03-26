@@ -1,13 +1,11 @@
 onCandidateSelected: ann
-	|categoryBrick titleBrick processor|
+	|processor categoryBrick itemBrick titleBrick scrollTo|
 
-	"fast exit if selected candidate does not exist any more"
-	(self band hasSubbrick: ann candidateBrick)
-		ifFalse: [ ^ self ].
-		
-	processor := ann candidateBrick processor.
-	categoryBrick := self categoryBrickFor: processor.
+	processor := ann itemBrick processor.	
+	categoryBrick := self categoryBrickOf: processor ifAbsent: [ ^ self ].
+	itemBrick := ann itemBrick.
 	titleBrick := categoryBrick titleBrick.
-	self scrollTo: ((ann candidateBrick candidateLink isFirst and: [ titleBrick isFirstInOwner ])
+	scrollTo := (itemBrick candidateLink isFirst and: [ titleBrick isFirstInOwner ])
 		ifTrue: [ titleBrick ]
-		ifFalse: [ ann candidateBrick ])
+		ifFalse: [ itemBrick ].
+	self scrollTo: scrollTo

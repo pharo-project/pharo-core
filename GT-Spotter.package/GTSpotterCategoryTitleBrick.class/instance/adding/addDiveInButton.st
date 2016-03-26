@@ -4,10 +4,10 @@ addDiveInButton
 	self diveInButton
 		icon: self themer spotterThemer iconDiveInCategory;
 		pressedColor: (self themer spotterThemer itemActionSelectedBackgroundColor alpha: 0.5);
-		action: [ self stepModel diveInCategory: self categoryProcessor dueTo: #actionButton ];
+		action: [ self stepModel diveInCategory: self category dueTo: #actionButton ];
 		beHelp;
 		hintTitle: 'Show all';
-		hintText: '<cmd+shift+right>'.
+		hintText: '<',OSPlatform current defaultModifier name asLowercase,'+shift+right>'.
 		
 	self pushActionButton: self diveInButton
 	

@@ -1,6 +1,3 @@
 selectNextDueTo: anEventType
 	
-	self selected ifNil: [ ^ self ].
-	self selected: self selected nextLink dueTo: anEventType
-	
-	
+	self selected: self selected next dueTo: anEventType

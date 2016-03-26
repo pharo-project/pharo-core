@@ -1,3 +1,3 @@
 newPrivacyAgreementNotificationBrick
 
-	^ GTSpotterPrivacyAgreementNotificationBrick new
+	^ GLMPrivacyAgreementBrick new

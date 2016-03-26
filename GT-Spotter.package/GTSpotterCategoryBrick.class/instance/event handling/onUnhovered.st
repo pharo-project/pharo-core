@@ -1,3 +1,3 @@
 onUnhovered
-	self stepModel selectedCategory == self category
+	(self stepModel isCategorySelected: self category)
 		ifFalse: [ self titleBrick hideActionbar ]

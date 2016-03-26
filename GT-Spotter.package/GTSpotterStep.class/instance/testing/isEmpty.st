@@ -1,3 +1,0 @@
-isEmpty
-
-	^ self candidates isEmpty

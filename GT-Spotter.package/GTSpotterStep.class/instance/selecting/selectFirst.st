@@ -1,4 +1,6 @@
 selectFirst
+	self
+		assert: self candidates isEmpty not
+		description: 'There must be at least one candidate in order to selected first'.
 	
-	self candidates isEmpty ifTrue: [ ^ self ].
 	self selected: self candidates head

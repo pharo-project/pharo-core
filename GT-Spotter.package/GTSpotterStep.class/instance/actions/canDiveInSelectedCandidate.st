@@ -1,3 +1,3 @@
 canDiveInSelectedCandidate
 
-	^ self canDiveIn: self selectedCandidate
+	^ self canDiveIn: self selected candidate

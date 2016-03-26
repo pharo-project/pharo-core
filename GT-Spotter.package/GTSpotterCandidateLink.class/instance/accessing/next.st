@@ -1,0 +1,2 @@
+next
+	^ self nextLink

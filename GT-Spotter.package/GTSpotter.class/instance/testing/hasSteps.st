@@ -1,0 +1,2 @@
+hasSteps
+	^ 	self steps isNotEmpty

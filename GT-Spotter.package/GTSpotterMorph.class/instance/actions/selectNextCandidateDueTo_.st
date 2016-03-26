@@ -1,5 +1,4 @@
 selectNextCandidateDueTo: anEventType
 
-	self spotterModel isEmpty
-		ifFalse: [ self spotterModel currentStep selectNextDueTo: anEventType ]
-	
+	self spotterModel hasSelected
+		ifTrue: [ self spotterModel currentStep selectNextDueTo: anEventType ]

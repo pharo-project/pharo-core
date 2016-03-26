@@ -1,2 +1,0 @@
-categoryProcessor
-	^ categoryProcessor

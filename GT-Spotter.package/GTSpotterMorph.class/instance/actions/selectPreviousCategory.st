@@ -1,5 +1,5 @@
 selectPreviousCategory
 
-	self spotterModel isEmpty
-		ifFalse: [ self spotterModel currentStep selectPreviousCategory ]
+	self spotterModel hasSelected
+		ifTrue: [ self spotterModel currentStep selectPreviousCategory ]
 	

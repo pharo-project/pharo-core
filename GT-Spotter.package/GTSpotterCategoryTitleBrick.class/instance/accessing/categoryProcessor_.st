@@ -1,2 +1,0 @@
-categoryProcessor: anObject
-	categoryProcessor := anObject

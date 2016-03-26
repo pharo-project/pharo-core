@@ -1,2 +1,0 @@
-candidateBrick: anObject
-	candidateBrick := anObject

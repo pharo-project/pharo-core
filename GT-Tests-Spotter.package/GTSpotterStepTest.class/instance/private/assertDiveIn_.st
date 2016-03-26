@@ -8,7 +8,7 @@ assertDiveIn: aSelector
 	link := spotter currentStep candidates getCandidateLink: currentCandidate in: currentProcessor.
 	
 	self assert: link notNil.
-	self assert: link value == currentCandidate.
+	self assert: link candidate == currentCandidate.
 	self assert: link processor == currentProcessor.
 
 	" set the selection - like the UI would do "

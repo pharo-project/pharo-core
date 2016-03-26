@@ -1,6 +1,5 @@
 currentStep
-	
-	^ currentStep ifNil: [ 
-			self isEmpty 
-				ifTrue: [ self newStep origin: self foundationOrigin ]
-				ifFalse: [ currentStep := self steps last ] ]
+	^ currentStep
+		ifNil: [ self hasSteps
+				ifTrue: [ currentStep := self steps last ]
+				ifFalse: [ self newStep origin: self foundationOrigin ] ]

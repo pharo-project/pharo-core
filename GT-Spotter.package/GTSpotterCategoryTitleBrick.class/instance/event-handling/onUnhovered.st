@@ -1,3 +1,3 @@
 onUnhovered
-	self stepModel selectedCategory == self categoryProcessor
+	(self stepModel isCategorySelected: self category)
 		ifFalse: [ self hideActionbar ]

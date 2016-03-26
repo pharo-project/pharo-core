@@ -6,5 +6,7 @@ spotterClipboardFor: aStep
 		itemName: [ :item | item asString contractTo: 100 ];
 		itemFilterName: [ :item | item asString ];
 		filter: GTFilterSubstrings;
-		actLogic: [ :item | item asString inspect ];
+		actLogic: [ :item :step |
+			step exit.
+			item asString inspect ];
 		wantsToDisplayOnEmptyQuery: false

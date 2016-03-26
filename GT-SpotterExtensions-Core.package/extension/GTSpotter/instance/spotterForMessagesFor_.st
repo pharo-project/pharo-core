@@ -4,6 +4,8 @@ spotterForMessagesFor: aStep
 	aStep listProcessor
 		title: 'Messages';
 		filter: GTNullFilter item: [ :filter :context | 
-			GTSelectorImplementors substring: context textTrimmed filter: filter ];
-		actLogic: [ :each | self systemNavigation browseAllImplementorsOf: each name ];		
+			GTSelector substring: context textTrimmed filter: filter ];
+		actLogic: [ :each :step|
+			step exit.
+			self systemNavigation browseAllImplementorsOf: each name ];		
 		wantsToDisplayOnEmptyQuery: false

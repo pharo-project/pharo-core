@@ -1,6 +1,6 @@
 categoryBrickFor: aProcessor
 	"Return a container brick that contains candidates for aProcessor.
-	If category brick for aProcessor is used requested for the first time
+	If category brick for aProcessor is requested for the first time
 	it gets created without being added to spotter UI"
 	<return: #GTSpotterCategoryBrick>
 	

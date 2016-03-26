@@ -1,4 +1,4 @@
 spotterModelDo: aBlock
 	self spotterModel handleExceptionsDuring: [ 
-		aBlock value.
+		aBlock cull: self spotterModel.
 		self handleProcessorKeyBindings ]

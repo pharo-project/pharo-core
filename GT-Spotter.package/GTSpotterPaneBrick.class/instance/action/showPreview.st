@@ -3,8 +3,9 @@ showPreview
 	self isPreviewShown ifTrue: [ ^ self ].
 	
 	self addBrickBack: self previewBrick.
-	self previewBrick spotterModel ifNotNil: [
-		self previewBrick updatePreviewWith: self previewBrick spotterModel currentStep selectedCandidate ].
+	self previewBrick spotterModel ifNotNil: [ :aSpotter |
+		aSpotter hasSelected ifTrue: [
+			self previewBrick updatePreviewWith: aSpotter currentStep selected candidate ] ].
 	
 	self contentsBrick hSpaceFill: (100 - self previewBrick layout hPercent).
 	self changed.

@@ -7,8 +7,8 @@ spotterItemsFor: aStep
 		allCandidates: [ self items ];
 		itemName: #contents;
 		itemIcon: [ :item | item icon ];
-		actLogic: [ :item | 
+		actLogic: [ :item :step | 
 			item hasSubMenu 
-				ifTrue: [ aStep diveIn ] 
-				ifFalse: [ item spotterActDefault. aStep exit ] ];
+				ifTrue: [ step diveIn ] 
+				ifFalse: [ item spotterActDefault. step exit ] ];
 		filter: GTFilterSubstring 

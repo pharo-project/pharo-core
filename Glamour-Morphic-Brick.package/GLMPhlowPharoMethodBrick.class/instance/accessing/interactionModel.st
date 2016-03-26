@@ -1,0 +1,2 @@
+interactionModel
+	^ self

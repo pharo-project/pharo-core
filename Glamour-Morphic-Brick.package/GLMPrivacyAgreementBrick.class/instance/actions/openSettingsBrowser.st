@@ -1,0 +1,2 @@
+openSettingsBrowser
+	self class openSettingsBrowser
