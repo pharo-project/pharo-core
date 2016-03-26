@@ -1,6 +1,6 @@
 addTraitIn: aPackage
 	" add a new class in the provided package. A dialog will be opened to let the user set the class definition "
-	|  systemCategory classDefinition |
+	|  systemCategory classDefinition newTrait |
 	
 	systemCategory := aPackage
 		ifNotNil: [ aPackage categoryName ]
@@ -14,3 +14,6 @@ addTraitIn: aPackage
 	(classDefinition isNil or: [ classDefinition isEmpty ])
 		ifTrue: [ ^ self ].
 	self class evaluate: classDefinition.
+	
+	newTrait := self class evaluate: classDefinition.
+	self browseClass: newTrait.

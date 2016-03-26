@@ -19,5 +19,5 @@ addClassIn: aPackage
 	classDefinition isEmptyOrNil 
 		ifTrue: [ ^ self ].
 		
-	newClass := self class evaluate: classDefinition.
-	self browseClass: newClass
+	newClass := self compileANewClassFrom: classDefinition notifying: nil startingFrom: nil.
+	newClass ifNotNil: [self browseClass: newClass].

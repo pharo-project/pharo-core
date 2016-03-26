@@ -3,7 +3,8 @@ compileAMethodFromCategory: aCategory withSource: aString notifying: aController
 	category := aCategory.
 	class := self selectedClass ifNil: [ ^ Error signal: 'Should not happen!' ].
 	(category = self noMethodsString or: [ category = self allLabel ])
-		ifTrue: [ category := self asYetUnclassifiedString ].
+		ifTrue: [ category := self asYetUnclassifiedString.
+			self categoryWidget resetCategorySelection ].
 	selector := self
 		compileANewMethodInClass: class
 		categorized: category
