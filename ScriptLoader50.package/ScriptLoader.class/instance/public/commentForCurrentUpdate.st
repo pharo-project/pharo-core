@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17901 Morph#>>openCenteredInWorld do not use Display
-	https://pharo.fogbugz.com/f/cases/17901
+ ^ '17218 needs to use new spec drag n drop transfer models
+	https://pharo.fogbugz.com/f/cases/17218
 
-14107 Truncated text on text lists with bold font 
-	https://pharo.fogbugz.com/f/cases/14107
+17823 Critic browser is not dark theme friendly
+	https://pharo.fogbugz.com/f/cases/17823
 
-17885 ThemeChanged improvements
-	https://pharo.fogbugz.com/f/cases/17885'
+17898 RPackage>>#isDirty speedup
+	https://pharo.fogbugz.com/f/cases/17898'

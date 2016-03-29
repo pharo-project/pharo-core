@@ -1,6 +1,10 @@
 isDirty
+	
+	| mcp |
+	
+	mcp := MCPackage named: self name.
 
-	| modifiedPackages packages |
-	modifiedPackages := MCWorkingCopy allManagers select: [ :each | each modified ].
-	packages := modifiedPackages collect: [:each | each package name].
-	^ packages includes: self name.
+	^(MCWorkingCopy registry 
+		at: mcp
+		ifPresent: [ :item | item modified ]
+		ifAbsent: [ false ])

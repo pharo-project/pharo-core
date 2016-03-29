@@ -5,9 +5,9 @@ initializeGroupsWidget
 		dropEnabled: true;
 		acceptDropBlock: [ :transfer :event :source :receiver | | passengerItem myreceiver | 
 			myreceiver := receiver.
-			myreceiver parent ifNotNil: [ myreceiver := myreceiver parent ]. "Only add dependencies on top elements"
+			myreceiver parentNode ifNotNil: [ myreceiver := myreceiver parentNode ]. "Only add dependencies on top elements"
 			passengerItem := transfer passenger item.
-			myreceiver complexContents item 
+			myreceiver content  
 				addDependency: ((passengerItem isKindOf: MTDependency) "Ugly test because String>>name adds extra quotes"
 					ifTrue: [ passengerItem name ]
 					ifFalse: [ passengerItem ]) ];
