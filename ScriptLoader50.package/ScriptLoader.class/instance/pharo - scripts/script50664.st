@@ -1,4 +1,4 @@
-script50663
+script50664
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -177,16 +177,16 @@ MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-TheIntegrator.15.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.544.mcz
-Morphic-Core-TheIntegrator.265.mcz
+Morphic-Core-TheIntegrator.268.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.78.mcz
+Morphic-Widgets-Basic-TheIntegrator.80.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.163.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.64.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.66.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
@@ -229,7 +229,7 @@ OpalCompiler-Tests-TheIntegrator.331.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1330.mcz
+Polymorph-Widgets-TheIntegrator.1332.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz

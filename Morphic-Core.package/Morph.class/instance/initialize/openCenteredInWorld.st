@@ -1,6 +1,6 @@
 openCenteredInWorld
-
+	"Open me in the center of current world"
 	self 
 		fullBounds;
-		position: Display extent - self extent // 2;
-		openInWorld.
+		openInWorld;
+		center: self world clearArea center
