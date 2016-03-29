@@ -1,4 +1,4 @@
-script50662
+script50663
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -81,23 +81,23 @@ GT-Debugger-MarcusDenker.329.mcz
 GT-EventRecorder-AndreiChis.62.mcz
 GT-EventRecorder-Tests-JurajKubelka.36.mcz
 GT-Inspector-AlexandreBergel.389.mcz
-GT-InspectorExtensions-Core-TudorGirba.204.mcz
+GT-InspectorExtensions-Core-TudorGirba.205.mcz
 GT-Playground-AliakseiSyrel.122.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-TudorGirba.382.mcz
+GT-Spotter-YuriyTymchuk.390.mcz
 GT-Spotter-EventRecorder-TheIntegrator.109.mcz
-GT-SpotterExtensions-Core-TudorGirba.198.mcz
+GT-SpotterExtensions-Core-AliakseiSyrel.201.mcz
 GT-Tests-Debugger-TheIntegrator.13.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-TudorGirba.16.mcz
+GT-Tests-Spotter-AliakseiSyrel.17.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.111.mcz
 Glamour-Core-GuillermoPolito.312.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-AliakseiSyrel.412.mcz
+Glamour-Morphic-Brick-YuriyTymchuk.414.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-AliakseiSyrel.107.mcz
 Glamour-Morphic-Renderer-TudorGirba.346.mcz
@@ -202,7 +202,7 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1226.mcz
+Nautilus-TheIntegrator.1227.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -219,9 +219,10 @@ Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.33.mcz
 NodeNavigation-TheIntegrator.53.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
-OSWindow-Core-TheIntegrator.98.mcz
+OSWindow-Core-TheIntegrator.100.mcz
 OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
+OSWindow-Tests-TheIntegrator.2.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.788.mcz
 OpalCompiler-Tests-TheIntegrator.331.mcz
@@ -235,7 +236,7 @@ ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.93.mcz
 QualityAssistantRecording-YuriyTymchuk.20.mcz
-RPackage-Core-TheIntegrator.426.mcz
+RPackage-Core-TheIntegrator.428.mcz
 RPackage-Tests-TheIntegrator.181.mcz
 Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
@@ -266,7 +267,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
-Rubric-HenrikNergaard.348.mcz
+Rubric-AliakseiSyrel.350.mcz
 Rubric-Rules-YuriyTymchuk.2.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
@@ -284,7 +285,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.732.mcz
+Slot-TheIntegrator.736.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz

@@ -5,7 +5,7 @@ methodAdded: anAnnouncement
 	window isDisplayed ifFalse: [ ^ self ].
 	
 	method := anAnnouncement method.
-	((method methodClass = self selectedClass) or: [ method methodClass users includes: self selectedClass  ])
+	(self interestedInClass: method methodClass)
 		ifTrue: [ 
 			self resetMethodsListSelection.
 			self removeAllFromMethodsIconsCache: method.

@@ -2,4 +2,4 @@ TestCase subclass: #OSWindowTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'OSWindow-Core-Tests'
+	category: 'OSWindow-Tests'
