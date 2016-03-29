@@ -1,4 +1,4 @@
-script50665
+script50666
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -378,7 +378,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-StephaneDucasse.64.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.104.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-TheIntegrator.184.mcz
+Versionner-Spec-Browser-TorstenBergmann.185.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-MarcusDenker.45.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

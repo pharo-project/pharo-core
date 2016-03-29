@@ -1,1 +1,1 @@
-RubFindReplaceService default newDialog openInWorldRubFindReplaceService 
+RubFindReplaceService default newDialog openInWorldRubFindReplaceService .
