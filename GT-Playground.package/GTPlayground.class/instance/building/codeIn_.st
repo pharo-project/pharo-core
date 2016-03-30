@@ -36,7 +36,7 @@ codeIn: a
 						text update];
 					yourself ]; 
 				icon: Smalltalk ui icons glamorousMore;
-				title: 'Bindings';
+				title: 'Play pages';
 				yourself);
 		dynamicActionsOnSelection: [ self contextMenuActions ];
 		onChangeOfPort: #text act: [ :text :page | 

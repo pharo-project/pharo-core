@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17909 Update Rubric to 2.16
-	https://pharo.fogbugz.com/f/cases/17909'
+ ^ '17910 GToolkit version 3.17
+	https://pharo.fogbugz.com/f/cases/17910'

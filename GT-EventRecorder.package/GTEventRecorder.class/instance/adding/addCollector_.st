@@ -1,3 +1,3 @@
 addCollector: aGTEventCollector
-	self activateDelivery.
+	self activateDeliveryIfAvailable.
 	^ collectors add: aGTEventCollector

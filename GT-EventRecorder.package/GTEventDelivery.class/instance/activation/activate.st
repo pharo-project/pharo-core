@@ -1,6 +1,6 @@
 activate
-	"Initialize a delivery process if permitted and necessary."
+	"Initialize a delivery process."
 	^ mutex critical: [ 
-			self hasPermission ifFalse: [ ^ self ].
+			self offerPermission.
 			self isInactive ifTrue: [ self initializeProcess ].
 			process ]

@@ -1,2 +1,2 @@
 value 
-	^ self process: self example
+	^ self withContextDo: [ self process: self example ]

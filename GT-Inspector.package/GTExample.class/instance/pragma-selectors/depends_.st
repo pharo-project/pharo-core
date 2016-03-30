@@ -1,6 +1,5 @@
 depends: aSelector
-	children add: (GTExampleProxy new
-		owner: self;
-		provider: self provider;
-		selector: aSelector asSymbol;
-		yourself)
+	<gtExamplePragma>
+	<description: 'This example depends on the example declared by the given selector. Any dependency will be performed before this example is performed. Order of declaration is important'>
+	
+	children add: (self proxyForSelector: aSelector)

@@ -1,7 +1,6 @@
 dependsClass: aClassOrClassName selector: aSelector
+	<gtExamplePragma>
+	<description: 'This example depends on the example declared by the given class and selector. Any dependency will be performed before this example is performed. Order of declaration is important'>
+	
 	self classNamed: aClassOrClassName do: [ :class | 
-		children add: (GTExampleProxy new
-			owner: self;
-			provider: class gtExamplesProvider; " we have to resolve the kind of example again - it could be implemented in #class or in the provider of #class ! "
-			selector: aSelector asSymbol;
-			yourself) ]
+		children add: (self proxyForClass: class selector: aSelector) ]

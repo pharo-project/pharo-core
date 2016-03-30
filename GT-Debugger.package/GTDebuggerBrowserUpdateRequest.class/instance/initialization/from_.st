@@ -1,0 +1,2 @@
+from: anAnnouncement
+	debugActionExecutedAnnouncement := anAnnouncement

@@ -1,2 +1,0 @@
-addSelectionOpenBrowserAction: anAction
-	self selectionOpenBrowserActions add: anAction

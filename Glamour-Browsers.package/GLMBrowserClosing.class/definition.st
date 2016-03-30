@@ -1,5 +1,5 @@
 Announcement subclass: #GLMBrowserClosing
-	instanceVariableNames: ''
+	instanceVariableNames: 'presentation'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Browsers-Announcements'

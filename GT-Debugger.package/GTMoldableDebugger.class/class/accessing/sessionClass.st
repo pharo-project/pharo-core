@@ -1,2 +1,2 @@
 sessionClass
-	self subclassResponsability
+	self subclassResponsibility

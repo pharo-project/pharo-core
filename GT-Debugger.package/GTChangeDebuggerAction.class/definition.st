@@ -1,5 +1,5 @@
 DebugAction subclass: #GTChangeDebuggerAction
-	instanceVariableNames: 'debuggerClass'
+	instanceVariableNames: 'debuggerClass newDebugger'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Debugger-Actions'

@@ -9,5 +9,6 @@ debug: aContext using: aDebuggerClass
 	newDebugger openWithFullView.
 	newDebugger window window "Hack to get this working with SpecDebugger"
 		position: self window position;
-		extent: self window extent
+		extent: self window extent.
+	^ newDebugger
 		
