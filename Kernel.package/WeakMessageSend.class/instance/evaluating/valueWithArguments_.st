@@ -1,5 +1,10 @@
 valueWithArguments: anArray
-	self ensureReceiverAndArguments ifFalse: [ ^nil ].
-	^ self receiver 
+
+	| strongReceiver |
+	
+	strongReceiver := self receiver.
+
+	(self ensureReceiverAndArguments: strongReceiver) ifFalse: [ ^nil ].
+	^ strongReceiver 
 		perform: selector 
 		withArguments: (self collectArguments: anArray)

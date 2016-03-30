@@ -1,12 +1,12 @@
-script50666
+script50667
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
 AST-Tests-Core-TheIntegrator.95.mcz
 Alien-eem.32.mcz
-Announcements-Core-EstebanLorenzano.65.mcz
+Announcements-Core-TheIntegrator.68.mcz
 Announcements-Help-TheIntegrator.12.mcz
-Announcements-Tests-Core-TheIntegrator.27.mcz
+Announcements-Tests-Core-TheIntegrator.31.mcz
 Athens-Balloon-MarcusDenker.20.mcz
 Athens-Cairo-TheIntegrator.118.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
@@ -130,7 +130,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2261.mcz
+Kernel-TheIntegrator.2264.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.49.mcz
 Keymapping-Core-EstebanLorenzano.195.mcz
@@ -267,7 +267,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
-Rubric-AliakseiSyrel.350.mcz
+Rubric-HenrikNergaard.353.mcz
 Rubric-Rules-YuriyTymchuk.2.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
@@ -285,7 +285,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.736.mcz
+Slot-TheIntegrator.737.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
@@ -332,7 +332,7 @@ System-Sources-TheIntegrator.46.mcz
 System-Support-TheIntegrator.1208.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
-Tests-TheIntegrator.751.mcz
+Tests-TheIntegrator.755.mcz
 Text-Core-TheIntegrator.50.mcz
 Text-Diff-StephaneDucasse.4.mcz
 Text-Edition-TheIntegrator.110.mcz

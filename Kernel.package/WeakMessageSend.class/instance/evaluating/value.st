@@ -1,8 +1,13 @@
 value
+
+	| strongReceiver |
+	
+	strongReceiver := self receiver.
+
 	^ arguments isNil
-		ifTrue: [self ensureReceiver
-				ifTrue: [self receiver perform: selector] ifFalse: []]
-		ifFalse: [self ensureReceiverAndArguments
-				ifTrue: [self receiver
+		ifTrue: [(self ensureReceiver: strongReceiver)
+				ifTrue: [strongReceiver perform: selector] ifFalse: []]
+		ifFalse: [(self ensureReceiverAndArguments: strongReceiver)
+				ifTrue: [strongReceiver
 						perform: selector
-						withArguments: (Array withAll: arguments)] ifFalse: []]
+						withArguments: (Array withAll: arguments)] ifFalse: []].

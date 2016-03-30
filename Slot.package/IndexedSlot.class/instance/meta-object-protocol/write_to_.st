@@ -1,2 +1,2 @@
 write: aValue to: anObject
-	^ anObject instVarAt: index put: aValue.
+	^ thisContext object: anObject instVarAt: index put: aValue.

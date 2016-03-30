@@ -1,2 +1,2 @@
 read: anObject
-	^ anObject instVarAt: index
+	^ thisContext object: anObject instVarAt: index

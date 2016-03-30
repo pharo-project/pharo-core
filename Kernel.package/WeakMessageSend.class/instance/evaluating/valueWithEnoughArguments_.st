@@ -1,7 +1,10 @@
 valueWithEnoughArguments: anArray
 	"call the selector with enough arguments from arguments and anArray"
-	| args |
-	self ensureReceiverAndArguments ifFalse: [ ^nil ].
+	| args strongReceiver |
+	
+	strongReceiver := self receiver.
+	
+	(self ensureReceiverAndArguments: strongReceiver) ifFalse: [ ^nil ].
 	args := Array new: selector numArgs.
 	args replaceFrom: 1
 		to: ( arguments size min: args size)
@@ -13,4 +16,4 @@ valueWithEnoughArguments: anArray
 			with: anArray
 			startingAt: 1.
 	].
-	^ self receiver perform: selector withArguments: args
+	^ strongReceiver perform: selector withArguments: args
