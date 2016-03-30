@@ -1,5 +1,4 @@
 whenTextAreaGotFocus: anAnnounce
-	self hasActiveDialog ifFalse: [ ^self ].
 	self textArea: anAnnounce morph.
 	self findText: self findText.
 	self changed: #findText.
