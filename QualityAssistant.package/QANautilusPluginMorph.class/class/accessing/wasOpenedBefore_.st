@@ -1,0 +1,3 @@
+wasOpenedBefore: aBoolean
+
+	wasOpenedBefore := aBoolean 

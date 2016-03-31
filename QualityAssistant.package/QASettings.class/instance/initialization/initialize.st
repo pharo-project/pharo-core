@@ -1,4 +1,5 @@
 initialize
 	super initialize.
 	
-	inspectorPlugin := false
+	inspectorPlugin := false.
+	spotterPlugin := false

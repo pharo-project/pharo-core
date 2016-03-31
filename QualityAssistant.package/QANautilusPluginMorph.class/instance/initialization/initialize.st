@@ -12,12 +12,14 @@ initialize
 		height: 51; "because it fits 3 row list without showing scrollbars"
 		cellInset: 3;
 		color: Color transparent.
-		
+	
 	self initializeList.
 	self initializeProgress.
 	self initializeUpdateTask.
 	
-	self
-		addMorphBack: listMorph.
-		
+	self addMorphBack: (
+		self class wasOpenedBefore
+			ifTrue: [ listMorph ]
+			ifFalse: [ self privacyMorph ]).
+	
 	self subscribe

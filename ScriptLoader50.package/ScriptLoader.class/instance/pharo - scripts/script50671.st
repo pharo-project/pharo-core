@@ -1,4 +1,4 @@
-script50670
+script50671
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -342,9 +342,9 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.140.mcz
 Tool-Catalog-EstebanLorenzano.30.mcz
 Tool-CriticBrowser-TheIntegrator.21.mcz
-Tool-DependencyAnalyser-ChristopheDemarey.25.mcz
+Tool-DependencyAnalyser-ChristopheDemarey.26.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
-Tool-DependencyAnalyser-UI-GuillermoPolito.39.mcz
+Tool-DependencyAnalyser-UI-ChristopheDemarey.40.mcz
 Tool-Diff-TheIntegrator.25.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz

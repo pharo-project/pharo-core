@@ -8,6 +8,5 @@ applyKerningOn: aGlyphs of: aString from: start to: end
 		current := aString at: start + (index - 1).
 		index > 1 ifTrue: [
 			kerning := kerning + (originalFont kerningLeft: previous right: current).
-			glyph x: glyph x + kerning.
-			aGlyphs at: index put: glyph ].
+			glyph x: glyph x + kerning ].
 		previous := current ]

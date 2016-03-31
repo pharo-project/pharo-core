@@ -1,5 +1,5 @@
 Object subclass: #QASettings
-	instanceVariableNames: 'inspectorPlugin'
+	instanceVariableNames: 'inspectorPlugin spotterPlugin'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'QualityAssistant'

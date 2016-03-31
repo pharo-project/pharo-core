@@ -1,0 +1,3 @@
+spotterPlugin
+	
+	^ spotterPlugin
