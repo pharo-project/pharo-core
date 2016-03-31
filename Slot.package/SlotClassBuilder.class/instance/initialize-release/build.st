@@ -36,6 +36,7 @@ build
 	
 	"call all slots and allow them to modify the class"
 	classChange additions do: [ :each | each installingIn: result].
+	classChange changes do: [ :each | each changingIn: result ].
 	classChange removals do: [ :each | each removingFrom: result].
 	result classLayout slots do: [ :each | each layoutChanged: result]. 
 	

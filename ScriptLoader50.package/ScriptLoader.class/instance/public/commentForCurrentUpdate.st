@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '17904 Update athens 3.9
-	https://pharo.fogbugz.com/f/cases/17904
+ ^ '16775 Class Button is in the wrong state sometimes
+	https://pharo.fogbugz.com/f/cases/16775
 
-17912 QualityAssistant v2.6.2
-	https://pharo.fogbugz.com/f/cases/17912'
+17871 Slots need to be notified when they changed
+	https://pharo.fogbugz.com/f/cases/17871
+
+16373 Methods called but not implemented in SUnit
+	https://pharo.fogbugz.com/f/cases/16373'

@@ -1,2 +1,2 @@
 announce: anAnnouncementClass
-	^ self announce: anAnnouncementClass with: nil
+	^ self announce: anAnnouncementClass withResult: nil

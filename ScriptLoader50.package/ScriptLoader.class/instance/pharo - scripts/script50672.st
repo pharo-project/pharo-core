@@ -1,4 +1,4 @@
-script50671
+script50672
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -8,7 +8,7 @@ Announcements-Core-TheIntegrator.68.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.31.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-TheIntegrator.118.mcz
+Athens-Cairo-AliakseiSyrel.120.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -180,7 +180,7 @@ Morphic-Base-TheIntegrator.544.mcz
 Morphic-Core-TheIntegrator.268.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.80.mcz
+Morphic-Widgets-Basic-TheIntegrator.82.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-EstebanLorenzano.163.mcz
@@ -234,7 +234,7 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.93.mcz
+QualityAssistant-YuriyTymchuk.96.mcz
 QualityAssistantRecording-YuriyTymchuk.20.mcz
 RPackage-Core-TheIntegrator.428.mcz
 RPackage-Tests-TheIntegrator.181.mcz
@@ -271,7 +271,7 @@ Rubric-HenrikNergaard.354.mcz
 Rubric-Rules-YuriyTymchuk.2.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
-SUnit-Core-TheIntegrator.165.mcz
+SUnit-Core-TheIntegrator.167.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-EstebanLorenzano.138.mcz
@@ -285,7 +285,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.737.mcz
+Slot-TheIntegrator.738.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz

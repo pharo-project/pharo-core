@@ -1,8 +1,11 @@
-assert: aBooleanOrBlock description: aString resumable: resumableBoolean 
+assert: aBooleanOrBlock description: aStringOrBlock resumable: resumableBoolean 
 	| exception |
 	aBooleanOrBlock value
 		ifFalse: 
-			[self classForTestResult failure new
-				isResumable: resumableBoolean;
-				signal: aString]
+			[|aString|
+			aString := aStringOrBlock value.
+			exception := resumableBoolean
+						ifTrue: [self classForTestResult resumableFailure]
+						ifFalse: [self classForTestResult failure].
+			exception signal: aString]
 			
