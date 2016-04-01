@@ -1,4 +1,4 @@
-script50672
+script50673
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -149,8 +149,8 @@ Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
 Metacello-Core-TheIntegrator.824.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
-Metacello-GitBasedRepository-EstebanLorenzano.21.mcz
-Metacello-GitHub-EstebanLorenzano.53.mcz
+Metacello-GitBasedRepository-TheIntegrator.24.mcz
+Metacello-GitHub-TheIntegrator.56.mcz
 Metacello-MC-EstebanLorenzano.733.mcz
 Metacello-PharoCommonPlatform-TheIntegrator.22.mcz
 Metacello-Platform-EstebanLorenzano.3.mcz

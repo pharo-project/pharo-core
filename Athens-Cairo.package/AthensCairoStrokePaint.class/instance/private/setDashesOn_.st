@@ -8,9 +8,8 @@ setDashesOn: aCanvas
 		buf nbFloat64AtOffset: (i-1)*8 put: len asFloat
 		].
 
-	self
-		primSetDashesOn: aCanvas
-		lengths: buf
+	aCanvas
+		primSetDashesLengths: buf
 		count: dashLenghts size
 		offset: dashOffset
 		

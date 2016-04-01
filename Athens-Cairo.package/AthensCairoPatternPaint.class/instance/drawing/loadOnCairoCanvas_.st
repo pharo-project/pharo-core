@@ -4,7 +4,7 @@ loadOnCairoCanvas: aCanvas
 	"
 
 	self isSuccess
-		ifTrue:[ self primSetSourceOn: aCanvas.]
+		ifTrue:[ aCanvas primSetSource: self ]
 		ifFalse:[ aCanvas setSourceR: 1.0 g: 0.0 b: 0.0 a: 1.0].
 	 
 		

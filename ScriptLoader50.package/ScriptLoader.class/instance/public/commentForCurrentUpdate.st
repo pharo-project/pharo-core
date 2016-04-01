@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16775 Class Button is in the wrong state sometimes
-	https://pharo.fogbugz.com/f/cases/16775
+ ^ '17887 Update startup of metacello to use the session manager
+	https://pharo.fogbugz.com/f/cases/17887
 
-17871 Slots need to be notified when they changed
-	https://pharo.fogbugz.com/f/cases/17871
-
-16373 Methods called but not implemented in SUnit
-	https://pharo.fogbugz.com/f/cases/16373'
+17922 Update Athens 3.9.2
+	https://pharo.fogbugz.com/f/cases/17922'

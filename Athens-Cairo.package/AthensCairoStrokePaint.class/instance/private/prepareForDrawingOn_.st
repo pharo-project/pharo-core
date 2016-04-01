@@ -3,10 +3,10 @@ prepareForDrawingOn: aCanvas
 	fillPaint 
 		loadOnCairoCanvas: aCanvas.
 	
-	self 
-		primSetLineWidthOn: aCanvas;
-		primSetLineJoinOn: aCanvas;
-		primSetLineCapOn: aCanvas.
+	aCanvas
+		primSetLineWidth: width;
+		primSetLineJoin: joinStyle;
+		primSetLineCap: capStyle.
 	
 	dashLenghts 
 		ifNil: [ aCanvas resetDash ] 
