@@ -1,4 +1,4 @@
-script50673
+script50674
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -8,7 +8,7 @@ Announcements-Core-TheIntegrator.68.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.31.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-AliakseiSyrel.120.mcz
+Athens-Cairo-AliakseiSyrel.122.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TudorGirba.43.mcz
@@ -242,7 +242,7 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.296.mcz
+Refactoring-Core-TheIntegrator.298.mcz
 Refactoring-Critics-TheIntegrator.261.mcz
 Refactoring-Environment-TheIntegrator.76.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
@@ -273,6 +273,7 @@ STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
 SUnit-Core-TheIntegrator.167.mcz
 SUnit-Help-MarcusDenker.9.mcz
+SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
@@ -349,7 +350,7 @@ Tool-Diff-TheIntegrator.25.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.57.mcz
+Tool-Finder-TheIntegrator.59.mcz
 Tool-ImageCleaner-TheIntegrator.15.mcz
 Tool-ProcessBrowser-TheIntegrator.20.mcz
 Tool-Profilers-TheIntegrator.22.mcz

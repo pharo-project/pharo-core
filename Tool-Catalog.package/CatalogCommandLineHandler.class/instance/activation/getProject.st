@@ -1,8 +1,6 @@
 getProject
 	| project |
-	project := CatalogProvider new refresh projects 
-		detect: [ :each | each name = self projectName ]
-		ifNone: [ self error: ('No project {1} in catalog!' format: { self projectName }) ].
+	project := CatalogProvider projectNamed: self projectName.
 
 	self inform: 'Installing ', project name.
 	project isAvailableForCurrentPharo ifFalse: [ 

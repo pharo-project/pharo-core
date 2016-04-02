@@ -1,10 +1,3 @@
 loadProjects
-	| jsonString |
-	
-	jsonString := ZnClient new
-		beOneShot;
-		url: CatalogSettings catalogSourceURL;
-		get.
-		
-	^ (STON reader on: jsonString readStream) next
+	^ self httpClient get 
 		collect: [ :each | CatalogProject fromDictionary: each ]

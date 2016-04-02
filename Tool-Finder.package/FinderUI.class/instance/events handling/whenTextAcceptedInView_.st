@@ -1,2 +1,2 @@
 whenTextAcceptedInView: anAnnouncement
-	self compileSource: self sourceTextModel getString notifying: sourceTextArea
+	self compileSource: sourceTextArea text notifying: sourceTextArea

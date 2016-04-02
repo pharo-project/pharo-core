@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '17632 Can not remove classes that are referenced
+update50674
+	"self new update50674"
+	self withUpdateLog: '17632 Can not remove classes that are referenced
 	https://pharo.fogbugz.com/f/cases/17632
 
 17923 SUnit Rules
@@ -12,4 +13,7 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17926
 
 17780 "Analyzing Packages" progress should not be shown when running package critics
-	https://pharo.fogbugz.com/f/cases/17780'
+	https://pharo.fogbugz.com/f/cases/17780'.
+	self loadTogether: self script50674 merge: false.
+	self loadConfiguration: 'Catalog' version: '0.12'.
+self loadConfiguration: 'DependencyAnalyser' version: '1.17'.self flushCaches.

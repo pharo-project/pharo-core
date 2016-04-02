@@ -1,2 +1,2 @@
 provider 
-	^ provider ifNil: [ provider := CatalogProvider new ]
+	^ provider ifNil: [ provider := CatalogProvider default ]

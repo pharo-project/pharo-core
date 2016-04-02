@@ -4,5 +4,4 @@ computeStaticDependencies
 			each isSeen
 				ifFalse: [ 
 					self computeStaticDependencies: each.
-					each beSeen ] ]  
-		displayingProgress: 'Analyzing Packages'
+					each beSeen ] ] 

@@ -1,5 +1,5 @@
 Object subclass: #CatalogProvider
-	instanceVariableNames: 'projects'
-	classVariableNames: ''
+	instanceVariableNames: 'projects lastModified'
+	classVariableNames: 'Default'
 	poolDictionaries: ''
 	category: 'Tool-Catalog-Base'

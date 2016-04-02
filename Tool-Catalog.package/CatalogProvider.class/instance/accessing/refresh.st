@@ -1,2 +1,0 @@
-refresh
-	projects := self loadProjects

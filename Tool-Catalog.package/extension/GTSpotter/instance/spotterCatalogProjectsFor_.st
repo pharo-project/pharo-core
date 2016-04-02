@@ -4,7 +4,7 @@ spotterCatalogProjectsFor: aStep
 	CatalogSettings displayCatalogProjectsInSpotter ifFalse: [ ^self ].
 	
 	aStep listProcessor			 
-			allCandidates: [ CatalogProvider new refresh projects ];
+			allCandidates: [ CatalogProvider default projects ];
 			title: 'Catalog Projects';
 			itemName: [ :item | item name ];
 			itemIcon: [ :item | CatalogBrowser iconFor: item ];
