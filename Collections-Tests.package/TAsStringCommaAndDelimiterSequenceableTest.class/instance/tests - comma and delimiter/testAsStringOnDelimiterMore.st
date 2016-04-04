@@ -9,10 +9,10 @@ testAsStringOnDelimiterMore
 	delim := ', '.
 	result:=''.
 	multiItemStream := ReadWriteStream on:result.
-	self nonEmpty  asStringOn: multiItemStream delimiter: ', '.
-	
+	self nonEmpty  asStringOn: multiItemStream delimiter: delim.
+	result := multiItemStream contents.
 	index:=1.
-	(result findBetweenSubstrings: ', ' )do:
+	(result findBetweenSubstrings: delim )do:
 		[:each |
 		self assert: each= ((self nonEmpty at:index)asString).
 		index:=index+1

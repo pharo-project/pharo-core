@@ -1,4 +1,4 @@
-script50674
+script50675
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -36,7 +36,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.405.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.38.mcz
+Collections-Tests-TheIntegrator.42.mcz
 Collections-Unordered-TheIntegrator.227.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
@@ -202,7 +202,7 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1227.mcz
+Nautilus-TheIntegrator.1229.mcz
 Nautilus-GroupManager-TheIntegrator.19.mcz
 Nautilus-GroupManagerUI-TheIntegrator.30.mcz
 Nautilus-Tests-TheIntegrator.31.mcz
@@ -290,15 +290,15 @@ Slot-TheIntegrator.738.mcz
 Slot-Tests-TheIntegrator.87.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.459.mcz
+Spec-Core-TheIntegrator.461.mcz
 Spec-Debugger-TheIntegrator.263.mcz
-Spec-Examples-TheIntegrator.106.mcz
+Spec-Examples-TheIntegrator.108.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.258.mcz
 Spec-PolyWidgets-TheIntegrator.66.mcz
-Spec-Tests-TheIntegrator.61.mcz
+Spec-Tests-TheIntegrator.63.mcz
 Spec-Tools-TheIntegrator.324.mcz
 StartupPreferences-EstebanLorenzano.147.mcz
 System-Announcements-TheIntegrator.108.mcz
@@ -341,9 +341,9 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.140.mcz
-Tool-Catalog-EstebanLorenzano.30.mcz
+Tool-Catalog-SvenVanCaekenberghe.31.mcz
 Tool-CriticBrowser-TheIntegrator.21.mcz
-Tool-DependencyAnalyser-ChristopheDemarey.26.mcz
+Tool-DependencyAnalyser-PavelKrivanek.27.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.40.mcz
 Tool-Diff-TheIntegrator.25.mcz

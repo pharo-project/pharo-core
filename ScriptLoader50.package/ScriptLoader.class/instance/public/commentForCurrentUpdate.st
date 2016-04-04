@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '17632 Can not remove classes that are referenced
-	https://pharo.fogbugz.com/f/cases/17632
+ ^ '17930 MenuModel>>fromSpec: fails to open a PluggableMenuSpec if it contains a subMenu
+	https://pharo.fogbugz.com/f/cases/17930
 
-17923 SUnit Rules
-	https://pharo.fogbugz.com/f/cases/17923
+17932 Natuilus "Class" button no longer shows if theres anything on the class-side
+	https://pharo.fogbugz.com/f/cases/17932
 
-17699 Finders code pane allows to save code with invalid syntax
-	https://pharo.fogbugz.com/f/cases/17699
-
-17926 Improve Pharo Project Catalog Loading
-	https://pharo.fogbugz.com/f/cases/17926
-
-17780 "Analyzing Packages" progress should not be shown when running package critics
-	https://pharo.fogbugz.com/f/cases/17780'
+17929 Missing parenthesis around condition (testAsCommaStringMore)
+	https://pharo.fogbugz.com/f/cases/17929'

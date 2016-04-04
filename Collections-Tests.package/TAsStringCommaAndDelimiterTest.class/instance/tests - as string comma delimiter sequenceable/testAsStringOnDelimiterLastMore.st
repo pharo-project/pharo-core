@@ -3,17 +3,13 @@ testAsStringOnDelimiterLastMore
 	| delim multiItemStream result last allElementsAsString tmp |
 	
 	delim := ', '.
-	last := 'and'.
+	last := ' and '.
 	result:=''.
 	tmp := self nonEmpty collect: [:each | each asString].
 	multiItemStream := ReadWriteStream on:result.
-	self nonEmpty  asStringOn: multiItemStream delimiter: ', ' last: last.
-	
-	allElementsAsString:=(result findBetweenSubstrings: ', ' ).
-	1 to: allElementsAsString size do:
-		[:i | 
-		i<(allElementsAsString size-1 ) | i= allElementsAsString size
-			ifTrue: [self assert: (tmp occurrencesOf:(allElementsAsString at:i))=(allElementsAsString 			occurrencesOf:(allElementsAsString at:i))].
-		i=(allElementsAsString size-1)
-			ifTrue:[ self assert: (allElementsAsString at:i)=('and')].
-			].
+	self nonEmpty  asStringOn: multiItemStream delimiter: delim last: last.
+	result := multiItemStream contents.
+	allElementsAsString:=(result findBetweenSubstrings: delim ).
+	tmp do:[:each |
+		self assert: (tmp occurrencesOf: each) = (allElementsAsString occurrencesOf: each)].
+	self assert: ((allElementsAsString at: (allElementsAsString size - 1))=('and'))
