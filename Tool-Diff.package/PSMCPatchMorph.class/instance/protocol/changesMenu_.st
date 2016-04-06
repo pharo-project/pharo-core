@@ -10,7 +10,7 @@ changesMenu: m
 		target: self
 		selector: #browseClass
 		getStateSelector: nil
-		enablementSelector: #selectionHasAcutalClass.
+		enablementSelector: #selectionHasActualClass.
 	menu lastItem
 	 	font: self theme menuFont;
 		icon: Smalltalk tools browser taskbarIcon;

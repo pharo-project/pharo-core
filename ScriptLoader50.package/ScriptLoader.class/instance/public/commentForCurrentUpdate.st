@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17930 MenuModel>>fromSpec: fails to open a PluggableMenuSpec if it contains a subMenu
-	https://pharo.fogbugz.com/f/cases/17930
+ ^ '17935 KMLog sends printString + string concatenation regardless of it logging or not
+	https://pharo.fogbugz.com/f/cases/17935
 
-17932 Natuilus "Class" button no longer shows if theres anything on the class-side
-	https://pharo.fogbugz.com/f/cases/17932
+17933 GlobalVariable>>#hasLiteral: is wrong
+	https://pharo.fogbugz.com/f/cases/17933
 
-17929 Missing parenthesis around condition (testAsCommaStringMore)
-	https://pharo.fogbugz.com/f/cases/17929'
+17944 Typo Diff selectionHasAcutalClass
+	https://pharo.fogbugz.com/f/cases/17944'

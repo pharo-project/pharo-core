@@ -1,4 +1,4 @@
 completeMatch: aKeymapEntry buffer: aBuffer
-	KMLog log:  morph printString, ' Complete match: ', aKeymapEntry printString.
+	KMLog logCompleteMatchBetween: morph and: aKeymapEntry.
 	KMBuffer uniqueInstance completeMatch.
 	self announcer announce: (KMCompleteMatch event: currentEvent from: self).

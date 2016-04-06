@@ -1,4 +1,4 @@
-script50675
+script50676
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -133,7 +133,7 @@ JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2264.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.49.mcz
-Keymapping-Core-EstebanLorenzano.195.mcz
+Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.60.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
@@ -286,8 +286,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
 Shout-TheIntegrator.288.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.738.mcz
-Slot-Tests-TheIntegrator.87.mcz
+Slot-TheIntegrator.740.mcz
+Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
 Spec-Core-TheIntegrator.461.mcz
@@ -346,7 +346,7 @@ Tool-CriticBrowser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-PavelKrivanek.27.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.40.mcz
-Tool-Diff-TheIntegrator.25.mcz
+Tool-Diff-TheIntegrator.27.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz

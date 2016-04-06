@@ -1,7 +1,7 @@
 changeTreeKey: aCharacter
 	"Handle change tree key strokes."
 
-	(aCharacter == $b and: [self selectionHasAcutalClass]) ifTrue: [
+	(aCharacter == $b and: [self selectionHasActualClass]) ifTrue: [
 		^self browseClass].
 	(aCharacter == $v and: [self selectionIsMethodChange]) ifTrue: [
 		^self browseVersions].

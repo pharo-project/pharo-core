@@ -1,4 +1,4 @@
 completeMatch: aKeymap buffer: aBuffer
-	KMLog log: 'Complete match: ', aKeymap printString.
+	KMLog logCompleteMatch: aKeymap.
 	KMBuffer uniqueInstance completeMatch.
 	aKeymap action cull: target value cull: morph cull: aBuffer first.

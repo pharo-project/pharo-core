@@ -1,2 +1,8 @@
-log: aMessage
-	(debug notNil and: [ debug ]) ifTrue: [ Transcript show: aMessage ]
+log: aKeyEvent
+
+	debug == true ifFalse: [ ^self ].
+	
+	self logger
+		nextPutAll: aKeyEvent printString;
+		cr;
+		flush.

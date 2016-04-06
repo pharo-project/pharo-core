@@ -1,7 +1,7 @@
 dispatchKeystroke: aKeyEvent
 
 	| chain |
-	KMLog log: aKeyEvent printString, String cr.
+	KMLog log: aKeyEvent .
 
 	KMBuffer uniqueInstance addEvent: aKeyEvent.
 

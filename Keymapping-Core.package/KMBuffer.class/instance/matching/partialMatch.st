@@ -1,4 +1,4 @@
 partialMatch
 
-	KMLog log: 'Partial match: ', currentEvent printString.
+	KMLog logPartialMatch: currentEvent.
 	currentEvent ifNotNil:[ currentEvent wasHandled: true ].
