@@ -1,4 +1,4 @@
-script50676
+script50677
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -132,9 +132,9 @@ Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2264.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.49.mcz
+Kernel-Tests-TheIntegrator.51.mcz
 Keymapping-Core-TheIntegrator.198.mcz
-Keymapping-KeyCombinations-TheIntegrator.60.mcz
+Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.105.mcz
@@ -165,7 +165,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1122.mcz
+Monticello-TheIntegrator.1124.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -336,7 +336,7 @@ System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.755.mcz
 Text-Core-TheIntegrator.50.mcz
 Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.110.mcz
+Text-Edition-TheIntegrator.112.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
