@@ -4,4 +4,4 @@ name
 
 	^ thisClass isNil
 		ifTrue: [ 'a Metaclass' ]
-		ifFalse: [ thisClass name , ' class' ]
+		ifFalse: [ thisClass name asString, ' class' ]
