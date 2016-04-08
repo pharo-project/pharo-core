@@ -1,3 +1,4 @@
 runPreferences
 
+	SystemSettingsPersistence resumeSystemSettings.
 	StartupPreferencesLoader default loadFromDefaultLocations

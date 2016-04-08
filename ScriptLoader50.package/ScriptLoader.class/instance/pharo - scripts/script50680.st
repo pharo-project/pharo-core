@@ -1,4 +1,4 @@
-script50679
+script50680
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -77,23 +77,23 @@ FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
-GT-Debugger-AndreiChis.349.mcz
+GT-Debugger-AndreiChis.350.mcz
 GT-EventRecorder-TheIntegrator.65.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
-GT-Inspector-AndreiChis.396.mcz
-GT-InspectorExtensions-Core-TudorGirba.208.mcz
+GT-Inspector-StefanReichhart.397.mcz
+GT-InspectorExtensions-Core-TudorGirba.213.mcz
 GT-Playground-AliakseiSyrel.123.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-AndreiChis.391.mcz
+GT-Spotter-AndreiChis.392.mcz
 GT-Spotter-EventRecorder-TheIntegrator.109.mcz
-GT-SpotterExtensions-Core-AliakseiSyrel.201.mcz
+GT-SpotterExtensions-Core-AndreiChis.202.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AliakseiSyrel.17.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
-Glamour-Core-AndreiChis.315.mcz
+Glamour-Core-CyrilFerlicot.316.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
@@ -108,7 +108,7 @@ Glamour-Rubric-Presentations-TudorGirba.51.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
-Glamour-Tests-Rubric-AliakseiSyrel.27.mcz
+Glamour-Tests-Rubric-AndreiChis.33.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
@@ -310,7 +310,7 @@ System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
-System-CommandLineHandler-TheIntegrator.12.mcz
+System-CommandLineHandler-TheIntegrator.14.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.32.mcz
 System-Hashing-TheIntegrator.50.mcz
@@ -326,8 +326,8 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-ChristopheDemarey.21.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.334.mcz
-System-Settings-Tests-TheIntegrator.9.mcz
+System-Settings-TheIntegrator.337.mcz
+System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.46.mcz
 System-Support-TheIntegrator.1208.mcz
