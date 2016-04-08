@@ -1,6 +1,6 @@
 changed: anAspect with: anObject
 
-	self announcer announce: (MorphChangedWithArguments new
+	self doAnnounce: (MorphChangedWithArguments new
 		morph: self;
 		selector: anAspect;
 		arguments: anObject)

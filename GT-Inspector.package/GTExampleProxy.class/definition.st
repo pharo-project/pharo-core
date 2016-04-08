@@ -1,5 +1,5 @@
-Object subclass: #GTExampleProxy
-	instanceVariableNames: 'owner provider selector example'
+GTExampleMethod subclass: #GTExampleProxy
+	instanceVariableNames: 'owner example'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector-Examples-Utils'

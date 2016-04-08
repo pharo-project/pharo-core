@@ -5,7 +5,7 @@ gtInspectorItemsIn: composite
 		beMultiple;
 		searchOn: [:text :each | 
 			Smalltalk compiler evaluate: ' | entity each | each := self. entity := each.', text for: each value logged: false];
-		column: 'Index' evaluated: [ :assoc | assoc key asString ];
+		column: 'Index' evaluated: [ :assoc | assoc key asString ] width: 50;
 		column: 'Item' evaluated: [ :assoc | GTObjectPrinter new asTruncatedTextFrom: assoc value ];
 		send: [ :result | 
 			result isNil

@@ -1,5 +1,5 @@
 changed: anAspect
 	
-	self announcer announce: (MorphChanged new
+	self doAnnounce: (MorphChanged new
 		morph: self;
 		selector: anAspect)

@@ -2,4 +2,4 @@ labelClicked
 
 	labelClickable ifTrue: [ self toggleSelected ].
 	
-	self announcer announce: (LabelClicked source: self stateChanged: labelClickable).
+	self doAnnounce: (LabelClicked source: self stateChanged: labelClickable).
