@@ -1,4 +1,5 @@
 delete
+
 	parent := nil.
 	complexContents := nil.
 	firstChild := nil.

@@ -1,5 +1,7 @@
 noteTopWindowIn: aWorld
-	"Activate the expected top window"
+	"Clear the current top window and activate the topmost visible window"
+	
+	TopWindow := nil.
 	
 	aWorld ifNil: [^ self].
 	aWorld submorphsDo: [:m |

@@ -3,14 +3,15 @@ initWithContents: anObject prior: priorMorph forList: hostList indentLevel: newL
 
 	container := hostList.
 	self cellInset: container resizerWidth @ 0.
+	
 	complexContents := anObject.
-	anObject addDependent: self.
-	self onAnnouncement: MorphDeleted do: [ :ann | anObject removeDependent: ann morph ].
-	isExpanded := anObject isExpanded.
+	complexContents addDependent: self.
+
+	isExpanded := complexContents isExpanded.
 	nextSibling := firstChild := nil.
 	priorMorph ifNotNil: [ priorMorph nextSibling: self ].
 	indentLevel := newLevel.
-	self setBalloonText: anObject helpText.
+	self setBalloonText: complexContents helpText.
 	self initRow.
-	anObject selected
+	complexContents selected
 		ifTrue: [ self selectedWithoutNotifyingComplexContents: true ]

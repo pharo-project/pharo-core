@@ -1,4 +1,4 @@
-script50680
+script50681
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -192,8 +192,8 @@ Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.45.mcz
-Morphic-Widgets-Windows-TheIntegrator.90.mcz
+Morphic-Widgets-Tree-TheIntegrator.50.mcz
+Morphic-Widgets-Windows-TheIntegrator.92.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.53.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz

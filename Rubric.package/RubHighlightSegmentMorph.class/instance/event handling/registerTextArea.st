@@ -1,7 +1,7 @@
 registerTextArea
 	super registerTextArea.
 	
-	textArea announcer weak 
+	textArea announcer  
 		when: RubKeystroke send: #whenKeyPressed: to: self;
 		when: RubMouseClick send: #whenMouseClicked: to: self;
 		when: RubSelectionChanged send: #whenSelectionChanged: to: self.

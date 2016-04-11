@@ -1,4 +1,4 @@
 style: aText
-	aText size < 1000
-        ifTrue: [ ^ self styler style: aText ].
-	self styler styleInBackgroundProcess: aText
+
+	"we can do background styling with (self styler styleInBackgroundProcess: aText), but it is not safe"
+	^ self styler style: aText 
