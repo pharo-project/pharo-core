@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '17985 Package and methods icon cache are references nautilus instance which shows them first time
+update50683
+	"self new update50683"
+	self withUpdateLog: '17985 Package and methods icon cache are references nautilus instance which shows them first time
 	https://pharo.fogbugz.com/f/cases/17985
 
 17964 Remove usage of Announcer in MultistateButtonMorph for the action to be done when clicked
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/17966
 
 17987 RubFindReplaceService produce leak subscriptions
-	https://pharo.fogbugz.com/f/cases/17987'
+	https://pharo.fogbugz.com/f/cases/17987'.
+	self loadTogether: self script50683 merge: false.
+	self loadConfiguration: 'Rubric' version: 'stable'.self flushCaches.

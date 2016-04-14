@@ -1,3 +1,3 @@
 methodsIconsCache
 
-	^ MethodsIconsCache
+	^ self class methodsIconsCache

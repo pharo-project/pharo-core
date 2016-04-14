@@ -1,9 +1,2 @@
 notifyTitle: title contents: contents color: aColor
-
-	 GrowlMorph 
-		openWithLabel: title
-		contents: contents
-		backgroundColor: aColor
-		labelColor: Color black
-				
-	
+	^self class notifyTitle: title contents: contents color: aColor

@@ -6,5 +6,5 @@ mouseUp: evt
 	self down: false.
 	
 	(self containsPoint: evt cursorPoint) ifTrue: [ 
-		self doAnnounce: (ButtonClicked morph: self).
+		upAction value.
 	]

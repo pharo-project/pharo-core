@@ -1,3 +1,5 @@
 cleanUp
 	"Called from ImageCleaner>>cleanUpForRelease --> SmalltalkImage>>cleanUp:except:confirming:"
-	self logEventStatsStop
+	self logEventStatsStop.
+	ActiveHand resetClickState.
+

@@ -1,3 +1,2 @@
 runTestForAMethod: aMethod notifying: aBoolean
-	
-	self runTestForAMethod: aMethod notifying: aBoolean priority: Processor userBackgroundPriority
+	^self class runTestForAMethod: aMethod notifying: aBoolean

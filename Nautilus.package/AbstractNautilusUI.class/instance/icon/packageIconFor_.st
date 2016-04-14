@@ -5,7 +5,7 @@ packageIconFor: aPackage
 		at: aPackage
 		ifPresent: [:icon |
 			 icon class == IconicButtonStateHolder ifFalse: [ ^ icon ].
-			^ icon asIconTargetting: self ].
+			^ icon asIcon ].
 
 	aPackage classes isEmpty ifTrue: [^ PackagesIconsCache at: aPackage put: (Smalltalk ui icons iconNamed: #emptyPackageIcon) ].
 	
@@ -13,7 +13,7 @@ packageIconFor: aPackage
 	(mcpackage notNil and: [ mcpackage isDirty ])
 		ifTrue: [ | icon |
 			icon := IconicButton new 
-						target: self;
+						target: NautilusUI;
 						actionSelector: #saveDirtyPackages:;
 						arguments: {{ aPackage }};
 						labelGraphic: (aPackage definedClasses

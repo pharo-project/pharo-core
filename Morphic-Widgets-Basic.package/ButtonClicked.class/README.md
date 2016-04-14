@@ -1,1 +1,0 @@
-annoncement used to announce that a button has been clicked, ie the mouseUp event was raised.

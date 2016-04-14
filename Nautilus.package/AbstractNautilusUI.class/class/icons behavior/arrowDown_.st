@@ -4,11 +4,11 @@ arrowDown: aMethod
 	methods := aMethod methodClass allSubclasses flatCollect: [:each | each methods ].
 	methods := methods select: [:each | each selector = aMethod selector ].
 	methods size = 1
-		 ifTrue: [ ^ self model class openOnMethod: methods first ].
+		 ifTrue: [ ^ Nautilus openOnMethod: methods first ].
 	methods isEmpty
-		ifTrue:[ ^ self methodWidget invalidateCacheEntryFor: aMethod ].
+		ifTrue:[ ^ MethodWidget removeAllFromMethodsIconsCache: aMethod ].
 	methodsNames := methods collect: [:each | each methodClass name, '>>#', each selector ].
 	index := UIManager default chooseFrom: methodsNames.
 	index = 0 ifTrue: [ ^ self ].
-	^ self model class openOnMethod: (methods at: index)
+	^ Nautilus openOnMethod: (methods at: index)
 	

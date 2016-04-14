@@ -1,4 +1,3 @@
-addUpAction: anActionOrBlock
-	"Add an up event handler."
+addUpAction: aValuable
 	
-	self announcer when: ButtonClicked do: anActionOrBlock.
+	upAction := aValuable

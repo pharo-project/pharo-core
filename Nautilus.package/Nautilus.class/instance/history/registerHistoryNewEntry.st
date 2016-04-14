@@ -12,4 +12,4 @@ registerHistoryNewEntry
 				ifTrue: [ ^ self ] ].
 	
 	self browsingHistory add: wrapper.
-	self triggerEvent: #historyChanged.
+	self historyChanged.
