@@ -1,4 +1,4 @@
-script50681
+script50682
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -36,8 +36,8 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.405.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.42.mcz
-Collections-Unordered-TheIntegrator.227.mcz
+Collections-Tests-TheIntegrator.45.mcz
+Collections-Unordered-TheIntegrator.230.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
 Compression-TheIntegrator.171.mcz
@@ -229,7 +229,7 @@ OpalCompiler-Tests-TheIntegrator.331.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1332.mcz
+Polymorph-Widgets-TheIntegrator.1335.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -267,7 +267,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
-Rubric-HenrikNergaard.354.mcz
+Rubric-PavelKrivanek.356.mcz
 Rubric-Rules-YuriyTymchuk.2.mcz
 STON-Core-SvenVanCaekenberghe.67.mcz
 STON-Tests-SvenVanCaekenberghe.59.mcz
@@ -360,7 +360,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.901.mcz
+Traits-TheIntegrator.903.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

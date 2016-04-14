@@ -1,0 +1,2 @@
+defaultTextFont
+	^self theme textFont

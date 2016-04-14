@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '17284 Rubric SubscriptOutOfBounds error
-	https://pharo.fogbugz.com/f/cases/17284
+ ^ '17015 Failing test: SetTest>>#testAllSetsAreHealthy
+	https://pharo.fogbugz.com/f/cases/17015
 
-17972 Remove depended in MorphTreeNodeMorph on deletion
-	https://pharo.fogbugz.com/f/cases/17972
+17979  (MessageDialogWindow new text: Hello) open should work
+	https://pharo.fogbugz.com/f/cases/17979
 
-17968 a window should not be the top window after its deletion
-	https://pharo.fogbugz.com/f/cases/17968'
+17897 Slot method used by Nautilus but not implemented
+	https://pharo.fogbugz.com/f/cases/17897'

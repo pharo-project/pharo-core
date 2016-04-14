@@ -7,6 +7,6 @@ isHealthy
 	"
 	array withIndexDo: [ :element :index |
 		element ifNotNil: [
-			(self scanFor: element) == index
+			(self scanFor: element enclosedSetElement) == index
 				ifFalse: [ ^ false ]]].
 	^ true
