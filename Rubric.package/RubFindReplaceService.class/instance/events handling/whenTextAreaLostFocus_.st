@@ -1,2 +1,3 @@
 whenTextAreaLostFocus: anAnnounce
-	self announcer announce: RubFindTextChanged new
+	self dialog isInWorld ifFalse: [ ^self ].
+	self textArea whenFindTextChanged: RubFindTextChanged new

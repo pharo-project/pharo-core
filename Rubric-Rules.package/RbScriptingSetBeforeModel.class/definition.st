@@ -1,4 +1,4 @@
-ReBasicTreeRule subclass: #RbScriptingSetBeforeModel
+ReInvocationSequenceRule subclass: #RbScriptingSetBeforeModel
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

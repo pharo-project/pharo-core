@@ -1,4 +1,4 @@
-script50684
+script50685
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -202,13 +202,13 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1235.mcz
-Nautilus-GroupManager-TheIntegrator.19.mcz
-Nautilus-GroupManagerUI-TheIntegrator.30.mcz
-Nautilus-Tests-TheIntegrator.31.mcz
-NautilusCommon-TheIntegrator.304.mcz
-NautilusGroupAutoBuilder-TheIntegrator.10.mcz
-NautilusRefactoring-TheIntegrator.271.mcz
+Nautilus-TheIntegrator.1236.mcz
+Nautilus-GroupManager-TheIntegrator.20.mcz
+Nautilus-GroupManagerUI-TheIntegrator.31.mcz
+Nautilus-Tests-TheIntegrator.32.mcz
+NautilusCommon-TheIntegrator.305.mcz
+NautilusGroupAutoBuilder-TheIntegrator.11.mcz
+NautilusRefactoring-TheIntegrator.272.mcz
 Network-Kernel-TheIntegrator.127.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -234,7 +234,7 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.96.mcz
+QualityAssistant-YuriyTymchuk.97.mcz
 QualityAssistantRecording-YuriyTymchuk.20.mcz
 RPackage-Core-TheIntegrator.428.mcz
 RPackage-Tests-TheIntegrator.181.mcz

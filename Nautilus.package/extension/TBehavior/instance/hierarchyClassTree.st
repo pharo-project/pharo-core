@@ -6,5 +6,5 @@ hierarchyClassTree
 	( self subclasses 
 	reject: [ :class | class isClassSide ] 
 	thenCollect: [ :cls | cls hierarchyClassTree ]
-	) sorted: [ :a :b | a first printString <= b first printString ]
+	) sort: [ :a :b | a first name <= b first name ]
 } 

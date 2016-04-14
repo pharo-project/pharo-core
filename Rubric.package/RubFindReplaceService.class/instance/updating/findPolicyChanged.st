@@ -1,3 +1,3 @@
 findPolicyChanged
 	self changed: #findPolicy.
-	self announcer announce: RubFindTextChanged new
+	self textArea whenFindTextChanged: RubFindTextChanged new

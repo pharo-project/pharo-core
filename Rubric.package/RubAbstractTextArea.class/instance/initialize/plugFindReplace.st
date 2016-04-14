@@ -2,7 +2,4 @@ plugFindReplace
 	self announcer 
 		when:  MorphGotFocus send: #whenTextAreaGotFocus: to: RubFindReplaceService default;
 	 	when:  MorphLostFocus send: #whenTextAreaLostFocus: to: RubFindReplaceService default;	
-		when:  RubSelectionChanged send: #whenTextAreaSelectionChanged: to: RubFindReplaceService default.
-			
-	RubFindReplaceService default announcer weak when:  RubFindTextChanged  send: #whenFindTextChanged: to: self
-
+		when:  RubSelectionChanged send: #whenTextAreaSelectionChanged: to: RubFindReplaceService default

@@ -1,0 +1,3 @@
+acceptAllowed
+
+	^ editingMode acceptAllowed
