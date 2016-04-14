@@ -1,6 +1,6 @@
 run
 	| result |
 	result := self classForTestResult new.
-	[ self run: result ]
+	[ result runCase: self]
 		ensure: [ self classForTestResource resetResources: self resources ].
 	^ result

@@ -1,3 +1,7 @@
 debug
-	[ (self class selector: testSelector) runCase ]
-		ensure: [ self classForTestResource resetResources: self resources ]
+	| result |
+	result := self classForTestResult new.
+	[ result runCaseForDebug: self ]
+		ensure: [ self classForTestResource resetResources: self resources.
+			result updateResultsInHistory  ].
+	^ result

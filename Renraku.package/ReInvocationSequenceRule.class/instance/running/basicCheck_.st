@@ -1,6 +1,6 @@
 basicCheck: anEntity
 	
-	 ^ self
+	 self
 		check: anEntity
 		forCriticsDo: [ ^ true ]
-		ifNone: [ false ]
+		ifNone: [ ^ false ]
