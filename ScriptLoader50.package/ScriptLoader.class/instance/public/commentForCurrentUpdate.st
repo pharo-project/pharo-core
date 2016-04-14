@@ -1,15 +1,3 @@
 commentForCurrentUpdate
- ^ '17985 Package and methods icon cache are references nautilus instance which shows them first time
-	https://pharo.fogbugz.com/f/cases/17985
-
-17964 Remove usage of Announcer in MultistateButtonMorph for the action to be done when clicked
-	https://pharo.fogbugz.com/f/cases/17964
-
-17986 Nautilus uses old EventManager to subscribe on historyChanged which never garbage collected
-	https://pharo.fogbugz.com/f/cases/17986
-
-17966 garbage subinstance of SystemWindow at image startup
-	https://pharo.fogbugz.com/f/cases/17966
-
-17987 RubFindReplaceService produce leak subscriptions
-	https://pharo.fogbugz.com/f/cases/17987'
+ ^ '17989 QualityAssistant v2.6.3 (memory leak fix)
+	https://pharo.fogbugz.com/f/cases/17989'
