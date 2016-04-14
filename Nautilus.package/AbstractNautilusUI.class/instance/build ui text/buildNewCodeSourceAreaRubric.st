@@ -7,7 +7,7 @@ buildNewCodeSourceAreaRubric
 		yourself.
 	self updateSourceCodeAreaWith: self sourceCode.
 	scrolledText textArea announcer when: RubSelectionChanged send: #whenTextAreaSelectionChanged: to: self.
-	self sourceTextModel announcer weak
+	self sourceTextModel announcer 
 		when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self;
 		when: NautilusClassSelected , NautilusPackageSelected , NautilusGroupSelected send: #showScriptCode: to: self;
 		when: NautilusProtocolSelected , NautilusMethodSelected send: #showSourceCode: to: self.

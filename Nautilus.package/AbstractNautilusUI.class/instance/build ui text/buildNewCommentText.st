@@ -6,7 +6,7 @@ buildNewCommentText
 		beWrapped;
 		yourself.
 	self classCommentTextModel setInitialText: self getComments.
-	classCommentTextModel announcer weak
+	classCommentTextModel announcer
 		when: RubTextAcceptRequest send: #whenTextUpdatedInCommentPane: to: self;
 		when: NautilusExtendCommentSwitch send: #whenExtendCommentSwitch: to: self;
 		when: RubTextUpdatedInModel send: #whenTextUpdatedInCommentPane: to: self.

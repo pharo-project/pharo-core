@@ -3,6 +3,6 @@ buildSourceTextArea
 		beForSmalltalkCode;
 		beWrapped;
 		yourself.
-	sourceTextArea textArea announcer weak when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self.
+	sourceTextArea textArea announcer when: RubTextAcceptRequest send: #whenTextAcceptedInView: to: self.
 	self updateSourceCode.
 	^ sourceTextArea

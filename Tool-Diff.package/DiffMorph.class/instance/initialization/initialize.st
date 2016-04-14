@@ -21,10 +21,10 @@ initialize
 	optionsPanel vResizing: #shrinkWrap.
 	optionsPanel extent: optionsPanel minExtent.
 	self addMorphsWithOptions.
-	self srcMorph scrollPane announcer weak
+	self srcMorph scrollPane announcer 
 		when: RubVerticalScrolled send: #verticalScroll: to: self;
 		when: RubHorizontalScrolled send: #horizontalSourceScroll: to: self.
-	self dstMorph scrollPane announcer weak
+	self dstMorph scrollPane announcer 
 		when: RubVerticalScrolled send: #verticalScroll: to: self;
 		when: RubHorizontalScrolled send: #horizontalDestScroll: to: self.
 	self

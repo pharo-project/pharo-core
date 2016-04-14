@@ -1,6 +1,6 @@
 addDependent: anObject
 
-	self announcer weak
+	self announcer 
 		when: MorphChanged , MorphChangedWithArguments
 		send: #handleUpdate:
 		to: anObject.

@@ -33,7 +33,7 @@ registerEvents
 				ifFalse: [ newMenu := aMenuModel ].
 		newMenu applyTo: self ] ].
 
-	self announcer weak
+	self announcer 
 		when: WidgetBuilt
 		send: #onWidgetBuilt
 		to: self.

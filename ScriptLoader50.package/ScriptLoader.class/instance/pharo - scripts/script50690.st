@@ -1,4 +1,4 @@
-script50689
+script50690
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -80,13 +80,13 @@ GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.350.mcz
 GT-EventRecorder-TheIntegrator.65.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
-GT-Inspector-StefanReichhart.397.mcz
+GT-Inspector-StefanReichhart.403.mcz
 GT-InspectorExtensions-Core-TudorGirba.213.mcz
-GT-Playground-AliakseiSyrel.123.mcz
+GT-Playground-DenisKudryashov.124.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-GuillermoPolito.394.mcz
 GT-Spotter-EventRecorder-GuillermoPolito.112.mcz
-GT-SpotterExtensions-Core-AndreiChis.202.mcz
+GT-SpotterExtensions-Core-VincentBlondeau.203.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -100,7 +100,7 @@ Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-GuillermoPolito.418.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-GuillermoPolito.110.mcz
-Glamour-Morphic-Renderer-TudorGirba.346.mcz
+Glamour-Morphic-Renderer-DenisKudryashov.347.mcz
 Glamour-Morphic-Theme-HenrikNergaard.222.mcz
 Glamour-Morphic-Widgets-AliakseiSyrel.192.mcz
 Glamour-Presentations-TudorGirba.184.mcz
@@ -177,7 +177,7 @@ MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-TheIntegrator.15.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.544.mcz
-Morphic-Core-TheIntegrator.272.mcz
+Morphic-Core-TheIntegrator.275.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.86.mcz
@@ -202,7 +202,7 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1237.mcz
+Nautilus-TheIntegrator.1240.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.31.mcz
 Nautilus-Tests-TheIntegrator.33.mcz
@@ -290,13 +290,13 @@ Slot-TheIntegrator.740.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.461.mcz
+Spec-Core-TheIntegrator.465.mcz
 Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.108.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.256.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.258.mcz
+Spec-MorphicAdapters-TheIntegrator.262.mcz
 Spec-PolyWidgets-TheIntegrator.66.mcz
 Spec-Tests-TheIntegrator.63.mcz
 Spec-Tools-TheIntegrator.324.mcz
@@ -346,11 +346,11 @@ Tool-CriticBrowser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-PavelKrivanek.27.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.40.mcz
-Tool-Diff-TheIntegrator.27.mcz
+Tool-Diff-TheIntegrator.31.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.59.mcz
+Tool-Finder-TheIntegrator.63.mcz
 Tool-ImageCleaner-TheIntegrator.15.mcz
 Tool-ProcessBrowser-TheIntegrator.20.mcz
 Tool-Profilers-TheIntegrator.22.mcz
