@@ -1,0 +1,2 @@
+providerClass
+	^ self provider class

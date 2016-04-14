@@ -1,5 +1,5 @@
 methodForProvider: aProvider selector: aSelector
-	^ GTExampleMethod new
+	^ GTExampleProviderMethod new
 		provider: aProvider;
 		selector: aSelector asSymbol;
 		yourself

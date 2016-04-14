@@ -1,0 +1,2 @@
+example: anObject
+	example := anObject

@@ -1,5 +1,5 @@
 Object subclass: #GTExampleMethod
-	instanceVariableNames: 'provider providerName selector'
+	instanceVariableNames: 'provider selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector-Examples-Utils'

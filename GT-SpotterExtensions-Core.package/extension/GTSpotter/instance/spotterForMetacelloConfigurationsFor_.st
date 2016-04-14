@@ -9,6 +9,6 @@ spotterForMetacelloConfigurationsFor: aStep
 							and: [ each name beginsWith: 'ConfigurationOf' ] ] ]
 					thenCollect: #project ];
 			itemName: [ :each | each configuration class name ];
-			itemIcon: [ Smalltalk ui icons iconNamed: #configIcon ];
+			itemIcon: [ Smalltalk ui icons iconNamed: #config ];
 			filter: GTFilterSubstring;
 			wantsToDisplayOnEmptyQuery: false

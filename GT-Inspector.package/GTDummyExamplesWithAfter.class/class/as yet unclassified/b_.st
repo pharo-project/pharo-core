@@ -2,6 +2,7 @@ b: c
 	<gtExample>
 	<depends: #c>
 	<after: #afterB>
+	" START -> C -> afterC -> B -> afterB -> END "
 	
 	self assert: (self gtExampleContext includesKey: #c) not.
 	

@@ -1,0 +1,2 @@
+hasValidArguments
+	^ true

@@ -8,5 +8,4 @@ morph
 		color: Smalltalk ui theme backgroundColor;
 		notificationStrategy: GLMPopperNotificationStrategy new;
 		yourself.
-	textModel addDependent: morph.
 	^ morph

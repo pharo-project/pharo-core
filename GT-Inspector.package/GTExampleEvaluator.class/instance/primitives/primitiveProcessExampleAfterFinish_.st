@@ -3,4 +3,4 @@ primitiveProcessExampleAfterFinish: anExample
 	anExample == self example ifFalse: [ ^ self ].
 	anExample afterFinish method 
 		valueWithReceiver: anExample afterFinish provider 
-		arguments: #() " context, example, result ? -> try some examples first, then decide "
+		arguments: linkContext arguments

@@ -1,5 +1,6 @@
 gtDisplayOn: aStream
-	self printOn: aStream.
-	aStream nextPutAll: ' ('.
-	self gtDisplaySummaryOn: aStream.
-	aStream nextPutAll: ')'
+	self example gtDisplayOn: aStream. 
+	aStream nextPutAll: ' --> '.
+	self unexpectedError 
+		ifNotNil: [ self unexpectedError gtDisplayOn: aStream ]
+		ifNil: [ self returnValue gtDisplayOn: aStream ].

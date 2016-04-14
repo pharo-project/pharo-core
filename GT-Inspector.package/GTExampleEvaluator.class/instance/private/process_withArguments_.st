@@ -8,10 +8,7 @@ process: anExample withArguments: aBlock
 	[ arguments := aBlock value ]
 		on: Error
 		do: [ :exception | ^ self onDependencyError value: self value: anExample value: exception ].
-	self do: [ 
-			value := self primitiveProcessExample: anExample withArguments: arguments.
-			self primitiveProcessExampleAfter: anExample.
-			self primitiveProcessExampleAfterFinish: anExample ]
+	self do: [ value := self primitiveProcessExample: anExample withArguments: arguments ]
 		on: (anExample exceptions copyWithAll: { Halt. Error. Exit. UnhandledError. TestFailure. Deprecation. })
 		do: [ :exception | signaledException := exception ].
 	processed add: { anExample. value. signaledException }.
