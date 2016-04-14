@@ -1,3 +1,5 @@
 isActionHandled
 
-	^ (testMethod := method correspondingTestMethod) notNil
+	^ method methodClass isTestCase not and: [ 
+		(testMethod := method correspondingTestMethod) notNil 
+	]

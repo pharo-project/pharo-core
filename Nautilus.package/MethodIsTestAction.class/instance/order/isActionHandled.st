@@ -1,3 +1,3 @@
 isActionHandled
 
-	^ method isTestMethod
+	^ method isTestMethod and: [ method methodClass isAbstract not ]

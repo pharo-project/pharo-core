@@ -1,4 +1,4 @@
-script50686
+script50687
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -34,9 +34,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.243.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.405.mcz
+Collections-Strings-TheIntegrator.407.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.45.mcz
+Collections-Tests-TheIntegrator.46.mcz
 Collections-Unordered-TheIntegrator.230.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
@@ -84,8 +84,8 @@ GT-Inspector-StefanReichhart.397.mcz
 GT-InspectorExtensions-Core-TudorGirba.213.mcz
 GT-Playground-AliakseiSyrel.123.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-AndreiChis.392.mcz
-GT-Spotter-EventRecorder-TheIntegrator.109.mcz
+GT-Spotter-GuillermoPolito.394.mcz
+GT-Spotter-EventRecorder-GuillermoPolito.112.mcz
 GT-SpotterExtensions-Core-AndreiChis.202.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-AndreiChis.53.mcz
@@ -97,9 +97,9 @@ Glamour-Core-CyrilFerlicot.316.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-AndreiChis.415.mcz
+Glamour-Morphic-Brick-GuillermoPolito.418.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
-Glamour-Morphic-Pager-AliakseiSyrel.107.mcz
+Glamour-Morphic-Pager-GuillermoPolito.110.mcz
 Glamour-Morphic-Renderer-TudorGirba.346.mcz
 Glamour-Morphic-Theme-HenrikNergaard.222.mcz
 Glamour-Morphic-Widgets-AliakseiSyrel.192.mcz
@@ -202,10 +202,10 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.240.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1236.mcz
+Nautilus-TheIntegrator.1237.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.31.mcz
-Nautilus-Tests-TheIntegrator.32.mcz
+Nautilus-Tests-TheIntegrator.33.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.11.mcz
 NautilusRefactoring-TheIntegrator.272.mcz
