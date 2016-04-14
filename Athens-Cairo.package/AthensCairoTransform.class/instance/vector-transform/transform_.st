@@ -1,8 +1,8 @@
 transform: aPoint
 	| x y |
-	"since we use pointers to floats we must create a copy of original values to not scratch them"
-	x := aPoint x asFloat shallowCopy.
-	y := aPoint y asFloat shallowCopy.
-	
+	x := ByteArray new: 8.
+	y := ByteArray new: 8.
+	x doubleAt: 1 put: aPoint x.
+	y doubleAt: 1 put: aPoint y.
 	self primTransformX: x Y: y.
-	^ x @ y
+	^ (x doubleAt: 1) @ (y doubleAt: 1)
