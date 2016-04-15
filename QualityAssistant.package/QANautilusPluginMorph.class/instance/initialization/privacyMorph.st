@@ -14,10 +14,7 @@ privacyMorph
 		vSpaceFill;
 		color: Color paleRed.
 
-	GLMAsyncTask new
-		delay: 30000;
-		onCompleted: [ self class wasOpenedBefore: true ];
-		execute.
+	self class startPrivacyPromptTaskIfNecessary.
 
 	agreementBrick settingsButtonBrick
 		when: #onClicked

@@ -3,4 +3,4 @@ stable: spec
 	
 	spec for: #'pharo4.x' version: 'v1.4.3'.
 	
-	spec for: #'pharo5.x' version: 'v2.6.4'
+	spec for: #'pharo5.x' version: 'v2.6.5'

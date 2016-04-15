@@ -5,6 +5,7 @@ toggleBreakpointCondition
 	savedVscroll := methodWidget vScrollValue.
 	self toggleBreakConditionOnEntryIn: self selectedMethod.
 	self resetMethodsList.
-	methodWidget updateMethodList. 
+	
+	methodWidget invalidateCacheEntryFor: self selectedMethod.
 	methodWidget selectedMethodIndex: savedSelectedMethodIndex.
 	savedVscroll := methodWidget vScrollValue: savedVscroll

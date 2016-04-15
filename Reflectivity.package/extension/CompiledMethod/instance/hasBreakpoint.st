@@ -1,3 +1,4 @@
 hasBreakpoint
-	^self ast hasBreakpoint.
+	^ Breakpoint isInstalledIn: self
+	
 	

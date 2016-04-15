@@ -1,3 +1,3 @@
 removeAll 
 	<script>
-	AllBreakpoints do: #remove.
+	AllBreakpoints copy do: #remove.
