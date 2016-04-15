@@ -1,4 +1,4 @@
-script50692
+script50693
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -114,7 +114,7 @@ Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.175.mcz
-Graphics-Files-TheIntegrator.74.mcz
+Graphics-Files-TheIntegrator.76.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Primitives-TheIntegrator.189.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
@@ -139,7 +139,7 @@ Keymapping-Pragmas-TheIntegrator.52.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.105.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.160.mcz
+Komitter-TheIntegrator.163.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz

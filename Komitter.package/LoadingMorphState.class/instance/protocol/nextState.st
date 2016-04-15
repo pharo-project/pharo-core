@@ -1,3 +1,2 @@
 nextState
-
 	^ self subclassResponsibility

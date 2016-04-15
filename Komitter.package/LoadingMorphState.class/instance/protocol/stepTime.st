@@ -1,3 +1,2 @@
 stepTime
-
-	self subclassResponsibility
+	^ self subclassResponsibility

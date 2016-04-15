@@ -1,3 +1,2 @@
 image
-
-	^ self class image
+	^ self subclassResponsibility

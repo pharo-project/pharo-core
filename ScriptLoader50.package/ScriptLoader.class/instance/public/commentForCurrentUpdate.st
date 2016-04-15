@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18005 speed up Nautilus tests
-	https://pharo.fogbugz.com/f/cases/18005'
+ ^ '17697 Badly encoded icon data
+	https://pharo.fogbugz.com/f/cases/17697'

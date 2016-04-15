@@ -1,3 +1,0 @@
-addRemoteIcon
-
-	^ self class addRemoteIcon
