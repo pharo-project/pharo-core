@@ -1,4 +1,4 @@
-script50695
+script50696
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -387,7 +387,7 @@ Versionner-Tests-Resources-MarcusDenker.18.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.45.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
-Zinc-HTTP-SvenVanCaekenberghe.447.mcz
+Zinc-HTTP-SvenVanCaekenberghe.448.mcz
 Zinc-Resource-Meta-Core-PavelKrivanek.56.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz

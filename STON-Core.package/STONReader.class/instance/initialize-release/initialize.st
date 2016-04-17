@@ -4,5 +4,4 @@ initialize
 	classes := IdentityDictionary new.
 	allowComplexMapKeys := acceptUnknownClasses := convertNewLines := false.
 	newLine := String cr.
-	stack := Stack new.
 	unresolvedReferences := 0

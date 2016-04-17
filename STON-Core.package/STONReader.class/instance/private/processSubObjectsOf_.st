@@ -1,12 +1,13 @@
 processSubObjectsOf: object
-	stack push: object.
-	[ stack isEmpty ]
-		whileFalse: [ 
-			stack pop
-				stonProcessSubObjects: [ :each | 
-					each isStonReference
-						ifTrue: [ self resolveReference: each ]
-						ifFalse: [ 
-							each stonContainSubObjects
-								ifTrue: [ stack push: each ]
-								ifFalse: [ each ] ] ] ]
+	| unresolvedReferencesCount |
+	unresolvedReferencesCount := unresolvedReferences.
+	object stonProcessSubObjects: [ :each | 
+		each isStonReference
+			ifTrue: [ self resolveReference: each ]
+			ifFalse: [ 
+				each stonContainSubObjects
+					ifTrue: [ self processSubObjectsOf: each ]
+					ifFalse: [ each ] ] ].
+	unresolvedReferencesCount > unresolvedReferences
+		ifTrue: [ object stonPostReferenceResolution ].
+	^ object
