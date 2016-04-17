@@ -1,4 +1,4 @@
-script50694
+script50695
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -234,7 +234,7 @@ PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.97.mcz
+QualityAssistant-YuriyTymchuk.98.mcz
 QualityAssistantRecording-YuriyTymchuk.20.mcz
 RPackage-Core-TheIntegrator.428.mcz
 RPackage-Tests-TheIntegrator.181.mcz
@@ -310,7 +310,7 @@ System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
-System-CommandLineHandler-TheIntegrator.14.mcz
+System-CommandLineHandler-TheIntegrator.16.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.32.mcz
 System-Hashing-TheIntegrator.50.mcz

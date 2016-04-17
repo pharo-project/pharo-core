@@ -1,4 +1,5 @@
 runPreferences
 
-	SystemSettingsPersistence resumeSystemSettings.
+	Smalltalk at: #SystemSettingsPersistence ifPresent: [:persistence | 
+		persistence resumeSystemSettings].
 	StartupPreferencesLoader default loadFromDefaultLocations

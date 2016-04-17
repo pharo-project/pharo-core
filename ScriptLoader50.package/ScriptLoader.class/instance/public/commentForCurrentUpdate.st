@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18010 CompiledMethod>>#hasBreakpoint speedup
-	https://pharo.fogbugz.com/f/cases/18010
+ ^ '18008 Zinc Update April 2016
+	https://pharo.fogbugz.com/f/cases/18008
 
-18011 QA async task flood
-	https://pharo.fogbugz.com/f/cases/18011'
+18012 PharoCommandLineHandler uses SystemSettingsPersistence that is not present in the minimal Pharo
+	https://pharo.fogbugz.com/f/cases/18012'
