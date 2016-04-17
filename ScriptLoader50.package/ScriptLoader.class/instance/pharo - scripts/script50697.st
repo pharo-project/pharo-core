@@ -1,4 +1,4 @@
-script50696
+script50697
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -190,7 +190,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.66.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.19.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.21.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.50.mcz
 Morphic-Widgets-Windows-TheIntegrator.92.mcz
@@ -269,8 +269,8 @@ Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
 Rubric-MarcusDenker.360.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
-STON-Core-SvenVanCaekenberghe.67.mcz
-STON-Tests-SvenVanCaekenberghe.59.mcz
+STON-Core-SvenVanCaekenberghe.72.mcz
+STON-Tests-SvenVanCaekenberghe.64.mcz
 SUnit-Core-TheIntegrator.169.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz

@@ -1,3 +1,5 @@
 commentForCurrentUpdate
- ^ '18009 STON Update April 2016
-	https://pharo.fogbugz.com/f/cases/18009'
+ ^ '17905 TaskbarMorph should not kill an image when not all required methods are implemented
+	https://pharo.fogbugz.com/f/cases/17905
+
+'
