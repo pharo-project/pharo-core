@@ -1,0 +1,3 @@
+numberOfRows
+	
+	^availableRows

@@ -1,2 +1,2 @@
 handlesMouseWheel: event
-	^ true
+	^self isVerticalScrollBarVisible and: [ self hasDataSource ]

@@ -1,6 +1,7 @@
 drawOn: canvas
 	| x y cellWidth cellHeight rowsToDisplay rowSubviews highligtedRowIndexes primarySelectionIndex |
-
+	
+	super drawOn: canvas.
 	self canRefreshValues ifFalse: [ ^ self ]. "Nothing to update yet"
 
 	x := self left + self class rowLeftMargin.
@@ -39,5 +40,5 @@ drawOn: canvas
 	owner isResizable 
 		ifTrue: [ self addResizeSplitters ].
 	
-	super drawOn: canvas.
+
 	needsRefreshExposedRows := false

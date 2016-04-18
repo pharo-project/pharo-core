@@ -18,7 +18,7 @@ exampleEditableList1
 					];
 				withEditedContentsDo: [ :editedContents | 
 					data at: index put: editedContents asString.
-					list update: #refresh].
+					list refresh].
 				ed openEditorWithContents: (data at: index) 
 		];
 		yourself.

@@ -1,2 +1,2 @@
-update: anAnnouncement
+textUpdated: anAnnouncement
 	self filterWith: field getTextFromModel

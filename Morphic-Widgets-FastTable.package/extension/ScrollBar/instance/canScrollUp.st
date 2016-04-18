@@ -1,0 +1,3 @@
+canScrollUp
+
+	^value > 0

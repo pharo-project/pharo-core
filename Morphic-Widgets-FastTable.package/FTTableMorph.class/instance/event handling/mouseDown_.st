@@ -1,6 +1,9 @@
 mouseDown: event
 	| rowIndex |
 	"perform the click"
+	
+	needToggleAtMouseUp ifTrue: [ ^ self ].
+	
 	rowIndex := self container rowIndexContainingPoint: event cursorPoint.
 	self selectedRowIndex = rowIndex
 		ifFalse: [ self selectRowIndex: rowIndex event: event ]

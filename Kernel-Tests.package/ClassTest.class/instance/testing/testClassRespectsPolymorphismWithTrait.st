@@ -25,7 +25,8 @@ testClassRespectsPolymorphismWithTrait
 		equals: #(
 			#traitComposition: #setName: #getName #baseClass #basicLocalSelectors 
 			#classClass isClass
-			#basicLocalSelectors: #traitComposition #addInstVarNamed: #newAnonymousSubclass #definitionForNautilus #definitionForNautilusWithSlots #addSlot:
+			#basicLocalSelectors: #traitComposition #addInstVarNamed: #newAnonymousSubclass #definitionForNautilus #definitionForNautilusWithSlots 
+			#addSlot: #addClassSlot:
 			) asSet.
 		
 	"#classTrait:, #isClassTrait, #classTrait, #isBaseTrait and #baseTrait have their equivalent for classes but with different name.

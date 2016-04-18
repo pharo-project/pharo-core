@@ -1,2 +1,0 @@
-update: anAnnouncement
-	self subclassResponsibility

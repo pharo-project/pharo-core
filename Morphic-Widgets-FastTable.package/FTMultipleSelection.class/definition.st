@@ -2,4 +2,4 @@ FTSelectionStrategy subclass: #FTMultipleSelection
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Morphic-Widgets-FastTable'
+	category: 'Morphic-Widgets-FastTable-Selection'

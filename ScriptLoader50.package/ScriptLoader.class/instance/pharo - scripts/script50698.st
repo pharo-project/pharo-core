@@ -1,4 +1,4 @@
-script50697
+script50698
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -130,9 +130,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2267.mcz
+Kernel-TheIntegrator.2270.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.51.mcz
+Kernel-Tests-TheIntegrator.54.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.52.mcz
@@ -360,7 +360,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1521.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.903.mcz
+Traits-TheIntegrator.905.mcz
 Transcript-TheIntegrator.45.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

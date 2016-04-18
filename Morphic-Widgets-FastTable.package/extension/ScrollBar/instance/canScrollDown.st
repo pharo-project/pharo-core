@@ -1,0 +1,3 @@
+canScrollDown
+
+	^value < 1
