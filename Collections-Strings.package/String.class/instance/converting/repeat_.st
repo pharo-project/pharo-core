@@ -6,7 +6,7 @@ repeat: aNumber
 
 	aNumber < 1 ifTrue: [ self error: 'aNumber cannot be less than 1' ].
 	
-	^ self species 
+	^ self class 
 		new: self size * aNumber 
 		streamContents: [ :stringStream |
 			1 to: aNumber do: [ :idx | stringStream nextPutAll: self ].

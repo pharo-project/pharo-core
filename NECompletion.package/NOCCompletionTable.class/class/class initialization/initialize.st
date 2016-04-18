@@ -1,9 +1,6 @@
 initialize
-	SystemAnnouncer uniqueInstance 
-		unsubscribe: self;
-		when: MethodAdded, MethodModified 
-			send: #methodChanged: 
-			to: self.
+	
+	self registerInterestToSystemAnnouncement.
 			
 	SessionManager default
 		registerToolClassNamed: self name

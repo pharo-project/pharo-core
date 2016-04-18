@@ -1,5 +1,5 @@
 registerInterestOnSystemChangesOnAnnouncer: anAnnouncer
-	anAnnouncer 
+	anAnnouncer weak
 		when: RPackageRenamed send: #packageRenamed: to: self;
 		when: ClassAdded, ClassModifiedClassDefinition, ClassRenamed, ClassCommented , ClassParentRenamed send: #classModified: to: self;
 		when: ClassRepackaged send: #classMoved: to: self;

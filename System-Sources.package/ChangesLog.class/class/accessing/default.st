@@ -1,5 +1,5 @@
 default
 	^DefaultInstance ifNil: [ 
 		DefaultInstance := self new.
-		DefaultInstance registerToAnnouncements
-	].
+		self registerInterestToSystemAnnouncement.
+		DefaultInstance.].

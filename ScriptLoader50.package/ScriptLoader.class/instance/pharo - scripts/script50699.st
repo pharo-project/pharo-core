@@ -1,4 +1,4 @@
-script50698
+script50699
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -34,9 +34,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.243.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.407.mcz
+Collections-Strings-TheIntegrator.413.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.46.mcz
+Collections-Tests-TheIntegrator.49.mcz
 Collections-Unordered-TheIntegrator.230.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
@@ -135,7 +135,7 @@ Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.54.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
-Keymapping-Pragmas-TheIntegrator.52.mcz
+Keymapping-Pragmas-TheIntegrator.54.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.105.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
@@ -165,7 +165,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1124.mcz
+Monticello-TheIntegrator.1126.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -183,7 +183,7 @@ Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.86.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-EstebanLorenzano.163.mcz
+Morphic-Widgets-FastTable-StephanEggermont.177.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.66.mcz
@@ -200,7 +200,7 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.240.mcz
+NECompletion-TheIntegrator.242.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
 Nautilus-TheIntegrator.1243.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
@@ -329,7 +329,7 @@ System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.337.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.46.mcz
+System-Sources-TheIntegrator.48.mcz
 System-Support-TheIntegrator.1208.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz

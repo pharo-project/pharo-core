@@ -1,7 +1,7 @@
 registerInterestToSystemAnnouncement
 	<systemEventRegistration>
 	SystemAnnouncer uniqueInstance 
-		unsubscribe: self;
-		when: MethodAdded, MethodModified, MethodRemoved 
-			send: #event: 
-			to: self.
+		unsubscribe: self.
+	SystemAnnouncer uniqueInstance weak subscribe: MethodAdded, MethodModified, MethodRemoved 
+		send: #event: 
+		to: self.

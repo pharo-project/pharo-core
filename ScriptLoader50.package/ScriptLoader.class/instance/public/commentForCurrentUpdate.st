@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '17616 CI Server: Failing tests related to Traits Polymorphism
-	https://pharo.fogbugz.com/f/cases/17616
+ ^ '18018 String #copyReplaceAll:with:  Poor performance
+	https://pharo.fogbugz.com/f/cases/18018
 
-18019 Do a final sync of Fastable for Pharo5 release
-	https://pharo.fogbugz.com/f/cases/18019'
+18014 Make all subscriptions to the SystemAnnouncer weak (for non-GT classes)
+	https://pharo.fogbugz.com/f/cases/18014'
