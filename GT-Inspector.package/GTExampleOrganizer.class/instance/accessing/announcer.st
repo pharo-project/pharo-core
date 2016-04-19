@@ -1,2 +1,2 @@
 announcer
-	^ SystemAnnouncer uniqueInstance
+	^ SystemAnnouncer uniqueInstance weak
