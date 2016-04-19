@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18022 GToolkit version 3.20
-	https://pharo.fogbugz.com/f/cases/18022'
+ ^ '16976 Invalid repo predefined in Monticello browser
+	https://pharo.fogbugz.com/f/cases/16976
+
+17965 Failing on CI: #testShouldFileLocatorBeBeforeSystemSettingsPersistenceInStartupList
+	https://pharo.fogbugz.com/f/cases/17965'

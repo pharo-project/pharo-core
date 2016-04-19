@@ -1,4 +1,4 @@
-script50700
+script50701
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -78,9 +78,9 @@ FuelTests-EstebanLorenzano.394.mcz
 FuelTools-Debugger-TheIntegrator.17.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.350.mcz
-GT-EventRecorder-TheIntegrator.65.mcz
+GT-EventRecorder-PavelKrivanek.66.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
-GT-Inspector-StefanReichhart.403.mcz
+GT-Inspector-StefanReichhart.406.mcz
 GT-InspectorExtensions-Core-TudorGirba.213.mcz
 GT-Playground-DenisKudryashov.124.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
@@ -93,22 +93,22 @@ GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AliakseiSyrel.17.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
-Glamour-Core-CyrilFerlicot.316.mcz
+Glamour-Core-AndreiChis.319.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-GuillermoPolito.418.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-GuillermoPolito.110.mcz
-Glamour-Morphic-Renderer-DenisKudryashov.347.mcz
+Glamour-Morphic-Renderer-AndreiChis.348.mcz
 Glamour-Morphic-Theme-HenrikNergaard.222.mcz
-Glamour-Morphic-Widgets-AliakseiSyrel.192.mcz
-Glamour-Presentations-TudorGirba.184.mcz
+Glamour-Morphic-Widgets-AndreiChis.193.mcz
+Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TudorGirba.51.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
-Glamour-Tests-Rubric-AndreiChis.33.mcz
+Glamour-Tests-Rubric-AndreiChis.34.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
@@ -257,7 +257,7 @@ Reflectivity-Tools-Tests-TheIntegrator.11.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
-ReleaseTests-TheIntegrator.29.mcz
+ReleaseTests-TheIntegrator.31.mcz
 Renraku-YuriyTymchuk.111.mcz
 Renraku-Test-YuriyTymchuk.19.mcz
 Ring-Core-Containers-TheIntegrator.43.mcz
