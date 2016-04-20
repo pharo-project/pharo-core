@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '16976 Invalid repo predefined in Monticello browser
-	https://pharo.fogbugz.com/f/cases/16976
+ ^ '18017 CompiledMethod>>#containsHalt should exclude the selector when checking literals
+	https://pharo.fogbugz.com/f/cases/18017
 
-17965 Failing on CI: #testShouldFileLocatorBeBeforeSystemSettingsPersistenceInStartupList
-	https://pharo.fogbugz.com/f/cases/17965'
+17702 failting test: OCClosureCompilerTest>>#testDebuggerTempAccess
+	https://pharo.fogbugz.com/f/cases/17702'

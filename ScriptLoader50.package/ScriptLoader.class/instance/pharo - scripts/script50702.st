@@ -1,4 +1,4 @@
-script50701
+script50702
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -130,9 +130,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2270.mcz
+Kernel-TheIntegrator.2274.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.54.mcz
+Kernel-Tests-TheIntegrator.57.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz
@@ -224,8 +224,8 @@ OSWindow-SDL2-TheIntegrator.91.mcz
 OSWindow-SDL2-Examples-TheIntegrator.9.mcz
 OSWindow-Tests-TheIntegrator.2.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.791.mcz
-OpalCompiler-Tests-TheIntegrator.331.mcz
+OpalCompiler-Core-TheIntegrator.793.mcz
+OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
