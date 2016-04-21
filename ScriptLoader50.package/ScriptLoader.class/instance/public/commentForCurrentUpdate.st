@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18017 CompiledMethod>>#containsHalt should exclude the selector when checking literals
-	https://pharo.fogbugz.com/f/cases/18017
+ ^ '18027 add reset message to MCCacheRepository
+	https://pharo.fogbugz.com/f/cases/18027
 
-17702 failting test: OCClosureCompilerTest>>#testDebuggerTempAccess
-	https://pharo.fogbugz.com/f/cases/17702'
+18034 testIsPrime is broken with modern VM made with LargeIntegersPlugin v2.0
+	https://pharo.fogbugz.com/f/cases/18034'

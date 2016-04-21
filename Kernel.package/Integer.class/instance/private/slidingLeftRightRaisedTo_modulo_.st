@@ -40,4 +40,4 @@ slidingLeftRightRaisedTo: n modulo: m
 					This saves up to (k-j) multiplications versus a naive algorithm operating bit by bit"
 					pow := pow * (oddPowersOfSelf at: index + 1) \\ m].
 			k := k - 1].
-	^pow normalize
+	^pow

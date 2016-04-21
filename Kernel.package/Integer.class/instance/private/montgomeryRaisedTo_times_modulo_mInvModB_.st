@@ -1,8 +1,9 @@
 montgomeryRaisedTo: n times: y modulo: m mInvModB: mInv
 	"Private - do a Montgomery exponentiation of self modulo m.
 	The operation is equivalent to (self/y raisedTo: n)*y \\ m,
-	with y is (256 raisedTo: m digitLength),
-	with (m bitAnd: 255) * mInv \\ 256 = 255."
+	with y is (b raisedTo: m montgomeryNumberOfDigits),
+	with (m bitAnd: b-1) * mInv \\ b = (b-1)
+	with b = self montgomeryDigitBase (either 1<<8 or 1<<32)"
 	
 	| pow j k w index oddPowersOfSelf square |
 	

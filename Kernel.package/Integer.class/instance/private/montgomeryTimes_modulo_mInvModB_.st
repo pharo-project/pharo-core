@@ -1,10 +1,11 @@
 montgomeryTimes: a modulo: m mInvModB: mInv
 	"Answer the result of a Montgomery multiplication
-	self * a * (256 raisedTo: m digitLength) inv \\ m
+	self * a * (b raisedTo: m montgomeryNumberOfDigits) inv \\ m
 	NOTE: it is assumed that:
-	self digitLength <= m digitLength
-	a digitLength <= m digitLength
-	mInv * m \\ 256 = (-1 \\ 256) = 255 (this implies m odd)
+	self montgomeryNumberOfDigits <= m montgomeryNumberOfDigits
+	a montgomeryNumberOfDigits <= m montgomeryNumberOfDigits
+	mInv * m \\ b = (-1 \\ b) = (b-1) (this implies m odd)
+	where b = self montgomeryDigitBase
 	
 	Answer nil in case of absent plugin or other failure."
 	
