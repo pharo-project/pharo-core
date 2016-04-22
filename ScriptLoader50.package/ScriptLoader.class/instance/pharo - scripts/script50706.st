@@ -1,4 +1,4 @@
-script50705
+script50706
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -219,9 +219,9 @@ Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.33.mcz
 NodeNavigation-TheIntegrator.53.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
-OSWindow-Core-TheIntegrator.100.mcz
-OSWindow-SDL2-TheIntegrator.91.mcz
-OSWindow-SDL2-Examples-TheIntegrator.9.mcz
+OSWindow-Core-RonieSalgado.103.mcz
+OSWindow-SDL2-RonieSalgado.95.mcz
+OSWindow-SDL2-Examples-RonieSalgado.11.mcz
 OSWindow-Tests-TheIntegrator.2.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.793.mcz
@@ -229,7 +229,7 @@ OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1336.mcz
+Polymorph-Widgets-TheIntegrator.1338.mcz
 PragmaCollector-TheIntegrator.10.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz

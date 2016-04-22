@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18056 Sync OSWindow with upstream for Pharo5
-	https://pharo.fogbugz.com/f/cases/18056'
+ ^ '18051 fix bug in depedency analyzer reverse analysis
+	https://pharo.fogbugz.com/f/cases/18051
+
+18038 Missing allIconNames
+	https://pharo.fogbugz.com/f/cases/18038'

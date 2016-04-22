@@ -1,5 +1,5 @@
-nodesFor: anItemList
-	^ anItemList collect: 
+nodesFor: anItemList 
+	^ anItemList sorted collect: 
 		[ :each | 
 		DAPackageUnderAnalysisNode new
 			content: each;

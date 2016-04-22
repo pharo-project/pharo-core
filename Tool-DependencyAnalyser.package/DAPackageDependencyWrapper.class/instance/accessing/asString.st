@@ -1,2 +1,0 @@
-asString
-	^ self packageName

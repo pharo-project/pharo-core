@@ -3,4 +3,4 @@ stable: spec
 
 	spec for: #'common' version: '1.2'.
 
-	spec for: #'pharo5.x' version: '1.17'.
+	spec for: #'pharo5.x' version: '1.18'.
