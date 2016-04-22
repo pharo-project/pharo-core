@@ -19,7 +19,6 @@ menuOn: aBuilder
 	(aBuilder item: #'Set search string' translated)
 		keyText: 'h';
 		selector: #setSearchString.
-	self extendedSearchMenuOn: aBuilder.
 	aBuilder model canChangeText
 		ifTrue: [ 
 			(aBuilder item: #'Do again' translated)
