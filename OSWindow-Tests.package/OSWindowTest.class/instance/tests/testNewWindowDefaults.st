@@ -2,7 +2,7 @@ testNewWindowDefaults
 
 	| window |
 	
-	window := OSWindow new.
+	window := OSWindow newWithNullDriver.
 
 	[
 		self assert: (window isValid).

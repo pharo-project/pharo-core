@@ -2,7 +2,7 @@ testSettingUpWindow
 
 	| window |
 	
-	window := OSWindow new.
+	window := OSWindow newWithNullDriver.
 	
 	[
 		window extent: 150@150.

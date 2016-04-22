@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '18052 Reformatting a method should never break the code
-	https://pharo.fogbugz.com/f/cases/18052
-
-'
+ ^ '18057 Two tests for OSWindow now failing on Linux and Win
+	https://pharo.fogbugz.com/f/cases/18057'
