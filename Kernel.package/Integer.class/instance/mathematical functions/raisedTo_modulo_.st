@@ -10,10 +10,10 @@ raisedTo: n modulo: m
 			["Overhead of Montgomery method might cost more than naive divisions, use naive"
 			^self slidingLeftRightRaisedTo: n modulo: m].
 	
-	mInv := 256 - ((m bitAnd: 255) reciprocalModulo: 256).
+	mInv := self montgomeryDigitBase - ((m bitAnd: self montgomeryDigitMax) reciprocalModulo: self montgomeryDigitBase).
  
-	"Initialize the result to R=256 raisedTo: m digitLength"
-	a := (1 bitShift: m digitLength*8) \\ m.
+	"Initialize the result to R=self montgomeryDigitModulo raisedTo: m montgomeryNumberOfDigits"
+	a := (1 bitShift: m montgomeryNumberOfDigits * m montgomeryDigitLength) \\ m.
 	
 	"Montgomerize self (multiply by R)"
 	(s := self montgomeryTimes: (a*a \\ m) modulo: m mInvModB: mInv)

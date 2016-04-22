@@ -10,9 +10,9 @@ rebuildUpAndDownArrowIconFrom: array
 		wrapCentering: #center;
 		cellPositioning: #topCenter;
 		listDirection: #topToBottom.
-		
+	
 	array 
-	collect: [ :each | each asIconTargetting: self model ] 
+	collect: [ :each | each asIconTargetting: NautilusUI ] 
 	thenDo: [ :each | container addMorphBack: each ].
 	
 	^container

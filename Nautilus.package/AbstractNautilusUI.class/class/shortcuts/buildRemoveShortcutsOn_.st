@@ -4,7 +4,7 @@ buildRemoveShortcutsOn: aBuilder
 	(aBuilder shortcut: #removeClass)
 		category: #NautilusGlobalShortcuts
 		default: $x meta  ,$c meta 
-		do: [ :target | target removeClasses ]
+		do: [ :target | target removeClassWithRefactoringEngine: target selectedClasses asOrderedCollection ]
 		description: 'Remove the selected classes'.
 			
 	(aBuilder shortcut: #removePackage)

@@ -6,6 +6,7 @@ menuOn: aBuilder
 	| uitheme |
 	uitheme := Smalltalk ui icons.
 	(aBuilder item: #'Do it' translated)
+		order: 1;
 		keyText: 'd';
 		selector: #doIt;
 		help: nil;
