@@ -4,8 +4,10 @@ needsParenthesisFor: aNode
 	aNode isValue
 		ifFalse: [ ^ false ].
 	parent := aNode parent ifNil: [ ^ false ].
-	(self cascadedMessageInsideParentheses
-		and: [ aNode isMessage and: [ parent isMessage and: [ parent receiver == aNode ] ] ])
+	(aNode isMessage and: [ 
+		parent isMessage and: [ 
+		parent receiver == aNode and:[
+		aNode selector isUnary not ] ] ])
 		ifTrue: [ 
 			grandparent := parent parent.
 			(grandparent notNil and: [ grandparent isCascade ])

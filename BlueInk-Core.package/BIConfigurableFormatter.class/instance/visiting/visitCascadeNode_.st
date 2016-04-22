@@ -1,4 +1,5 @@
 visitCascadeNode: aCascadeNode
+	1haltOnce.
 	self isInCascadeNode: true.
 	self visitNode: aCascadeNode receiver.
 	self

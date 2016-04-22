@@ -1,3 +1,0 @@
-cascadedMessageInsideParentheses: aBoolean
-	DefaultPrettyPrintContext cascadedMessageInsideParentheses: aBoolean.
-	self announceASettingChange

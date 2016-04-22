@@ -1,4 +1,4 @@
-script50708
+script50709
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -20,9 +20,9 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.18.mcz
+BlueInk-Core-TheIntegrator.20.mcz
 BlueInk-Extras-TheIntegrator.8.mcz
-BlueInk-Tests-TheIntegrator.8.mcz
+BlueInk-Tests-TheIntegrator.10.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
 CodeImport-TheIntegrator.83.mcz
@@ -219,9 +219,9 @@ Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.33.mcz
 NodeNavigation-TheIntegrator.53.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
-OSWindow-Core-RonieSalgado.103.mcz
+OSWindow-Core-RonieSalgado.104.mcz
 OSWindow-SDL2-RonieSalgado.95.mcz
-OSWindow-SDL2-Examples-RonieSalgado.11.mcz
+OSWindow-SDL2-Examples-RonieSalgado.12.mcz
 OSWindow-Tests-TheIntegrator.2.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.793.mcz

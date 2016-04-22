@@ -7,10 +7,6 @@ settingsOn: aBuilder
 		description: 'Settings related to the formatter';
 		with:
 				[ 
-			(aBuilder setting: #cascadedMessageInsideParentheses)
-				label: 'Cascaded message inside parentheses';
-				description:
-					(BIFormatSettingsExample >> #cascadedMessageInsideParenthesesExample) sourceCode.
 			(aBuilder setting: #formatCommentWithStatements) label: 'Format comment with statements'.
 			(aBuilder setting: #indentString) label: 'Indent string'.
 			(aBuilder setting: #indentsForKeywords) label: 'Indents for keywords'.
