@@ -1,0 +1,2 @@
+isLeftShoulder
+	^ button == 9

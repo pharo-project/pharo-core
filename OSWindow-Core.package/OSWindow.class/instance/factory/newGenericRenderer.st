@@ -1,0 +1,2 @@
+newGenericRenderer
+	^ handle newGenericRenderer

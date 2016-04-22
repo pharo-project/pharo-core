@@ -1,0 +1,2 @@
+drawPoint: aPoint
+	"Do nothing"

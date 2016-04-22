@@ -1,0 +1,2 @@
+fillRectangle: aRectangle
+	self subclassResponsibility

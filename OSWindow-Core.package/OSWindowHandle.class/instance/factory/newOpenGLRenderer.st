@@ -1,0 +1,2 @@
+newOpenGLRenderer
+	self subclassResponsibility

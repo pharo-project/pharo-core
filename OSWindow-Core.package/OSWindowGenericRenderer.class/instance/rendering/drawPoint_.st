@@ -1,0 +1,2 @@
+drawPoint: aPoint
+	self subclassResponsibility

@@ -1,0 +1,2 @@
+updateRectangle: rectangle
+	"Do nothing"

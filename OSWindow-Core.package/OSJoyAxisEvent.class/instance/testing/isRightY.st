@@ -1,0 +1,2 @@
+isRightY
+	^ axis == 3

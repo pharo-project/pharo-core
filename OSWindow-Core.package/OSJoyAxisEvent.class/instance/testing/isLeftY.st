@@ -1,0 +1,2 @@
+isLeftY
+	^ axis == 1

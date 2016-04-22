@@ -1,0 +1,2 @@
+isTriggerLeft
+	^ axis == 4

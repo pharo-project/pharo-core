@@ -1,0 +1,2 @@
+newGenericRenderer
+	^ renderer := OSWindowNullGenericRenderer new

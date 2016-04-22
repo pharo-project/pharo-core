@@ -1,0 +1,2 @@
+axisMaxValue
+	^ self class axisMaxValue

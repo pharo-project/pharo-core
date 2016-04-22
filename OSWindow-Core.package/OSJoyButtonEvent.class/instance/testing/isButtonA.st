@@ -1,0 +1,2 @@
+isButtonA
+	^ button == 0

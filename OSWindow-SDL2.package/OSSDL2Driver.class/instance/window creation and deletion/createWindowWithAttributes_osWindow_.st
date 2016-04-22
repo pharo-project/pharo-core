@@ -1,14 +1,14 @@
 createWindowWithAttributes: attributes osWindow: osWindow
 	| flags handle window glAttributes x y |
 	flags := attributes visible ifTrue: [ SDL_WINDOW_SHOWN ] ifFalse: [ SDL_WINDOW_HIDDEN ].
-	attributes fullscreen ifTrue: [ flags := flags | SDL_WINDOW_FULLSCREEN ].
+	attributes fullscreen ifTrue: [ flags := flags | SDL_WINDOW_FULLSCREEN_DESKTOP ].
 	
 	attributes borderless ifTrue: [ flags := flags | SDL_WINDOW_BORDERLESS ].
 	
 	" Set the OpenGL attributes."
 	glAttributes := attributes glAttributes.
 	glAttributes ifNotNil: [ 
-		flags := SDL_WINDOW_OPENGL.
+		flags := flags | SDL_WINDOW_OPENGL.
 		self setGLAttributes: glAttributes.
 	].
 	

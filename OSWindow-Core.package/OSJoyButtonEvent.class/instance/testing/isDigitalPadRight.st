@@ -1,0 +1,2 @@
+isDigitalPadRight
+	^ button == 14

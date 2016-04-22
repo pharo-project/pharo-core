@@ -1,0 +1,2 @@
+characterVelocity: anObject
+	characterVelocity := anObject

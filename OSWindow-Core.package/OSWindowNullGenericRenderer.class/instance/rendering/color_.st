@@ -1,0 +1,2 @@
+color: aColor
+	"Do nothing"

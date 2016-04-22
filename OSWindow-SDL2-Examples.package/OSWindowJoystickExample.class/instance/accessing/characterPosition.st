@@ -1,0 +1,2 @@
+characterPosition
+	^ characterPosition

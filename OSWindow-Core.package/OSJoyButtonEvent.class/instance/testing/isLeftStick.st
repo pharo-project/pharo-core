@@ -1,0 +1,2 @@
+isLeftStick
+	^ button == 7

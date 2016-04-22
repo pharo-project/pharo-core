@@ -1,0 +1,2 @@
+isDigitalPadDown
+	^ button == 12

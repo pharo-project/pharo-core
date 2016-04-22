@@ -1,0 +1,1 @@
+visitJoyDeviceAddedEvent: anEvent

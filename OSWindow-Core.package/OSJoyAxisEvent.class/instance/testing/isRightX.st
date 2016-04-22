@@ -1,0 +1,2 @@
+isRightX
+	^ axis == 2

@@ -1,0 +1,2 @@
+isButtonGuide
+	^ button == 5

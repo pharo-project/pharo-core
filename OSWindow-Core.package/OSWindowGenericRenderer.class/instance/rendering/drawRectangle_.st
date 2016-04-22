@@ -1,0 +1,2 @@
+drawRectangle: aRectangle
+	self subclassResponsibility

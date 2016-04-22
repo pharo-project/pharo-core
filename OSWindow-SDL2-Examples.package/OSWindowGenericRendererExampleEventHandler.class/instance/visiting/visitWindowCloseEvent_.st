@@ -1,0 +1,2 @@
+visitWindowCloseEvent: anEvent
+	example destroy

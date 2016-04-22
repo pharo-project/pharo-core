@@ -1,0 +1,2 @@
+isButtonY
+	^ button == 3

@@ -1,0 +1,2 @@
+which: anObject
+	which := anObject

@@ -1,0 +1,2 @@
+isButtonBack
+	^ button == 4

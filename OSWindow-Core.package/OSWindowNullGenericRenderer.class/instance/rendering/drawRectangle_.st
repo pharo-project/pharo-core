@@ -1,0 +1,2 @@
+drawRectangle: aRectangle
+	"Do nothing"

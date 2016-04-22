@@ -1,0 +1,2 @@
+isRightShoulder
+	^ button == 10

@@ -1,0 +1,2 @@
+characterPosition: anObject
+	characterPosition := anObject

@@ -13,6 +13,5 @@ open
 	self initializeFromSurface.
 
 	window eventHandler: (self createEventHandler).
-	attrs preferableDriver registerGlobalListener: window eventHandler.
 	
 	drawingProcess := self createDrawingProcess

@@ -1,0 +1,2 @@
+fillRectangle: aRectangle
+	"Do nothing"

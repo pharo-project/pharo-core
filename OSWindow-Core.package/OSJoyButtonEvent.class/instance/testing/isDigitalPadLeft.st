@@ -1,0 +1,2 @@
+isDigitalPadLeft
+	^ button == 13

@@ -1,0 +1,2 @@
+isButtonStart
+	^ button == 6

@@ -1,0 +1,2 @@
+axisMaxValue
+	^ 32767

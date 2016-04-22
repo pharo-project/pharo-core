@@ -1,0 +1,2 @@
+newAthensRenderer
+	self subclassResponsibility

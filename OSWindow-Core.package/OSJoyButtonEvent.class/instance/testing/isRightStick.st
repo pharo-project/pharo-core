@@ -1,0 +1,2 @@
+isRightStick
+	^ button == 8

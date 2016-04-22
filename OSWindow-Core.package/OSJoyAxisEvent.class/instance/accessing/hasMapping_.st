@@ -1,0 +1,2 @@
+hasMapping: anObject
+	hasMapping := anObject

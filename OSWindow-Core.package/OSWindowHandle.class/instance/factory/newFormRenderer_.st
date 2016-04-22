@@ -1,0 +1,2 @@
+newFormRenderer: aForm
+	self subclassResponsibility

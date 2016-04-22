@@ -1,0 +1,2 @@
+isGameController
+	^ true

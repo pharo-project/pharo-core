@@ -2,17 +2,19 @@ initialize
 	"
 	self initialize
 	"
-	self initializeCommon.
-	self initializeEvent.
-	self initializeKeyboard.
-	self initializeKeycodes.
-	self initializeKeycodes2.
-	self initializeKeycodes3.
-	self initializeMouse.
-	self initializeOpenGL.
-	self initializeOpenGLProfile.
-	self initializePixelFormat.
-	self initializeRenderer.
-	self initializeTexture.
-	self initializeWindow.
-	self initializeWM.
+	self
+		initializeCommon;
+		initializeEvent;
+		initializeGameController;
+		initializeKeyboard;
+		initializeKeycodes;
+		initializeKeycodes2;
+		initializeKeycodes3;
+		initializeMouse;
+		initializeOpenGL;
+		initializeOpenGLProfile;
+		initializePixelFormat;
+		initializeRenderer;
+		initializeTexture;
+		initializeWindow;
+		initializeWM.

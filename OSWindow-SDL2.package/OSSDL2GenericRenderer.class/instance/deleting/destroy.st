@@ -1,0 +1,2 @@
+destroy
+	renderer destroy

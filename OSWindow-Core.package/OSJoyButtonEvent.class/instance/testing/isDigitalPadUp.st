@@ -1,0 +1,2 @@
+isDigitalPadUp
+	^ button == 11

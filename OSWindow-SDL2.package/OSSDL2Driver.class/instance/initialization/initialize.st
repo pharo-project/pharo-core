@@ -2,6 +2,11 @@ initialize
 	inputSemaphore := Semaphore new.
 	eventQueue := AtomicSharedQueue new.
 	globalListeners := WeakSet new.
-	self initializeWindowMap.
-	SDL2 initVideo.
+	self
+		initializeWindowMap;
+		initializeJoystickMap.
+	SDL2
+		initVideo;
+		initJoystick;
+		initGameController.
 	self setupEventLoop.
