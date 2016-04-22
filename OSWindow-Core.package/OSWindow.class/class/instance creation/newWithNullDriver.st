@@ -1,0 +1,2 @@
+newWithNullDriver
+	^ self createWithAttributes: OSWindowAttributes newWithNullDriver
