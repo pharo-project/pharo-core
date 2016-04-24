@@ -5,4 +5,5 @@ startUp: resuming
 		- platform change 
 		- working directory change (and then libraries not found)
 		- indirect functions needs to be recalculated"
-	self uniqueInstance reset	
+	self uniqueInstance reset.
+	FFICallbackFunctionResolution reset.

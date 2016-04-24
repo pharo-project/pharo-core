@@ -8,7 +8,8 @@ createFFICalloutLiteralFromSpec: functionSpec
 		returnType: functionSpec returnType externalTypeWithArity
 		argumentTypes: (functionSpec arguments collect: #externalTypeWithArity).
 	
-	self isIndirectCall 
-		ifTrue: [ self makeIndirectCall: externalFunction ].	
+	functionResolutionStrategies
+		detect: [ :each | each isApplicableFor: self requestor ]
+		ifFound: [ :each | each resolve: externalFunction ].
 		
 	^ externalFunction

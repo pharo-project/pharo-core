@@ -1,6 +1,11 @@
 testDoubleCall
 	"Test using generic FFI spec"
-	| result |
+	| callback result |
+	
+	callback := FFICallback 
+		signature: #(double (double x)) 
+		block: [ :x | x abs ].
+	FFICallbackFunctionResolution registerCallback: callback as: #DoubleAbsolute.
 	
 	result := self ffiDoubleAbs: 65.
 	self assert: result equals: 65.0.

@@ -1,0 +1,2 @@
+addFunctionResolveStrategy: aStrategy
+	functionResolutionStrategies add: aStrategy

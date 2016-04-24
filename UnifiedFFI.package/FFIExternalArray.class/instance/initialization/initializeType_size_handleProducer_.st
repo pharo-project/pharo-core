@@ -1,5 +1,5 @@
 initializeType: aType size: aNumber handleProducer: aBlock 
-	type := self resolveType: aType.
+	type := aType.
 	size := aNumber.
 	handle := aBlock value: (size 
 		ifNotNil: [ size * type typeSize ]

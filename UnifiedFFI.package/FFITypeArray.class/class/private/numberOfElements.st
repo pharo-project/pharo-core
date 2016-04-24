@@ -1,0 +1,2 @@
+numberOfElements
+	^ numberOfElements

@@ -1,11 +1,12 @@
 testFloatCall
 	"Test using generic FFI spec"
-	| result |
+	| callback result |
 	
-	"This test fails in windows, but it is expected (is because the funtion used is in 
-	 another library)"
-	Smalltalk os isWindows ifTrue: [ ^ self skip ].	
-	
+	callback := FFICallback 
+		signature: #(float (float x)) 
+		block: [ :x | x abs ].
+	FFICallbackFunctionResolution registerCallback: callback as: #FloatAbsolute.
+
 	result := self ffiFloatAbs: 65.
 	self assert: result equals: 65.0.
 	
@@ -17,3 +18,5 @@ testFloatCall
 
 	result := self ffiFloatAbs: true.
 	self assert: result equals: 1.0.
+
+	

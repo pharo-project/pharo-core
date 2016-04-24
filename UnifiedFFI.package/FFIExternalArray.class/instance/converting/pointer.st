@@ -1,5 +1,5 @@
 pointer
-	"Answers a pointer to the this array. 
+	"Answers a pointer to this array. 
 	 This is useful when translating an array pointer to a function (FFI requires to be passed as a
 	 pointer, otherwise will be interpreted as a direct array and it will not work fine)
 	

@@ -1,2 +1,2 @@
 ffiFloatAbs: number 
-	^ self ffiCall: #( float fabsf (float number) )
+	^ self ffiCall: #( float FloatAbsolute (float number) ) options: #(+optCallbackCall)
