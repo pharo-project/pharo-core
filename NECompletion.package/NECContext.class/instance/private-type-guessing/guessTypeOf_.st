@@ -6,7 +6,7 @@ guessTypeOf: aNumber
 	range := ranges at: aNumber.
 	
 	range isSelf ifTrue: [ ^theClass ].
-	range isSuper ifTrue: [ ^theClass superclass ].
+	(range isSuper and:[ theClass notNil]) ifTrue: [ ^theClass superclass ].
 	range isConstant ifTrue: [ ^self nonAbstractTypeOf: range ].
 	range isArgument ifTrue: [ ^self guessArgument: range ].
 	range isTemporaryVariable ifTrue: [ ^self guessTempVarClass: range ].
