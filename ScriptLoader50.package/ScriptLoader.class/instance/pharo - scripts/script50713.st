@@ -1,4 +1,4 @@
-script50712
+script50713
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -230,7 +230,7 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1338.mcz
-PragmaCollector-TheIntegrator.10.mcz
+PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.73.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
@@ -284,7 +284,7 @@ Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
-Shout-TheIntegrator.288.mcz
+Shout-TheIntegrator.290.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.740.mcz
 Slot-Tests-TheIntegrator.89.mcz
@@ -369,9 +369,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.183.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.48.mcz
-UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
-UnifiedFFI-Tests-EstebanLorenzano.18.mcz
+UnifiedFFI-EstebanLorenzano.54.mcz
+UnifiedFFI-Legacy-TheIntegrator.4.mcz
+UnifiedFFI-Tests-EstebanLorenzano.22.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-EstebanLorenzano.31.mcz

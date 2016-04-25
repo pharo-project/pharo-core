@@ -1,7 +1,7 @@
 privateStyle: aText 
     | ast |
 
-    ast := self parse: aText isMethod: classOrMetaClass isNil not .
+    ast := self parse: aText isMethod: workspace isNil.
     ast methodNode compilationContext: (CompilationContext new
             class: (classOrMetaClass ifNil: [UndefinedObject]);
 				forSyntaxHighlighting: true;

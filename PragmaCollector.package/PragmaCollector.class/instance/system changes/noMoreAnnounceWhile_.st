@@ -1,7 +1,7 @@
 noMoreAnnounceWhile: aBlock
 	"unplug the announcer during aBlock"
-	| oldAnnouncer |
-	[oldAnnouncer := announcer. 
-	announcer := nil.
+	| oldAnnouncing |
+	[oldAnnouncing := announcing. 
+	announcing := false.
 	aBlock value]
-		ensure: [announcer := oldAnnouncer]
+		ensure: [announcing := oldAnnouncing]
