@@ -14,7 +14,7 @@ freeTypeSettingsOn: aBuilder
 		dialog: [self ft2LibraryVersion];
 		icon: Smalltalk ui icons smallConfigurationIcon;
 		label: 'Use Free type';
-		description: 'If checked then allows free type fonts using and update available fonts by scanning the current system';
+		description: 'If checked, it allows the usage of Freetype fonts and updates available fonts by scanning the current system';
 		precondition: [FT2Library current notNil];
 		parent: #appearance; 
 		order: 3;  
@@ -40,7 +40,7 @@ freeTypeSettingsOn: aBuilder
 						target: FreeTypeCache; 
 						 targetSelector: #current;
 						 label: 'Cache size' ;
-						 description: 'The size of the cache in KBytes' ;
+						 description: 'The size of the font cache in KBytes' ;
 						 default: 5000;
 						range: (0 to: 50000 by: 10).
 					(aBuilder pickOne: #hintingSymbol) label: 'Hinting' ;

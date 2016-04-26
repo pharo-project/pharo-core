@@ -2,6 +2,8 @@ debugSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #debugging)
 		label: 'Debugging';
+		parent: #tools;
+		description: 'All Debugger settings';
 		with: [
 			(aBuilder group: #deprecationHandling)
 				label: 'Deprecation handling';

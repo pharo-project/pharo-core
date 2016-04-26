@@ -4,9 +4,9 @@ dialogItemsChooserSettingsOn: aBuilder
 		target: self;
 		label: 'Items Chooser Dialog Window';
 		parent: #morphic;
-		description: 'Settings related to the Items Chooser Dialog Window' ;
+		description: 'Settings related to the Dialog Window for choosing elements among a list' ;
 			with: [
 				(aBuilder setting: #alreadySearchedUnselectedItemsListMaxSize)
-					label: 'Size of the Unselected Items History'.
+					label: 'Number of the Unselected Items in History'.
 				(aBuilder setting: #alreadySearchedSelectedItemsListMaxSize)
-					label: 'Size of the Selected Items History'.]
+					label: 'Number of the Selected Items in History'.]

@@ -2,6 +2,7 @@ compilerSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #compiler)
 		label: 'Compiler';
+		description: 'All Compiler Settings';
 		with: [ 
 					(aBuilder pickOne: #compilerClass)
 						target: SmalltalkImage;

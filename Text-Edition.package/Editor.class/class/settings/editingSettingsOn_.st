@@ -1,7 +1,7 @@
 editingSettingsOn: aBuilder 
 	<systemsettings> 
 	(aBuilder group: #codeEditing) 
-		label: 'Editing';
+		label: 'Text Edition';
 		noOrdering;
 		description: 'All settings concerned with text editing' ;
 		with: [	

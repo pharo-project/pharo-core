@@ -1,9 +1,9 @@
 differatorSettingsOn: aBuilder 
 	<systemsettings>
 	(aBuilder group: #differator) 
-		label: 'Differator';
+		label: 'Code Diffs';
 		parent: #codeBrowsing; 
-		description: 'All settings concerned with the differator' ;
+		description: 'All settings concerned with the computation of diffs' ;
 		with: [	
 			(aBuilder setting: #ignoreLineEndings) 
 				label: 'Ignore line endings';

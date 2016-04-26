@@ -1,4 +1,4 @@
-script50714
+script50715
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -21,7 +21,7 @@ BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
 BlueInk-Core-TheIntegrator.22.mcz
-BlueInk-Extras-TheIntegrator.8.mcz
+BlueInk-Extras-TheIntegrator.10.mcz
 BlueInk-Tests-TheIntegrator.10.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
@@ -48,7 +48,7 @@ ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.83.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-EstebanLorenzano.120.mcz
+DebuggerModel-TheIntegrator.122.mcz
 Deprecated50-TheIntegrator.59.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -69,7 +69,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.18.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.738.mcz
+FreeType-TheIntegrator.740.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-TheIntegrator.821.mcz
 FuelCommandLineHandler-TheIntegrator.27.mcz
@@ -165,7 +165,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1128.mcz
+Monticello-TheIntegrator.1130.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -176,7 +176,7 @@ MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-TheIntegrator.15.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.544.mcz
+Morphic-Base-TheIntegrator.546.mcz
 Morphic-Core-TheIntegrator.275.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -217,14 +217,14 @@ Network-Tests-TheIntegrator.4.mcz
 Network-UUID-TheIntegrator.42.mcz
 Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.33.mcz
-NodeNavigation-TheIntegrator.53.mcz
+NodeNavigation-TheIntegrator.55.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
 OSWindow-Core-RonieSalgado.104.mcz
 OSWindow-SDL2-RonieSalgado.95.mcz
 OSWindow-SDL2-Examples-RonieSalgado.12.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.795.mcz
+OpalCompiler-Core-TheIntegrator.796.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -279,8 +279,8 @@ SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.90.mcz
-Settings-System-TheIntegrator.40.mcz
+Settings-Polymorph-TheIntegrator.92.mcz
+Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
@@ -335,8 +335,8 @@ System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.755.mcz
 Text-Core-TheIntegrator.50.mcz
-Text-Diff-StephaneDucasse.4.mcz
-Text-Edition-TheIntegrator.112.mcz
+Text-Diff-TheIntegrator.6.mcz
+Text-Edition-TheIntegrator.114.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
@@ -350,7 +350,7 @@ Tool-Diff-TheIntegrator.31.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.63.mcz
+Tool-Finder-TheIntegrator.65.mcz
 Tool-ImageCleaner-TheIntegrator.15.mcz
 Tool-ProcessBrowser-TheIntegrator.20.mcz
 Tool-Profilers-TheIntegrator.22.mcz
@@ -367,7 +367,7 @@ TxText-AthensTests-SeanDeNigris.10.mcz
 TxText-Model-SeanDeNigris.61.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
-UIManager-TheIntegrator.183.mcz
+UIManager-TheIntegrator.185.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
 UnifiedFFI-EstebanLorenzano.54.mcz
 UnifiedFFI-Legacy-TheIntegrator.4.mcz
@@ -384,6 +384,7 @@ Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
+WorldMenuHelp-TheIntegrator.2.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.45.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz

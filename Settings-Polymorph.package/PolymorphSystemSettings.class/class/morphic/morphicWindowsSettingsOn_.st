@@ -4,11 +4,6 @@ morphicWindowsSettingsOn: aBuilder
 		description: 'All windows settings';
 		noOrdering;
 		with: [
-			(aBuilder setting: #windowColor)
-				target: UITheme;
-				targetSelector: #currentSettings;
-				label: 'Window color' ;
-				description: 'The window color'.
 			(aBuilder setting: #preferRoundCorner)
 				target: UITheme;
 				targetSelector: #currentSettings;

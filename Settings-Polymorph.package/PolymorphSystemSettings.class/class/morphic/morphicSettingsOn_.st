@@ -7,7 +7,6 @@ morphicSettingsOn: aBuilder
 			self morphicWindowsSettingsOn: aBuilder.
 			self morphicMenuSettingsOn: aBuilder.
 			self morphicHaloSettingsOn: aBuilder.
-			self morphicAnimationSettingsOn: aBuilder.
 			(aBuilder setting: #keyboardFocusOnMouseDown)
 				label: 'Keyboard focus on mouse down';
 				target: MorphicModel;
@@ -17,7 +16,8 @@ morphicSettingsOn: aBuilder
 				target: MorphicModel;
 				description: 'When true, the mouse must be over a text or list pane in morphic for keystrokes to be felt, and when the mouse is out over the desktop, the so-called desktop-command-keys, such as cmd-b and cmd-R, are honored.  When false, list panes and text panes in morphic remain sensitive to keystrokes even after the mouse is no longer over the pane.' .
 			(aBuilder setting: #balloonHelpEnabled)
-				label: 'Balloon help'; 
+				label: 'Balloon Tooltips'; 
+				description: 'If true, tooltips are shown when leaving the cursor on top of a graphic element';
 				target: UITheme;
 				targetSelector: #currentSettings.
 			(aBuilder setting: #editableStringMorph)

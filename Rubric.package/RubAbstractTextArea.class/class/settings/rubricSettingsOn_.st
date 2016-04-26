@@ -2,6 +2,7 @@ rubricSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #Rubric)
 		label: 'Rubric editor';
+		parent: #codeEditing;
 		with: [ 
 					(aBuilder setting: #backgroundColor)
 						target: self;

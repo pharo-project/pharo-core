@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18070 Syntax error: Cannot store into
-	https://pharo.fogbugz.com/f/cases/18070
+ ^ '18080 New Help about adding World Menu Items
+	https://pharo.fogbugz.com/f/cases/18080
 
-18082 Shorter help items
-	https://pharo.fogbugz.com/f/cases/18082
+18091 Comment some existing settings
+	https://pharo.fogbugz.com/f/cases/18091
 
-18065 BIPrettyPrinterContext undeclared var in #initialize
-	https://pharo.fogbugz.com/f/cases/18065'
+18089 Update Rubric 2.19.3
+	https://pharo.fogbugz.com/f/cases/18089
+
+18090 Update Versionner 2.13.12
+	https://pharo.fogbugz.com/f/cases/18090'

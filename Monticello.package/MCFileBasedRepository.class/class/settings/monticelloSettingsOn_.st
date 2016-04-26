@@ -2,6 +2,7 @@ monticelloSettingsOn: aBuilder
 	<systemsettings>  
 	(aBuilder group: #monticello)
 		label: 'Monticello';
+		parent: #SCM;
 		description: 'All Monticello settings';
 		with: [ 
 			(aBuilder setting: #defaultDirectoryName)

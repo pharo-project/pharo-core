@@ -1,7 +1,8 @@
 settingOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #progress)
-		label: 'Progress';
+		label: 'Progress Bar';
+		description: 'Progress Bar settings';
 		parent: #morphic;
 		with: [
 			(aBuilder pickOne: #horizontalPosition)
