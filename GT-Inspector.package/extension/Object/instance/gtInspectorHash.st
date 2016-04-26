@@ -1,0 +1,3 @@
+gtInspectorHash
+
+	^ self identityHash.

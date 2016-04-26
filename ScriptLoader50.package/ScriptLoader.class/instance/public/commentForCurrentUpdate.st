@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18088 Update GTInspector 3.10
-	https://pharo.fogbugz.com/f/cases/18088
+ ^ '18102 Update GTInspector 3.11
+	https://pharo.fogbugz.com/f/cases/18102
 
-17618 Failing test: ReleaseTest>>#testInstalledMethodsWithIncorrectTrailerKind
-	https://pharo.fogbugz.com/f/cases/17618'
+18101 setting "Write message to debug log file when fall into debugger" cannot be set
+	https://pharo.fogbugz.com/f/cases/18101'

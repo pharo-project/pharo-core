@@ -3,13 +3,13 @@ variablesIn: composite
 		showOnly: 50;
 		shouldValidate: false;
 		allowsRecursiveSearch: false;
-		"wantsSteps: true;"
 		children: [ :assoc | 
 			assoc key = 'self'
 				ifTrue: [ #() ]
 				ifFalse: [ self variableValuePairsFor: assoc value ] ];
 		icon: [ :assoc | self iconFor: assoc value ];
 		display: [ :anObject | 
+			self rebuildCacheFor: anObject.
 			self variableValuePairsFor: anObject ];
 		column: 'Variable' 
 			evaluated: [:assoc | '  ', (GTObjectPrinter new asNonTruncatedTextFrom: assoc key) ];

@@ -1,2 +1,2 @@
 ignoreTestReport
-	^ self propertyAt: #notTestReport ifAbsent: [ false ]
+	^ self propertyAt: #noTestReport ifAbsent: [ false ]

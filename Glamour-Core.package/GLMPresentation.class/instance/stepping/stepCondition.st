@@ -1,0 +1,3 @@
+stepCondition
+
+	^ stepCondition ifNil: [ [ false ] ]

@@ -1,4 +1,5 @@
 notifyForDependencyUsing: aCompiledMethod example: anExample
+	anExample ignoreNotification ifTrue: [ ^ self ].
 	UIManager default inform: (String streamContents: [ :stream | stream 
 		nextPutAll: 'Obsolete example dependency in' ;
 		cr;

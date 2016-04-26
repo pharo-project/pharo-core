@@ -2,11 +2,6 @@ gtInspectorPresentationsFromPragmas: aCollection In: composite inContext: aGTIns
 
 	aCollection
 		do: [ :eachPragma | 
-			eachPragma selector numArgs = 0
-				ifTrue: [ 
-					| configurationProvider |
-					configurationProvider := self perform: eachPragma selector.
-					configurationProvider glmPresentation cull: composite cull: aGTInspector cull: self ].
 			eachPragma selector numArgs = 1
 				ifTrue: [ 
 					thisContext 

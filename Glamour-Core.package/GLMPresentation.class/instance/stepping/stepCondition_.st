@@ -1,0 +1,3 @@
+stepCondition: aBlock
+
+	stepCondition := aBlock

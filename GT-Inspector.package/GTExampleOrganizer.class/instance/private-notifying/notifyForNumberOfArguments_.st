@@ -1,4 +1,5 @@
 notifyForNumberOfArguments: anExample
+	anExample ignoreNotification ifTrue: [ ^ self ].
 	UIManager default inform: (String streamContents: [ :stream | stream 
 		nextPutAll: 'Invalid number of arguments in' ;
 		cr;

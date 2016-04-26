@@ -1,5 +1,5 @@
 GLMCompositePresentation subclass: #GTRawObjectVariablesBrowser
-	instanceVariableNames: ''
+	instanceVariableNames: 'cachedHashes'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector'
