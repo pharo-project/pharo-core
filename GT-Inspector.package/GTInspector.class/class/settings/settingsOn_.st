@@ -2,6 +2,7 @@ settingsOn: aBuilder
 	<systemsettings>
 	
 	(aBuilder group: #gt)
+		parent: #tools;
 		label: 'Glamorous Toolkit';
 		with: [
 			(aBuilder setting: #numberOfInspectorPanes)

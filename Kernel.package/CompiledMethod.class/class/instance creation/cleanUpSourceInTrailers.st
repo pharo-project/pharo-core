@@ -1,4 +1,4 @@
-cleanUp
+cleanUpSourceInTrailers
 
 	self allInstances do: [:e | e isInstalled ifFalse: [e embeddSourceInTrailer]].  
 	"pay attention since embeddSourceInTrailer creates a new compiled method. So iterating while

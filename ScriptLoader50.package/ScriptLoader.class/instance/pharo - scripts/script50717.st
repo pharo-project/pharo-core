@@ -1,4 +1,4 @@
-script50716
+script50717
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -130,7 +130,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2279.mcz
+Kernel-TheIntegrator.2281.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.57.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -320,7 +320,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.103.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-TheIntegrator.25.mcz
+System-OSEnvironments-TheIntegrator.27.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
@@ -341,7 +341,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.140.mcz
-Tool-Catalog-SvenVanCaekenberghe.31.mcz
+Tool-Catalog-GuillermoPolito.32.mcz
 Tool-CriticBrowser-TheIntegrator.21.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
