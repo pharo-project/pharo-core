@@ -1,4 +1,4 @@
-script50720
+script50721
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -53,7 +53,7 @@ Deprecated50-TheIntegrator.59.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-FFI-Kernel-EstebanLorenzano.39.mcz
+FFI-Kernel-JanVanDeSandt.40.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.198.mcz
 FileSystem-Disk-TheIntegrator.92.mcz
@@ -369,9 +369,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.185.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.54.mcz
-UnifiedFFI-Legacy-TheIntegrator.4.mcz
-UnifiedFFI-Tests-EstebanLorenzano.22.mcz
+UnifiedFFI-EstebanLorenzano.55.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
+UnifiedFFI-Tests-EstebanLorenzano.24.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-VincentBlondeau.32.mcz
