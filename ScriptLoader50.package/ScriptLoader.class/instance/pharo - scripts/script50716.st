@@ -1,4 +1,4 @@
-script50715
+script50716
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -20,7 +20,7 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.22.mcz
+BlueInk-Core-TheIntegrator.24.mcz
 BlueInk-Extras-TheIntegrator.10.mcz
 BlueInk-Tests-TheIntegrator.10.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -267,7 +267,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
-Rubric-PavelKrivanek.362.mcz
+Rubric-GuillermoPolito.363.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
 STON-Core-SvenVanCaekenberghe.72.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
@@ -379,7 +379,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-StephaneDucasse.64.mcz
 Versionner-Core-DependenciesModel-ChristopheDemarey.105.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-ChristopheDemarey.187.mcz
+Versionner-Spec-Browser-GuillermoPolito.188.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
