@@ -1,3 +1,4 @@
 signedLongLongAt: byteOffset put: value
-	"This is not yet supported"
-	^self notYetImplemented
+	self unsignedLongLongAt: byteOffset put: (value < 0
+		ifTrue: [ value + 16r10000000000000000 ]
+		ifFalse: [ value ])

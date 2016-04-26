@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18098 ShoreLine Reporter version 0.2.3
-	https://pharo.fogbugz.com/f/cases/18098'
+ ^ '18103 Update UFFI to 0.19.1
+	https://pharo.fogbugz.com/f/cases/18103'

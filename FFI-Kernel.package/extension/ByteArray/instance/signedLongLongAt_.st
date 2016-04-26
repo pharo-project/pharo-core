@@ -1,3 +1,5 @@
 signedLongLongAt: byteOffset
-	"This is not yet supported"
-	^self notYetImplemented
+	| int |
+	int := self unsignedLongLongAt: byteOffset.
+	int > 16r7FFFFFFFFFFFFFFF ifTrue: [^int - 16r10000000000000000].
+	^int
