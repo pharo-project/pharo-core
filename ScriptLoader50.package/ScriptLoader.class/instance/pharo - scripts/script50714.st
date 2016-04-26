@@ -1,4 +1,4 @@
-script50713
+script50714
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -20,7 +20,7 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.20.mcz
+BlueInk-Core-TheIntegrator.22.mcz
 BlueInk-Extras-TheIntegrator.8.mcz
 BlueInk-Tests-TheIntegrator.10.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -44,7 +44,7 @@ Compression-TheIntegrator.174.mcz
 Compression-Tests-TheIntegrator.2.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
-ContributingToTheCatalogHelp-TheIntegrator.7.mcz
+ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.83.mcz
 DebuggerFilters-TheIntegrator.9.mcz
@@ -123,7 +123,7 @@ Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.140.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
-HowToContributeHelp-TheIntegrator.2.mcz
+HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.90.mcz
 ImportingResource-Help-TheIntegrator.4.mcz
 IssueTracking-TheIntegrator.6.mcz
@@ -224,7 +224,7 @@ OSWindow-SDL2-RonieSalgado.95.mcz
 OSWindow-SDL2-Examples-RonieSalgado.12.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.793.mcz
+OpalCompiler-Core-TheIntegrator.795.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.15.mcz
@@ -284,7 +284,7 @@ Settings-System-TheIntegrator.40.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.2.mcz
 ShoreLine-Report-UI-TommasoDalSasso.16.mcz
-Shout-TheIntegrator.290.mcz
+Shout-TheIntegrator.291.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.740.mcz
 Slot-Tests-TheIntegrator.89.mcz
@@ -374,14 +374,14 @@ UnifiedFFI-Legacy-TheIntegrator.4.mcz
 UnifiedFFI-Tests-EstebanLorenzano.22.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
-Versionner-Commit-EstebanLorenzano.31.mcz
+Versionner-Commit-VincentBlondeau.32.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-StephaneDucasse.64.mcz
-Versionner-Core-DependenciesModel-MarcusDenker.104.mcz
+Versionner-Core-DependenciesModel-ChristopheDemarey.105.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-TorstenBergmann.185.mcz
+Versionner-Spec-Browser-ChristopheDemarey.187.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
-Versionner-Tests-Core-DependenciesModel-MarcusDenker.45.mcz
+Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.45.mcz

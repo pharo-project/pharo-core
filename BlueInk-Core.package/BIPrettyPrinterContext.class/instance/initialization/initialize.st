@@ -1,6 +1,5 @@
 initialize
 	useBasicCommentFormat := true.
-	cascadedMessageInsideParentheses := false.
 	formatCommentWithStatements := true.
 	indentString := String with: Character tab.
 	indentsForKeywords := 1.

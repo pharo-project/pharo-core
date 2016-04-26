@@ -1,2 +1,2 @@
 bookName
-	^'How to have your application listed in the catalog'
+	^'Your app listed in the catalog'

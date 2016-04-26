@@ -1,5 +1,7 @@
 storeIntoReadOnlyVariable: variableNode
-
+	compilationContext forSyntaxHighlighting
+		ifTrue: [ ^ self ].
+		
 	^ OCStoreIntoReadOnlyVariableError new
 		node: variableNode;
 		compilationContext: compilationContext;

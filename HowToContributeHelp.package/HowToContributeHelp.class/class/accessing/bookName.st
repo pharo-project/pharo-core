@@ -1,2 +1,2 @@
 bookName
-	^'How to contribute to Pharo base code'
+	^'Contribute to base code'

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18062 Infinite cycle when saving a method with a pragma
-	https://pharo.fogbugz.com/f/cases/18062
+ ^ '18070 Syntax error: Cannot store into
+	https://pharo.fogbugz.com/f/cases/18070
 
-18058 fix icons in Versionner and sort dependencies
-	https://pharo.fogbugz.com/f/cases/18058
+18082 Shorter help items
+	https://pharo.fogbugz.com/f/cases/18082
 
-18075 SHRBTextStyler workspace mode doesnt work
-	https://pharo.fogbugz.com/f/cases/18075'
+18065 BIPrettyPrinterContext undeclared var in #initialize
+	https://pharo.fogbugz.com/f/cases/18065'

@@ -1,5 +1,6 @@
 storeIntoSpecialVariable: variableNode
-
+	compilationContext forSyntaxHighlighting
+		ifTrue: [ ^ self ].
 	^ OCStoreIntoSpecialVariableError new
 		node: variableNode;
 		compilationContext: compilationContext;
