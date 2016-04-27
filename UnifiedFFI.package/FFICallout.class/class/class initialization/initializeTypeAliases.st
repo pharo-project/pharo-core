@@ -18,7 +18,7 @@ initializeTypeAliases
 		" aliases to common C compiler types.. some of them are platform dependent, 
 		  some is not.. to be sorted out later "		
 		signedByte 		int8
-		unsignedByte 	int8
+		unsignedByte 	uint8
 		signedShort 		int16
 		unsignedShort 	uint16
 		signedChar 		int8  

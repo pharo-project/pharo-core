@@ -1,5 +1,5 @@
 Object subclass: #KomitStagingArea
-	instanceVariableNames: 'packages'
+	instanceVariableNames: 'packages filterBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Komitter-Models'

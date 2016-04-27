@@ -1,7 +1,7 @@
 function: functionSignature module: moduleNameOrLibrary
 	| sender ffiMethod |
 	
-	sender := thisContext sender sender.
+	sender := context ifNil: [thisContext sender sender].
 
 	"Build new method"
 	ffiMethod := self newBuilder build: [ :builder | 

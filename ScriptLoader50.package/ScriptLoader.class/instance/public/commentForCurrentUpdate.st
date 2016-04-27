@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '16961 Unable to accept changes in SyntaxErrorDebugger -> DNU: receiver of asSymbol is nil
-	https://pharo.fogbugz.com/f/cases/16961
+ ^ '18061 Komitter is referring to old versions
+	https://pharo.fogbugz.com/f/cases/18061
 
-18111 SortHierarchically >> buildHierarchyForClasses: speedup
-	https://pharo.fogbugz.com/f/cases/18111
-
-18107 Failing on windows: GlobalIdentifierWithFuel>>#testBackwardCompatibility4 
-	https://pharo.fogbugz.com/f/cases/18107'
+17963 FFICalloutAPI class ignores context instance variable
+	https://pharo.fogbugz.com/f/cases/17963'
