@@ -1,3 +1,3 @@
 sortByNameSize: collection
 
-	^collection asSortedCollection: [:x :y | x element name size < y element name size]
+	^collection asSortedCollection: [:x :y | x name size < y name size]

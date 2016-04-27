@@ -1,0 +1,2 @@
+methodChunk: anObject
+	methodChunk := anObject

@@ -1,0 +1,3 @@
+closeWindow
+
+	self topView close

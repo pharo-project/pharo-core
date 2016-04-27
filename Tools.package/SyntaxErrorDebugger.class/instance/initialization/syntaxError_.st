@@ -1,6 +1,7 @@
 syntaxError: aSyntaxError
 	"extract the instance properties from a SyntaxErrorNotification"
 	
+	syntaxError := aSyntaxError.
 	self 
 		setClass: aSyntaxError errorClass
 		code: aSyntaxError errorCode

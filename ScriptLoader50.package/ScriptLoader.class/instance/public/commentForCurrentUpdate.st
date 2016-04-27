@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '18109 EyeInspector has correct syntax highlighting
-	https://pharo.fogbugz.com/f/cases/18109
+ ^ '16961 Unable to accept changes in SyntaxErrorDebugger -> DNU: receiver of asSymbol is nil
+	https://pharo.fogbugz.com/f/cases/16961
 
-18110 Support added for using an OpenGL context with multiples windows.
-	https://pharo.fogbugz.com/f/cases/18110'
+18111 SortHierarchically >> buildHierarchyForClasses: speedup
+	https://pharo.fogbugz.com/f/cases/18111
+
+18107 Failing on windows: GlobalIdentifierWithFuel>>#testBackwardCompatibility4 
+	https://pharo.fogbugz.com/f/cases/18107'

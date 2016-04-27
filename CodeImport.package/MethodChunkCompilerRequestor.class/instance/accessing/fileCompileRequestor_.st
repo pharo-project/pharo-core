@@ -1,0 +1,2 @@
+fileCompileRequestor: anObject
+	fileCompileRequestor := anObject

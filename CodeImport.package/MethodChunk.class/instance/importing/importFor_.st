@@ -1,9 +1,12 @@
 importFor: requestor
 	self existsBehavior
 		ifFalse: [ self handleMissingBehavior ].
-	requestor ifNotNil: [ requestor contents ifNil: [ requestor contents: contents ] ].
-	^ self targetClass
+	^ [ self targetClass
 		compile: contents
 		classified: categoryName
 		withStamp: stamp
-		notifying: requestor
+		notifying: (self methodCompileRequestorFor: requestor)]
+			on: ReparseAfterSourceEditing
+			do: [ :exception | 
+				contents := exception newSource.
+				self importFor: requestor  ]

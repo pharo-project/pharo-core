@@ -1,6 +1,6 @@
 materializationFromFileNamed: aFilename
 
 	^StandardFileStream 
-		oldFileNamed: aFilename 
+		readOnlyFileNamed: aFilename 
 		do: [:aFileStream | 
 			(self newDefault materializeFrom: aFileStream binary) ]
