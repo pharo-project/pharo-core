@@ -1,0 +1,2 @@
+makeCurrent: aWindow
+	self subclassResponsibility

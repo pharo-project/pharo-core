@@ -1,2 +1,2 @@
 swapBuffers
-	self subclassResponsibility
+	^ self swapBuffers: window

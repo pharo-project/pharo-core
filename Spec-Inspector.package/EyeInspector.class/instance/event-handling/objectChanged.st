@@ -9,4 +9,6 @@ objectChanged
 	self text doItContext: self doItContext. 
 	self description doItContext: self doItContext.
 	
+	self text widget ifNotNil: [:w | w editingMode classOrMetaClass: self objectClass]
+	
 	

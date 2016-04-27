@@ -1,5 +1,5 @@
 Object subclass: #OSWindowGenericRendererExample
-	instanceVariableNames: 'renderer drawingProcess window'
+	instanceVariableNames: 'renderer window'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OSWindow-SDL2-Examples-Examples'

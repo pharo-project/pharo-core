@@ -6,5 +6,6 @@ processEvent: sdlEvent
 	] on: Error do: [ :err | 
 		"It is critical, that event handling keep running despite errors.
 		Normally, any errors in event handling requires immediate attention and fixing"
-		"Transcript show: err; cr; flush."
+		err freeze.
+		[ err debug ] fork.
 	 ]

@@ -1,4 +1,5 @@
 initializePresenter
-	
 	object whenChangedDo: [ self objectChanged ].
-	self initializeShortcuts.
+	self text
+		whenBuiltDo: [ :w | w widget editingMode classOrMetaClass: self object class ].
+	self initializeShortcuts

@@ -16,7 +16,9 @@ performAnimationFrames
 	].
 
 	"Wait for another operation event or a time out."
-	hasAnimated ifTrue:  [ 
+	hasAnimated ifTrue:  [
+		"TODO: Compute a better time for the Delay. Thedelay is required to give time to threads with a lower priority."
+		(Delay forMilliseconds: self animationStep) wait.
 		OperationAvailableSemaphore waitTimeoutMSecs: self animationStep.
 	] ifFalse: [ 
 		OperationAvailableSemaphore wait.

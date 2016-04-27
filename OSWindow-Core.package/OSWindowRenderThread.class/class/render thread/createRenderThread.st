@@ -7,5 +7,5 @@ createRenderThread
 	RegisteredWindows := WeakSet new.
 	RegisteredWindowsMutex := Semaphore forMutualExclusion.
 	
-	RenderThreadProcess := [ self renderThreadProcess ] forkAt: Processor lowestPriority.
+	RenderThreadProcess := [ self renderThreadProcess ] forkAt: Processor userSchedulingPriority.
 	RenderThreadProcess name:  'OS Window Renderer Loop'; resume.

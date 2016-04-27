@@ -1,3 +1,2 @@
 makeCurrent
-	"Makes the current context"
-	self subclassResponsibility
+	^ self makeCurrent: window

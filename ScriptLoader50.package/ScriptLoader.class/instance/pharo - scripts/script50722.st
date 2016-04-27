@@ -1,4 +1,4 @@
-script50721
+script50722
 
 	^ 'AST-Core-TheIntegrator.411.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -269,7 +269,7 @@ Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.6.mcz
 Rubric-GuillermoPolito.363.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
-STON-Core-SvenVanCaekenberghe.72.mcz
+STON-Core-PavelKrivanek.73.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 SUnit-Core-TheIntegrator.169.mcz
 SUnit-Help-MarcusDenker.9.mcz
@@ -294,7 +294,7 @@ Spec-Core-TheIntegrator.465.mcz
 Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.108.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.256.mcz
+Spec-Inspector-TheIntegrator.258.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.262.mcz
 Spec-PolyWidgets-TheIntegrator.66.mcz

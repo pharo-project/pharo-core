@@ -6,11 +6,9 @@ open
 		resizable: false;
 		windowCentered: true.
 		
-	window := OSWindow createWithAttributes: attrs.
+	window := OSWindowAnimated createWithAttributes: attrs.
 	
 	renderer := window newGenericRenderer.
 	self initializeWithRenderer.
 	
 	window eventHandler: (self createEventHandler).
-	
-	drawingProcess := self createDrawingProcess.
