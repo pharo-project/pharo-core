@@ -4,7 +4,7 @@ authorSettingOn: aBuilder
 		order: -100000;
 		parent: #pharoSystem;
 		label: 'Author identification';
-		target: Author;
+		target: Author uniqueInstance;
 		getSelector: #fullNamePerSe;
 		setSelector: #fullName:;
 		notInStyle;

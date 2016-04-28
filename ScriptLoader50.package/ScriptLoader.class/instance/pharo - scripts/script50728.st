@@ -1,4 +1,4 @@
-script50727
+script50728
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -71,11 +71,12 @@ FontInfrastructure-TheIntegrator.18.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.740.mcz
 FreeType-Tests-TheIntegrator.2.mcz
-Fuel-TheIntegrator.823.mcz
-FuelCommandLineHandler-TheIntegrator.27.mcz
-FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
-FuelTests-EstebanLorenzano.394.mcz
-FuelTools-Debugger-TheIntegrator.17.mcz
+Fuel-MaxLeske.822.mcz
+FuelCommandLineHandler-MarcusDenker.24.mcz
+FuelPlatform-TheIntegrator.49.mcz
+FuelSystem-FileRegistry-TheIntegrator.4.mcz
+FuelTests-MaxLeske.405.mcz
+FuelTools-Debugger-MarcusDenker.9.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.350.mcz
 GT-EventRecorder-PavelKrivanek.66.mcz
@@ -330,7 +331,7 @@ System-Settings-TheIntegrator.337.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.48.mcz
-System-Support-TheIntegrator.1208.mcz
+System-Support-TheIntegrator.1212.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.755.mcz
