@@ -1,0 +1,2 @@
+isResponsibleForCurrentPlatform
+	^ self subclassResponsibility

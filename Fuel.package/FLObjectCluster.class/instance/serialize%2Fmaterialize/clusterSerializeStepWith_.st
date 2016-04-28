@@ -1,4 +1,4 @@
 clusterSerializeStepWith: aSerialization
 
 	super clusterSerializeStepWith: aSerialization.
-	aSerialization encoder encodeReferenceTo: theClass.
+	aSerialization encoder encodeReferenceToClusterObjectClass: theClass

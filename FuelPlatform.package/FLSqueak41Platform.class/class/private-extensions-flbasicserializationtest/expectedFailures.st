@@ -1,0 +1,3 @@
+expectedFailures
+	<flExtensionOf: #FLBasicSerializationTest>
+	^ #(testConsiderCustomWideSymbolGlobal)

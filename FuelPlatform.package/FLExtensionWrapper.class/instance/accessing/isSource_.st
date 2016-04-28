@@ -1,0 +1,2 @@
+isSource: aBoolean
+	isSource := aBoolean

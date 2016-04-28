@@ -1,4 +1,4 @@
 encodeYourself
 
 	self encodePositiveInteger: objectCount.
-	self encodePositiveInteger: EndianDetector isBigEndian asBit.
+	self encodePositiveInteger: FLPlatform current isBigEndian asBit.

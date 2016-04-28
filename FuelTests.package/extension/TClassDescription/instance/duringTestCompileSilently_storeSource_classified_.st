@@ -1,5 +1,5 @@
 duringTestCompileSilently: code storeSource: storeSource classified: aCategory
-	^ Author 
+	^ FLPlatform current 
 		useAuthor: 'TestsAuthor'
 		during: [ [
 			self 

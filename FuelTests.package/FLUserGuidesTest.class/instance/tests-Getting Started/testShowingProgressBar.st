@@ -6,13 +6,17 @@ testShowingProgressBar
 		"
 		^self ].
 	
-	(File fileNamed: 'numbers.fuel') writeStreamDo: [:aStream |
-		FLSerializer newDefault 
-			showProgress;
-			serialize: (1 to: 200000) asArray 
-			on: aStream ].
+	FLPlatform current
+		fileNamed: 'numbers.fuel'
+		writeStreamDo: [:aStream |
+			FLSerializer newDefault 
+				showProgress;
+				serialize: (1 to: 200000) asArray 
+				on: aStream ].
 	
-	(File fileNamed: 'numbers.fuel') readStreamDo: [:aStream | 
-		FLMaterializer newDefault 
-			showProgress;
-			materializeFrom: aStream ].
+	FLPlatform current
+		fileNamed: 'numbers.fuel'
+		readStreamDo: [:aStream | 
+			FLMaterializer newDefault 
+				showProgress;
+				materializeFrom: aStream ]

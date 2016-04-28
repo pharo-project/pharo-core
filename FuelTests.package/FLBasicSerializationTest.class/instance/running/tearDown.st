@@ -1,3 +1,3 @@
 tearDown
-	super tearDown.
-	DateAndTime localTimeZone: currentTimeZone
+	DateAndTime localTimeZone: currentTimeZone.
+	super tearDown

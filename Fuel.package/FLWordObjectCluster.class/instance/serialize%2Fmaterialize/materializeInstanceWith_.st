@@ -7,7 +7,7 @@ materializeInstanceWith: aDecoder
 
 	aDecoder nextEncodedWordsInto: inst. 
 
-	(aDecoder isBigEndian = EndianDetector isBigEndian asBit)
+	(aDecoder isBigEndian = FLPlatform current isBigEndian asBit)
 		ifTrue: [^ inst ]
 		ifFalse: [ ^ self swapBytesOf: inst ] 
 	

@@ -8,10 +8,12 @@ mouseDown: evt
 		ifTrue: [self comeToFront] "rise above non-window morphs"
 		ifFalse:[	self activate].
 
-	evt wasHandled: false.
-	self submorphsDo: [ :morph | morph processEvent: evt ].
+	evt hand waitForClicksOrDrag: self event: evt.  "allow double-click/drag response"
 	
-	"evt wasHandled ifTrue: [ ^self ]."
+	evt wasHandled: false.
+	self submorphsDo: [ :morph | "but allow a submorph to process and override double-click/drag response."
+		(morph containsPoint: evt cursorPoint) ifTrue: [ morph processEvent: evt ]
+	].
 	evt wasHandled: true.
 	
-	evt hand waitForClicksOrDrag: self event: evt. "allow double-click/drag response"
+	

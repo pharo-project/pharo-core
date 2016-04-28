@@ -1,0 +1,4 @@
+basicAddHacks
+	self
+		fixMetacello;
+		addExtensions

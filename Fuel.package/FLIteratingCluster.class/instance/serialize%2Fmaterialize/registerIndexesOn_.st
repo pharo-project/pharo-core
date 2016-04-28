@@ -1,3 +1,7 @@
-registerIndexesOn: aDictionary
-
-	self objects do: [ :instance | aDictionary at: instance put: aDictionary size + 1 ].
+registerIndexesOn: anEncoder
+	| indexes |
+	indexes := anEncoder objectsIndexes.
+	self objects do: [ :instance |
+		indexes
+			at: instance
+			put: indexes size + 1 ]

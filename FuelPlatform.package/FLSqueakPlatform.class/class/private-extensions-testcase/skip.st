@@ -1,0 +1,2 @@
+skip
+	<flExtensionOf: #TestCase>

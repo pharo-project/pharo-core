@@ -7,5 +7,7 @@ testWideString
 	               streamContents: [ :stream |
 	                       600 timesRepeat: [
 	                               stream nextPut: (256 to: 1000) atRandom asCharacter ] ] ) ].
-
-	self assertSerializationEqualityOf: anObject
+	
+	self
+		shouldnt: [ self assertSerializationEqualityOf: anObject ]
+		raise: Error

@@ -1,0 +1,2 @@
+isBigEndian
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+extensionProtocolName
+	^ '*', self extensionCategoryName

@@ -13,5 +13,7 @@ testConsiderCustomWideSymbolGlobal
 	
 	[ 
 		Smalltalk globals at: aWideSymbol put: aPerson.
-		self assertSerializationIdentityOf: aPerson 
+		self
+			shouldnt: [ self assertSerializationIdentityOf: aPerson ]
+			raise: Error
 	] ensure: [ Smalltalk globals removeKey: aWideSymbol ].

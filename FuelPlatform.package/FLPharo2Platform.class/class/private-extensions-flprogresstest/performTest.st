@@ -1,0 +1,2 @@
+performTest
+	<flExtensionOf: #FLProgressTest>

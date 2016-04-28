@@ -1,0 +1,2 @@
+addHacks
+	self class addHacks

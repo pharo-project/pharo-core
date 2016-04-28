@@ -1,0 +1,2 @@
+extensionCategoryName
+	^ 'FuelPlatformExtensions'

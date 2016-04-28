@@ -1,6 +1,7 @@
-registerIndexesOn: aDictionary
-
+registerIndexesOn: anEncoder
 	substitutions keysAndValuesDo: [ :anObject :theSubstitution | 
 		| substitutionIndex |
-		substitutionIndex := aDictionary at: theSubstitution.
-		aDictionary at: anObject put: substitutionIndex. ].
+		substitutionIndex := anEncoder objectsIndexes at: theSubstitution.
+		anEncoder substitutionIndexes
+			at: anObject
+			put: substitutionIndex ]

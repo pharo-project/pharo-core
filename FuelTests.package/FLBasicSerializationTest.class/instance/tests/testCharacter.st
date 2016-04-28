@@ -3,7 +3,7 @@ testCharacter
 
 	self assertSerializationIdentityOf: $a.
 	
-	Smalltalk vm isSpur 
+	FLPlatform current isSpur 
 		ifTrue: [
 			self assertSerializationIdentityOf: (Character value: 12345). "Japanese Hiragana 'A' " ]
 		ifFalse: [

@@ -1,3 +1,3 @@
 visitMethodContext: aMethodContext
 
-	self mapAndTraceByObjectClass: aMethodContext to: FLMethodContextCluster
+	self mapAndTraceByObjectClass: aMethodContext to: FLContextCluster
