@@ -1,5 +1,5 @@
 AbstractNautilusPlugin subclass: #QANautilusPlugin
-	instanceVariableNames: 'morph changeHandler currentEntity'
+	instanceVariableNames: 'morph currentEntity'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'QualityAssistant'

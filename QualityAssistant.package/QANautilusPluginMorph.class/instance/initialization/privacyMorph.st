@@ -3,9 +3,7 @@ privacyMorph
 
 	agreementBrick := GLMPrivacyAgreementBrick new.
 	
-	agreementBrick sendUsageData ifTrue: [ 
-		self class wasOpenedBefore: true.
-		^ listMorph ].
+	agreementBrick sendUsageData ifTrue: [ ^ listMorph ].
 	
 	agreementBrick messageBrick
 		rubricTextFamilyName: StandardFonts defaultFont familyName.
@@ -14,12 +12,10 @@ privacyMorph
 		vSpaceFill;
 		color: Color paleRed.
 
-	self class startPrivacyPromptTaskIfNecessary.
-
 	agreementBrick settingsButtonBrick
 		when: #onClicked
 		do: [
-			self class wasOpenedBefore: true.
+			showPrivacyMorph := false.
 			self updateList ].
 		
 	^ agreementBrick asBrickedMorph

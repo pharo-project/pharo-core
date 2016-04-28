@@ -1,4 +1,4 @@
-script50725
+script50726
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -84,11 +84,11 @@ GT-Inspector-AndreiChis.418.mcz
 GT-InspectorExtensions-Core-TheIntegrator.214.mcz
 GT-Playground-DenisKudryashov.124.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-GuillermoPolito.394.mcz
+GT-Spotter-TudorGirba.397.mcz
 GT-Spotter-EventRecorder-GuillermoPolito.112.mcz
 GT-SpotterExtensions-Core-VincentBlondeau.203.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
-GT-Tests-Inspector-AndreiChis.53.mcz
+GT-Tests-Inspector-StefanReichhart.56.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AliakseiSyrel.17.mcz
 Glamour-Announcements-AndreiChis.8.mcz

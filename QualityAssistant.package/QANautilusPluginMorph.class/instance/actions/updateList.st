@@ -1,6 +1,6 @@
 updateList
 
-	self class wasOpenedBefore ifFalse: [ ^ self ].
+	showPrivacyMorph ifTrue: [ ^ self ].
 	
 	self removeAllMorphs.
 	self addMorphFront: progressMorph.

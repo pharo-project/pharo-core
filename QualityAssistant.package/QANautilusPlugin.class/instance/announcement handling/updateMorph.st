@@ -1,4 +1,5 @@
 updateMorph
 	morph ifNil: [ ^ self ].
-	changeHandler execute
+	
+	morph entity: self currentEntity
 	
