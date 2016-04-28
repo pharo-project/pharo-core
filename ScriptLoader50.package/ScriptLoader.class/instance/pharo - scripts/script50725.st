@@ -1,4 +1,4 @@
-script50724
+script50725
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -369,9 +369,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.185.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.55.mcz
-UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
-UnifiedFFI-Tests-EstebanLorenzano.24.mcz
+UnifiedFFI-EstebanLorenzano.57.mcz
+UnifiedFFI-Legacy-TheIntegrator.4.mcz
+UnifiedFFI-Tests-TheIntegrator.25.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-VincentBlondeau.32.mcz

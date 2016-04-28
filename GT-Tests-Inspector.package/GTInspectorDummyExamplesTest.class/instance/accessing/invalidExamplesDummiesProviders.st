@@ -1,4 +1,0 @@
-invalidExamplesDummiesProviders
-	^ { 
-		GTDummyExamplesInvalid.
-	}

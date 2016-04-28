@@ -12,4 +12,4 @@ catalogSettingsOn: aBuilder
 						target: self;
 						label: each displayString;
 						description: each sourceCode;
-						default: true ] ]
+						default: true] ]
