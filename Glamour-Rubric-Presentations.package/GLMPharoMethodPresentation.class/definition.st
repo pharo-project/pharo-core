@@ -1,5 +1,5 @@
 GLMRubricSmalltalkCodePresentation subclass: #GLMPharoMethodPresentation
-	instanceVariableNames: 'highlightSmalltalkContext'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Rubric-Presentations'

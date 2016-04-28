@@ -1,12 +1,13 @@
 version322: spec
-	<version: '3.2.2' imports: #('3.0-baseline' )>
+	<version: '3.22' imports: #('3.1-baseline' )>
 
 	spec for: #'common' do: [
 		spec blessing: #'stable'.
-		spec description: 'Update GTools: small fixes and improvements (issue 17184)'.
+		spec description: 'GToolkit version 3.22 (case 17948)'.
 		spec author: 'AndreiChis'.
-		spec timestamp: '12/4/2015 11:12'.
+		spec timestamp: '4/28/2016 16:25'.
 		spec 
-			project: 'GTPlaygroundCore' with: '2.3.2';
-			project: 'GTInspectorCore' with: '2.2.2';
-			project: 'GTSpotter' with: '1.4.2'. ].
+			project: 'GTPlaygroundCore' with: '3.10';
+			project: 'GTInspectorCore' with: '3.13';
+			project: 'GTSpotter' with: '2.11';
+			project: 'GTDebugger' with: '2.9'. ].

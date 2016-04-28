@@ -1,6 +1,7 @@
 evaluatorIn: composite
 	^ composite pharoScript
-		doItReceiver: [:x | x ];
+		doItReceiver: [ :object | object ];
+		smalltalkClass: [ :object | object class ];
 		display: [ :object | 
 			String streamContents: [ :stream | 
 				stream 
