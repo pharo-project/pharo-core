@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '17948 Bindings in the evaluator pane in Inspector
-	https://pharo.fogbugz.com/f/cases/17948'
+ ^ '18121 Hundreds of references to undeclared variables in Fuel
+	https://pharo.fogbugz.com/f/cases/18121'
