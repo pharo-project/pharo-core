@@ -1,5 +1,5 @@
 isClassDefinitionExpression: aSource
 	[ RBParser parseExpression: aSource ]
-		on: Error
+		on: Notification
 		do: [ ^ false ].
 	^ true

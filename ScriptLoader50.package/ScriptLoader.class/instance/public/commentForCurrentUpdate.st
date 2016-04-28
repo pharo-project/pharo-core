@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18118 Author reset should not create new instance
-	https://pharo.fogbugz.com/f/cases/18118
+ ^ '18081 Added a comment in File primitives so the user can know what the primitive does.
+	https://pharo.fogbugz.com/f/cases/18081
 
-18122 QA accessing undeclared var
-	https://pharo.fogbugz.com/f/cases/18122'
+18124 can not add instance variables in nautilus class definition pane
+	https://pharo.fogbugz.com/f/cases/18124'

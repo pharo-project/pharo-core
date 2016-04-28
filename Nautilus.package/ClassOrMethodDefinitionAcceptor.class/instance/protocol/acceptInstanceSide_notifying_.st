@@ -3,9 +3,9 @@ acceptInstanceSide: source notifying: aController
 	
 	isClassDefinition := false.
 	
-	"Try to parse the source. If it succeed, it means the source represents a message send aka a class definition. On error, we switch to method definition mode"
+	"Try to parse the source. If it succeed, it means the source represents a method definition. On error, we switch to class definition mode"
 	[ RBParser parseMethod: source ]
-		on: Error
+		on: Notification
 		do: [ isClassDefinition := true ]. 
 
 	isClassDefinition
