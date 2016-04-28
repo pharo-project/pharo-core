@@ -1,2 +1,2 @@
 reset
-	^ uniqueInstance := nil
+	^ self uniqueInstance reset.
