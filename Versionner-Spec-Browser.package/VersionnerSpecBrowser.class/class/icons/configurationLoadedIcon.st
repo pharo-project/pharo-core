@@ -1,2 +1,2 @@
 configurationLoadedIcon
-	^Smalltalk ui icons iconNamed: #configIconLoaded
+	^Smalltalk ui icons iconNamed: #configLoaded
