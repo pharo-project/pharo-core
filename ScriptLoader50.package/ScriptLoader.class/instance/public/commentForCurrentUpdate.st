@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '18127 perform:withArguments: not working with WeakArray arguments
-	https://pharo.fogbugz.com/f/cases/18127
+ ^ '18107 Failing on windows: GlobalIdentifierWithFuel>>#testBackwardCompatibility4 
+	https://pharo.fogbugz.com/f/cases/18107
 
-18121 Hundreds of references to undeclared variables in Fuel
-	https://pharo.fogbugz.com/f/cases/18121'
+18119 Failing again: BehaviorTest>>>#testBehaviorRespectsPolymorphismWithTraitBehavior 
+	https://pharo.fogbugz.com/f/cases/18119
+
+18131 File>>readStreamDo: and #writeStreamDo: should answer block value
+	https://pharo.fogbugz.com/f/cases/18131'

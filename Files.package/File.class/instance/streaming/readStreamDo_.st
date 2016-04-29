@@ -1,5 +1,5 @@
 readStreamDo: aBlock
 	| stream |
 	stream := self readStream.
-	[aBlock value: stream ]
+	^ [ aBlock value: stream ]
 		ensure: [ stream close ]

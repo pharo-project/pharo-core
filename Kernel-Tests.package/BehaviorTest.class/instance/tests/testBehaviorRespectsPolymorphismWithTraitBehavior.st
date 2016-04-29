@@ -17,8 +17,7 @@ testBehaviorRespectsPolymorphismWithTraitBehavior
 		equals: #(#format #layout #layout: #classLayout #classLayout: #isBehavior #metaLinkOptions 
 			#handleFailingBasicNew #handleFailingBasicNew: #handleFailingFailingBasicNew
 			#handleFailingFailingBasicNew: #byteSizeOfInstanceOfSize: #byteSizeOfInstance
-			#ffiBindingOf: #ffiInstVarArgument:generator:
-			#largeIdentityHash #basicIdentityHash #elementSize #isCompiledMethodClass) asSet.	"localSelectors, localSelectors:, basicLocalSelectors, basicLocalSelectors: -> the instance variable localSelectors belongs to TraitBehavior but not to Behavior"	"browse is implemeted differently for traits, the implementation for classes is in Object"	"isTrait answers true for traits, for the rest of objects answer false, the implementation is in Object"
+			#ffiBindingOf: #ffiInstVarArgument:generator: #basicIdentityHash #elementSize #isCompiledMethodClass) asSet.	"localSelectors, localSelectors:, basicLocalSelectors, basicLocalSelectors: -> the instance variable localSelectors belongs to TraitBehavior but not to Behavior"	"browse is implemeted differently for traits, the implementation for classes is in Object"	"isTrait answers true for traits, for the rest of objects answer false, the implementation is in Object"
 	self
 		assert: (TraitBehavior localSelectors difference: Behavior localSelectors)
 		equals: #(#isUsed #basicLocalSelectors #basicLocalSelectors: #isTrait #allInstances #allInstancesOrNil #allInstancesDo:) asSet

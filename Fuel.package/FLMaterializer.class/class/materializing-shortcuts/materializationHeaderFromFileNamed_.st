@@ -1,6 +1,6 @@
 materializationHeaderFromFileNamed: aFilename
 
-	^StandardFileStream 
-		oldFileNamed: aFilename 
-		do: [:aFileStream | 
-			(self newDefault materializeHeaderFrom: aFileStream binary) ]
+	^ FLPlatform current
+		fileNamed: aFilename 
+		readStreamDo: [ :aFileStream | 
+			self newDefault materializeHeaderFrom: aFileStream ]

@@ -1,4 +1,4 @@
 fileNamed: aFileame readStreamDo: aBlock
-	aFileame asFileReference writeStreamDo: [ :stream |
+	^ aFileame asFileReference readStreamDo: [ :stream |
 		stream binary.
 		aBlock value: stream ]

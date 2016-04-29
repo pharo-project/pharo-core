@@ -1,5 +1,5 @@
 fileNamed: aFilename readStreamDo: aBlock
-	FileStream
+	^ FileStream
 		readOnlyFileNamed: aFilename
 		do: [ :stream |
 			stream binary.

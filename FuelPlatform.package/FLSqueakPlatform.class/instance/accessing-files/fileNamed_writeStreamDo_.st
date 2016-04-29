@@ -1,5 +1,5 @@
 fileNamed: aFilename writeStreamDo: aBlock
-	FileStream
+	^ FileStream
 		forceNewFileNamed: aFilename
 		do: [ :stream |
 			stream binary.

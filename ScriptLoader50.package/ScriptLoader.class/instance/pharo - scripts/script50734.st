@@ -1,4 +1,4 @@
-script50733
+script50734
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -62,7 +62,7 @@ FileSystem-Tests-Core-TheIntegrator.95.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.413.mcz
+Files-TheIntegrator.415.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.17.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -73,7 +73,7 @@ FreeType-TheIntegrator.740.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MaxLeske.822.mcz
 FuelCommandLineHandler-MarcusDenker.24.mcz
-FuelPlatform-TheIntegrator.49.mcz
+FuelPlatform-MaxLeske.53.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MaxLeske.405.mcz
 FuelTools-Debugger-MarcusDenker.9.mcz
@@ -133,7 +133,7 @@ Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2285.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.61.mcz
+Kernel-Tests-TheIntegrator.63.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz
