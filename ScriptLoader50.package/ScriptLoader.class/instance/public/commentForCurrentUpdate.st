@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18107 Failing on windows: GlobalIdentifierWithFuel>>#testBackwardCompatibility4 
-	https://pharo.fogbugz.com/f/cases/18107
+ ^ '18135 On issue tracker: GlobalIdentifierWithFuel failing now
+	https://pharo.fogbugz.com/f/cases/18135
 
-18119 Failing again: BehaviorTest>>>#testBehaviorRespectsPolymorphismWithTraitBehavior 
-	https://pharo.fogbugz.com/f/cases/18119
-
-18131 File>>readStreamDo: and #writeStreamDo: should answer block value
-	https://pharo.fogbugz.com/f/cases/18131'
+18134 BIConfigurableFormatterTest is empty and useless
+	https://pharo.fogbugz.com/f/cases/18134'

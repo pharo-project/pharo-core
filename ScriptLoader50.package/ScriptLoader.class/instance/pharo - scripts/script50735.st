@@ -1,4 +1,4 @@
-script50734
+script50735
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -22,7 +22,7 @@ BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
 BlueInk-Core-TheIntegrator.24.mcz
 BlueInk-Extras-TheIntegrator.10.mcz
-BlueInk-Tests-TheIntegrator.10.mcz
+BlueInk-Tests-TheIntegrator.12.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.17.mcz
 CodeImport-TheIntegrator.86.mcz
@@ -71,15 +71,15 @@ FontInfrastructure-TheIntegrator.18.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.740.mcz
 FreeType-Tests-TheIntegrator.2.mcz
-Fuel-MaxLeske.822.mcz
+Fuel-MaxLeske.824.mcz
 FuelCommandLineHandler-MarcusDenker.24.mcz
-FuelPlatform-MaxLeske.53.mcz
+FuelPlatform-MaxLeske.54.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
-FuelTests-MaxLeske.405.mcz
+FuelTests-MaxLeske.406.mcz
 FuelTools-Debugger-MarcusDenker.9.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.350.mcz
-GT-EventRecorder-PavelKrivanek.66.mcz
+GT-EventRecorder-TheIntegrator.68.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-AndreiChis.421.mcz
 GT-InspectorExtensions-Core-TheIntegrator.214.mcz

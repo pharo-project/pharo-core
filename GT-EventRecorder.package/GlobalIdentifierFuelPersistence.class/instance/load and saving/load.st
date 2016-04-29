@@ -1,2 +1,2 @@
 load
-	^ FLMaterializer materializeFromFileNamed: self preferences
+	^ FLMaterializer materializeFromFileNamed: self preferences fullName
