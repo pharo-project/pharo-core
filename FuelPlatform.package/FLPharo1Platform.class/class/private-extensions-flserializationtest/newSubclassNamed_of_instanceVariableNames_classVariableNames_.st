@@ -1,7 +1,7 @@
 newSubclassNamed: nameString of: aClass  instanceVariableNames: ivNamesString classVariableNames: classVarsString
 	<flExtensionOf: #FLSerializationTest>
 	| class |
-	SystemChangeNotifier uniqueInstance doSilently: [
+	(Smalltalk globals at: #SystemChangeNotifier) uniqueInstance doSilently: [
 		class := aClass
 			subclass: nameString asSymbol
 			instanceVariableNames: ivNamesString

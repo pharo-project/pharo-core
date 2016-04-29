@@ -6,6 +6,6 @@ testFormatFixedToVariable
 	| materialized |
 	self serialize: FLPair new.
 	materialized := [ self during: [ self materialized ] rename: FLPair as: FLWeakClassMock ]
-		on: AttemptToWriteReadOnlyGlobal
+		on: (Smalltalk globals at: #AttemptToWriteReadOnlyGlobal)
 		do: [ :ex | ex resume: true ].
 	self assert: materialized size = 0

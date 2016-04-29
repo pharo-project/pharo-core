@@ -8,7 +8,7 @@ removeInstVarNamed: aString
 	newInstVarString := ''.
 	(self instVarNames copyWithout: aString) do: 
 		[:varName | newInstVarString := newInstVarString , ' ' , varName].
-	^(ClassBuilder new)
+	^((Smalltalk globals at: #ClassBuilder) new)
 		name: self name
 		inEnvironment: self environment
 		subclassOf: self superclass

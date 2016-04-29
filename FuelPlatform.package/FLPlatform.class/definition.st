@@ -1,5 +1,5 @@
 Object subclass: #FLPlatform
 	instanceVariableNames: ''
-	classVariableNames: 'Current'
+	classVariableNames: 'Current CurrentConfigurationVersion'
 	poolDictionaries: ''
 	category: 'FuelPlatform'

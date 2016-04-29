@@ -2,7 +2,7 @@ testContextWithTemp
 	<flExtensionOf: #FLContextSerializationTest>
 	"This test should be improved"
 	| context1  materializedContext1  |
-	context1 := (MethodContext newForMethod: FLPair >> #methodWithTemp).
+	context1 := ((Smalltalk globals at: #MethodContext) newForMethod: FLPair >> #methodWithTemp).
 	context1 
 		initializeWith: nil 
 		stackPtr: 1 

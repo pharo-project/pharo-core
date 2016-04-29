@@ -3,7 +3,7 @@ testContextWithClosureAndSender
 	"This test should be improved"
 	| context1  materializedContext2  context2 |
 	
-	context1 := (MethodContext newForMethod: FLPair >> #method1).
+	context1 := ((Smalltalk globals at: #MethodContext) newForMethod: FLPair >> #method1).
 	context1 
 		initializeWith: 23 
 		stackPtr: 1 

@@ -1,5 +1,5 @@
 Object subclass: #ConfigurationOfFuel
 	instanceVariableNames: 'project'
-	classVariableNames: 'LastVersionLoad'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'ConfigurationOfFuel'

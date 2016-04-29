@@ -1,7 +1,7 @@
 addInstVarNamed: aString
 	<flExtensionOf: #Class>
 	"Add the argument, aString, as one of the receiver's instance variables."
-	^(ClassBuilder new)
+	^((Smalltalk globals at: #ClassBuilder) new)
 		name: self name
 		inEnvironment: self environment
 		subclassOf: self superclass

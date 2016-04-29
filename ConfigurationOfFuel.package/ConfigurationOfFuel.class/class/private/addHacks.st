@@ -1,7 +1,10 @@
 addHacks
 	"Simply load FuelPlatform. The class side initialization will take care of installing
 	extensions and hacks"
-	(Smalltalk hasClassNamed: #FLPlatform) ifTrue: [ ^ self ].
+	(Smalltalk hasClassNamed: #FLPlatform) and: [
+		((Smalltalk at: #FLPlatform) class canUnderstand: #checkForUpdates) ifTrue: [
+		(Smalltalk at: #FLPlatform) checkForUpdates.
+		^ self ] ].
 	
 	Gofer it
 		package: 'FuelPlatform';

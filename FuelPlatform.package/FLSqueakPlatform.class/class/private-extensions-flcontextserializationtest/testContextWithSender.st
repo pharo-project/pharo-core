@@ -2,7 +2,7 @@ testContextWithSender
 	<flExtensionOf: #FLContextSerializationTest>
 	"This test should be improved"
 	| context1 context2 materializedContext1 |
-	context1 := (MethodContext newForMethod: FLPair >> #method1).
+	context1 := (Smalltalk globals at: #MethodContext) newForMethod: FLPair >> #method1.
 	context1 
 		initializeWith: 23 
 		stackPtr: 1 
@@ -10,7 +10,7 @@ testContextWithSender
 		receiver:  (FLPair new right: 4; left: 2) 
 		sender: nil.
 		
-	context2 := (MethodContext newForMethod: FLPair >> #method2).
+	context2 := (Smalltalk globals at: #MethodContext) newForMethod: FLPair >> #method2.
 	context2 
 		initializeWith: 18 
 		stackPtr: 1 

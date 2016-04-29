@@ -1,3 +1,3 @@
 deleteFileNamed: aFilename
 	<flExtensionOf: #FLSerializationTest>
-	 FileDirectory default deleteFileNamed: aFilename
+	 (Smalltalk globals at: #FileDirectory) default deleteFileNamed: aFilename

@@ -1,5 +1,5 @@
 => anObject
 	<flExtensionOf: #String>	
 	^ anObject isBehavior
-		ifTrue: [ClassBinding key: self value: anObject]
-		ifFalse: [Global key: self value: anObject]
+		ifTrue: [(Smalltalk globals at: #ClassBinding) key: self value: anObject]
+		ifFalse: [(Smalltalk globals at: #Global) key: self value: anObject]

@@ -1,3 +1,3 @@
 fuelValueWithoutNotifications
 	<flExtensionOf: #BlockClosure>
-	SystemChangeNotifier uniqueInstance doSilently: self
+	(Smalltalk globals at: #SystemChangeNotifier) uniqueInstance doSilently: self
