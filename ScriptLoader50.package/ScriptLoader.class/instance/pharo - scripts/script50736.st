@@ -1,4 +1,4 @@
-script50735
+script50736
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -46,9 +46,9 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-TheIntegrator.83.mcz
+DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.124.mcz
+DebuggerModel-TheIntegrator.126.mcz
 Deprecated50-TheIntegrator.59.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -133,7 +133,7 @@ Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2285.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.63.mcz
+Kernel-Tests-TheIntegrator.65.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz

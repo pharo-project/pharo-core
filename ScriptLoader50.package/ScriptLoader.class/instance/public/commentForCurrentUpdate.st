@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18135 On issue tracker: GlobalIdentifierWithFuel failing now
-	https://pharo.fogbugz.com/f/cases/18135
+ ^ '18138 Skip test #testErrorCodeNotFound
+	https://pharo.fogbugz.com/f/cases/18138
 
-18134 BIConfigurableFormatterTest is empty and useless
-	https://pharo.fogbugz.com/f/cases/18134'
+18068 Error: aContext not in proccess chain
+	https://pharo.fogbugz.com/f/cases/18068'

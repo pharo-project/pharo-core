@@ -1,6 +1,8 @@
 testErrorCodeNotFound
 	| ctx result resultSimu |
 	
+	self skip.
+	
 	Smalltalk vm isRunningCog ifFalse: [^self].
 	
 	result := self veryBasicAt: 1.
