@@ -1,4 +1,4 @@
-script50737
+script50738
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -214,7 +214,7 @@ Network-Kernel-TheIntegrator.127.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.103.mcz
-Network-Tests-TheIntegrator.4.mcz
+Network-Tests-TheIntegrator.6.mcz
 Network-UUID-TheIntegrator.42.mcz
 Network-Url-MarcusDenker.99.mcz
 NewValueHolder-TheIntegrator.33.mcz
@@ -321,7 +321,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.103.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-TheIntegrator.27.mcz
+System-OSEnvironments-TheIntegrator.29.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
@@ -380,7 +380,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-StephaneDucasse.64.mcz
 Versionner-Core-DependenciesModel-ChristopheDemarey.105.mcz
 Versionner-Core-Model-ChristopheDemarey.52.mcz
-Versionner-Spec-Browser-GuillermoPolito.188.mcz
+Versionner-Spec-Browser-PabloTesone.189.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
