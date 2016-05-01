@@ -1,4 +1,6 @@
 loadFromDefaultLocations
+	self class allowStartupScript ifFalse: [ ^ self ].
 	
-	self class allowStartupScript
-		ifTrue: [ self load: self retrieveFilesStream ]
+	[ self load: self retrieveFilesStream ]
+		on: StartupPreferencesLoadingError
+		do: [ :ex | ex return ]

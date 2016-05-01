@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18142 AbstracBinaryFileStream DNU #fuelNextInto:
-	https://pharo.fogbugz.com/f/cases/18142'
+ ^ '18140 StartupPreferencesLoader does not guard enough against errors
+	https://pharo.fogbugz.com/f/cases/18140'
