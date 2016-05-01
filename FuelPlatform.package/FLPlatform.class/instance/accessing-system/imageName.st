@@ -1,0 +1,2 @@
+imageName
+	^ self subclassResponsibility

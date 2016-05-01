@@ -1,4 +1,4 @@
 fileName
 	"Answer a filename to serialize and materialize using it."
 
-	^ Smalltalk image shortImageName, '-tests.fuel'
+	^ FLPlatform current absolutePathOf: (FLPlatform current imageName, '-tests.fuel')

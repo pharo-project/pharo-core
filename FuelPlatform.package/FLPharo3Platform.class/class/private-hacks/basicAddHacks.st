@@ -1,4 +1,6 @@
 basicAddHacks
 	super basicAddHacks.
 	
-	self addContext
+	self
+		addContext;
+		addAbstractBinaryFileStream

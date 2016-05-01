@@ -11,4 +11,10 @@ addClasses
 		instanceVariableNames: '' 
 		classVariableNames: '' 
 		poolDictionaries: '' 
+		category: self hacksCategoryName.
+		
+	Stream subclass: #AbstractBinaryFileStream
+		instanceVariableNames: '' 
+		classVariableNames: '' 
+		poolDictionaries: '' 
 		category: self hacksCategoryName

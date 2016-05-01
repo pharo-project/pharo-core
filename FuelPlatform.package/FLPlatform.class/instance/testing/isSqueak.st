@@ -1,0 +1,2 @@
+isSqueak
+	^ false

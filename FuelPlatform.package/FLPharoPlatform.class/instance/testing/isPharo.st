@@ -1,0 +1,2 @@
+isPharo
+	^ true

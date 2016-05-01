@@ -1,0 +1,2 @@
+absolutePathOf: aString
+	^ self subclassResponsibility

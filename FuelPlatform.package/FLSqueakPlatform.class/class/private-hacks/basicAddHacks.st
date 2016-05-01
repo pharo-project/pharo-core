@@ -7,4 +7,5 @@ basicAddHacks
 		addNativeBoostComponents;
 		addContext;
 		addClusters;
-		addPackageManifest
+		addPackageManifest;
+		addAbstractBinaryFileStream

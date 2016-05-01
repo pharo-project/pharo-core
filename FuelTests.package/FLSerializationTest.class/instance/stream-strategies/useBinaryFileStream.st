@@ -1,0 +1,3 @@
+useBinaryFileStream
+
+	streamFactory := FLFileStreamStrategy newWithBinaryFileStream

@@ -1,0 +1,2 @@
+imageName
+	^ Smalltalk image shortImageName

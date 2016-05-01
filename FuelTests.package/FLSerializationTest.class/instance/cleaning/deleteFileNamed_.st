@@ -1,2 +1,2 @@
 deleteFileNamed: aFilename
-	 aFilename asFileReference ensureDelete
+	 FLPlatform current deleteFileNamed: aFilename

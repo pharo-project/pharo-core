@@ -1,0 +1,2 @@
+deleteFileNamed: aFilename
+	self subclassResponsibility
