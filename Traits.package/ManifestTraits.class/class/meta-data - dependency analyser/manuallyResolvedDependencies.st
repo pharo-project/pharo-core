@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#UIManager #'System-Sources' #'AST-Core' #'OpalCompiler-Core' #'Collections-Streams' #'RPackage-Core')
+	^ #(#'RPackage-Core' #'AST-Core' #CodeExport #UIManager #'System-Sources' #'OpalCompiler-Core')

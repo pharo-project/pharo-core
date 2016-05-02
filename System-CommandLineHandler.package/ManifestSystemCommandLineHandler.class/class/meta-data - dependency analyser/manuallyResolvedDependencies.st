@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'FileSystem-Core' #'System-Support' #'Collections-Streams' #CodeImport)
+	^ #(#'Collections-Streams' #'FileSystem-Core' #'System-Settings' #'System-Support')

@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'OpalCompiler-Core' #'Collections-Streams')
+	^ #(#'Collections-Streams' #'System-Settings' #'OpalCompiler-Core')

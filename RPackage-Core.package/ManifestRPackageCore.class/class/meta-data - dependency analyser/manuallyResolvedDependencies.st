@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Ring-Core-Kernel' #'System-Sources')
+	^ #(#'Ring-Core-Kernel' #UIManager #'System-Sources')

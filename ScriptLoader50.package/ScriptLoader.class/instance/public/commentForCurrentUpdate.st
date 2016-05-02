@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18136 Network related tests failing only on Windows on CI 
-	https://pharo.fogbugz.com/f/cases/18136'
+ ^ '18154 revert change done in 18137
+	https://pharo.fogbugz.com/f/cases/18154
+
+17478 Update pharo kernel dependency descriptions
+	https://pharo.fogbugz.com/f/cases/17478'

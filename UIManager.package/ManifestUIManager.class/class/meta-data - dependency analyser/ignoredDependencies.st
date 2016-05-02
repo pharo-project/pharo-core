@@ -1,2 +1,2 @@
 ignoredDependencies
-	^ #(#CodeImport #'FileSystem-Core' #Files #'Graphics-Display Objects' #NonInteractiveTranscript)
+	^ #(#CodeImport #'FileSystem-Core' #Files #'Graphics-Display Objects' #NonInteractiveTranscript #'System-Settings')

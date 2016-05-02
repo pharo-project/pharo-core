@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Transcript #'System-Support' #'Collections-Abstract' #'System-Localization')
+	^ #(#'AST-FFI-Pharo50Compatibility' #'Collections-Abstract' #Transcript)

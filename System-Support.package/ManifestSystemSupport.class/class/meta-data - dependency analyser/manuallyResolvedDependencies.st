@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-Localization' #'Collections-Support' #'System-Platforms')
+	^ #(#'Collections-Support' #'System-Localization' #'System-Object Events' #'System-Settings' #'System-Platforms')

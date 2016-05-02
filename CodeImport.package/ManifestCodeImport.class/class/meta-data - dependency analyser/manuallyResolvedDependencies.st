@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'RPackage-Core' #UIManager #'System-Support' #'FileSystem-Disk' #'Collections-Abstract' #Traits)
+	^ #(#'RPackage-Core' #'System-Support' #'Collections-Abstract' #Traits)

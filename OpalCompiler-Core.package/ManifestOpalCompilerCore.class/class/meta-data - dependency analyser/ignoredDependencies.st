@@ -1,2 +1,2 @@
 ignoredDependencies
-	^ #(#Compiler #'Morphic-Base')
+	^ #(#Compiler #'Morphic-Base' #'System-Settings')

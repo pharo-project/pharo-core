@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#UIManager #Jobs #'Collections-Streams' #'Collections-Abstract' #'Ring-Core-Kernel' #CodeExport)
+	^ #(#'Collections-Streams' #UIManager #Jobs #'Announcements-Core' #'Ring-Core-Kernel' #CodeExport #'Collections-Abstract')

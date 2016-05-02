@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-Support' #'AST-Core' #'Collections-Abstract')
+	^ #(#'AST-Core' #'Collections-Abstract')

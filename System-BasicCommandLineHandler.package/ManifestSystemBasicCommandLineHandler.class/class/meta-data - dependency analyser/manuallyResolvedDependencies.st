@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#UIManager #'FileSystem-Core' #'Collections-Strings' #'Collections-Abstract' #Traits)
+	^ #(#'FileSystem-Core' #'Collections-Strings' #'Collections-Abstract' #Traits)

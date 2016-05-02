@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Collections-Streams' #'System-Support' #'System-Platforms' #'Collections-Abstract')
+	^ #(#'Collections-Streams' #'System-Platforms' #'Collections-Abstract')

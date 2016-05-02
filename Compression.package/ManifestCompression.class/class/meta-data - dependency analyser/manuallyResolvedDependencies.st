@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Jobs #Transcript #'System-Changes' #'System-Support' #'System-Localization' #Traits)
+	^ #(#Jobs #'System-Support' #'System-Localization' #'System-Changes' #'Collections-Abstract' #Transcript)

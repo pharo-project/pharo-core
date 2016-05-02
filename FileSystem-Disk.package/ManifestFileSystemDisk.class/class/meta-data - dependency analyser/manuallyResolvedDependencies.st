@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#UIManager #'System-Support' #'Multilingual-TextConversion' #'Collections-Strings' #'Collections-Abstract' #Traits)
+	^ #(#'Collections-Abstract' #Traits #'System-Platforms' #'Multilingual-TextConversion' #'Collections-Strings' #'System-Support')

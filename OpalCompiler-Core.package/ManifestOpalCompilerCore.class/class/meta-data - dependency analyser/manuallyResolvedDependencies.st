@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-Announcements' #'System-Sources' #CodeExport #Compiler #'Morphic-Base')
+	^ #(#Compiler #'System-Settings' #CodeExport #'System-Announcements' #'System-Sources' #'Morphic-Base')

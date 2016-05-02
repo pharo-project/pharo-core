@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#Traits #'System-Sources' #Compression #'System-Changes' #'System-Support' #'Collections-Abstract' #'System-Localization')
+	^ #(#'System-Sources' #'System-Changes' #Compression #'System-Support' #'System-Localization' #'Collections-Abstract' #Traits #'System-Platforms' #'FileSystem-Disk')
