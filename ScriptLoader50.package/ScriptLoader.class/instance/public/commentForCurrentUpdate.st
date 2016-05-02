@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18139 getenv() call on Ubuntu 14.04 (32 bit) fails in one-click image
-	https://pharo.fogbugz.com/f/cases/18139'
+ ^ '18136 Network related tests failing only on Windows on CI 
+	https://pharo.fogbugz.com/f/cases/18136'

@@ -1,4 +1,4 @@
-script50742
+script50743
 
 	^ 'AST-Core-TheIntegrator.414.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -321,7 +321,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.103.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.2.mcz
-System-OSEnvironments-TheIntegrator.29.mcz
+System-OSEnvironments-TheIntegrator.30.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
@@ -390,7 +390,7 @@ Zinc-Character-Encoding-Core-SvenVanCaekenberghe.45.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
 Zinc-HTTP-SvenVanCaekenberghe.448.mcz
-Zinc-Resource-Meta-Core-PavelKrivanek.56.mcz
+Zinc-Resource-Meta-Core-TheIntegrator.58.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz
 Zinc-Tests-SvenVanCaekenberghe.236.mcz
