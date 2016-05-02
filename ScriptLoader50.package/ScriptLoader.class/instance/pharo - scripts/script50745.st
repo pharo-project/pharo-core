@@ -1,4 +1,4 @@
-script50744
+script50745
 
 	^ 'AST-Core-TheIntegrator.416.mcz
 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz
@@ -394,7 +394,7 @@ Zinc-Resource-Meta-Core-TheIntegrator.58.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz
 Zinc-Tests-SvenVanCaekenberghe.236.mcz
-Zinc-Zodiac-SvenVanCaekenberghe.35.mcz
+Zinc-Zodiac-TheIntegrator.37.mcz
 Zodiac-Core-SvenVanCaekenberghe.42.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz
 Zodiac-Tests-SvenVanCaekenberghe.13.mcz'
