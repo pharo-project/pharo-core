@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18140 StartupPreferencesLoader does not guard enough against errors
-	https://pharo.fogbugz.com/f/cases/18140'
+ ^ '18133 GTInspector subscript out of bounds in raw tab
+	https://pharo.fogbugz.com/f/cases/18133
+
+18147 pvtDestroyHandle still presenting problems
+	https://pharo.fogbugz.com/f/cases/18147'
