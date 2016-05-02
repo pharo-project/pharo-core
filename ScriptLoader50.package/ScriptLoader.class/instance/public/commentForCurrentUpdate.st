@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '18133 GTInspector subscript out of bounds in raw tab
-	https://pharo.fogbugz.com/f/cases/18133
-
-18147 pvtDestroyHandle still presenting problems
-	https://pharo.fogbugz.com/f/cases/18147'
+ ^ '18139 getenv() call on Ubuntu 14.04 (32 bit) fails in one-click image
+	https://pharo.fogbugz.com/f/cases/18139'
