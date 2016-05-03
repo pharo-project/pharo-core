@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18152 Failing on CI on Windows only: ZnHTTPSTests.testGetPharoVersion (from Zinc-Zodiac)
-	https://pharo.fogbugz.com/f/cases/18152'
+ ^ '18150 AST-FFI-Pharo50Compatibility-EstebanLorenzano.1.mcz missing
+	https://pharo.fogbugz.com/f/cases/18150/'
