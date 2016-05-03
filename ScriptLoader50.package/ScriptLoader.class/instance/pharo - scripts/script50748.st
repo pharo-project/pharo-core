@@ -1,4 +1,4 @@
-script50747
+script50748
 
 	^ 'AST-Core-TheIntegrator.416.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -318,10 +318,10 @@ System-Hashing-TheIntegrator.52.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
-System-Localization-TheIntegrator.105.mcz
+System-Localization-TheIntegrator.106.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.4.mcz
-System-OSEnvironments-TheIntegrator.30.mcz
+System-OSEnvironments-TheIntegrator.31.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz

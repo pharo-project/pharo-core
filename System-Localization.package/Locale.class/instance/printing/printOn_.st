@@ -1,3 +1,3 @@
 printOn: aStream 
-	super printOn: aStream. 
-	aStream nextPutAll: 'Locale (' , self language, '-', self country , ')'
+	super printOn: aStream.
+	aStream nextPutAll: '(' , id printString , ')'
