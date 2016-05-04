@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18159 put on Shortcut reminder 
-	https://pharo.fogbugz.com/f/cases/18159'
+ ^ '18161 Skip the two failing test for Pharo5
+	https://pharo.fogbugz.com/f/cases/18161'

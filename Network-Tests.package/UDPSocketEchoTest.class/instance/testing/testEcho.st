@@ -1,5 +1,8 @@
 testEcho
 	| socket message result |
+	
+	OSPlatform current isMacOS ifTrue: [ ^ self skip ].
+	"Temporary for Pharo5 release. see https://pharo.fogbugz.com/f/cases/18137/"
 	socket := Socket newUDP.
 	[ 
 		self withUDPEchoServer: [ :process |

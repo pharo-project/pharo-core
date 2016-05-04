@@ -3,6 +3,9 @@ testUDPBroadcastError
 	"Use 255.255.255.255 for testing, which in RFC 919 is defined as 'denoting a broadcast on a local hardware network, which must not be forwarded. 
 	This address may be used, for example, by hosts that do not know their network number and are asking some server for it.'"
 
+	OSPlatform current isWindows ifTrue: [ ^ self skip ].
+	"Temporary for Pharo5 release. see https://pharo.fogbugz.com/f/cases/18153/"
+
 	self
 		should: [ 
 			Socket newUDP
