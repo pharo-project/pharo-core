@@ -1,4 +1,4 @@
-script50750
+script50751
 
 	^ 'AST-Core-TheIntegrator.416.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -217,7 +217,7 @@ Network-Protocols-TheIntegrator.103.mcz
 Network-Tests-TheIntegrator.10.mcz
 Network-UUID-TheIntegrator.44.mcz
 Network-Url-MarcusDenker.99.mcz
-NewValueHolder-TheIntegrator.33.mcz
+NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
 OSWindow-Core-RonieSalgado.107.mcz

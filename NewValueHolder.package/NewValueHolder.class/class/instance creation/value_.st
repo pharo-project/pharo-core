@@ -1,5 +1,5 @@
 value: contents
 
 	^ self new
-		value: contents;
+		rawValue: contents;
 		yourself
