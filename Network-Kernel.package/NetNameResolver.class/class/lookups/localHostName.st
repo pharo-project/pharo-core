@@ -3,8 +3,8 @@ localHostName
 
 	"NetNameResolver localHostName"
 
-	^ [ 
-	| hostName |
+	^ [ | hostName |
+	self initializeNetwork.
 	hostName := String new: self primHostNameSize.
 	self primHostNameResult: hostName.
 	hostName ]
