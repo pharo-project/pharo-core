@@ -1,5 +1,3 @@
 commentForCurrentUpdate
- ^ '18188 localHostName is not guarded against uninitialized network
-	https://pharo.fogbugz.com/f/cases/18188
-
-'
+ ^ '18153 Failing on CI on Windows: SocketTest.testUDPBroadcastError (from Network-Tests)
+	https://pharo.fogbugz.com/f/cases/18153'
