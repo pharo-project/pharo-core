@@ -6,7 +6,7 @@ smalltalkCodeWrappedTo400
 		beWrapped;
 		model: self;
 		width: 400;
-		beForSmalltalkCode;
+		beForSmalltalkCodeWithDefaultFont;
 		updateTextWith: self someSmalltalkCode.
 	area openInWorld.
 	^ area

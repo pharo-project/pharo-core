@@ -1,0 +1,2 @@
+selectedClassOrMetaClass
+	^ nil

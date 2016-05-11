@@ -1,0 +1,2 @@
+beForSmalltalkScriptingWithDefaultFont
+    self textArea beForSmalltalkScriptingWithDefaultFont

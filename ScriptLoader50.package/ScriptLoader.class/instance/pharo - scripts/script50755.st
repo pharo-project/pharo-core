@@ -1,4 +1,4 @@
-script50754
+script50755
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -122,7 +122,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
-HelpSystem-Core-TheIntegrator.140.mcz
+HelpSystem-Core-TheIntegrator.144.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.90.mcz
@@ -228,11 +228,11 @@ OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.799.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.15.mcz
+Pharo-Help-TheIntegrator.20.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1338.mcz
 PragmaCollector-TheIntegrator.12.mcz
-ProfStef-Core-TheIntegrator.73.mcz
+ProfStef-Core-TheIntegrator.77.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.101.mcz
@@ -268,7 +268,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-GuillermoPolito.363.mcz
+Rubric-TheIntegrator.364.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
 STON-Core-PavelKrivanek.73.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
