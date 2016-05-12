@@ -9,7 +9,7 @@ cleanUpForRelease
 	#MetacelloProjectRegistration asClassIfPresent: [ :class | class resetRegistry ].
 	SystemNavigation new
 		allObjectsDo: [ :each | 
-			(each respondsTo: #releaseCachedState)
+			((each respondsTo: #releaseCachedState) and: [ (each isKindOf: RubAbstractTextArea) not ])
 				ifTrue: [ each releaseCachedState ] ].
 	
 	self removeEmptyCategories.

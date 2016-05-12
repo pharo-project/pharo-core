@@ -1,4 +1,4 @@
-script50756
+script50757
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -228,7 +228,7 @@ OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.799.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.23.mcz
+Pharo-Help-TheIntegrator.25.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1338.mcz
 PragmaCollector-TheIntegrator.12.mcz
@@ -352,7 +352,7 @@ Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.62.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.65.mcz
-Tool-ImageCleaner-TheIntegrator.15.mcz
+Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.20.mcz
 Tool-Profilers-TheIntegrator.22.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
