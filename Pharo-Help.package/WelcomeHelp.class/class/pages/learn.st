@@ -5,7 +5,7 @@ learn
 
 ProfStef go.
 
-Pharo has also an excellent MOOC (Massive Open Online Course). You can find more indormation here: 
+Pharo has also an excellent MOOC (Massive Open Online Course). You can find more information here: 
 
 http://mooc.pharo.org
 

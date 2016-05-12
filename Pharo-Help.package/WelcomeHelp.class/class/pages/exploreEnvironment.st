@@ -8,7 +8,7 @@ The most complete and updated guide for the Pharo environment can be found at "U
 
 https://github.com/SquareBracketAssociates/UpdatedPharoByExample
 
-One particular chapter that is interesting is the one that gisves you a quick tour for all the environment: 
+One particular chapter that is interesting is the one that gives you a quick tour for all the environment: 
 
 https://ci.inria.fr/pharo-contribution/job/UpdatedPharoByExample/lastSuccessfulBuild/artifact/book-result/PharoTour/PharoTour.pdf 
 '
