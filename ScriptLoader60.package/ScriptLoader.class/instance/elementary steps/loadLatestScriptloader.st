@@ -3,6 +3,6 @@ loadLatestScriptloader
 	
 	self class 
 		loadLatestPackage: self theScriptLoaderPackageName
-		fromHub: 'Pharo50' 
+		fromHub: 'Pharo60' 
 	
 

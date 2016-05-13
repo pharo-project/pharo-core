@@ -1,4 +1,4 @@
-script50757
+script60001
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -140,7 +140,7 @@ Keymapping-Pragmas-TheIntegrator.54.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.105.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.166.mcz
+Komitter-EstebanLorenzano.167.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -175,7 +175,7 @@ MonticelloFileTree-Core-TheIntegrator.141.mcz
 MonticelloFileTree-FileSystem-Utilities-TheIntegrator.30.mcz
 MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
-MonticelloRemoteRepositories-TheIntegrator.15.mcz
+MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.546.mcz
 Morphic-Core-TheIntegrator.278.mcz
@@ -365,7 +365,7 @@ Traits-TheIntegrator.907.mcz
 Transcript-TheIntegrator.50.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
-TxText-Model-SeanDeNigris.61.mcz
+TxText-Model-EstebanLorenzano.63.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.187.mcz

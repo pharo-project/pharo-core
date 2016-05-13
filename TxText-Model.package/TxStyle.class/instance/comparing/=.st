@@ -1,2 +1,2 @@
 = anAttributes
-	^ (anAttributes class == self class) and: [ attributes = anAttributes attributes ].
+	^ super = anAttributes or: [(anAttributes class == self class) and: [ attributes = anAttributes attributes ]]

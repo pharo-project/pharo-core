@@ -1,2 +1,2 @@
 pharoRepository
-	^ self location: 'http://smalltalkhub.com/mc/Pharo/Pharo50/main'.
+	^ self location: 'http://smalltalkhub.com/mc/Pharo/Pharo60/main'.

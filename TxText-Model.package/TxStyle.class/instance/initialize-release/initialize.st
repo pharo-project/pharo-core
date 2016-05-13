@@ -1,4 +1,4 @@
 initialize 
 	super initialize.
 	
-	attributes := Dictionary new
+	attributes := IdentityDictionary new

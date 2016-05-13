@@ -1,4 +1,5 @@
 initialize
 
 	self initializeDefaultStyle.
-	styles := WeakOrderedCollection new.
+	
+	styles := WeakSet new.

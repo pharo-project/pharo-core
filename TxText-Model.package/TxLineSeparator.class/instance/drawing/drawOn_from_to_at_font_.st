@@ -1,1 +1,0 @@
-drawOn: aCanvas from: start to: end at: aPoint font: aFont
