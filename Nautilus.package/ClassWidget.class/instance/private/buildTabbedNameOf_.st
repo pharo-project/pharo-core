@@ -1,16 +1,23 @@
 buildTabbedNameOf: anElement
 			
-	| tab result size |
+	| tab size stringMorph |
 	
 	tab := '   '.
 	size := self cachedHierarchy indentationFor: anElement.
 	
-	result := String new: (size * (tab size)) streamContents: [ :s|
-		1 to: size do: [:i | s nextPutAll: tab ]].
-
-	^ self model selectedPackage 
-		ifNil: [result, anElement name]
-		ifNotNil: [:package | 
-			(package includesClass: anElement)
-				ifTrue: [ (result, anElement name) asStringMorph ]
-				ifFalse: [ (result , anElement name",' (', anElement package name,')'")asStringMorph color: self model extensionColor;yourself]]
+	stringMorph := (size isZero 
+		ifTrue: [ anElement name ]
+		ifFalse: [ ( tab repeat: size ) , anElement name ]) asStringMorph.
+		
+	self model selectedPackage ifNotNil: [ :package |
+		(package includesClass: anElement) ifFalse: [ 
+			stringMorph color: self model extensionColor ] 
+	].
+	
+	anElement hasAbstractMethods ifTrue: [ 	
+		stringMorph 
+		emphasis: 2; 
+		color: (self abstractColorAdjust: stringMorph color)
+	].
+	
+	^ stringMorph
