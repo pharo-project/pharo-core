@@ -3,6 +3,8 @@ allMetaClasses
 
 	| allMetaClasses |
 	allMetaClasses := OrderedCollection new: 4096.
-	self allClassesDo: [ :each | 
-		allMetaClasses add: each theMetaClass ].
+	self
+		classesDo: [ :each | 
+			each isMeta
+				ifTrue: [ allMetaClasses add: each theNonMetaClass ] ].
 	^ allMetaClasses asArray

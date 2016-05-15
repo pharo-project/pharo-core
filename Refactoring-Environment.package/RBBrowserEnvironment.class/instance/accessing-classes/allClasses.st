@@ -3,6 +3,6 @@ allClasses
 
 	| allClasses |
 	allClasses := OrderedCollection new: 4096.
-	self allClassesDo: [ :each | 
-		allClasses add: each ].
+	self classesDo: [ :each | 
+		allClasses add: each theNonMetaClass].
 	^ allClasses asArray

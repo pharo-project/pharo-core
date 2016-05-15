@@ -1,4 +1,4 @@
 classesDo: aBlock 
-	self allClassesDo: [ :each |
+	self systemDictionaryClassesDo: [ :each |
 		(self includesClass: each)
-			ifTrue: [ aBlock value: each ] ]
+			ifTrue: [aBlock value: each ] ]

@@ -1,4 +1,4 @@
-script60004
+script60005
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -243,9 +243,9 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.298.mcz
+Refactoring-Core-TheIntegrator.300.mcz
 Refactoring-Critics-TheIntegrator.261.mcz
-Refactoring-Environment-TheIntegrator.76.mcz
+Refactoring-Environment-TheIntegrator.78.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz

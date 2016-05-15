@@ -15,4 +15,5 @@ allClassesDo: aBlock
 			((seen includes: class name) or: [ self hasRemoved: (self classNameFor: class) ]) ifFalse: [
 				(class := self classFor: each) isNil ifFalse: [
 					seen add: class name.
-					aBlock value: class ] ] ] ]
+					aBlock value: class;
+						    value: class theMetaClass ] ] ] ]

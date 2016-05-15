@@ -1,2 +1,2 @@
 allClassesDo: aBlock
-	self systemDictionary allClassesDo: aBlock
+	self systemDictionaryClassesDo: aBlock
