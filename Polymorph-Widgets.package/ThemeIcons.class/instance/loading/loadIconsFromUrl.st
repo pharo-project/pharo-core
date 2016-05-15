@@ -1,7 +1,7 @@
 loadIconsFromUrl
 	| newIcons zipArchive |
 	
-	newIcons := Dictionary new.
+	newIcons := IdentityDictionary new.
 	zipArchive := self downloadFromUrl.
 	((FileSystem zip: zipArchive) open workingDirectory allChildrenMatching: '*.png')
 		reject: [ :each | each base beginsWith: '.' ]

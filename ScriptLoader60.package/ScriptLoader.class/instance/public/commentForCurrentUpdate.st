@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18148 NEC should guess global variables
-	https://pharo.fogbugz.com/f/cases/18148'
+ ^ '18129 ThemeIcons should store icons in an IdentityDictionarry
+	https://pharo.fogbugz.com/f/cases/18129'
