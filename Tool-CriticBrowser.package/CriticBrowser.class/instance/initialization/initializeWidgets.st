@@ -1,7 +1,6 @@
 initializeWidgets
 	
-	title := 'Critic Browser'.
-
+	title := self defaultTitle.
 	rulesModel := self newTree.
 	resetButton := self newButton.
 	logButton := self newButton.

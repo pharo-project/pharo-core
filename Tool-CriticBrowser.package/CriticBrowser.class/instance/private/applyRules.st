@@ -21,7 +21,7 @@ applyRules
 			self setTitle: windowTitle.
 			checker runRules: rules onPackage: package withoutTestCase: removeTestCase ].
 			checker rule: rules.
-			self setTitle: 'Critics Browser'.
+			self setTitle: self defaultTitle.
 			cache packages: rbEnvironment.
 			cache initCache. 
 			self updateTree.

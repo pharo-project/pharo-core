@@ -9,4 +9,4 @@ reapplyAllRules
 		ruleCount := ruleCount + 1.
 		self setTitle: (String streamContents: [:s | s << 'run rules: ' << r name << ' (' << ruleCount asString << '/' << total asString <<')']).
 		self reapplyRule: r ]. 	
-	self setTitle: 'Critics Browser'.
+	self setTitle: self defaultTitle.
