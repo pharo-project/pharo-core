@@ -1,4 +1,4 @@
-script60006
+script60007
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -117,7 +117,7 @@ Graphics-Canvas-TheIntegrator.6.mcz
 Graphics-Display Objects-TheIntegrator.175.mcz
 Graphics-Files-TheIntegrator.76.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
-Graphics-Primitives-TheIntegrator.189.mcz
+Graphics-Primitives-TheIntegrator.192.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
@@ -193,7 +193,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.21.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.50.mcz
+Morphic-Widgets-Tree-TheIntegrator.52.mcz
 Morphic-Widgets-Windows-TheIntegrator.97.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.55.mcz

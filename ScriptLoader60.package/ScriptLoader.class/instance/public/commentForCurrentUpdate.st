@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18230 Critic Browser window title set to nil after deselecting a rule
-	https://pharo.fogbugz.com/f/cases/18230'
+ ^ '17896 MorphTreeMorph have trouble to update his theme
+	https://pharo.fogbugz.com/f/cases/17896'
