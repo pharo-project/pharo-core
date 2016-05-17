@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '18191 remove FFI classes from ReleaseTest>>#testKeyClassesArePresentInStartupList
-	https://pharo.fogbugz.com/f/cases/18191
-
-18201 Reflectivity depends on Relfectivity-Tools
-	https://pharo.fogbugz.com/f/cases/18201'
+ ^ '18229 Allow String>>#repeat: to repeat a string 0 times
+	https://pharo.fogbugz.com/f/cases/18229'

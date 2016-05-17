@@ -1,4 +1,4 @@
-script60009
+script60010
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -34,9 +34,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.243.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.415.mcz
+Collections-Strings-TheIntegrator.417.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.49.mcz
+Collections-Tests-TheIntegrator.51.mcz
 Collections-Unordered-TheIntegrator.232.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz

@@ -4,7 +4,7 @@ repeat: aNumber
 		'abc' repeat: 3. 'abcabcabc'
 	"
 
-	aNumber < 1 ifTrue: [ self error: 'aNumber cannot be less than 1' ].
+	aNumber < 0 ifTrue: [ self error: 'aNumber cannot be negative' ].
 	
 	^ self class 
 		new: self size * aNumber 
