@@ -1,4 +1,4 @@
-script60008
+script60009
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -250,15 +250,15 @@ Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.131.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.23.mcz
-Reflectivity-TheIntegrator.297.mcz
+Reflectivity-TheIntegrator.299.mcz
 Reflectivity-Examples-TheIntegrator.28.mcz
 Reflectivity-Tests-TheIntegrator.202.mcz
-Reflectivity-Tools-TheIntegrator.24.mcz
-Reflectivity-Tools-Tests-TheIntegrator.11.mcz
+Reflectivity-Tools-TheIntegrator.26.mcz
+Reflectivity-Tools-Tests-TheIntegrator.12.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
-ReleaseTests-TheIntegrator.31.mcz
+ReleaseTests-TheIntegrator.33.mcz
 Renraku-YuriyTymchuk.111.mcz
 Renraku-Test-YuriyTymchuk.19.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz

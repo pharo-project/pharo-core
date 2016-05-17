@@ -1,6 +1,6 @@
 testKeyClassesArePresentInStartupList
 	| keyClasses registeredHandlers |
-	keyClasses := #(#Delay #ProcessorScheduler #InputEventFetcher #ExternalObject #Alien #FFICallbackThunk #FFIMethodRegistry #Stdio #OSPlatform #UUIDGenerator #DiskStore #SmalltalkImage #WeakArray #BasicCommandLineHandler).
+	keyClasses := #(#Delay #ProcessorScheduler #InputEventFetcher #Stdio #OSPlatform #UUIDGenerator #DiskStore #SmalltalkImage #WeakArray #BasicCommandLineHandler).
 	registeredHandlers := SessionManager default startupList
 		collect: #handledId.
 	
