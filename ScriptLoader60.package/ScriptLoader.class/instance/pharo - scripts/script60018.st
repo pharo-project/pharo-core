@@ -1,4 +1,4 @@
-script60017
+script60018
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -131,9 +131,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2295.mcz
+Kernel-TheIntegrator.2296.mcz
 Kernel-Rules-TheIntegrator.2.mcz
-Kernel-Tests-TheIntegrator.65.mcz
+Kernel-Tests-TheIntegrator.67.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz
@@ -210,11 +210,11 @@ Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.11.mcz
 NautilusRefactoring-TheIntegrator.272.mcz
-Network-Kernel-TheIntegrator.133.mcz
+Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
-Network-Protocols-TheIntegrator.103.mcz
-Network-Tests-TheIntegrator.13.mcz
+Network-Protocols-TheIntegrator.105.mcz
+Network-Tests-TheIntegrator.15.mcz
 Network-UUID-TheIntegrator.44.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
@@ -334,7 +334,7 @@ System-Sources-TheIntegrator.50.mcz
 System-Support-TheIntegrator.1220.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
-Tests-TheIntegrator.757.mcz
+Tests-TheIntegrator.758.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.114.mcz
