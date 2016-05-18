@@ -1,4 +1,4 @@
-script60014
+script60015
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2292.mcz
+Kernel-TheIntegrator.2294.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.65.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -331,10 +331,10 @@ System-Settings-TheIntegrator.337.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1215.mcz
+System-Support-TheIntegrator.1220.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
-Tests-TheIntegrator.755.mcz
+Tests-TheIntegrator.757.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.114.mcz

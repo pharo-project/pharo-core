@@ -1,2 +1,2 @@
 isClassOrTrait
-	^ false
+	^ self isClass or: [ self isTrait ]
