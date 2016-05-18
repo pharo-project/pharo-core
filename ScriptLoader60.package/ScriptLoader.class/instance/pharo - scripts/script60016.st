@@ -1,4 +1,4 @@
-script60015
+script60016
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -72,11 +72,11 @@ FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.742.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MaxLeske.825.mcz
-FuelCommandLineHandler-TheIntegrator.25.mcz
-FuelPlatform-TheIntegrator.62.mcz
-FuelSystem-FileRegistry-TheIntegrator.4.mcz
+FuelCommandLineHandler-MarcusDenker.24.mcz
+FuelPlatform-MaxLeske.62.mcz
+FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MaxLeske.411.mcz
-FuelTools-Debugger-TheIntegrator.10.mcz
+FuelTools-Debugger-MarcusDenker.9.mcz
 GT-BytecodeDebugger-TudorGirba.31.mcz
 GT-Debugger-AndreiChis.350.mcz
 GT-EventRecorder-TheIntegrator.68.mcz

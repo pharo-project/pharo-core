@@ -1,4 +1,4 @@
-CompiledCode variableByteSubclass: #CompiledMethod
+CompiledCode variableByteSubclass: #CompiledBlock
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
