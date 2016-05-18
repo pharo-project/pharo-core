@@ -54,6 +54,12 @@ taskbarButtonMenu: aMenu
 		selector: #closeAllUnchangedWindows
 		getStateSelector: nil
 		enablementSelector: true.
+	submenu
+		addToggle: 'close all debuggers' translated
+		target: Smalltalk tools debugger
+		selector: #closeAllDebuggers
+		getStateSelector: nil
+		enablementSelector: true.
 
 	menu
 		addToggle: 'Close' translated

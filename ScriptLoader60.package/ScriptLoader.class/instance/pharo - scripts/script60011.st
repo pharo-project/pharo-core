@@ -1,4 +1,4 @@
-script60010
+script60011
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -178,7 +178,7 @@ MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.546.mcz
-Morphic-Core-TheIntegrator.278.mcz
+Morphic-Core-TheIntegrator.282.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.86.mcz
@@ -191,7 +191,7 @@ Morphic-Widgets-Pluggable-TheIntegrator.66.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
-Morphic-Widgets-Taskbar-TheIntegrator.21.mcz
+Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.52.mcz
 Morphic-Widgets-Windows-TheIntegrator.97.mcz
@@ -335,7 +335,7 @@ System-Support-TheIntegrator.1215.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.755.mcz
-Text-Core-TheIntegrator.50.mcz
+Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.114.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
