@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons smallInspectItIcon
+	^ Smalltalk ui icons iconNamed: #smallInspectItIcon

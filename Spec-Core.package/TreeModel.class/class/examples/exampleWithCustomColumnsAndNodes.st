@@ -7,7 +7,7 @@ exampleWithCustomColumnsAndNodes
 	m rootNodeHolder: [ :item | 
 		TreeNodeModel new
 			content: item;
-			icon: Smalltalk ui icons smallConfigurationIcon
+			icon: (Smalltalk ui icons iconNamed: #smallConfigurationIcon)
 	].
 	
 	m openWithSpec.

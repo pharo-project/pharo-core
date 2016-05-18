@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons keymapBrowserIcon 
+	^ Smalltalk ui icons iconNamed: #keymapBrowserIcon 

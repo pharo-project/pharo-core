@@ -1,4 +1,4 @@
-script60013
+script60014
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -291,16 +291,16 @@ Slot-TheIntegrator.742.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.465.mcz
+Spec-Core-TheIntegrator.468.mcz
 Spec-Debugger-TheIntegrator.263.mcz
-Spec-Examples-TheIntegrator.108.mcz
+Spec-Examples-TheIntegrator.110.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.258.mcz
+Spec-Inspector-TheIntegrator.260.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.262.mcz
-Spec-PolyWidgets-TheIntegrator.66.mcz
-Spec-Tests-TheIntegrator.63.mcz
-Spec-Tools-TheIntegrator.324.mcz
+Spec-PolyWidgets-TheIntegrator.68.mcz
+Spec-Tests-TheIntegrator.65.mcz
+Spec-Tools-TheIntegrator.327.mcz
 StartupPreferences-TheIntegrator.149.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz

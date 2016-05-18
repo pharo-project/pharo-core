@@ -1,2 +1,2 @@
 iconFor: anEyeElement error: error
-	^ Smalltalk ui icons smallWarningIcon
+	^ Smalltalk ui icons iconNamed: #smallWarningIcon

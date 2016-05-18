@@ -9,7 +9,7 @@ exampleWithCustomColumnsAndNodesAndChildren
 			content: item;
 			children: [ (1 to: item asString first asciiValue) collect: [:e | 
 				TreeNodeModel new content: e ] ];
-			icon: Smalltalk ui icons smallConfigurationIcon
+			icon: (Smalltalk ui iconNamed: #smallConfigurationIcon)
 	].
 	
 	m openWithSpec.

@@ -8,6 +8,6 @@ menuCommandOn: aBuilder
 				action:[self open]; 
 				icon: self taskbarIcon.				
 			(aBuilder item: #'Recover lost changes...') 
-				icon: Smalltalk ui icons recoverLostChangesIcon;
+				icon: (Smalltalk ui icons iconNamed: #recoverLostChangesIcon);
 				action: [Smalltalk tools changeList browseRecentLog].].			
 	aBuilder withSeparatorAfter.		

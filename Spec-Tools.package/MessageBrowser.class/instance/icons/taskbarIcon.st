@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons referencesIcon
+	^ Smalltalk ui icons iconNamed: #referencesIcon

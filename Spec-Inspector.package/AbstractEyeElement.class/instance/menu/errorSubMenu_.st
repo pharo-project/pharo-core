@@ -10,5 +10,5 @@ errorSubMenu: aMenu
 			aGroup addItem: [ :anItem |
 				anItem 
 					name: 'Debug Accessing ', itemSelector printString, ' of ', self accessorCode ;
-					icon: Smalltalk ui icons smallWarningIcon;
+					icon: (Smalltalk ui icons iconNamed: #smallWarningIcon);
 					action: [ [ self perform: itemSelector] fork ]]]]

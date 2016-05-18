@@ -3,7 +3,7 @@ addItemTo: aGroup
 		addItem: [ :item | 
 			item
 				name: 'Dynamic';
-				icon: Smalltalk ui icons delete;
+				icon: (Smalltalk ui icons iconNamed: #delete);
 				action: [ aGroup menuItems remove: item.
 					self needRebuild: false.
 					self buildWithSpec ] ].
