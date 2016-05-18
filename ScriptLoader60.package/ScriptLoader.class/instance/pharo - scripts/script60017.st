@@ -1,4 +1,4 @@
-script60016
+script60017
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2294.mcz
+Kernel-TheIntegrator.2295.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.65.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -386,6 +386,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
+WriteBarrierTests-TheIntegrator.7.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz

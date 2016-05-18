@@ -1,0 +1,2 @@
+mirror
+	^ TTMirror new
