@@ -1,2 +1,0 @@
-asUrl
-	^self asString asUrl
