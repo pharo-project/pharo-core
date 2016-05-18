@@ -1,5 +1,5 @@
 example
-	<exampleWidget>
 	"self example"
-	
-	^ self newLabel: 'A Label'.
+
+	<exampleWidget>
+	^ (self newLabel: 'A Label') openInWindow

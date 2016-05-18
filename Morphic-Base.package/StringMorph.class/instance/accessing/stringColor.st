@@ -1,0 +1,3 @@
+stringColor
+
+	^ self color
