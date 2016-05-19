@@ -7,12 +7,14 @@ allUnimplementedCalls
 	self
 		allBehaviorsDo: [:cl | cl
 				selectorsAndMethodsDo: [:sel :meth |
-					| secondStream | 
+					| secondStream ignored | 
 					secondStream := (String new: 5) writeStream.
+					ignored := (meth pragmaAt: #ignoreUnimplementedCalls:) 
+						ifNotNil: [ :pragma | (pragma argumentAt: 1)  ] 
+						ifNil: [ #() ].
 					meth messages
-						do: [:m | (all includes: m)
-								ifFalse: [secondStream nextPutAll: m;
-										 space]].
+						do: [:m | ((all includes: m) not and: [ (ignored includes: m) not])
+								ifTrue: [ secondStream nextPutAll: m; space ]].
 					secondStream position = 0
 						ifFalse: [aStream nextPut: cl name , ' ' , sel , ' calls: ' , secondStream contents]]].
 	^ aStream contents

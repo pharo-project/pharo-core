@@ -1,4 +1,4 @@
-script60020
+script60021
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2296.mcz
+Kernel-TheIntegrator.2297.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.67.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -311,7 +311,7 @@ System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
-System-CommandLineHandler-TheIntegrator.18.mcz
+System-CommandLineHandler-TheIntegrator.20.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.32.mcz
 System-Hashing-TheIntegrator.52.mcz
@@ -331,7 +331,7 @@ System-Settings-TheIntegrator.337.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1220.mcz
+System-Support-TheIntegrator.1221.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.17.mcz
 Tests-TheIntegrator.758.mcz
@@ -386,7 +386,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
-WriteBarrierTests-TheIntegrator.7.mcz
+WriteBarrierTests-TheIntegrator.9.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz

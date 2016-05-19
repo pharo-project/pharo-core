@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18248 TextAction>>rubActOnClick:for:in:editor: missing
-	https://pharo.fogbugz.com/f/cases/18248
+ ^ '18264 WriteBarrierTest are failing. Maybe put on "expected" for now
+	https://pharo.fogbugz.com/f/cases/18264
 
-18270 add #themeChanged method for GLMTabLabelBrick
-	https://pharo.fogbugz.com/f/cases/18270
+16084 introduce pragma "ignoreUnimplementedCalls:"
+	https://pharo.fogbugz.com/f/cases/16084
 
-18266 OCClassScope should ask class directly to find variable 
-	https://pharo.fogbugz.com/f/cases/18266'
+18262 safe usage of optional StartupPreferencesLoader in the PharoCommandLineHandler
+	https://pharo.fogbugz.com/f/cases/18262'
