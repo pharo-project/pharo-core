@@ -1,4 +1,4 @@
-script60019
+script60020
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -225,12 +225,12 @@ OSWindow-SDL2-RonieSalgado.96.mcz
 OSWindow-SDL2-Examples-RonieSalgado.13.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.799.mcz
+OpalCompiler-Core-TheIntegrator.801.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.25.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1344.mcz
+Polymorph-Widgets-TheIntegrator.1348.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.77.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -268,7 +268,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.364.mcz
+Rubric-TheIntegrator.367.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
 STON-Core-PavelKrivanek.73.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
