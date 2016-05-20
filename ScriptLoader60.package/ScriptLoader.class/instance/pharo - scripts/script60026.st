@@ -1,4 +1,4 @@
-script60025
+script60026
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -225,7 +225,7 @@ OSWindow-SDL2-RonieSalgado.96.mcz
 OSWindow-SDL2-Examples-RonieSalgado.13.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-OpalCompiler-Core-TheIntegrator.801.mcz
+OpalCompiler-Core-TheIntegrator.803.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.25.mcz
