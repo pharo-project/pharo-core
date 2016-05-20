@@ -3,9 +3,10 @@ themeChanged
 
 	self
 		layoutInset: (self theme buttonLabelInsetFor: self);
-		cornerStyle: (self theme buttonCornerStyleIn: self window).
+		cornerStyle: (self theme buttonCornerStyleIn: self window);
+		borderStyle: (self theme buttonNormalBorderStyleFor: self).
 		
-	(self labelMorph isNil or: [self label isMorph or: [self labelMorph isTextMorph]]) ifFalse: [
+	(self labelMorph isNil or: [self label isMorph ]) ifFalse: [
 		self label: self label font: self labelMorph font.
 		self labelMorph color: self theme textColor
 	].

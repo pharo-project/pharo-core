@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '18274 improve testing of UUID and remove createStringStartingAt:for:
-	https://pharo.fogbugz.com/f/cases/18274
+ ^ '18240 PluggableButtonMorph does not update his text color on themeChanged
+	https://pharo.fogbugz.com/f/cases/18240
 
-18132 BlockClosure>>bench prints time instead of frequency when it runs for more than benchtime
-	https://pharo.fogbugz.com/f/cases/18132
-
-18192 InputEventFetcher class>>#deinstall uses deprecated startup API
-	https://pharo.fogbugz.com/f/cases/18192
-
-18268 Add Class comments to Refactoring-Core-Conditions classes
-	https://pharo.fogbugz.com/f/cases/18268'
+18276 Update glamorousBrowse and testRunner icons
+	https://pharo.fogbugz.com/f/cases/18276'
