@@ -1,4 +1,4 @@
-script60024
+script60025
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -36,7 +36,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.417.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.51.mcz
+Collections-Tests-TheIntegrator.53.mcz
 Collections-Unordered-TheIntegrator.232.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
@@ -55,7 +55,7 @@ EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
 FFI-Kernel-JanVanDeSandt.40.mcz
 FFI-Pools-eem.3.mcz
-FileSystem-Core-TheIntegrator.202.mcz
+FileSystem-Core-TheIntegrator.203.mcz
 FileSystem-Disk-TheIntegrator.97.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.95.mcz
@@ -331,7 +331,7 @@ System-Settings-TheIntegrator.337.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1221.mcz
+System-Support-TheIntegrator.1222.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.760.mcz
