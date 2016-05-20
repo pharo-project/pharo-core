@@ -11,6 +11,6 @@ testSimple
 	self assert: benchmarkResult period equals: 40 milliSeconds.
 	self assert: benchmarkResult timePerExecution equals: 40 milliSeconds.
 	"cover the code at least"
-	self deny: benchmarkResult shortPrintString isEmpty.
+	self assert: benchmarkResult shortPrintString equals: '25.000 per second'.
 	self deny: benchmarkResult printString isEmpty
 	
