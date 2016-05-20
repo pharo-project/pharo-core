@@ -1,4 +1,4 @@
-script60023
+script60024
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -203,13 +203,13 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.247.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1255.mcz
+Nautilus-TheIntegrator.1256.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
-Nautilus-GroupManagerUI-TheIntegrator.31.mcz
+Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
-NautilusGroupAutoBuilder-TheIntegrator.11.mcz
-NautilusRefactoring-TheIntegrator.272.mcz
+NautilusGroupAutoBuilder-TheIntegrator.13.mcz
+NautilusRefactoring-TheIntegrator.274.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -230,7 +230,7 @@ OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.25.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1348.mcz
+Polymorph-Widgets-TheIntegrator.1350.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.77.mcz
 ProfStef-Help-TheIntegrator.16.mcz

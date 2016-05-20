@@ -1,2 +1,2 @@
 instanceButtonIcon
-	^ Smalltalk ui icons classIcon
+	^ Smalltalk ui icons iconNamed: #classIcon

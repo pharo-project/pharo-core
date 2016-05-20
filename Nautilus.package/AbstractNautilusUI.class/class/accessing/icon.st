@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons nautilusIcon 
+	^ Smalltalk ui icons iconNamed: #nautilusIcon 

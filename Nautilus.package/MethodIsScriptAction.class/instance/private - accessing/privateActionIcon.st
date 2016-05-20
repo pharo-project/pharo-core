@@ -3,7 +3,7 @@ privateActionIcon
 	 ^IconicButton new 
 			target: self;
 			actionSelector: #runScript;
-			labelGraphic: (Smalltalk ui icons scriptManagerIcon) ;
+			labelGraphic: (Smalltalk ui icons iconNamed: #scriptManagerIcon) ;
 			color: Color transparent;
 			extent: self iconExtent;
 			helpText: 'Run the script(s)';

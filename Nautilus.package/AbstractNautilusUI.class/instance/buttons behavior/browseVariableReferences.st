@@ -18,7 +18,7 @@ browseVariableReferences
 		]
 		selector: #value.
 		
-		menu lastItem icon: Smalltalk ui icons classIcon 
+		menu lastItem icon: (Smalltalk ui icons iconNamed: #classIcon )
 		
 	].
 	
