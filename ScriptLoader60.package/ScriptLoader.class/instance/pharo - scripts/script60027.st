@@ -1,6 +1,6 @@
-script60026
+script60027
 
-	^ 'AST-Core-TheIntegrator.418.mcz
+	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
 AST-Tests-Core-TheIntegrator.95.mcz
 Alien-eem.32.mcz
@@ -20,7 +20,7 @@ BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfQualityAssistant-YuriyTymchuk.46.mcz
 BaselineOfRenraku-YuriyTymchuk.5.mcz
-BlueInk-Core-TheIntegrator.24.mcz
+BlueInk-Core-TheIntegrator.27.mcz
 BlueInk-Extras-TheIntegrator.10.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -243,7 +243,7 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.303.mcz
+Refactoring-Core-TheIntegrator.304.mcz
 Refactoring-Critics-TheIntegrator.261.mcz
 Refactoring-Environment-TheIntegrator.78.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
