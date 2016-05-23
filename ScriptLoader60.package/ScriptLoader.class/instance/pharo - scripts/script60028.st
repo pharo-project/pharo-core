@@ -1,4 +1,4 @@
-script60027
+script60028
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -27,7 +27,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.7.mcz
-Collections-Abstract-TheIntegrator.313.mcz
+Collections-Abstract-TheIntegrator.315.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -131,7 +131,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2298.mcz
+Kernel-TheIntegrator.2300.mcz
 Kernel-Rules-TheIntegrator.2.mcz
 Kernel-Tests-TheIntegrator.68.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -187,7 +187,7 @@ Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-StephanEggermont.177.mcz
 Morphic-Widgets-List-TheIntegrator.21.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.66.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.68.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.2.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
@@ -243,11 +243,11 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.304.mcz
+Refactoring-Core-TheIntegrator.308.mcz
 Refactoring-Critics-TheIntegrator.261.mcz
 Refactoring-Environment-TheIntegrator.78.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
-Refactoring-Tests-Core-TheIntegrator.131.mcz
+Refactoring-Tests-Core-TheIntegrator.133.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.23.mcz
 Reflectivity-TheIntegrator.299.mcz

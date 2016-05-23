@@ -11,8 +11,5 @@ verifyContents
 					ifFalse: [nil]].
 	self updateList.
 	existingSelection notNil
-		ifTrue:
-			[model noteSelectionIndex: existingSelection for: getListSelector.
-			self selectionIndex: existingSelection]
-		ifFalse:
-			[self changeModelSelection: 0]
+		ifTrue: [	self selectionIndex: existingSelection]
+		ifFalse:	[self changeModelSelection: 0]

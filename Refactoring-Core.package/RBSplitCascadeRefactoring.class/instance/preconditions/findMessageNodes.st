@@ -4,7 +4,7 @@ findMessageNodes
 	beforeNodes := cascadeNode messages
 		select: [ :each | each stop <= selectedInterval first ].
 	afterNodes := cascadeNode messages
-		select: [ :each | selectedInterval last <= each selectorParts first start ].
+		select: [ :each | selectedInterval last <= each keywordsPositions first].
 	(beforeNodes isEmpty or: [ afterNodes isEmpty ])
 		ifTrue: [ self refactoringFailure: 'Splitting a cascade into the whole cascade and an empty one is pointless' ].
 	(beforeNodes size + afterNodes size = cascadeNode messages size)
