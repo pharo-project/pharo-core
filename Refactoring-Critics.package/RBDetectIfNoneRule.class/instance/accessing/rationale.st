@@ -1,2 +1,2 @@
 rationale 
-	^ 'Replaces detect:ifNone: by anySatisfy:'
+	^ 'Replaces detect:ifNone: and contains: by anySatisfy:'

@@ -1,2 +1,2 @@
 name
-	^ '#detect:ifNone: -> anySatisfy:'
+	^ '#detect:ifNone: or #contains: -> #anySatisfy:'

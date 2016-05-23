@@ -1,2 +1,2 @@
 name
-	^ 'Use "Smalltalk globlas" instead of "Smalltalk"'
+	^ 'Use "Smalltalk globals" instead of "Smalltalk"'
