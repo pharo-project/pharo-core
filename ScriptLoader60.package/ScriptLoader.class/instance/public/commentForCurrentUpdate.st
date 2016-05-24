@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18212 PharoTutorial class missing
-	https://pharo.fogbugz.com/f/cases/18212
+ ^ '18045 Use iconNamed: instead of relying on DNU [Athens]
+	https://pharo.fogbugz.com/f/cases/18045
 
-15418 a RBEnvironment from #classVarRefsTo: does not list meta classes
-	https://pharo.fogbugz.com/f/cases/15418
+18284 SmallFloat64 identityHash is answering bad value
+	https://pharo.fogbugz.com/f/cases/18284
 
-18312 inline parameter refactoring broken
-	https://pharo.fogbugz.com/f/cases/18312'
+18242 list packages for a protocol environment does not work
+	https://pharo.fogbugz.com/f/cases/18242'

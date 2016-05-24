@@ -13,7 +13,7 @@ exampleDrawForm2
 		can draw.
 		can pathTransform scaleBy: 0.5;
 		 translateX: 60 Y: 60. 
-		(can setPaint: Smalltalk ui icons helpIcon) repeat.
+		(can setPaint: (Smalltalk ui  iconNamed: #helpIcon)) repeat.
 		can paintTransform scaleBy: 3; rotateByDegrees: 30.
 		can draw.
 	].

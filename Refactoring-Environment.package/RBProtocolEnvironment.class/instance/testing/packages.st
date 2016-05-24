@@ -1,2 +1,2 @@
-packages 
-	^ self methods first package
+packages
+	^ self methods collect: [ :m | m package ]
