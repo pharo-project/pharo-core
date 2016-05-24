@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18296 DNU on split cascade refactoring
-	https://pharo.fogbugz.com/f/cases/18296
+ ^ '18212 PharoTutorial class missing
+	https://pharo.fogbugz.com/f/cases/18212
 
-18298 duplicate elements in RBClassEnvironments result set
-	https://pharo.fogbugz.com/f/cases/18298
+15418 a RBEnvironment from #classVarRefsTo: does not list meta classes
+	https://pharo.fogbugz.com/f/cases/15418
 
-18314 wrong or missing metho protokoll name for WindowAnnouncements
-	https://pharo.fogbugz.com/f/cases/18314'
+18312 inline parameter refactoring broken
+	https://pharo.fogbugz.com/f/cases/18312'

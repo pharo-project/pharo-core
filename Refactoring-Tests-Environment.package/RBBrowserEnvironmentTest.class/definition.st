@@ -1,5 +1,5 @@
 TestCase subclass: #RBBrowserEnvironmentTest
 	instanceVariableNames: 'universalEnvironment'
-	classVariableNames: 'ClassVariable'
+	classVariableNames: 'ClassSideOnlyVariable ClassVariable'
 	poolDictionaries: ''
 	category: 'Refactoring-Tests-Environment'

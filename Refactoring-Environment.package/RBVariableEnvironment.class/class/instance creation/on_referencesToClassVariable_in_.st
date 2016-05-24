@@ -7,6 +7,6 @@ on: anEnvironment referencesToClassVariable: aSymbol in: aClass
 	assoc := definingClass bindingOf: aSymbol.
 	definingClass withAllSubclassesDo: 
 			[:cls | 
-			(cls whichSelectorsReferTo: assoc) isEmpty 
-				ifFalse: [newEnv addClass: cls classVariable: aSymbol]].
+			((cls whichSelectorsReferTo: assoc) notEmpty or:[ (cls theMetaClass whichSelectorsReferTo: assoc) notEmpty]) 
+				ifTrue: [newEnv addClass: cls classVariable: aSymbol]].
 	^newEnv

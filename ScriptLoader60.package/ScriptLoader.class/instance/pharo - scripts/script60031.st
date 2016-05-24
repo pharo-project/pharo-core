@@ -1,4 +1,4 @@
-script60030
+script60031
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -209,7 +209,7 @@ Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.13.mcz
-NautilusRefactoring-TheIntegrator.276.mcz
+NautilusRefactoring-TheIntegrator.277.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -228,7 +228,7 @@ OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.803.mcz
 OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.25.mcz
+Pharo-Help-TheIntegrator.27.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1350.mcz
 PragmaCollector-TheIntegrator.12.mcz
@@ -243,13 +243,13 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.310.mcz
+Refactoring-Core-TheIntegrator.311.mcz
 Refactoring-Critics-TheIntegrator.264.mcz
-Refactoring-Environment-TheIntegrator.82.mcz
+Refactoring-Environment-TheIntegrator.83.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
-Refactoring-Tests-Environment-TheIntegrator.23.mcz
+Refactoring-Tests-Environment-TheIntegrator.25.mcz
 Reflectivity-TheIntegrator.299.mcz
 Reflectivity-Examples-TheIntegrator.28.mcz
 Reflectivity-Tests-TheIntegrator.202.mcz
