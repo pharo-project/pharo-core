@@ -1,4 +1,4 @@
-script60029
+script60030
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -194,7 +194,7 @@ Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.52.mcz
-Morphic-Widgets-Windows-TheIntegrator.97.mcz
+Morphic-Widgets-Windows-TheIntegrator.99.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.55.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -209,7 +209,7 @@ Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.13.mcz
-NautilusRefactoring-TheIntegrator.274.mcz
+NautilusRefactoring-TheIntegrator.276.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -243,9 +243,9 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.308.mcz
+Refactoring-Core-TheIntegrator.310.mcz
 Refactoring-Critics-TheIntegrator.264.mcz
-Refactoring-Environment-TheIntegrator.78.mcz
+Refactoring-Environment-TheIntegrator.82.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz

@@ -1,2 +1,2 @@
 splitCascadeBetween: anInterval from: aMethod
-	self performRefactoringFor: #privateSplitCascadeBetween: with: anInterval with: aMethod
+	self performRefactoringFor: #privateSplitCascadeBetween:from: with: anInterval with: aMethod
