@@ -6,7 +6,7 @@ testCaseStarted: anAnnouncement
 	selector := anAnnouncement testSelector.
 	self selectedClass = class
 		ifTrue: [| method icon |
-			icon := Smalltalk ui icons iconNamed: #testNotRunIcon.
+			icon := self iconNamed: #testNotRunIcon.
 			method := class methodNamed: selector.
 			self methodWidget 
 				setIcon: icon for: method;

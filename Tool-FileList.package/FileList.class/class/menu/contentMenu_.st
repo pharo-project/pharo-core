@@ -5,11 +5,11 @@ contentMenu: aBuilder
 	(aBuilder item: #'Find...' translated)
 		keyText: 'f';
 		selector: #find;
-		icon: Smalltalk ui icons smallFindIcon.
+		icon: (self iconNamed: #smallFindIcon).
 	(aBuilder item: #'Find again' translated)
 		keyText: 'g';
 		selector: #findAgain;
-		icon: Smalltalk ui icons smallFindIcon.
+		icon: (self iconNamed: #smallFindIcon).
 	(aBuilder item: #'Set search string' translated)
 		keyText: 'h';
 		selector: #setSearchString;
@@ -18,42 +18,42 @@ contentMenu: aBuilder
 	(aBuilder item: #'Do again' translated)
 		keyText: 'j';
 		selector: #again;
-		icon: Smalltalk ui icons smallRedoIcon.
+		icon: (self iconNamed: #smallRedoIcon).
 	(aBuilder item: #'Undo' translated)
 		keyText: 'z';
 		selector: #undo;
-		icon: Smalltalk ui icons smallUndoIcon;
+		icon: (self iconNamed: #smallUndoIcon);
 		withSeparatorAfter.
 		
 	(aBuilder item: #'Copy' translated)
 		keyText: 'c';
 		selector: #copySelection;
-		icon: Smalltalk ui icons smallCopyIcon.
+		icon: (self iconNamed: #smallCopyIcon).
 	(aBuilder item: #'Cut' translated)
 		keyText: 'x';
 		selector: #cut;
-		icon: Smalltalk ui icons smallCutIcon.
+		icon: (self iconNamed: #smallCutIcon).
 	(aBuilder item: #'Paste' translated)
 		keyText: 'v';
 		selector: #paste;
-		icon: Smalltalk ui icons smallPasteIcon.
+		icon: (self iconNamed: #smallPasteIcon).
 	(aBuilder item: #'Paste...' translated)
 		selector: #pasteRecent;
-		icon: Smalltalk ui icons smallPasteIcon;
+		icon: (self icons iconNamed: #smallPasteIcon);
 		withSeparatorAfter .
 		
 	(aBuilder item: #'Do it' translated)
 		keyText: 'd';
 		selector: #doIt;
-		icon: Smalltalk ui icons smallDoItIcon.
+		icon: (self iconNamed: #smallDoItIcon).
 	(aBuilder item: #'Print it' translated)
 		keyText: 'p';
 		selector: #printIt;
-		icon: Smalltalk ui icons smallPrintItIcon.
+		icon: (self iconNamed: #smallPrintItIcon).
 	(aBuilder item: #'Inspect it' translated)
 		keyText: 'i';
 		selector: #inspectIt;
-		icon: Smalltalk ui icons smallInspectItIcon.
+		icon: (self iconNamed: #smallInspectItIcon).
 	(aBuilder item: #'FileIn selection' translated)
 		keyText: 'G';
 		selector: #fileItIn;
@@ -62,11 +62,11 @@ contentMenu: aBuilder
 	(aBuilder item: #'Accept' translated)
 		keyText: 's';
 		selector: #accept;
-		icon: Smalltalk ui icons smallOkIcon.
+		icon: (self iconNamed: #smallOkIcon).
 	(aBuilder item: #'Cancel' translated)
 		keyText: 'l';
 		selector: #cancel;
-		icon: Smalltalk ui icons smallCancelIcon;
+		icon: (self iconNamed: #smallCancelIcon);
 		withSeparatorAfter.
 		
 	(aBuilder item: #'More...' translated)

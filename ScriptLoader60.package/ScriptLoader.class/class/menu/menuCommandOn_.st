@@ -5,5 +5,5 @@ menuCommandOn: aBuilder
 		order: 1.5;
 		precondition: [self currentlyIntegratingChanges];
 		parent: #System;
-		icon: Smalltalk ui icons smallAuthoringToolsIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallAuthoringToolsIcon);
 		action: [ScriptLoader releaseMenu]

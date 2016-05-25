@@ -11,11 +11,11 @@ menuOn: aBuilder
 	(aBuilder item: #'Find...' translated)
 		keyText: 'f';
 		selector: #find;
-		icon: uitheme smallFindIcon.
+		icon: (uitheme iconNamed: #smallFindIcon).
 	(aBuilder item: #'Find again' translated)
 		keyText: 'g';
 		selector: #findAgain;
-		icon: uitheme smallFindIcon.
+		icon: (uitheme iconNamed: #smallFindIcon).
 	(aBuilder item: #'Set search string' translated)
 		keyText: 'h';
 		selector: #setSearchString.
@@ -24,38 +24,38 @@ menuOn: aBuilder
 			(aBuilder item: #'Do again' translated)
 				keyText: 'j';
 				selector: #again;
-				icon: uitheme smallRedoIcon.
+				icon: (uitheme iconNamed: #smallRedoIcon).
 			(aBuilder item: #Undo translated)
 				keyText: 'z';
 				selector: #undo;
-				icon: uitheme smallUndoIcon;
+				icon: (uitheme iconNamed: #smallUndoIcon);
 				withSeparatorAfter.
 			self fontMenuOn: aBuilder ].
 	(aBuilder item: #Copy translated)
 		keyText: 'c';
 		selector: #copySelection;
-		icon: uitheme smallCopyIcon.
+		icon: (uitheme iconNamed: #smallCopyIcon).
 	aBuilder model canChangeText
 		ifTrue: [ 
 			(aBuilder item: #Cut translated)
 				keyText: 'x';
 				selector: #cut;
-				icon: uitheme smallCutIcon.
+				icon: (uitheme iconNamed: #smallCutIcon).
 			(aBuilder item: #Paste translated)
 				keyText: 'v';
 				selector: #paste;
-				icon: uitheme smallPasteIcon.
+				icon: (uitheme iconNamed: #smallPasteIcon).
 			(aBuilder item: #'Paste...' translated)
 				selector: #pasteRecent;
-				icon: uitheme smallCopyIcon;
+				icon: (uitheme iconNamed: #smallCopyIcon);
 				withSeparatorAfter.
 			(aBuilder model model notNil and: [ aBuilder model acceptAllowed ])
 				ifTrue: [ 
 					(aBuilder item: #Accept translated)
 						keyText: 's';
 						selector: #accept;
-						icon: uitheme smallOkIcon.
+						icon: (uitheme iconNamed: #smallOkIcon).
 					(aBuilder item: #Cancel translated)
 						keyText: 'l';
 						selector: #cancel;
-						icon: uitheme smallCancelIcon ] ]
+						icon: (uitheme iconNamed: #smallCancelIcon) ] ]

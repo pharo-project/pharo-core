@@ -4,7 +4,7 @@ settingsOn: aBuilder
 		target: self;
 		parentName: #codeBrowsing;
 		selector: #enabled;
-		icon: Smalltalk ui icons smallConfigurationIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallConfigurationIcon);
 		description: 'Enable or disable code completion in browsers, debuggers and workspaces.';
 		with: [ 
 					| availableControllers |

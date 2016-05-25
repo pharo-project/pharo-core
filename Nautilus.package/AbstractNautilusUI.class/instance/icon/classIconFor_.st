@@ -1,11 +1,10 @@
 classIconFor: aClass
 	(aClass isTestCase and: [ aClass isAbstract not and: [ aClass hasTestSelectors ] ])
 		ifTrue: [ | icon button |
-			icon :=  Smalltalk ui icons iconNamed: #testNotRunIcon.
-
-			aClass hasPassedTest ifTrue: [ icon :=  Smalltalk ui icons iconNamed: #testGreenIcon ].
-			aClass hasFailedTest ifTrue: [ icon :=  Smalltalk ui icons iconNamed: #testYellowIcon ].
-			aClass hasErrorTest ifTrue: [ icon :=  Smalltalk ui icons iconNamed: #testRedIcon ].
+			icon :=  self iconNamed: #testNotRunIcon.
+			aClass hasPassedTest ifTrue: [ icon := self iconNamed: #testGreenIcon ].
+			aClass hasFailedTest ifTrue: [ icon := self iconNamed: #testYellowIcon ].
+			aClass hasErrorTest ifTrue: [ icon := self iconNamed: #testRedIcon ].
 					
 			button := IconicButton new 
 						target: self;
@@ -24,7 +23,7 @@ classIconFor: aClass
 								target: self;
 								actionSelector: #openCommentEditor:;
 								arguments: { aClass };
-								labelGraphic: (Smalltalk ui icons iconNamed: #uncommentedClassIcon) ;
+								labelGraphic: (self iconNamed: #uncommentedClassIcon) ;
 								color: Color transparent;
 								extent: 12 @ 12;
 								helpText:'Edit the comment';

@@ -1,2 +1,2 @@
 iconFor: aNode
-	^self iconProvider arrowUpIcon.
+	^self iconProvider iconNamed: #arrowUpIcon.

@@ -1,2 +1,2 @@
 commentButtonIcon
-	^ Smalltalk ui icons iconNamed: #commentsIcon
+	^ self iconNamed: #commentsIcon

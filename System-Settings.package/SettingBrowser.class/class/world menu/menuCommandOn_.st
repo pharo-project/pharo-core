@@ -3,7 +3,7 @@ menuCommandOn: aBuilder
 	(aBuilder item: #'Settings')
 		parent: #System;
 		order: 1;
-		icon: Smalltalk ui icons smallConfigurationIcon;
+		icon: (self iconNamed: #smallConfigurationIcon);
 		action: [ SettingBrowser open ];
 		keyText: 'o, s';
 		help: 'Opens a SystemSettingBrowser which allows you to alter many system settings'

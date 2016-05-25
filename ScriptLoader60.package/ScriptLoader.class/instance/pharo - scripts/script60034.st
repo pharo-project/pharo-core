@@ -1,4 +1,4 @@
-script60033
+script60034
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -69,7 +69,7 @@ Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.14.mcz
 FontInfrastructure-TheIntegrator.18.mcz
 FontInfrastructure-Tests-TheIntegrator.2.mcz
-FreeType-TheIntegrator.742.mcz
+FreeType-TheIntegrator.744.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MaxLeske.825.mcz
 FuelCommandLineHandler-MarcusDenker.24.mcz
@@ -105,7 +105,7 @@ Glamour-Morphic-Renderer-AndreiChis.349.mcz
 Glamour-Morphic-Theme-HenrikNergaard.222.mcz
 Glamour-Morphic-Widgets-AndreiChis.195.mcz
 Glamour-Presentations-AndreiChis.186.mcz
-Glamour-Rubric-Presentations-AndreiChis.52.mcz
+Glamour-Rubric-Presentations-TheIntegrator.54.mcz
 Glamour-Tests-Core-AndreiChis.111.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
@@ -122,7 +122,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
-HelpSystem-Core-TheIntegrator.144.mcz
+HelpSystem-Core-TheIntegrator.146.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.90.mcz
@@ -144,7 +144,7 @@ Komitter-EstebanLorenzano.167.mcz
 Manifest-Core-TheIntegrator.244.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
-MenuRegistration-TheIntegrator.78.mcz
+MenuRegistration-TheIntegrator.80.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
@@ -177,7 +177,7 @@ MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.548.mcz
+Morphic-Base-TheIntegrator.550.mcz
 Morphic-Core-TheIntegrator.282.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -201,9 +201,9 @@ Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
-NECompletion-TheIntegrator.247.mcz
+NECompletion-TheIntegrator.249.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1256.mcz
+Nautilus-TheIntegrator.1258.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -232,7 +232,7 @@ Pharo-Help-TheIntegrator.27.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1350.mcz
 PragmaCollector-TheIntegrator.12.mcz
-ProfStef-Core-TheIntegrator.77.mcz
+ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.101.mcz
@@ -251,9 +251,9 @@ Refactoring-Tests-Core-TheIntegrator.133.mcz
 Refactoring-Tests-Critics-TheIntegrator.38.mcz
 Refactoring-Tests-Environment-TheIntegrator.25.mcz
 Reflectivity-TheIntegrator.299.mcz
-Reflectivity-Examples-TheIntegrator.28.mcz
+Reflectivity-Examples-TheIntegrator.30.mcz
 Reflectivity-Tests-TheIntegrator.202.mcz
-Reflectivity-Tools-TheIntegrator.26.mcz
+Reflectivity-Tools-TheIntegrator.28.mcz
 Reflectivity-Tools-Tests-TheIntegrator.12.mcz
 Regex-Core-TheIntegrator.38.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -268,7 +268,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.367.mcz
+Rubric-TheIntegrator.369.mcz
 Rubric-Rules-YuriyTymchuk.3.mcz
 STON-Core-PavelKrivanek.73.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
@@ -285,17 +285,17 @@ Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
-Shout-TheIntegrator.291.mcz
+Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.742.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.468.mcz
+Spec-Core-TheIntegrator.470.mcz
 Spec-Debugger-TheIntegrator.263.mcz
-Spec-Examples-TheIntegrator.110.mcz
+Spec-Examples-TheIntegrator.112.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.260.mcz
+Spec-Inspector-TheIntegrator.262.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.262.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
@@ -320,14 +320,14 @@ System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.106.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
-System-Model-TheIntegrator.4.mcz
+System-Model-TheIntegrator.6.mcz
 System-OSEnvironments-TheIntegrator.31.mcz
 System-Object Events-TheIntegrator.25.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.27.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.337.mcz
+System-Settings-TheIntegrator.339.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
@@ -341,15 +341,15 @@ Text-Edition-TheIntegrator.114.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.140.mcz
-Tool-Catalog-GuillermoPolito.32.mcz
+Tool-Base-TheIntegrator.142.mcz
+Tool-Catalog-TheIntegrator.34.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
 Tool-Diff-TheIntegrator.31.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
-Tool-FileList-TheIntegrator.62.mcz
+Tool-FileList-TheIntegrator.64.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.65.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz

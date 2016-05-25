@@ -5,5 +5,5 @@ addItem
 				addItem: [ :item | 
 					item
 						name: 'Dynamic';
-						icon: (Smalltalk ui icons iconNamed: #delete);
+						icon: (self iconNamed: #delete);
 						action: [ self remove: item ] ] ]

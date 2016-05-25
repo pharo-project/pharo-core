@@ -1,2 +1,2 @@
 iconFor: aNode
-	^self iconProvider iconNamed: #haltIcon .
+	^self iconProvider iconNamed: #haltIcon 

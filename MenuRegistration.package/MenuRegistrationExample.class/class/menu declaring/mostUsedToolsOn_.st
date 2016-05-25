@@ -7,4 +7,4 @@ mostUsedToolsOn: aBuilder
 		with: [
 			(aBuilder item: #'System browser') selector: #openClassBrowser; icon: Smalltalk tools browser taskbarIcon.
 			(aBuilder item: #Workspace) selector: #openWorkspace; icon: Smalltalk tools workspace taskbarIcon.
-			(aBuilder item: #'Monticello Browser') selector: #openMonticelloBrowser; icon: Smalltalk tools monticelloBrowser taskbarIcon]
+			]

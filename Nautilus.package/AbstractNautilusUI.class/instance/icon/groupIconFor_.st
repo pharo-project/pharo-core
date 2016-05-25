@@ -5,7 +5,7 @@ groupIconFor: aGroup
 				target: self;
 				actionSelector: #restrictedBrowseGroups:;
 				arguments: {{aGroup}};
-				labelGraphic: (Smalltalk ui icons iconNamed: #groupIcon);
+				labelGraphic: (self iconNamed: #groupIcon);
 				color: Color transparent;
 				extent: 15 @ 16;
 				helpText: 'Browse restricted environment';

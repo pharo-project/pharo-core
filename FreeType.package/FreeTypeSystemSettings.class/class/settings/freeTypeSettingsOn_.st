@@ -2,7 +2,7 @@ freeTypeSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder setting: #noFt2Library)
 		target: self;
-		icon: Smalltalk ui icons smallConfigurationIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallConfigurationIcon);
 		type: #Label;
 		label: 'Free type';
 		precondition: [FT2Library current isNil];

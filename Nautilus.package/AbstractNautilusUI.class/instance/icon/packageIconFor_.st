@@ -7,7 +7,8 @@ packageIconFor: aPackage
 			 icon class == IconicButtonStateHolder ifFalse: [ ^ icon ].
 			^ icon asIcon ].
 
-	aPackage classes isEmpty ifTrue: [^ PackagesIconsCache at: aPackage put: (Smalltalk ui icons iconNamed: #emptyPackageIcon) ].
+	aPackage classes isEmpty 
+		ifTrue: [^ PackagesIconsCache at: aPackage put: (self iconNamed: #emptyPackageIcon) ].
 	
 	mcpackage := aPackage mcPackage.
 	(mcpackage notNil and: [ mcpackage isDirty ])
@@ -17,8 +18,8 @@ packageIconFor: aPackage
 						actionSelector: #saveDirtyPackages:;
 						arguments: {{ aPackage }};
 						labelGraphic: (aPackage definedClasses
-											ifEmpty: [ (Smalltalk ui icons iconNamed: #dirtyMonticelloPackageIcon) ]
-											ifNotEmpty: [ (Smalltalk ui icons iconNamed: #dirtyPackageIcon) ]);
+											ifEmpty: [ (self iconNamed: #dirtyMonticelloPackageIcon) ]
+											ifNotEmpty: [ (self iconNamed: #dirtyPackageIcon) ]);
 						color: Color transparent;
 						extent: 15 @ 16;
 						helpText: 'Save the package';
@@ -27,6 +28,6 @@ packageIconFor: aPackage
 			^ icon ].
 
 	(mcpackage notNil and: [(mcpackage name = aPackage name ) and: [ aPackage definedClasses isEmpty]])
-		ifTrue: [ ^ PackagesIconsCache at: aPackage put: (Smalltalk ui icons iconNamed: #monticelloPackageIcon) ].
+		ifTrue: [ ^ PackagesIconsCache at: aPackage put: (self iconNamed: #monticelloPackageIcon) ].
 
-	^ PackagesIconsCache at: aPackage put: (Smalltalk ui icons iconNamed: #packageIcon)
+	^ PackagesIconsCache at: aPackage put: (self iconNamed: #packageIcon)

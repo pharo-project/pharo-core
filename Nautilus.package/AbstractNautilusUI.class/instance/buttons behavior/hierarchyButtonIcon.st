@@ -1,2 +1,2 @@
 hierarchyButtonIcon
-	^ Smalltalk ui icons iconNamed: #hierarchyIcon
+	^ self iconNamed: #hierarchyIcon
