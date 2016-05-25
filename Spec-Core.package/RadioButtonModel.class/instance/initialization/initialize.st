@@ -5,7 +5,6 @@ initialize
 	actionWhenActivatedHolder := [] asValueHolder.
 	actionWhenDeactivatedHolder := [] asValueHolder.
 	canDeselectByClick := false asValueHolder.
-	enabledHolder := true asValueHolder.
 	stateHolder := false asValueHolder.
 	labelClickableHolder := true asValueHolder. 
 	labelHolder := '' asValueHolder.

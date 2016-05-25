@@ -5,7 +5,6 @@ initialize
 	aboutToStyleHolder := [ false ] asValueHolder.
 	actionToPerformHolder := [ :text |  ] asValueHolder.
 	readSelectionHolder := [ selection value ] asValueHolder.
-	enabledHolder := true asValueHolder.
 	actionPerformedHolder := '' asValueHolder.
 	isCodeCompletionAllowedHolder := false asValueHolder.
 	isForSmalltalkCodeHolder := false asValueHolder.

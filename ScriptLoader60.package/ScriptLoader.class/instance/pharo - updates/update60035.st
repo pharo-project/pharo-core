@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '18175 Cleaned up code  duplication in initialization
+update60035
+	"self new update60035"
+	self withUpdateLog: '18175 Cleaned up code  duplication in initialization
 	https://pharo.fogbugz.com/f/cases/18175
 
 18241 Settings: Text editor settings group name
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/18320
 
 18319 SimpleHierarchicalListMorph need a better #themeChanged method
-	https://pharo.fogbugz.com/f/cases/18319'
+	https://pharo.fogbugz.com/f/cases/18319'.
+	self loadTogether: self script60035 merge: false.
+	self flushCaches.

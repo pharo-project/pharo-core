@@ -7,7 +7,6 @@ initialize
 	fontHolder := nil asValueHolder.
 	iconHolder := nil asValueHolder.
 	stateHolder := false asValueHolder.
-	helpHolder := nil asValueHolder.
 	actionPerformedHolder := nil asValueHolder.
 	askBeforeChangingHolder := false asValueHolder.
 	shortcutHolder := nil asValueHolder.
@@ -16,7 +15,6 @@ initialize
 	fontHolder whenChangedDo: [ self changed: #font ].
 	iconHolder whenChangedDo: [ self changed: #label ].
 	stateHolder whenChangedDo: [ self changed: #state ].
-	enabledHolder whenChangedDo: [ self changed: #enabled ].
 	askBeforeChangingHolder whenChangedDo: [:newValue | self changed: { #askBeforeChanging: . newValue} ].
 	shortcutHolder whenChangedDo: [ :newShortcut :oldShortcut |
 		self unregisterShortcut: oldShortcut.

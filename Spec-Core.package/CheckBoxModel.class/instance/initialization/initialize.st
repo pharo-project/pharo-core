@@ -3,7 +3,6 @@ initialize
 	super initialize.
 	actionWhenActivatedHolder := [] asValueHolder.
 	actionWhenDeactivatedHolder := [] asValueHolder.
-	enabledHolder := true asValueHolder.
 	stateHolder := false asValueHolder.
 	labelClickableHolder := true asValueHolder. 
 	labelHolder := '' asValueHolder.
