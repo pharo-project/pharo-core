@@ -1,7 +1,7 @@
-script60037
+script60038
 
 	^ 'AST-Core-TheIntegrator.421.mcz
-AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
+AST-FFI-Pharo50Compatibility-TheIntegrator.5.mcz
 AST-Tests-Core-TheIntegrator.95.mcz
 Alien-eem.32.mcz
 Announcements-Core-TheIntegrator.68.mcz
@@ -167,7 +167,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1132.mcz
+Monticello-TheIntegrator.1134.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -227,7 +227,7 @@ OSWindow-SDL2-Examples-RonieSalgado.13.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 OpalCompiler-Core-TheIntegrator.803.mcz
-OpalCompiler-Tests-TheIntegrator.334.mcz
+OpalCompiler-Tests-TheIntegrator.337.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.27.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
@@ -288,7 +288,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.742.mcz
+Slot-TheIntegrator.744.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
@@ -362,7 +362,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.37.mcz
 Tools-TheIntegrator.1525.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.910.mcz
+Traits-TheIntegrator.912.mcz
 Transcript-TheIntegrator.50.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
