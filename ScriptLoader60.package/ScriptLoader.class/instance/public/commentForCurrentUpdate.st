@@ -1,15 +1,3 @@
 commentForCurrentUpdate
- ^ '17928 multiple "bug" categories in critics browser
-	https://pharo.fogbugz.com/f/cases/17928
-
-18234 Menus is spelt incorrectly in the setting browser
-	https://pharo.fogbugz.com/f/cases/18234
-
-18295 Object>>#confirm:onCancel: should be deprecated and users should use UIManager
-	https://pharo.fogbugz.com/f/cases/18295
-
-18202 AbstractNautilusUI>>addIconStyle should use allSubclassesDo
-	https://pharo.fogbugz.com/f/cases/18202
-
-18231 Define a color for secondary text in Theme
-	https://pharo.fogbugz.com/f/cases/18231'
+ ^ '18323 TabGroupMorph should update the hidden tabs on theme changed
+	https://pharo.fogbugz.com/f/cases/18323'
