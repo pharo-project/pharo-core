@@ -1,4 +1,4 @@
 quitSession
 	Smalltalk
-		snapshot: (self confirm: 'Save changes before quitting?' translated orCancel: [ ^ self ])
+		snapshot: (UIManager default confirm: 'Save changes before quitting?' translated orCancel: [ ^ self ])
 		andQuit: true

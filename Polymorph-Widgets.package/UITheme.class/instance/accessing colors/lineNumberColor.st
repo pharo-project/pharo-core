@@ -1,0 +1,2 @@
+lineNumberColor 
+	^ Color gray muchDarker

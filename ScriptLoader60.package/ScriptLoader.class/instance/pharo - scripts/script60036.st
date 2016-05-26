@@ -1,4 +1,4 @@
-script60035
+script60036
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -50,6 +50,7 @@ DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.126.mcz
 Deprecated50-TheIntegrator.59.mcz
+Deprecated60-TheIntegrator.2.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -131,8 +132,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2301.mcz
-Kernel-Rules-TheIntegrator.2.mcz
+Kernel-TheIntegrator.2304.mcz
+Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.68.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -144,7 +145,7 @@ Komitter-EstebanLorenzano.167.mcz
 Manifest-Core-TheIntegrator.244.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
-MenuRegistration-TheIntegrator.80.mcz
+MenuRegistration-TheIntegrator.82.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
@@ -178,7 +179,7 @@ MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.550.mcz
-Morphic-Core-TheIntegrator.282.mcz
+Morphic-Core-TheIntegrator.285.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.91.mcz
@@ -203,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.81.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.249.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1258.mcz
+Nautilus-TheIntegrator.1260.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -230,7 +231,7 @@ OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.27.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1354.mcz
+Polymorph-Widgets-TheIntegrator.1355.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -244,7 +245,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.311.mcz
-Refactoring-Critics-TheIntegrator.264.mcz
+Refactoring-Critics-TheIntegrator.267.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
@@ -280,7 +281,7 @@ SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.92.mcz
+Settings-Polymorph-TheIntegrator.96.mcz
 Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz

@@ -1,2 +1,2 @@
 group
-	^ 'Bug'
+	^ 'Bugs'
