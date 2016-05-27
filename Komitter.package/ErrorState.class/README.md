@@ -1,1 +1,0 @@
-I am the state when there was an error during the loading

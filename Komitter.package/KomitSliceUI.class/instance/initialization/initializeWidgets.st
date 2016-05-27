@@ -2,7 +2,6 @@ initializeWidgets
 
 	issueNumber := self newTextInput.
 	titleWidget := self newTextInput.
-	loadingWidget := self instantiate: LoadingThenOk.
 
 	titleWidget
 		enabled: false;

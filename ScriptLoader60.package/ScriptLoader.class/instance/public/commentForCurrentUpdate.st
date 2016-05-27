@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18331 Support saving custom Layouts with Monticello
-	https://pharo.fogbugz.com/f/cases/18331
+ ^ '17164 Komitter LoadingMorph generates garbage for nothing and has a bad design
+	https://pharo.fogbugz.com/f/cases/17164
 
-17994 RBParserNode: allowed primitive pragma definition can not compile
-	https://pharo.fogbugz.com/f/cases/17994'
+18272 Impossible to remove a class with references
+	https://pharo.fogbugz.com/f/cases/18272'

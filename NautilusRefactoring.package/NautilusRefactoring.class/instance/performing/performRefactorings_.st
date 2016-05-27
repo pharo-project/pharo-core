@@ -10,4 +10,4 @@ performRefactorings: aCollectionRefactoring
 		on: RBRefactoringWarning
 		do: [ :exception | self handleWarning: exception ] ]
 		on: RBRefactoringError
-		do: [ :exception | self handleFailure: exception ]
+		do: [ :exception | self handleError: exception ]

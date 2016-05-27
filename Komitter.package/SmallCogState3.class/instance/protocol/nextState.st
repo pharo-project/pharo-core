@@ -1,3 +1,0 @@
-nextState
-
-	^ SmallCogInitialState new

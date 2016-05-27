@@ -1,5 +1,5 @@
 ImageMorph subclass: #LoadingMorph
-	instanceVariableNames: 'currentState'
+	instanceVariableNames: 'images currentImageIndex'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Komitter-Support'

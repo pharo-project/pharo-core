@@ -1,3 +1,3 @@
 stepTime
 
-	^ currentState stepTime
+	^ 60

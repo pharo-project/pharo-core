@@ -1,1 +1,0 @@
-Second state of a small cog turning animation
