@@ -1,4 +1,4 @@
-script60040
+script60041
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.5.mcz
@@ -54,6 +54,10 @@ Deprecated60-TheIntegrator.2.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
+Epicea-MartinDias.776.mcz
+EpiceaBrowsers-MartinDias.10.mcz
+EpiceaBrowsersTests-MartinDias.2.mcz
+EpiceaTests-MD.6.mcz
 FFI-Kernel-JanVanDeSandt.40.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.203.mcz
@@ -132,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2304.mcz
+Kernel-EstebanLorenzano.2305.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.68.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -226,6 +230,8 @@ OSWindow-SDL2-RonieSalgado.96.mcz
 OSWindow-SDL2-Examples-RonieSalgado.13.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
+Ombu-VincentBlondeau.193.mcz
+OmbuTests-MartinDias.3.mcz
 OpalCompiler-Core-TheIntegrator.803.mcz
 OpalCompiler-Tests-TheIntegrator.340.mcz
 OpalTools-TheIntegrator.24.mcz
