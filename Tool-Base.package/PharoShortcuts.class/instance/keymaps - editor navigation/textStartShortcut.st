@@ -1,0 +1,3 @@
+textStartShortcut
+
+	^ Character home meta

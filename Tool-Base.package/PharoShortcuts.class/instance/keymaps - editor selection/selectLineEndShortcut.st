@@ -1,0 +1,2 @@
+selectLineEndShortcut
+	^ Character end shift

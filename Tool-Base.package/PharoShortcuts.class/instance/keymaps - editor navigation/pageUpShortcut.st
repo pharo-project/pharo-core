@@ -1,0 +1,3 @@
+pageUpShortcut
+
+	^ Character pageUp asShortcut

@@ -1,0 +1,3 @@
+delShortcut
+
+	^ Character delete asShortcut

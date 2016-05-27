@@ -1,0 +1,3 @@
+selectBackwardCharShortcut
+
+	^ Character arrowLeft shift

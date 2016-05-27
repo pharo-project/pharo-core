@@ -1,0 +1,3 @@
+selectForwardCharShortcut
+
+	^ Character arrowRight shift

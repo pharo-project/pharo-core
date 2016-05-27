@@ -1,0 +1,2 @@
+selectLineStartShortcut
+	^ Character home shift

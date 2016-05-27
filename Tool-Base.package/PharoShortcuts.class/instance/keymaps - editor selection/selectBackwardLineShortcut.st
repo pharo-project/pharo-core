@@ -1,0 +1,3 @@
+selectBackwardLineShortcut
+
+	^ Character arrowUp shift

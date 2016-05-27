@@ -1,0 +1,3 @@
+backwardLineShortcut
+
+	^ Character arrowUp asShortcut

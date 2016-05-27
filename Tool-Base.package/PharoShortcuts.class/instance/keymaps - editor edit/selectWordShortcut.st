@@ -1,0 +1,3 @@
+selectWordShortcut
+
+	^ Character space meta

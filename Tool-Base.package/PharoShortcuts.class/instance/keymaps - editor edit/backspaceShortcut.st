@@ -1,0 +1,3 @@
+backspaceShortcut
+
+	^ Character backspace asShortcut

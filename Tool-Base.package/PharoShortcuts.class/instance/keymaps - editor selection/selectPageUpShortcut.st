@@ -1,0 +1,3 @@
+selectPageUpShortcut
+
+	^ Character pageUp shift

@@ -1,4 +1,4 @@
 squared
-	"Answer the receiver multipled by itself."
+	"Answer the receiver multiplied by itself."
 
 	^self * self

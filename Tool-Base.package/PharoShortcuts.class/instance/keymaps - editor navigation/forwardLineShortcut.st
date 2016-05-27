@@ -1,0 +1,3 @@
+forwardLineShortcut
+
+	^ Character arrowDown asShortcut

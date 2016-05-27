@@ -1,4 +1,4 @@
-script60041
+script60042
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.5.mcz
@@ -31,7 +31,7 @@ Collections-Abstract-TheIntegrator.315.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.243.mcz
+Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.417.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-EstebanLorenzano.2305.mcz
+Kernel-TheIntegrator.2306.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.68.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -176,9 +176,9 @@ Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
 MonticelloFileServices-TheIntegrator.6.mcz
-MonticelloFileTree-Core-TheIntegrator.141.mcz
+MonticelloFileTree-Core-TheIntegrator.143.mcz
 MonticelloFileTree-FileSystem-Utilities-TheIntegrator.30.mcz
-MonticelloGUI-TheIntegrator.415.mcz
+MonticelloGUI-TheIntegrator.417.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
@@ -235,7 +235,7 @@ OmbuTests-MartinDias.3.mcz
 OpalCompiler-Core-TheIntegrator.803.mcz
 OpalCompiler-Tests-TheIntegrator.340.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.27.mcz
+Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
 Polymorph-Widgets-TheIntegrator.1356.mcz
 PragmaCollector-TheIntegrator.12.mcz
@@ -304,11 +304,11 @@ Spec-Examples-TheIntegrator.112.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.262.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.262.mcz
+Spec-MorphicAdapters-TheIntegrator.268.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
 Spec-Tests-TheIntegrator.66.mcz
 Spec-Tools-TheIntegrator.327.mcz
-StartupPreferences-TheIntegrator.149.mcz
+StartupPreferences-TheIntegrator.152.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
@@ -334,7 +334,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.27.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.339.mcz
+System-Settings-TheIntegrator.341.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
@@ -348,7 +348,7 @@ Text-Edition-TheIntegrator.116.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.142.mcz
+Tool-Base-TheIntegrator.144.mcz
 Tool-Catalog-TheIntegrator.34.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

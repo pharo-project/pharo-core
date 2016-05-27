@@ -1,2 +1,2 @@
 backwardWordShortcut
-	^ $# meta
+	^ Character arrowLeft meta

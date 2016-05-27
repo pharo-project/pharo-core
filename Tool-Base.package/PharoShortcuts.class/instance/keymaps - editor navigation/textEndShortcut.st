@@ -1,0 +1,4 @@
+textEndShortcut
+
+	^ Character end meta
+	 
