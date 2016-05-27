@@ -1,0 +1,2 @@
+visitMethodAddition: aMethodCreatedChange
+	^ self additionIcon

@@ -1,0 +1,3 @@
+ignoreForMenuAction
+
+	^ false

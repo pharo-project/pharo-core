@@ -1,0 +1,2 @@
+andFilter
+	^ self browser andFilter

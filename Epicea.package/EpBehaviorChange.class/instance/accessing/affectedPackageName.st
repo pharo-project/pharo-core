@@ -1,0 +1,3 @@
+affectedPackageName
+	
+	^  self behaviorAffected package

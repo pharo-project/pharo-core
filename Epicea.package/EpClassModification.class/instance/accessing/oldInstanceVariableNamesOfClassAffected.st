@@ -1,0 +1,3 @@
+oldInstanceVariableNamesOfClassAffected
+
+	^ oldClass instVarNames 

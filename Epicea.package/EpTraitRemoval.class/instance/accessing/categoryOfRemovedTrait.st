@@ -1,0 +1,3 @@
+categoryOfRemovedTrait
+
+	^ trait category 

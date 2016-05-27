@@ -1,0 +1,2 @@
+logHeadReference
+	^ log headReference

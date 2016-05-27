@@ -1,0 +1,3 @@
+oldClass
+
+	^ oldClass

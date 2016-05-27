@@ -1,0 +1,2 @@
+viewClass
+	^ EpPriorView

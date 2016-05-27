@@ -1,0 +1,3 @@
+traitAffectedName
+
+	^ trait name

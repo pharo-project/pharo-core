@@ -1,0 +1,2 @@
+visitTraitModification: aTraitModificationChange
+	^ self modificationIcon

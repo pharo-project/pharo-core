@@ -1,0 +1,2 @@
+accepts: anEntry
+	^ self subclassResponsibility

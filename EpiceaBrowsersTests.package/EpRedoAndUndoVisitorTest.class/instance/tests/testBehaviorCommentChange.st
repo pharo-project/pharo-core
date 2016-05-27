@@ -1,0 +1,2 @@
+testBehaviorCommentChange
+	self testItem: EpBehaviorCommentChange new.

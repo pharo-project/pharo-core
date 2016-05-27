@@ -1,0 +1,2 @@
+commitLog: aLog
+	commitLog := aLog

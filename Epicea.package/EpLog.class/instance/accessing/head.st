@@ -1,0 +1,3 @@
+head
+
+	^ self entryFor: headReference

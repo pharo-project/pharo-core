@@ -1,0 +1,3 @@
+newLog
+
+	^ EpLogBuilder new log

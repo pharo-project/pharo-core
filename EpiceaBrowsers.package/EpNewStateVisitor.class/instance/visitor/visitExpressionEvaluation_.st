@@ -1,0 +1,4 @@
+visitExpressionEvaluation: anExpressionEvaluation
+
+	^ anExpressionEvaluation expression
+	    

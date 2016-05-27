@@ -1,0 +1,3 @@
+monitorEnabled
+
+	^ EpMonitor current isEnabled

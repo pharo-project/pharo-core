@@ -1,0 +1,2 @@
+visitClassModification: aModificationClassChange
+	^ self modificationIcon

@@ -1,0 +1,3 @@
+superclassOfClassAffected
+
+	^ class superclassName

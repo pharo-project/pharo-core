@@ -1,0 +1,3 @@
+asEpiceaRingDefinition
+
+	^ self theNonMetaClass asEpiceaRingDefinition theMetaClass

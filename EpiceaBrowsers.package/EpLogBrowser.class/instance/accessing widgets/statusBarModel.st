@@ -1,0 +1,2 @@
+statusBarModel
+	^ statusBarModel

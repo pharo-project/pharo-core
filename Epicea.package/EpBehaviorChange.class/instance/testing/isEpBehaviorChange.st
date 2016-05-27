@@ -1,0 +1,2 @@
+isEpBehaviorChange
+	^true

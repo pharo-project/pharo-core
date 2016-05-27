@@ -1,0 +1,2 @@
+textColor: anObject
+	textColor := anObject

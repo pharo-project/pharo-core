@@ -1,0 +1,3 @@
+instanceVariableNamesOfClassAffected
+
+	^ classRemoved instVarNames 

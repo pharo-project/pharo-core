@@ -1,0 +1,3 @@
+newEntryWriter
+
+	^ OmSTONEntryWriter new

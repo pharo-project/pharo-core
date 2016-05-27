@@ -1,0 +1,2 @@
+pageSize: anInteger 
+	pageSize := anInteger

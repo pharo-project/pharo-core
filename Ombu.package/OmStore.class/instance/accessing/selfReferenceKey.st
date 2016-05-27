@@ -1,0 +1,3 @@
+selfReferenceKey
+
+	^ self class selfReferenceKey

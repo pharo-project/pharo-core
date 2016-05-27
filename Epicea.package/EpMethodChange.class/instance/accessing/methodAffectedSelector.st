@@ -1,0 +1,3 @@
+methodAffectedSelector
+
+	^ self methodAffected selector

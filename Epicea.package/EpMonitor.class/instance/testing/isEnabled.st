@@ -1,0 +1,2 @@
+isEnabled
+	^ systemAnnouncer hasSubscriber: self

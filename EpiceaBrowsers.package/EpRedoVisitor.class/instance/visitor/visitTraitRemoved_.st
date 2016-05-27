@@ -1,0 +1,2 @@
+visitTraitRemoved: aTraitRemoval
+	environment removeClassNamed: aTraitRemoval traitAffectedName

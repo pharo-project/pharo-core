@@ -1,0 +1,2 @@
+behaviorAffected
+	^ classRemoved

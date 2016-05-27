@@ -1,0 +1,3 @@
+oldSharedPoolsOfClassAffected
+
+	^ oldClass sharedPoolNames 

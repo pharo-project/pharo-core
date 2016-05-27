@@ -1,0 +1,3 @@
+defaultLog
+
+	^ EpMonitor current log

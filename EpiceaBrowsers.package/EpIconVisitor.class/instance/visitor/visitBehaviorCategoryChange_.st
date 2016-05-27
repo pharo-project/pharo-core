@@ -1,0 +1,2 @@
+visitBehaviorCategoryChange: aClassRecategorizationChange
+	^ self modificationIcon

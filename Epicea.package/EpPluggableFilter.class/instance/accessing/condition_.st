@@ -1,0 +1,2 @@
+condition: aBlockClosure 
+	condition := aBlockClosure 

@@ -1,0 +1,2 @@
+fileSuffix
+	^ OmFileStore defaultFileSuffix

@@ -1,0 +1,3 @@
+triggerItemsFor: anEntry
+
+	^ #()

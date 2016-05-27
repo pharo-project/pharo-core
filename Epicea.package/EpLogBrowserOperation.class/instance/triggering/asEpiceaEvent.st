@@ -1,0 +1,3 @@
+asEpiceaEvent
+
+	^ self

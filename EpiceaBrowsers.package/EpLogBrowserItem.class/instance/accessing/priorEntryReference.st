@@ -1,0 +1,2 @@
+priorEntryReference
+	^ self subclassResponsibility

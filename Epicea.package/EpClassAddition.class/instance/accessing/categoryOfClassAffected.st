@@ -1,0 +1,3 @@
+categoryOfClassAffected
+
+	^ class category

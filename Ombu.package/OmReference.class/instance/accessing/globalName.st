@@ -1,0 +1,3 @@
+globalName
+	
+	^ globalName

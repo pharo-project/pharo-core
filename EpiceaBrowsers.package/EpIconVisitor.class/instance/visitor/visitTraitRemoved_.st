@@ -1,0 +1,2 @@
+visitTraitRemoved:  aTraitRemoval
+	^ self removalIcon

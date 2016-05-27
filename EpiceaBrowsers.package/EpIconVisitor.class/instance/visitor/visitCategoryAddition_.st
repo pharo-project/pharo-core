@@ -1,0 +1,2 @@
+visitCategoryAddition: aCategoryChange
+	^ self additionIcon

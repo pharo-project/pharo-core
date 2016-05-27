@@ -1,0 +1,3 @@
+classAffectedName
+
+	^ class name

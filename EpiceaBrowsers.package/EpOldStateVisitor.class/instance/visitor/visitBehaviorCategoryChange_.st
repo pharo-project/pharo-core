@@ -1,0 +1,4 @@
+visitBehaviorCategoryChange: aRecategorizationChange
+
+	^ aRecategorizationChange oldCategory
+	    

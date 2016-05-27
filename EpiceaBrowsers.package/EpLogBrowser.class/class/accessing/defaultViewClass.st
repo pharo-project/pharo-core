@@ -1,0 +1,3 @@
+defaultViewClass
+
+	^ EpPriorView

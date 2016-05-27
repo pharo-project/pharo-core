@@ -1,0 +1,2 @@
+visitBehaviorNameChange: aClassRenamedChange
+	^ self modificationIcon

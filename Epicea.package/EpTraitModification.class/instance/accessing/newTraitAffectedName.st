@@ -1,0 +1,3 @@
+newTraitAffectedName
+
+	^ newTrait name

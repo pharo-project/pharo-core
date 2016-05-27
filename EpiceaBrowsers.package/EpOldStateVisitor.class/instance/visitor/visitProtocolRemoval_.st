@@ -1,0 +1,3 @@
+visitProtocolRemoval: aProtocolRemoval
+
+	^ aProtocolRemoval protocol

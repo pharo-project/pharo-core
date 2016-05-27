@@ -1,0 +1,2 @@
+entryContentModel
+	^ entryContentModel 

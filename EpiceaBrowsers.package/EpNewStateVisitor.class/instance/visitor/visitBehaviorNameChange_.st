@@ -1,0 +1,4 @@
+visitBehaviorNameChange: aClassRenameChange
+
+	^ aClassRenameChange newName
+	    

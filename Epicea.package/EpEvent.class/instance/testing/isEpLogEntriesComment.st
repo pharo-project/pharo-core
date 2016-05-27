@@ -1,0 +1,3 @@
+isEpLogEntriesComment
+
+	^ false

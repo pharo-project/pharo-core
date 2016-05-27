@@ -1,0 +1,3 @@
+newEntryReader
+
+	^ OmSTONEntryReader new

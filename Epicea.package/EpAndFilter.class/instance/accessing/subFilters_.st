@@ -1,0 +1,2 @@
+subFilters: aCollectionOfFilters
+	subFilters := aCollectionOfFilters

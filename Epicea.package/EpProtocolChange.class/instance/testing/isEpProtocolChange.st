@@ -1,0 +1,3 @@
+isEpProtocolChange
+
+	^ true

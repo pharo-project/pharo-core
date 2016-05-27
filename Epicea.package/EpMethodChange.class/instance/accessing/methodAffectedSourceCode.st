@@ -1,0 +1,3 @@
+methodAffectedSourceCode
+
+	^ self methodAffected sourceCode

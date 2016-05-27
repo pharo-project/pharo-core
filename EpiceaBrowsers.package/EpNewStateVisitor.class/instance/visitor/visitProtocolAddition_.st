@@ -1,0 +1,3 @@
+visitProtocolAddition: aProtocolAddition
+
+	^ aProtocolAddition protocol

@@ -1,0 +1,2 @@
+visitLogCommentModification: anEvent 
+	^ anEvent oldComment

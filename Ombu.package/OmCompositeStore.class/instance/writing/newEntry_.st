@@ -1,0 +1,3 @@
+newEntry: anEntry
+
+	^ self shouldNotImplement 

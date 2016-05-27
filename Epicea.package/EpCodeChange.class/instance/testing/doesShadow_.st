@@ -1,0 +1,3 @@
+doesShadow: aCodeChange 
+
+	^ self subclassResponsibility

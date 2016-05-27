@@ -1,0 +1,3 @@
+doesShadow: aCodeChange 
+
+	^ false

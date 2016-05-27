@@ -1,0 +1,2 @@
+currentSnapshot
+	^ currentSnapshot

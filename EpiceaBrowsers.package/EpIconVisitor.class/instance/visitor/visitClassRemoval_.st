@@ -1,0 +1,2 @@
+visitClassRemoval: aClassRemovedChange
+	^ self removalIcon

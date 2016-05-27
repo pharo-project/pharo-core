@@ -1,0 +1,2 @@
+visitCategoryRename: aCategoryChange
+	^ self modificationIcon.

@@ -1,0 +1,2 @@
+visitBehaviorCommentChange: aChange
+	^ self modificationIcon

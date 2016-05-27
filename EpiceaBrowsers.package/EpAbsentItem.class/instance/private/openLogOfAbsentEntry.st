@@ -1,0 +1,3 @@
+openLogOfAbsentEntry
+
+	self absentEntryLog browse

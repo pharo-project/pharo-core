@@ -1,0 +1,3 @@
+traitAdded
+
+	^ trait 

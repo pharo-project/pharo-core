@@ -1,0 +1,3 @@
+compiler 
+
+	^ self class compiler

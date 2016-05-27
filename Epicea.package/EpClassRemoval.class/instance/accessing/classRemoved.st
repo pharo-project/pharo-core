@@ -1,0 +1,3 @@
+classRemoved
+
+	^ classRemoved

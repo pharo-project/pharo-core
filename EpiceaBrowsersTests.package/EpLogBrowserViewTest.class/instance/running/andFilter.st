@@ -1,0 +1,2 @@
+andFilter
+	^ EpAndFilter withAll: { }

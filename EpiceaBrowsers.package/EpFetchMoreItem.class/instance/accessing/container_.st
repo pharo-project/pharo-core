@@ -1,0 +1,2 @@
+container: anObject
+	container := anObject

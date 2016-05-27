@@ -1,0 +1,2 @@
+propagateTransformation
+	self renameMessageSends

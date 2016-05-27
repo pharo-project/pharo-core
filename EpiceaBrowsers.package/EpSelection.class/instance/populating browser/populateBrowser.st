@@ -1,0 +1,3 @@
+populateBrowser
+
+	self populateEntryContentModel

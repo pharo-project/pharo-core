@@ -1,0 +1,2 @@
+outputLog: anObject
+	outputLog := anObject

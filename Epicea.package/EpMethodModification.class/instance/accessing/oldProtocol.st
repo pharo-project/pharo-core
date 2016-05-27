@@ -1,0 +1,3 @@
+oldProtocol
+
+	^ oldMethod protocol

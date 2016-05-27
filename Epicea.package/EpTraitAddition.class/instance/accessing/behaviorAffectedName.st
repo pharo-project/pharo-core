@@ -1,0 +1,2 @@
+behaviorAffectedName
+	^ self traitAdded name

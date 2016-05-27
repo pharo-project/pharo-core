@@ -1,0 +1,3 @@
+superclassOfClassAffected
+
+	^ classRemoved superclassName 

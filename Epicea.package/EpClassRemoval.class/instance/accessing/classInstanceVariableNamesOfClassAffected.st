@@ -1,0 +1,3 @@
+classInstanceVariableNamesOfClassAffected
+
+	^ classRemoved theMetaClass instVarNames

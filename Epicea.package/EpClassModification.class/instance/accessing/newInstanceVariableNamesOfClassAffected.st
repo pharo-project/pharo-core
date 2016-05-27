@@ -1,0 +1,3 @@
+newInstanceVariableNamesOfClassAffected
+
+	^ newClass instVarNames 

@@ -1,0 +1,3 @@
+childrenItemsOf: anItem
+
+	^ self subclassResponsibility 

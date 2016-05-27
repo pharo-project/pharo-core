@@ -1,0 +1,2 @@
+visitEvent: aChange
+	^ self explicitRequirement

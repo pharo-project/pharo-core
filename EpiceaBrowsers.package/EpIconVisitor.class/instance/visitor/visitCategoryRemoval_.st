@@ -1,0 +1,2 @@
+visitCategoryRemoval: aCategoryChange
+	^ self removalIcon

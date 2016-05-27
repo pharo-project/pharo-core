@@ -1,0 +1,3 @@
+newCategoryOfClassAffected
+
+	^ newClass category 

@@ -1,0 +1,2 @@
+visitTraitAddition: aTraitCreation
+	^ self additionIcon

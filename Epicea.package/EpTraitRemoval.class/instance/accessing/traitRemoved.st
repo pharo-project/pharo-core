@@ -1,0 +1,3 @@
+traitRemoved
+
+	^ trait

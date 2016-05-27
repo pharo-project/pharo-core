@@ -1,0 +1,2 @@
+visitClassAddition: aClassCreatedChange
+	^ self additionIcon

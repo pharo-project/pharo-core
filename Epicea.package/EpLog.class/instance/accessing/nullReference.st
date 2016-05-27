@@ -1,0 +1,3 @@
+nullReference
+
+	^ OmNullReference uniqueInstance

@@ -1,0 +1,3 @@
+newProtocol
+
+	^ newMethod protocol

@@ -1,0 +1,3 @@
+allStores
+
+	^ stores

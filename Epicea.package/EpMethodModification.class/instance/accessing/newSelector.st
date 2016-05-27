@@ -1,0 +1,3 @@
+newSelector
+
+	^ newMethod selector

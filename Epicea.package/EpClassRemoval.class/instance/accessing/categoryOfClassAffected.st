@@ -1,0 +1,3 @@
+categoryOfClassAffected
+
+	^ classRemoved category

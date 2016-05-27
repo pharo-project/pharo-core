@@ -1,0 +1,3 @@
+oldCategoryOfTraitAffected
+
+	^ oldTrait category

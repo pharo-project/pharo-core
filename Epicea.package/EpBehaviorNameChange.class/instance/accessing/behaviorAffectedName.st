@@ -1,0 +1,2 @@
+behaviorAffectedName
+	^ self classAffected name

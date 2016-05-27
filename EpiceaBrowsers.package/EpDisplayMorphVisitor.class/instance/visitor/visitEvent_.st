@@ -1,0 +1,2 @@
+visitEvent: anEvent 
+	^ self displayString: ''

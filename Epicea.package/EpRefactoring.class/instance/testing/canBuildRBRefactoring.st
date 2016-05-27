@@ -1,0 +1,2 @@
+canBuildRBRefactoring
+	^ true

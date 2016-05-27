@@ -1,0 +1,2 @@
+oldCategoryName: aName
+	oldCategoryName := aName.

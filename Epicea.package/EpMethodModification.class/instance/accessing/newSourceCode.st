@@ -1,0 +1,3 @@
+newSourceCode
+
+	^ newMethod sourceCode

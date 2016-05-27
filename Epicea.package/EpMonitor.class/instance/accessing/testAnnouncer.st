@@ -1,0 +1,2 @@
+testAnnouncer
+	^ testAnnouncer

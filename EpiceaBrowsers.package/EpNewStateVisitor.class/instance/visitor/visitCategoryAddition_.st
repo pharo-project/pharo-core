@@ -1,0 +1,4 @@
+visitCategoryAddition: aClassCategoryCreatedChange
+
+	^ aClassCategoryCreatedChange categoryName
+	    

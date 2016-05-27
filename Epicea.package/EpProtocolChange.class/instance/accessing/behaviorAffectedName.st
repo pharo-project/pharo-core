@@ -1,0 +1,2 @@
+behaviorAffectedName
+	^ behavior name

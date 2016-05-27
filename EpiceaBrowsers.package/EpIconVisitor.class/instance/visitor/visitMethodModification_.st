@@ -1,0 +1,2 @@
+visitMethodModification: aMethodModified
+	^ self modificationIcon

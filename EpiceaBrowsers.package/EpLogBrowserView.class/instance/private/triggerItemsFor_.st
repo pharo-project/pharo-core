@@ -1,0 +1,2 @@
+triggerItemsFor: anEntry
+	^ self subclassResponsibility 

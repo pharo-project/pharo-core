@@ -1,0 +1,3 @@
+visitCategoryRemoval: aClassCategoryRemovedChange
+
+	^ aClassCategoryRemovedChange categoryName

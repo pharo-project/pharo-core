@@ -1,0 +1,2 @@
+setUpStore
+	^ self subclassResponsibility

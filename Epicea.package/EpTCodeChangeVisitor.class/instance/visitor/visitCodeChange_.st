@@ -1,0 +1,2 @@
+visitCodeChange: aChange
+	^ self explicitRequirement

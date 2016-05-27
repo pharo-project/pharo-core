@@ -1,0 +1,3 @@
+current: aMonitor
+
+	current := aMonitor

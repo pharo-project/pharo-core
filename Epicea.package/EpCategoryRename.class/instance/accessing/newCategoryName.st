@@ -1,0 +1,2 @@
+newCategoryName
+	^ self categoryName.

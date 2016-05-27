@@ -1,0 +1,3 @@
+tearDownOneTriggerWithFourChildrenLog
+
+	EpLogBuilder new release: oneTriggerWithFourChildrenLog

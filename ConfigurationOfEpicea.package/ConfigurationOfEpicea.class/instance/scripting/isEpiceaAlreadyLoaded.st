@@ -1,0 +1,3 @@
+isEpiceaAlreadyLoaded
+
+	^ Smalltalk hasClassNamed: #EpMonitor

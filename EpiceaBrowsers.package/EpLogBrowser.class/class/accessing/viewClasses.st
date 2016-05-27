@@ -1,0 +1,3 @@
+viewClasses
+
+	^ EpLogBrowserView allSubclasses

@@ -1,0 +1,2 @@
+shouldInheritSelectors 
+	^ false

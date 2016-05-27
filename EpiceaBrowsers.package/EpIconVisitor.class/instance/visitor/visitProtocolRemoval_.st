@@ -1,0 +1,2 @@
+visitProtocolRemoval: aProtocolChange
+	^ self removalIcon

@@ -1,0 +1,2 @@
+comment
+	^ self newComment

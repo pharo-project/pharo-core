@@ -1,0 +1,3 @@
+globalNameFrom: directoryEntryOrFileReference
+
+	^ directoryEntryOrFileReference asFileReference basenameWithoutExtension

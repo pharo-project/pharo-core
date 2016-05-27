@@ -1,0 +1,2 @@
+entryContentTabModel
+	^ entryContentTabModel 

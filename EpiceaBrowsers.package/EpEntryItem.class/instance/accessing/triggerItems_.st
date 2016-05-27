@@ -1,0 +1,2 @@
+triggerItems: anObject
+	triggerItems := anObject

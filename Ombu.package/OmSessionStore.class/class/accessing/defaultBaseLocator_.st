@@ -1,0 +1,3 @@
+defaultBaseLocator: aFileLocator 
+
+	defaultBaseLocator := aFileLocator

@@ -1,0 +1,2 @@
+visitCategoryRemoval: aPackageRemoved
+	environment organization removeCategory: aPackageRemoved categoryName

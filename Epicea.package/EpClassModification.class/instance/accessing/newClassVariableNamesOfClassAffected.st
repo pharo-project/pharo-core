@@ -1,0 +1,3 @@
+newClassVariableNamesOfClassAffected
+
+	^ newClass classVarNames 

@@ -1,0 +1,3 @@
+allStores
+
+	^ compositeStore allStores

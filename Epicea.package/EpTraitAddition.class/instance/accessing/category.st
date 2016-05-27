@@ -1,0 +1,3 @@
+category
+
+	^ trait realClass category 

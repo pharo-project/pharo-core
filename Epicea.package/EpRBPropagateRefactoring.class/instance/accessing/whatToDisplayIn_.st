@@ -1,0 +1,2 @@
+whatToDisplayIn: aNautilusChangesBrowser 
+	^ targetRefactoring whatToDisplayIn: aNautilusChangesBrowser

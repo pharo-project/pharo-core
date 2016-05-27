@@ -1,0 +1,3 @@
+methodAffected
+	
+	^ self subclassResponsibility 

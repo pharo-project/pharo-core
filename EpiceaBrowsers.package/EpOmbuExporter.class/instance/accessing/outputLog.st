@@ -1,0 +1,2 @@
+outputLog
+	^ outputLog

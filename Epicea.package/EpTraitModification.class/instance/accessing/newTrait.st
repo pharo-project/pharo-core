@@ -1,0 +1,3 @@
+newTrait
+
+	^ newTrait

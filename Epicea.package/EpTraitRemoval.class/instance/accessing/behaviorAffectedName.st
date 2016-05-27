@@ -1,0 +1,3 @@
+behaviorAffectedName
+
+	^ self traitRemoved name

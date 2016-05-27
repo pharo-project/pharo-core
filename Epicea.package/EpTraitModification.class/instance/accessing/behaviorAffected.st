@@ -1,0 +1,2 @@
+behaviorAffected
+	^ newTrait

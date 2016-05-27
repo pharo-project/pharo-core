@@ -1,0 +1,2 @@
+setUpOtherStore
+	^ self setUpStore

@@ -1,0 +1,2 @@
+visitProtocolAddition: aProtocolChange
+	^ self additionIcon

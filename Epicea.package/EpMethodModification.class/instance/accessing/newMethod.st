@@ -1,0 +1,3 @@
+newMethod
+
+	^ newMethod

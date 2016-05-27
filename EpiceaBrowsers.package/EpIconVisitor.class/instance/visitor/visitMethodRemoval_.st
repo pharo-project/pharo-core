@@ -1,0 +1,2 @@
+visitMethodRemoval: aMethodRemoved
+	^ self removalIcon

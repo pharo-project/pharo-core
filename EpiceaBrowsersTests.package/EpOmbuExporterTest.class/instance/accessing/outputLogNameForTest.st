@@ -1,0 +1,3 @@
+outputLogNameForTest
+
+	^ self className, 'LogForTest'

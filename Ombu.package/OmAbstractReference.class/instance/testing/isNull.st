@@ -1,0 +1,2 @@
+isNull
+	^ false

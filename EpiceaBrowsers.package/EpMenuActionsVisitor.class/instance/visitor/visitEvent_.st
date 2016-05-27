@@ -1,0 +1,2 @@
+visitEvent: aChange
+	^ OrderedCollection new

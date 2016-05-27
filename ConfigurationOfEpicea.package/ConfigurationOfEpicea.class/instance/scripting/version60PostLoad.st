@@ -1,0 +1,2 @@
+version60PostLoad
+	self version60StartLogging.
