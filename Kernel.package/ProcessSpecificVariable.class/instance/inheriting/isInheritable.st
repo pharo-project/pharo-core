@@ -1,0 +1,2 @@
+isInheritable
+	^self class isInheritable

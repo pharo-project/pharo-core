@@ -1,0 +1,2 @@
+isInheritable
+	^false

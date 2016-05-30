@@ -1,4 +1,4 @@
-script60045
+script60046
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -136,9 +136,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2308.mcz
+Kernel-TheIntegrator.2309.mcz
 Kernel-Rules-TheIntegrator.5.mcz
-Kernel-Tests-TheIntegrator.70.mcz
+Kernel-Tests-TheIntegrator.71.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz
