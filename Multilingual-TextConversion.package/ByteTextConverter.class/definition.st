@@ -1,5 +1,5 @@
 TextConverter subclass: #ByteTextConverter
 	instanceVariableNames: ''
 	classVariableNames: ''
-	poolDictionaries: 'EventSensorConstants'
+	poolDictionaries: ''
 	category: 'Multilingual-TextConversion'

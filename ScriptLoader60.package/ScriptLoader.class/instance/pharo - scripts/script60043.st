@@ -1,4 +1,4 @@
-script60042
+script60043
 
 	^ 'AST-Core-TheIntegrator.421.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.5.mcz
@@ -204,7 +204,7 @@ Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.55.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
-Multilingual-TextConversion-TheIntegrator.81.mcz
+Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.249.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
@@ -250,7 +250,7 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.238.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.314.mcz
+Refactoring-Core-TheIntegrator.315.mcz
 Refactoring-Critics-TheIntegrator.267.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
@@ -307,7 +307,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.268.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.327.mcz
+Spec-Tools-TheIntegrator.329.mcz
 StartupPreferences-TheIntegrator.152.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz

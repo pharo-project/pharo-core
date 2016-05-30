@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18337 Spelling mistakes in Pharo (forward port issue 18324 to Pharo 6.0)
-	https://pharo.fogbugz.com/f/cases/18337
+ ^ '18329 Make MessageBrowser work for CompiledMethods and RGMethodDefinitions
+	https://pharo.fogbugz.com/f/cases/18329
 
-18335 MonticelloFileTree-Core extends class MCFileRepositoryInspector
-	https://pharo.fogbugz.com/f/cases/18335
+18300 Nautilus does not warn about unaccepted changes in comment pane
+	https://pharo.fogbugz.com/f/cases/18300
 
-18336 StartupPreferences extends packages outside minimal Pharo
-	https://pharo.fogbugz.com/f/cases/18336
-
-18326 add some more keymapping definitions in PharoShortcuts
-	https://pharo.fogbugz.com/f/cases/18326'
+18196 ByteTextConverter uses EventSensorConstants
+	https://pharo.fogbugz.com/f/cases/18196'
