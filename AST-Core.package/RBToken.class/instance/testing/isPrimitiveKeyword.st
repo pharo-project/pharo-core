@@ -1,0 +1,2 @@
+isPrimitiveKeyword
+	^ false

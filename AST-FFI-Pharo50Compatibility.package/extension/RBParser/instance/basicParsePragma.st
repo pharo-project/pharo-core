@@ -4,7 +4,9 @@ basicParsePragma
 		ifFalse: [
 			currentToken isKeyword
 				ifTrue: [ 	
-					(currentToken value = #apicall: or: [ currentToken value = #cdecl: ])
+					currentToken isExternalFunctionKeyword 
 						ifTrue: [ ^ self externalFunctionDeclaration ].
+					currentToken isPrimitiveKeyword
+						ifTrue: [ ^ self parsePrimitiveKeywordPragma ].
 					self parseKeywordPragma ]
 				ifFalse: [ self parseBinaryPragma ] ]

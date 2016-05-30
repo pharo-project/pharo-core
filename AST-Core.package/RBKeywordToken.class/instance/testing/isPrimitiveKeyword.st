@@ -1,0 +1,2 @@
+isPrimitiveKeyword
+	^ self value = #primitive:

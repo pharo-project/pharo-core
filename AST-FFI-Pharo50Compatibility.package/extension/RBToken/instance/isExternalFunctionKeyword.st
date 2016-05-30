@@ -1,0 +1,2 @@
+isExternalFunctionKeyword
+	^ false

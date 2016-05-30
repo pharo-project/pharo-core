@@ -4,7 +4,6 @@ testPragmas
 	('foo <foo: 1>' 				#foo: (1)) 
 	('foo <foo: 1.2>' 			#foo: (1.2)) 
 	('foo <foo: -3>' 			#foo: (-3)) 
-	('foo <foo: a>' 				#foo: (a)) 
 	('foo <foo: #a>' 			#foo: (a)) 
 	('foo <foo: #< >' 			#foo: (<)) 
 	('foo <foo: #> >' 			#foo: (>)) 
