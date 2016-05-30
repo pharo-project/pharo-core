@@ -1,2 +1,0 @@
-classModified: anAnnouncement
-	self halt.

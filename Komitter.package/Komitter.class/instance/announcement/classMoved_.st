@@ -1,2 +1,0 @@
-classMoved: anAnnouncement
-self halt.

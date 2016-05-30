@@ -1,7 +1,4 @@
-cannotReturn: result to: homeContext
+cannotReturn: result to: aContext
 	"The receiver tried to return result to homeContext that no longer exists."
 
-	^ BlockCannotReturn new
-		result: result;
-		deadHome: homeContext;
-		signal
+	^ ContextCannotReturn result: result to: aContext

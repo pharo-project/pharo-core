@@ -1,5 +1,6 @@
 cannotReturn: result
-	closureOrNil ifNotNil: [ ^ self cannotReturn: result to: self home sender ].
+	closureOrNil ifNotNil: [ 
+		^BlockCannotReturn result: result from: self home].
 	Processor activeProcess 
 		debug: thisContext 
 		title: 'computation has been terminated'

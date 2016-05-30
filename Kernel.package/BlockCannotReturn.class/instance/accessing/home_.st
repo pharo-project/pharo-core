@@ -1,0 +1,2 @@
+home: anObject
+	home := anObject

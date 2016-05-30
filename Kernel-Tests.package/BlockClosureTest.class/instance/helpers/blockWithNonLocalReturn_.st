@@ -1,0 +1,3 @@
+blockWithNonLocalReturn: resultObject
+		
+	^[ ^resultObject ] 

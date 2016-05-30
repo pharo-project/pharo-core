@@ -1,5 +1,5 @@
-CannotReturn subclass: #BlockCannotReturn
-	instanceVariableNames: 'home'
+Error subclass: #CannotReturn
+	instanceVariableNames: 'result'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Kernel-Exceptions'
