@@ -2,7 +2,7 @@ testPaneReplacedAnnouncement
 	| browser count |
 	count := 0.
 	browser := GLMFinder new.
-	browser on: GLMPaneReplaced do: [ :ann | count := count + 1 ].
+	browser when: GLMPaneReplaced do: [ :ann | count := count + 1 ].
 	browser startOn: #a.
 	self assert: count equals: 0.
 	(browser panes first port: #selection) value: #b.
