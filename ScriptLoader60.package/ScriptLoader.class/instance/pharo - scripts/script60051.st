@@ -1,4 +1,4 @@
-script60050
+script60051
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -54,7 +54,7 @@ Deprecated60-TheIntegrator.2.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-Epicea-TheIntegrator.785.mcz
+Epicea-TheIntegrator.786.mcz
 EpiceaBrowsers-TheIntegrator.14.mcz
 EpiceaBrowsersTests-TheIntegrator.3.mcz
 EpiceaTests-MD.6.mcz
