@@ -2,4 +2,4 @@ ComposableModel subclass: #TestReviver
 	instanceVariableNames: 'errorListModel debugButton browseButton vmVersionLabel vmVersion timeStamp timeStampLabel imageVersion imageVersionLabel'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'HudsonBuildTools20'
+	category: 'SUnit-UI'

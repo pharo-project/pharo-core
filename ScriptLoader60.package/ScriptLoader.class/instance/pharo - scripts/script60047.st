@@ -1,4 +1,4 @@
-script60046
+script60047
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -130,7 +130,7 @@ Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.146.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
-HudsonBuildTools20-TheIntegrator.90.mcz
+HudsonBuildTools20-TheIntegrator.93.mcz
 ImportingResource-Help-TheIntegrator.4.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
@@ -237,7 +237,7 @@ OpalCompiler-Tests-TheIntegrator.340.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1356.mcz
+Polymorph-Widgets-TheIntegrator.1360.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -283,7 +283,7 @@ SUnit-Core-TheIntegrator.169.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-EstebanLorenzano.138.mcz
+SUnit-UI-TheIntegrator.142.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
@@ -338,23 +338,23 @@ System-Settings-TheIntegrator.341.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1222.mcz
+System-Support-TheIntegrator.1226.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.760.mcz
+Tests-TheIntegrator.762.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.116.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.144.mcz
+Tool-Base-TheIntegrator.148.mcz
 Tool-Catalog-TheIntegrator.34.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
-Tool-Diff-TheIntegrator.31.mcz
+Tool-Diff-TheIntegrator.34.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
 Tool-FileList-TheIntegrator.64.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
