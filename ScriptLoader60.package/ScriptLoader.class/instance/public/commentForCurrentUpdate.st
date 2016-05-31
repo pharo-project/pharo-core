@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18350 Lost changes should be shown on startup by Epicea
-	https://pharo.fogbugz.com/f/cases/18350
+ ^ '18364 Polymorph-Widgets should not extend GLMTabLabelBrick  
+	https://pharo.fogbugz.com/f/cases/18364
 
-17822 Use STON for JSON parsing in MC FileTree
-	https://pharo.fogbugz.com/f/cases/17822
+18363 Prepare Remove package Polymorph-TaskbarIcons
+	https://pharo.fogbugz.com/f/cases/18363
 
-18357 Update Rubric to 2.19.4
-	https://pharo.fogbugz.com/f/cases/18357'
+18366 move Polymorph-Widgets extension ProcessBrowser>>theme
+	https://pharo.fogbugz.com/f/cases/18366'
