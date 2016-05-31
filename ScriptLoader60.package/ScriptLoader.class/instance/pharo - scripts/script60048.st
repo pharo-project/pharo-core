@@ -1,4 +1,4 @@
-script60047
+script60048
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -36,8 +36,8 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.417.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.53.mcz
-Collections-Unordered-TheIntegrator.232.mcz
+Collections-Tests-TheIntegrator.56.mcz
+Collections-Unordered-TheIntegrator.234.mcz
 Collections-Weak-TheIntegrator.102.mcz
 Compiler-TheIntegrator.602.mcz
 Compression-TheIntegrator.176.mcz
@@ -198,7 +198,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.52.mcz
+Morphic-Widgets-Tree-TheIntegrator.55.mcz
 Morphic-Widgets-Windows-TheIntegrator.99.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
 Multilingual-Languages-TheIntegrator.55.mcz
@@ -232,12 +232,12 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-VincentBlondeau.193.mcz
 OmbuTests-MartinDias.3.mcz
-OpalCompiler-Core-TheIntegrator.803.mcz
+OpalCompiler-Core-TheIntegrator.806.mcz
 OpalCompiler-Tests-TheIntegrator.340.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1360.mcz
+Polymorph-Widgets-TheIntegrator.1361.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz

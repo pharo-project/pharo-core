@@ -1,12 +1,10 @@
 generate: trailer
 	
 	| irTranslator |
-      irTranslator := IRTranslatorV2 new
-		compilationContext: compilationContext;
-		trailer: trailer;
+   irTranslator := IRTranslatorV2 context: compilationContext trailer: trailer.
+	irTranslator 
 		visitNode: self;
-		pragmas: pragmas;
-		yourself.
+		pragmas: pragmas.
 	compiledMethod := irTranslator compiledMethod.
 	self sourceNode 
 		ifNotNil: [ 

@@ -1,3 +1,2 @@
 themedFillStyle
-	
-	^(Smalltalk ui theme morphTreeColumnFillStyleFor: self)
+	^ self theme morphTreeColumnFillStyleFor: self
