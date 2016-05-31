@@ -1,2 +1,0 @@
-cypressUnescape
-    ^ self urlDecoded

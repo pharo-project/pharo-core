@@ -1,6 +1,3 @@
 refresh
 
-	| sessionsFileReferences |
-	sessionsFileReferences := self freshSortedSessionDirectoryEntries.
-
-	sessionsTreeModel roots: sessionsFileReferences.
+	sessionsTreeModel roots: (EpMonitor findLogFilesIn: self directory)

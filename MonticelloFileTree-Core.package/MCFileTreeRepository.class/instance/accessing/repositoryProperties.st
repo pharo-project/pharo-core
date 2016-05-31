@@ -18,5 +18,5 @@ repositoryProperties
           self writeRepositoryProperties ]
         ifNotNil: [ :configEntry | 
           configEntry
-            readStreamDo: [ :fileStream | repositoryProperties := MCFileTreeJsonParser parseStream: fileStream ] ] ].
+            readStreamDo: [ :fileStream | repositoryProperties := STON fromStream: fileStream ] ] ].
   ^ repositoryProperties

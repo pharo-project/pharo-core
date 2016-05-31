@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18354 Improve MorphTreeColumnButton #themeChanged
-	https://pharo.fogbugz.com/f/cases/18354
+ ^ '18350 Lost changes should be shown on startup by Epicea
+	https://pharo.fogbugz.com/f/cases/18350
 
-17967 IRTranslator not using compilation when created by IRMethod #generate.
-	https://pharo.fogbugz.com/f/cases/17967
+17822 Use STON for JSON parsing in MC FileTree
+	https://pharo.fogbugz.com/f/cases/17822
 
-18317 Dictionary>>#at:ifPresent:ifAbsentPut: does not exist, could we add it ?
-	https://pharo.fogbugz.com/f/cases/18317'
+18357 Update Rubric to 2.19.4
+	https://pharo.fogbugz.com/f/cases/18357'

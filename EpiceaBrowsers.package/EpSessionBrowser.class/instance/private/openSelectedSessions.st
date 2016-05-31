@@ -1,4 +1,4 @@
 openSelectedSessions
 
 	sessionsTreeModel selectedItems do: [ :item |
-		(self logFor: item content asFileReference) browse ]
+		(EpLog freshFromFile: item content asFileReference) browseEvents ]

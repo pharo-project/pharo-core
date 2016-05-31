@@ -1,2 +1,2 @@
 browseLogInFileNamed: fileName
-	(self logFor: fileName) browse
+	(EpLog freshFromFile: fileName asFileReference) browseEvents

@@ -1,5 +1,5 @@
 tearDown
 	super tearDown.
 	
-	store fileReference ensureDeleteAllChildren.
-	otherStore fileReference ensureDeleteAllChildren.
+	store fileReference ensureDeleteAll.
+	otherStore fileReference ensureDeleteAll.

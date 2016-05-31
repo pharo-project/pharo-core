@@ -8,4 +8,4 @@ downloadJSON: url username: username pass: pass
   username ifNotNil: [ client username: username password: pass ].
   client get.
   json := client contents.
-  ^ MCFileTreeJsonParser parse: json
+  ^ STON fromString: json

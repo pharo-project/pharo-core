@@ -1,3 +1,3 @@
 openLogOfAbsentEntry
 
-	self absentEntryLog browse
+	self absentEntryLog browseEvents

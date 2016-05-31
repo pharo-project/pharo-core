@@ -14,4 +14,4 @@ writeTraitDefinition: definition
                 ifTrue: [ properties at: 'classtraitcomposition' put: compositionString ] .
     properties at: 'category' put: definition category.
     properties at: 'commentStamp' put: definition commentStamp.
-    properties writeCypressJsonOn: fileStream
+    STON put: properties asJsonOnStreamPretty: fileStream
