@@ -1,1 +1,0 @@
-I'm a stub class intended just to easy migration from NB to UFFI. The corresponding class to replace me is: FFIExternalObject.MIGRATION NOTES: You probably need to implement #asExternalTypeOn: class side method.

@@ -1,1 +1,0 @@
-I'm a stub class intended just to easy migration from NB to UFFI. The corresponding class to replace me is: FFIExternalArray.MIGRATION NOTES: Translation from old NB arrays to UFFI arrays is not authomatic, but is fairly easy: you do not need to extend arrays (unless you want it)... look for senders of FFIExternalArray to know how to proceed properly.
