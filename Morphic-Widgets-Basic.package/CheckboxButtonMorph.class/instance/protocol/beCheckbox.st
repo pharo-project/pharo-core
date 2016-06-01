@@ -6,4 +6,5 @@ beCheckbox
 		isRadioButton: false;
 		onImage: self theme checkboxMarkerForm;
 		cornerStyle: (self theme checkboxCornerStyleFor: self);
+		fillStyle: self fillStyleToUse;
 		borderStyle: self borderStyleToUse

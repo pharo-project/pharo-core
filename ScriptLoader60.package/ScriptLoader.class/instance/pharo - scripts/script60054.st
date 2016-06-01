@@ -1,4 +1,4 @@
-script60053
+script60054
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2309.mcz
+Kernel-TheIntegrator.2313.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.71.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -186,7 +186,7 @@ Morphic-Base-TheIntegrator.552.mcz
 Morphic-Core-TheIntegrator.285.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.91.mcz
+Morphic-Widgets-Basic-TheIntegrator.95.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.19.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-StephanEggermont.177.mcz
@@ -194,7 +194,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-NewList-TheIntegrator.9.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.68.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.4.mcz
-Morphic-Widgets-Scrolling-TheIntegrator.32.mcz
+Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
@@ -248,7 +248,7 @@ RPackage-Core-TheIntegrator.430.mcz
 RPackage-Tests-TheIntegrator.181.mcz
 Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
-RecentSubmissions-TheIntegrator.240.mcz
+RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.315.mcz
 Refactoring-Critics-TheIntegrator.267.mcz
@@ -348,7 +348,7 @@ Text-Edition-TheIntegrator.118.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.148.mcz
+Tool-Base-TheIntegrator.152.mcz
 Tool-Catalog-TheIntegrator.34.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

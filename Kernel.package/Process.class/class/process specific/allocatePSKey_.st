@@ -31,7 +31,7 @@ allocatePSKey: aPSVariable
 			InheritablePSKeys 
 				ifNil: [ InheritablePSKeys := Array with: index ]
 				ifNotNil: [ 
-					(InheritablePSKeys includes: index) ifFalse: [ WeakArray := InheritablePSKeys copyWith: index ]]
+					(InheritablePSKeys includes: index) ifFalse: [ InheritablePSKeys := InheritablePSKeys copyWith: index ]]
 		]
 	].
 
