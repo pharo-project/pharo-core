@@ -1,4 +1,4 @@
-script60052
+script60053
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -38,7 +38,7 @@ Collections-Strings-TheIntegrator.417.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.56.mcz
 Collections-Unordered-TheIntegrator.234.mcz
-Collections-Weak-TheIntegrator.102.mcz
+Collections-Weak-TheIntegrator.106.mcz
 Compiler-TheIntegrator.602.mcz
 Compression-TheIntegrator.176.mcz
 Compression-Tests-TheIntegrator.2.mcz
@@ -103,7 +103,7 @@ Glamour-Core-TudorGirba.322.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-TheIntegrator.420.mcz
+Glamour-Morphic-Brick-AndreiChis.421.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-GuillermoPolito.110.mcz
 Glamour-Morphic-Renderer-AndreiChis.349.mcz
@@ -111,7 +111,7 @@ Glamour-Morphic-Theme-HenrikNergaard.222.mcz
 Glamour-Morphic-Widgets-AndreiChis.195.mcz
 Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TheIntegrator.54.mcz
-Glamour-Tests-Core-AndreiChis.111.mcz
+Glamour-Tests-Core-CyrilFerlciot.112.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
 Glamour-Tests-Rubric-AndreiChis.35.mcz
@@ -294,7 +294,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.744.mcz
+Slot-TheIntegrator.750.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
@@ -320,7 +320,7 @@ System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.20.mcz
 System-FileRegistry-TheIntegrator.50.mcz
-System-Finalization-TheIntegrator.32.mcz
+System-Finalization-TheIntegrator.40.mcz
 System-Hashing-TheIntegrator.52.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
@@ -338,7 +338,7 @@ System-Settings-TheIntegrator.343.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1226.mcz
+System-Support-TheIntegrator.1227.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.762.mcz
@@ -368,7 +368,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.39.mcz
 Tools-TheIntegrator.1525.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.912.mcz
+Traits-TheIntegrator.916.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
