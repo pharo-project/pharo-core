@@ -1,5 +1,5 @@
-ReAbstractCritic subclass: #ReMissingMethodCritic
-	instanceVariableNames: 'selector class source'
+ReMissingMethodCritique subclass: #ReMissingMethodCritic
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'

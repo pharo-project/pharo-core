@@ -8,5 +8,5 @@ taskCompleted
 	self addMorphFront: listMorph.
 	
 	entity ifNotNil: [ ReSystemAnnouncer uniqueInstance
-								notifyCriticsSeen: critics
+								notifyCritiquesSeen: critiques
 								of: entity ].

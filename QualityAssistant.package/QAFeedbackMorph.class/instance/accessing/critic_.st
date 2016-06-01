@@ -1,2 +1,0 @@
-critic: anObject
-	critic := anObject

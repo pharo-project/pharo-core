@@ -1,1 +1,1 @@
-I am a trivial tritic that does not provide any more information other than my target and rule
+mpatibility reasons. Will be removed

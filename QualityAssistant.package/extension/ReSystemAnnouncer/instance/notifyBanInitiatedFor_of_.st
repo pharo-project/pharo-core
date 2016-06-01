@@ -1,8 +1,8 @@
-notifyBanInitiatedFor: aQACritic of: anEntity
+notifyBanInitiatedFor: aQACritique of: anEntity
 
 	self announce: (
-		QAInitiateCriticBan new
-			critic: aQACritic;
+		QAInitiateCritiqueBan new
+			critique: aQACritique;
 			entity: anEntity;
 			yourself)
 	

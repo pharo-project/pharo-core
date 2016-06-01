@@ -1,0 +1,3 @@
+group
+
+	^ 'Coding Idiom Violation'

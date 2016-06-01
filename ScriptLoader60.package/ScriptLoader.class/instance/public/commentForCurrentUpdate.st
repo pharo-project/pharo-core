@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18378 ConfigurationOfVersionner has wrong stable version
-	https://pharo.fogbugz.com/f/cases/18378
+ ^ '18385 CatalogBrowser is required for NautilusGroupAutoBuilder
+	https://pharo.fogbugz.com/f/cases/18385
 
-18261 move StartupPreferencesLoader examples to the class comment
-	https://pharo.fogbugz.com/f/cases/18261
+18362 Critics-> critiques renaming
+	https://pharo.fogbugz.com/f/cases/18362
 
-18381 ConfigurationOfCatalog is not in sync with current Pharo package versions
-	https://pharo.fogbugz.com/f/cases/18381
-
-18373 Epiceas lost changes detector is too slow
-	https://pharo.fogbugz.com/f/cases/18373'
+18380 ConfigurationOfTxText is not in sync with the current Pharo package versions
+	https://pharo.fogbugz.com/f/cases/18380'

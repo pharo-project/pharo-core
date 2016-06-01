@@ -1,2 +1,0 @@
-critics
-	^ critics

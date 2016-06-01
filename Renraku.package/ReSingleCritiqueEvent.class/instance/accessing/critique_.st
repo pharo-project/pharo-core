@@ -1,0 +1,2 @@
+critique: aCritique
+	critique := aCritique

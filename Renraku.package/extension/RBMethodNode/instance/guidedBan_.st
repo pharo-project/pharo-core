@@ -1,3 +1,3 @@
-guidedBan: aCritic
+guidedBan: aCritique
 
-	self method guidedBan: aCritic
+	self method guidedBan: aCritique

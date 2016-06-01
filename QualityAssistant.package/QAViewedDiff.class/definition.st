@@ -1,4 +1,4 @@
-ReSingleCriticEvent subclass: #QAViewedDiff
+ReSingleCritiqueEvent subclass: #QAViewedDiff
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

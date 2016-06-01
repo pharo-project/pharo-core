@@ -1,8 +1,8 @@
-notifyViewedDiffFor: aQACritic of: anEntity
+notifyViewedDiffFor: aQACritique of: anEntity
 
 	self announce: (
 		QAViewedDiff new
-			critic: aQACritic;
+			critic: aQACritique;
 			entity: anEntity;
 			yourself)
 	

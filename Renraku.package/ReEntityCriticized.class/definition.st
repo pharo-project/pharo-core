@@ -1,4 +1,4 @@
-ReMultipleCriticsEvent subclass: #ReEntityCriticized
+ReMultipleCritiquesEvent subclass: #ReEntityCriticized
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

@@ -13,7 +13,7 @@ fireDialogWithFeedback: aBoolean
 			hSpaceFill;
 			fontSize: 16 ];
 		text: [ :criticText | criticText
-			text: 'about critic: ', (critic description surroundedBy: '"');
+			text: 'about critique: ', (critique description surroundedBy: '"');
 			hSpaceFill;
 			margin: 0 ];
 		label: [ :commentText | commentText

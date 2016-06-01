@@ -1,5 +1,5 @@
 Morph subclass: #QAFeedbackMorph
-	instanceVariableNames: 'positive negative text critic'
+	instanceVariableNames: 'positive negative text critique'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'QualityAssistant'

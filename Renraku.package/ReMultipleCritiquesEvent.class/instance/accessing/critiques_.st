@@ -1,0 +1,2 @@
+critiques: aCollection
+	critiques := aCollection

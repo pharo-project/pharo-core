@@ -1,9 +1,9 @@
 testNoClassComment
 		
-	self assert: (testClass critics anySatisfy: [ :critic |
+	self assert: (testClass critiques anySatisfy: [ :critic |
 		critic rule class = RBNoClassCommentRule ]).
 	
 	testClass comment: 'Now I have a comment'.
 	
-	self assert: (testClass critics noneSatisfy: [ :critic |
+	self assert: (testClass critiques noneSatisfy: [ :critic |
 		critic rule class = RBNoClassCommentRule ]).

@@ -1,5 +1,5 @@
-ReAbstractCritic subclass: #ReTransformationCritic
-	instanceVariableNames: 'newTree'
+ReTransformationCritique subclass: #ReTransformationCritic
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'

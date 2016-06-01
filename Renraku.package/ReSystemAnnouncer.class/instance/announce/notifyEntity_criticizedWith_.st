@@ -1,7 +1,7 @@
-notifyEntity: anEntity criticizedWith: critics
+notifyEntity: anEntity criticizedWith: critiques
 
 	self announce: (
 		ReEntityCriticized new 
-			critics: critics;
+			critiques: critiques;
 			entity: anEntity;
 			yourself)

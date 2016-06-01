@@ -2,10 +2,10 @@ testBan2
 	| criticToSkip |
 	
 		
-	criticToSkip := testMethod critics detect: [ :critic |
+	criticToSkip := testMethod critiques detect: [ :critic |
 		critic rule class = RBUnclassifiedMethodsRule ].
 	
 	testClass ban: criticToSkip.
 	
-	self assert: (testMethod critics noneSatisfy: [ :critic |
+	self assert: (testMethod critiques noneSatisfy: [ :critic |
 		critic rule class = RBUnclassifiedMethodsRule ]).

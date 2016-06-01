@@ -1,6 +1,6 @@
-check: anEntity ifNoCritics: alternativeBlock
-	| critics |
-	
-	critics := OrderedCollection new.
-	self check: anEntity forCriticsDo: [ :critic | critics add: critic ] ifNone: alternativeBlock.
-	^ critics
+check: anEntity ifNoCritics: alternativeBlock 
+	self 
+		deprecated: 'Use check:ifNoCritiques: instead'
+		on: 	'24 May 2016' 
+		in: 'Pharo-6.0-60028-'.
+	^ self check: anEntity ifNoCritiques: alternativeBlock 

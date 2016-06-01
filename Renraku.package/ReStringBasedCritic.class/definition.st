@@ -1,5 +1,5 @@
-ReAbstractCritic subclass: #ReStringBasedCritic
+ReStringBasedCritique subclass: #ReStringBasedCritic
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'

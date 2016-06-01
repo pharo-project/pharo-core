@@ -1,5 +1,5 @@
-ReAbstractCritic subclass: #ReTrivialCritic
+ReTrivialCritique subclass: #ReTrivialCritic
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'

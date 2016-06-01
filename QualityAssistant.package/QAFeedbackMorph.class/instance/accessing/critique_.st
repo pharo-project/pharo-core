@@ -1,0 +1,2 @@
+critique: anObject
+	critique := anObject

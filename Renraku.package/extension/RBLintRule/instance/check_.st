@@ -1,3 +1,3 @@
 check: anEntity
 
-	^ self check: anEntity ifNoCritics: [ "do nothing" ]
+	^ self check: anEntity ifNoCritiques: [ "do nothing" ]

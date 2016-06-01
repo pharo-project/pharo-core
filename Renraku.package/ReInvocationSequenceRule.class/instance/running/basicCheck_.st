@@ -2,5 +2,5 @@ basicCheck: anEntity
 	
 	 self
 		check: anEntity
-		forCriticsDo: [ ^ true ]
+		forCritiquesDo: [ ^ true ]
 		ifNone: [ ^ false ]

@@ -1,5 +1,5 @@
-ReInvocationOrderCritic subclass: #ReLaterInvocationCritic
+ReLaterInvocationCritique subclass: #ReLaterInvocationCritic
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'

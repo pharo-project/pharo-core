@@ -1,9 +1,9 @@
 testUnclassifiedMethod
 
-	self assert: (testMethod critics anySatisfy: [ :critic |
+	self assert: (testMethod critiques anySatisfy: [ :critic |
 		critic rule class = RBUnclassifiedMethodsRule ]).
 	
 	testMethod protocol: 'some protocol'.
 	
-	self assert: (testMethod critics noneSatisfy: [ :critic |
+	self assert: (testMethod critiques noneSatisfy: [ :critic |
 		critic rule class = RBUnclassifiedMethodsRule ]).

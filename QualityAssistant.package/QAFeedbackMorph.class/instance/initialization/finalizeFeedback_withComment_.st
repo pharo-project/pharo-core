@@ -6,8 +6,8 @@ finalizeFeedback: aBoolean withComment: aString
 		removeMorph: negative.
 	
 	[ aBoolean
-		ifTrue:  [ critic providePositiveFeedback: aString ]
-		ifFalse: [ critic provideNegativeFeedback: aString ]
+		ifTrue:  [ critique providePositiveFeedback: aString ]
+		ifFalse: [ critique provideNegativeFeedback: aString ]
 	] fork.
 
 	[ 2 seconds asDelay wait.

@@ -1,5 +1,5 @@
-ReInvocationOrderCritic subclass: #RePriorInvocationCritic
+RePriorInvocationCritique subclass: #RePriorInvocationCritic
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Critics'
+	category: 'Renraku-Critiques'
