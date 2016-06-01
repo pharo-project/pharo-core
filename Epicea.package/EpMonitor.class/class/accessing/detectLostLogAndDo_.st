@@ -5,5 +5,4 @@ detectLostLogAndDo: aBlock
 	(self current log store isPointsTo: lastLog store) ifTrue: [ ^self ].
 	lastLog includesCodeChanges ifFalse: [ ^self ].
 	
-	lastLog refresh.
 	^aBlock value: lastLog

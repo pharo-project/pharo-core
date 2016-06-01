@@ -5,4 +5,4 @@ initializeWith: aStore
 	commentByEntryReference := Dictionary new.
 	commitByEntryReference := Dictionary new.
 
-	self updateEntriesCache 
+	headReference := store headReference

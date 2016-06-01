@@ -1,4 +1,4 @@
-script60055
+script60056
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -49,7 +49,6 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.126.mcz
-Deprecated50-TheIntegrator.59.mcz
 Deprecated60-TheIntegrator.2.mcz
 EmbeddedFreeType-TheIntegrator.26.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -308,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.270.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
 Spec-Tests-TheIntegrator.66.mcz
 Spec-Tools-TheIntegrator.331.mcz
-StartupPreferences-TheIntegrator.152.mcz
+StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
