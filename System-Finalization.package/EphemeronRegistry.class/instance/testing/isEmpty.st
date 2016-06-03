@@ -1,0 +1,3 @@
+isEmpty
+
+	^ ephemeronCollection isEmpty

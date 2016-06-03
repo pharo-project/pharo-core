@@ -1,4 +1,4 @@
-script60060
+script60061
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -57,7 +57,7 @@ Epicea-DenisKudryashov.787.mcz
 EpiceaBrowsers-DenisKudryashov.15.mcz
 EpiceaBrowsersTests-MartinDias.2.mcz
 EpiceaTests-MD.6.mcz
-FFI-Kernel-JanVanDeSandt.40.mcz
+FFI-Kernel-EstebanLorenzano.41.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.203.mcz
 FileSystem-Disk-TheIntegrator.97.mcz
@@ -170,7 +170,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1139.mcz
+Monticello-TheIntegrator.1140.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -274,10 +274,12 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.371.mcz
+Rubric-TheIntegrator.372.mcz
 Rubric-Rules-TheIntegrator.5.mcz
-STON-Core-PavelKrivanek.73.mcz
+Rubric-Styling-TheIntegrator.3.mcz
+STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
+STON-Text support-TheIntegrator.2.mcz
 SUnit-Core-TheIntegrator.169.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
@@ -293,7 +295,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.750.mcz
+Slot-TheIntegrator.752.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
@@ -319,7 +321,7 @@ System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.20.mcz
 System-FileRegistry-TheIntegrator.50.mcz
-System-Finalization-TheIntegrator.40.mcz
+System-Finalization-TheIntegrator.42.mcz
 System-Hashing-TheIntegrator.52.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
@@ -376,9 +378,9 @@ TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.187.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.57.mcz
-UnifiedFFI-Legacy-TheIntegrator.4.mcz
-UnifiedFFI-Tests-TheIntegrator.25.mcz
+UnifiedFFI-EstebanLorenzano.60.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
+UnifiedFFI-Tests-TheIntegrator.26.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-VincentBlondeau.32.mcz

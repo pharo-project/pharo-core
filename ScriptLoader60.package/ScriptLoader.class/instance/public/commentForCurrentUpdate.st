@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '18361 Update UFFI version to 0.20.2
-	https://pharo.fogbugz.com/f/cases/18361'
+ ^ '18368 Move Rubric Shout support into standalone package
+	https://pharo.fogbugz.com/f/cases/18368
+
+18358 Integrate Ephemeron Registry
+	https://pharo.fogbugz.com/f/cases/18358
+
+18382 STON should not extent RunArray and Text
+	https://pharo.fogbugz.com/f/cases/18382'
