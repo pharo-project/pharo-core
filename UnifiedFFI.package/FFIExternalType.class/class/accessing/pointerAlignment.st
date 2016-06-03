@@ -1,0 +1,2 @@
+pointerAlignment
+	^ OSPlatform current ffiAlignment

@@ -1,0 +1,2 @@
+typeAlignment 
+	^ self type typeAlignment

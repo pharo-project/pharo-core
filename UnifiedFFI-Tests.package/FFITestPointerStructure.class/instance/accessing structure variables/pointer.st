@@ -1,3 +1,3 @@
 pointer
 	"This method was automatically generated"
-	^ExternalData fromHandle: (handle pointerAt: 6) type: ExternalType void asPointerType
+	^ExternalData fromHandle: (handle pointerAt: 9) type: ExternalType void asPointerType

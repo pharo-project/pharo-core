@@ -1,3 +1,3 @@
 long
 	"This method was automatically generated"
-	^handle signedLongAt: 4
+	^handle signedLongAt: 5

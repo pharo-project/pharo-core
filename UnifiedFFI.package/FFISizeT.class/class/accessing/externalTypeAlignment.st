@@ -1,0 +1,2 @@
+externalTypeAlignment
+	^ Smalltalk wordSize

@@ -1,0 +1,2 @@
+externalTypeAlignment
+	^ 16

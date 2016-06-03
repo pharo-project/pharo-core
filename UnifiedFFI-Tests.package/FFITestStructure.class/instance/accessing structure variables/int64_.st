@@ -1,3 +1,3 @@
 int64: anObject
 	"This method was automatically generated"
-	handle signedLongLongAt: 20 put: anObject
+	handle signedLongLongAt: 21 put: anObject

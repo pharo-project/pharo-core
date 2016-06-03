@@ -1,0 +1,2 @@
+packedStructureAlignment
+	^ 1

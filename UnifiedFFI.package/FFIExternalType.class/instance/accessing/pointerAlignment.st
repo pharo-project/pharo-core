@@ -1,0 +1,2 @@
+pointerAlignment
+	^ self class pointerAlignment

@@ -1,0 +1,2 @@
+externalTypeAlignment
+	^ self class externalTypeAlignment

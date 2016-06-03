@@ -1,3 +1,3 @@
 double
 	"This method was automatically generated"
-	^handle doubleAt: 12
+	^handle doubleAt: 13

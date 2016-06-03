@@ -1,0 +1,2 @@
+externalTypeSize
+	^ externalType externalTypeSize
