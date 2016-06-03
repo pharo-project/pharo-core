@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18385 CatalogBrowser is required for NautilusGroupAutoBuilder
-	https://pharo.fogbugz.com/f/cases/18385
+ ^ '18389 Obsolete Critic class
+	https://pharo.fogbugz.com/f/cases/18389
 
-18362 Critics-> critiques renaming
-	https://pharo.fogbugz.com/f/cases/18362
+18392 Announcer should allow to subscribe on specific instances of events
+	https://pharo.fogbugz.com/f/cases/18392
 
-18380 ConfigurationOfTxText is not in sync with the current Pharo package versions
-	https://pharo.fogbugz.com/f/cases/18380'
+18387 Extend monticello to load ephemeron classes
+	https://pharo.fogbugz.com/f/cases/18387'
