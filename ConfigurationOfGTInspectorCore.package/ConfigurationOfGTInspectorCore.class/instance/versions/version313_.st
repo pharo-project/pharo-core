@@ -6,7 +6,7 @@ version313: spec
 		spec description: 'GToolkit version 3.22 (case 17948)'.
 		spec author: 'AndreiChis'.
 		spec timestamp: '4/28/2016 16:25'.
-		spec project: 'GlamourCore' with: '4.14'.
+		spec project: 'GlamourCore' with: '4.15'.
 		spec 
 			package: 'GT-Inspector' with: 'GT-Inspector-AndreiChis.421';
 			package: 'GT-InspectorExtensions-Core' with: 'GT-InspectorExtensions-Core-TheIntegrator.214';

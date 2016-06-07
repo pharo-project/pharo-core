@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18420 Fix Metacello-Core extensions capitalization
-	https://pharo.fogbugz.com/f/cases/18420
+ ^ '18403 ConfigurationOfGTInspectorCore needs update versions of dependencies
+	https://pharo.fogbugz.com/f/cases/18403
 
-18417 Fix Reflectivity extensions capitalization
-	https://pharo.fogbugz.com/f/cases/18417
+18423 Fix Glamour-Tests-Core extensions capitalization
+	https://pharo.fogbugz.com/f/cases/18423
 
-18422 CompiledMethod depends on old BytecodeEncoder classes
-	https://pharo.fogbugz.com/f/cases/18422
-
-18380 ConfigurationOfTxText is not in sync with the current Pharo package versions
-	https://pharo.fogbugz.com/f/cases/18380'
+18402 ConfigurationOfGTSpotter needs update versions of dependencies
+	https://pharo.fogbugz.com/f/cases/18402'
