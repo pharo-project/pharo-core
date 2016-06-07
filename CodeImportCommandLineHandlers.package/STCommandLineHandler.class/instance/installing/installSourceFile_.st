@@ -5,9 +5,10 @@ installSourceFile: aReference
 	" parse the code given in the source file"
 	aReference readStreamDo: [ :stream |
 		self 
-			handleErrorsDuring: [ 
+			handleErrorsDuring: [
+				self skipShebangFrom: stream.
 				codeImporter := CodeImporter fileStream: stream.
-				codeImporter skipShebang parseChunks ]
+				codeImporter parseChunks ]
 			reference: aReference ].
 	
 	"evaluate the declarations in a second step to allow for properly closing the source file stream"

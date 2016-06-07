@@ -1,4 +1,4 @@
-script60063
+script60064
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -26,7 +26,7 @@ BlueInk-Tests-TheIntegrator.12.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
-CodeImportCommandLineHandlers-TheIntegrator.7.mcz
+CodeImportCommandLineHandlers-TheIntegrator.9.mcz
 Collections-Abstract-TheIntegrator.315.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
@@ -319,7 +319,7 @@ System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
-System-CommandLineHandler-TheIntegrator.20.mcz
+System-CommandLineHandler-TheIntegrator.22.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.44.mcz
 System-Hashing-TheIntegrator.52.mcz
@@ -349,7 +349,7 @@ Text-Edition-TheIntegrator.118.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.152.mcz
+Tool-Base-TheIntegrator.154.mcz
 Tool-Catalog-TheIntegrator.36.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

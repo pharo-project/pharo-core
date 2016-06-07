@@ -2,7 +2,7 @@ notifyViewedDiffFor: aQACritique of: anEntity
 
 	self announce: (
 		QAViewedDiff new
-			critic: aQACritique;
+			critique: aQACritique;
 			entity: anEntity;
 			yourself)
 	

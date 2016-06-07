@@ -1,2 +1,2 @@
 forwardWordShortcut
-	^ $+ meta
+	^ Character arrowRight meta

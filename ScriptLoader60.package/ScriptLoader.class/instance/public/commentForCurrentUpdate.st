@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18410 Remove KMMockMorph
-	https://pharo.fogbugz.com/f/cases/18410
+ ^ '18427 System-CommandLineHandler should be abstract and not extend particular command line handlers
+	https://pharo.fogbugz.com/f/cases/18427
 
-18398 LanguageEnvironment class>>#localeID: can cause endless loop
-	https://pharo.fogbugz.com/f/cases/18398
+18394 change some more keymapping definitions in PharoShortcuts
+	https://pharo.fogbugz.com/f/cases/18394
 
-18406 Add EphemeronTests
-	https://pharo.fogbugz.com/f/cases/18406
-
-18400 Add Pharo 6 to #metacelloPlatformAttributes (but keep Pharo 5 for now)
-	https://pharo.fogbugz.com/f/cases/18400'
+18412 QAViewedDiff(Object)>>doesNotUnderstand: #critic:
+	https://pharo.fogbugz.com/f/cases/18412'
