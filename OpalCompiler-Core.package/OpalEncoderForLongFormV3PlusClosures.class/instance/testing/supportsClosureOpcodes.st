@@ -1,2 +1,0 @@
-supportsClosureOpcodes
-	^true

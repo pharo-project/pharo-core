@@ -4,7 +4,5 @@ initialize    "CompiledMethod initialize"
 
 	SmallFrame := 16.	"Context range for temps+stack"
 	LargeFrame := 56.
-	PrimaryBytecodeSetEncoderClass ifNil:
-		[PrimaryBytecodeSetEncoderClass := EncoderForV3PlusClosures].
-	SecondaryBytecodeSetEncoderClass ifNil:
-		[SecondaryBytecodeSetEncoderClass := EncoderForV3PlusClosures]
+	PrimaryBytecodeSetEncoderClass := OpalEncoderForV3PlusClosures.
+	SecondaryBytecodeSetEncoderClass := OpalEncoderForSistaV1

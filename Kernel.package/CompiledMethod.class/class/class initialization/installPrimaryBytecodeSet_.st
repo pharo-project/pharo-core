@@ -1,10 +1,7 @@
 installPrimaryBytecodeSet: aBytecodeEncoderSubclass
 	PrimaryBytecodeSetEncoderClass == aBytecodeEncoderSubclass ifTrue:
-		[^self].
-	(aBytecodeEncoderSubclass inheritsFrom: BytecodeEncoder) ifFalse:
-		[self error: 'A bytecode set encoder is expected to be a subclass of BytecodeEncoder'].
-	(self allSubInstances
-			detect: [:m| m header >= 0 and: [m encoderClass ~~ aBytecodeEncoderSubclass]]
-			ifNone: []) ifNotNil:
-		[Warning signal: 'There are existing CompiledMethods with a different encoderClass.'].
+		[ ^self ].
+	self checkIsValidBytecodeEncoder: aBytecodeEncoderSubclass.
+	self checkBytecodeSetConflictsInMethodsWith: [:m| 
+		m usesPrimaryBytecodeSet and: [m encoderClass ~~ aBytecodeEncoderSubclass]].
 	PrimaryBytecodeSetEncoderClass := aBytecodeEncoderSubclass
