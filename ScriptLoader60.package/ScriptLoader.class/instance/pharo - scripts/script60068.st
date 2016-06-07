@@ -1,4 +1,4 @@
-script60067
+script60068
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -110,7 +110,7 @@ Glamour-Morphic-Theme-HenrikNergaard.222.mcz
 Glamour-Morphic-Widgets-AndreiChis.195.mcz
 Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TheIntegrator.54.mcz
-Glamour-Tests-Core-CyrilFerlciot.112.mcz
+Glamour-Tests-Core-PavelKrivanek.113.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
 Glamour-Tests-Rubric-AndreiChis.35.mcz

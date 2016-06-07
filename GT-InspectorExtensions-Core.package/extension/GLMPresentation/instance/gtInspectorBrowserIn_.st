@@ -6,4 +6,5 @@ gtInspectorBrowserIn: composite
 		t transmit 
 			to: #default; 
 			transformed: [:x | self entity ]; 
-			andShow: [:a | a custom: self copy ] ]
+			andShow: [:a | a custom: self copy ].
+		t transmit from: #default port: #selection; toOutsidePort: #selection ]
