@@ -1,5 +1,5 @@
-Morph subclass: #KMMockMorph
+TestCase subclass: #EphemeronTests
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Keymapping-Tests-Mocks'
+	category: 'Tests-Finalization'

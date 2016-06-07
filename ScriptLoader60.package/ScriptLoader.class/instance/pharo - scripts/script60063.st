@@ -1,4 +1,4 @@
-script60062
+script60063
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -135,14 +135,14 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.28.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2313.mcz
+Kernel-TheIntegrator.2315.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.71.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.54.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
-Keymapping-Tests-TheIntegrator.105.mcz
+Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.171.mcz
 Manifest-Core-TheIntegrator.244.mcz
@@ -200,7 +200,7 @@ Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.55.mcz
 Morphic-Widgets-Windows-TheIntegrator.101.mcz
 Multilingual-Encodings-TheIntegrator.61.mcz
-Multilingual-Languages-TheIntegrator.55.mcz
+Multilingual-Languages-TheIntegrator.57.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.83.mcz
@@ -321,12 +321,12 @@ System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.20.mcz
 System-FileRegistry-TheIntegrator.50.mcz
-System-Finalization-TheIntegrator.42.mcz
+System-Finalization-TheIntegrator.44.mcz
 System-Hashing-TheIntegrator.52.mcz
 System-History-EstebanLorenzano.7.mcz
 System-History-Tests-EstebanLorenzano.3.mcz
 System-Installers-TheIntegrator.44.mcz
-System-Localization-TheIntegrator.106.mcz
+System-Localization-TheIntegrator.108.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.6.mcz
 System-OSEnvironments-TheIntegrator.31.mcz
@@ -339,10 +339,10 @@ System-Settings-TheIntegrator.343.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1227.mcz
+System-Support-TheIntegrator.1229.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.762.mcz
+Tests-TheIntegrator.765.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.118.mcz

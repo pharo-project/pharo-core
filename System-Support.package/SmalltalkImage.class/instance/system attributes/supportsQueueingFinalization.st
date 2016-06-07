@@ -5,4 +5,4 @@ supportsQueueingFinalization
 	 This flag persists across snapshots, stored in the image header."
 	"SmalltalkImage current supportsQueueingFinalization"
 
-	^ ((self vm parameterAt: 48) bitClear: 16) = 16
+	^ ((self vm parameterAt: 48) bitAnd: 16) = 16

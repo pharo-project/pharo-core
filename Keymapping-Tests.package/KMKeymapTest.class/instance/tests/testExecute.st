@@ -2,7 +2,7 @@ testExecute
 	| bm km flag category |
 	category := KMCategory named: #TestFoo.
 	KMRepository default addCategory: category.
-	bm := KMMockMorph new.
+	bm := Morph new.
 	bm attachKeymapCategory: #TestFoo.
 	flag := false.
 	category

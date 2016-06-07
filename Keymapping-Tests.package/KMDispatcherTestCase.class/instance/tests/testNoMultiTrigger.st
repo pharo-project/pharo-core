@@ -10,7 +10,7 @@ testNoMultiTrigger
 	flag1 := false.
 
 	category addKeymapEntry: (KMKeymap named: #Foo shortcut: $a asKeyCombination, $b asKeyCombination, $c asKeyCombination action: [flag1 := true]).
-	bm2 := KMMockMorph new.
+	bm2 := Morph new.
 	bm2 attachKeymapCategory: #TestFoo.
 	
 	flag2 := false.
