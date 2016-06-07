@@ -1,4 +1,4 @@
-script60064
+script60065
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -241,7 +241,8 @@ PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.102.mcz
+QualityAssistant-YuriyTymchuk.103.mcz
+QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.22.mcz
 RPackage-Core-TheIntegrator.430.mcz
 RPackage-Tests-TheIntegrator.181.mcz
@@ -261,7 +262,7 @@ Reflectivity-Examples-TheIntegrator.30.mcz
 Reflectivity-Tests-TheIntegrator.202.mcz
 Reflectivity-Tools-TheIntegrator.28.mcz
 Reflectivity-Tools-Tests-TheIntegrator.12.mcz
-Regex-Core-TheIntegrator.38.mcz
+Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz

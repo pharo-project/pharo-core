@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18427 System-CommandLineHandler should be abstract and not extend particular command line handlers
-	https://pharo.fogbugz.com/f/cases/18427
+ ^ '18415 Fix Regex-Core extensions capitalization
+	https://pharo.fogbugz.com/f/cases/18415
 
-18394 change some more keymapping definitions in PharoShortcuts
-	https://pharo.fogbugz.com/f/cases/18394
+18404 ConfigurationOfUnifiedFFI not in sync with current Pharo package versions
+	https://pharo.fogbugz.com/f/cases/18404
 
-18412 QAViewedDiff(Object)>>doesNotUnderstand: #critic:
-	https://pharo.fogbugz.com/f/cases/18412'
+18401 The ConfigurationOfRubric is not in sync
+	https://pharo.fogbugz.com/f/cases/18401'

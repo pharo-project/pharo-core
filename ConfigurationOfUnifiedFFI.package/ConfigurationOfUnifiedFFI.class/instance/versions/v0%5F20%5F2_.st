@@ -13,5 +13,5 @@ fix alignment for strings'.
 			package: 'FFI-Kernel' with: 'FFI-Kernel-EstebanLorenzano.41';
 			package: 'Alien' with: 'Alien-eem.32';
 			package: 'UnifiedFFI' with: 'UnifiedFFI-EstebanLorenzano.60';
-			package: 'UnifiedFFI-Tests' with: 'UnifiedFFI-Tests-RonieSalgado.25';
+			package: 'UnifiedFFI-Tests' with: 'UnifiedFFI-Tests-TheIntegrator.26';
 			package: 'UnifiedFFI-Legacy' with: 'UnifiedFFI-Legacy-EstebanLorenzano.3'. ].
