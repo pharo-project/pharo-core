@@ -1,4 +1,4 @@
-script60068
+script60069
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -86,7 +86,7 @@ GT-Debugger-AndreiChis.350.mcz
 GT-EventRecorder-TheIntegrator.68.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-AndreiChis.421.mcz
-GT-InspectorExtensions-Core-TheIntegrator.214.mcz
+GT-InspectorExtensions-Core-PavelKrivanek.218.mcz
 GT-Playground-DenisKudryashov.124.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-TudorGirba.397.mcz
@@ -250,7 +250,7 @@ Random-Core-TheIntegrator.4.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.315.mcz
+Refactoring-Core-TheIntegrator.317.mcz
 Refactoring-Critics-TheIntegrator.267.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
@@ -308,6 +308,7 @@ Spec-Inspector-TheIntegrator.262.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.270.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
+Spec-SelectEntity-TheIntegrator.3.mcz
 Spec-Tests-TheIntegrator.66.mcz
 Spec-Tools-TheIntegrator.331.mcz
 StartupPreferences-TheIntegrator.153.mcz
@@ -351,7 +352,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.154.mcz
-Tool-Catalog-TheIntegrator.36.mcz
+Tool-Catalog-PavelKrivanek.37.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
@@ -399,7 +400,7 @@ WriteBarrierTests-TheIntegrator.9.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
-Zinc-HTTP-SvenVanCaekenberghe.448.mcz
+Zinc-HTTP-TheIntegrator.450.mcz
 Zinc-Resource-Meta-Core-TheIntegrator.58.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz

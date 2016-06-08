@@ -1,0 +1,2 @@
+whenPossibleEntitiesChanged: aBlock
+	possibleEntities whenChangedDo: aBlock

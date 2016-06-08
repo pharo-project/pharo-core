@@ -1,0 +1,2 @@
+ghostText
+	^ ghostText value ifNil: [ '' ]

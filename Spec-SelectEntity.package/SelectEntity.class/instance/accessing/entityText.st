@@ -1,0 +1,2 @@
+entityText
+	^ entityText

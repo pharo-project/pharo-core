@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18436 update ConfigurationOfGTInspectorCore to latest version
-	https://pharo.fogbugz.com/f/cases/18436
+ ^ '18428 Add SelectEntity to Spec
+	https://pharo.fogbugz.com/f/cases/18428
 
-18437 update ConfigurationOfCatalog to latest version
-	https://pharo.fogbugz.com/f/cases/18437
+18421 Fix Zinc-HTTP extensions capitalization
+	https://pharo.fogbugz.com/f/cases/18421
 
-18377 ConfigurationOfGTEventRecorder is not in sync with the current package versions
-	https://pharo.fogbugz.com/f/cases/18377'
+18438 confusing error for variable refactoring
+	https://pharo.fogbugz.com/f/cases/18438'

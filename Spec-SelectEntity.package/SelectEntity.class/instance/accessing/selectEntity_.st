@@ -1,0 +1,2 @@
+selectEntity: anObject
+	selectEntity := anObject

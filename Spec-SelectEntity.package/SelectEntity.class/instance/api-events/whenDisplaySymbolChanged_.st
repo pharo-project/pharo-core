@@ -1,0 +1,2 @@
+whenDisplaySymbolChanged: aBlock
+	displaySymbol whenChangedDo: aBlock
