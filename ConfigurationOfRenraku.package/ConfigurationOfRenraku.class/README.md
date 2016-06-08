@@ -1,1 +1,0 @@
-This is the code quality framework for Pharo. The main goal of Renraku is to provide a concept of quality as a first class entity that can be used by a different tools to improve programming experience.At the moment Renraku is used by:- QualityAssistant- ViDI (uses older version)

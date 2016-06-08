@@ -1,1 +1,0 @@
-I am a baseline of quality assistant. Read more at: https://github.com/Uko/QualityAssistant

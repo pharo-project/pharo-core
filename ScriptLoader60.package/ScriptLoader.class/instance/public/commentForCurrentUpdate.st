@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18428 Add SelectEntity to Spec
-	https://pharo.fogbugz.com/f/cases/18428
+ ^ '18442 ConfigurationOfGToolkitCore needs update
+	https://pharo.fogbugz.com/f/cases/18442
 
-18421 Fix Zinc-HTTP extensions capitalization
-	https://pharo.fogbugz.com/f/cases/18421
+18441 ConfigurationOfGTPlaygroundCore needs update
+	https://pharo.fogbugz.com/f/cases/18441
 
-18438 confusing error for variable refactoring
-	https://pharo.fogbugz.com/f/cases/18438'
+18439 Remove QA git leftovers
+	https://pharo.fogbugz.com/f/cases/18439'

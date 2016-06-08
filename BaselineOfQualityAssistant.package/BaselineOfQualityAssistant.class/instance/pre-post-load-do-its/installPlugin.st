@@ -1,3 +1,0 @@
-installPlugin
-
-	QANautilusPlugin install
