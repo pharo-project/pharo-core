@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18442 ConfigurationOfGToolkitCore needs update
-	https://pharo.fogbugz.com/f/cases/18442
+ ^ '18440 ConfgurationOfGTDebugger needs update
+	https://pharo.fogbugz.com/f/cases/18440
 
-18441 ConfigurationOfGTPlaygroundCore needs update
-	https://pharo.fogbugz.com/f/cases/18441
-
-18439 Remove QA git leftovers
-	https://pharo.fogbugz.com/f/cases/18439'
+18355 Change refactoring label from Rename temporary to Rename temporary/parameter
+	https://pharo.fogbugz.com/f/cases/18355'

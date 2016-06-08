@@ -59,7 +59,7 @@ sourceCodeRefactoring: aBuilder
 					target refactor moveVariableDefinitionBetween: target selectionInterval from: target selectedMethod ];
 		parent: #'Source code refactoring';
 		order: 700.
-	(aBuilder item: #'Rename temporary')
+	(aBuilder item: #'Rename temporary/parameter')
 		action: [ 
 					target okToChange
 						ifFalse: [ ^ target ].
