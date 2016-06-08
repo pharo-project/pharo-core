@@ -2,4 +2,4 @@ isDirty
 	
 	^ self workingCopy
 		ifNil: [ false ]
-		ifNotNilDo: [ :wc | wc modified ]
+		ifNotNil: [ :wc | wc modified ]

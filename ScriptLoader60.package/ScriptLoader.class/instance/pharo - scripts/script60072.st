@@ -1,4 +1,4 @@
-script60071
+script60072
 
 	^ 'AST-Core-TheIntegrator.424.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.6.mcz
@@ -58,7 +58,7 @@ EpiceaTests-MD.6.mcz
 FFI-Kernel-EstebanLorenzano.41.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.203.mcz
-FileSystem-Disk-TheIntegrator.97.mcz
+FileSystem-Disk-TheIntegrator.99.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.95.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
@@ -75,7 +75,7 @@ FreeType-TheIntegrator.744.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MaxLeske.825.mcz
 FuelCommandLineHandler-MarcusDenker.24.mcz
-FuelPlatform-MaxLeske.62.mcz
+FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MaxLeske.411.mcz
 FuelTools-Debugger-MarcusDenker.9.mcz
@@ -131,7 +131,7 @@ HudsonBuildTools20-TheIntegrator.93.mcz
 ImportingResource-Help-TheIntegrator.4.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
-Jobs-TheIntegrator.28.mcz
+Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2316.mcz
 Kernel-Rules-TheIntegrator.5.mcz
@@ -150,7 +150,7 @@ MenuRegistration-TheIntegrator.82.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
-Metacello-Core-TheIntegrator.826.mcz
+Metacello-Core-TheIntegrator.828.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
@@ -168,7 +168,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-EstebanLorenzano.148.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1140.mcz
+Monticello-TheIntegrator.1142.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
 Monticello-Tests-TheIntegrator.35.mcz
 MonticelloConfigurations-TheIntegrator.72.mcz
@@ -294,8 +294,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.752.mcz
-Slot-Tests-TheIntegrator.89.mcz
+Slot-TheIntegrator.753.mcz
+Slot-Tests-TheIntegrator.92.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
 Spec-Core-TheIntegrator.471.mcz

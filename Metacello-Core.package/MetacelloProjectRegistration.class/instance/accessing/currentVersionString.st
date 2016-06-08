@@ -1,4 +1,4 @@
 currentVersionString
   ^ self configurationProjectSpec
-    ifNotNilDo: [ :aSpec | aSpec versionString ]
+    ifNotNil: [ :aSpec | aSpec versionString ]
     ifNil: [ baselineProjectSpec repositoryVersionString ]

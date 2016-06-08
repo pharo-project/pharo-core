@@ -18,9 +18,9 @@ testDangerousClassesEnabling
 
 	DangerousClassNotifier enable.
 	DangerousClassNotifier disableDuring: [
-		self assert: (DangerousClassNotifier check: #ProtoObject)].
+		self deny: (DangerousClassNotifier check: #CompiledMethod)].
 	myExpectedError := false.
-	[ DangerousClassNotifier check: #ProtoObject ] on: Error do: [ myExpectedError := true  ].
+	[ DangerousClassNotifier check: #CompiledMethod ] on: Warning do: [ myExpectedError := true  ].
 	self assert: myExpectedError.
 
 	savedExistingSystemSetting 

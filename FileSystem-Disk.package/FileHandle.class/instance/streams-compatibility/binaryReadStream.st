@@ -1,7 +1,7 @@
 binaryReadStream
 	^ (FileStream onHandle: self)
 		ifNil: [ self streamError ]
-		ifNotNilDo: [ :stream | 
+		ifNotNil: [ :stream | 
 			stream
 				binary;
 				yourself ]

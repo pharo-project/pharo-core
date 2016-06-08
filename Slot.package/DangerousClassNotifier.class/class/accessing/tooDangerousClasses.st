@@ -4,13 +4,5 @@ tooDangerousClasses
 		"Object will break immediately"
 		#ProtoObject #Object
 		"Contexts and their superclasses"
-		#InstructionStream #Context #Context #BlockClosure
-		"Superclasses of basic collections"
-		#Collection #SequenceableCollection #ArrayedCollection
-		"Collections known to the VM"
-		#Array #Bitmap #String #Symbol #ByteArray #CompiledMethod
-		"Basic Numbers and logic"
-		#Magnitude #Number #SmallInteger #Float #Boolean #True #False
-		"Misc other"
-		#LookupKey #Association #Link #Point #Rectangle #Behavior #PositionableStream #UndefinedObject
+		#InstructionStream #Context #BlockClosure #CompiledMethod #CompiledCode #CompiledBlock
 	)
