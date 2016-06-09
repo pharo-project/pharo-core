@@ -2,7 +2,7 @@ version74p5: spec
 	<version: '7.4.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Adding system settings to enabled and disable the monitor, replacing the World Menu switch.
 '.

@@ -2,7 +2,7 @@ version53: spec
 	<version: '5.3' imports: #('5.1-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Workaround for RewriteTool.
 	* Working in both Pharo 40 and current Pharo 50 (50162).

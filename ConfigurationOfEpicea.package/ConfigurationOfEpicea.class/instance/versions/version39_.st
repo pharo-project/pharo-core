@@ -2,7 +2,6 @@ version39: spec
 	<version: '3.9' imports: #('3.3-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* New feature: File Out to Ombu
 	* New feature: File Out to ChangeSet

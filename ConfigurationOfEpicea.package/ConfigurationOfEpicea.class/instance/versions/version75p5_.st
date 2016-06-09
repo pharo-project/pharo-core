@@ -2,7 +2,7 @@ version75p5: spec
 	<version: '7.5.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Create random sufixes to test ombu files (required in Windows)
 	* Use #closeForWriting on file store (needed by some tests to run in Windows)

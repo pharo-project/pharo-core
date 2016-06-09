@@ -2,7 +2,6 @@ version19: spec
 	<version: '1.9' imports: #('1.4-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Some fixes
 			- Working in Pharo #30695.

@@ -2,7 +2,6 @@ version28: spec
 	<version: '2.8' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			Minor visual improvements in Browser:
 			- remember how many pages where fetched.

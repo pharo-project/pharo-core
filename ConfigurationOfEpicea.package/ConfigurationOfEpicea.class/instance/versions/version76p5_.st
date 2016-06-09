@@ -2,7 +2,7 @@ version76p5: spec
 	<version: '7.6.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Fix for Windows
 '.

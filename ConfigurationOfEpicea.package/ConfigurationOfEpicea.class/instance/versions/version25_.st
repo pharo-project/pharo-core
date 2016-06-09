@@ -2,7 +2,6 @@ version25: spec
 	<version: '2.5' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Ombu: Fix bug while parsing files.
 			- Ombu: Tolerate Ston parsing errors.

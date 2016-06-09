@@ -2,7 +2,7 @@ version52: spec
 	<version: '5.2' imports: #('5.1-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Version 5.1 was not logging MC save events in Pharo 50.
 	* Working in both Pharo 40 and current Pharo 50 (50162).

@@ -2,7 +2,6 @@ version44: spec
 	<version: '4.4' imports: #('4.1-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* Mainly some cosmetic improvements
 '.

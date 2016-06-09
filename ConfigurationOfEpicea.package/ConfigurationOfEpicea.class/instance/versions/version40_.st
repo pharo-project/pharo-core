@@ -2,7 +2,6 @@ version40: spec
 	<version: '4.0' imports: #('3.3-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* Session browser: sort by clicking on columns
 	* OmFileStores are lazy.

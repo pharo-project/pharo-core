@@ -2,7 +2,6 @@ version18: spec
 	<version: '1.8' imports: #('1.4-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Created File Reader Service for ChangeSet importer.
 			- Working in Pharo #30572.

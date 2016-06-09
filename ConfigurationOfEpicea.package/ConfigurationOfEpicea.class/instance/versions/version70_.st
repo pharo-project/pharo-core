@@ -2,7 +2,7 @@ version70: spec
 	<version: '7.0' imports: #('6.6-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Add #asEpiceaRingDefinition to TApplyingOnClassSide as explicit requirement, since it was defined in Class and in Trait. This is a requirement in Pharo 5.
 '.

@@ -2,7 +2,7 @@ version71p4: spec
 	<version: '7.1.p4' imports: #('7.1.p4-baseline')>
 
 	spec for: #'pharo4.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Split Model and UI.
 	* Merged EpiceaForPharo50 into Epicea.

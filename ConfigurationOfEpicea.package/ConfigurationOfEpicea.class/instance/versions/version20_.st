@@ -2,7 +2,6 @@ version20: spec
 	<version: '2.0' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Ready for preliminar study.
 			- New: Sessions Browser.

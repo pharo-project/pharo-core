@@ -2,7 +2,7 @@ version59: spec
 	<version: '5.9' imports: #('5.9-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Changed initial ombu files directory to "<preferences>/epicea-sessions"
 '.

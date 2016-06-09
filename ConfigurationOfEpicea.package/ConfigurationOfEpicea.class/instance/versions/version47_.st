@@ -2,7 +2,7 @@ version47: spec
 	<version: '4.7' imports: #('4.6-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Removed overrides to system packages (buh).
 	* Prepared for integration into Pharo 4.'.

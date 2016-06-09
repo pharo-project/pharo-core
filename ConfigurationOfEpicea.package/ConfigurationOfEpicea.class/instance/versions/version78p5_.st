@@ -2,7 +2,7 @@ version78p5: spec
 	<version: '7.8.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Use Smalltalk session instead of Session current, since the class was removed in Pharo 5.
 	* Also, load latest stable Ston in Pharo 4 (Pharo 5 does not load any).

@@ -2,7 +2,6 @@ version21: spec
 	<version: '2.1' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			Like 2.0 but working better with Komitter.
 			'.

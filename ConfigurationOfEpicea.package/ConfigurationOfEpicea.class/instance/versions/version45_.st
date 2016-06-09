@@ -2,7 +2,7 @@ version45: spec
 	<version: '4.5' imports: #('4.2-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Working in Pharo 30859 and 40330'.
 		spec author: 'MartinDias'.

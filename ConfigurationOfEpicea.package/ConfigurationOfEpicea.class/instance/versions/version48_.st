@@ -2,7 +2,7 @@ version48: spec
 	<version: '4.8' imports: #('4.8-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Added a #triggering group.
 	* Workaround for tolerating OS changes in file references.

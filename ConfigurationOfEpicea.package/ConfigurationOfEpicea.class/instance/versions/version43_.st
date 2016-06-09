@@ -2,7 +2,6 @@ version43: spec
 	<version: '4.3' imports: #('4.1-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* Removing uses of RGFactory since it is being deprecated in Pharo 4. 
 '.

@@ -2,7 +2,7 @@ version56: spec
 	<version: '5.6' imports: #('5.4-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Fix wrong use of FileLocator>>path.
 	* Working in both Pharo 40 and current Pharo 50 (50182).

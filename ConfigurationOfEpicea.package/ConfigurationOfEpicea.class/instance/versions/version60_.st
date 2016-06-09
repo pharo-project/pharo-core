@@ -2,7 +2,7 @@ version60: spec
 	<version: '6.0' imports: #('6.0-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Add EpCategoryRename event. Update visitors accordingly.
 	* Fix override to parseNextDeclaration.

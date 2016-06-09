@@ -2,7 +2,6 @@ version24: spec
 	<version: '2.4' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Log test suite runs.
 			- Fix bug when Author is not set.

@@ -2,7 +2,7 @@ version73p5: spec
 	<version: '7.3.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Remove repeated trait methods in users (bug in refactoring tools).
 	* Add EpMonticelloVersionsLoad>>{=,hash} for comparing version load events.

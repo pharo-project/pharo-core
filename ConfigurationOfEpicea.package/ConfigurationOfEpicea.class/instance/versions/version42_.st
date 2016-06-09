@@ -2,7 +2,6 @@ version42: spec
 	<version: '4.2' imports: #('4.1-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* Put an upper bound to number of entries displayed in the drag&drop morph.
 	* Clean-up. Several passes of CodeCritics. 

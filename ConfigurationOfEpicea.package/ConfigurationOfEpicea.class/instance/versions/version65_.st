@@ -2,7 +2,7 @@ version65: spec
 	<version: '6.5' imports: #('6.5-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Split SUnit support from core package to an optional one (EpiceaSUnit).
 	* Fixed World menu entries for Pharo 40.

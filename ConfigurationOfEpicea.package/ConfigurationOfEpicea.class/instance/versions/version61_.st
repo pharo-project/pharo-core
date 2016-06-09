@@ -2,7 +2,7 @@ version61: spec
 	<version: '6.1' imports: #('6.1-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Add tests for redo and undo functionality, currently disabled.
 	* Remove calls to deprecated Announcer messages.

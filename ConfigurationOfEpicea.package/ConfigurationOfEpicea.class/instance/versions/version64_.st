@@ -2,7 +2,7 @@ version64: spec
 	<version: '6.4' imports: #('6.4-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Adding benchmarks group.
 	* Enhancing World menu entries

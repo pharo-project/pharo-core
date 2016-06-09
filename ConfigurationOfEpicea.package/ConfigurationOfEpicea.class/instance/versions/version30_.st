@@ -2,7 +2,6 @@ version30: spec
 	<version: '3.0' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Update for Pharo 30777.
 			- Increased browser initial #pageSize from 20 to 30.

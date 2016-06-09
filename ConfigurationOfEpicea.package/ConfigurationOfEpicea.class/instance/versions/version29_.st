@@ -2,7 +2,6 @@ version29: spec
 	<version: '2.9' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			Fixed 2 failing tests. Now everything is green :)
 			'.

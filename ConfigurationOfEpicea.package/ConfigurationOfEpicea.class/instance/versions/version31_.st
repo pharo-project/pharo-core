@@ -2,7 +2,6 @@ version31: spec
 	<version: '3.1' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Added "any code change" filter.
 			- Now only EpEntryItems in the selection are taken into account for menu actions.

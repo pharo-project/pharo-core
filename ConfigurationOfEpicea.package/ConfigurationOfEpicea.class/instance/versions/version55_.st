@@ -2,7 +2,7 @@ version55: spec
 	<version: '5.5' imports: #('5.4-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Fix Redo and Undo operations in Pharo50.
 	* Minor fix in item colors.

@@ -2,7 +2,6 @@ version27: spec
 	<version: '2.7' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Fix: EpMethodRemoval was not holding the real protocol.
 			- Feature: Enable multiple selection in items list.

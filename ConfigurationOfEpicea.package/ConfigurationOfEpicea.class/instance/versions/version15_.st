@@ -2,7 +2,6 @@ version15: spec
 	<version: '1.5' imports: #('1.4-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: 'Just fixed Undo and Redo operations of previous version.'.
 		spec author: 'MartinDias'.
 		spec timestamp: '24/10/2013'.

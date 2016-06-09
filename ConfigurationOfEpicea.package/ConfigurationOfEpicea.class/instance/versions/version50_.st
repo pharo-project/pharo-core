@@ -2,7 +2,7 @@ version50: spec
 	<version: '5.0' imports: #('5.0-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Remove tolerance for corrupt files. Not needed and error-prone.
 	* Fix for Ombu in Linux (flush after writing a new entry).

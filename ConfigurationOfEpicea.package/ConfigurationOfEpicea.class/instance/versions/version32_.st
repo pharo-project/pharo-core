@@ -2,7 +2,6 @@ version32: spec
 	<version: '3.2' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Order the entries for redo and undo operations using the timestamp. 
 				(Much better than using the user selection order).

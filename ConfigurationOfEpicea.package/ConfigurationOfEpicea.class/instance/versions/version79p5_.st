@@ -2,7 +2,7 @@ version79p5: spec
 	<version: '7.9.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* EpLog browse renamed to browseEvents to not hide usual meaning of browse.
 	* Many usefull methods on EpMonitor class side to retrive logs from file directory.

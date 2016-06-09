@@ -2,7 +2,7 @@ version46: spec
 	<version: '4.6' imports: #('4.6-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Prepared for integration into Pharo 4'.
 		spec author: 'MartinDias'.

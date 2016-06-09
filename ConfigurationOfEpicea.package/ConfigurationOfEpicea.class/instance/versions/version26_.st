@@ -2,7 +2,6 @@ version26: spec
 	<version: '2.6' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Ombu: Fix Ston materialization of RPackageTags.
 			- Epicea: Added a button to absent entry, enabling navigation between ombu files.

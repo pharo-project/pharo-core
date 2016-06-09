@@ -2,7 +2,7 @@ version77p4: spec
 	<version: '7.7.p4' imports: #('7.2.p4-baseline')>
 
 	spec for: #'pharo4.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Patch for Pharo 4.0: there was a problem to register a change in class comment.
 '.

@@ -2,7 +2,7 @@ version67: spec
 	<version: '6.7' imports: #('6.6-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Experiment: disable redo and undo tests because they seem to cause a problem during integration.
 '.

@@ -2,7 +2,7 @@ version54: spec
 	<version: '5.4' imports: #('5.4-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Set recording directory to user preferences directory, as it was in previous versions.
 	* Working in both Pharo 40 and current Pharo 50 (50170).

@@ -2,7 +2,6 @@ version12: spec
 	<version: '1.2' imports: #('1.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: 'Version showed at ESUG Innovation Technology Awards. Image used: Pharo-30381.'.
 		spec author: 'MartinDias'.
 		spec timestamp: '9/10/2013 09:57'.

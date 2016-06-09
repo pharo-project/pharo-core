@@ -2,7 +2,6 @@ version41: spec
 	<version: '4.1' imports: #('4.1-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 	* The base for files is a FileLocator instead of a FileReference. This way it should tolerate sending an image from one computer to another with epicea already enabled inside.
 	* Support for multiple themes, e.g. the DarkTheme.

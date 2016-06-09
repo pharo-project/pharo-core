@@ -2,7 +2,7 @@ version49: spec
 	<version: '4.9' imports: #('4.8-baseline' )>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Fixed bug when running tests from Nautilus.'.
 		spec author: 'MartinDias'.

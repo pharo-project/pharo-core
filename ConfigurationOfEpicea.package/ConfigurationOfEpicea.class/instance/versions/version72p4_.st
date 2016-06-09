@@ -2,7 +2,7 @@ version72p4: spec
 	<version: '7.2.p4' imports: #('7.2.p4-baseline')>
 
 	spec for: #'pharo4.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Split tests in Ombu.
 '.

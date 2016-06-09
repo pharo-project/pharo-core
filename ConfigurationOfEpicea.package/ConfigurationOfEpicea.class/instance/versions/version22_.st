@@ -2,7 +2,6 @@ version22: spec
 	<version: '2.2' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			Fixed bugs with refactorings.
 			'.

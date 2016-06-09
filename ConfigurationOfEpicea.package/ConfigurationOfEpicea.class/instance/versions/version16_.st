@@ -2,7 +2,6 @@ version16: spec
 	<version: '1.6' imports: #('1.4-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- Added icons to contextual menu.
 			- Some internal refactorings.

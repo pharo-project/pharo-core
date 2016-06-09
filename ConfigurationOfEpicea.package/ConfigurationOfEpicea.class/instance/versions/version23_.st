@@ -2,7 +2,6 @@ version23: spec
 	<version: '2.3' imports: #('2.0-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			Same code as 2.2, but safer for upgrading from previous versions.
 			'.

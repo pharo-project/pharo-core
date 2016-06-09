@@ -2,7 +2,6 @@ version33: spec
 	<version: '3.3' imports: #('3.3-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: ''.
 		spec author: 'MartinDias'.
 		spec timestamp: '15/04/2014'.

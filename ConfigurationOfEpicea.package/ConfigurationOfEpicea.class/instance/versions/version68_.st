@@ -2,7 +2,7 @@ version68: spec
 	<version: '6.8' imports: #('6.6-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Several fixes to undo and redo visitors.
 	* Fix in display building from Gustavo (thanks!).

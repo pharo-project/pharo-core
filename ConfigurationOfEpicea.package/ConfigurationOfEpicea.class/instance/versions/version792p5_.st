@@ -2,7 +2,7 @@ version792p5: spec
 	<version: '7.92.p5' imports: #('7.2.p5-baseline')>
 
 	spec for: #'pharo5.x' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Bug fix: auto detection lost changes should not fail when epicea directory is not exists
 '.

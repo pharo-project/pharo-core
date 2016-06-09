@@ -2,7 +2,7 @@ version63: spec
 	<version: '6.3' imports: #('6.1-baseline')>
 
 	spec for: #'common' do: [
-		spec blessing: #'stable'.
+		spec blessing: #'release'.
 		spec description: '
 	* Clean up with Code Critics.
 '.

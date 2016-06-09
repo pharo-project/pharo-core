@@ -2,7 +2,6 @@ version17: spec
 	<version: '1.7' imports: #('1.4-baseline') >
 
 	spec for: #'common' do: [
-		spec blessing: #'development'.
 		spec description: '
 			- ChangeSet importer.
 			- Working in Pharo #30570.
