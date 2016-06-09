@@ -20,7 +20,7 @@ delete
 	model ifNotNil: [ 
 		model 
 			windowIsClosing; 
-			release ].
+			releaseActionMap ].
 	model := nil.
 	animateClose ifTrue: [self animateClose].	
 	SystemWindow noteTopWindowIn: thisWorld.

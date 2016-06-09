@@ -1,4 +1,4 @@
 postCopy
 
 	super postCopy.
-	self release
+	self releaseActionMap.

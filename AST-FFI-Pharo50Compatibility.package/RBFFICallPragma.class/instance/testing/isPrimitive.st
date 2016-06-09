@@ -1,2 +1,0 @@
-isPrimitive
-	^ true

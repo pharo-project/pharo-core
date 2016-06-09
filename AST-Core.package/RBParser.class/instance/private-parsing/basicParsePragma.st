@@ -4,8 +4,6 @@ basicParsePragma
 		ifFalse: [
 			currentToken isKeyword
 				ifTrue: [ 	
-					currentToken isExternalFunctionKeyword 
-						ifTrue: [ ^ self externalFunctionDeclaration ].
 					currentToken isPrimitiveKeyword
 						ifTrue: [ ^ self parsePrimitiveKeywordPragma ].
 					self parseKeywordPragma ]

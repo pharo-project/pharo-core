@@ -1,4 +1,4 @@
 release
 	itemList := nil.
-	super release
+	self releaseActionMap.
 	

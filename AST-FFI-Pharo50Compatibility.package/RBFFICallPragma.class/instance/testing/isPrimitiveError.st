@@ -1,2 +1,0 @@
-isPrimitiveError
-	^ false

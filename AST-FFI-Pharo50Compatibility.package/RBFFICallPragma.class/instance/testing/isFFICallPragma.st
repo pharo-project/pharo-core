@@ -1,3 +1,0 @@
-isFFICallPragma
-
-	^ true
