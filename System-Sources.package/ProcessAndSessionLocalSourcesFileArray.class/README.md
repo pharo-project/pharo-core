@@ -1,1 +1,0 @@
-I hold a read only copy of the SourcesFile which is specific to the active process and to the current session (Smalltalk session). See my references.

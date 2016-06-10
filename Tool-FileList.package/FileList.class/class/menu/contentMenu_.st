@@ -39,7 +39,7 @@ contentMenu: aBuilder
 		icon: (self iconNamed: #smallPasteIcon).
 	(aBuilder item: #'Paste...' translated)
 		selector: #pasteRecent;
-		icon: (self icons iconNamed: #smallPasteIcon);
+		icon: (self iconNamed: #smallPasteIcon);
 		withSeparatorAfter .
 		
 	(aBuilder item: #'Do it' translated)

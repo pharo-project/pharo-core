@@ -4,4 +4,4 @@ ensureOpen
 	files :=
 		Array
 			with: PharoFilesOpener default sourcesFileOrNil
-			with: PharoFilesOpener default changesFileOrNil
+			with: PharoFilesOpener default changesFileOrNil.

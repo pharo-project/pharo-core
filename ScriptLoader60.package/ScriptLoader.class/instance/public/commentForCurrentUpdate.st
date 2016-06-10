@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18424 Remove Dependency AST -> FFI and unload AST-FFI-Pharo50Compatibility
-	https://pharo.fogbugz.com/f/cases/18424
+ ^ '18462 FileReference>>newTempFilePrefix:suffix:
+	https://pharo.fogbugz.com/f/cases/18462
 
-18367 Symbol>>#asIcon
-	https://pharo.fogbugz.com/f/cases/18367
+18458 fall back debug menu in FileLists preview pane context menu
+	https://pharo.fogbugz.com/f/cases/18458
 
-18186 Morphic event mechanism should be removed from the kernel
-	https://pharo.fogbugz.com/f/cases/18186
-
-18454 drawing menus: respect order of upper/lowercase keys 
-	https://pharo.fogbugz.com/f/cases/18454'
+18456 Add readOnlyQueue to SourceFilesArray
+	https://pharo.fogbugz.com/f/cases/18456'

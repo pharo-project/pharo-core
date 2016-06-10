@@ -4,4 +4,4 @@ newTempFilePrefix: prefix suffix: suffix
 	tmpDir := FileLocator temp asFileReference.
 	[ random := UUIDGenerator default generateRandomBitsOfLength: 100.
 	fileName := prefix , random asString, suffix ] doWhileTrue: [ (tmpDir / fileName) exists ].
-	^ fileName asFileReference
+	^ tmpDir / fileName

@@ -1,7 +1,6 @@
-script60074
+script60075
 
 	^ 'AST-Core-TheIntegrator.426.mcz
-AST-FFI-Pharo50Compatibility-TheIntegrator.9.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
 Alien-eem.32.mcz
 Announcements-Core-TheIntegrator.70.mcz
@@ -57,7 +56,7 @@ EpiceaBrowsersTests-MartinDias.2.mcz
 EpiceaTests-MD.6.mcz
 FFI-Kernel-EstebanLorenzano.41.mcz
 FFI-Pools-eem.3.mcz
-FileSystem-Core-TheIntegrator.203.mcz
+FileSystem-Core-TheIntegrator.205.mcz
 FileSystem-Disk-TheIntegrator.99.mcz
 FileSystem-Memory-TheIntegrator.57.mcz
 FileSystem-Tests-Core-TheIntegrator.95.mcz
@@ -338,8 +337,8 @@ System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.343.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.50.mcz
-System-Support-TheIntegrator.1231.mcz
+System-Sources-TheIntegrator.54.mcz
+System-Support-TheIntegrator.1232.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.765.mcz
@@ -357,7 +356,7 @@ Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
 Tool-Diff-TheIntegrator.35.mcz
 Tool-ExternalBrowser-TheIntegrator.49.mcz
-Tool-FileList-TheIntegrator.66.mcz
+Tool-FileList-TheIntegrator.68.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.67.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz

@@ -1,5 +1,5 @@
 Object subclass: #SourceFileArray
-	instanceVariableNames: 'files'
+	instanceVariableNames: 'files readOnlyQueue'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Sources'
