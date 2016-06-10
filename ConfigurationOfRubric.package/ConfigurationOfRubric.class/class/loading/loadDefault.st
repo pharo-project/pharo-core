@@ -1,2 +1,0 @@
-loadDefault
-	self loadDevelopment

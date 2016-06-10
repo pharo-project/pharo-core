@@ -1,3 +1,0 @@
-project
-
-	^self new project

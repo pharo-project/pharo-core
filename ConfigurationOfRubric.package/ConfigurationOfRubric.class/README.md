@@ -1,1 +1,0 @@
-ConfigurationOfRubric loadDevelopment.

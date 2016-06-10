@@ -1,4 +1,4 @@
-script60076
+script60077
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -228,7 +228,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-DenisKudryashov.197.mcz
 OmbuTests-MartinDias.4.mcz
-OpalCompiler-Core-TheIntegrator.814.mcz
+OpalCompiler-Core-TheIntegrator.816.mcz
 OpalCompiler-Tests-TheIntegrator.345.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
@@ -272,7 +272,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.372.mcz
+Rubric-AliakseiSyrel.373.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.3.mcz
 STON-Core-TheIntegrator.75.mcz
