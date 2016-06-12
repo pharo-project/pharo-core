@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18466 Make Rubric packages internal
-	https://pharo.fogbugz.com/f/cases/18466
+ ^ '18413 disable code completion in comment pane
+	https://pharo.fogbugz.com/f/cases/18413
 
-18465 EncoderForV3 does not have its specification in its comment
-	https://pharo.fogbugz.com/f/cases/18465
-
-18467 Make CodeImporter interal
-	https://pharo.fogbugz.com/f/cases/18467'
+18457 Allow # to be part of the string when searching senders and implementors
+	https://pharo.fogbugz.com/f/cases/18457'

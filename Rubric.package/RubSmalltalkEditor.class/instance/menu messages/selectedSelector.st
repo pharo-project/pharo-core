@@ -8,6 +8,8 @@ selectedSelector
 			n isMessage
 				ifTrue: [ ^ n selector ].
 			n isVariable
-				ifTrue: [ ^ n name ] ].
+				ifTrue: [ ^ n name ].
+			n isLiteralNode
+				ifTrue: [ ^ n value ] ].
 	"fall back"
 	^ self selection string asSymbol
