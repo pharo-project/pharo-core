@@ -4,7 +4,7 @@ yellowButtonActivity: shiftKeyState
 	self wantsYellowButtonMenu
 		ifFalse: [ ^ false ].	
 	(self getMenu: shiftKeyState)
-		ifNotNilDo: [ :menu|
+		ifNotNil: [ :menu|
 			menu setInvokingView: self editor.
 			menu invokeModal. 
 			self changed.

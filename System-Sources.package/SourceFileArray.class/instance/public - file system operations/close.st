@@ -1,12 +1,12 @@
 close
 		
-	| oldFiles "oldQueue" | 
+	| oldFiles oldQueue | 
 	
 	oldFiles := files.
+	oldQueue := readOnlyQueue.
 	files := Array new: 2.
-	"oldQueue := readOnlyQueue.
-	readOnlyQueue := SharedQueue new."
+	readOnlyQueue := SharedQueue new.
 
 	self closeFileArray: oldFiles.
 
-	"oldQueue flushAllSuchThat: [ :each | self closeFileArray: each. true]"
+	oldQueue flushAllSuchThat: [ :each | self closeFileArray: each. true]

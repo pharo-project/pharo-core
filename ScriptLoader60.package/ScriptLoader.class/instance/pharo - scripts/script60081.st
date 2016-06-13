@@ -1,4 +1,4 @@
-script60080
+script60081
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -272,7 +272,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.376.mcz
+Rubric-TheIntegrator.378.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.3.mcz
 STON-Core-TheIntegrator.75.mcz
@@ -337,11 +337,11 @@ System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.343.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.54.mcz
+System-Sources-TheIntegrator.60.mcz
 System-Support-TheIntegrator.1232.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.765.mcz
+Tests-TheIntegrator.768.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.118.mcz
@@ -372,7 +372,7 @@ Traits-TheIntegrator.918.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
-TxText-Model-EstebanLorenzano.63.mcz
+TxText-Model-PavelKrivanek.65.mcz
 TxText-Styler-MarcusDenker.17.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.187.mcz
@@ -384,10 +384,10 @@ UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-VincentBlondeau.32.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
-Versionner-Core-Commands-StephaneDucasse.64.mcz
-Versionner-Core-DependenciesModel-ChristopheDemarey.105.mcz
-Versionner-Core-Model-PavelKrivanek.53.mcz
-Versionner-Spec-Browser-PabloTesone.189.mcz
+Versionner-Core-Commands-MarcusDenker.65.mcz
+Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
+Versionner-Core-Model-PavelKrivanek.54.mcz
+Versionner-Spec-Browser-MarcusDenker.190.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

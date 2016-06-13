@@ -1,16 +1,22 @@
 readStreamAtFileIndex: index atPosition: position ifPresent: presentBlock ifAbsent: absentBlock
+ 
+   | queue stream rofa result |
+       
+  	queue := readOnlyQueue.
+  	rofa := queue nextOrNil ifNil: [ self createReadOnlyFiles ].
+       
+   rofa ifNil: [ ^ absentBlock value ].  
 
-	| stream |
-	stream := self fileAt: index.
-	stream ifNil: [ ^ absentBlock value ].	"sources file not available"	
+   stream := rofa at: index.
 
-	"file does not exist happens in secure mode"
-	stream := [ stream readOnlyCopy ]
-		on: FileDoesNotExistException
-		do: [ ^ absentBlock value ].
+   position > (files at: index) size ifTrue: [ 
+		self finishedReading: rofa from: queue. 
+		^ absentBlock value 
+	].
 
-	position > stream size ifTrue: [ ^ absentBlock value ].
-	stream position: position.
-	
-	^ [ presentBlock value: stream ]
-		ensure: [ stream close ]
+   stream position: position.
+   result := presentBlock value: stream.
+       
+	self finishedReading: rofa from: queue. 
+                      
+    ^ result
