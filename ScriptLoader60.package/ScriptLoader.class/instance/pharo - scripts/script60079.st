@@ -1,4 +1,4 @@
-script60078
+script60079
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2319.mcz
+Kernel-TheIntegrator.2320.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.71.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -210,7 +210,7 @@ Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.15.mcz
-NautilusRefactoring-TheIntegrator.281.mcz
+NautilusRefactoring-TheIntegrator.283.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18413 disable code completion in comment pane
-	https://pharo.fogbugz.com/f/cases/18413
+ ^ '18473 move var to class refactoring broken
+	https://pharo.fogbugz.com/f/cases/18473
 
-18457 Allow # to be part of the string when searching senders and implementors
-	https://pharo.fogbugz.com/f/cases/18457'
+18475 Do not announce method creation if the class is anonymous
+	https://pharo.fogbugz.com/f/cases/18475'

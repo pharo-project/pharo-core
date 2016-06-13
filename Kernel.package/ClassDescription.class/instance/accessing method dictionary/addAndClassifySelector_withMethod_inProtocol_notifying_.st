@@ -17,6 +17,8 @@ addAndClassifySelector: selector withMethod: compiledMethod inProtocol: category
 				ifFalse: [ category ]) ].
 	newProtocol := self organization categoryOfElement: selector.
 	
+	self isAnonymous ifTrue: [ ^ self ].
+	
 	(priorMethodOrNil isNil or: [ priorOriginOrNil ~= compiledMethod origin ])
 		ifTrue: [ SystemAnnouncer uniqueInstance methodAdded: compiledMethod ]
 		ifFalse: [ 

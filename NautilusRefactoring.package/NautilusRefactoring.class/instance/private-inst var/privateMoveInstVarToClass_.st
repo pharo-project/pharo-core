@@ -1,6 +1,6 @@
 privateMoveInstVarToClass: aClass
 	| newClass |
-	newClass := (SearchFacade classSearchInEnvironment: Smalltalk) chooseFromOwner: World.
+	newClass := (SearchFacade classSearchInEnvironment: RBBrowserEnvironment default) chooseFromOwner: World.
 	^ self class: aClass andInstVariable: [ :class :variable | 
 		RBMoveInstVarToClassRefactoring 
 			model: environment
