@@ -1,2 +1,2 @@
 oldClass: aClass
-	oldClass := aClass
+	oldClass := self classObjectFor: aClass

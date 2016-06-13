@@ -1,6 +1,6 @@
 executeWithDevWorkflow: aCommandClass
 	browser projectPanel project
-		ifNotNilDo: [ :project | | cmd |
+		ifNotNil: [ :project | | cmd |
 			 cmd := aCommandClass 
 						target: project	devWorkflow
 						for: self.

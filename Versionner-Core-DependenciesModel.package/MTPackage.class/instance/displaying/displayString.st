@@ -1,5 +1,5 @@
 displayString
 	^ version ifNil:
 		[ name ]
-			   ifNotNilDo:
+			   ifNotNil:
 		[ :aVersion | name, ' (', aVersion author , '.', aVersion name asString, ')' ].

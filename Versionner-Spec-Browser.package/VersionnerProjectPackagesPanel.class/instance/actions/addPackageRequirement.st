@@ -3,7 +3,7 @@ addPackageRequirement
 	
 	packagesList selectedItem
 		ifNil: [ UIManager default inform: 'No package selected' ]
-		ifNotNilDo: [ :packageNode |
+		ifNotNil: [ :packageNode |
 			|  potentialRequirements |
 			potentialRequirements := project dependencies 
 											reject: [ :item | | selectedPackage |

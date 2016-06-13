@@ -3,4 +3,4 @@ childNodeClassFor: anItem
 	
 	^ (self content project dependencyNamed: anItem) 
 		ifNil: [ VSGroupLeafNode] "can be nil for 'default' or 'ALL'"
-		ifNotNilDo: [ :dependency | dependency treeNodeClass ]
+		ifNotNil: [ :dependency | dependency treeNodeClass ]

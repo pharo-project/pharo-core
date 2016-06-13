@@ -8,7 +8,7 @@ initializePresenter
 	addProjectButton action: [ self addDependentProject ].
 	removeProjectButton
 		action: [ projectList selectedItem 
-					ifNotNilDo: [ :selectedItem | self removeDependentProject: selectedItem content ] ].
+					ifNotNil: [ :selectedItem | self removeDependentProject: selectedItem content ] ].
 	editProjectButton action: [ self editSelectedProjectLoads ].
 	
 	groupList whenSelectedItemsChanged: [ :selection | removeGroupButton enabled: selection notEmpty ].
@@ -16,10 +16,10 @@ initializePresenter
 	removeGroupButton
 		action: [ 
 			groupList selectedItem
-				ifNotNilDo: [ :selectedItem | | parentGroup |
+				ifNotNil: [ :selectedItem | | parentGroup |
 					parentGroup :=  groupList selectedItem parentNode
 											ifNil: [ nil ]
-											ifNotNilDo: [ :parentNode | parentNode content ].
+											ifNotNil: [ :parentNode | parentNode content ].
 					self 
 						remove: selectedItem content 
 						fromGroup: parentGroup ] ]

@@ -19,7 +19,7 @@ initializeWidgets
 	versionList := (self instantiate: VersionListModel )
 		icons: [:version | self iconForVersion: version ];
 		on: PharoShortcuts current browseShortcut do: [ versionList selectedItem 
-			ifNotNilDo: [ :selection |
+			ifNotNil: [ :selection |
 				(VSBrowseVersionCommand target: selection version for: self) execute ] ];
 		changedBlock: [ self hasChanges ];
 		yourself.

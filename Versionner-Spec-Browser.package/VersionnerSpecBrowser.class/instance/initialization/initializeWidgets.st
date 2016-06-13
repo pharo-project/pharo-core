@@ -7,8 +7,8 @@ initializeWidgets
 		handlesDoubleClick: true;
 		on: PharoShortcuts current browseShortcut 
 			do: [ configurationList selectedItem 
-					ifNotNilDo: [ :selection | selection configurationClass browse ] ];
-		doubleClickAction: [ configurationList selectedItem ifNotNilDo: [ :selection | 
+					ifNotNil: [ :selection | selection configurationClass browse ] ];
+		doubleClickAction: [ configurationList selectedItem ifNotNil: [ :selection | 
 				self browseConfiguration: selection ] ];
 		yourself.
 	

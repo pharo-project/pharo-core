@@ -3,7 +3,7 @@ update
 
 	versionList selectedItem
 		ifNil: [ projectPanel project: nil ]
-		ifNotNilDo: [ :selectedVersion | 
+		ifNotNil: [ :selectedVersion | 
 			project := MTProject 
 						newFromVersion: selectedVersion version
 						inConfiguration: configuration configurationClass.

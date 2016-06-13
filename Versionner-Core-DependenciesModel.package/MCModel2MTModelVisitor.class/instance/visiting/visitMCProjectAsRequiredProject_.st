@@ -8,7 +8,7 @@ visitMCProjectAsRequiredProject: aProject
 	requiredProject name: (aProject className ifNil: [aProject name] ifNotNil: [ :className | className configurationBaseName]).
 	requiredProject configurationClass: aProject projectClass.
 	requiredProject repositories: (aProject repositorySpecs collect: [ :aRepoSpec | aRepoSpec description]).
-	requiredProject dependencies: (aProject loads ifNil: [ #() ] ifNotNilDo: [ :loads | loads ]) asOrderedCollection.
+	requiredProject dependencies: (aProject loads ifNil: [ #() ] ifNotNil: [ :loads | loads ]) asOrderedCollection.
 	
 	version := MTVersion fromVersionString: aProject versionString.
 	requiredProject version: version.

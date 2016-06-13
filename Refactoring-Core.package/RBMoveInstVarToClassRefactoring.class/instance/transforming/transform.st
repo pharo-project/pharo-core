@@ -1,10 +1,11 @@
+"protocol: transforming"
 transform
 	| brokenSenders |
 	class addInstanceVariable: variableName asString.
-	oldClass removeInstVarNamed: variableName asString.
+	oldClass removeInstanceVariable: variableName asString.
 	brokenSenders := self collectSendersOfInstVar.
 	brokenSenders ifNotEmpty: [ 
 		Smalltalk tools messageList
-			browse: brokenSenders 
+			browse: (brokenSenders collect:#method)
 			title: 'Broken methods' 
 			autoSelect: brokenSenders first selector] 

@@ -6,4 +6,4 @@ repositories
 		ifNil: [ ^nil ].
 	^ mcPackage workingCopy
 		ifNil: [ nil ]
-		ifNotNilDo: [ :wc | wc repositoryGroup repositories ]
+		ifNotNil: [ :wc | wc repositoryGroup repositories ]

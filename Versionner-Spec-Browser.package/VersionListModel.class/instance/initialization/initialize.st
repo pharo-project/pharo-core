@@ -4,4 +4,4 @@ initialize
 	selectionHolder 
 		whenChangedDo: [ selectionVersionString := (self listElementAt: self selectedIndex)
 															ifNil: [ nil ]
-															ifNotNilDo: [ :item | item versionString] ]
+															ifNotNil: [ :item | item versionString] ]

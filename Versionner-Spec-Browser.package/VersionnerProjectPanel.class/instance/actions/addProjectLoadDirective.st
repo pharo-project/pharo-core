@@ -3,7 +3,7 @@ addProjectLoadDirective
 	
 	projectList selectedItem
 		ifNil: [ UIManager default inform: 'No project selected' ]
-		ifNotNilDo: [ :requiredProject |
+		ifNotNil: [ :requiredProject |
 			^ UIManager default request: 'Package or group to load?' 
 			"|  potentialRequirements |
 			potentialRequirements := project dependencies collect: [ :dependency | dependency name ].
