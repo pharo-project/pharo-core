@@ -1,0 +1,2 @@
+handleProcessTerminationOfWaitingContext: suspendedContext
+	^suspendedContext

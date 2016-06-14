@@ -22,12 +22,10 @@ terminate
 			"Always suspend the process first so it doesn't accidentally get woken up"
 			oldList := self suspend.
 			suspendedContext ifNotNil: [
-				"Figure out if we are terminating the process while waiting in Semaphore>>critical:
-				In this case, pop the suspendedContext so that we leave the ensure: block inside
-				Semaphore>>critical: without signaling the semaphore."
-				(oldList class == Semaphore and: [
-					suspendedContext method == (Semaphore compiledMethodAt: #critical:) ]) ifTrue: [
-						suspendedContext := suspendedContext home ].
+				"Figure out if we are terminating the process while waiting inside special object like
+				in Semaphore>>critical:. So if waiting object is interesting on this situation we will ask it to handle it. In case of Semaphore>>critical, Semaphore will pop the suspendedContext so that we leave the ensure: block inside	Semaphore>>critical: without signaling the semaphore.
+				This methods allow to not be restricted only on Semaphore case."
+				suspendedContext := oldList handleProcessTerminationOfWaitingContext: suspendedContext.
 
 				"If we are terminating a process halfways through an unwind, try to complete that unwind block first."
 				(suspendedContext findNextUnwindContextUpTo: nil) ifNotNil: [ :outer |

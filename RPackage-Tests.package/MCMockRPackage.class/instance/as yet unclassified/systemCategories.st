@@ -1,2 +1,0 @@
-systemCategories
-	^ Array with: 'MonticelloMocks'
