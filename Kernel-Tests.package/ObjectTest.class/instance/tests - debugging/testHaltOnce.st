@@ -1,7 +1,7 @@
 testHaltOnce
-	| anObject |
+	| anObject block |
 	anObject := Object new.
+	block :=  [ anObject haltOnce ].
 	Halt enableHaltOnce.
-	self should: [ anObject haltOnce ] raise: Halt.
-	Halt disableHaltOnce.
-	anObject haltOnce
+	self should: block raise: Halt.
+	block value.

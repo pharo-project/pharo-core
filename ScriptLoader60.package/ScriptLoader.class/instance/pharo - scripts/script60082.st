@@ -1,4 +1,4 @@
-script60081
+script60082
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2320.mcz
+Kernel-TheIntegrator.2322.mcz
 Kernel-Rules-TheIntegrator.5.mcz
-Kernel-Tests-TheIntegrator.71.mcz
+Kernel-Tests-TheIntegrator.73.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.57.mcz
@@ -178,8 +178,8 @@ MonticelloGUI-TheIntegrator.419.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.554.mcz
-Morphic-Core-TheIntegrator.285.mcz
+Morphic-Base-TheIntegrator.556.mcz
+Morphic-Core-TheIntegrator.287.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.95.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.249.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1260.mcz
+Nautilus-TheIntegrator.1262.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -248,7 +248,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.320.mcz
-Refactoring-Critics-TheIntegrator.267.mcz
+Refactoring-Critics-TheIntegrator.270.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
@@ -348,7 +348,7 @@ Text-Edition-TheIntegrator.118.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.154.mcz
+Tool-Base-TheIntegrator.156.mcz
 Tool-Catalog-PavelKrivanek.37.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

@@ -1,3 +1,2 @@
 enableHaltOnce
-	"self enableHaltOnce"
-	isHaltOnceEnabled := true.
+	 #haltOnce senders do: #recompile.

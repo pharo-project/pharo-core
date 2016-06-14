@@ -1,5 +1,5 @@
 haltSelectors
 	| objectConvenience miscellaneous |
 	objectConvenience := Object allSelectorsInProtocol: #halting.
-	miscellaneous := #(clearHaltOnce inspectOnce setHaltOnce).
+	miscellaneous := #(inspectOnce).
 	^ objectConvenience, miscellaneous

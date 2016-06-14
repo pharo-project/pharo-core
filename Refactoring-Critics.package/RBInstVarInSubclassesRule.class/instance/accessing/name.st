@@ -1,2 +1,2 @@
 name
-	^ 'Instance variables defined in all subclasses'
+	^ 'Same instance variable defined in ALL subclasses'

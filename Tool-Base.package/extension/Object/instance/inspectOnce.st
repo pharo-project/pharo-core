@@ -1,6 +1,8 @@
 inspectOnce
 	"Inspect unless we have already done it once."
 	
-	Halt isHaltOnceEnabled ifTrue: [
-		Halt disableHaltOnce.
-		^ self inspect ].
+	| node |
+	node := thisContext sender sourceNodeExecuted.
+	(node hasProperty: #inspectOnce) ifTrue: [^self]. 
+	node propertyAt: #inspectOnce put: true.
+	^self inspect

@@ -36,6 +36,4 @@ systemOn: aBuilder
 			
 			(aBuilder item: #'Restore display (r)') 
 				action: [World restoreMorphicDisplay].
-			Halt isHaltOnceEnabled
-				ifTrue: [(aBuilder item: 'Disable halt/inspect once') action: [self clearHaltOnce]]
-				ifFalse: [(aBuilder item: 'Enable halt/inspect once') action: [self setHaltOnce]]].
+			(aBuilder item: 'Activate all halt once') action: [Halt enableHaltOnce]].

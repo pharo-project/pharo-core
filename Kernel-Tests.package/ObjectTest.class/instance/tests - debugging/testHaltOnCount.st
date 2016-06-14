@@ -4,7 +4,6 @@ testHaltOnCount
 	anObject := Object new.
 	
 	"Halts regardless of whether HaltOnce is false for the image"
-	Halt disableHaltOnce.
 	self shouldHaltWhen: [ anObject haltOnCount: 1 ].
 
 	"Should halt if executed enough times"	

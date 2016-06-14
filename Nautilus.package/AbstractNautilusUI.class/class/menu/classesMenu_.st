@@ -11,6 +11,13 @@ classesMenu: aBuilder
 		enabledBlock: [ target selectedClasses size <= 1 ];
 		order: -99;
 		withSeparatorAfter.
+		
+	(aBuilder item: #'Class refs...')
+		keyText: 'b, N' if: Nautilus useOldStyleKeys not;
+		keyText: 'N' if: Nautilus useOldStyleKeys;
+		action: [target browseClassRefs];
+		order: -99.	
+		
 	(aBuilder item: #'Browse scoped')
 		keyText: 'b, s' if: Nautilus useOldStyleKeys not;
 		keyText: 'B' if: Nautilus useOldStyleKeys;

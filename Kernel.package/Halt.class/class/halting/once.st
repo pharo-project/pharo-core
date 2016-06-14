@@ -1,6 +1,7 @@
 once
-	"To enable, use self enableHaltOnce"
-	<debuggerCompleteToSender>	
-	self isHaltOnceEnabled ifTrue: [
-			self disableHaltOnce.
-			^ self signal]
+	| node |
+	<debuggerCompleteToSender>
+	node := thisContext sender sender sourceNodeExecuted.
+	(node hasProperty: #haltOnce) ifTrue: [^self]. 
+	node propertyAt: #haltOnce put: true.
+	^ self signal.
