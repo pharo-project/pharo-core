@@ -1,9 +1,5 @@
 setRefreshingBlockForSendersOf: aSelector
-	| specialFlag specialByte |
-	
-	specialFlag := Smalltalk 
-				hasSpecialSelector: aSelector
-				ifTrueSetByte: [ :b | specialByte := b ].
-
+	| specialIndex |
+	specialIndex := Smalltalk specialSelectorIndexOrNil: aSelector.
 	self refreshingBlock: [:method | 
-		(method refersToLiteral: aSelector) or: [ specialFlag and: [ method scanFor: specialByte ]]]
+		method hasSelector: aSelector specialSelectorIndex: specialIndex ]

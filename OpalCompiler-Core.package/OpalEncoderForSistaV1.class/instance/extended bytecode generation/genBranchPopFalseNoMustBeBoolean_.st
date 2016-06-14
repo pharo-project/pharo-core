@@ -1,0 +1,3 @@
+genBranchPopFalseNoMustBeBoolean: distance
+	self genNoMustBeBooleanFlag.
+	self genBranchPopFalseLong: distance

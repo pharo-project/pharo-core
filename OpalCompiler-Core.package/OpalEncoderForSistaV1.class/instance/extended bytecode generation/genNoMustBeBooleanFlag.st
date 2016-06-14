@@ -1,0 +1,2 @@
+genNoMustBeBooleanFlag
+	self genUnsignedSingleExtendA: 1

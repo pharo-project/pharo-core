@@ -1,7 +1,7 @@
 genPushLiteralVar: literalIndex
 	| extendedIndex |
-	(literalIndex < 0 or: [literalIndex > 65535]) ifTrue:
-		[^self outOfRangeError: 'index' index: literalIndex range: 0 to: 65535].
+	(literalIndex < 0 or: [literalIndex > 32768]) ifTrue:
+		[^self outOfRangeError: 'index' index: literalIndex range: 0 to: 32768].
 	literalIndex < 16 ifTrue: 
 		["16-31		0001 i i i i		Push Literal Variable #iiii"
 		 stream nextPut: 16 + literalIndex.

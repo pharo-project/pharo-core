@@ -1,4 +1,4 @@
-script60083
+script60084
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2323.mcz
+Kernel-TheIntegrator.2324.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.73.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -228,7 +228,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-DenisKudryashov.197.mcz
 OmbuTests-MartinDias.4.mcz
-OpalCompiler-Core-TheIntegrator.816.mcz
+OpalCompiler-Core-TheIntegrator.818.mcz
 OpalCompiler-Tests-TheIntegrator.345.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
@@ -307,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.270.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
 Spec-SelectEntity-TheIntegrator.3.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.331.mcz
+Spec-Tools-TheIntegrator.333.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -338,7 +338,7 @@ System-Settings-TheIntegrator.343.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz
-System-Support-TheIntegrator.1232.mcz
+System-Support-TheIntegrator.1234.mcz
 System-SupportTests-TheIntegrator.2.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.768.mcz
@@ -348,7 +348,7 @@ Text-Edition-TheIntegrator.118.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.156.mcz
+Tool-Base-TheIntegrator.157.mcz
 Tool-Catalog-PavelKrivanek.37.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
@@ -368,7 +368,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.39.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.918.mcz
+Traits-TheIntegrator.920.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
