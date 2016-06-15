@@ -1,4 +1,4 @@
-script60084
+script60085
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -179,7 +179,7 @@ MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-EstebanLorenzano.16.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.556.mcz
-Morphic-Core-TheIntegrator.287.mcz
+Morphic-Core-TheIntegrator.289.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.95.mcz
@@ -196,7 +196,7 @@ Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.58.mcz
 Morphic-Widgets-Windows-TheIntegrator.103.mcz
-Multilingual-Encodings-TheIntegrator.61.mcz
+Multilingual-Encodings-TheIntegrator.63.mcz
 Multilingual-Languages-TheIntegrator.57.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
@@ -297,9 +297,9 @@ Slot-TheIntegrator.753.mcz
 Slot-Tests-TheIntegrator.92.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.471.mcz
+Spec-Core-TheIntegrator.473.mcz
 Spec-Debugger-TheIntegrator.265.mcz
-Spec-Examples-TheIntegrator.112.mcz
+Spec-Examples-TheIntegrator.114.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.262.mcz
 Spec-Layout-TheIntegrator.69.mcz

@@ -48,7 +48,9 @@ generateKeyboardEvent: evtBuf
 					buttons: buttons
 					hand: self
 					stamp: stamp].
-
+   "If charCode is not single-byte, we definately have Unicode input. Zero keyValue to avoid garbage values from som VMs."
+   self flag:'I need to look at the windows vm side, to see why this keyvalue is generated in the first place'.
+   (charCode notNil and:[charCode > 255]) ifTrue: [keyValue:=0].
 	keyEvent := KeyboardEvent new
 		setType: type
 		buttons: buttons
