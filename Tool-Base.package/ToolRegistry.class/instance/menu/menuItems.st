@@ -12,6 +12,5 @@ menuItems
 		('Process Browser' 			#openProcessBrowser)
 		-
 		('Monticello Browser'		#openMonticelloBrowser)
-		('Recover lost changes...'	#openRecentChangesLog)
 		('Change Sorter'			#openChangeSorter)
 	)

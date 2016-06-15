@@ -1,4 +1,4 @@
-script60085
+script60086
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -31,7 +31,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.417.mcz
+Collections-Strings-TheIntegrator.419.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.56.mcz
 Collections-Unordered-TheIntegrator.234.mcz
@@ -149,11 +149,11 @@ MenuRegistration-TheIntegrator.84.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
-Metacello-Core-TheIntegrator.828.mcz
+Metacello-Core-TheIntegrator.830.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
-Metacello-MC-EstebanLorenzano.733.mcz
+Metacello-MC-TheIntegrator.735.mcz
 Metacello-PharoCommonPlatform-TheIntegrator.24.mcz
 Metacello-Platform-TheIntegrator.5.mcz
 Metacello-ProfStef-EstebanLorenzano.18.mcz
@@ -165,7 +165,7 @@ Metacello-TestsMCCore-EstebanLorenzano.8.mcz
 Metacello-TestsMCResources-EstebanLorenzano.33.mcz
 Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
-Metacello-ToolBox-EstebanLorenzano.148.mcz
+Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
 Monticello-TheIntegrator.1142.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.8.mcz
@@ -194,7 +194,7 @@ Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
 Morphic-Widgets-Tabs-TheIntegrator.20.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
-Morphic-Widgets-Tree-TheIntegrator.58.mcz
+Morphic-Widgets-Tree-TheIntegrator.60.mcz
 Morphic-Widgets-Windows-TheIntegrator.103.mcz
 Multilingual-Encodings-TheIntegrator.63.mcz
 Multilingual-Languages-TheIntegrator.57.mcz
@@ -210,7 +210,7 @@ Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.15.mcz
-NautilusRefactoring-TheIntegrator.283.mcz
+NautilusRefactoring-TheIntegrator.285.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
@@ -295,9 +295,9 @@ Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.753.mcz
 Slot-Tests-TheIntegrator.92.mcz
-SmartSuggestions-TheIntegrator.234.mcz
-SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.473.mcz
+SmartSuggestions-TheIntegrator.236.mcz
+SmartSuggestions-Tests-TheIntegrator.35.mcz
+Spec-Core-TheIntegrator.474.mcz
 Spec-Debugger-TheIntegrator.265.mcz
 Spec-Examples-TheIntegrator.114.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -307,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.270.mcz
 Spec-PolyWidgets-TheIntegrator.68.mcz
 Spec-SelectEntity-TheIntegrator.3.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.333.mcz
+Spec-Tools-TheIntegrator.335.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -348,7 +348,7 @@ Text-Edition-TheIntegrator.118.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.157.mcz
+Tool-Base-TheIntegrator.159.mcz
 Tool-Catalog-PavelKrivanek.37.mcz
 Tool-CriticBrowser-TheIntegrator.24.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

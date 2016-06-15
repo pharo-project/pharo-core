@@ -6,8 +6,5 @@ menuCommandOn: aBuilder
 		with: [
 			(aBuilder item: #'Change Sorter')
 				action:[self open]; 
-				icon: self taskbarIcon.				
-			(aBuilder item: #'Recover lost changes...') 
-				icon: (Smalltalk ui icons iconNamed: #recoverLostChangesIcon);
-				action: [Smalltalk tools changeList browseRecentLog].].			
+				icon: self taskbarIcon].			
 	aBuilder withSeparatorAfter.		

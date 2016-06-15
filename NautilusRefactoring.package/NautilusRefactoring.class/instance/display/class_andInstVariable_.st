@@ -1,6 +1,7 @@
 class: aClass andInstVariable: aBlock
 	| variables index variable class |
 	variables := aClass instVarNames sorted.
+	variables ifEmpty:[ ^ self notifyNoVariablesIn: aClass].
 	index := self chooseFrom: variables.
 	variable := variables at: index.
 	class := aClass whichClassDefinesInstVar: variable.
