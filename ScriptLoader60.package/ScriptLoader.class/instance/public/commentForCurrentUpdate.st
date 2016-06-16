@@ -1,12 +1,3 @@
 commentForCurrentUpdate
- ^ '18484 instance variable refactoring without instance variables
-	https://pharo.fogbugz.com/f/cases/18484
-
-18489  remove more old deprecated methods
-	https://pharo.fogbugz.com/f/cases/18489
-
-18488 remove "recover lost changes..."
-	https://pharo.fogbugz.com/f/cases/18488
-
-18486 remove some methods deprecated in Pharo 5
-	https://pharo.fogbugz.com/f/cases/18486'
+ ^ '18497 EncoderForSistaV1: last integration to be usable.
+	https://pharo.fogbugz.com/f/cases/18497'
