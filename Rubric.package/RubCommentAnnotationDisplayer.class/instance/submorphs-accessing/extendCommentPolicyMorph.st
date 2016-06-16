@@ -1,5 +1,5 @@
 extendCommentPolicyMorph
 	^ IconicButton new
-		labelGraphic: Smalltalk ui icons expandBoxIcon;
+		labelGraphic: (Smalltalk ui icons iconNamed: #expandBoxIcon);
 		color: Color transparent;
-		borderWidth: 0 
+		borderWidth: 0

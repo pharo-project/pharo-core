@@ -1,2 +1,2 @@
 glamorousLeft
-	^ Smalltalk ui icons glamorousLeft
+	^ Smalltalk ui icons iconNamed: #glamorousLeft

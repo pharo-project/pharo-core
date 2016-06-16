@@ -1,3 +1,2 @@
 icon
-
-	^ Smalltalk ui icons dirtyPackageIcon
+	^ Smalltalk ui icons iconNamed: #dirtyPackageIcon

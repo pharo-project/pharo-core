@@ -1,2 +1,2 @@
 glamorousExample
-	^ Smalltalk ui icons glamorousExample
+	^ Smalltalk ui icons iconNamed: #glamorousExample

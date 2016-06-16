@@ -1,3 +1,2 @@
 repositoryIcon: a
- 
-	^Smalltalk ui icons monticelloPackageIcon	
+	^ Smalltalk ui icons iconNamed: #monticelloPackageIcon

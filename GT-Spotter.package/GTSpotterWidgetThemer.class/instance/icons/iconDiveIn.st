@@ -1,3 +1,2 @@
 iconDiveIn
-
-	^ Smalltalk ui icons glamorousDiveRightIcon
+	^ Smalltalk ui icons iconNamed: #glamorousDiveRightIcon

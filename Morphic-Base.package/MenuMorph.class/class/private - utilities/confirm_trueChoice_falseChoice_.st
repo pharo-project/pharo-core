@@ -7,10 +7,13 @@ confirm: queryString trueChoice: trueChoice falseChoice: falseChoice
 		falseChoice: 'no, I just thought'"
 
 	| menu aBlock result |
-	(ProvideAnswerNotification signal: queryString) ifNotNil: [ :answer | ^ trueChoice = answer ].
+	(ProvideAnswerNotification signal: queryString)
+		ifNotNil: [ :answer | ^ trueChoice = answer ].
 	aBlock := [ :v | result := v ].
 	menu := self new.
-	menu addTitle: queryString icon: Smalltalk ui icons confirmIcon.
+	menu
+		addTitle: queryString
+		icon: (Smalltalk ui icons iconNamed: #confirmIcon).
 	menu
 		add: trueChoice
 		target: aBlock
@@ -21,7 +24,9 @@ confirm: queryString trueChoice: trueChoice falseChoice: falseChoice
 		target: aBlock
 		selector: #value:
 		argument: false.
-	[ 
-	menu invokeAt: ActiveHand position in: ActiveWorld allowKeyboard: true.
+	[ menu
+		invokeAt: ActiveHand position
+		in: ActiveWorld
+		allowKeyboard: true.
 	result isNil ] whileTrue.
 	^ result

@@ -1,4 +1,4 @@
 newCheckboxMarkerForm
 	"Answer a new checkbox marker form."
 
-	^ Smalltalk ui icons checkboxMarkerForm
+	^ Smalltalk ui icons iconNamed: #checkboxMarkerForm

@@ -1,6 +1,6 @@
 createRenameTemporaryVariable
 	<tempVarCommand>
-	^ SugsRenameTemporaryVar 
-		icon: Smalltalk ui icons smallLanguageIcon
+	^ SugsRenameTemporaryVar
+		icon: (Smalltalk ui icons iconNamed: #smallLanguageIcon)
 		position: 10
 		keyText: 'r'

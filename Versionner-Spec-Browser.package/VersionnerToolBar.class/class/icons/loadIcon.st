@@ -1,2 +1,2 @@
 loadIcon
-	^ Smalltalk ui icons downIcon 
+	^ Smalltalk ui icons iconNamed: #downIcon

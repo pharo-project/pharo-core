@@ -1,3 +1,2 @@
 taskbarIcon
-
-	^ Smalltalk ui icons smallDebugIcon
+	^ Smalltalk ui icons iconNamed: #smallDebugIcon

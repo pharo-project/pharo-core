@@ -1,2 +1,2 @@
 defaultIcon
-	^ Smalltalk ui icons smallConfigurationIcon
+	^ Smalltalk ui icons iconNamed: #smallConfigurationIcon

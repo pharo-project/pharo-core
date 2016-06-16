@@ -1,2 +1,2 @@
-visitMonticelloVersionsLoad: aMonticelloVersionLoaded 
-	^ Smalltalk ui icons packageIcon
+visitMonticelloVersionsLoad: aMonticelloVersionLoaded
+	^ Smalltalk ui icons iconNamed: #packageIcon

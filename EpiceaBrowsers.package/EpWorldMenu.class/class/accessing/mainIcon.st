@@ -1,3 +1,2 @@
 mainIcon
-
-	^ Smalltalk ui icons recoverLostChangesIcon
+	^ Smalltalk ui icons iconNamed: #recoverLostChangesIcon

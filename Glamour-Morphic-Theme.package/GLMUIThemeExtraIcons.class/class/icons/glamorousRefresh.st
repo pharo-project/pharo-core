@@ -1,2 +1,2 @@
 glamorousRefresh
-	^ Smalltalk ui icons glamorousRefresh
+	^ Smalltalk ui icons iconNamed: #glamorousRefresh

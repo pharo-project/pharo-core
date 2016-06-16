@@ -1,2 +1,2 @@
 glamorousThrough
-	^ Smalltalk ui icons glamorousThrough
+	^ Smalltalk ui icons iconNamed: #glamorousThrough

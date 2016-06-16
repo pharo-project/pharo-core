@@ -1,2 +1,2 @@
 visitExpressionEvaluation: anExpressionEvaluation
-	^ Smalltalk ui icons workspaceIcon 
+	^ Smalltalk ui icons iconNamed: #workspaceIcon

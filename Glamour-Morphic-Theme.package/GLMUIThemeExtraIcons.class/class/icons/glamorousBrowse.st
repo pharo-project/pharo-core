@@ -1,2 +1,2 @@
 glamorousBrowse
-	^ Smalltalk ui icons glamorousBrowse
+	^ Smalltalk ui icons iconNamed: #glamorousBrowse

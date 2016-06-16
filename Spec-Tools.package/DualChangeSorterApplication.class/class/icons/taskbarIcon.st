@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons changeSorterIcon
+	^ Smalltalk ui icons iconNamed: #changeSorterIcon

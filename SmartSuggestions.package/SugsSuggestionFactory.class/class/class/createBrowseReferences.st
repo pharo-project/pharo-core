@@ -1,5 +1,5 @@
 createBrowseReferences
 	<classCommand>
-	^ SugsBrowseClassReferences 
-		icon: Smalltalk ui icons smallInspectItIcon
+	^ SugsBrowseClassReferences
+		icon: (Smalltalk ui icons iconNamed: #smallInspectItIcon)
 		position: 10

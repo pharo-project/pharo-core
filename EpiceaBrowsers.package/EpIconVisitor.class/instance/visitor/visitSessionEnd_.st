@@ -1,2 +1,2 @@
-visitSessionEnd: anEvent 
-	^ Smalltalk ui icons smallQuitIcon
+visitSessionEnd: anEvent
+	^ Smalltalk ui icons iconNamed: #smallQuitIcon

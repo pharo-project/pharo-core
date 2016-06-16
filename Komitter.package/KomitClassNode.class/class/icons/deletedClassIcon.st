@@ -1,5 +1,4 @@
 deletedClassIcon
-
-	^ deletedClassIcon ifNil: [ 
-		deletedClassIcon := (self defaultClassIcon asFormOfDepth: 32)
-			mergeBottomRightWith: (Smalltalk ui icons overlayRemove) ].
+	^ deletedClassIcon
+		ifNil: [ deletedClassIcon := (self defaultClassIcon asFormOfDepth: 32)
+				mergeBottomRightWith: (Smalltalk ui icons iconNamed: #overlayRemove) ]

@@ -1,2 +1,2 @@
 visitUndo: anUndoEvent
-	^ Smalltalk ui icons smallUndoIcon
+	^ Smalltalk ui icons iconNamed: #smallUndoIcon

@@ -1,2 +1,2 @@
 additionIcon
-	^ Smalltalk ui icons changeAddIcon
+	^ Smalltalk ui icons iconNamed: #changeAddIcon

@@ -1,3 +1,2 @@
 defaultIcon
-
-	^ Smalltalk ui icons blankIcon
+	^ Smalltalk ui icons iconNamed: #blankIcon

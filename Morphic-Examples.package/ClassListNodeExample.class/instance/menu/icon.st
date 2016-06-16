@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons smallExpertIcon
+	^ Smalltalk ui icons iconNamed: #smallExpertIcon

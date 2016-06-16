@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons smallFindIcon
+	^ Smalltalk ui icons iconNamed: #smallFindIcon

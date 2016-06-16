@@ -1,10 +1,7 @@
 iconFor: anRPackageOrClass
-	
 	anRPackageOrClass isBehavior
 		ifTrue: [ ^ Smalltalk ui icons iconNamed: #classIcon ].
-	
-	RPackageOrganizer default 
+	RPackageOrganizer default
 		packageNamed: anRPackageOrClass name
 		ifAbsent: [ ^ Smalltalk ui icons iconNamed: #emptyPackageIcon ].
-
-	^ Smalltalk ui icons packageIcon
+	^ Smalltalk ui icons iconNamed: #packageIcon

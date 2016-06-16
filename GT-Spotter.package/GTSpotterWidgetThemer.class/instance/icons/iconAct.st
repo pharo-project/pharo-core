@@ -1,3 +1,2 @@
 iconAct
-
-	^ Smalltalk ui icons glamorousAccept
+	^ Smalltalk ui icons iconNamed: #glamorousAccept

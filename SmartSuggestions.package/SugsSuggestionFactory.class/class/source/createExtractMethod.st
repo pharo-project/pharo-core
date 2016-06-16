@@ -2,6 +2,6 @@ createExtractMethod
 	<messageCommand>
 	<literalCommand>
 	<blockCommand>
-	^ SugsExtractMethod 
-		icon: Smalltalk ui icons smallUpdateIcon
+	^ SugsExtractMethod
+		icon: (Smalltalk ui icons iconNamed: #smallUpdateIcon)
 		position: 50

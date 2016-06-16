@@ -1,2 +1,2 @@
 glamorousCancel
-	^ Smalltalk ui icons glamorousCancel
+	^ Smalltalk ui icons iconNamed: #glamorousCancel

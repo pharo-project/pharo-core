@@ -1,4 +1,4 @@
 icon
 	"Answer an icon for the receiver."
-	
-	^ Smalltalk ui icons errorIcon
+
+	^ Smalltalk ui icons iconNamed: #errorIcon

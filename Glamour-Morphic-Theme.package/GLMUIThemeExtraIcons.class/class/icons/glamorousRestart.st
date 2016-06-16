@@ -1,2 +1,2 @@
 glamorousRestart
-	^ Smalltalk ui icons glamorousRestart
+	^ Smalltalk ui icons iconNamed: #glamorousRestart

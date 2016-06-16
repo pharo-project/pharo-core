@@ -1,2 +1,2 @@
 glamourousNextProduction
-	^ Smalltalk ui icons glamourousNextProduction
+	^ Smalltalk ui icons iconNamed: #glamourousNextProduction

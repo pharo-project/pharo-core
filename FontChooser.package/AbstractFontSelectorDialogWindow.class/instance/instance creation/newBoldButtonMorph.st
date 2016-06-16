@@ -1,11 +1,11 @@
 newBoldButtonMorph
 	"Answer a button for the boldness of the font."
-	
-	^self
+
+	^ self
 		newButtonFor: self
 		getState: #isBold
 		action: #toggleBold
 		arguments: nil
 		getEnabled: nil
-		labelForm: Smalltalk ui icons smallBoldIcon
+		labelForm: (Smalltalk ui icons iconNamed: #smallBoldIcon)
 		help: 'Toggle bold font' translated

@@ -1,4 +1,4 @@
-screenShotCommandOn: aBuilder 
+screenShotCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #Screenshot)
 		parent: #Tools;
@@ -6,4 +6,4 @@ screenShotCommandOn: aBuilder
 		order: 0.59;
 		selector: #makeAScreenshot;
 		label: 'Screenshot';
-		icon: Smalltalk ui icons smallScreenshotIcon
+		icon: (Smalltalk ui icons iconNamed: #smallScreenshotIcon)

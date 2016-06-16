@@ -1,2 +1,2 @@
 glamorousSave
-	^ Smalltalk ui icons glamorousSave
+	^ Smalltalk ui icons iconNamed: #glamorousSave

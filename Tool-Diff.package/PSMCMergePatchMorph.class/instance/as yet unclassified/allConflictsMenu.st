@@ -1,18 +1,18 @@
 allConflictsMenu
 	"Answer the all conflicts menu."
 
-	|menu|
+	| menu |
 	menu := UIManager default newMenuIn: self for: self.
-		menu
+	menu
 		addToggle: 'Keep current version of all' translated
 		target: self
 		selector: #keepAllCurrentVersion
 		getStateSelector: nil
 		enablementSelector: #hasAnyNonKeptConflicts.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallBackIcon;
-		keyText: 'Shift+Cmd+c'.	
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallBackIcon);
+		keyText: 'Shift+Cmd+c'.
 	menu
 		addToggle: 'Use incoming version of all' translated
 		target: self
@@ -20,8 +20,8 @@ allConflictsMenu
 		getStateSelector: nil
 		enablementSelector: #hasAnyNonIncomingConflicts.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallForwardIcon;
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallForwardIcon);
 		keyText: 'Shift+Cmd+g'.
 	menu
 		addToggle: 'Mark all as conflict' translated
@@ -30,7 +30,7 @@ allConflictsMenu
 		getStateSelector: nil
 		enablementSelector: #hasAnyNonConflictConflicts.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallCancelIcon;
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallCancelIcon);
 		keyText: 'Shift+Cmd+x'.
-	^menu
+	^ menu

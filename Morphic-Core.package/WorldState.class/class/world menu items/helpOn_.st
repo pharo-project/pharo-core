@@ -1,8 +1,6 @@
-helpOn: aBuilder 
-
-	<worldMenu>  
+helpOn: aBuilder
+	<worldMenu>
 	(aBuilder item: #Help)
 		order: 4.0;
-		icon: Smalltalk ui icons smallHelpIcon;
-		withSeparatorAfter 
-		
+		icon: (Smalltalk ui icons iconNamed: #smallHelpIcon);
+		withSeparatorAfter

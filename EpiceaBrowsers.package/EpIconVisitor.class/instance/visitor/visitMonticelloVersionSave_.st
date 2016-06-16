@@ -1,2 +1,2 @@
 visitMonticelloVersionSave: aChange
-	^ Smalltalk ui icons packageIcon
+	^ Smalltalk ui icons iconNamed: #packageIcon

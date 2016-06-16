@@ -1,3 +1,2 @@
-visitTestResultSet: anEvent 
-
-	^ Smalltalk ui icons testRunnerIcon
+visitTestResultSet: anEvent
+	^ Smalltalk ui icons iconNamed: #testRunnerIcon

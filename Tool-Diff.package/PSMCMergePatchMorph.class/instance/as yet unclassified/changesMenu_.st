@@ -1,10 +1,11 @@
 changesMenu: m
 	"Answer the changes menu."
 
-	|menu|
+	| menu |
 	menu := super changesMenu: m.
 	menu addLine.
-	menu addToggle: 'Apply this change' translated
+	menu
+		addToggle: 'Apply this change' translated
 		target: self
 		selector: #toggleApplySelectedChange
 		getStateSelector: #selectionIsRemoteChosen
@@ -16,9 +17,9 @@ changesMenu: m
 		getStateSelector: nil
 		enablementSelector: #selectionIsNotNil.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallBackIcon;
-		keyText: 'Cmd+c'.	
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallBackIcon);
+		keyText: 'Cmd+c'.
 	menu
 		addToggle: 'Use incoming version' translated
 		target: self
@@ -26,8 +27,8 @@ changesMenu: m
 		getStateSelector: nil
 		enablementSelector: #selectionIsNotNil.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallForwardIcon;
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallForwardIcon);
 		keyText: 'Cmd+g'.
 	menu
 		addToggle: 'Mark as conflict' translated
@@ -36,8 +37,8 @@ changesMenu: m
 		getStateSelector: nil
 		enablementSelector: #selectionIsNotNil.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallCancelIcon;
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallCancelIcon);
 		keyText: 'Cmd+x'.
 	menu
 		addToggle: 'All conflicts' translated
@@ -46,7 +47,7 @@ changesMenu: m
 		getStateSelector: nil
 		enablementSelector: #hasConflicts.
 	menu lastItem
-	 	font: self theme menuFont;
+		font: self theme menuFont;
 		subMenu: self allConflictsMenu.
 	menu addLine.
 	menu
@@ -56,7 +57,7 @@ changesMenu: m
 		getStateSelector: nil
 		enablementSelector: #notAllConflictsResolved.
 	menu lastItem
-	 	font: self theme menuFont;
-		icon: Smalltalk ui icons smallRightFlushIcon;
-		keyText: 'Cmd+f'.	
-	^menu
+		font: self theme menuFont;
+		icon: (Smalltalk ui icons iconNamed: #smallRightFlushIcon);
+		keyText: 'Cmd+f'.
+	^ menu

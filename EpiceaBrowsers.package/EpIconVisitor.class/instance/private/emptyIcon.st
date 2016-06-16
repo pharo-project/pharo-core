@@ -1,2 +1,2 @@
 emptyIcon
-	^ Smalltalk ui icons emptyIcon
+	^ Smalltalk ui icons iconNamed: #emptyIcon

@@ -1,4 +1,4 @@
 newWindowMaximizeForm
 	"Answer a new form for a window maximize box."
 
-	^ Smalltalk ui icons windowMaximizeForm
+	^ Smalltalk ui icons iconNamed: #windowMaximizeForm

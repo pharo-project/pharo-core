@@ -1,2 +1,2 @@
 visitSessionSnapshot: aSnapshotChange
-	^ Smalltalk ui icons smallSaveIcon
+	^ Smalltalk ui icons iconNamed: #smallSaveIcon

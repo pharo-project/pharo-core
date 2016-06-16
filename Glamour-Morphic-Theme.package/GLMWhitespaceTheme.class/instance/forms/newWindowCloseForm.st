@@ -1,4 +1,4 @@
 newWindowCloseForm
 	"Answer a new form for a window close box."
 
-	^ Smalltalk ui icons windowCloseForm 
+	^ Smalltalk ui icons iconNamed: #windowCloseForm

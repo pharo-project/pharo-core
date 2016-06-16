@@ -1,17 +1,15 @@
 exampleWindowWithToolbars
 	"Open an example window with toolbars."
+
 	"self exampleWindowWithToolbars"
 
-	|win fileMenu tools dock text holder|
+	| win fileMenu tools dock text holder |
 	win := StandardWindow new.
 	fileMenu := win newMenu.
-	fileMenu
-		addToggle: 'Open' translated
-		target: nil "would be model"
-		selector: #openFile.
+	fileMenu addToggle: 'Open' translated target: nil selector: #openFile.	"would be model"
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: Smalltalk ui icons smallOpenIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallOpenIcon);
 		keyText: 'Ctrl+O'.
 	fileMenu
 		addToggle: 'Save' translated
@@ -21,7 +19,7 @@ exampleWindowWithToolbars
 		enablementSelector: nil.
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: Smalltalk ui icons smallSaveIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallSaveIcon);
 		keyText: 'Ctrl+S'.
 	fileMenu
 		addToggle: 'Print...' translated
@@ -29,50 +27,52 @@ exampleWindowWithToolbars
 		selector: #print.
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: Smalltalk ui icons smallPrintIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallPrintIcon);
 		keyText: 'Ctrl+P'.
-	tools := win newToolbar: {win
-			newButtonFor: nil "if we had a model it would go here"
-			getState: nil
-			action: #openFile
-			arguments: nil
-			getEnabled: nil
-			labelForm: Smalltalk ui icons smallOpenIcon
-			help: 'Open file' translated.
-		win
-			newButtonFor: nil
-			getState: nil
-			action: #saveFile
-			arguments: nil
-			getEnabled: nil
-			labelForm: Smalltalk ui icons smallSaveIcon
-			help: 'Save file' translated.
-		win
-			newButtonFor: nil
-			getState: nil
-			action: #print
-			arguments: nil
-			getEnabled: nil
-			labelForm: Smalltalk ui icons smallPrintIcon
-			help: 'Print' translated}.
-		holder := ValueHolder new.
-		text := win
-			newTextEditorFor: holder
-			getText:  #contents
-			setText: #contents:.
-		dock := win newToolDockingBar.
-		dock
-			add: 'File' translated
+	tools := win
+		newToolbar:
+			{(win
+				newButtonFor: nil
+				getState: nil
+				action: #openFile
+				arguments: nil
+				getEnabled: nil
+				labelForm: (Smalltalk ui icons iconNamed: #smallOpenIcon)
+				help: 'Open file' translated).	"if we had a model it would go here"
+			(win
+				newButtonFor: nil
+				getState: nil
+				action: #saveFile
+				arguments: nil
+				getEnabled: nil
+				labelForm: (Smalltalk ui icons iconNamed: #smallSaveIcon)
+				help: 'Save file' translated).
+			(win
+				newButtonFor: nil
+				getState: nil
+				action: #print
+				arguments: nil
+				getEnabled: nil
+				labelForm: (Smalltalk ui icons iconNamed: #smallPrintIcon)
+				help: 'Print' translated)}.
+	holder := ValueHolder new.
+	text := win
+		newTextEditorFor: holder
+		getText: #contents
+		setText: #contents:.
+	dock := win newToolDockingBar.
+	dock
+		add: 'File' translated
 			font: win theme menuBarFont
-			icon: Smalltalk ui icons smallOpenIcon
+			icon: (Smalltalk ui icons iconNamed: #smallOpenIcon)
 			help: 'File operations' translated
 			subMenu: fileMenu;
-			addMorphBack: tools.
-		win
-			addMorph: dock
-			fullFrame: ((0@0 corner: 1@0) asLayoutFrame bottomOffset: dock minExtent y);
-			addMorph: text
-			fullFrame: ((0@0 corner: 1@1) asLayoutFrame topOffset: dock minExtent y).
-		win
-			themeChanged;
-			openInWorld
+		addMorphBack: tools.
+	win
+		addMorph: dock
+			fullFrame: ((0 @ 0 corner: 1 @ 0) asLayoutFrame bottomOffset: dock minExtent y);
+		addMorph: text
+			fullFrame: ((0 @ 0 corner: 1 @ 1) asLayoutFrame topOffset: dock minExtent y).
+	win
+		themeChanged;
+		openInWorld

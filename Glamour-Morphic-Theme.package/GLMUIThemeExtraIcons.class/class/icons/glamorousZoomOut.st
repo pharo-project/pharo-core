@@ -1,2 +1,2 @@
 glamorousZoomOut
-	^ Smalltalk ui icons glamorousZoomOut
+	^ Smalltalk ui icons iconNamed: #glamorousZoomOut

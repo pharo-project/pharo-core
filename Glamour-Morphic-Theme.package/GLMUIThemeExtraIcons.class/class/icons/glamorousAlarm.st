@@ -1,2 +1,2 @@
 glamorousAlarm
-	^ Smalltalk ui icons glamorousAlarm
+	^ Smalltalk ui icons iconNamed: #glamorousAlarm

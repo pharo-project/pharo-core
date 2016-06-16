@@ -1,2 +1,2 @@
 modificationIcon
-	^ Smalltalk ui icons changeUpdateIcon
+	^ Smalltalk ui icons iconNamed: #changeUpdateIcon

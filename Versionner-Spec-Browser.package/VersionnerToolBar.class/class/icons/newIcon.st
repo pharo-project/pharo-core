@@ -1,2 +1,2 @@
 newIcon
-	^ Smalltalk ui icons packageAddIcon 
+	^ Smalltalk ui icons iconNamed: #packageAddIcon

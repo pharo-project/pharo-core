@@ -1,6 +1,6 @@
 createRenameVariable
 	<instVarCommand>
-	^ SugsRenameInstanceVar 
-		icon: Smalltalk ui icons smallLanguageIcon
+	^ SugsRenameInstanceVar
+		icon: (Smalltalk ui icons iconNamed: #smallLanguageIcon)
 		position: 10
 		keyText: 'r'

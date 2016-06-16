@@ -1,3 +1,2 @@
 iconDiveInCategory
-
-	^ Smalltalk ui icons glamorousDiveAllRightIcon
+	^ Smalltalk ui icons iconNamed: #glamorousDiveAllRightIcon

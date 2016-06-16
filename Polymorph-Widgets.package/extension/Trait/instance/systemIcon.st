@@ -1,2 +1,2 @@
-systemIcon 
-	^ Smalltalk ui icons traitIcon
+systemIcon
+	^ Smalltalk ui icons iconNamed: #traitIcon

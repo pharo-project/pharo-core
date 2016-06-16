@@ -1,4 +1,4 @@
-fullReportMenuOn: aBuilder 
+fullReportMenuOn: aBuilder
 	"Specify the menu with a specific pragma. Try it with:
 	(PragmaMenuBuilder 
 		pragmaKeyword: 'TimeProfilerFullReportMenu'
@@ -6,19 +6,18 @@ fullReportMenuOn: aBuilder
 
 	<contextMenu>
 	<TimeProfilerFullReportMenu>
-
-	(aBuilder item: #'Find...' translated) 
+	(aBuilder item: #'Find...' translated)
 		keyText: 'f';
-		selector: #find; 
-		icon: Smalltalk ui icons smallFindIcon.
-	(aBuilder item: #'Find again' translated) 
+		selector: #find;
+		icon: (Smalltalk ui icons iconNamed: #smallFindIcon).
+	(aBuilder item: #'Find again' translated)
 		keyText: 'g';
-		selector: #findAgain; 
-		icon: Smalltalk ui icons smallFindIcon.
-	(aBuilder item: #'Set search string' translated) 
+		selector: #findAgain;
+		icon: (Smalltalk ui icons iconNamed: #smallFindIcon).
+	(aBuilder item: #'Set search string' translated)
 		keyText: 'h';
 		selector: #setSearchString.
-	(aBuilder item: #'Copy' translated) 
+	(aBuilder item: #Copy translated)
 		keyText: 'c';
-		selector: #copySelection; 
-		icon: Smalltalk ui icons smallCopyIcon.
+		selector: #copySelection;
+		icon: (Smalltalk ui icons iconNamed: #smallCopyIcon)

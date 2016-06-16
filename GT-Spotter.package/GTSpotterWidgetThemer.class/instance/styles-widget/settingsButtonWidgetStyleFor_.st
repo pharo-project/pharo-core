@@ -1,5 +1,4 @@
 settingsButtonWidgetStyleFor: aBrick
-
 	aBrick
-		normalImage: Smalltalk ui icons glamorousPreferences;
+		normalImage: (Smalltalk ui icons iconNamed: #glamorousPreferences);
 		pressedColor: self buttonPressedColor

@@ -1,19 +1,15 @@
 initializeTabs
-
 	entryContentModel showOptions: false.
-
 	entryContentTabModel
 		label: 'Contents';
-		icon: Smalltalk ui icons smallOpenIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallOpenIcon);
 		model: self entryContentModel;
 		closeable: false.
-		
 	filtersTabModel
 		label: 'Filters';
-		icon: Smalltalk ui icons smallFindIcon;
+		icon: (Smalltalk ui icons iconNamed: #smallFindIcon);
 		model: self filtersModel;
 		closeable: false.
-
-	tabManagerModel 
+	tabManagerModel
 		addTab: entryContentTabModel;
-		addTab: filtersTabModel.
+		addTab: filtersTabModel

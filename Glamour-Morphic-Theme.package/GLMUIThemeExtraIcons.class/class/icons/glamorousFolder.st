@@ -1,2 +1,2 @@
 glamorousFolder
-	^ Smalltalk ui icons glamorousFolder
+	^ Smalltalk ui icons iconNamed: #glamorousFolder

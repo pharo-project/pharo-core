@@ -1,2 +1,2 @@
 visitRedo: aRedoEvent
-	^ Smalltalk ui icons smallRedoIcon
+	^ Smalltalk ui icons iconNamed: #smallRedoIcon

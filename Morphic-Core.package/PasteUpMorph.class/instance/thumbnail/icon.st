@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons homeIcon
+	^ Smalltalk ui icons iconNamed: #homeIcon

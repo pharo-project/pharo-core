@@ -1,2 +1,2 @@
-glamorousClose 
-	^ Smalltalk ui icons glamorousClose
+glamorousClose
+	^ Smalltalk ui icons iconNamed: #glamorousClose

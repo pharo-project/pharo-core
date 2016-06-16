@@ -3,6 +3,6 @@ createExtractToLocalVariable
 	<messageCommand>
 	<literalCommand>
 	<blockCommand>
-	^ SugsExtractToLocalVariable 
-		icon: Smalltalk ui icons smallJumpIcon
+	^ SugsExtractToLocalVariable
+		icon: (Smalltalk ui icons iconNamed: #smallJumpIcon)
 		position: 20

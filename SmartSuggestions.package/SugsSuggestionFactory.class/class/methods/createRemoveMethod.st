@@ -1,5 +1,5 @@
 createRemoveMethod
 	<methodCommand>
-	^ SugsRemoveMethod 
-		icon: Smalltalk ui icons smallCancelIcon
+	^ SugsRemoveMethod
+		icon: (Smalltalk ui icons iconNamed: #smallCancelIcon)
 		position: 20

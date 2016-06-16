@@ -1,2 +1,2 @@
-visitSessionStart: anEvent 
-	^ Smalltalk ui icons smallDoItIcon
+visitSessionStart: anEvent
+	^ Smalltalk ui icons iconNamed: #smallDoItIcon

@@ -1,5 +1,5 @@
 createInline
 	<messageCommand>
 	^ SugsInline
-		icon: Smalltalk ui icons smallRightFlushIcon
+		icon: (Smalltalk ui icons iconNamed: #smallRightFlushIcon)
 		position: 100

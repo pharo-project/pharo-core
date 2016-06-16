@@ -1,4 +1,4 @@
 taskbarIcon
 	"Answer the icon for the receiver in a task bar."
 
-	^ Smalltalk ui icons smallInfoIcon
+	^ Smalltalk ui icons iconNamed: #smallInfoIcon

@@ -1,2 +1,2 @@
 glamorousMore
-	^ Smalltalk ui icons glamorousMore
+	^ Smalltalk ui icons iconNamed: #glamorousMore

@@ -8,9 +8,11 @@ resetAllFontToDefaultButton
 		getEnabled: nil
 		getLabel: nil
 		help: 'Force all system fonts to be the default one' translated)
-		label:  (self theme
-					newRowIn: World
-					for:
-						{(AlphaImageMorph new image: Smalltalk ui icons smallRedoIcon).
-						(self theme buttonLabelForText: 'Force all' translated)});
+		label:
+			(self theme
+				newRowIn: World
+				for:
+					{(AlphaImageMorph new
+						image: (Smalltalk ui icons iconNamed: #smallRedoIcon)).
+					(self theme buttonLabelForText: 'Force all' translated)});
 		yourself

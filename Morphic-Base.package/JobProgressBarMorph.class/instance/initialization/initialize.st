@@ -2,8 +2,8 @@ initialize
 	super initialize.
 	progressBar := ProgressBarMorph new.
 	progressBar hResizing: #spaceFill.
-	button := Smalltalk ui icons stopIcon asMorph.
-	self extent: 200@20.
+	button := (Smalltalk ui icons iconNamed: #stopIcon) asMorph.
+	self extent: 200 @ 20.
 	self
 		color: Color transparent;
 		layoutPolicy: TableLayout new;
@@ -13,7 +13,6 @@ initialize
 		listCentering: #center;
 		hResizing: #spaceFill;
 		vResizing: #shrinkWrap.
-	
-	self 
+	self
 		addMorphBack: progressBar;
-		addMorphBack: button.
+		addMorphBack: button

@@ -1,2 +1,2 @@
 taskbarIcon
-	^ Smalltalk ui icons smallConfigurationIcon
+	^ Smalltalk ui icons iconNamed: #smallConfigurationIcon

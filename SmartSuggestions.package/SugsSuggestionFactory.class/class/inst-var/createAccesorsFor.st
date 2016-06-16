@@ -1,5 +1,5 @@
 createAccesorsFor
 	<instVarCommand>
-	^ SugsCreateInstanceVarAccessors 
-		icon: Smalltalk ui icons smallLanguageIcon
+	^ SugsCreateInstanceVarAccessors
+		icon: (Smalltalk ui icons iconNamed: #smallLanguageIcon)
 		position: 100

@@ -1,3 +1,2 @@
 taskbarIcon
-
-	^ Smalltalk ui icons komitterIcon
+	^ Smalltalk ui icons iconNamed: #komitterIcon

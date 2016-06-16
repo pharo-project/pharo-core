@@ -1,3 +1,2 @@
 icon
-
-	^ Smalltalk ui icons historyIcon
+	^ Smalltalk ui icons iconNamed: #historyIcon
