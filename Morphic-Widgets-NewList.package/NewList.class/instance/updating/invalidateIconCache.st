@@ -1,3 +1,0 @@
-invalidateIconCache
-
-	iconCache removeAll

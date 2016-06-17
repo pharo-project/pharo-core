@@ -1,3 +1,0 @@
-drawColor
-
-	^ self listSource drawColor

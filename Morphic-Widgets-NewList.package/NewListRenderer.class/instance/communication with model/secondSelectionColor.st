@@ -1,3 +1,0 @@
-secondSelectionColor
-
-	^ self listSource secondSelectionColor

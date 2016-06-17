@@ -1,3 +1,0 @@
-separatorBlock
-
-	^ separatorBlock value

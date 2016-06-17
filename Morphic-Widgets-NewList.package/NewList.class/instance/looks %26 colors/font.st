@@ -1,3 +1,0 @@
-font
-
-	^ self theme listFont

@@ -16,7 +16,6 @@ initializeBindings
 		at: #MenuAdapter				put: #MenuAdapter;
 		at: #MenuGroupAdapter		put: #MenuGroupAdapter;
 		at: #MenuItemAdapter			put: #MenuItemAdapter;	
-		at: #NewListAdapter			put: #NewListAdapter;
 		at: #RadioButtonAdapter		put: #RadioButtonAdapter;
 		at: #SliderAdapter				put: #SliderAdapter;
 		at: #TabManagerAdapter		put: #TabManagerAdapter;

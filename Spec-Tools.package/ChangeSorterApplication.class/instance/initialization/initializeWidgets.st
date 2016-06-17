@@ -1,8 +1,8 @@
 initializeWidgets
 
-	methodsListModel := self instantiate: NewListModel.
-	classesListModel := self instantiate: NewListModel.
-	changesListModel := self instantiate: NewListModel.
+	methodsListModel := self instantiate: FastTableModel.
+	classesListModel := self instantiate: FastTableModel.
+	changesListModel := self instantiate: FastTableModel.
 	prettyButton := self newCheckBox.
 	diffButton := self newCheckBox.
 	textModel := self newCode.

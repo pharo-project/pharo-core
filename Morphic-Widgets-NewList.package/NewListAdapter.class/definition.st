@@ -1,5 +1,0 @@
-Model subclass: #NewListAdapter
-	instanceVariableNames: 'list doubleClickSelector dragItemSelector dropItemSelector getDisplaySelector getHeaderTitleSelector getIndexSelector getItemAtIndexSelector getItemsSelector getListSizeSelector keyStrokeSelector lastKeystrokeTime lastKeystrokes model setIndexSelector wantsDropSelector getMenuSelector getMenuTitleSelector getIconSelector getIconMaxSizeSelector getIndexesSelector allowToSelectSelector separatorSelector'
-	classVariableNames: ''
-	poolDictionaries: ''
-	category: 'Morphic-Widgets-NewList'

@@ -1,2 +1,0 @@
-isInitialized
-	^ isInitialized value

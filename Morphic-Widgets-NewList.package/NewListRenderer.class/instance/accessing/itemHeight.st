@@ -1,3 +1,0 @@
-itemHeight
-
-	^ itemHeight value

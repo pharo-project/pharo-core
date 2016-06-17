@@ -8,7 +8,7 @@ updateReceiverInspectorFromContext: aContext
 		
 	newSelectionIndex := 1.
 	oldSelection ifNotNil: 
-	[	receiverInspector inspector list getItems withIndexDo: 
+	[	receiverInspector inspector list listItems withIndexDo: 
 			[ :item :index | item label = oldSelection label ifTrue: [ newSelectionIndex := index ] ].
 	].
 	receiverInspector inspector list setSelectedIndex: newSelectionIndex.

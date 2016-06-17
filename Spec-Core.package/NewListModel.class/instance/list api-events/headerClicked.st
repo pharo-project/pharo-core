@@ -1,3 +1,0 @@
-headerClicked
-
-	headerClicked value value

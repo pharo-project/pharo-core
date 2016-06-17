@@ -1,3 +1,0 @@
-resetSelectionIndexes
-
-	selectedIndexes removeAll

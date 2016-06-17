@@ -1,3 +1,0 @@
-adapterName
-
-	^ #NewListAdapter

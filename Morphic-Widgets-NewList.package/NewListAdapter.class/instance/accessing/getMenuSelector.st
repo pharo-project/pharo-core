@@ -1,2 +1,0 @@
-getMenuSelector
-	^ getMenuSelector value

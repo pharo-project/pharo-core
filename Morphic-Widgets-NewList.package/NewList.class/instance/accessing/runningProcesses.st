@@ -1,2 +1,0 @@
-runningProcesses
-	^ runningProcesses

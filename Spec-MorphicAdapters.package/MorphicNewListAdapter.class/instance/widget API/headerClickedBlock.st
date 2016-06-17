@@ -1,3 +1,0 @@
-headerClickedBlock
-
-	^ [ self headerClicked ]

@@ -1,3 +1,0 @@
-isMultipleSelection
-
-	^ self listSource isMultipleSelection

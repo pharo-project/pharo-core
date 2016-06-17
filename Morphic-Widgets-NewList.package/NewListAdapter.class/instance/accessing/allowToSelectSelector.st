@@ -1,3 +1,0 @@
-allowToSelectSelector
-
-	^ allowToSelectSelector

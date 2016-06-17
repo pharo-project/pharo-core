@@ -1,2 +1,0 @@
-setIndexSelector
-	^ setIndexSelector value

@@ -1,2 +1,0 @@
-getIndexSelector
-	^ getIndexSelector value

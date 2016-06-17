@@ -1,3 +1,0 @@
-hasHeader
-
-	^ hasHeader value

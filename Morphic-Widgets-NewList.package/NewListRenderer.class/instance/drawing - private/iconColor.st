@@ -1,3 +1,0 @@
-iconColor
-
-	^ Color transparent

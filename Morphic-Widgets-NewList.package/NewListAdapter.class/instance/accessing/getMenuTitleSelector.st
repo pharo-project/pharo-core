@@ -1,3 +1,0 @@
-getMenuTitleSelector
-	
-	^ getMenuTitleSelector value

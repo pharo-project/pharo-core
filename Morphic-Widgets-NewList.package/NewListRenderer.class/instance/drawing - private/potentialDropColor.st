@@ -1,3 +1,0 @@
-potentialDropColor
-
-	^ Color blue

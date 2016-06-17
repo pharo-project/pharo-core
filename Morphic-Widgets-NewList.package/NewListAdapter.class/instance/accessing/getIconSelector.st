@@ -1,2 +1,0 @@
-getIconSelector
-	^ getIconSelector value

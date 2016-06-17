@@ -1,3 +1,0 @@
-getHeaderTitleSelector
-
-	^ getHeaderTitleSelector value

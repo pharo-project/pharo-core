@@ -1,2 +1,0 @@
-listSource
-	^ listSource value

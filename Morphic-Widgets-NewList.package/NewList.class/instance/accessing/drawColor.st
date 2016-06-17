@@ -1,2 +1,0 @@
-drawColor
-	^ drawColor value

@@ -1,3 +1,0 @@
-unselectOnChange
-
-	^ unselectOnChange value

@@ -1,2 +1,0 @@
-secondSelection
-	^ secondSelection value

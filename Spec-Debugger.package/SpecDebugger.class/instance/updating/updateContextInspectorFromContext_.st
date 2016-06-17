@@ -7,7 +7,7 @@ updateContextInspectorFromContext: aContext
 	
 	newSelectionIndex := 1.
 	oldSelection ifNotNil: 
-	[	contextInspector list getItems withIndexDo: 
+	[	contextInspector list listItems withIndexDo: 
 			[ :item :index | item label = oldSelection label ifTrue: [ newSelectionIndex := index ] ].
 	].
 	contextInspector list setSelectedIndex: newSelectionIndex.

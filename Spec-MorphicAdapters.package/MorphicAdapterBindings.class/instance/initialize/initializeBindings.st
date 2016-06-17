@@ -15,7 +15,6 @@ initializeBindings
 		at: #MenuAdapter				put: #MorphicMenuAdapter;
 		at: #MenuGroupAdapter		put: #MorphicMenuGroupAdapter;
 		at: #MenuItemAdapter			put: #MorphicMenuItemAdapter;
-		at: #NewListAdapter			put: #MorphicNewListAdapter;
 		at: #RadioButtonAdapter		put: #MorphicRadioButtonAdapter;
 		at: #SliderAdapter				put: #MorphicSliderAdapter;
 		at: #TabManagerAdapter		put: #MorphicTabManagerAdapter;

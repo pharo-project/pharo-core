@@ -1,3 +1,0 @@
-headerClicked
-
-	^ self model headerClicked

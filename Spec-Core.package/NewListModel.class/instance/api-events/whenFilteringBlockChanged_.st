@@ -1,4 +1,0 @@
-whenFilteringBlockChanged: aBlock
-	"Set a block to value when the filtering block block has changed"
-	
-	filteringBlock whenChangedDo: aBlock

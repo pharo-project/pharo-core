@@ -1,3 +1,0 @@
-selectedIndex
-
-	^ self listSource selectedIndex

@@ -1,3 +1,0 @@
-dragItemSelector
-
-	^ self listSource dragItemSelector

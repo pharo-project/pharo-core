@@ -1,3 +1,0 @@
-maxWidth
-
-	^ maxWidth value

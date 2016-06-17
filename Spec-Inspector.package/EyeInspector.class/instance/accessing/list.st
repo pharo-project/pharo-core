@@ -1,6 +1,6 @@
 list
 	^ list ifNil: [ 
-		list := self instantiate: NewListModel.
+		list := self instantiate: FastTableModel.
 		list 
 			handlesDoubleClick: true;
 			whenSelectedItemChanged: [ :item |

@@ -3,4 +3,5 @@ setScrollValue: aValue
 		widgetDo: [ :w | 
 			w scrollPane
 				hScrollbarValue: aValue x;
-				vScrollbarValue: aValue y ]
+				vScrollbarValue: aValue y;
+				updateScrollbars ]

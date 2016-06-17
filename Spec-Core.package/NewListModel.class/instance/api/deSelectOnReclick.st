@@ -1,3 +1,0 @@
-deSelectOnReclick
-
-	^ deSelectOnReclick value

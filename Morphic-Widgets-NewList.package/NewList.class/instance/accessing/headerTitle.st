@@ -1,2 +1,0 @@
-headerTitle
-	^ headerTitle value

@@ -1,3 +1,0 @@
-private_selectedIndexes
-
-	^ selectedIndexes

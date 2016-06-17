@@ -1,3 +1,0 @@
-hasHeader
-
-	^ self model hasHeader

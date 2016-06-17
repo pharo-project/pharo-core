@@ -1,3 +1,0 @@
-deSelectOnReclick
-
-	^ self model deSelectOnReclick

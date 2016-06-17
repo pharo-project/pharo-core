@@ -1,3 +1,0 @@
-dragEnabled
-
-	^ self listSource dragEnabled

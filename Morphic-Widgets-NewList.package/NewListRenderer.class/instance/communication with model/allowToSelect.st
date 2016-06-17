@@ -1,3 +1,0 @@
-allowToSelect
-
-	^ self listSource allowToSelect

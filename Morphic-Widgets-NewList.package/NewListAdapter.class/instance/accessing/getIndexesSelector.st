@@ -1,3 +1,0 @@
-getIndexesSelector
-
-	^ getIndexesSelector value

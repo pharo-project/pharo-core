@@ -1,1 +1,0 @@
-NewListRenderer is the morph contained by a NewList used to render all the items and manage mouse events.

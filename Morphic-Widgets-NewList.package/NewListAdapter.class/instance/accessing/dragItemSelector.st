@@ -1,2 +1,0 @@
-dragItemSelector
-	^ dragItemSelector value

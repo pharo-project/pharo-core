@@ -1,2 +1,0 @@
-getItemsSelector
-	^ getItemsSelector value

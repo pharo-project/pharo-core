@@ -1,3 +1,0 @@
-getHeaderTitle
-
-	 ^ headerTitle value

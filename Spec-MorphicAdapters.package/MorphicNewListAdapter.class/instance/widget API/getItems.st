@@ -1,3 +1,0 @@
-getItems
-
-	^ self model getItems

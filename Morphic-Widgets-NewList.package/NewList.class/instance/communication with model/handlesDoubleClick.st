@@ -1,3 +1,0 @@
-handlesDoubleClick
-
-	^ self model handlesDoubleClick

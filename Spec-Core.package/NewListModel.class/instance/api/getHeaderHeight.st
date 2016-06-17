@@ -1,3 +1,0 @@
-getHeaderHeight
-
-	^ headerHeight value

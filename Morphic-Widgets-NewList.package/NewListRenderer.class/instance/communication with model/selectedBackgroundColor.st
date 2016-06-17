@@ -1,3 +1,0 @@
-selectedBackgroundColor
-
-	^ self listSource selectedBackgroundColor

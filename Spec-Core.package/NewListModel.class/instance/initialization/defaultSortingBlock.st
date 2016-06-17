@@ -1,2 +1,0 @@
-defaultSortingBlock 
-	^ [:a :b | true]

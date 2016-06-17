@@ -1,2 +1,0 @@
-wantsDropSelector
-	^ wantsDropSelector value

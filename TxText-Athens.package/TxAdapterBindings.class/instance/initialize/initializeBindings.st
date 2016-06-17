@@ -14,7 +14,6 @@ initializeBindings
 		 #MenuAdapter				 #MorphicMenuAdapter
 		 #MenuGroupAdapter		 #MorphicMenuGroupAdapter
 		 #MenuItemAdapter			 #MorphicMenuItemAdapter
-		 #NewListAdapter			 #MorphicNewListAdapter
 		 #RadioButtonAdapter		 #MorphicRadioButtonAdapter
 		 #SliderAdapter				 #MorphicSliderAdapter
 		 #TabManagerAdapter		 #MorphicTabManagerAdapter

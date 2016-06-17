@@ -1,3 +1,0 @@
-getMenuSelector
-
-	^ self listSource getMenuSelector

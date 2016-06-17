@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18501 icons -> icons iconNamed: (part 2)
-	https://pharo.fogbugz.com/f/cases/18501'
+ ^ '15849 Remove NewList
+	https://pharo.fogbugz.com/f/cases/15849
+
+18282 Scrollbar doesnt move when scrollValue is set in TextModel
+	https://pharo.fogbugz.com/f/cases/18282'

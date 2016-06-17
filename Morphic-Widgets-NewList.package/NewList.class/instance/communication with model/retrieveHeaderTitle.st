@@ -1,3 +1,0 @@
-retrieveHeaderTitle
-
-	^ self model getHeaderTitle

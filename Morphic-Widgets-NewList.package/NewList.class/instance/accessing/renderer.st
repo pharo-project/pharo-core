@@ -1,2 +1,0 @@
-renderer
-	^ renderer value

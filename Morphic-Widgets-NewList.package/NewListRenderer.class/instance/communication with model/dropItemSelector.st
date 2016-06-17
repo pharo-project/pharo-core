@@ -1,3 +1,0 @@
-dropItemSelector
-
-	^ self listSource dropItemSelector

@@ -1,3 +1,0 @@
-iconMaxSize
-
-	^ self listSource iconMaxSize
