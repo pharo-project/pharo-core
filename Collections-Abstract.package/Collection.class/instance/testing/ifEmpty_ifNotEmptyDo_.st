@@ -1,6 +1,8 @@
 ifEmpty: emptyBlock ifNotEmptyDo: notEmptyBlock
-	"Evaluate emptyBlock if I'm empty, notEmptyBlock otherwise"
-	"Evaluate the notEmptyBlock with the receiver as its argument"
 
-	self isEmpty ifTrue: [ ^emptyBlock value ].
-	^notEmptyBlock value: self
+	self
+		deprecated: 'Please use #ifEmpty:ifNotEmptyDo: instead'
+		transformWith: '`@receiver ifEmpty: `@statements1 ifNotEmptyDo: `@statements2' 
+						-> '`@receiver ifEmpty: `@statements1 ifNotEmpty: `@statements2'.
+						
+	^self ifEmpty: emptyBlock ifNotEmpty: notEmptyBlock

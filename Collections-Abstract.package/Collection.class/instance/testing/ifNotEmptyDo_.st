@@ -1,4 +1,5 @@
 ifNotEmptyDo: aBlock
-	"Evaluate the given block with the receiver as its argument."
-
-	self isEmpty ifFalse: [^ aBlock value: self].
+	self
+		deprecated: 'Please use #ifNotEmpty: instead'
+		transformWith: '`@receiver ifNotEmptyDo: `@statements' -> '`@receiver ifNotEmpty: `@statements'.
+	^ self ifNotEmpty: aBlock

@@ -1,4 +1,7 @@
 ifNotNilDo: aBlock ifNil: nilBlock
-	"please use #ifNotNil:ifNil: "
+	self
+		deprecated: 'Please use #ifNotNil:ifNil: instead'
+		transformWith: '`@receiver ifNotNilDo: `@statements1 ifNil: `@statements2'
+						 -> '`@receiver ifNotNil: `@statements1 ifNil: `@statements2'.
 
-	^ aBlock value: self
+	^ self ifNotNil: aBlock ifNil: nilBlock
