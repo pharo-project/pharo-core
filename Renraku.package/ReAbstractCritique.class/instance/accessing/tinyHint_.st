@@ -1,0 +1,2 @@
+tinyHint: anObject
+	tinyHint := anObject

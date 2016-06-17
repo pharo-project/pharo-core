@@ -2,5 +2,5 @@ commitToPublicRepos: aVersion
 
 	self publicRepoLocations do: [ :loc |
 		self mainRepo copy
-			location: 'loc';
+			location: loc;
 			storeVersion: aVersion ]

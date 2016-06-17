@@ -14,9 +14,11 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 								ifFalse: [ 
 										(literal name = #RFMetaLink) ifFalse: [
 											encounteredCritic := true.
-											aCriticBlock cull: (ReStringBasedCritique
-												for: aMethod 
+											aCriticBlock cull: (ReTrivialCritique
+												withAnchor: (ReSearchStringSourceAnchor
+													entity: aMethod
+													string: literal key)
 												by: self
-												badString: literal key) ] ] ] ] ].
+												hint: literal key) ] ] ] ] ].
 						
 	encounteredCritic ifFalse: alternativeBlock value

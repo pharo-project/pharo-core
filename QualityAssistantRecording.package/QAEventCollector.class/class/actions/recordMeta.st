@@ -9,4 +9,4 @@ recordMeta
 		} asDictionary;
 	register
 	] on: Error
-	  do: [ :error | QARecordingSettings showErrors ifTrue: [ error pass ] ]
+	  do: [ :error | ReSettings showErrors ifTrue: [ error pass ] ]

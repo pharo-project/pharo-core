@@ -1,0 +1,3 @@
+basicNew
+
+	^ super basicNew

@@ -1,4 +1,4 @@
-RenrakuBaseTestCase subclass: #RenrakuTest
+ReCodeBasedTestCase subclass: #RenrakuTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

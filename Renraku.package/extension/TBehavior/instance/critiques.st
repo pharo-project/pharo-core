@@ -12,8 +12,13 @@ critiques
 			manifest isNotNil and:
 			[ builder bansRule: rule for: self ] ]
 		thenDo: [ :rule |
-			rule resetResult.
-			rule check: self forCritiquesDo: [ :critic | critiques add: critic ].
+			[ rule resetResult.
+			  rule
+				  check: self
+				  forCritiquesDo: [ :critic |
+					  critiques add: critic ]
+			] on: Error
+			  do: [ :er | ReSettings showErrors ifTrue: [ er pass ] ].
 			Processor yield ].
 	
 	ReSystemAnnouncer uniqueInstance notifyEntity: self criticizedWith: critiques.

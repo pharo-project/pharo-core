@@ -23,8 +23,13 @@ critiques
 			[ (builder bansRule: rule for: self method) or:
 			[  builder bansRule: rule for: self methodClass ] ] ] 
 		thenDo: [ :rule |
-			rule resetResult.
-			rule check: self forCritiquesDo: [ :critic | critics add: critic ].
+			[ rule resetResult.
+			  rule
+				  check: self
+				  forCritiquesDo: [ :critic |
+					 critics add: critic ]
+			] on: Error
+			  do: [ :er | ReSettings showErrors ifTrue: [ er pass ] ].
 			Processor yield ].
 	
 	ReSystemAnnouncer uniqueInstance notifyEntity: self criticizedWith: critics. 

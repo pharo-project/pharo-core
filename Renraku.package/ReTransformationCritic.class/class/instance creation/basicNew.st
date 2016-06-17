@@ -1,0 +1,3 @@
+basicNew
+
+	^ self basicNew

@@ -19,12 +19,23 @@ actions
 			icon: (Smalltalk ui icons iconNamed: #repairIcon);
 			description: 'Automatically resolve the issue';
 			action: [ :crit |
-				| change |
-				change := crit change.
+				| changesBrowser |
 
 				ReSystemAnnouncer uniqueInstance notifyViewedDiffFor: crit of: crit sourceAnchor entity.
-	
-				(TextModel new
+				
+				changesBrowser := (ChangesBrowser changes: { crit change })
+					extent: 500@400;
+					setModal: SystemWindow topWindow;
+					yourself.
+					
+				changesBrowser openDialogWithSpec
+					okAction: [ ReSystemAnnouncer uniqueInstance
+								notifyCritique: crit
+								AutoFixedFor: crit sourceAnchor entity.
+								changesBrowser accept ];
+					centered
+				
+				"(TextModel new
 					title: 'Apply the proposed changes?';
 					extent: 800@600;
 					text: change diffedText;
@@ -34,7 +45,7 @@ actions
 								notifyCritique: crit
 								AutoFixedFor: crit sourceAnchor entity.
 								change execute ];
-			centered ];
+			centered" ];
 			yourself) ].
 	
 	actions add: (RePropertyAction new

@@ -14,8 +14,13 @@ critiques
 			[ (builder bansRule: rule for: self) or:
 			[  builder bansRule: rule for: self methodClass ] ] ]
 		thenDo: [ :rule |
-			rule resetResult.
-			rule check: self forCritiquesDo: [ :critic | critiques add: critic ].
+			[ rule resetResult.
+			  rule
+				  check: self
+				  forCritiquesDo: [ :critic |
+					  critiques add: critic ]
+			] on: Error
+			  do: [ :er | ReSettings showErrors ifTrue: [ er pass ] ].
 			Processor yield ].
 	
 	

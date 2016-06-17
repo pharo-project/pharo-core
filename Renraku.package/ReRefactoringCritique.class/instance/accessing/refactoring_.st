@@ -1,0 +1,2 @@
+refactoring: anObject
+	refactoring := anObject

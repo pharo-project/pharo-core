@@ -1,5 +1,5 @@
-Object subclass: #QARecordingSettings
+Object subclass: #ReSettings
 	instanceVariableNames: 'showErrors'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'QualityAssistantRecording'
+	category: 'Renraku-Utility'

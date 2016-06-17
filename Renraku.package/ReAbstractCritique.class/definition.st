@@ -1,5 +1,5 @@
 ReProperty subclass: #ReAbstractCritique
-	instanceVariableNames: 'rule'
+	instanceVariableNames: 'rule tinyHint'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Renraku-Critiques'

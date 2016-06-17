@@ -9,7 +9,9 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 	
 	ifEmpty: alternativeBlock
 	ifNotEmpty: [ :messages | messages do: [ :message |
-			aCriticBlock cull: (ReStringBasedCritique
-				for: aMethod
-				by: self
-				badString: message) ] ]
+			aCriticBlock cull: (ReTrivialCritique
+			withAnchor: (ReSearchStringSourceAnchor
+				entity: aMethod
+				string: message)
+			by: self
+			hint: message) ] ]

@@ -1,3 +1,3 @@
 rootConfNamesForLookup
 
-	^ #(BaselineOfQualityAssistant BaselineOfRenraku)
+	^ #(BaselineOfRenraku BaselineOfQualityAssistant)

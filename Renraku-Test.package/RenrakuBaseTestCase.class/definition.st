@@ -1,5 +1,5 @@
 TestCase subclass: #RenrakuBaseTestCase
-	instanceVariableNames: 'testClass testPackage testMethod'
+	instanceVariableNames: 'testPackage'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Renraku-Test'

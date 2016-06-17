@@ -1,4 +1,4 @@
-RenrakuBaseTestCase subclass: #ReCritiqueTest
+ReCodeBasedTestCase subclass: #ReCritiqueTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
