@@ -1,4 +1,4 @@
-script60092
+script60093
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -24,7 +24,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.9.mcz
-Collections-Abstract-TheIntegrator.317.mcz
+Collections-Abstract-TheIntegrator.319.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -46,7 +46,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.126.mcz
-Deprecated60-TheIntegrator.2.mcz
+Deprecated60-TheIntegrator.4.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2329.mcz
+Kernel-TheIntegrator.2331.mcz
 Kernel-Rules-TheIntegrator.5.mcz
-Kernel-Tests-TheIntegrator.76.mcz
+Kernel-Tests-TheIntegrator.78.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.57.mcz

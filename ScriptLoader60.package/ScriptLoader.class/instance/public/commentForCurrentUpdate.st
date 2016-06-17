@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18509 per send-site #haltOnCount:
-	https://pharo.fogbugz.com/f/cases/18509'
+ ^ '18512 cleanup related to deprecations
+	https://pharo.fogbugz.com/f/cases/18512'

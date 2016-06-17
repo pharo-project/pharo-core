@@ -2,7 +2,7 @@ testHaltOnCount
 
 	| anObject |
 	anObject := Object new.
-	
+	thisContext method recompile. "reset state of #halOnce here"
 	"Halts regardless of whether HaltOnce is false for the image"
 	self shouldHaltWhen: [ anObject haltOnCount: 1 ].
 
