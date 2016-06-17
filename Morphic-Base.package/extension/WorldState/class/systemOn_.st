@@ -31,4 +31,4 @@ systemOn: aBuilder
 			(aBuilder item: #'Restore display (r)')
 				action: [ World restoreMorphicDisplay ].
 			(aBuilder item: 'Activate all halt once')
-				action: [ Halt enableHaltOnce ] ]
+				action: [ Halt resetHaltOnce ] ]

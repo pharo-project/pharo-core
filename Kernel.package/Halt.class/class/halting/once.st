@@ -2,6 +2,6 @@ once
 	| node |
 	<debuggerCompleteToSender>
 	node := thisContext sender sender sourceNodeExecuted.
-	(node hasProperty: #haltOnce) ifTrue: [^self]. 
-	node propertyAt: #haltOnce put: true.
+	(node hasProperty: #haltonce) ifTrue: [^self]. 
+	node propertyAt: #haltonce put: true.
 	^ self signal.

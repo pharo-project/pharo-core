@@ -1,2 +1,2 @@
-enableHaltOnce
+resetHaltOnce
 	 #haltOnce senders do: #recompile.

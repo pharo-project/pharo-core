@@ -11,8 +11,3 @@ testHaltOnCount
 	
 	"Should not halt if not executed enough times"	
 	self shouldntHaltAfter: 2 times: [ anObject haltOnCount: 3 ].
-	Halt stopCounting.
-
-	"Should ignore new count given while previous count is in progress"
-	anObject haltOnCount: 2.
-	self shouldHaltWhen: [ anObject haltOnCount: 5 ].

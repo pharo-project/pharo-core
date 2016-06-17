@@ -1,3 +1,0 @@
-isCounting
-
-	^ callsUntilHaltOnCount > 0.
