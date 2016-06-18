@@ -1,4 +1,4 @@
-script60094
+script60095
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -190,7 +190,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.68.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.6.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
-Morphic-Widgets-Tabs-TheIntegrator.22.mcz
+Morphic-Widgets-Tabs-TheIntegrator.23.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.23.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.62.mcz
@@ -302,7 +302,7 @@ Spec-Examples-TheIntegrator.116.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.264.mcz
 Spec-Layout-TheIntegrator.69.mcz
-Spec-MorphicAdapters-TheIntegrator.272.mcz
+Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.70.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
