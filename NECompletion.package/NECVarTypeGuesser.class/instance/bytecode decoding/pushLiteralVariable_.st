@@ -3,5 +3,7 @@ pushLiteralVariable: anAssociation
 	| info |
 	contextCount > 0 ifTrue:[^self].
 
-	info := NECTypeInfo definedByMessageSend: anAssociation value.
+	info := NECTypeInfo definedByMessageSend: (anAssociation value isBehavior
+		ifTrue: [ anAssociation value ]
+		ifFalse: [ anAssociation value class ]).
 	types add: info
