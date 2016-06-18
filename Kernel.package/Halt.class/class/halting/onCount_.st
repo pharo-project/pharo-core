@@ -7,4 +7,4 @@ onCount: anInteger
 		node propertyAt: #haltCount put: 0.
 		].
 	 node propertyAt: #haltCount put: (node propertyAt: #haltCount) + 1.
-	((node propertyAt: #haltCount) = anInteger) ifTrue: [ ^self signal ].
+	((node propertyAt: #haltCount) >= anInteger) ifTrue: [ ^self signal ].

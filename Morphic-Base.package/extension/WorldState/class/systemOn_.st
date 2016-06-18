@@ -29,6 +29,4 @@ systemOn: aBuilder
 				action: [ World resumeAfterStepError ];
 				withSeparatorAfter.
 			(aBuilder item: #'Restore display (r)')
-				action: [ World restoreMorphicDisplay ].
-			(aBuilder item: 'Activate all halt once')
-				action: [ Halt resetHaltOnce ] ]
+				action: [ World restoreMorphicDisplay ]]
