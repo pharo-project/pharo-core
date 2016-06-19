@@ -10,7 +10,7 @@ editSelectedPackageRequirements
 		addItemBlock: [ self addPackageRequirement ];
 		yourself.	
 	editionWidget okAction: [ "propagate changes"
-		selectedPackage dependencies: editionWidget list getItems.
+		selectedPackage dependencies: editionWidget list listItems.
 		packagesList roots: project packages ].
 	self window openModal: editionWidget openDialogWithSpec window
 	

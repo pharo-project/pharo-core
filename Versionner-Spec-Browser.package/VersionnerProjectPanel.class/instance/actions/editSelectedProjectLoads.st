@@ -10,7 +10,7 @@ editSelectedProjectLoads
 		addItemBlock: [ self addProjectLoadDirective ];
 		yourself.	
 	editionWidget okAction: [ "propagate changes"
-		selectedProject dependencies: editionWidget list getItems.
+		selectedProject dependencies: editionWidget list listItems.
 		projectList roots: project requiredProjects ].
 	self window openModal: editionWidget openDialogWithSpec window
 	

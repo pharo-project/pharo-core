@@ -1,2 +1,2 @@
 elements
-	^ self list getItems
+	^ self list listItems

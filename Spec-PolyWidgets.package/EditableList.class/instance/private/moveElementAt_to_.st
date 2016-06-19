@@ -1,10 +1,10 @@
 moveElementAt: index to: newIndex
 	| elementToMove orderedList |
 	
-	(newIndex < 1 or: [ newIndex > list getItems size ]) ifTrue: [ ^self ].
+	(newIndex < 1 or: [ newIndex > list listItems size ]) ifTrue: [ ^self ].
 	
-	elementToMove := list getItems at: index.	
-	orderedList := list getItems asOrderedCollection
+	elementToMove := list listItems at: index.	
+	orderedList := list listItems asOrderedCollection
 		removeAt: index;
 		add: elementToMove beforeIndex: newIndex;
 		yourself.

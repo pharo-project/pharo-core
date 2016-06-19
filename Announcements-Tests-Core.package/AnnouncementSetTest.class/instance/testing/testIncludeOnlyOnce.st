@@ -1,4 +1,4 @@
 testIncludeOnlyOnce
-	|set|
-	set := AnnouncementMockA, AnnouncementMockB, AnnouncementMockA.
-	self assert: set size = 2
+	| set |
+	set := AnnouncementMockA , AnnouncementMockB , AnnouncementMockA.
+	self assert: set size equals: 2

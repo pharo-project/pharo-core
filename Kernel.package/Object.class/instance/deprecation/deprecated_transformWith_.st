@@ -1,11 +1,13 @@
 deprecated: anExplanationString transformWith: aRule
 	| rewriteRule method context node |
-	(Smalltalk globals hasClassNamed: #RBParseTreeRewriter) 
-		ifFalse: [ ^self deprecated: anExplanationString ].
+	self class environment 
+		at:  #RBParseTreeRewriter 
+		ifAbsent: [ ^self deprecated: anExplanationString ].
 	context := thisContext sender sender.
 	method := context method.
 	node := context sourceNodeExecuted.
-	rewriteRule := (Smalltalk globals classNamed: #RBParseTreeRewriter) new replace: aRule key with: aRule value.
+	rewriteRule := (self class environment at: #RBParseTreeRewriter) new 
+		replace: aRule key with: aRule value.
 	(rewriteRule executeTree: node)
 		ifFalse: [ ^ self ].
 	node replaceWith: rewriteRule tree. 

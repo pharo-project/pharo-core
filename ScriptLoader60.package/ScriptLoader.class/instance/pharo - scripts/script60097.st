@@ -1,11 +1,11 @@
-script60096
+script60097
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
 Alien-eem.32.mcz
 Announcements-Core-TheIntegrator.70.mcz
 Announcements-Help-TheIntegrator.12.mcz
-Announcements-Tests-Core-TheIntegrator.33.mcz
+Announcements-Tests-Core-TheIntegrator.35.mcz
 Athens-Balloon-MarcusDenker.20.mcz
 Athens-Cairo-NicolaiHess.123.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2333.mcz
+Kernel-TheIntegrator.2335.mcz
 Kernel-Rules-TheIntegrator.5.mcz
 Kernel-Tests-TheIntegrator.78.mcz
 Keymapping-Core-TheIntegrator.198.mcz
@@ -247,7 +247,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.320.mcz
-Refactoring-Critics-TheIntegrator.270.mcz
+Refactoring-Critics-TheIntegrator.272.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
@@ -256,7 +256,7 @@ Refactoring-Tests-Environment-TheIntegrator.25.mcz
 Reflectivity-TheIntegrator.301.mcz
 Reflectivity-Examples-TheIntegrator.31.mcz
 Reflectivity-Tests-TheIntegrator.203.mcz
-Reflectivity-Tools-TheIntegrator.35.mcz
+Reflectivity-Tools-TheIntegrator.37.mcz
 Reflectivity-Tools-Tests-TheIntegrator.13.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -300,10 +300,10 @@ Spec-Core-TheIntegrator.477.mcz
 Spec-Debugger-TheIntegrator.267.mcz
 Spec-Examples-TheIntegrator.116.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.264.mcz
+Spec-Inspector-TheIntegrator.266.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.273.mcz
-Spec-PolyWidgets-TheIntegrator.70.mcz
+Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
 Spec-Tools-TheIntegrator.338.mcz
@@ -386,7 +386,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-MarcusDenker.65.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
 Versionner-Core-Model-PavelKrivanek.54.mcz
-Versionner-Spec-Browser-TheIntegrator.193.mcz
+Versionner-Spec-Browser-TheIntegrator.195.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

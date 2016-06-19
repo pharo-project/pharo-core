@@ -1,3 +1,9 @@
 commentForCurrentUpdate
- ^ '18524 Add Icon Styler for haltOnce and haltOnCount:
-	https://pharo.fogbugz.com/f/cases/18524'
+ ^ '18520 EyeTreeInspector is broken
+	https://pharo.fogbugz.com/f/cases/18520
+
+18527 #halt should not be in the badSelectors rule
+	https://pharo.fogbugz.com/f/cases/18527
+
+18525 fix for IconStyler
+	https://pharo.fogbugz.com/f/cases/18525'
