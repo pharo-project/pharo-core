@@ -1,4 +1,4 @@
-script60097
+script60098
 
 	^ 'AST-Core-TheIntegrator.426.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2335.mcz
+Kernel-TheIntegrator.2338.mcz
 Kernel-Rules-TheIntegrator.5.mcz
-Kernel-Tests-TheIntegrator.78.mcz
+Kernel-Tests-TheIntegrator.80.mcz
 Keymapping-Core-TheIntegrator.198.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.57.mcz
@@ -256,7 +256,7 @@ Refactoring-Tests-Environment-TheIntegrator.25.mcz
 Reflectivity-TheIntegrator.301.mcz
 Reflectivity-Examples-TheIntegrator.31.mcz
 Reflectivity-Tests-TheIntegrator.203.mcz
-Reflectivity-Tools-TheIntegrator.37.mcz
+Reflectivity-Tools-TheIntegrator.38.mcz
 Reflectivity-Tools-Tests-TheIntegrator.13.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -265,7 +265,7 @@ ReleaseTests-TheIntegrator.33.mcz
 Renraku-YuriyTymchuk.119.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
-Ring-Core-Kernel-TheIntegrator.237.mcz
+Ring-Core-Kernel-TheIntegrator.240.mcz
 Ring-Monticello-TheIntegrator.43.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
@@ -306,7 +306,7 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.338.mcz
+Spec-Tools-TheIntegrator.340.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.108.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz

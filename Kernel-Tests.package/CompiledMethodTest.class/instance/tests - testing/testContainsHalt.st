@@ -5,6 +5,7 @@ testContainsHalt
 	self 
 	deny: (Object >> #halt) containsHalt;
 	deny: (Object >> #haltIfNil) containsHalt;
+	deny: (Halt class >> #once) containsHalt;
 	assert: (UndefinedObject >> #haltIfNil) containsHalt.
 	
 	annonClass := Object newAnonymousSubclass.

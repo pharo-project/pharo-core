@@ -1,15 +1,13 @@
 containsHalt
 
-	2 to: self numLiterals - 1 do: [ :index | 
-		
-		| lit |
-		
-		lit := self objectAt: index.
-				
-		((lit isKindOf: Symbol) and: [ 
-			 #( halt halt: halt:onCount: haltIf: haltIfNil haltOnCount: haltOnce) includes: lit 
-		]) ifTrue: [ ^ true ]
+	| haltSelectors |
+	
+	haltSelectors := #( halt halt: halt:onCount: haltIf: haltIfNil haltOnCount: haltOnce).
+	
+	self literalsDo: [ :lit |
+		(lit isSymbol and: [ haltSelectors includes: lit ]) 
+			ifTrue: [ ^ self messages includesAny: haltSelectors ]
 	].
 
-	^ false
+	^ false 
 	

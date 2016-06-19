@@ -1,4 +1,3 @@
 now
 	<debuggerCompleteToSender>
-
 	self signal.

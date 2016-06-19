@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18520 EyeTreeInspector is broken
-	https://pharo.fogbugz.com/f/cases/18520
+ ^ '18534 add Style icons so messageBrowser
+	https://pharo.fogbugz.com/f/cases/18534
 
-18527 #halt should not be in the badSelectors rule
-	https://pharo.fogbugz.com/f/cases/18527
-
-18525 fix for IconStyler
-	https://pharo.fogbugz.com/f/cases/18525'
+18526 better #containsHalt
+	https://pharo.fogbugz.com/f/cases/18526'

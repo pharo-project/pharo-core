@@ -1,2 +1,2 @@
 shouldStyleNode: aNode
-	^aNode isMessage and: [ aNode selector = 'haltOnCount:']
+	^aNode isMessage and: [ aNode selector = #haltOnCount:]
