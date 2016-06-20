@@ -1,3 +1,4 @@
 setUp 
 	super setUp.
-	SystemAnnouncer restoreAllNotifications.
+	oldSystemAnnouncer := SystemAnnouncer uniqueInstance.
+	SystemAnnouncer restoreAllNotifications

@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '18538 remove dead code in UI Manager
+update60099
+	"self new update60099"
+	self withUpdateLog: '18538 remove dead code in UI Manager
 	https://pharo.fogbugz.com/f/cases/18538
 
 18540 Improve method level icon for #flag:
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/18543
 
 18528 RPackageNameTest resets SystemAnnouncer without restoring subscriptions
-	https://pharo.fogbugz.com/f/cases/18528'
+	https://pharo.fogbugz.com/f/cases/18528'.
+	self loadTogether: self script60099 merge: false.
+	self flushCaches.

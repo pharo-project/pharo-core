@@ -1,5 +1,5 @@
 TestCase subclass: #RPackageRenameTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'oldSystemAnnouncer'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'RPackage-Tests'

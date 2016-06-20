@@ -1,2 +1,0 @@
-ignoredDependencies
-	^ #(#'System-Settings')

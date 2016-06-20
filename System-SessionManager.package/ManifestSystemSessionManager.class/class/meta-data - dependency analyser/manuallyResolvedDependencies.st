@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Collections-Streams' #'System-Object Events' #Traits #'System-Support') 
+	^ #(#'Collections-Streams' #Traits #'System-Support') 
