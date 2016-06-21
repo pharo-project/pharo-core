@@ -1,0 +1,2 @@
+classifier: aMethodClassifier
+	methodClassifier := aMethodClassifier

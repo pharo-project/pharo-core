@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '18538 remove dead code in UI Manager
-	https://pharo.fogbugz.com/f/cases/18538
+ ^ '18545 Update Fuel
+	https://pharo.fogbugz.com/f/cases/18545
 
-18540 Improve method level icon for #flag:
-	https://pharo.fogbugz.com/f/cases/18540
-
-18542 update dependencies of System-Support
-	https://pharo.fogbugz.com/f/cases/18542
-
-18543 update dependencies of SessionManager
-	https://pharo.fogbugz.com/f/cases/18543
-
-18528 RPackageNameTest resets SystemAnnouncer without restoring subscriptions
-	https://pharo.fogbugz.com/f/cases/18528'
+18535 Nautilus should be open to support different method categorizer
+	https://pharo.fogbugz.com/f/cases/18535'

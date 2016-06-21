@@ -4,4 +4,4 @@ tempNamed: aName
 	index := self tempNames indexOf: aName.
 	^ self closure 
 		ifNil: [ self tempAt: index ]
-		ifNotNil: [ :closure | closure at: index ]
+		ifNotNilDo: [ :closure | closure at: index ]
