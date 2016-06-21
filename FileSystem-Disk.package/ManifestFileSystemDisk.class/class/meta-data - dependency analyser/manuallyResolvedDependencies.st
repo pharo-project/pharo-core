@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'Collections-Abstract' #Traits #'System-Platforms' #'Multilingual-TextConversion' #'Collections-Strings' #'System-Support')
+	^ #(#'Collections-Abstract' #Traits #'System-Platforms' #'Collections-Strings' #'System-Support')

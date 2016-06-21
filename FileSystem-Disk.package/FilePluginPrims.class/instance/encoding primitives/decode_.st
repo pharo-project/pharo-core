@@ -1,2 +1,3 @@
 decode: aString
-	^ aString convertFromWithConverter: LanguageEnvironment defaultFileNameConverter
+
+	^ (ZnCharacterEncoder newForEncoding: 'utf8') decodeBytes: aString asByteArray

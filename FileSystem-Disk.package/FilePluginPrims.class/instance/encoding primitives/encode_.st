@@ -1,2 +1,4 @@
 encode: aString
-	^ aString convertToWithConverter: LanguageEnvironment defaultFileNameConverter
+
+	"Should not return a string"
+	^ ((ZnCharacterEncoder newForEncoding: 'utf8') encodeString: aString) asString
