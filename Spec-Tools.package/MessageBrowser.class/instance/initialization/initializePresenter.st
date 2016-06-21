@@ -5,7 +5,7 @@ initializePresenter
 			textModel behavior: (item ifNil: [ nil ] ifNotNil: [ item methodClass ]).
 			textModel doItReceiver: textModel behavior.
 			textModel text: (self textConverter method: item; getText).
-			AbstractIconStyler allSubclassesDo:[:styleClass|
+			IconStyler allSubclassesDo:[:styleClass|
 				styleClass shouldStyle ifTrue:[
 			item ast acceptVisitor: (styleClass style: self textModel)]]].
 	listModel whenListChanged: [ self updateTitle ].

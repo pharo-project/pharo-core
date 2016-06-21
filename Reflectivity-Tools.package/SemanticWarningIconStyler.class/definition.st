@@ -1,4 +1,4 @@
-AbstractIconStyler subclass: #SemanticWarningIconStyler
+IconStyler subclass: #SemanticWarningIconStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

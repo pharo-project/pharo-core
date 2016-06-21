@@ -1,4 +1,4 @@
-AbstractIconStyler subclass: #HaltIconStyler
+IconStyler subclass: #HaltIconStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

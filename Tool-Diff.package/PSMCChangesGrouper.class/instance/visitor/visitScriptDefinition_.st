@@ -1,3 +1,3 @@
 visitScriptDefinition: aMCScriptDefinition
 
-	self visitDefaultDefinition: aMCScriptDefinition
+	"do nothing for script definitions"

@@ -1,2 +1,2 @@
 label
-	^ label ifNil: [ label := '' ]
+	^ label value ifNil: [ label := '']

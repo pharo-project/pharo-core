@@ -1,2 +1,2 @@
-label: aString
-	label := aString
+label: aStringOrBlock
+	label := aStringOrBlock

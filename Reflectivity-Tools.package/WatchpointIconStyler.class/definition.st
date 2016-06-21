@@ -1,4 +1,4 @@
-AbstractIconStyler subclass: #WatchpointIconStyler
+IconStyler subclass: #WatchpointIconStyler
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

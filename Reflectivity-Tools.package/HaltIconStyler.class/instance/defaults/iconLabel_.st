@@ -1,2 +1,0 @@
-iconLabel: aNode
-	^ 'halt'

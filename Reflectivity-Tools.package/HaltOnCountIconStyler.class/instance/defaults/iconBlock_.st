@@ -1,3 +1,3 @@
 iconBlock: aNode
 	^[ :seg :event | 
-		aNode propertyAt: #haltCount put: 0.]
+		aNode removeProperty: #haltCount ifAbsent: []]

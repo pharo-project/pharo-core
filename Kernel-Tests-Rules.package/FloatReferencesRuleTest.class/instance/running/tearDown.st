@@ -1,0 +1,3 @@
+tearDown
+
+	testClass := nil

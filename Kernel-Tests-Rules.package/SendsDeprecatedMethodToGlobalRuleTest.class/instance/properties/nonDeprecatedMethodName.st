@@ -1,0 +1,3 @@
+nonDeprecatedMethodName
+
+	^ 'not', self deprecatedMethodName 
