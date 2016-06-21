@@ -8,7 +8,7 @@ newScrolledText
 			scrolledText addSegment: (r := RubUnderlinedSegmentMorph from: 1 to: 29).
 			r icon: (self iconProvider iconNamed: #smallErrorIcon).
 			r label: 'Please review'.
-			r iconBlock: [ :seg :event | seg delete ].
+			r iconBlock: [ :seg | seg delete ].
 			scrolledText addSegment: (r := RubUnderlinedSegmentMorph from: 35 to: 59).
 			r icon: (self iconProvider iconNamed: #smallErrorIcon).
 			r label: 'Remove'.

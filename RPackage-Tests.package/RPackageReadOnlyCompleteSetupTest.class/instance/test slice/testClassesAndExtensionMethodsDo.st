@@ -4,8 +4,8 @@ testClassesAndExtensionMethodsDo
 	| block |
 
 	self assert: (String streamContents: [:stream |
-		block := [ :aClass :selectors |
-				stream nextPutAll: aClass name ; nextPutAll: ' '.
+		block := [ :aClassName :selectors |
+				stream nextPutAll: aClassName ; nextPutAll: ' '.
 				selectors do: [ :selector | stream nextPutAll: selector asString].
 				stream cr.].
 		{p1 . p2 . p3} do: [ :p |

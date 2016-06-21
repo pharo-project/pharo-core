@@ -1,4 +1,4 @@
 uninstall
 	node hasWatchpoint ifFalse: [ ^self ].
 	link uninstall.
-	Watchpoint allWatchpoints removeKey: node.
+	self class allWatchpoints removeKey: node.

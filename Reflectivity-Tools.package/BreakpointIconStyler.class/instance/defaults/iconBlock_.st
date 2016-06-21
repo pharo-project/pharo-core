@@ -1,4 +1,4 @@
 iconBlock: aNode
-	^[ :seg :event | 
+	^[ :seg | 
 		Breakpoint removeFrom: aNode.
 		seg delete]

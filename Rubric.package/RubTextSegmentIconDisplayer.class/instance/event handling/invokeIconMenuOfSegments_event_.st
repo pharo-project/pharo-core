@@ -5,17 +5,7 @@ invokeIconMenuOfSegments: aSegmentList event: anEvent
 		defaultTarget: self;
 		color: Color yellow muchLighter.
 	aSegmentList
-		do: [ :seg | 
-			seg label
-				ifNotEmpty: [ 
-					(menu
-						add: seg label
-						target: seg iconBlock
-						selector: #value:value:
-						argumentList: {seg. anEvent})
-						icon: seg icon;
-						segment: seg;
-						yourself ] ].
+		do: [ :seg | seg addItemToMenu: menu ].
 	menu hasItems
 		ifFalse: [ ^ self ].
 	menu borderWidth: 0.

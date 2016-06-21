@@ -3,7 +3,7 @@ asClassDefinition
 	self usesSpecialVariables ifFalse: [  
 	 ^MCClassDefinition
 		name: self name
-		superclassName: self superclass name
+		superclassName: (self superclass ifNil: [ nil asString ] ifNotNil: [ self superclass name ])
 		traitComposition: self traitCompositionString
 		classTraitComposition: self class traitCompositionString
 		category: self category 
@@ -17,7 +17,7 @@ asClassDefinition
 	
 	^MCClassDefinition
 		name: self name
-		superclassName: self superclass name
+		superclassName: (self superclass ifNil: [ nil asString ] ifNotNil: [ self superclass name ])
 		traitComposition: self traitCompositionString
 		classTraitComposition: self class traitCompositionString
 		category: self category 

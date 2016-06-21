@@ -5,7 +5,9 @@ asRingDefinition
 	| ring |
 	ring := (RGClassDefinition named: self name)
 		category: self category;
-		superclassName: self superclass name;  
+		superclassName: (self superclass
+			ifNil: [ nil printString ]
+			ifNotNil: [ self superclass name ]);
 		traitCompositionSource: self traitCompositionString;
 		addInstanceVariables: self instVarNames;
 		addClassVariables: self classVarNames;

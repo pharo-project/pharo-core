@@ -1,5 +1,4 @@
 watchpoint
 	
-	self hasWatchpoint ifFalse:[self error: 'No Watchpoint'].
-	 
+	self hasWatchpoint ifFalse:[^nil].
 	^(self afterLinks detect: [ :link | link metaObject class = Watchpoint ]) metaObject

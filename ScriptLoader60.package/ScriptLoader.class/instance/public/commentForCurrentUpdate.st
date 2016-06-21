@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18544 Replace Old encoders by new Zn encoders in FileSystem-Disk
-	https://pharo.fogbugz.com/f/cases/18544
+ ^ '18554 Update SystemCommandLineHandler dependencies
+	https://pharo.fogbugz.com/f/cases/18554
 
-18549 Halt Icon Styler doesnt allow disabling the haltonce
-	https://pharo.fogbugz.com/f/cases/18549
+18553 AST based execution counter 
+	https://pharo.fogbugz.com/f/cases/18553
 
-18547 EncoderForSistaV1 bug fix
-	https://pharo.fogbugz.com/f/cases/18547'
+18552 Move menu item morph creation to RubSegment
+	https://pharo.fogbugz.com/f/cases/18552
+
+7241 Object>>#name should best be removed
+	https://pharo.fogbugz.com/f/cases/7241'

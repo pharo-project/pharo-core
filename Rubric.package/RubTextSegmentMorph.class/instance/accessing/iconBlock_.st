@@ -1,2 +1,2 @@
-iconBlock: aBlockWithMyselfAndAnEventAsArgument
-	iconBlock := aBlockWithMyselfAndAnEventAsArgument
+iconBlock: aBlock
+	iconBlock := aBlock

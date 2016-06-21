@@ -1,2 +1,2 @@
 iconBlock: aNode
-	^[ :seg :event | aNode explore]
+	^[ aNode explore]

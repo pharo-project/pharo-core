@@ -10,4 +10,4 @@ install
 				condition: [ recording ];
 				option: #(+ optionWeakAfter).
 	node link: link.
-	self class add: self on: node
+	self class allWatchpoints at: node put: self.

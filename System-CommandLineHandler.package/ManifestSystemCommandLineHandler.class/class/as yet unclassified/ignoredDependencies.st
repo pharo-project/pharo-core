@@ -1,2 +1,2 @@
 ignoredDependencies
-	^ #(#'System-Settings')
+	^ #(#'System-Settings' #StartupPreferences)
