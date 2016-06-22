@@ -1,4 +1,4 @@
-script60106
+script60107
 
 	^ 'AST-Core-TheIntegrator.428.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -46,7 +46,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.126.mcz
-Deprecated60-TheIntegrator.4.mcz
+Deprecated60-TheIntegrator.6.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -63,7 +63,7 @@ FileSystem-Tests-Core-TheIntegrator.95.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.417.mcz
+Files-TheIntegrator.419.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-TheIntegrator.17.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -136,7 +136,7 @@ Kernel-TheIntegrator.2345.mcz
 Kernel-Rules-TheIntegrator.6.mcz
 Kernel-Tests-TheIntegrator.80.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
-Keymapping-Core-TheIntegrator.198.mcz
+Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
 Keymapping-Pragmas-TheIntegrator.57.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
@@ -238,7 +238,7 @@ PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.104.mcz
+QualityAssistant-YuriyTymchuk.105.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.23.mcz
 RPackage-Core-TheIntegrator.433.mcz
@@ -263,7 +263,7 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.119.mcz
+Renraku-YuriyTymchuk.120.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.242.mcz
@@ -307,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.346.mcz
+Spec-Tools-TheIntegrator.348.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.111.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -397,7 +397,7 @@ WriteBarrierTests-TheIntegrator.9.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
-Zinc-HTTP-TheIntegrator.450.mcz
+Zinc-HTTP-TheIntegrator.452.mcz
 Zinc-Resource-Meta-Core-TheIntegrator.58.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
 Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz

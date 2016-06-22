@@ -3,6 +3,6 @@ autoSelect: aSelector
 		readSelectionBlock:
 			[ :text | 
 			self selectedMessage ifNotNil:
-					[ :msg | msg isCompiledMethod
+					[ :msg | (self isMethodDefinition: msg)
 						ifFalse: [ self intervalOf: aSelector inCommentText: text ] 
 						ifTrue: [ self intervalOf: aSelector inCode: text of: msg ] ] ]

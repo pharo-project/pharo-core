@@ -4,5 +4,5 @@ buildShortcutsOn: aBuilder
 	(aBuilder shortcut: #close)
 		category: #WindowShortcuts
 		default: PharoShortcuts current closeWindowShortcut
-		do: [ :target | target close ]
+		do: [ :target | target closeWindowAction ]
 		description: 'Close this window'.

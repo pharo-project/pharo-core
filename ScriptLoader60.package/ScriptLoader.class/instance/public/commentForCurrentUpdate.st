@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '18562 QualityAssistant v3.1.0
-	https://pharo.fogbugz.com/f/cases/18562
+ ^ '18557 DialogWindow: close window should act as "Cancel"
+	https://pharo.fogbugz.com/f/cases/18557
 
-18560 haltOnce creates endless recursion ?
-	https://pharo.fogbugz.com/f/cases/18560'
+18565 sendersOf autoselect selects wrong interval
+	https://pharo.fogbugz.com/f/cases/18565
+
+18254 Strange results of Integer>>#asBytesDescription
+	https://pharo.fogbugz.com/f/cases/18254'
