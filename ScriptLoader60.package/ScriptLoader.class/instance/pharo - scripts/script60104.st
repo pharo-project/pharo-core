@@ -1,6 +1,6 @@
-script60103
+script60104
 
-	^ 'AST-Core-TheIntegrator.426.mcz
+	^ 'AST-Core-TheIntegrator.428.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
 Alien-eem.32.mcz
 Announcements-Core-TheIntegrator.70.mcz
@@ -243,7 +243,6 @@ QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.23.mcz
 RPackage-Core-TheIntegrator.430.mcz
 RPackage-Tests-TheIntegrator.191.mcz
-RPackageTest-TheIntegrator.2.mcz
 Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
@@ -253,7 +252,7 @@ Refactoring-Critics-TheIntegrator.273.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
 Refactoring-Tests-Changes-MarcusDenker.38.mcz
 Refactoring-Tests-Core-TheIntegrator.133.mcz
-Refactoring-Tests-Critics-TheIntegrator.38.mcz
+Refactoring-Tests-Critics-TheIntegrator.41.mcz
 Refactoring-Tests-Environment-TheIntegrator.25.mcz
 Reflectivity-TheIntegrator.302.mcz
 Reflectivity-Examples-TheIntegrator.35.mcz
@@ -308,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.344.mcz
+Spec-Tools-TheIntegrator.346.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.111.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz

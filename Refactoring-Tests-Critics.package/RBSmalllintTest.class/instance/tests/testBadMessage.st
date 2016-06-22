@@ -1,2 +1,2 @@
 testBadMessage
-	self ruleFor: self currentSelector plusSelectors: #(codeCruftLeftInMethods collectionMessagesToExternalObject)
+	self ruleFor: self currentSelector plusSelectors: #(badMessage collectionMessagesToExternalObject)

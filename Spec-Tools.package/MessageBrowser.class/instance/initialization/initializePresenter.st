@@ -5,9 +5,7 @@ initializePresenter
 			textModel behavior: (item ifNil: [ nil ] ifNotNil: [ item methodClass ]).
 			textModel doItReceiver: textModel behavior.
 			textModel text: (self textConverter method: item; getText).
-			IconStyler allSubclassesDo:[:styleClass|
-				styleClass shouldStyle ifTrue:[
-			item ast acceptVisitor: (styleClass style: self textModel)]]].
+			self installIconStylerFor: item].
 	listModel whenListChanged: [ self updateTitle ].
 		
 	titleHolder whenChangedDo: [ self updateTitle ].
