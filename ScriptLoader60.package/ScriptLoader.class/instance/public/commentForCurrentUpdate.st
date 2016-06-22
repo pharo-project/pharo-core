@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '18556 Folding RPackage extensions on Announcement to Announcement
-	https://pharo.fogbugz.com/f/cases/18556'
+ ^ '18562 QualityAssistant v3.1.0
+	https://pharo.fogbugz.com/f/cases/18562
+
+18560 haltOnce creates endless recursion ?
+	https://pharo.fogbugz.com/f/cases/18560'

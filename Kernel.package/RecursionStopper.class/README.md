@@ -1,0 +1,1 @@
+The RecursionStopper provides an easy way to check if we are in a recursion.

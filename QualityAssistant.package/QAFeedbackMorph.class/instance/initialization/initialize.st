@@ -8,7 +8,10 @@ initialize
 		hResizing: #shrinkWrap;
 		vResizing: #shrinkWrap;
 		cellInset: 3;
-		color: Color transparent.
+		layoutInset: 3@0;
+		cornerStyle: #rounded;
+		color: Color transparent;
+		borderColor: (Color black alpha: 0.1).
 		
 	self
 		addMorphBack: (text := 'Helpful?' asMorph);

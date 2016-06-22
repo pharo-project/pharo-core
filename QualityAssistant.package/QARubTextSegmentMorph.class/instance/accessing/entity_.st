@@ -1,0 +1,2 @@
+entity: anObject
+	entity := anObject

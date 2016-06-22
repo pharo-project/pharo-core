@@ -1,6 +1,6 @@
 confSourceFor: versionName with: versions
 
-	^ String streamContents: [:stream |
+	^ String streamContents: [ :stream |
 		stream
 			<< 'version';
 			<< (versionName copyReplaceAll: '.' with: '_');
@@ -21,13 +21,18 @@ confSourceFor: versionName with: versions
 			<< 'spec';
 			cr.
 			
-			versions do: [ :v |
-				stream tab;
-					<< 'package: ';
-					<< v package name surroundedBySingleQuotes;
-					<< ' with: ';
-					<< v info name surroundedBySingleQuotes ]
-				separatedBy: [
-					stream << ';'; cr].
+		versions do: [ :v |
+			stream tab;
+				<< 'package: ';
+				<< v package name surroundedBySingleQuotes;
+				<< ' with: ';
+				<< v info name surroundedBySingleQuotes ]
+			separatedBy: [
+				stream << ';'; cr].
+
+		stream
+			<< $.; cr;
+			<< 'spec postLoadDoIt: #postload'.	
 				
-        stream << ' ]' ]
+				
+      stream << ' ]' ]

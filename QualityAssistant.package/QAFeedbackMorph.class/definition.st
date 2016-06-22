@@ -1,4 +1,4 @@
-Morph subclass: #QAFeedbackMorph
+BorderedMorph subclass: #QAFeedbackMorph
 	instanceVariableNames: 'positive negative text critique'
 	classVariableNames: ''
 	poolDictionaries: ''
