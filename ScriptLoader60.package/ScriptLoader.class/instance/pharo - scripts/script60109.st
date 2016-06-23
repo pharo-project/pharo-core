@@ -1,4 +1,4 @@
-script60108
+script60109
 
 	^ 'AST-Core-TheIntegrator.428.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2345.mcz
+Kernel-TheIntegrator.2347.mcz
 Kernel-Rules-TheIntegrator.6.mcz
-Kernel-Tests-TheIntegrator.80.mcz
+Kernel-Tests-TheIntegrator.82.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -348,9 +348,9 @@ Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.159.mcz
+Tool-Base-TheIntegrator.161.mcz
 Tool-Catalog-TheIntegrator.40.mcz
-Tool-CriticBrowser-TheIntegrator.26.mcz
+Tool-CriticBrowser-TheIntegrator.28.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz

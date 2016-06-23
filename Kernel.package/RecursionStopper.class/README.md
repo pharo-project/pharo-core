@@ -1,1 +1,1 @@
-The RecursionStopper provides an easy way to check if we are in a recursion.
+The RecursionStopper provides an easy way to check if we are in a recursion and execute code just once in a recursion.RecursionStopper on	now "RecursionStopper check" will be true in we are in a recursionRecursionStopper off	turn it off.	RecursionStopper during:  [...]executes a block just once in a recursion.

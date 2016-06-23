@@ -1,11 +1,9 @@
 once
 	| node |
-	<debuggerCompleteToSender>
-
-	RecursionStopper check ifTrue: [ ^self ].
-	RecursionStopper on.
-	node := thisContext sender sender sourceNodeExecuted.
-	RecursionStopper off.
-	(node hasProperty: #haltonce) ifTrue: [^self]. 
-	node propertyAt: #haltonce put: true.
-	^ self signal.
+	"<debuggerCompleteToSender>"
+	
+	RecursionStopper during: ["we need to ignore when the code below calls us again"
+		node := thisContext sender sender sender sender  sender sourceNodeExecuted.
+		(node hasProperty: #haltonce) ifTrue: [^self]. 
+		node propertyAt: #haltonce put: true.
+		^ self signal].
