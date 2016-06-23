@@ -1,5 +1,5 @@
 wrapItem: anItem
-	| s |
+	| s packageName |
 	
 	s :=String streamContents: [ :aStream | 
 		3 to: (cachedHierarchy at: anItem) size do: [:i | aStream << '    '].
@@ -8,5 +8,5 @@ wrapItem: anItem
 		anItem isFromTrait
 			ifTrue: [ aStream << anItem compiledMethod origin name; space ].
 		aStream << (anItem category ifNil: ['']) <<')'].
-
-	^ {s. anItem selector.  '[',anItem package name,']'.}.
+   packageName := anItem package ifNil:[ '' ] ifNotNil:[:package| package name].
+	^ {s. anItem selector.  '[', packageName,']'.}.

@@ -1,2 +1,4 @@
 methodClassName
-	^class
+	^ meta
+		ifTrue: [ class , ' class' ]
+		ifFalse: [ class ]

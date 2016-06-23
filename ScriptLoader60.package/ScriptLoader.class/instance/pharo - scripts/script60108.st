@@ -1,4 +1,4 @@
-script60107
+script60108
 
 	^ 'AST-Core-TheIntegrator.428.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -114,7 +114,7 @@ Glamour-Tests-Rubric-AndreiChis.35.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
-Graphics-Canvas-TheIntegrator.6.mcz
+Graphics-Canvas-TheIntegrator.8.mcz
 Graphics-Display Objects-TheIntegrator.175.mcz
 Graphics-Files-TheIntegrator.76.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
@@ -168,7 +168,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1144.mcz
+Monticello-TheIntegrator.1146.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.37.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
@@ -179,7 +179,7 @@ MonticelloGUI-TheIntegrator.423.mcz
 MonticelloMocks-TheIntegrator.6.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.562.mcz
+Morphic-Base-TheIntegrator.564.mcz
 Morphic-Core-TheIntegrator.291.mcz
 Morphic-Examples-TheIntegrator.52.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -307,13 +307,13 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.348.mcz
+Spec-Tools-TheIntegrator.350.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.111.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
-System-Changes-TheIntegrator.297.mcz
+System-Changes-TheIntegrator.299.mcz
 System-Changes-FileServices-TheIntegrator.2.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
@@ -358,7 +358,7 @@ Tool-Diff-TheIntegrator.39.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.70.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.67.mcz
+Tool-Finder-TheIntegrator.69.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.23.mcz
 Tool-Profilers-TheIntegrator.26.mcz

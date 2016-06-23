@@ -16,7 +16,14 @@ drawString: aString from: firstIndex to: lastIndex in: bounds font: fontOrNil co
 	underline ifTrue:[
 		font installOn: port
 			foregroundColor: uc
-			backgroundColor: Color transparent.
-		font displayUnderlineOn: port from: (bounds topLeft + origin + (0@font ascent)) to: endPoint.	
+			backgroundColor: Color transparent;
+			displayUnderlineOn: port from: (bounds topLeft + origin + (0@font ascent)) to: endPoint.	
 		].
+	strikethrough ifTrue: [ 
+		font installOn: port
+			foregroundColor: uc
+			backgroundColor: Color transparent;
+			displayStrikeoutOn: port from: (bounds topLeft + origin + (0@font ascent)) to: endPoint.	
+	].
+
 	port clipRect: portRect.

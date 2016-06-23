@@ -1,2 +1,2 @@
 sortKey
-	^ self baseTrait name , '.classTrait'
+	^ self baseTrait , '.classTrait'
