@@ -2,4 +2,4 @@ printOn: aStream
 
 	aStream
 		nextPutAll: 'ManifestBuilder of ';
-		nextPutAll: manifestClass name
+		nextPutAll: manifestClass printString.

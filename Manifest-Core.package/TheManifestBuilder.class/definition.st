@@ -1,5 +1,5 @@
 AbstractTool subclass: #TheManifestBuilder
-	instanceVariableNames: 'manifestClass manifest'
+	instanceVariableNames: 'manifestClass'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Manifest-Core'

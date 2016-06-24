@@ -1,2 +1,7 @@
 isDeprecated
-	^ (self sendsSelector: #deprecated:) or: [self sendsSelector: #deprecated:on:in:]
+
+	^ self sendsAnySelectorOf: #(
+		#deprecated: 
+		#deprecated:on:in:
+		#deprecated:transformWith: 
+	)

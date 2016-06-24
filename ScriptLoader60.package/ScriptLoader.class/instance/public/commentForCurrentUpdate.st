@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18586 add String>>#trimmLineSpaces
-	https://pharo.fogbugz.com/f/cases/18586
+ ^ '18592 fix a #name deprecation in Manifest Builder
+	https://pharo.fogbugz.com/f/cases/18592
 
-18591 fix call to #name in asEpiceaRingDefinition
-	https://pharo.fogbugz.com/f/cases/18591
+18587 Show depreciated methods with strikethrough emphasis
+	https://pharo.fogbugz.com/f/cases/18587
 
-18583 For experiments: Option to compile with syntax errors
-	https://pharo.fogbugz.com/f/cases/18583
-
-18585 deprecated:transformWith: should to Transcript output
-	https://pharo.fogbugz.com/f/cases/18585'
+18584 DNU on showing menu in PointerExplorer
+	https://pharo.fogbugz.com/f/cases/18584'

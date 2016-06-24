@@ -1,13 +1,3 @@
 containsHalt
 
-	| haltSelectors |
-	
-	haltSelectors := #( halt halt: haltIf: haltIfNil haltOnCount: haltOnce).
-	
-	self literalsDo: [ :lit |
-		(lit isSymbol and: [ haltSelectors includes: lit ]) 
-			ifTrue: [ ^ self messages includesAny: haltSelectors ]
-	].
-
-	^ false 
-	
+	^ self sendsAnySelectorOf: #( halt halt: haltIf: haltIfNil haltOnCount: haltOnce)

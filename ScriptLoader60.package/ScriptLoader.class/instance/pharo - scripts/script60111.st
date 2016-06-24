@@ -1,4 +1,4 @@
-script60110
+script60111
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2349.mcz
+Kernel-TheIntegrator.2350.mcz
 Kernel-Rules-TheIntegrator.6.mcz
 Kernel-Tests-TheIntegrator.82.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -143,7 +143,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.173.mcz
-Manifest-Core-TheIntegrator.244.mcz
+Manifest-Core-TheIntegrator.246.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.84.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1267.mcz
+Nautilus-TheIntegrator.1270.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -301,7 +301,7 @@ Spec-Core-TheIntegrator.477.mcz
 Spec-Debugger-TheIntegrator.267.mcz
 Spec-Examples-TheIntegrator.116.mcz
 Spec-Help-TheIntegrator.10.mcz
-Spec-Inspector-TheIntegrator.266.mcz
+Spec-Inspector-TheIntegrator.268.mcz
 Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
