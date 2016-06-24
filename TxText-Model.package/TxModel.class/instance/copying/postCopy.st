@@ -1,2 +1,0 @@
-postCopy
-	self halt.

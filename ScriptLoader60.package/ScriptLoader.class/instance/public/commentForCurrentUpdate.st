@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18592 fix a #name deprecation in Manifest Builder
-	https://pharo.fogbugz.com/f/cases/18592
+ ^ '18597 fix haltOnce to open debugger in the right place
+	https://pharo.fogbugz.com/f/cases/18597
 
-18587 Show depreciated methods with strikethrough emphasis
-	https://pharo.fogbugz.com/f/cases/18587
+18539 Can not browse methods for a change set that modified class comments
+	https://pharo.fogbugz.com/f/cases/18539
 
-18584 DNU on showing menu in PointerExplorer
-	https://pharo.fogbugz.com/f/cases/18584'
+18073 TxModel >>#postCopy sends #halt
+	https://pharo.fogbugz.com/f/cases/18073'
