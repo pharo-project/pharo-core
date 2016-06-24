@@ -1,0 +1,2 @@
+compileWithErrors
+	^CompileWithErrors ifNil: [ false ]

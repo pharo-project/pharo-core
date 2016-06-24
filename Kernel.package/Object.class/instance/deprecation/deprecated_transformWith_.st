@@ -13,4 +13,12 @@ deprecated: anExplanationString transformWith: aRule
 	node replaceWith: rewriteRule tree. 
 	Author 
 		useAuthor: 'AutoDeprecationRefactoring'
-		during: [method methodClass compile: method ast formattedCode classified: method protocol]
+		during: [method methodClass compile: method ast formattedCode classified: method protocol].
+		
+	Transcript 
+		nextPutAll: 'The method ';
+		nextPutAll: node selector printString;
+		nextPutAll: ' has been deprecated. ';
+		nextPutAll: anExplanationString; 
+		cr; 
+		flush

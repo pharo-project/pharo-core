@@ -3,7 +3,10 @@ compilerSettingsOn: aBuilder
 	(aBuilder group: #compiler)
 		label: 'Compiler';
 		description: 'All Compiler Settings';
-		with: [ 
+		with: [ (aBuilder setting: #compileWithErrors) 
+						label: 'Allow code with syntax errors';
+						description: 'If checked then code with syntax errros can be compiled';
+						target: self.
 					(aBuilder pickOne: #compilerClass)
 						target: SmalltalkImage;
 						label: 'Default Compiler';

@@ -1,2 +1,7 @@
 default 
-	^ self new parseOptions: OpalCompiler defaultOptions
+	| instance |
+	instance := self new.
+	instance parseOptions: OpalCompiler defaultOptions.
+	AbstractCompiler compileWithErrors 
+		ifTrue: [ instance parseOptions: #(+ optionParseErrors) ].
+	^instance.

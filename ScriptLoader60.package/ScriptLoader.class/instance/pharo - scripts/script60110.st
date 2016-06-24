@@ -1,6 +1,6 @@
-script60109
+script60110
 
-	^ 'AST-Core-TheIntegrator.428.mcz
+	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
 Alien-eem.32.mcz
 Announcements-Core-TheIntegrator.72.mcz
@@ -31,9 +31,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.419.mcz
+Collections-Strings-TheIntegrator.423.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.56.mcz
+Collections-Tests-TheIntegrator.59.mcz
 Collections-Unordered-TheIntegrator.234.mcz
 Collections-Weak-TheIntegrator.106.mcz
 Compiler-TheIntegrator.602.mcz
@@ -50,7 +50,7 @@ Deprecated60-TheIntegrator.6.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-Epicea-DenisKudryashov.787.mcz
+Epicea-TheIntegrator.789.mcz
 EpiceaBrowsers-MartinDias.18.mcz
 EpiceaBrowsersTests-MartinDias.2.mcz
 EpiceaTests-MD.6.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2347.mcz
+Kernel-TheIntegrator.2349.mcz
 Kernel-Rules-TheIntegrator.6.mcz
 Kernel-Tests-TheIntegrator.82.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -228,7 +228,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-DenisKudryashov.197.mcz
 OmbuTests-MartinDias.4.mcz
-OpalCompiler-Core-TheIntegrator.820.mcz
+OpalCompiler-Core-TheIntegrator.822.mcz
 OpalCompiler-Tests-TheIntegrator.345.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz

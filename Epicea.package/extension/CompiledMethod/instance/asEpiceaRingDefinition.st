@@ -6,5 +6,5 @@ asEpiceaRingDefinition
 		protocol: self category;
 		sourceCode: self sourceCode;
 		stamp: self timeStamp;
-		package: self package name;
+		package: (self package ifNotNil: [:package | package name]);
 		yourself.

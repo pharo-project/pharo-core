@@ -1,7 +1,7 @@
 haltIfCallChainContains: aSelector
-
-		| cntxt |
+	| cntxt |
 	cntxt := thisContext.
-		[cntxt sender isNil] whileFalse: [
-			cntxt := cntxt sender. 
-			(cntxt selector = aSelector) ifTrue: [self signal]].
+	[ cntxt sender isNil ]
+		whileFalse: [ cntxt := cntxt sender.
+			cntxt selector = aSelector
+				ifTrue: [ self signal ] ]

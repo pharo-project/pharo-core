@@ -1,0 +1,2 @@
+compileWithErrors: aBoolean
+	CompileWithErrors := aBoolean

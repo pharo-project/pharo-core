@@ -1,6 +1,6 @@
 haltIfBlockWithCallingObject: aBlock
 
-	 | callingObject |
+	| callingObject |
 	callingObject := thisContext sender sender receiver.
 	(aBlock cull: callingObject)
 		ifTrue: [self signal]
