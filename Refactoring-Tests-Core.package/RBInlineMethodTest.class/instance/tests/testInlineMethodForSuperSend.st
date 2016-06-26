@@ -1,6 +1,6 @@
 testInlineMethodForSuperSend
 	| refactoring |
-	model := Smalltalk evaluate: self inlineMethodTestData.
+	model := Smalltalk compiler evaluate: self inlineMethodTestData.
 	(model classNamed: #RBRenameVariableChange) removeMethod: #executeNotifying:.
 	refactoring := RBInlineMethodRefactoring 
 				model: model

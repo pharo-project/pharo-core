@@ -1,6 +1,6 @@
 testInlineMethodForSuperSendThatAlsoSendsSuper
 	| refactoring |
-	model := Smalltalk evaluate: self inlineMethodTestData.
+	model := Smalltalk compiler evaluate: self inlineMethodTestData.
 	refactoring := RBInlineMethodRefactoring 
 				inline: (102 to: 131)
 				inMethod: #executeNotifying:

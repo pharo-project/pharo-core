@@ -1,7 +1,7 @@
 evaluate: aStream
 	| result |
 	[ 
-	result := Smalltalk evaluate: aStream.
+	result := Smalltalk compiler evaluate: aStream.
 	self hasSessionChanged
 		ifFalse: [ 
 			self stdout

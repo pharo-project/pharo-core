@@ -1,3 +1,3 @@
 setUp
 	super setUp.
-	model := Smalltalk evaluate: self childrenToSiblingTestData
+	model := Smalltalk compiler evaluate: self childrenToSiblingTestData
