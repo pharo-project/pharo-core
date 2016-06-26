@@ -2,7 +2,11 @@ deprecated: anExplanationString transformWith: aRule
 	| rewriteRule method context node |
 	self class environment 
 		at:  #RBParseTreeRewriter 
-		ifAbsent: [ ^self deprecated: anExplanationString ].
+		ifAbsent: [ ^	(Deprecation
+			method: thisContext sender method
+			explanation: anExplanationString
+			on: 'unknown'
+			in: 'unknown') signal ].
 	context := thisContext sender sender.
 	method := context method.
 	node := context sourceNodeExecuted.

@@ -1,2 +1,3 @@
 haltIfNil
-	self halt
+	<debuggerCompleteToSender>
+	Halt now

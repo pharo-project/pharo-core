@@ -1,4 +1,4 @@
-script60114
+script60115
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2354.mcz
+Kernel-TheIntegrator.2355.mcz
 Kernel-Rules-TheIntegrator.6.mcz
 Kernel-Tests-TheIntegrator.85.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -248,11 +248,11 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.320.mcz
-Refactoring-Critics-TheIntegrator.275.mcz
+Refactoring-Critics-TheIntegrator.276.mcz
 Refactoring-Environment-TheIntegrator.84.mcz
-Refactoring-Tests-Changes-MarcusDenker.38.mcz
+Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.135.mcz
-Refactoring-Tests-Critics-TheIntegrator.41.mcz
+Refactoring-Tests-Critics-TheIntegrator.44.mcz
 Refactoring-Tests-Environment-TheIntegrator.27.mcz
 Reflectivity-TheIntegrator.302.mcz
 Reflectivity-Examples-TheIntegrator.35.mcz
@@ -350,7 +350,7 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.161.mcz
 Tool-Catalog-TheIntegrator.40.mcz
-Tool-CriticBrowser-TheIntegrator.30.mcz
+Tool-CriticBrowser-TheIntegrator.31.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz

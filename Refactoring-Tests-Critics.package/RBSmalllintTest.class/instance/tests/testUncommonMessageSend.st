@@ -1,2 +1,2 @@
 testUncommonMessageSend
-	self ruleFor: self currentSelector
+	self ruleFor: self currentSelector plusSelectors: {#uncommonMessageSend2}
