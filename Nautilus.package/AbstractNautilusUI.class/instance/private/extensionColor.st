@@ -1,2 +1,2 @@
 extensionColor
-	^ Color gray darker
+	^ Smalltalk ui theme classExtensionColor

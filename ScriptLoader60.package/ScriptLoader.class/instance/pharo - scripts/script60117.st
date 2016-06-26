@@ -1,4 +1,4 @@
-script60116
+script60117
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1272.mcz
+Nautilus-TheIntegrator.1273.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -233,7 +233,7 @@ OpalCompiler-Tests-TheIntegrator.347.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1368.mcz
+Polymorph-Widgets-TheIntegrator.1370.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz

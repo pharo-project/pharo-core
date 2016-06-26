@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18607 Cleaning icon management in Nautilus
-	https://pharo.fogbugz.com/f/cases/18607'
+ ^ '18617 Extension color is hard to see when selected with the dark theme
+	https://pharo.fogbugz.com/f/cases/18617'

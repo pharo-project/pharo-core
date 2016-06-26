@@ -1,0 +1,2 @@
+classExtensionColor
+	^ Color gray darker
