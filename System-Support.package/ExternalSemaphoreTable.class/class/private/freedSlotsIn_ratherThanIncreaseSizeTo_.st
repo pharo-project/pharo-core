@@ -15,7 +15,7 @@ freedSlotsIn: externalObjects ratherThanIncreaseSizeTo: newSize
 						self traceCr: DateAndTime now printString;
 							traceCr:  'WARNING:  Had to GC to make room for more external objects.';
 							traceCr: 'If this happens often, it would be a good idea to either:';
-							traceCr: '- Raise the maxExternalObjects size.';
+							traceCr: '- Raise the maxExternalSemaphores size.';
 							traceCr: '- Write your code to explicitly release them rather than wait for finalization.']
 					ifFalse:  [Smalltalk vm maxExternalSemaphores: newSize].
 				needToGrow]]

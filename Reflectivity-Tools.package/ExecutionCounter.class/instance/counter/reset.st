@@ -1,0 +1,2 @@
+reset
+	count := 0

@@ -10,7 +10,7 @@ maxExternalSemaphores: aSize
 	[ self maxExternalSemaphoresSilently: aSize.
 	self
 		crTrace: 'WARNING: Had to increase size of semaphore signal handling table due to many external objects concurrently in use';
-		crTrace: 'You should increase this size at startup using #maxExternalObjectsSilently:';
+		crTrace: 'You should increase this size at startup using #maxExternalSemaphoresSilently:';
 		crTrace: 'Current table size: ' , self maxExternalSemaphores printString ] forkAt: Processor userBackgroundPriority.
 	
 	self error: 'Not enough space for external objects, set a larger size at startup!'.
