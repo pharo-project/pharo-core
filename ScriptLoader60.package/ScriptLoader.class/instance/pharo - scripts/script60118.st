@@ -1,4 +1,4 @@
-script60117
+script60118
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -134,7 +134,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2355.mcz
 Kernel-Rules-TheIntegrator.6.mcz
-Kernel-Tests-TheIntegrator.85.mcz
+Kernel-Tests-TheIntegrator.86.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -338,8 +338,8 @@ System-Settings-TheIntegrator.345.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz
-System-Support-TheIntegrator.1239.mcz
-System-SupportTests-TheIntegrator.2.mcz
+System-Support-TheIntegrator.1240.mcz
+System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.768.mcz
 Text-Core-TheIntegrator.52.mcz
@@ -368,7 +368,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.920.mcz
+Traits-TheIntegrator.922.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

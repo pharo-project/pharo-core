@@ -3,4 +3,4 @@ referencedClasses
 
 	^ self literals allButLast
 		select: [ :l | l value isClass ] 
-		thenCollect: #value
+		thenCollect: [:v | v value ].
