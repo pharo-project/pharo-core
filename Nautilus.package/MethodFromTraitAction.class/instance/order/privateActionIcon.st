@@ -4,7 +4,7 @@ privateActionIcon
 	^ IconicButton new 
 			target: method originMethod;
 			actionSelector: #browse;
-			labelGraphic: (Smalltalk ui icons iconNamed: #traitIcon) ;
+			labelGraphic: (self iconNamed: #traitIcon) ;
 			color: Color transparent;
 			extent: self iconExtent;
 			helpText: 'Browse the trait';

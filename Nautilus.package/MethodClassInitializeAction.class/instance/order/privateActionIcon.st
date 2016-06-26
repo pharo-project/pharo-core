@@ -4,7 +4,7 @@ privateActionIcon
 			target: self browser;
 			actionSelector: #runClassInitializeMethod:;
 		 	arguments: { method };
-			labelGraphic: (Smalltalk ui icons iconNamed: #scriptManagerIcon) ;
+			labelGraphic: (self iconNamed: #scriptManagerIcon) ;
 			color: Color transparent;
 			extent: self iconExtent;
 			helpText: '(Re)initialize class';

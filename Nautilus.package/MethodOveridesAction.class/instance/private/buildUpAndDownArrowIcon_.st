@@ -11,7 +11,7 @@ buildUpAndDownArrowIcon: aMethod
 				target: self browser;
 				actionSelector: #arrowUp:;
 				arguments: { aMethod };
-				labelGraphic: (Smalltalk ui icons iconNamed: #arrowDoubleUpIcon);
+				labelGraphic: (self iconNamed: #arrowDoubleUpIcon);
 				color: Color transparent;
 				extent: 16 @ 8;
 				helpText: 'Browse overriden message';
@@ -21,7 +21,7 @@ buildUpAndDownArrowIcon: aMethod
 				target: self browser;
 				actionSelector: #arrowDown:;
 				arguments: { aMethod };
-				labelGraphic: (Smalltalk ui icons iconNamed: #arrowDoubleDownIcon);
+				labelGraphic: (self iconNamed: #arrowDoubleDownIcon);
 				color: Color transparent;
 				extent: 16 @ 8;
 				helpText: 'Browse overriding messages';

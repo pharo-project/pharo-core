@@ -2,7 +2,7 @@ privateActionIcon
 	"Return the icon for this action"
 	| testIcon |
 	
-	testIcon := Smalltalk ui icons iconNamed: #testNotRunIcon.
+	testIcon := self iconNamed: #testNotRunIcon.
 	
 	testMethod hasPassedTest
 		ifTrue: [ testIcon := Smalltalk ui icons iconNamed: #testGreenIcon ].

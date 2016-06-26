@@ -4,7 +4,7 @@ privateActionIcon
 		target: self browser;
 		actionSelector: #toggleBreakpoint;
 		arguments: {};
-		labelGraphic: (Smalltalk ui icons iconNamed: #haltIcon);
+		labelGraphic: (self iconNamed: #haltIcon);
 		color: Color transparent;
 		helpText: 'remove breakpoint';
 		extent: self iconExtent;

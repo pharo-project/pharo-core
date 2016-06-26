@@ -1,4 +1,4 @@
 privateActionIcon
 	"Return the icon for this action"
 
-	^ Smalltalk ui icons iconNamed: #haltIcon
+	^ self iconNamed: #haltIcon
