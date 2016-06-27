@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18627 QualityAssistant v3.1.1
-	https://pharo.fogbugz.com/f/cases/18627
+ ^ '18622 Simplify Iconstyler API
+	https://pharo.fogbugz.com/f/cases/18622
 
-18609 Add tests for String initialization
-	https://pharo.fogbugz.com/f/cases/18609
+18555 Adding a way of storing the Announcements while suspended
+	https://pharo.fogbugz.com/f/cases/18555
 
-18595 CompiledMethod is missing #name methof
-	https://pharo.fogbugz.com/f/cases/18595'
+11442 RBClassEnvironment does not respect traits
+	https://pharo.fogbugz.com/f/cases/11442'

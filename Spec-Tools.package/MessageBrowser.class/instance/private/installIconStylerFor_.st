@@ -4,7 +4,4 @@ installIconStylerFor: anItem
 
 	(self isMethodDefinition: anItem)
 		ifFalse: [ ^ self ].
-		
-	IconStyler allSubclassesDo: [ :styleClass | 
-			styleClass shouldStyle
-				ifTrue: [ anItem ast acceptVisitor: (styleClass style: self textModel) ] ]
+	IconStyler styleText: self textModel withAst: anItem ast.

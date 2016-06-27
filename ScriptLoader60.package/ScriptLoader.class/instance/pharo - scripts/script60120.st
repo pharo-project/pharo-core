@@ -1,4 +1,4 @@
-script60119
+script60120
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1273.mcz
+Nautilus-TheIntegrator.1274.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -238,7 +238,7 @@ PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.105.mcz
+QualityAssistant-YuriyTymchuk.106.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.23.mcz
 RPackage-Core-TheIntegrator.433.mcz
@@ -249,21 +249,21 @@ RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.320.mcz
 Refactoring-Critics-TheIntegrator.276.mcz
-Refactoring-Environment-TheIntegrator.84.mcz
+Refactoring-Environment-TheIntegrator.86.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.135.mcz
 Refactoring-Tests-Critics-TheIntegrator.44.mcz
-Refactoring-Tests-Environment-TheIntegrator.27.mcz
+Refactoring-Tests-Environment-TheIntegrator.28.mcz
 Reflectivity-TheIntegrator.302.mcz
 Reflectivity-Examples-TheIntegrator.35.mcz
 Reflectivity-Tests-TheIntegrator.203.mcz
-Reflectivity-Tools-TheIntegrator.49.mcz
+Reflectivity-Tools-TheIntegrator.50.mcz
 Reflectivity-Tools-Tests-TheIntegrator.13.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.120.mcz
+Renraku-YuriyTymchuk.121.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.244.mcz
@@ -307,9 +307,9 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.350.mcz
+Spec-Tools-TheIntegrator.352.mcz
 StartupPreferences-TheIntegrator.153.mcz
-System-Announcements-TheIntegrator.111.mcz
+System-Announcements-TheIntegrator.114.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
@@ -341,7 +341,7 @@ System-Sources-TheIntegrator.60.mcz
 System-Support-TheIntegrator.1240.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.768.mcz
+Tests-TheIntegrator.771.mcz
 Text-Core-TheIntegrator.52.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.120.mcz
