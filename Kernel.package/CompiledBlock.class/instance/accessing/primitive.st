@@ -1,0 +1,2 @@
+primitive
+	^ 0

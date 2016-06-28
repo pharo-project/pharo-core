@@ -1,0 +1,2 @@
+argumentNames
+	^self ast argumentNames

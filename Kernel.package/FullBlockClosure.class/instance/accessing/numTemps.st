@@ -1,0 +1,2 @@
+numTemps
+	^ self compiledBlock numTemps
