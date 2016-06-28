@@ -1,7 +1,9 @@
 checkMethod: aMethod
 
 	aMethod ast nodesDo: [ :node |
-		(node isVariable and: [ node isGlobal ]) ifTrue: [ 
+		(node isVariable and: [
+			node binding ifNil: [ node doSemanticAnalysis ].
+			node isGlobal ]) ifTrue: [ 
 			| message |
 			message := node parent.
 			(message isMessage and: [

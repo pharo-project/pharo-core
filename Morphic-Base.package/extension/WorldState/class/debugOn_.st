@@ -2,7 +2,7 @@ debugOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #Debugging)
 		order: 3.5;
-		icon: (Smalltalk ui icons iconNamed: #smallConfigurationIcon);
+		icon: #smallDebug asIcon;
 		with: [ (aBuilder item: #'Remove all Breakpoints')
 				order: 0;
 				action: [ Breakpoint removeAll ].

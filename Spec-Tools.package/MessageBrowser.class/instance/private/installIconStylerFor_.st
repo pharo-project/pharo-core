@@ -4,4 +4,6 @@ installIconStylerFor: anItem
 
 	(self isMethodDefinition: anItem)
 		ifFalse: [ ^ self ].
+		
 	IconStyler styleText: self textModel withAst: anItem ast.
+	anItem annotateRubricText: self textModel

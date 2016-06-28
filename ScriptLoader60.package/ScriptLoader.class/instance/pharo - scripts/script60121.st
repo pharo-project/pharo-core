@@ -1,4 +1,4 @@
-script60120
+script60121
 
 	^ 'AST-Core-TheIntegrator.430.mcz
 AST-Tests-Core-TheIntegrator.99.mcz
@@ -133,7 +133,7 @@ IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2356.mcz
-Kernel-Rules-TheIntegrator.6.mcz
+Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.86.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
@@ -179,7 +179,7 @@ MonticelloGUI-TheIntegrator.425.mcz
 MonticelloMocks-TheIntegrator.6.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.566.mcz
+Morphic-Base-TheIntegrator.568.mcz
 Morphic-Core-TheIntegrator.293.mcz
 Morphic-Examples-TheIntegrator.52.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -215,7 +215,7 @@ Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.105.mcz
-Network-Tests-TheIntegrator.15.mcz
+Network-Tests-TheIntegrator.17.mcz
 Network-UUID-TheIntegrator.46.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
@@ -307,7 +307,7 @@ Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.6.mcz
 Spec-Tests-TheIntegrator.66.mcz
-Spec-Tools-TheIntegrator.352.mcz
+Spec-Tools-TheIntegrator.354.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.114.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz

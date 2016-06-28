@@ -4,13 +4,15 @@ check: aMethod forCritiquesDo: aCriticBlock ifNone: alternativeBlock
 	encounteredCritic := false.
 
 	aMethod ast nodesDo: [ :node |
-		(node isVariable and: [ node isGlobal ]) ifTrue: [ 
+		(node isVariable and: [
+			node binding ifNil: [ node doSemanticAnalysis ].
+			node isGlobal ]) ifTrue: [ 
 			| message |
 			message := node parent.
 			(message isMessage and: [
 			 self check: message selector forDeprecationIn: node name ]) ifTrue: [ 
 				encounteredCritic := true.
-				aCriticBlock value: (ReTrivialCritique
+				aCriticBlock cull: (ReTrivialCritique
 					withAnchor: (ReIntervalSourceAnchor
 						entity: aMethod
 						interval: message sourceInterval)
