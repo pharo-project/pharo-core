@@ -2,7 +2,7 @@ baseline72p5: spec
 	<version: '7.2.p5-baseline'>
 	"Specialized baseline for Pharo 5"
 
-	spec for: #'pharo5.x' do: [
+	spec for: #common do: [
 		spec blessing: #'baseline'.
 		spec repository: self mainRepositoryUrlString.
 

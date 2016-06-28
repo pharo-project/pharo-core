@@ -1,4 +1,5 @@
 snapshotDone: aSnapshotDone
-	aSnapshotDone isNewImage 
-"		ifTrue: [ self restartSession ]"
-		ifFalse: [ self sessionSnapshot ]
+"-> disable this event as a workaround to case 18374"
+
+"	aSnapshotDone isNewImage 
+		ifFalse: [ self sessionSnapshot ]"

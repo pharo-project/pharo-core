@@ -2,7 +2,6 @@ initializeWith: aStore
 	self initialize.
 	store := aStore.
 	announcer := Announcer new.
-	commentByEntryReference := Dictionary new.
 	commitByEntryReference := Dictionary new.
-
+	commentByEntryReference := Dictionary new.
 	headReference := store headReference

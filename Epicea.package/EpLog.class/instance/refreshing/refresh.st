@@ -1,3 +1,4 @@
 refresh
 	store refresh.
-	self updateEntriesCache 
+	headReference := store headReference.
+	commentByEntryReference := Dictionary new.

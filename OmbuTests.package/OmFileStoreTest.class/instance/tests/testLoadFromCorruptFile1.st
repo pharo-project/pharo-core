@@ -15,5 +15,5 @@ testLoadFromCorruptFile1
 			yourself.
 	
 	self 
-		should: [ loadedStore refresh ]
+		should: [ loadedStore refresh; entries ]
 		raise: OmFileStoreReadingError
