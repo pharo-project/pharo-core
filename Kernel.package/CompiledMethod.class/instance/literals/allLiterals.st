@@ -1,2 +1,0 @@
-allLiterals
-	^self literals

@@ -1,3 +1,0 @@
-asString
-
-	  ^self sourceCode

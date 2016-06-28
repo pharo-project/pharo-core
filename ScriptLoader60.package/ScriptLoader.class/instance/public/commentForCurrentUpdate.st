@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18105 Introduction of FullBlockClosure (2) Adding the FullBlockClosure class
-	https://pharo.fogbugz.com/f/cases/18105
+ ^ '18619 Introduction of FullBlockClosure (4) moving code from CompiledMethod to CompiledCode
+	https://pharo.fogbugz.com/f/cases/18619
 
-18503  Introduction of FullBlockClosure (3) Moving code from CompiledMethod to CompiledCode
-	https://pharo.fogbugz.com/f/cases/18503'
+18633 InstructionForPC: not working with new bytecode set
+	https://pharo.fogbugz.com/f/cases/18633'

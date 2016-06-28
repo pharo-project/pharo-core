@@ -1,3 +1,0 @@
-stamp
-
-	^ self timeStamp
