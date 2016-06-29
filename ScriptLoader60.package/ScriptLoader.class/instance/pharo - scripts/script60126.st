@@ -1,4 +1,4 @@
-script60125
+script60126
 
 	^ 'AST-Core-TheIntegrator.432.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2359.mcz
+Kernel-TheIntegrator.2360.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.86.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -154,7 +154,7 @@ Metacello-Core-TheIntegrator.830.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
-Metacello-MC-TheIntegrator.735.mcz
+Metacello-MC-TheIntegrator.737.mcz
 Metacello-PharoCommonPlatform-TheIntegrator.24.mcz
 Metacello-Platform-TheIntegrator.5.mcz
 Metacello-ProfStef-EstebanLorenzano.18.mcz
@@ -272,9 +272,10 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.90.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.385.mcz
+Rubric-TheIntegrator.388.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.3.mcz
+Rubric-Tests-TheIntegrator.7.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
@@ -283,7 +284,7 @@ SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.48.mcz
 SUnit-UI-TheIntegrator.143.mcz
-SUnit-UITesting-TheIntegrator.32.mcz
+SUnit-UITesting-TheIntegrator.34.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-TheIntegrator.30.mcz
 Settings-Polymorph-TheIntegrator.96.mcz

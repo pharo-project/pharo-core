@@ -1,9 +1,15 @@
 commentForCurrentUpdate
- ^ '18640 Rule for "Dead" Blocks
-	https://pharo.fogbugz.com/f/cases/18640
+ ^ '18624 SlotIntegrationTest>>testSlotScopeParallelism
+	https://pharo.fogbugz.com/f/cases/18624
 
-18613 New RBMethodNode method to return the selector and argument names portion of a method
-	https://pharo.fogbugz.com/f/cases/18613
+18637 Do not use #name method call in MetacelloPackageSpec>>#workingCopyNameFor:
+	https://pharo.fogbugz.com/f/cases/18637
 
-18600 create "pharo-local" to concentrate pharo local files (package-cache, epicea-sessions, etc.)
-	https://pharo.fogbugz.com/f/cases/18600'
+18634 add Object>>perform:with:with:with:with (4 arguments)
+	https://pharo.fogbugz.com/f/cases/18634
+
+18347 Extending current selection after double click does not work
+	https://pharo.fogbugz.com/f/cases/18347
+
+18604 update kernel manifest 
+	https://pharo.fogbugz.com/f/cases/18604'

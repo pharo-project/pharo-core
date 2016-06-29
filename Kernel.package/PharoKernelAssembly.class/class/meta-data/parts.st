@@ -17,6 +17,7 @@ parts
 	(#'Multilingual-TextConversion' -> #()).
 	(#'Network-UUID' -> #()).
 	(#'OpalCompiler-Core' -> #()).
+	(#'Random-Core' -> #()).
 	(#'RPackage-Core' -> #()).
 	(#'Ring-Core-Containers' -> #()).
 	(#'Ring-Core-Kernel' -> #()).
