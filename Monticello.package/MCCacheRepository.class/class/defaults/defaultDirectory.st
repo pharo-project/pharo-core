@@ -1,6 +1,9 @@
 defaultDirectory
 	| directories |
-	directories := {('package-cache' asFileReference).	(FileLocator temp).	(FileLocator home)}.
+	directories := {
+		((FileLocator localDirectory / 'package-cache') asFileReference).	
+		(FileLocator temp).	
+		(FileLocator home)}.
 	directories
 		do: [ :directory | 
 			[ ^ directory ensureCreateDirectory; yourself ]

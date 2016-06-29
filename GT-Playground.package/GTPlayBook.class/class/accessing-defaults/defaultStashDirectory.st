@@ -1,2 +1,2 @@
 defaultStashDirectory
-	^ 'play-stash/' asFileReference
+	^ (FileLocator localDirectory / 'play-stash') asFileReference

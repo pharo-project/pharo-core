@@ -1,2 +1,2 @@
 defaultCacheDirectory
-	^ 'play-cache/' asFileReference
+	^ (FileLocator localDirectory / 'play-cache') asFileReference

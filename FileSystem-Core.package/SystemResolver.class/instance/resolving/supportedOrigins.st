@@ -1,2 +1,2 @@
 supportedOrigins
-	^ #(image imageDirectory changes vmBinary vmDirectory workingDirectory)
+	^ #(image imageDirectory changes vmBinary vmDirectory workingDirectory localDirectory)

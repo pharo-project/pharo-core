@@ -1,5 +1,5 @@
 FileSystemResolver subclass: #SystemResolver
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'UserLocalDirectory'
 	poolDictionaries: ''
 	category: 'FileSystem-Core-Implementation'
