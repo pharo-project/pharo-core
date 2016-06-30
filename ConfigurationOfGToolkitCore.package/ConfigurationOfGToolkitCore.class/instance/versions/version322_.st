@@ -8,6 +8,6 @@ version322: spec
 		spec timestamp: '4/28/2016 16:25'.
 		spec 
 			project: 'GTPlaygroundCore' with: '3.10';
-			project: 'GTInspectorCore' with: '3.13';
+			project: 'GTInspectorCore' with: '3.14';
 			project: 'GTSpotter' with: '2.11';
 			project: 'GTDebugger' with: '2.9'. ].
