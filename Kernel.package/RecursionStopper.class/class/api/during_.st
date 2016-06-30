@@ -1,5 +1,5 @@
 during: aBlock
-	self check ifTrue: [ ^nil ].
-	self on.
-	^aBlock ensure: [ self off. ]
-	
+	<debuggerCompleteToSender>
+	self default 
+		stopMethod: thisContext sender method 
+		during: aBlock

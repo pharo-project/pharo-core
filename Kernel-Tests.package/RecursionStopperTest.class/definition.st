@@ -1,5 +1,5 @@
 TestCase subclass: #RecursionStopperTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'fork value'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Kernel-Tests-Processes'

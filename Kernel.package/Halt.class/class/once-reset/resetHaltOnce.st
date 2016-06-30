@@ -1,2 +1,2 @@
 resetHaltOnce
-	 #haltOnce senders do: #recompile.
+	 #haltOnce senders do: [ :method | method ast removeProperty: #haltOnce ifAbsent: [  ] ].

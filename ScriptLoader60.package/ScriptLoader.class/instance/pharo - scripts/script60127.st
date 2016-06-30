@@ -1,4 +1,4 @@
-script60126
+script60127
 
 	^ 'AST-Core-TheIntegrator.432.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2360.mcz
+Kernel-TheIntegrator.2363.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.86.mcz
+Kernel-Tests-TheIntegrator.88.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -257,7 +257,7 @@ Refactoring-Tests-Environment-TheIntegrator.28.mcz
 Reflectivity-TheIntegrator.302.mcz
 Reflectivity-Examples-TheIntegrator.35.mcz
 Reflectivity-Tests-TheIntegrator.203.mcz
-Reflectivity-Tools-TheIntegrator.50.mcz
+Reflectivity-Tools-TheIntegrator.52.mcz
 Reflectivity-Tools-Tests-TheIntegrator.13.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz

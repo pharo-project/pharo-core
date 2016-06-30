@@ -1,0 +1,3 @@
+setUp
+
+	value := 0

@@ -1,2 +1,2 @@
 resetHaltOnCount
-	 #haltOnCount: senders do: #recompile.
+	 #haltOnCount: senders do: [ :method | method ast removeProperty: #haltCount ifAbsent: [  ] ].

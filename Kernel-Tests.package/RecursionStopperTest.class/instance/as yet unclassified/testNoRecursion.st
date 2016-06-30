@@ -1,2 +1,5 @@
-testNoRecursion.
-	self assert: (RecursionStopper during: [true]).
+testNoRecursion
+
+	RecursionStopper during: [ value := value + 1 ].
+
+	self assert: value equals: 1
