@@ -4,7 +4,7 @@ lookupTempVector: name inContext: aContext
 	| variable theVector |
 	variable := self
 		variableNamed: name
-		ifAbsent: [ ^ self outerScope lookupVar: name inContext: aContext outerContext ].
+		ifAbsent: [^ self outerScope lookupTempVector: name inContext: aContext outerContext ].
 	theVector := variable readFromContext: aContext scope: self.
 	theVector ifNil: [ ^ self outerScope lookupTempVector: name inContext: aContext outerContext ].
 	^ { variable . theVector }

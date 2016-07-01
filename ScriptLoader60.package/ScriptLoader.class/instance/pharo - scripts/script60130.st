@@ -1,4 +1,4 @@
-script60129
+script60130
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -127,7 +127,7 @@ HelpSystem-Core-TheIntegrator.150.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.93.mcz
-ImportingResource-Help-TheIntegrator.4.mcz
+ImportingResource-Help-TheIntegrator.6.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
@@ -228,8 +228,8 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.826.mcz
-OpalCompiler-Tests-TheIntegrator.347.mcz
+OpalCompiler-Core-TheIntegrator.827.mcz
+OpalCompiler-Tests-TheIntegrator.348.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz

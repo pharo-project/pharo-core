@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18651 fix #haltOnce reset
-	https://pharo.fogbugz.com/f/cases/18651
+ ^ '18645 Improvement of the ImportingResourceHelp
+	https://pharo.fogbugz.com/f/cases/18645
 
-18632 Virtual Machine parameters need to be documented
-	https://pharo.fogbugz.com/f/cases/18632
+18655 Store source intervals for critiques of RBParseTreeRules
+	https://pharo.fogbugz.com/f/cases/18655
 
-18620 CompiledMethodTest testContainsHalt fails
-	https://pharo.fogbugz.com/f/cases/18620
-
-18652 RBDeadBlockRule: use #isUsed, not isLastStatementInBlock
-	https://pharo.fogbugz.com/f/cases/18652'
+18615 Can not access named temp vector from within optimized block scope
+	https://pharo.fogbugz.com/f/cases/18615'
