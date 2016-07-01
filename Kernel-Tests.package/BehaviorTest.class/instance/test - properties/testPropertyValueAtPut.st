@@ -1,10 +1,8 @@
 testPropertyValueAtPut
-
 	| testValue |
-	
 	testValue := Date today.
-	self class propertyValueAt: #testKeySelector put: testValue.
+	self class propertyAt: #testKeySelector put: testValue.
 	self
-		assert: (self class propertyValueAt: #testKeySelector)
+		assert: (self class propertyAt: #testKeySelector)
 		equals: testValue.
 	self class removeProperty: #testKeySelector

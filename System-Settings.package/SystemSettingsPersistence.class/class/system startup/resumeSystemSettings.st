@@ -1,5 +1,8 @@
 resumeSystemSettings
-	"If this image is executed for the first time, the settings are updated from the disk"
-	alreadyResumed ifNil: [ 
-		alreadyResumed := true.
+	"Load persisted settings if the last settings were not loaded from this machine"
+	| thisComputerID |
+	
+	thisComputerID := GlobalIdentifier uniqueInstance computerUUID.
+	lastSettingsComputerID ~= thisComputerID ifTrue: [ 
+		lastSettingsComputerID := thisComputerID.
 		self updateSettingNodes ]

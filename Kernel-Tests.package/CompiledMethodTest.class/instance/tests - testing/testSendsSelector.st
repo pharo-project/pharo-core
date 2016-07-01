@@ -1,3 +1,3 @@
 testSendsSelector
-	self assert: ((CompiledMethod >> #sendsSelector:) sendsSelector: #includes:).
-	self deny: ((CompiledMethod >> #sendsSelector:) sendsSelector: #doBreakfastForMe)
+	self assert: ((CompiledCode >> #sendsSelector:) sendsSelector: #includes:).
+	self deny: ((CompiledCode >> #sendsSelector:) sendsSelector: #doBreakfastForMe)

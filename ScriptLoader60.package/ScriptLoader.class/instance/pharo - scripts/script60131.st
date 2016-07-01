@@ -1,4 +1,4 @@
-script60130
+script60131
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -134,7 +134,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2365.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.90.mcz
+Kernel-Tests-TheIntegrator.92.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -229,7 +229,7 @@ OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
 OpalCompiler-Core-TheIntegrator.827.mcz
-OpalCompiler-Tests-TheIntegrator.348.mcz
+OpalCompiler-Tests-TheIntegrator.350.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
@@ -263,7 +263,7 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.121.mcz
+Renraku-YuriyTymchuk.122.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.244.mcz
@@ -335,7 +335,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.31.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.345.mcz
+System-Settings-TheIntegrator.347.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz
@@ -369,7 +369,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.16.mcz
-Traits-TheIntegrator.922.mcz
+Traits-TheIntegrator.924.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -1,5 +1,9 @@
 propertyValueAt: propName
-	^ self
-		propertyValueAt: propName
-		ifAbsent: [ nil ]
+
+	self
+		deprecated: 'Please use #propertyAt: instead'
+		transformWith: '`@receiver propertyValueAt: `@statements1' 
+						-> '`@receiver propertyAt: `@statements1'.	
+
+	^ self propertyAt: propName
 		

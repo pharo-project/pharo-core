@@ -1,8 +1,4 @@
 testRemoveProperty
-
-	self class propertyValueAt: #testKeySelector put: 1.
-		
+	self class propertyAt: #testKeySelector put: 1.
 	self class removeProperty: #testKeySelector.
-	self
-		assert: (self class propertyValueAt: #testKeySelector)
-		equals: nil.
+	self assert: (self class propertyAt: #testKeySelector) equals: nil
