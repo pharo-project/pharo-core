@@ -48,9 +48,9 @@ parameterAt: parameterIndex
 		56	number of process switches since startup (read-only)
 		57	number of ioProcessEvents calls since startup (read-only)
 		58	number of ForceInterruptCheck (Cog VMs) or quickCheckInterruptCalls (non-Cog VMs) calls since startup (read-only)
-		59	number of check event calls since startup (read-only)
-		60	number of stack page overflows since startup (read-only; Cog VMs only)
-		61	number of stack page divorces since startup (read-only; Cog VMs only)"
+		59	number of check event calls since startup (read-only) - the number of times the VM has checked for OS events since start-up.
+		60	number of stack page overflows since startup (read-only; Cog VMs only) See http://www.mirandabanda.org/cogblog/2009/01/14/under-cover-contexts-and-the-big-frame-up/ section Stack pages.
+		61	number of stack page divorces since startup (read-only; Cog VMs only) See http://www.mirandabanda.org/cogblog/2009/01/14/under-cover-contexts-and-the-big-frame-up/ section Stack pages."
 
 	<primitive: 254>
 	self primitiveFailed

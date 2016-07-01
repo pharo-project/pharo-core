@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '18651 fix #haltOnce reset
+update60129
+	"self new update60129"
+	self withUpdateLog: '18651 fix #haltOnce reset
 	https://pharo.fogbugz.com/f/cases/18651
 
 18632 Virtual Machine parameters need to be documented
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/18620
 
 18652 RBDeadBlockRule: use #isUsed, not isLastStatementInBlock
-	https://pharo.fogbugz.com/f/cases/18652'
+	https://pharo.fogbugz.com/f/cases/18652'.
+	self loadTogether: self script60129 merge: false.
+	self flushCaches.

@@ -1,6 +1,5 @@
 initialize
 	super initialize.
 	self matcher 
-		matches: '`{:node | node isBlock and: [node parent isSequence 
-			and: [ node isLastStatementInBlock not ]]}'
+		matches: '`{:node | node isBlock and: [node isUsed not]}'
 		do: [ :node :answer | node ]
