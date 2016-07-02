@@ -3,6 +3,6 @@ inspectOnce
 	
 	| node |
 	node := thisContext sender sourceNodeExecuted.
-	(node hasProperty: #inspectOnce) ifTrue: [^self]. 
-	node propertyAt: #inspectOnce put: true.
+	(node hasProperty: #Once) ifTrue: [^self]. 
+	node propertyAt: #Once put: true.
 	^self inspect

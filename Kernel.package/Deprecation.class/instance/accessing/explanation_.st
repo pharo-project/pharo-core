@@ -1,0 +1,2 @@
+explanation: aString
+	explanationString := aString 

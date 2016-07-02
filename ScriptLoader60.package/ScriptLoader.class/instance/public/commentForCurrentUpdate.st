@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18661 Failing test: CompiledMethodTest>>#testSendsSelector
-	https://pharo.fogbugz.com/f/cases/18661
+ ^ '18670 Move the transformation code from #deprecated:transformWith: to Deprecation class
+	https://pharo.fogbugz.com/f/cases/18670
 
-18654 Setting are not being loaded AGAIN
-	https://pharo.fogbugz.com/f/cases/18654
+18643 make "enable inspect haltOnce" work (Debug menu)
+	https://pharo.fogbugz.com/f/cases/18643
 
-18660 Unify property API of Behaviours to follow that of RBMethodNode, RPackage and Slots
-	https://pharo.fogbugz.com/f/cases/18660
-
-18662 Failing test: OCCompilerTest>>#testScaledDecimalLiterals
-	https://pharo.fogbugz.com/f/cases/18662'
+18666 Introduce Pragma>>#methodSelector
+	https://pharo.fogbugz.com/f/cases/18666'

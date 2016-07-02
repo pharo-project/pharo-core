@@ -10,8 +10,8 @@ once
 	RecursionStopper during: [
 		"we need to ignore when the code below calls us again"
 		node := callingContext sourceNodeExecuted.
-		(node hasProperty: #haltOnce) ifTrue: [ ^ self ]. 
-		node propertyAt: #haltOnce put: true.
+		(node hasProperty: #Once) ifTrue: [ ^ self ]. 
+		node propertyAt: #Once put: true.
 		
 		self signalIn: senderContext
 		

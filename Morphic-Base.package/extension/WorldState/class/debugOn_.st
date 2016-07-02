@@ -8,7 +8,7 @@ debugOn: aBuilder
 				action: [ Breakpoint removeAll ].
 			(aBuilder item: #'Enable all break/inspect once')
 				order: 0;
-				action: [ Halt resetHaltOnce ].
+				action: [ Halt resetOnce ].
 			(aBuilder item: #'Reset Counters')
 				order: 0;
 				action: [ ExecutionCounter resetAll ]	

@@ -1,0 +1,2 @@
+version: aString
+	versionString := aString

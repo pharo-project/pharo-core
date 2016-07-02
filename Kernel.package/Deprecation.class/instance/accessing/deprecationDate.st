@@ -1,4 +1,3 @@
 deprecationDate
-	"Answer the value of deprecationDate"
 
-	^ deprecationDate
+	^ deprecationDate ifNil: [ 'unknown' ]

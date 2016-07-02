@@ -1,2 +1,2 @@
 iconBlock: aNode
-	^[	aNode removeProperty: #haltOnce ifAbsent: [aNode propertyAt: #haltOnce put: true ]]
+	^[	aNode removeProperty: #Once ifAbsent: [aNode propertyAt: #Once put: true ]]

@@ -1,4 +1,4 @@
-script60131
+script60132
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -132,9 +132,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2365.mcz
+Kernel-TheIntegrator.2368.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.92.mcz
+Kernel-Tests-TheIntegrator.94.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -179,7 +179,7 @@ MonticelloGUI-TheIntegrator.425.mcz
 MonticelloMocks-TheIntegrator.6.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.568.mcz
+Morphic-Base-TheIntegrator.571.mcz
 Morphic-Core-TheIntegrator.293.mcz
 Morphic-Examples-TheIntegrator.52.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -257,7 +257,7 @@ Refactoring-Tests-Environment-TheIntegrator.28.mcz
 Reflectivity-TheIntegrator.302.mcz
 Reflectivity-Examples-TheIntegrator.35.mcz
 Reflectivity-Tests-TheIntegrator.203.mcz
-Reflectivity-Tools-TheIntegrator.54.mcz
+Reflectivity-Tools-TheIntegrator.56.mcz
 Reflectivity-Tools-Tests-TheIntegrator.13.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
@@ -349,7 +349,7 @@ Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.161.mcz
+Tool-Base-TheIntegrator.163.mcz
 Tool-Catalog-TheIntegrator.40.mcz
 Tool-CriticBrowser-TheIntegrator.31.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

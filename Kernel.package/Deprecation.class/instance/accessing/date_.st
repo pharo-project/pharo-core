@@ -1,0 +1,2 @@
+date: aDate
+	deprecationDate := aDate

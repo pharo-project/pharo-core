@@ -1,8 +1,7 @@
 deprecated: anExplanationString
-	"this is not itself deprecated, but a compatibility method for old-style deprecation"
+	"Warn that the sending method has been deprecated"
 	
-	(Deprecation
-		method: thisContext sender method
-		explanation: anExplanationString
-		on: 'unknown'
-		in: 'unknown') signal
+	Deprecation new
+		method: thisContext sender method;
+		explanation: anExplanationString;
+		signal
