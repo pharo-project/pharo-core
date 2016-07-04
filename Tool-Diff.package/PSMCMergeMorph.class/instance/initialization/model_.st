@@ -4,7 +4,7 @@ model: aMerger
 	|grouped sorted|
 	super model: aMerger.
 	grouped := aMerger operations
-		groupBy: [:o | o targetClassName ifNil: [o shortSummary]]
+		groupedBy: [:o | o targetClassName ifNil: [o shortSummary]]
 		having: [:g | true].
 	sorted := OrderedCollection new.
 	grouped keys asSortedCollection do: [:k |

@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '18658 Browse class directly for global variables
+update60133
+	"self new update60133"
+	self withUpdateLog: '18658 Browse class directly for global variables
 	https://pharo.fogbugz.com/f/cases/18658
 
 18529 There is empty packages in the image
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/18675
 
 18673 Move variable declaration refactoring creates undeclared variables
-	https://pharo.fogbugz.com/f/cases/18673'
+	https://pharo.fogbugz.com/f/cases/18673'.
+	self loadTogether: self script60133 merge: false.
+	self flushCaches.

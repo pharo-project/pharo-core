@@ -17,8 +17,10 @@ classFromPattern: pattern withCaption: aCaption
 			self environment
 				at: patternSymbol
 				ifPresent: [ :maybeClass | 
-					maybeClass isClassOrTrait
-						ifTrue: [ ^ maybeClass ] ] ].
+					^ maybeClass isClassOrTrait 
+						ifTrue: [ maybeClass ]
+						ifFalse: [ maybeClass class ]
+					]].
 	toMatch := (toMatch copyWithout: $.) asLowercase.
 	potentialClassNames := (self environment classNames , self environment traitNames) asOrderedCollection.
 	classNames := pattern last = $.

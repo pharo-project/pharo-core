@@ -1,4 +1,4 @@
-script60132
+script60133
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -24,7 +24,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.11.mcz
-Collections-Abstract-TheIntegrator.319.mcz
+Collections-Abstract-TheIntegrator.321.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -46,7 +46,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.126.mcz
-Deprecated60-TheIntegrator.6.mcz
+Deprecated60-TheIntegrator.8.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -134,7 +134,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2368.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.94.mcz
+Kernel-Tests-TheIntegrator.96.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1274.mcz
+Nautilus-TheIntegrator.1276.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -212,7 +212,7 @@ NautilusCommon-TheIntegrator.307.mcz
 NautilusGroupAutoBuilder-TheIntegrator.15.mcz
 NautilusRefactoring-TheIntegrator.287.mcz
 Network-Kernel-TheIntegrator.135.mcz
-Network-MIME-MarcusDenker.69.mcz
+Network-MIME-TheIntegrator.71.mcz
 Network-Mail-TheIntegrator.45.mcz
 Network-Protocols-TheIntegrator.105.mcz
 Network-Tests-TheIntegrator.17.mcz
@@ -247,8 +247,8 @@ Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.320.mcz
-Refactoring-Critics-TheIntegrator.280.mcz
+Refactoring-Core-TheIntegrator.322.mcz
+Refactoring-Critics-TheIntegrator.281.mcz
 Refactoring-Environment-TheIntegrator.86.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.135.mcz
@@ -279,7 +279,7 @@ Rubric-Tests-TheIntegrator.7.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.169.mcz
+SUnit-Core-TheIntegrator.171.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.48.mcz
@@ -349,20 +349,20 @@ Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.163.mcz
+Tool-Base-TheIntegrator.164.mcz
 Tool-Catalog-TheIntegrator.40.mcz
 Tool-CriticBrowser-TheIntegrator.31.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
-Tool-Diff-TheIntegrator.39.mcz
+Tool-Diff-TheIntegrator.41.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.70.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.69.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.23.mcz
-Tool-Profilers-TheIntegrator.26.mcz
+Tool-Profilers-TheIntegrator.28.mcz
 Tool-SystemReporter-TheIntegrator.15.mcz
 Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz

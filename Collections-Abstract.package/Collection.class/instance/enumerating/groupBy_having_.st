@@ -1,6 +1,9 @@
 groupBy: keyBlock having: selectBlock 
-	"This message is deprecated. Please use groupedBy:having:. 
-	But we let it right now without warning because we are not sure to 
-	remove in the next iteration."
+	"This message is deprecated. Please use groupedBy:having:."
+
+	self
+		deprecated: 'Please use #groupedBy:having: instead'
+		transformWith: '`@receiver groupBy: `@statements1 having: `@statements2' 
+						-> '`@receiver groupedBy: `@statements1 having: `@statements2'.
 
 	^ self groupedBy: keyBlock having: selectBlock 

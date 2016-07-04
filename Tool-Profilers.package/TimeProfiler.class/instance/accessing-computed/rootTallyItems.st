@@ -4,7 +4,7 @@ rootTallyItems
 	rootMessageTally
 		ifNotNil: [ 
 			sons := rootMessageTally sonsOver: self threshold.
-			groups := sons groupBy: [ :aTally | aTally process ] having: [ :g | true ].
+			groups := sons groupedBy: [ :aTally | aTally process ] having: [ :g | true ].
 			groups
 				do: [ :g | 
 					self reportOtherProcesses

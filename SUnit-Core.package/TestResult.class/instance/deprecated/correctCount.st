@@ -1,4 +1,8 @@
 correctCount
-	"deprecated - use #passedCount"
+	
+	self
+		deprecated: 'Please use #passedCount instead'
+		transformWith: '`@receiver correctCount' 
+						-> '`@receiver passedCount'.	
 	
 	^self passedCount

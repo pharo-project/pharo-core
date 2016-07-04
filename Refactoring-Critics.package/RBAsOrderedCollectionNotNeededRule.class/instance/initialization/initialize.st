@@ -1,6 +1,6 @@
 initialize
 	super initialize.
-	#('addAll:' 'withAll:' 'removeAll:' 'includesAll:' 'copyWithoutAll:')
+	#('addAll:' 'removeAll:' 'includesAll:' 'copyWithoutAll:')
 		do: [ :collectionMessage | 
 			#('asArray' 'asOrderedCollection' 'asSortedCollection')
 				do: [ :conversionMessage | 

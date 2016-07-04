@@ -1,7 +1,7 @@
 rootPrintOn: aStream total: total totalTime: totalTime threshold: threshold
 
 	| groups |
-	groups := (self sonsOver: threshold) groupBy: [ :aTally | aTally process] having: [ :g | true ].
+	groups := (self sonsOver: threshold) groupedBy: [ :aTally | aTally process] having: [ :g | true ].
 	groups do: [ :g |
 		| sons p |
 		sons := g asArray sort.

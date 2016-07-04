@@ -1,2 +1,3 @@
 cleanUp
-	AbstractNautilusUI resetIconCaches
+	AbstractNautilusUI resetIconCaches.
+	self resetGroups.

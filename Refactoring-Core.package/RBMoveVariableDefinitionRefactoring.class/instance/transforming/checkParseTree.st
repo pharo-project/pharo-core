@@ -10,8 +10,8 @@ checkParseTree
 	definingNode isNil
 		ifTrue: [self refactoringFailure: 'Cannot locate variable definition'].
 	definingNode isSequence
-		ifFalse: [self refactoringError: 'Variable is an argument'].
+		ifFalse: [self refactoringFailure: 'Variable is an argument'].
 	(self usesDirectly: definingNode)
-		ifTrue: [self refactoringError: 'Variable already bound tightly as possible'].
+		ifTrue: [self refactoringFailure: 'Variable already bound tightly as possible'].
 	(self checkNodes: (self subblocksIn: definingNode))
 		ifFalse: [self refactoringError: 'Variable is possibly read before written']

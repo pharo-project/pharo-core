@@ -1,5 +1,5 @@
 testIsDeprecated
-	|  method cls |
+	| method |
 
 	method := (self class)>>#deprecatedMethod.
 	self assert: method isDeprecated.
