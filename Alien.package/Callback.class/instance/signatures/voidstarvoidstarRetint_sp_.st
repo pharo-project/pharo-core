@@ -1,6 +1,3 @@
 voidstarvoidstarRetint: callbackContext sp: spAlien
-	<signature: #(int (*)(const void *, const void *)) abi: 'IA32'>
-	^callbackContext wordResult:
-		(block
-			value: (Alien forPointer: (spAlien unsignedLongAt: 1))
-			value: (Alien forPointer: (spAlien unsignedLongAt: 5)))
+	<signature: #(int (*)(const void *, const void *))>
+	self subclassResponsibility

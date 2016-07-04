@@ -1,2 +1,2 @@
 floatregargsp
-	^Alien forPointer: (self unsignedLongAt: 25)
+	^Alien forPointer: (self unsignedLongLongAt: 25)

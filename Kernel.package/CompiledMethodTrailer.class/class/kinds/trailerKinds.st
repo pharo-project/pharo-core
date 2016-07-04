@@ -14,7 +14,7 @@ trailerKinds
 "001000" #VarLengthSourcePointer
 "001001" #ExtendedKind
 "001010" #NativeCodeTrailer  "this number is hardcoded in VM"
-"001011" #Undefined
+"001011" #EmbeddedSource
 "001100" #Undefined
 "001101" #Undefined
 "001110" #Undefined

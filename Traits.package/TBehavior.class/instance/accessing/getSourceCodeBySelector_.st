@@ -1,2 +1,0 @@
-getSourceCodeBySelector: aSelector
-	self notYetImplemented

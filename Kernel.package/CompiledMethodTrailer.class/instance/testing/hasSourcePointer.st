@@ -1,2 +1,2 @@
 hasSourcePointer
-	^  kind == #SourcePointer or: [ kind == #VarLengthSourcePointer or: [ kind == #NativeCodeTrailer ] ] 
+	^ kind == #SourcePointer or: [ kind == #VarLengthSourcePointer ]

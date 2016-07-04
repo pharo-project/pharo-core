@@ -1,2 +1,2 @@
 hasSource
-	^ kind == #EmbeddedSourceQCompress or: [ kind == #EmbeddedSourceZip ]
+	^ kind == #EmbeddedSource or: [ kind == #EmbeddedSourceQCompress or: [ kind == #EmbeddedSourceZip ] ]

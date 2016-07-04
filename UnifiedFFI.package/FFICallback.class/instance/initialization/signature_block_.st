@@ -1,6 +1,7 @@
 signature: signature "<String>" block: aBlock "<BlockClosure>"
 	functionSpec := self newParser parseAnonymousFunction: signature.
-	numEvaluatorArgs := functionSpec arguments size.
 	block := aBlock.
-	thunk := FFICallbackThunk newCCall.
-	self addToThunkTable
+	"declare the real callback"
+	callback := Callback forCallbackEvaluator: self.
+	"keeping the thunk here to easy the FFI method compilation"
+	thunk := callback thunk.

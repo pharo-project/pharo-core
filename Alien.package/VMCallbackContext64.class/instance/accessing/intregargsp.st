@@ -1,2 +1,2 @@
 intregargsp
-	^Alien forPointer: (self unsignedLongAt: 17)
+	^Alien forPointer: (self unsignedLongLongAt: 17)

@@ -3,7 +3,7 @@ libcName
 	platform := SmalltalkImage current platformName.
 	platform = 'Mac OS' ifTrue:
 		[^SmalltalkImage current osVersion asInteger >= 1070
-			ifTrue: ['libobjc.A.dylib']
+			ifTrue: ['libobjc.dylib']
 			ifFalse:
 				[SmalltalkImage current osVersion asInteger >= 1050
 					ifTrue: ['libgcc_s.1.dylib']

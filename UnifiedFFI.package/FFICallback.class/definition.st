@@ -1,5 +1,5 @@
-Callback subclass: #FFICallback
-	instanceVariableNames: 'functionSpec'
+Object subclass: #FFICallback
+	instanceVariableNames: 'callback thunk functionSpec block'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'UnifiedFFI'

@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '18658 Browse class directly for global variables
-	https://pharo.fogbugz.com/f/cases/18658
+ ^ '18636 FFICallback is broken since Alien was updated to support ARM and 64bits
+	https://pharo.fogbugz.com/f/cases/18636
 
-18529 There is empty packages in the image
-	https://pharo.fogbugz.com/f/cases/18529
+18223 GTInspector compose should use HelpBrowser openOn GTInspectorHelp
+	https://pharo.fogbugz.com/f/cases/18223
 
-15857 review rule RBAsOrderedCollectionNotNeededRule
-	https://pharo.fogbugz.com/f/cases/15857
-
-18675 Cleanup related to deprecated methods
-	https://pharo.fogbugz.com/f/cases/18675
-
-18673 Move variable declaration refactoring creates undeclared variables
-	https://pharo.fogbugz.com/f/cases/18673'
+18681 Cleanup Compiled Method Trailers
+	https://pharo.fogbugz.com/f/cases/18681'

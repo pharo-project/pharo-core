@@ -1,2 +1,0 @@
-getSourceCodeByIdentifier: anIdentifier
-	self notYetImplemented
