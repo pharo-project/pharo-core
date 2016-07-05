@@ -1,4 +1,7 @@
 systemsettings
-	<settingPragmaProcessor>
 	"Process a <systemsettings> pragma"
-	currentPragma methodClass theNonMetaClass perform: currentPragma selector with: self.
+
+	<settingPragmaProcessor>
+	currentPragma methodClass theNonMetaClass
+		perform: currentPragma methodSelector
+		with: self

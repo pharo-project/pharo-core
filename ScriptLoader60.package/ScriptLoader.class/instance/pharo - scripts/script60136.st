@@ -1,4 +1,4 @@
-script60135
+script60136
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -24,7 +24,7 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.11.mcz
-Collections-Abstract-TheIntegrator.321.mcz
+Collections-Abstract-TheIntegrator.323.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
@@ -45,8 +45,8 @@ ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.85.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.126.mcz
-Deprecated60-TheIntegrator.8.mcz
+DebuggerModel-TheIntegrator.128.mcz
+Deprecated60-TheIntegrator.10.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -84,7 +84,7 @@ GT-EventRecorder-TheIntegrator.68.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-TheIntegrator.426.mcz
 GT-InspectorExtensions-Core-TheIntegrator.220.mcz
-GT-Playground-TheIntegrator.128.mcz
+GT-Playground-TheIntegrator.130.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-TheIntegrator.399.mcz
 GT-Spotter-EventRecorder-GuillermoPolito.112.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2373.mcz
+Kernel-TheIntegrator.2374.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.99.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -146,7 +146,7 @@ Komitter-TheIntegrator.173.mcz
 Manifest-Core-TheIntegrator.246.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
-MenuRegistration-TheIntegrator.84.mcz
+MenuRegistration-TheIntegrator.86.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
@@ -228,13 +228,13 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.827.mcz
+OpalCompiler-Core-TheIntegrator.829.mcz
 OpalCompiler-Tests-TheIntegrator.350.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
 Polymorph-Widgets-TheIntegrator.1372.mcz
-PragmaCollector-TheIntegrator.12.mcz
+PragmaCollector-TheIntegrator.14.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
@@ -314,8 +314,8 @@ System-Announcements-TheIntegrator.114.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
-System-Changes-TheIntegrator.299.mcz
-System-Changes-FileServices-TheIntegrator.2.mcz
+System-Changes-TheIntegrator.301.mcz
+System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.4.mcz

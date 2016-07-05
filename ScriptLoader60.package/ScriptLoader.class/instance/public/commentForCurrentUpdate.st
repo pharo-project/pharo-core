@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18682 remove  Object>>wantsDiffFeedback
-	https://pharo.fogbugz.com/f/cases/18682
+ ^ '18665 Rename Pragma>>#selector to Pragma>>#methodSelector
+	https://pharo.fogbugz.com/f/cases/18665
 
-18686 Kernel does not depend any more on Compression
-	https://pharo.fogbugz.com/f/cases/18686
+18685 System-Changes depends on Compression
+	https://pharo.fogbugz.com/f/cases/18685
 
-18683 Update pharo kernel dependencies
-	https://pharo.fogbugz.com/f/cases/18683'
+18689 deprecate #copyLast:
+	https://pharo.fogbugz.com/f/cases/18689'

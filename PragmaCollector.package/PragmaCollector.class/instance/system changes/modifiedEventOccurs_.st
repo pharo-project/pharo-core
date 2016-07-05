@@ -1,4 +1,4 @@
-modifiedEventOccurs: anEvent 
+modifiedEventOccurs: anEvent
 	"
 	a method has been updated: try to update an handler:
 	1 - I already have one for the method, then
@@ -8,14 +8,19 @@ modifiedEventOccurs: anEvent
 	3 - I have one but changed method has no more
 	acceptable pragma in it, then the handler is removed.
 	"
+
 	Pragma
 		withPragmasIn: anEvent methodClass
-		do: [:pragma | pragma selector = anEvent selector
-				ifTrue: [(self 
-								detect: [:oldprag | oldprag selector = pragma selector
-										and: [oldprag methodClass = anEvent methodClass]])
-						ifNotNil: [:oldprag | ^ self updatePragma: oldprag].
-					^ self addPragma: pragma]].
+		do: [ :pragma | 
+			pragma methodSelector = anEvent selector
+				ifTrue: [ (self
+						detect: [ :oldprag | 
+							oldprag methodSelector = pragma methodSelector
+								and: [ oldprag methodClass = anEvent methodClass ] ])
+						ifNotNil: [ :oldprag | ^ self updatePragma: oldprag ].
+					^ self addPragma: pragma ] ].
 	"No pragma but an handler for the method"
-	(self pragmaWithSelector: anEvent selector inClass: anEvent methodClass)
-		ifNotNil: [:found | self removePragma: found]
+	(self
+		pragmaWithSelector: anEvent selector
+		inClass: anEvent methodClass)
+		ifNotNil: [ :found | self removePragma: found ]
