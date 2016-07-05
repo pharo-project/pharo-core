@@ -41,4 +41,6 @@ parts
 	(#Transcript -> #()).
 	(#UIManager -> #()).
 	(#'Zinc-Character-Encoding-Core' -> #()).
-	(#'Zinc-Resource-Meta-Core' -> #())}
+	(#'Zinc-Resource-Meta-Core' -> #()) .
+	(#'PharoBootstrap-Initialization' -> #()) .
+	(#'NonInteractiveTranscript' -> #())	}

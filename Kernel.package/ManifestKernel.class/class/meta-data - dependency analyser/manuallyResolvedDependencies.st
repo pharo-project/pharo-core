@@ -1,2 +1,2 @@
 manuallyResolvedDependencies
-	^ #(#'System-Settings' #'System-Sources' #'System-Localization' #'AST-Core' #Transcript #Compression #'Regex-Core' #'FFI-Kernel' #'Random-Core' #'System-Platforms' #'Multilingual-TextConversion')
+	^ #(#'System-Settings' #'System-Sources' #'System-Localization' #'AST-Core' #Transcript #Reflectivity #'Regex-Core' #'FFI-Kernel' #'Multilingual-TextConversion' #'Random-Core' #'System-Platforms')

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18636 FFICallback is broken since Alien was updated to support ARM and 64bits
-	https://pharo.fogbugz.com/f/cases/18636
+ ^ '18682 remove  Object>>wantsDiffFeedback
+	https://pharo.fogbugz.com/f/cases/18682
 
-18223 GTInspector compose should use HelpBrowser openOn GTInspectorHelp
-	https://pharo.fogbugz.com/f/cases/18223
+18686 Kernel does not depend any more on Compression
+	https://pharo.fogbugz.com/f/cases/18686
 
-18681 Cleanup Compiled Method Trailers
-	https://pharo.fogbugz.com/f/cases/18681'
+18683 Update pharo kernel dependencies
+	https://pharo.fogbugz.com/f/cases/18683'
