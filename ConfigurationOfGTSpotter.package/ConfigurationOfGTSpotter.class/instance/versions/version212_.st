@@ -13,4 +13,4 @@ version212: spec
 			package: 'GT-Spotter' with: 'GT-Spotter-TudorGirba.400';
 			package: 'GT-Spotter-EventRecorder' with: 'GT-Spotter-EventRecorder-GuillermoPolito.112';
 			package: 'GT-SpotterExtensions-Core' with: 'GT-SpotterExtensions-Core-TudorGirba.209';
-			package: 'GT-Tests-Spotter' with: 'GT-Tests-Spotter-MarcusDenker.18'. ].
+			package: 'GT-Tests-Spotter' with: 'GT-Tests-Spotter-AndreiChis.19'. ].

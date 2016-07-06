@@ -2,14 +2,16 @@ testProcessorForPragmasThenDiveIn
 	self testProcessorForPragmas.
 	
 	self assertDiveIn.
+	
+	self assertSearch: ''.
 
 	self assertProcessorByTitle: 'Pragmas'.
 	self assertProcessorNotEmpty.
 	self assertProcessorIncludesAll: (self pragmas: #spotterOrder:).
 		
-	self assertProcessorByTitle: 'Senders'.
+	self assertProcessorByTitle: 'Users'.
 	self assertProcessorNotEmpty.
-	self assertProcessorIncludesAll: (self senders: #spotterOrder:).
+	self assertProcessorIncludesAll: (self users: #spotterOrder:).
 	
 	self assertSearch: 'spotterForClassesFor:'.
 	
@@ -17,16 +19,18 @@ testProcessorForPragmasThenDiveIn
 	self assertProcessorNotEmpty.
 	self assertProcessorIncludes: (self pragma: #spotterOrder: of: (GTSpotter >> #spotterForClassesFor:)).
 	
-	self assertProcessorByTitle: 'Senders'.
+	self assertSearch: 'extensionsPragma'.
+	
+	self assertProcessorByTitle: 'Users'.
 	self assertProcessorNotEmpty.
-	self assertProcessorIncludes: (GTSpotter >> #spotterForClassesFor:).
+	self assertProcessorIncludes: (GTSpotter class >> #extensionsPragma).
 	
 	self assertSearch: 'spotterForF'.
 	
-	self assertProcessorByTitle: 'Senders'.
+	self assertProcessorByTitle: 'Pragmas'.
 	self assertProcessorNotEmpty.
-	self assertProcessorIncludes: (GTSpotter >> #spotterForFilesFor:).
-	self assertProcessorIncludes: (FileReference >> #spotterForFilesFor:).
+	self assertProcessorIncludes: (self pragma: #spotterOrder: of: (GTSpotter >> #spotterForFilesFor:)).
+	self assertProcessorIncludes: (self pragma: #spotterOrder: of: (FileReference >> #spotterForFilesFor:)).
 	
 	self assertDiveOut.
 	

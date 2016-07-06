@@ -1,0 +1,2 @@
+enabledCondition
+	^ enabledCondition ifNil: [ true ]

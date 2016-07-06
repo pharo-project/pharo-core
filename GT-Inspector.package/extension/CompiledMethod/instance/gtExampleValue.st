@@ -1,0 +1,2 @@
+gtExampleValue
+	^ self gtExample returnValue

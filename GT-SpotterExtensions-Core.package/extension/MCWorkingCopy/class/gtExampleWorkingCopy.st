@@ -3,4 +3,4 @@ gtExampleWorkingCopy
 	<label: 'Metacello working-copy'>
 	
 	^ (RPackageOrganizer default packageOf: GTSpotter) mcPackage 
-		ifNotNilDo: [ :mcp | mcp workingCopy ]
+		ifNotNil: [ :mcp | mcp workingCopy ]

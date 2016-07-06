@@ -1,5 +1,5 @@
 gtInspectorPragmasIn: composite
-	<gtInspectorPresentationOrder: 40>
+	<gtInspectorPresentationOrder: 0>
 	composite list
 		title: 'Pragmas';
 		display: [ self pragmas ];

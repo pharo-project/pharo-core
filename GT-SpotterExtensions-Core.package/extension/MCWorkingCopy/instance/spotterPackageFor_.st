@@ -4,7 +4,7 @@ spotterPackageFor: aStep
 	aStep listProcessor
 		title: 'Packages';
 		allCandidates: [ self package correspondingRPackage 
-			ifNotNilDo: [ :rpackage | { rpackage } ] 
+			ifNotNil: [ :rpackage | { rpackage } ] 
 			ifNil: [ { } ] ];
 		itemName: [ :item | item name ];
 		itemIcon: [ Smalltalk ui icons iconNamed: #packageIcon ];

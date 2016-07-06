@@ -9,6 +9,6 @@ updateAnnouncement: aGTEventAnnouncement for: aGTEventCollector
 			imageVersion: SystemVersion current version;
 			latestUpdate: SystemVersion current highestUpdate;
 			computerUUID: GlobalIdentifier uniqueInstance computerUUID asString;
-			sessionUUID: SmalltalkImage current session sid asString;
+			sessionUUID: SmalltalkImage current session id asString;
 			sessionCreationTime: SmalltalkImage current session creationTime;
 			yourself

@@ -14,6 +14,7 @@ menu: aMenuMorph shifted: b
 			target: self
 			selector: #executeMenuAction:
 			argument: action)
+			enabled: (action isEnabledOn: self containerTree glamourPresentation);
 			icon:  action icon;
 			keyText: (action hasShortcut 
 				ifTrue: [ action shortcutAsString ]

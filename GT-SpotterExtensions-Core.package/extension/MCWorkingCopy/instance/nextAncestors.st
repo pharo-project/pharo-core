@@ -1,4 +1,4 @@
 nextAncestors
 	^ self versionInfo 
-		ifNotNilDo: [ :versionInfo | versionInfo ancestors ]
+		ifNotNil: [ :versionInfo | versionInfo ancestors ]
 		ifNil: [ #() ]

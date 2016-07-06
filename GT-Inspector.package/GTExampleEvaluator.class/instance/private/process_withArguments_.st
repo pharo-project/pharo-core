@@ -1,18 +1,19 @@
 process: anExample withArguments: aBlock
-	| value arguments signaledException |
-	value := nil.
+	| currentResult arguments |
+	currentResult := self newResultFor: anExample.
 	arguments := nil.
-	signaledException := nil.
 	anExample hasValidArguments 
 		ifFalse: [ ^ self onArgumentError value: self value: anExample value: arguments ].
 	[ arguments := aBlock value ]
 		on: Error
 		do: [ :exception | ^ self onDependencyError value: self value: anExample value: exception ].
-	self do: [ value := self primitiveProcessExample: anExample withArguments: arguments ]
-		on: (anExample exceptions copyWithAll: { Halt. Error. Exit. UnhandledError. TestFailure. Deprecation. })
-		do: [ :exception | signaledException := exception ].
-	processed add: { anExample. value. signaledException }.
-	result returnValue: value.
-	anExample exceptions signaledBy: signaledException.
-	result expectedError: signaledException.
-	^ value
+	self do: [ currentResult returnValue: (self primitiveProcessExample: anExample withArguments: arguments) ]
+		on: anExample signalableExceptions
+		do: [ :exception | currentResult expectedError: exception ].
+	processed add: currentResult.
+	self do: [ self processAfter: anExample ]
+		on: anExample signalableExceptions
+		do: [ :exception | currentResult expectedError: exception ].
+	anExample == self example ifTrue: [ result := currentResult ].
+	anExample exceptions signaledBy: currentResult expectedError.
+	^ currentResult returnValue

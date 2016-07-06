@@ -15,6 +15,7 @@ menu: aMenuMorph
 			target: self
 			selector: #executeMenuAction:
 			argument: action)
+			enabled: (action isEnabledOn: self glamourPresentation);
 			icon:  action icon;
 			keyText: (action hasShortcut 
 				ifTrue: [ action shortcutAsString ]

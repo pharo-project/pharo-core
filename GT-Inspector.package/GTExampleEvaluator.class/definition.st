@@ -1,5 +1,5 @@
 GTExampleProcessor subclass: #GTExampleEvaluator
-	instanceVariableNames: 'processed result linkContext'
+	instanceVariableNames: 'processed result'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector-Examples-Tools'

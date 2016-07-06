@@ -1,5 +1,4 @@
 initialize
 	super initialize.
 	
-	processed := OrderedCollection new.
-	result := GTExampleResult new
+	processed := OrderedCollection new

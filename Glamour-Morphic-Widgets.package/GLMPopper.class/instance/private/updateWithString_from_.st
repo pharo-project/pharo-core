@@ -1,5 +1,5 @@
 updateWithString: string from: aMorph
-	textMorph
+	textMorph textArea
 		updateTextWith: string;
 		takeKeyboardFocus;
 		on: Character escape do: [ 

@@ -1,6 +1,5 @@
 result
-	result example: self example.
-	result context: self context.
+	result := self newResultFor: self example.
 	self do: [ self value ] 
 		on: Error
 		do: [ :exception | result returnValue: nil; unexpectedError: exception ].

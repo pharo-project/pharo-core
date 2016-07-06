@@ -1,7 +1,7 @@
 pragmas
 	^ pragmas ifNil: [
 		pragmas := OrderedCollection new.
-		Object withAllSubclassesDo: [ :each |
+		SystemNavigation new allBehaviorsDo: [ :each |
 			Pragma withPragmasIn: each do: [ :p |
 				p keyword = self keyword ifTrue: [ 
 					pragmas add: p ] ] ].

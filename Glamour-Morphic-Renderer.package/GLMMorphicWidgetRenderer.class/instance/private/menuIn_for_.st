@@ -13,6 +13,7 @@ menuIn: aMenuMorph for: aPresentation
 			target: action 
 			selector: #morphicActOn:
 			argument: aPresentation)
+			enabled: (action isEnabledOn: aPresentation);
 			icon:  action icon;
 			keyText: (action hasShortcut 
 				ifTrue: [ action shortcutAsString ]

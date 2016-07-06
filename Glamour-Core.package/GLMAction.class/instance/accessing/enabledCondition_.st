@@ -1,0 +1,2 @@
+enabledCondition: anObject
+	enabledCondition := anObject
