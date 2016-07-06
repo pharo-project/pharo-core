@@ -1,2 +1,2 @@
 behaviorAffectedName
-	^ self behaviorAffected name
+	^ self behaviorAffected ifNotNil:#name

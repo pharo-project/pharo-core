@@ -3,7 +3,7 @@ tempNamed: name in: aContext put: aValue
 	 If the value is a copied value we also need to set it along the lexical chain."
 
 	| scope var |
-	scope := aContext sourceNode scope.
+	scope := aContext sourceNodeExecuted scope.
 	var := scope lookupVar: name.
 	^var writeFromContext: aContext scope: scope value: aValue.
 	

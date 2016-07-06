@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18665 Rename Pragma>>#selector to Pragma>>#methodSelector
-	https://pharo.fogbugz.com/f/cases/18665
+ ^ '18690 deprecated BitBlt class>>#current
+	https://pharo.fogbugz.com/f/cases/18690
 
-18685 System-Changes depends on Compression
-	https://pharo.fogbugz.com/f/cases/18685
+17434 debugger missing block local var for optimized blocks
+	https://pharo.fogbugz.com/f/cases/17434
 
-18689 deprecate #copyLast:
-	https://pharo.fogbugz.com/f/cases/18689'
+18674 Turn spotter catalog off by default
+	https://pharo.fogbugz.com/f/cases/18674
+
+18608 Impossible to delete a class
+	https://pharo.fogbugz.com/f/cases/18608'

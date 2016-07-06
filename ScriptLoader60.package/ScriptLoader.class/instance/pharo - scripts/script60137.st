@@ -1,4 +1,4 @@
-script60136
+script60137
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -50,7 +50,7 @@ Deprecated60-TheIntegrator.10.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-Epicea-MartinDias.790.mcz
+Epicea-TheIntegrator.794.mcz
 EpiceaBrowsers-MartinDias.18.mcz
 EpiceaBrowsersTests-TheIntegrator.3.mcz
 EpiceaTests-MD.6.mcz
@@ -114,11 +114,11 @@ Glamour-Tests-Rubric-AndreiChis.35.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
-Graphics-Canvas-TheIntegrator.8.mcz
-Graphics-Display Objects-TheIntegrator.175.mcz
+Graphics-Canvas-TheIntegrator.10.mcz
+Graphics-Display Objects-TheIntegrator.177.mcz
 Graphics-Files-TheIntegrator.76.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
-Graphics-Primitives-TheIntegrator.192.mcz
+Graphics-Primitives-TheIntegrator.194.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
@@ -138,7 +138,7 @@ Kernel-Tests-TheIntegrator.99.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
-Keymapping-Pragmas-TheIntegrator.57.mcz
+Keymapping-Pragmas-TheIntegrator.58.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
@@ -150,7 +150,7 @@ MenuRegistration-TheIntegrator.86.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
-Metacello-Core-TheIntegrator.830.mcz
+Metacello-Core-TheIntegrator.831.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
@@ -228,13 +228,13 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.829.mcz
-OpalCompiler-Tests-TheIntegrator.350.mcz
+OpalCompiler-Core-TheIntegrator.830.mcz
+OpalCompiler-Tests-TheIntegrator.352.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
 Polymorph-Widgets-TheIntegrator.1372.mcz
-PragmaCollector-TheIntegrator.14.mcz
+PragmaCollector-TheIntegrator.15.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
@@ -335,7 +335,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.31.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.347.mcz
+System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz

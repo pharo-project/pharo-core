@@ -1,6 +1,7 @@
 asEpiceaRingDefinition
 	
 	| ring |
+	
 	ring := (RGClassDefinition named: self name)
 		category: self category;
 		superclassName: self superclass name;  
@@ -11,7 +12,7 @@ asEpiceaRingDefinition
 		comment: self organization classComment;
 		stamp: self organization commentStamp;
 		definitionSource: self definition;
-		package: (RPackage organizer packageOfClassNamed: self name) name;  "FIX: this is a workaround for class modifications... check if it's still necessary."
+		package: ((RPackage organizer packageOfClassNamed: self name) ifNotNil:#name);  "FIX: this is a workaround for class modifications... check if it's still necessary."
 		withMetaclass.
 
 	ring theMetaClass 
