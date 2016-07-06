@@ -1,6 +1,6 @@
 typeOfClass
 	"Answer a symbol uniquely describing the type of the receiver. c.f. kindOfSubclass"
-	self layout isCustomLayout ifTrue: [ ^self layout class name asSymbol].
+	self classLayout isCustomLayout ifTrue: [ ^self classLayout class name asSymbol].
 	self isBytes ifTrue:
 		[^self instSpec = CompiledMethod instSpec
 			ifTrue: [#compiledMethod] "Very special!"

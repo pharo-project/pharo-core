@@ -1,5 +1,5 @@
 isFirstInOwner
 
 	^ self brickDoubleLink 
-		ifNotNilDo: [ :bdl | bdl hasPredecessor not ]
+		ifNotNil: [ :bdl | bdl hasPredecessor not ]
 		ifNil: [ false ]
