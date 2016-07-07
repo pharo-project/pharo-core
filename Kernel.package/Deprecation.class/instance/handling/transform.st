@@ -13,7 +13,7 @@ transform
 	node replaceWith: rewriteRule tree. 
 	Author 
 		useAuthor: 'AutoDeprecationRefactoring'
-		during: [aMethod methodClass compile: aMethod ast formattedCode classified: aMethod protocol].	
+		during: [aMethod origin compile: aMethod ast formattedCode classified: aMethod protocol].	
 	Log 
 		ifNotNil: [:log | log add: self].
 	self logTranscript

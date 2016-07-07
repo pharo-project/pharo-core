@@ -1,4 +1,4 @@
-script60140
+script60141
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -31,7 +31,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.425.mcz
+Collections-Strings-TheIntegrator.427.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.61.mcz
 Collections-Unordered-TheIntegrator.234.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2376.mcz
+Kernel-TheIntegrator.2379.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.99.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -229,7 +229,7 @@ OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
 OpalCompiler-Core-TheIntegrator.830.mcz
-OpalCompiler-Tests-TheIntegrator.354.mcz
+OpalCompiler-Tests-TheIntegrator.356.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
@@ -294,7 +294,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.755.mcz
+Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
 SmartSuggestions-TheIntegrator.241.mcz
 SmartSuggestions-Tests-TheIntegrator.37.mcz

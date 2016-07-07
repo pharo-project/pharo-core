@@ -2,8 +2,15 @@ whatIsAPrimitive
 	"Some messages in the system are responded to primitively. A primitive   
 	response is performed directly by the interpreter rather than by evaluating   
 	expressions in a method. The methods for these messages indicate the   
-	presence of a primitive response by including <primitive: xx> before the   
-	first expression in the method.   
+	presence of a primitive response by including <primitive: xx> or 
+	<primitive: 79 error: ec>before the first expression in the method.   
+	
+	In the second case, ec is a special temporary variable that holds an error code. 
+	In the VM primitive, failure is indicated by a variable called primFailCode being 
+	non-zero. On activating a method with a failing primitive, if the index is in 
+	bounds of the 	primitiveFailCodes array in the VMspecialObjectsArray then the 
+	failure code substitutes the symbol in the 	primitiveFailCodes array, otherwise 
+	it supplies the integer value.
 	  
 	Primitives exist for several reasons. Certain basic or 'primitive' 
 	operations cannot be performed in any other way. Smalltalk without 
@@ -53,5 +60,7 @@ whatIsAPrimitive
 	option to construct a LargePositiveInteger. For further information on 
 	primitives, see the 'Primitive Methods' part of the chapter on the formal 
 	specification of the interpreter in the Smalltalk book."
+	
+	
 
 	self error: 'comment only'

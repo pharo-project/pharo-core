@@ -12,7 +12,6 @@ testRemoteTemp
 			pushLiteral: 1;
 			send: #+;
 			storeRemoteTemp: #b inVector: #methodVector;							      "b comes from tempvetor, as we do write to it"
-			popTop;
 	     	 	blockReturnTop;
 		jumpAheadTarget: #block;	
 		send: #value;

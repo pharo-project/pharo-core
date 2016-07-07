@@ -22,6 +22,6 @@ remoteTemp
 	
 	aCompiledMethod := iRMethod compiledMethod.
 	self assert: (aCompiledMethod isKindOf: CompiledMethod).
-	"self assert: ((aCompiledMethod valueWithReceiver: nil arguments: #() ) = 2)."
+	self assert: ((aCompiledMethod valueWithReceiver: nil arguments: #() ) = 2).
 	^iRMethod
 	
