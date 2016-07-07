@@ -1,2 +1,2 @@
 fileSize
-	^ self getSource byteSize
+	^ self sourceCode byteSize

@@ -1,4 +1,4 @@
-script60139
+script60140
 
 	^ 'AST-Core-TheIntegrator.434.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -83,12 +83,12 @@ GT-Debugger-TheIntegrator.352.mcz
 GT-EventRecorder-YuriyTymchuk.69.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-AndreiChis.432.mcz
-GT-InspectorExtensions-Core-TudorGirba.222.mcz
+GT-InspectorExtensions-Core-TheIntegrator.224.mcz
 GT-Playground-TheIntegrator.130.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-TudorGirba.400.mcz
 GT-Spotter-EventRecorder-GuillermoPolito.112.mcz
-GT-SpotterExtensions-Core-TudorGirba.209.mcz
+GT-SpotterExtensions-Core-TheIntegrator.211.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.56.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -96,10 +96,10 @@ GT-Tests-Spotter-AndreiChis.19.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
 Glamour-Core-EstebanLorenzano.323.mcz
-Glamour-Examples-TudorGirba.307.mcz
+Glamour-Examples-TheIntegrator.309.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-TheIntegrator.424.mcz
+Glamour-Morphic-Brick-TheIntegrator.426.mcz
 Glamour-Morphic-Brick-Tests-TheIntegrator.14.mcz
 Glamour-Morphic-Pager-GuillermoPolito.110.mcz
 Glamour-Morphic-Renderer-EstebanLorenzano.350.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2374.mcz
+Kernel-TheIntegrator.2376.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.99.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -213,9 +213,9 @@ NautilusGroupAutoBuilder-TheIntegrator.15.mcz
 NautilusRefactoring-TheIntegrator.287.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.71.mcz
-Network-Mail-TheIntegrator.45.mcz
+Network-Mail-TheIntegrator.48.mcz
 Network-Protocols-TheIntegrator.105.mcz
-Network-Tests-TheIntegrator.17.mcz
+Network-Tests-TheIntegrator.20.mcz
 Network-UUID-TheIntegrator.46.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
@@ -229,7 +229,7 @@ OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
 OpalCompiler-Core-TheIntegrator.830.mcz
-OpalCompiler-Tests-TheIntegrator.352.mcz
+OpalCompiler-Tests-TheIntegrator.354.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz

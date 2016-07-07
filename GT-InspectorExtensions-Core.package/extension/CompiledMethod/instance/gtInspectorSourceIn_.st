@@ -3,5 +3,5 @@ gtInspectorSourceIn: composite
 	^ composite pharoMethod 
 		title: 'Source';
 		smalltalkClass: [ self methodClass ];
-		display: [ self getSource ];
+		display: [ self sourceCode ];
 		act: [ self browse ] icon: GLMUIThemeExtraIcons glamorousBrowse entitled: 'Browse'

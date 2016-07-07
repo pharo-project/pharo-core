@@ -1,6 +1,6 @@
 testDecompileBytecodeGeneratorTest
 	| decompiledIR aCompiledMethod |
-	OCBytecodeGeneratorTest methodDict
+	OCBytecodeGeneratorTest methods
 		do: [ :each | 
 			decompiledIR := IRBytecodeDecompiler new decompile: each.
 			aCompiledMethod := decompiledIR compiledMethod ]

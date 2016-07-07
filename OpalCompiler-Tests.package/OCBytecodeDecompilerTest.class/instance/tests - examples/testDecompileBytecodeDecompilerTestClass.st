@@ -1,6 +1,6 @@
 testDecompileBytecodeDecompilerTestClass
 	| decompiledIR aCompiledMethod |
-	self class methodDict
+	self class methods
 		do: [ :each | 
 			decompiledIR := IRBytecodeDecompiler new decompile: each.
 			aCompiledMethod := decompiledIR compiledMethod ]

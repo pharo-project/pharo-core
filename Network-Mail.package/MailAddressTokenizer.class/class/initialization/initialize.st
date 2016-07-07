@@ -17,6 +17,6 @@ initialize
 	atomChars addAll: ($A to: $Z).
 	atomChars addAll: ($a to: $z).
 	atomChars addAll: ($0 to: $9).
-	atomChars addAll: '!#$%^''*+-/=?^_`{|}~'.
+	atomChars addAll: '!#$%&''*+-/=?^_`{|}~'.
 
 	CSNonAtom :=  atomChars complement.

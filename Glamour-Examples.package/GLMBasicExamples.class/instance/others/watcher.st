@@ -14,5 +14,5 @@ watcher
 	browser transmit
 		from: #one;
 		toWatcher;
-		andShow: [ :a | a pharoMethod display: #getSource ].
+		andShow: [ :a | a pharoMethod display: #sourceCode ].
 	^ browser

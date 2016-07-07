@@ -1,3 +1,5 @@
 getSource
-	"use #sourceCode instead"
+	self
+		deprecated: 'Please use #sourceCode instead'
+		transformWith: '`@receiver getSource' -> '`@receiver sourceCode'.
 	^self sourceCode.
