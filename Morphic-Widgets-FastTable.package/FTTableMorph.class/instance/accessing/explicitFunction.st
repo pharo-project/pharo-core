@@ -1,2 +1,2 @@
 explicitFunction
-	function beExplicite
+	function showWidget

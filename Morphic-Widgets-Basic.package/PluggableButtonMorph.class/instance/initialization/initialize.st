@@ -17,8 +17,8 @@ initialize
 	arguments := #().
 	self
 		layoutInset: (self theme buttonLabelInsetFor: self);
-		borderStyle: BorderStyle thinGray;
 		extent: 20 @ 15;
 		setProperty: #lastState toValue: false;
 		cornerStyle: (self theme buttonCornerStyleIn: nil).
+	self theme buttonBorderStyleFor: self.
 	self clipSubmorphs: true

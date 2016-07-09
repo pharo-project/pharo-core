@@ -1,4 +1,4 @@
-beExplicite
+showWidget
 	self initializeMorph.
 	table
 		addMorph: field;

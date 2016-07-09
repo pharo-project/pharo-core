@@ -1,2 +1,2 @@
-beExplicite
+showWidget
 	"Do nothing"

@@ -1,2 +1,2 @@
 defaultBackgroundColor
-	^ Smalltalk ui theme backgroundColor
+	^ Smalltalk ui theme listBackgroundColor
