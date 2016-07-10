@@ -1,0 +1,2 @@
+addMethodsWithoutComment
+	^ addMethodsWithoutComment

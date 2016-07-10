@@ -5,6 +5,7 @@ createTopicFrom: aDescription
 	
 	|topic page   pageClasses |
 	topic := HelpTopic named: aDescription bookName.
+	topic contents: aDescription bookDescription.
 	topic key: aDescription key.
 	topic icon: aDescription icon.
 	pageClasses := Set new.

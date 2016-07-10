@@ -1,0 +1,2 @@
+setUp
+	generator := NeoUUIDGenerator new

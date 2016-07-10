@@ -5,3 +5,4 @@ initialize
 	addSubclasses := false.
 	addMethods := true.
 	subclassesAsSeparateTopic := true.
+	addMethodsWithoutComment := true.

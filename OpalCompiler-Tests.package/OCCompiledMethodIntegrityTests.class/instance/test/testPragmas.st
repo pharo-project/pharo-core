@@ -17,4 +17,3 @@ testPragmas
 	self assert: (newCompiledMethod literals first instVarNamed: 'method') = newCompiledMethod.
 		
 	self assert: newCompiledMethod primitive = 256.
-	self assert: newCompiledMethod header = 65538.

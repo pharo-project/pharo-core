@@ -13,4 +13,3 @@ testPrimitive
 	self assert: newCompiledMethod numLiterals = 3.
 	self assert: newCompiledMethod numTemps = 0.
 	self assert: newCompiledMethod primitive = 62.
-	self assert: newCompiledMethod header = 65539.

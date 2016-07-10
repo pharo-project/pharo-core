@@ -1,6 +1,6 @@
-script60142
+script60143
 
-	^ 'AST-Core-TheIntegrator.434.mcz
+	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.72.mcz
@@ -123,7 +123,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.80.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
-HelpSystem-Core-TheIntegrator.152.mcz
+HelpSystem-Core-TheIntegrator.155.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.93.mcz
@@ -215,8 +215,8 @@ Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.71.mcz
 Network-Mail-TheIntegrator.48.mcz
 Network-Protocols-TheIntegrator.105.mcz
-Network-Tests-TheIntegrator.20.mcz
-Network-UUID-TheIntegrator.46.mcz
+Network-Tests-TheIntegrator.22.mcz
+Network-UUID-TheIntegrator.49.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
@@ -228,8 +228,8 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.830.mcz
-OpalCompiler-Tests-TheIntegrator.356.mcz
+OpalCompiler-Core-TheIntegrator.834.mcz
+OpalCompiler-Tests-TheIntegrator.360.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
@@ -314,7 +314,7 @@ System-Announcements-TheIntegrator.114.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.26.mcz
 System-CachingTests-TheIntegrator.16.mcz
-System-Changes-TheIntegrator.301.mcz
+System-Changes-TheIntegrator.303.mcz
 System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz

@@ -12,4 +12,3 @@ testNotUsedArgument
 	self assert: newCompiledMethod numLiterals = 3.
 	self assert: newCompiledMethod numTemps = 1.
 	self assert: newCompiledMethod primitive = 0.
-	self assert: newCompiledMethod header = 17039363.

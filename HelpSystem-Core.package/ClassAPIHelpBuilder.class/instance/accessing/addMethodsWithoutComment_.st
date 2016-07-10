@@ -1,0 +1,2 @@
+addMethodsWithoutComment: anObject
+	addMethodsWithoutComment := anObject
