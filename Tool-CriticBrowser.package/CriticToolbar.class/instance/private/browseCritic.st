@@ -1,3 +1,3 @@
 browseCritic
 
-	criticHolder value ifNotNil: [ :elem | elem browse ] 
+	criticHolder value ifNotNil: [ :elem | elem sourceAnchor entity browse ] 

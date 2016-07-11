@@ -1,4 +1,4 @@
 transformCritic
 	 criticHolder value
-		ifNotNil: [:critic | ruleHolder value transform: critic ]
+		ifNotNil: [:critic | critic change execute ]
 	

@@ -1,6 +1,8 @@
 browseCritic
 	criticsModel selectedItem
 		ifNotNil: [ :element |
-			element isBehavior 
-				ifTrue: [ element theNonMetaClass browse ]
-				ifFalse: [ element browse ] ] 
+			| entity |
+			entity := element sourceAnchor entity.
+			entity isBehavior 
+				ifTrue: [ entity theNonMetaClass browse ]
+				ifFalse: [ entity browse ] ] 

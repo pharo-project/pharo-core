@@ -1,4 +1,4 @@
 transformCritic
 	
 	criticsModel selectedItems ifNotNil: [ :items |
-		items do: [:critic | rule transform: critic ]  displayingProgress: [:critic|]]
+		items do: [:critic | critic change execute ]  displayingProgress: [:critic|]]

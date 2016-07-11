@@ -8,7 +8,7 @@ whenSelectedItemChangesOnListModel
 					ifNil: [ self setTextModelForNil ]
 					ifNotNil: [
 						toolbarModel critic: selection.
-						rule isTransformationRule 
+						selection providesChange 
 							ifTrue: [ self setTextModelForTransformationRule: selection ]
 							ifFalse: [ self setTextModelForClassOrMethod: selection ] ] ) ]			
 			]

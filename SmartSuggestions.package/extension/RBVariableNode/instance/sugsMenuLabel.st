@@ -1,0 +1,2 @@
+sugsMenuLabel
+	^ name

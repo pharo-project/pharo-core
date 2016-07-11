@@ -1,11 +1,12 @@
-setTextModelForClassOrMethod: aCritic
+setTextModelForClassOrMethod: aCritique
 
-	| interval |
-	sourceCodeModel text: aCritic definition.
+	| interval entity |
+	entity := aCritique sourceAnchor entity.
+	sourceCodeModel text: entity definition.
 	sourceCodeModel aboutToStyle: true.
-	sourceCodeModel behavior: (aCritic isClassOrTrait ifTrue: [ nil ] ifFalse: [aCritic methodClass]).
-	interval := self selectionIntervalFor: aCritic definition.
-	interval ifNotNil: [ sourceCodeModel setSelection: interval ].
+	sourceCodeModel behavior: (entity isClassOrTrait ifTrue: [ nil ] ifFalse: [entity methodClass]).
+	aCritique sourceAnchor providesInterval ifTrue: [ 
+		sourceCodeModel setSelection: aCritique sourceAnchor interval ]
 	
 	
 					

@@ -1,15 +1,7 @@
 setTextModelForTransformationRule: selection
 	
-	| textDiff change |
-	rule result.
-	change := rule changes detect: [ :ch |
-		(ch changeClassName = selection criticTheNonMetaclassClass name) & (ch selector = selection selector)].
-	textDiff := (TextDiffBuilder
-					from: selection ast formattedCode
-					to:  change source
-					inClass: selection methodClass) buildDisplayPatch.
 	sourceCodeModel behavior: nil.
-	sourceCodeModel text: textDiff.
+	sourceCodeModel text: selection change diffedText.
 	sourceCodeModel aboutToStyle: false.
 
 									

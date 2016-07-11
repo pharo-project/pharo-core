@@ -2,6 +2,8 @@ addCriticToFalsePositive
 	
 	criticsModel selectedItems
 		ifNotNil: [ :items | items do: [ :item |
-			cache addFalsePositive: item forRule: rule ]].
+			cache
+				addFalsePositive: item sourceAnchor entity
+				forRule: rule ]].
 	
 	

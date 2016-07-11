@@ -1,12 +1,8 @@
 initialize
 	
 	super initialize.
-	cache := CriticsCache new.
-	checker := SmalllintManifestChecker new.
+	cache := ReCriticsCache new.
+	checker := ReSmalllintChecker new.
 	cache checker: checker.
-	cache browser: self. 
-	criticModel cache: cache.	
-		
-
-
-
+	cache browser: self.
+	criticModel cache: cache.

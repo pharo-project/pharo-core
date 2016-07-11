@@ -1,5 +1,4 @@
 rule: aRule
 	
-	ruleHolder value: aRule.
-	 transformModel enabled: aRule isTransformationRule 
+	ruleHolder value: aRule. 
 	

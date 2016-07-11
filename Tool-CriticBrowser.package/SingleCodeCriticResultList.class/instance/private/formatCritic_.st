@@ -1,3 +1,3 @@
 formatCritic: aCritic
 	
-	^  String streamContents: [:s | aCritic criticNameOn: s ]
+	^  String streamContents: [:s | aCritic sourceAnchor entity criticNameOn: s ]

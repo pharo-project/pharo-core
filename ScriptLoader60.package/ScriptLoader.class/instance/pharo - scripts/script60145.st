@@ -1,4 +1,4 @@
-script60144
+script60145
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -234,11 +234,11 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
 Polymorph-Widgets-TheIntegrator.1376.mcz
-PragmaCollector-TheIntegrator.17.mcz
+PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.79.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-YuriyTymchuk.106.mcz
+QualityAssistant-YuriyTymchuk.107.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.23.mcz
 RPackage-Core-TheIntegrator.433.mcz
@@ -263,7 +263,8 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.122.mcz
+Renraku-YuriyTymchuk.126.mcz
+Renraku-Help-YuriyTymchuk.1.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.244.mcz
@@ -296,8 +297,8 @@ Shout-TheIntegrator.293.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
-SmartSuggestions-TheIntegrator.241.mcz
-SmartSuggestions-Tests-TheIntegrator.37.mcz
+SmartSuggestions-TheIntegrator.244.mcz
+SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.477.mcz
 Spec-Debugger-TheIntegrator.267.mcz
 Spec-Examples-TheIntegrator.116.mcz
@@ -333,7 +334,7 @@ System-OSEnvironments-TheIntegrator.31.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-TheIntegrator.31.mcz
+System-SessionManager-TheIntegrator.33.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
@@ -351,7 +352,7 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.164.mcz
 Tool-Catalog-TheIntegrator.40.mcz
-Tool-CriticBrowser-TheIntegrator.31.mcz
+Tool-CriticBrowser-TheIntegrator.33.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
