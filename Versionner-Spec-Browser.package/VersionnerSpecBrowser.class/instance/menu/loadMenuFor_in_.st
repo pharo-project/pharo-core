@@ -16,5 +16,6 @@ loadMenuFor: mbInfo in: aMenu
 				action: [ self unregister.
 						 command execute.
 						 self register ]) ].
-	aMenu addMenuGroup: menuGroup.
+	menuGroup buildWithSpec do: [ :eachMenuItem |
+		aMenu addMenuItem: eachMenuItem ].
 	^aMenu

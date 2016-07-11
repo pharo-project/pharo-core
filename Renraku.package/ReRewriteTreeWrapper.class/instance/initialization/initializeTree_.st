@@ -1,0 +1,2 @@
+initializeTree: aTree
+	tree := aTree

@@ -1,0 +1,3 @@
+replaceNode
+
+	^ self topicForClass: ReReplaceNodeCritique 

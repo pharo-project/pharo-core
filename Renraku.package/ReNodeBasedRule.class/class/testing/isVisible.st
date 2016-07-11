@@ -1,0 +1,3 @@
+isVisible
+
+	^ self name ~=  #ReNodeBasedRule

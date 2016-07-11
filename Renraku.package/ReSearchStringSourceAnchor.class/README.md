@@ -1,1 +1,1 @@
-I allow to provide a string that should be matched in the source entity and converted to an interval
+This class stores a searchString which will be searched for in the entities source code on demand to find an interval of substring

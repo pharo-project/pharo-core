@@ -1,0 +1,3 @@
+providesChange
+
+	^ sourceAnchor entity isCompiledMethod

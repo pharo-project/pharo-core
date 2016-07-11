@@ -1,0 +1,3 @@
+missingMethod
+
+	^ self topicForClass: ReMissingMethodCritique

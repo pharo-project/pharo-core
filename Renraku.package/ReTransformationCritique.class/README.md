@@ -1,1 +1,1 @@
-I am a result of a transformation rule. I have the transformed AST of the target that can be used for refactory change.
+A critique which contains the AST that should replace the existing one of the criticized entity

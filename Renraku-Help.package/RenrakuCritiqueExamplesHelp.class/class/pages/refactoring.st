@@ -1,0 +1,3 @@
+refactoring
+
+	^ self topicForClass: ReRefactoringCritique  

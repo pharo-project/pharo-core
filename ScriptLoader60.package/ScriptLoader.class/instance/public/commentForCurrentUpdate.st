@@ -1,15 +1,12 @@
 commentForCurrentUpdate
- ^ '18705 SistaV1 Bytecode: Opal tests down to  23 failures, 4 errors
-	https://pharo.fogbugz.com/f/cases/18705
+ ^ '18719 Add an example, remove a duplicated example
+	https://pharo.fogbugz.com/f/cases/18719
 
-18709 Improvements in CustomHelp and ClassAPIHelpBuilder
-	https://pharo.fogbugz.com/f/cases/18709
+18720 usage of deprecated Pragma>>#method: in the compiler
+	https://pharo.fogbugz.com/f/cases/18720
 
-18714 can not rename a class
-	https://pharo.fogbugz.com/f/cases/18714
+18707 Cannot open the context menu in Versionner
+	https://pharo.fogbugz.com/f/cases/18707
 
-18710 remove "currentScope" from RBParser
-	https://pharo.fogbugz.com/f/cases/18710
-
-18713 Load NeoUUIDGenerator without using it
-	https://pharo.fogbugz.com/f/cases/18713'
+18715 QualityAssistant v3.2.0
+	https://pharo.fogbugz.com/f/cases/18715'

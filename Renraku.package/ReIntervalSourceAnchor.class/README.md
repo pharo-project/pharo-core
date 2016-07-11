@@ -1,1 +1,1 @@
-I allow to specify the interval in a source code
+This anchor stores the actual interval object which is set during initialization.

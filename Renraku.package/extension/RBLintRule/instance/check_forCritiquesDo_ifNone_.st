@@ -1,7 +1,10 @@
 check: anEntity forCritiquesDo: aCriticBlock ifNone: alternativeBlock
+	| encounteredCritique |
+	
+	encounteredCritique := false.
 
-	(self basicCheck: anEntity)
-		ifTrue: [ aCriticBlock cull: (ReTrivialCritique
-			for: anEntity
-			by: self ) ]
-		ifFalse: [ alternativeBlock value ]
+	self check: anEntity forCritiquesDo: [ :crit |
+		encounteredCritique := true.
+		aCriticBlock cull: crit ].
+	
+	encounteredCritique ifFalse: alternativeBlock

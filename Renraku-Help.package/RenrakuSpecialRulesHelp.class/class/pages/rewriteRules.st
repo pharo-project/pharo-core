@@ -1,0 +1,3 @@
+rewriteRules
+
+	^ self topicForClass: ReNodeRewriteRule

@@ -1,0 +1,3 @@
+actionRef
+
+	^ self topicForClass: RePropertyAction 

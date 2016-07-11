@@ -1,0 +1,3 @@
+trivial
+
+	^ self topicForClass: ReTrivialCritique

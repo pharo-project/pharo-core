@@ -3,4 +3,4 @@ addProperties: cm
 	properties ifNotNil: [
 		cm penultimateLiteral: properties.
 		properties  method: cm.
-		properties  pragmas do: [:each | each method: cm] ].
+		properties  pragmas do: [:each | each setMethod: cm] ].

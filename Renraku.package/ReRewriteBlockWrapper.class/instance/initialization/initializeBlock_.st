@@ -1,0 +1,2 @@
+initializeBlock: aBlock
+	block := aBlock
