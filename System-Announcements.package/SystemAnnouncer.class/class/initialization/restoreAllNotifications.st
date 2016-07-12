@@ -6,4 +6,4 @@ restoreAllNotifications
 	collector := PragmaCollector filter: [ :pragma | pragma keyword = #systemEventRegistration ].
 	collector reset.
 	collector do: [ :pragma |
-		pragma methodClass theNonMetaClass perform: pragma selector ]
+		pragma methodClass theNonMetaClass perform: pragma methodSelector ]

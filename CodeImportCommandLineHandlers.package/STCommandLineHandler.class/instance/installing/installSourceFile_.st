@@ -1,5 +1,5 @@
 installSourceFile: aReference
-	"Install the the source file given by aFileReference"
+	"Install the source file given by aFileReference"
 	| codeImporter |
 
 	" parse the code given in the source file"
