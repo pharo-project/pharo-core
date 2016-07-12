@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18736 STCommandLineHandler>>installSourceFile:
-	https://pharo.fogbugz.com/f/cases/18736
+ ^ '18739 CompiledMethod sourceNodeForPC is not working for primitives
+	https://pharo.fogbugz.com/f/cases/18739
 
-18727 MessageBrowser Suggestions shortcut ignores selection
-	https://pharo.fogbugz.com/f/cases/18727
-
-18718 usage of deprecated Pragma>>#selector in the kernel
-	https://pharo.fogbugz.com/f/cases/18718'
+18738 Context sourceNodeExecuted could fail when first line is block
+	https://pharo.fogbugz.com/f/cases/18738'

@@ -1,4 +1,4 @@
-script60147
+script60148
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -134,7 +134,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2379.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.99.mcz
+Kernel-Tests-TheIntegrator.101.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -228,8 +228,8 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.838.mcz
-OpalCompiler-Tests-TheIntegrator.360.mcz
+OpalCompiler-Core-TheIntegrator.841.mcz
+OpalCompiler-Tests-TheIntegrator.362.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz

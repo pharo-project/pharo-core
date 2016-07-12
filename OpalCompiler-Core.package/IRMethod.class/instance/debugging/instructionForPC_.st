@@ -9,4 +9,4 @@ instructionForPC: aPC
 	[ pc >= initialPC ] whileTrue: [ 
 		(self firstInstructionMatching: [:ir | ir bytecodeOffset = pc ]) ifNotNil: [:it |^it].
 		pc := pc - 1 ].
-	self error: 'instruction not found'.
+	^self "if we not found anything then this method is our target instruction"

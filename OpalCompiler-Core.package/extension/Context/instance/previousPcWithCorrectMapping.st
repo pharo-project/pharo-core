@@ -5,7 +5,7 @@ previousPcWithCorrectMapping
 	| neighborPC |
 	neighborPC := self isDead 
 		ifTrue: [ self startpc ]
-		ifFalse: [ self previousPc ].
+		ifFalse: [ self previousPc ifNil: [self startpc]].
 	"There is a pushLiteral: nil bytecode for each temps in a block. 
 	There is a 'pushTemp:' bytecode for each copied value of a block.
 	These bytecodes are not mapped to any IR.
