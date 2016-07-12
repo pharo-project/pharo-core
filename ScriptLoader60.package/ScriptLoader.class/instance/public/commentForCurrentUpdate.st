@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18717 call on #name for SuggestionMenu
-	https://pharo.fogbugz.com/f/cases/18717
+ ^ '18732 Workaround for isBlockReturn:
+	https://pharo.fogbugz.com/f/cases/18732
 
-18726 Move CriticBrowser to work on Renraku model
-	https://pharo.fogbugz.com/f/cases/18726
-
-18728 remove WorkingSession>>#sid
-	https://pharo.fogbugz.com/f/cases/18728'
+18721 external alignment for enumerations is bad in win32 
+	https://pharo.fogbugz.com/f/cases/18721'

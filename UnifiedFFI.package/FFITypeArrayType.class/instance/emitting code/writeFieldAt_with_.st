@@ -5,4 +5,4 @@ writeFieldAt: byteOffset with: valueName
 			print: byteOffset;
 			nextPutAll: ' to: ';
 			print: byteOffset + self externalTypeSize - 1;
-			nextPutAll: ' with: anObject startingAt: 1' ].
+			nextPutAll: ' with: anObject getHandle startingAt: 1' ].
