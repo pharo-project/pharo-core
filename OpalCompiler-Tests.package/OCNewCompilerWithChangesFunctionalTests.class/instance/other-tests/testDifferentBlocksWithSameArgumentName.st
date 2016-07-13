@@ -1,7 +1,8 @@
 testDifferentBlocksWithSameArgumentName
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+									encoderClass:  OpalEncoderForV3PlusClosures; 
 									source: 'exampleNestedBlock
 												| b c z |
 												b := [:a | 

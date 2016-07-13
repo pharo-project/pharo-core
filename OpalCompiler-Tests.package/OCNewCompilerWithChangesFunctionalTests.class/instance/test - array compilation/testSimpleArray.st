@@ -1,7 +1,8 @@
 testSimpleArray
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+									encoderClass:  OpalEncoderForV3PlusClosures; 
 									source: 'method
 	^{1}';
 									class: OCMockCompilationClass;

@@ -1,7 +1,8 @@
 testToDoArgumentNotInlined
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+									encoderClass:  OpalEncoderForV3PlusClosures; 
 									source: 'testToDoArgumentNotInlined
 													| block |
 													block := [ :index |

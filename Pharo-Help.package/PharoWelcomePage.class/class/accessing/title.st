@@ -1,2 +1,2 @@
 title
-	^ 'Welcome to Pharo 5.0'
+	^ 'Welcome to ', SystemVersion current version  

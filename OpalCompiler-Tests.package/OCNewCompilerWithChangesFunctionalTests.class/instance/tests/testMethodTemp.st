@@ -1,7 +1,8 @@
 testMethodTemp
 	
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+									encoderClass:  OpalEncoderForV3PlusClosures; 
 									source: 'testMethodTemp
 													| block1 block2 |
 													block1 := self methodArgument: 1.

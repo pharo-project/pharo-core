@@ -1,7 +1,8 @@
 testWhileWithTempNotInlined
 	"The bytecodes integers are different in some cases."
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+										encoderClass:  OpalEncoderForV3PlusClosures; 
 										source: 'testWhileWithTempNotInlined
 	| index block |
 	index := 0.

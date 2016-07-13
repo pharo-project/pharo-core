@@ -1,4 +1,4 @@
-script60148
+script60149
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -228,10 +228,10 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-TheIntegrator.202.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.841.mcz
-OpalCompiler-Tests-TheIntegrator.362.mcz
+OpalCompiler-Core-TheIntegrator.844.mcz
+OpalCompiler-Tests-TheIntegrator.365.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.31.mcz
+Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
 Polymorph-Widgets-TheIntegrator.1376.mcz
 PragmaCollector-TheIntegrator.18.mcz
@@ -301,7 +301,7 @@ SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.477.mcz
 Spec-Debugger-TheIntegrator.267.mcz
-Spec-Examples-TheIntegrator.116.mcz
+Spec-Examples-TheIntegrator.119.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-TheIntegrator.268.mcz
 Spec-Layout-TheIntegrator.69.mcz
@@ -340,7 +340,7 @@ System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz
-System-Support-TheIntegrator.1242.mcz
+System-Support-TheIntegrator.1244.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.773.mcz

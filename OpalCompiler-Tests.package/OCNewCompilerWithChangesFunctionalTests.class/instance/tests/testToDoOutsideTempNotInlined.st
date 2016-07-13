@@ -1,7 +1,8 @@
 testToDoOutsideTempNotInlined
 	"there seems to be a better indexzation of the temps we have one more"
 	| aCompiledMethod bytecode index |
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+										encoderClass:  OpalEncoderForV3PlusClosures; 
 										source: 'testToDoOutsideTempNotInlined
 														| block temp |
 														block := [ :index | 

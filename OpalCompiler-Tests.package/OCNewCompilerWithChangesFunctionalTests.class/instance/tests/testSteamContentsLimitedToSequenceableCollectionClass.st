@@ -1,7 +1,8 @@
 testSteamContentsLimitedToSequenceableCollectionClass
 	| aCompiledMethod bytecode index |
 	
-	aCompiledMethod := OpalCompiler new 
+	aCompiledMethod := OpalCompiler new
+									encoderClass:  OpalEncoderForV3PlusClosures; 
 									source: 'streamContents: blockWithArg limitedTo: sizeLimit
 												| stream |
 												stream := LimitedWriteStream on: (self new: (100 min: sizeLimit)).
