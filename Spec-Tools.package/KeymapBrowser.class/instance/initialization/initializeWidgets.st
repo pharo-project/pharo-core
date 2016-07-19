@@ -9,6 +9,6 @@ initializeWidgets
 	filterField ghostText: 'Filter'.
 	filterField autoAccept: true.
 	clearFilterButton := self newButton.
-	clearFilterButton icon: (Smalltalk ui icons iconNamed: #smallCancelIcon).
+	clearFilterButton icon: (self iconNamed: #smallCancelIcon).
 	clearFilterButton enabled:false.
 	self collectAllShortcuts

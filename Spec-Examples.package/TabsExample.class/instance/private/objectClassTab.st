@@ -1,8 +1,8 @@
 objectClassTab
-	
-	^self newTab
+	| tab |
+	tab := self newTab.
+	tab
 		label: 'Object class';
-		icon: (Smalltalk ui icons iconNamed: #nautilusIcon);
-		model: (MessageBrowser new messages: Object methods);
-		yourself
-	
+		icon: (tab iconNamed: #nautilusIcon);
+		model: (MessageBrowser new messages: Object methods).
+	^ tab

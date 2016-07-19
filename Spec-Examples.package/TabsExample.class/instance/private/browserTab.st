@@ -1,9 +1,11 @@
 browserTab
-
-	^ self newTab
+	| tab |
+	tab := self newTab.
+	tab
 		label: 'Browser';
-		icon: (Smalltalk ui icons iconNamed: #nautilusIcon);
-		model: (ClassMethodBrowser new
-			classes: Smalltalk allClasses;
-			yourself);
-		yourself
+		icon: (tab iconNamed: #nautilusIcon);
+		model:
+			(ClassMethodBrowser new
+				classes: Smalltalk allClasses;
+				yourself).
+	^ tab

@@ -5,7 +5,7 @@ initializeWidgets
 		entryCompletion: self entitiesEntryCompletion;
 		yourself.
 	selectEntity := self newButton
-		icon: (Smalltalk ui icons iconNamed: #glamorousSearch);
+		icon: (self iconNamed: #glamorousSearch);
 		help: 'Open a selection dialog'.
 	self focusOrder
 		add: entityText;

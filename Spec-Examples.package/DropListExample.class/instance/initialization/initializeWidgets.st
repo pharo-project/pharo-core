@@ -7,17 +7,17 @@ initializeWidgets
 			morph2.
 			morph3};
 		displayBlock: [ :m | m color name capitalized , ' morph' ];
-		iconHolder: [ :e | Smalltalk ui icons iconNamed: #testGreenIcon ];
+		iconHolder: [ :e | self iconNamed: #testGreenIcon ];
 		whenSelectedItemChanged: [ :m | 
 			container removeAllMorphs.
 			container addMorph: m ].
 	heterogeneousDropList
 		addItemLabeled: 'Open workspace'
 			do: [ Smalltalk tools workspace open ]
-			icon: (Smalltalk ui icons iconNamed: #smallOkIcon);
+			icon: (self iconNamed: #smallOkIcon);
 		addItemLabeled: 'Inspect current morph'
 			do: [ uniformDropList selectedItem inspect ]
-			icon: (Smalltalk ui icons iconNamed: #testRedIcon).
+			icon: (self iconNamed: #testRedIcon).
 
 	"If this is uncommented, it will fire the action of the first item, which is not what we want:
 	heterogeneousDropList setSelectedIndex: 1.

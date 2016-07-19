@@ -1,6 +1,8 @@
 example
-
-	self new
-		icons: [:e | Smalltalk ui icons iconNamed: #forwardIcon ];
+	| example |
+	example := self new.
+	example
+		icons: [ :e | example iconNamed: #forwardIcon ];
 		items: (1 to: 10) asArray;
-		openWithSpec
+		openWithSpec.
+	^ example
