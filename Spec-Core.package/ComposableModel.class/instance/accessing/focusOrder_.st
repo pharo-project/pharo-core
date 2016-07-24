@@ -1,0 +1,2 @@
+focusOrder: anObject
+	^ focusOrder := anObject

@@ -1,4 +1,4 @@
-script60150
+script60151
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -210,7 +210,7 @@ Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.307.mcz
 NautilusGroupAutoBuilder-TheIntegrator.15.mcz
-NautilusRefactoring-TheIntegrator.287.mcz
+NautilusRefactoring-TheIntegrator.290.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.71.mcz
 Network-Mail-TheIntegrator.48.mcz
@@ -299,7 +299,7 @@ Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.503.mcz
+Spec-Core-TheIntegrator.506.mcz
 Spec-Debugger-TheIntegrator.272.mcz
 Spec-Examples-TheIntegrator.123.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -308,7 +308,7 @@ Spec-Layout-TheIntegrator.69.mcz
 Spec-MorphicAdapters-TheIntegrator.273.mcz
 Spec-PolyWidgets-TheIntegrator.72.mcz
 Spec-SelectEntity-TheIntegrator.11.mcz
-Spec-Tests-TheIntegrator.66.mcz
+Spec-Tests-TheIntegrator.81.mcz
 Spec-Tools-TheIntegrator.359.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz

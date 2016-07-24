@@ -1,0 +1,2 @@
+currentlyActivated: anObject
+	currentlyActivated := anObject

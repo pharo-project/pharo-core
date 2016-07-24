@@ -1,0 +1,2 @@
+removeAll
+^ presenters removeAll

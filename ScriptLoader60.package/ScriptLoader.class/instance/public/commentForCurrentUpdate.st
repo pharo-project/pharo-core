@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18744 Improve class comments
-	https://pharo.fogbugz.com/f/cases/18744
+ ^ '18747 Improve RadioButtonGroup
+	https://pharo.fogbugz.com/f/cases/18747
 
-18787 Replace calls at Smalltalk ui icons in subclasses of ComposableModel
-	https://pharo.fogbugz.com/f/cases/18787'
+18742 add class to manage focusorder
+	https://pharo.fogbugz.com/f/cases/18742'

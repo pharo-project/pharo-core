@@ -1,0 +1,2 @@
+currentlyActivated
+	^ currentlyActivated
