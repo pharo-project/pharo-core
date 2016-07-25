@@ -1,3 +1,3 @@
 char5: anObject
 	"This method was automatically generated"
-	handle replaceFrom: 1 to: 5 with: anObject startingAt: 1
+	handle replaceFrom: 1 to: 5 with: anObject getHandle startingAt: 1
