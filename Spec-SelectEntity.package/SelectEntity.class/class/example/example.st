@@ -1,5 +1,5 @@
 example
-	SelectEntity new
+	self new
 		selectDialog: [ FastTableModel new items: #(Henrik Peter); yourself];
 		displaySymbol: #asString;
 		ghostText: 'Names';

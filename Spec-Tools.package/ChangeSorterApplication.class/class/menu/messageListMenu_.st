@@ -1,10 +1,7 @@
 messageListMenu: aBuilder
 	<contextMenu>
 	<changeSorterMessageListMenu>
-	
-	| target |
-	target := aBuilder model.
-	
+
 	(aBuilder item: #'Delete method from changeSet')
 		keyText: 'd';
 		selector: #forgetMessage.

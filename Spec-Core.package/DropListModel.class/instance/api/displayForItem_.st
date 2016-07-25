@@ -1,4 +1,4 @@
 displayForItem: anItem
-	"The order of the arguments may looks weird, but then it seemsm ore natural while using the widget"
+	"The order of the arguments may look weird, but then it seems more natural while using the widget"
 	
 	^ self displayBlock cull: anItem model cull: anItem

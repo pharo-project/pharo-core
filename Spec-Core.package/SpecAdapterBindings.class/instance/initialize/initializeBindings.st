@@ -1,7 +1,7 @@
 initializeBindings
 	"This implementation is stupid, but it exposes all the container which need to be bound"
 	
-	bindings
+	^ bindings
 		at: #ButtonAdapter				put: #ButtonAdapter;
 		at: #CheckBoxAdapter			put: #CheckBoxAdapter;
 		at: #ContainerAdapter			put: #ContainerAdapter;

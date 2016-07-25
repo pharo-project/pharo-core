@@ -1,2 +1,0 @@
-takeKeyboardFocus
-	super takeKeyboardFocus

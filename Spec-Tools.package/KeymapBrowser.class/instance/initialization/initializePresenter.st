@@ -1,6 +1,6 @@
 initializePresenter
 	filterField
 		whenTextChanged: [ :text | 
-			clearFilterButton enabled: text isEmpty not.
+			clearFilterButton enabled: text isNotEmpty.
 			self setFilter: text ].
-	clearFilterButton action: [ filterField text: '' ].
+	clearFilterButton action: [ filterField text: '' ]

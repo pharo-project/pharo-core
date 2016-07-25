@@ -1,7 +1,7 @@
 addToMenuItemModel: aMenuItemModel
-	| en subMenu |
+	| en newSubMenu |
 	en := self enabledBlock ifNil: [ self enabled ].
-	subMenu := self subMenu
+	newSubMenu := self subMenu
 		ifNotNil: [ :sub | MenuModel new fromSpec: sub ].
 	aMenuItemModel
 		name: self label;
@@ -9,5 +9,5 @@ addToMenuItemModel: aMenuItemModel
 		enabled: en;
 		icon: self icon;
 		shortcut: self keyText;
-		subMenu: subMenu;
+		subMenu: newSubMenu;
 		action: self action

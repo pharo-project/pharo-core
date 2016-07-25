@@ -1,6 +1,6 @@
 initializeBindings
 	
-	bindings
+	^ bindings
 		at: #ButtonAdapter				put: #MorphicButtonAdapter;
 		at: #CheckBoxAdapter			put: #MorphicCheckBoxAdapter;
 		at: #ContainerAdapter			put: #MorphicContainerAdapter;

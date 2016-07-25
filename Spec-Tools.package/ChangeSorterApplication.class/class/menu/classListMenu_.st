@@ -2,9 +2,6 @@ classListMenu: aBuilder
 	<contextMenu>
 	<changeSorterClassListMenu>
 	
-	| target |
-	target := aBuilder model.
-	
 	(aBuilder item: #'Delete class from change set')
 		keyText: 'd';
 		selector: #forgetClass.

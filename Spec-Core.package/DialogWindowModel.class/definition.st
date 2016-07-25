@@ -2,4 +2,4 @@ WindowModel subclass: #DialogWindowModel
 	instanceVariableNames: 'contents toolbar'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-Core-Widgets'
+	category: 'Spec-Core-Support'

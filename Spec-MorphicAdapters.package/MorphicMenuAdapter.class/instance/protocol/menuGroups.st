@@ -1,3 +1,2 @@
 menuGroups
-
-	^ self model menuGroups select: [:e | e isEmpty not ]
+	^ self model menuGroups reject: [ :e | e isEmpty ]
