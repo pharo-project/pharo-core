@@ -1,4 +1,4 @@
-script60153
+script60154
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -188,7 +188,7 @@ Morphic-Widgets-ColorPicker-TheIntegrator.21.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.185.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.68.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.72.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.6.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
 Morphic-Widgets-Tabs-TheIntegrator.23.mcz
@@ -304,7 +304,7 @@ Spec-Debugger-EstebanLorenzano.273.mcz
 Spec-Examples-EstebanLorenzano.124.mcz
 Spec-Help-TheIntegrator.10.mcz
 Spec-Inspector-EstebanLorenzano.274.mcz
-Spec-Layout-TheIntegrator.69.mcz
+Spec-Layout-TheIntegrator.74.mcz
 Spec-MorphicAdapters-EstebanLorenzano.277.mcz
 Spec-PolyWidgets-EstebanLorenzano.78.mcz
 Spec-SelectEntity-EstebanLorenzano.12.mcz

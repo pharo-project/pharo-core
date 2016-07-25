@@ -1,3 +1,2 @@
 arguments: anObject
-	
 	arguments := anObject

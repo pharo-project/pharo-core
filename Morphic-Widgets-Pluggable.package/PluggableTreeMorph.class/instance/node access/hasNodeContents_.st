@@ -1,3 +1,3 @@
 hasNodeContents: node
-	hasChildrenSelector ifNil:[^node contents isEmpty not].
-	^model perform: hasChildrenSelector with: node item
+	hasChildrenSelector ifNil: [ ^ node contents isNotEmpty ].
+	^ model perform: hasChildrenSelector with: node item

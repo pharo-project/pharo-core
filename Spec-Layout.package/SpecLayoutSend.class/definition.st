@@ -1,5 +1,5 @@
 AbstractSpecLayoutAction subclass: #SpecLayoutSend
-	instanceVariableNames: 'arguments selector'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Layout'
