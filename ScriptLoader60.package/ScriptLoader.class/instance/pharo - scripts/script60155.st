@@ -1,4 +1,4 @@
-script60154
+script60155
 
 	^ 'AST-Core-TheIntegrator.436.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2379.mcz
+Kernel-TheIntegrator.2381.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.101.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -188,7 +188,7 @@ Morphic-Widgets-ColorPicker-TheIntegrator.21.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.185.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.72.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.6.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
 Morphic-Widgets-Tabs-TheIntegrator.23.mcz
@@ -299,7 +299,7 @@ Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-EstebanLorenzano.507.mcz
+Spec-Core-TheIntegrator.508.mcz
 Spec-Debugger-EstebanLorenzano.273.mcz
 Spec-Examples-EstebanLorenzano.124.mcz
 Spec-Help-TheIntegrator.10.mcz
@@ -308,7 +308,7 @@ Spec-Layout-TheIntegrator.74.mcz
 Spec-MorphicAdapters-EstebanLorenzano.277.mcz
 Spec-PolyWidgets-EstebanLorenzano.78.mcz
 Spec-SelectEntity-EstebanLorenzano.12.mcz
-Spec-Tests-TheIntegrator.81.mcz
+Spec-Tests-TheIntegrator.82.mcz
 Spec-Tools-EstebanLorenzano.360.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz

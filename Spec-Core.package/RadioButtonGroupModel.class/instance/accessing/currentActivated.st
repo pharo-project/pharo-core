@@ -1,0 +1,2 @@
+currentActivated
+	^ currentActivated value
