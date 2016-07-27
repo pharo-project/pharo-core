@@ -1,5 +1,5 @@
 SpecTestCase subclass: #ButtonModelTest
-	instanceVariableNames: 'buttonModel'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-Tests'
+	category: 'Spec-Tests-Core-Widgets'

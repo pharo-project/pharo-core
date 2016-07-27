@@ -1,6 +1,4 @@
 example
-
-	| b |
-	b:= ButtonModel new.
-	b openWithSpec.
-	b label: 'Click me'.
+	^ self new
+		openWithSpec;
+		label: 'Click me'

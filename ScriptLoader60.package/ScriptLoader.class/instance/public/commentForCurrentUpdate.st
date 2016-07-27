@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18822 RBScanner>>#scanPatternVariable shouldnt continue parsing on error
-	https://pharo.fogbugz.com/f/cases/18822
+ ^ '18740 selectAll of TextInputFieldModel dont react like its super class TextModel
+	https://pharo.fogbugz.com/f/cases/18740
 
-18771 Add a manifest for critics
-	https://pharo.fogbugz.com/f/cases/18771
+18824 Fuel packages lost some integrated stuff
+	https://pharo.fogbugz.com/f/cases/18824
 
-18743 Create an abstract class to remove code duplication between CheckboxModel and RadioButtonModel
-	https://pharo.fogbugz.com/f/cases/18743
-
-18803 Cleanup of Spec-Polywidget
-	https://pharo.fogbugz.com/f/cases/18803'
+18750 Improve the abstract TestCase for widgets
+	https://pharo.fogbugz.com/f/cases/18750'

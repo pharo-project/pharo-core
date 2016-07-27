@@ -1,5 +1,5 @@
 SpecTestCase subclass: #MenuModelTest
-	instanceVariableNames: 'menuModel'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-Tests'
+	category: 'Spec-Tests-Core-Widgets'

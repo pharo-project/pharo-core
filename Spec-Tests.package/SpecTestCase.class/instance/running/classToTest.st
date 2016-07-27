@@ -1,0 +1,2 @@
+classToTest
+	self subclassResponsibility

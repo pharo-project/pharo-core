@@ -1,0 +1,2 @@
+openInstance
+	window := testedInstance openWithSpec

@@ -1,2 +1,2 @@
 morph
-	^ buttonModel widget widget
+	^ testedInstance widget widget

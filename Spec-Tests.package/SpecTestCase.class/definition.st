@@ -1,5 +1,5 @@
 TestCase subclass: #SpecTestCase
-	instanceVariableNames: 'window'
+	instanceVariableNames: 'window testedInstance'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Tests'

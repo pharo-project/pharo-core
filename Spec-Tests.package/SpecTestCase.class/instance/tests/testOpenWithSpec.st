@@ -1,0 +1,2 @@
+testOpenWithSpec
+	self openInstance
