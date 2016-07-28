@@ -1,6 +1,6 @@
-script60157
+script60158
 
-	^ 'AST-Core-TheIntegrator.438.mcz
+	^ 'AST-Core-TheIntegrator.440.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.72.mcz
@@ -73,8 +73,8 @@ FontInfrastructure-Tests-TheIntegrator.2.mcz
 FreeType-TheIntegrator.746.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MartinDias.826.mcz
-FuelCommandLineHandler-MarcusDenker.24.mcz
-FuelPlatform-MaxLeske.62.mcz
+FuelCommandLineHandler-TheIntegrator.25.mcz
+FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MartinDias.412.mcz
 FuelTools-Debugger-MarcusDenker.9.mcz
@@ -134,7 +134,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2381.mcz
 Kernel-Rules-TheIntegrator.8.mcz
-Kernel-Tests-TheIntegrator.101.mcz
+Kernel-Tests-TheIntegrator.103.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -305,10 +305,10 @@ Spec-Examples-TheIntegrator.125.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.279.mcz
+Spec-MorphicAdapters-TheIntegrator.280.mcz
 Spec-PolyWidgets-TheIntegrator.83.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.84.mcz
+Spec-Tests-TheIntegrator.85.mcz
 Spec-Tools-TheIntegrator.361.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz

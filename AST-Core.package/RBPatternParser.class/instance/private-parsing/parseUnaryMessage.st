@@ -6,9 +6,7 @@ parseUnaryMessage
 	[currentToken isLiteralToken ifTrue: [self patchLiteralMessage].
 	currentToken isPatternBlock 
 		ifTrue: 
-			[node := (self parsePatternBlock: RBPatternWrapperBlockNode)
-						wrappedNode: node;
-						yourself].
+			[node := self parseWrapperPatternBlockWith: node ].
 	currentToken isIdentifier] 
 			whileTrue: [
 				currentToken isKeywordPattern

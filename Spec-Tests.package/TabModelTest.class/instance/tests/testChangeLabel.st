@@ -1,12 +1,11 @@
 testChangeLabel
 	"issue 14885"
 
-	manager addTab: redTab.
-
-	self assert: redTab label = 'Red Morph'.
-	redTab label: 'Change Before Opening'.
-	self assert: redTab label = 'Change Before Opening'.
-
+	self redMorphTab.
+	manager addTab: testedInstance.
+	self assert: testedInstance label = 'Red Morph'.
+	testedInstance label: 'Change Before Opening'.
+	self assert: testedInstance label = 'Change Before Opening'.
 	window := manager openWithSpec.
-	redTab label: 'Change After Opening'.
-	self assert: redTab label = 'Change After Opening'
+	testedInstance label: 'Change After Opening'.
+	self assert: testedInstance label = 'Change After Opening'
