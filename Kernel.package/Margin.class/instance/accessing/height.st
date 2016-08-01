@@ -1,2 +1,3 @@
 height
-	^ self bottom - self top.
+
+	^ self bottom + self top

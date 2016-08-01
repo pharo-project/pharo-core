@@ -1,4 +1,4 @@
-SpecTestCase subclass: #ListModelTest
+SpecTestCase subclass: #TextModelTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

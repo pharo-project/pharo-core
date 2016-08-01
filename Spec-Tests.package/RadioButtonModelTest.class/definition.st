@@ -1,4 +1,4 @@
-SpecTestCase subclass: #ListModelTest
+SpecTestCase subclass: #RadioButtonModelTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

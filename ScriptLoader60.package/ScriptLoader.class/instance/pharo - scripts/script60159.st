@@ -1,4 +1,4 @@
-script60158
+script60159
 
 	^ 'AST-Core-TheIntegrator.440.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -24,14 +24,14 @@ Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.13.mcz
-Collections-Abstract-TheIntegrator.323.mcz
+Collections-Abstract-TheIntegrator.325.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.427.mcz
+Collections-Strings-TheIntegrator.429.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.61.mcz
 Collections-Unordered-TheIntegrator.234.mcz
@@ -120,7 +120,7 @@ Graphics-Files-TheIntegrator.76.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Primitives-TheIntegrator.194.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
-Graphics-Tests-TheIntegrator.80.mcz
+Graphics-Tests-TheIntegrator.83.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.155.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2381.mcz
+Kernel-TheIntegrator.2385.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.103.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -299,16 +299,16 @@ Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.511.mcz
+Spec-Core-TheIntegrator.513.mcz
 Spec-Debugger-TheIntegrator.274.mcz
 Spec-Examples-TheIntegrator.125.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.280.mcz
+Spec-MorphicAdapters-TheIntegrator.281.mcz
 Spec-PolyWidgets-TheIntegrator.83.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.85.mcz
+Spec-Tests-TheIntegrator.86.mcz
 Spec-Tools-TheIntegrator.361.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz

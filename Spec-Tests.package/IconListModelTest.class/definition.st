@@ -1,4 +1,4 @@
-SpecTestCase subclass: #ListModelTest
+ListModelTest subclass: #IconListModelTest
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

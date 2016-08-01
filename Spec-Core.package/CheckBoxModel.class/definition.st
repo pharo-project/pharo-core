@@ -1,5 +1,5 @@
-AbstractWidgetModel subclass: #CheckBoxModel
-	instanceVariableNames: 'actionWhenActivatedHolder stateHolder labelClickableHolder labelHolder actionWhenDeactivatedHolder'
+AbstractFormButtonModel subclass: #CheckBoxModel
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'
