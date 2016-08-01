@@ -1,4 +1,4 @@
-script60159
+script60160
 
 	^ 'AST-Core-TheIntegrator.440.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -154,7 +154,7 @@ Metacello-Core-TheIntegrator.831.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
-Metacello-MC-TheIntegrator.737.mcz
+Metacello-MC-TheIntegrator.739.mcz
 Metacello-PharoCommonPlatform-TheIntegrator.24.mcz
 Metacello-Platform-TheIntegrator.5.mcz
 Metacello-ProfStef-EstebanLorenzano.18.mcz
@@ -301,14 +301,14 @@ SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.513.mcz
 Spec-Debugger-TheIntegrator.274.mcz
-Spec-Examples-TheIntegrator.125.mcz
+Spec-Examples-TheIntegrator.127.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz
 Spec-MorphicAdapters-TheIntegrator.281.mcz
 Spec-PolyWidgets-TheIntegrator.83.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.86.mcz
+Spec-Tests-TheIntegrator.90.mcz
 Spec-Tools-TheIntegrator.361.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz
@@ -340,7 +340,7 @@ System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.60.mcz
-System-Support-TheIntegrator.1244.mcz
+System-Support-TheIntegrator.1248.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.773.mcz
@@ -350,7 +350,7 @@ Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.164.mcz
+Tool-Base-TheIntegrator.166.mcz
 Tool-Catalog-TheIntegrator.40.mcz
 Tool-CriticBrowser-TheIntegrator.33.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz

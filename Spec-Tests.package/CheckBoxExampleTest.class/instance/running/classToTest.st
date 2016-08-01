@@ -1,0 +1,2 @@
+classToTest
+	^ CheckBoxExample

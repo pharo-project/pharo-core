@@ -1,0 +1,2 @@
+classToTest
+	^ OpenOnNilExample

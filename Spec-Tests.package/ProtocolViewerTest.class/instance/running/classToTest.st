@@ -1,0 +1,2 @@
+classToTest
+	^ ProtocolViewer

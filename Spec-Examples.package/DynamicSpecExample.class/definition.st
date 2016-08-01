@@ -1,5 +1,5 @@
 Object subclass: #DynamicSpecExample
-	instanceVariableNames: 'object'
+	instanceVariableNames: 'ui'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-Examples'
+	category: 'Spec-Examples-Wrapper'

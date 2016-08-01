@@ -1,0 +1,2 @@
+minus
+	^ minus

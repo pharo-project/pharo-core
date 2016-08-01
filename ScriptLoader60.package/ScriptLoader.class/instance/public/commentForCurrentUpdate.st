@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '18844 Move String>>#join: to correct protocol
-	https://pharo.fogbugz.com/f/cases/18844
+ ^ '18840 Cleaning of Spec-example, adding their tests
+	https://pharo.fogbugz.com/f/cases/18840
 
-18838 ScrollSyncExample seems dont really work
-	https://pharo.fogbugz.com/f/cases/18838
+18848 Traits do not show up when using sendersOfIt
+	https://pharo.fogbugz.com/f/cases/18848
 
-18769 Add test for Spec-Core-Widgets
-	https://pharo.fogbugz.com/f/cases/18769
-
-18841 Margin improvements
-	https://pharo.fogbugz.com/f/cases/18841'
+18802 Versionner puts a MCLazyVersionInfo(package name) instead of the package name
+	https://pharo.fogbugz.com/f/cases/18802'

@@ -1,0 +1,2 @@
+textToReset
+	^ textToReset

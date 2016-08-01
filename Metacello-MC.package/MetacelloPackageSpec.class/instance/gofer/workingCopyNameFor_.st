@@ -2,4 +2,4 @@ workingCopyNameFor: anMCLoader
 
 	| vi |
 	(vi := anMCLoader currentVersionInfoFor: self) == nil ifTrue: [ ^nil ].
-	^vi printString
+	^vi name
