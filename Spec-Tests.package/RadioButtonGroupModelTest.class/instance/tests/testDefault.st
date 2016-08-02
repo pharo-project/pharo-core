@@ -1,3 +1,3 @@
 testDefault
-	radioGroupModel addRadioButton: radio1.
+	testedInstance addRadioButton: radio1.
 	self assert: radio1 state == false

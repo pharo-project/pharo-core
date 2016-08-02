@@ -1,5 +1,5 @@
 testCurrentActivated
-	radioGroupModel addRadioButton: radio1.
-	self assert: radioGroupModel currentActivated equals: nil.
+	testedInstance addRadioButton: radio1.
+	self assert: testedInstance currentActivated equals: nil.
 	radio1 click.
-	self assert: radioGroupModel currentActivated equals: radio1
+	self assert: testedInstance currentActivated equals: radio1

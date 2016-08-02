@@ -1,5 +1,5 @@
 testLinkRadioButton
-	radioGroupModel
+	testedInstance
 		addRadioButton: radio1;
 		addRadioButton: radio2.
 	self assert: radio1 state == false.

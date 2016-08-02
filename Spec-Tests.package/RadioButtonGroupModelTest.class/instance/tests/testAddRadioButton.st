@@ -1,6 +1,6 @@
 testAddRadioButton
-	self assert: radioGroupModel buttons size == 0.
-	radioGroupModel
+	self assert: testedInstance buttons size == 0.
+	testedInstance
 		addRadioButton: radio1;
 		addRadioButton: radio2.
-	self assert: radioGroupModel buttons size == 2
+	self assert: testedInstance buttons size == 2

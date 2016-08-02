@@ -1,0 +1,2 @@
+classToTest
+	^ SearchableList

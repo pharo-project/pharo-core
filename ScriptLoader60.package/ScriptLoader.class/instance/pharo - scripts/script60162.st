@@ -1,4 +1,4 @@
-script60161
+script60162
 
 	^ 'AST-Core-TheIntegrator.440.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -240,7 +240,7 @@ ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.107.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
-QualityAssistantRecording-YuriyTymchuk.23.mcz
+QualityAssistantRecording-YuriyTymchuk.24.mcz
 RPackage-Core-TheIntegrator.433.mcz
 RPackage-Tests-TheIntegrator.191.mcz
 Random-Core-TheIntegrator.6.mcz
@@ -263,8 +263,8 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.126.mcz
-Renraku-Help-YuriyTymchuk.1.mcz
+Renraku-TheIntegrator.130.mcz
+Renraku-Help-YuriyTymchuk.2.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.244.mcz
@@ -306,9 +306,9 @@ Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz
 Spec-MorphicAdapters-TheIntegrator.281.mcz
-Spec-PolyWidgets-TheIntegrator.83.mcz
+Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.90.mcz
+Spec-Tests-TheIntegrator.94.mcz
 Spec-Tools-TheIntegrator.361.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz

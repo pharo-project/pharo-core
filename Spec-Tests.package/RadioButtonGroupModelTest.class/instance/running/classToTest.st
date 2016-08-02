@@ -1,0 +1,2 @@
+classToTest
+	^ RadioButtonGroupModel

@@ -1,5 +1,5 @@
-TestCase subclass: #RadioButtonGroupModelTest
-	instanceVariableNames: 'radioGroupModel radio1 radio2 window'
+SpecTestCase subclass: #RadioButtonGroupModelTest
+	instanceVariableNames: 'radio1 radio2'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-Tests'
+	category: 'Spec-Tests-Core-Widgets'
