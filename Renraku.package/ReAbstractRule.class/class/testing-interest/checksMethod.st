@@ -1,0 +1,3 @@
+checksMethod
+
+	^ false

@@ -1,0 +1,2 @@
+checksNode
+	^ true

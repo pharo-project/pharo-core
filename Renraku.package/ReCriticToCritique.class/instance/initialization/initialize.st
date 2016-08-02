@@ -1,6 +1,6 @@
 initialize
 	super initialize.
-	self rewriteRule
+	self
 		replace: 'ReMissingMethodCritic'
 			with: 'ReMissingMethodCritique';	
 				

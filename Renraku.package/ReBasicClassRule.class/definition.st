@@ -1,5 +1,5 @@
-RBBasicLintRule subclass: #ReBasicClassRule
+ReAbstractRule subclass: #ReBasicClassRule
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Rules'
+	category: 'Renraku-Deprecated'

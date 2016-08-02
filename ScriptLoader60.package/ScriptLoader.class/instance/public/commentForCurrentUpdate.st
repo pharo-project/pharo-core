@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18840 Cleaning of Spec-example, adding their tests
-	https://pharo.fogbugz.com/f/cases/18840
+ ^ '18749 QA v3.2.1
+	https://pharo.fogbugz.com/f/cases/18749
 
-18848 Traits do not show up when using sendersOfIt
-	https://pharo.fogbugz.com/f/cases/18848
-
-18802 Versionner puts a MCLazyVersionInfo(package name) instead of the package name
-	https://pharo.fogbugz.com/f/cases/18802'
+18845 Move MIMEHeaderValue from Mail to MIME package
+	https://pharo.fogbugz.com/f/cases/18845'

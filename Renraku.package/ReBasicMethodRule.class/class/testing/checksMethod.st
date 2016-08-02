@@ -1,3 +1,3 @@
 checksMethod
 
-	^ true
+	^ self name ~= #ReBasicMethodRule

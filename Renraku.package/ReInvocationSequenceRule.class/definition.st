@@ -1,4 +1,4 @@
-ReBasicTreeRule subclass: #ReInvocationSequenceRule
+ReAbstractRule subclass: #ReInvocationSequenceRule
 	instanceVariableNames: 'preConditions postConditions'
 	classVariableNames: ''
 	poolDictionaries: ''

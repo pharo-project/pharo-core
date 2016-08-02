@@ -1,3 +1,0 @@
-checksAST
-
-	^ true

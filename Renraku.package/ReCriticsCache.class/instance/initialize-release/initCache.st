@@ -1,7 +1,7 @@
 initCache
 
 
-	checker rule leaves do: [ :rule | 
+	checker rule do: [ :rule | 
 		falsePositives at: rule put: (IdentitySet newFrom: (checker falsePositiveOf: rule)).
 		toDos at: rule put: (IdentitySet newFrom: (checker toDoOf: rule)).
 		critics at: rule put: (IdentitySet newFrom: (checker criticsOf: rule)) 

@@ -1,0 +1,2 @@
+checksClass
+	^ self name ~= #ReBasicClassRule

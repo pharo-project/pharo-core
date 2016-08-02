@@ -1,5 +1,5 @@
-RBLintRule subclass: #ReNodeBasedRule
+ReAbstractRule subclass: #ReNodeBasedRule
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Renraku-Rewrite'
+	category: 'Renraku-Rules-Rewrite'

@@ -1,3 +1,0 @@
-lintCheckSelectors
-
-	^ #(checkClass: checkMethod: checkPackage:)

@@ -1,0 +1,2 @@
+pages
+	    ^ #(genericRules parsetreeRules rewriteRules)

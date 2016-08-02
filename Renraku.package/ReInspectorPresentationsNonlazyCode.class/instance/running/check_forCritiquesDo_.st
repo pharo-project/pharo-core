@@ -1,6 +1,6 @@
 check: anAST forCritiquesDo: aCriticBlock
 
-
+	anAST isMethod ifFalse: [ ^ self ].
 	anAST pragmaNamed: #gtInspectorPresentationOrder: ifAbsent: [ ^ self ].
 	
 	^ (anAST statements

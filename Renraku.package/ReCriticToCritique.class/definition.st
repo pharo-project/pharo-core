@@ -1,4 +1,4 @@
-RBTransformationRule subclass: #ReCriticToCritique
+ReNodeRewriteRule subclass: #ReCriticToCritique
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

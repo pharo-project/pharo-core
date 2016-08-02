@@ -1,4 +1,4 @@
-ReBasicMethodRule subclass: #ReReturnMethodRule
+ReAbstractRule subclass: #ReReturnMethodRule
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

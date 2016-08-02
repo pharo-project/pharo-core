@@ -1,0 +1,3 @@
+basicCheck: anEntity
+
+	^ self subclassResponsibility 

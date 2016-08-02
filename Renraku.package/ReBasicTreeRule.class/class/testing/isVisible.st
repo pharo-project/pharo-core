@@ -1,2 +1,0 @@
-isVisible
-	^ self name ~= #ReBasicTreeRule

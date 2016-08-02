@@ -1,0 +1,3 @@
+checksNode
+
+	^ self name ~= #ReBasicTreeRule
