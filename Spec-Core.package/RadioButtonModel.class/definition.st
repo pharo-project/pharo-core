@@ -1,5 +1,5 @@
 AbstractFormButtonModel subclass: #RadioButtonModel
-	instanceVariableNames: ''
+	instanceVariableNames: 'canDeselectByClick'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Spec-Core-Widgets'

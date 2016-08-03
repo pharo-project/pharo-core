@@ -1,7 +1,7 @@
-script60166
+script60167
 
-	^ 'AST-Core-TheIntegrator.442.mcz
-AST-Tests-Core-TheIntegrator.100.mcz
+	^ 'AST-Core-TheIntegrator.443.mcz
+AST-Tests-Core-TheIntegrator.102.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.72.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -17,7 +17,7 @@ Balloon-TheIntegrator.135.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
-BlueInk-Core-TheIntegrator.27.mcz
+BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.10.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
 Chroma-CubeHelix-TheIntegrator.2.mcz
@@ -132,7 +132,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2385.mcz
+Kernel-TheIntegrator.2387.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.103.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -299,9 +299,9 @@ Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.513.mcz
+Spec-Core-TheIntegrator.515.mcz
 Spec-Debugger-TheIntegrator.274.mcz
-Spec-Examples-TheIntegrator.127.mcz
+Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz

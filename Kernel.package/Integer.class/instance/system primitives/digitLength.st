@@ -1,0 +1,2 @@
+digitLength
+	self subclassResponsibility

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18763 Update CriticBrowser to the latest Renraku changes
-	https://pharo.fogbugz.com/f/cases/18763
+ ^ '18858 #testUndeclared fails: missing ivars in RadioButtonModel
+	https://pharo.fogbugz.com/f/cases/18858
 
-18781 Do it in File Browser text pane yields MNU: RubTextEditor>>doIt
-	https://pharo.fogbugz.com/f/cases/18781
+18821 format code creates invalid pragma statement
+	https://pharo.fogbugz.com/f/cases/18821
 
-18857 #hasSpecialSelector:ifTrueSetByte: can be removed
-	https://pharo.fogbugz.com/f/cases/18857'
+18843 #digitLength is implemented in SmallInteger and in BigInteger but not in Integer
+	https://pharo.fogbugz.com/f/cases/18843'
