@@ -1,7 +1,6 @@
 applyRules
 	| packageCount nbPackage process rules |	
-	rules := rulesModel roots first. 
-	rules resetResult.
+	rules := rulesModel roots flatCollect: #rules.
 	nbPackage := rbEnvironment packages size.
 	packageCount := 0.
 	self updateTree.

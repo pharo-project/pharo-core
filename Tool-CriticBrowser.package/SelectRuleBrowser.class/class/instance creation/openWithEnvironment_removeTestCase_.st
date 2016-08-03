@@ -1,8 +1,7 @@
 openWithEnvironment: anEnvironment removeTestCase: aBoolean
+
 	self new
-		items:
-			(RBCompositeLintRule allGoodRules rules
-				copyWithFirst: PharoCriticRules pharoIntegrationLintRule);
+		items: self items;
 		environment: anEnvironment;
 		removeTestCase: aBoolean;
 		openWithSpec;

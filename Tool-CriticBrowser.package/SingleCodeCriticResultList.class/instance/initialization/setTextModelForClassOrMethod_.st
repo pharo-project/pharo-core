@@ -1,6 +1,6 @@
 setTextModelForClassOrMethod: aCritique
 
-	| interval entity |
+	| entity |
 	entity := aCritique sourceAnchor entity.
 	sourceCodeModel text: entity definition.
 	sourceCodeModel aboutToStyle: true.
