@@ -1,4 +1,5 @@
 startDrag: event
+
 	| passengers transferMorph |
 
 	event hand hasSubmorphs ifTrue: [^ self]. 
@@ -9,7 +10,7 @@ startDrag: event
 			
 	passengers := self selectedRowIndexes collect: [ :each | self dataSource passengerAt: each ].
 	transferMorph := self dataSource transferFor: passengers from: self.
-	transferMorph align: transferMorph draggedMorph bottomLeft with: event position.
+	transferMorph align: transferMorph draggedMorph topLeft with: event position.
 	transferMorph dragTransferType: self dataSource dragTransferType.
 	
-	event hand attachMorph: transferMorph 
+	event hand grabMorph: transferMorph 

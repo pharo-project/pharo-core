@@ -1,0 +1,3 @@
+minHeight 
+
+	^ 100

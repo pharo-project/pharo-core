@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18854 Unload System-CommandLine-TextSupport
-	https://pharo.fogbugz.com/f/cases/18854'
+ ^ '18773 Integrate GTools
+	https://pharo.fogbugz.com/f/cases/18773'

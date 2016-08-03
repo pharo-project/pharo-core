@@ -1,0 +1,3 @@
+clipSubmorphs
+
+	^ true

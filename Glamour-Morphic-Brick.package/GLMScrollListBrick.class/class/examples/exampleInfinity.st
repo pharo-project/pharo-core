@@ -12,7 +12,7 @@ exampleInfinity
 				hSpaceFill;
 				yourself ].
 
-	GLMFoundationBrick new
+	^ GLMFoundationBrick new
 		brickRoot: (self new model: adaptor);
 		extent: 300@400;
 		openInWindow

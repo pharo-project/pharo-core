@@ -1,4 +1,4 @@
-script60164
+script60165
 
 	^ 'AST-Core-TheIntegrator.442.mcz
 AST-Tests-Core-TheIntegrator.100.mcz
@@ -319,7 +319,6 @@ System-Changes-TheIntegrator.303.mcz
 System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
-System-CommandLine-TextSupport-TheIntegrator.4.mcz
 System-CommandLineHandler-TheIntegrator.24.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.44.mcz
