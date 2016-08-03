@@ -1,5 +1,5 @@
 EpLogBrowserItem subclass: #EpFilteredEntriesItem
-	instanceVariableNames: 'entries'
+	instanceVariableNames: 'filteredEntriesCount olderFilteredEntry'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaBrowsers-Views'

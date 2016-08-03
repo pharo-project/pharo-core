@@ -1,2 +1,0 @@
-workingSnapshot
-	^ self utilityWorkingCopy snapshot.

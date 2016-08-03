@@ -1,2 +1,0 @@
-displayWidget
-	^ self subclassResponsibility 

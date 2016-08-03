@@ -1,5 +1,6 @@
 initializeFiltersModel
 	filtersModel
+		iconBlock: [ Smalltalk ui icons iconNamed: #smallFind ];
 		displayBlock: [ :aFilter | aFilter title ];
 		menu: [ :aMenu | 
 			aMenu
@@ -8,7 +9,7 @@ initializeFiltersModel
 						addItem: [ :anItem | 
 							anItem
 								name: 'Remove';
-								description: 'Open a new Sorter with the selected entries';
+								description: 'Remove this filter';
 								icon: (Smalltalk ui icons iconNamed: #smallDeleteIcon);
 								shortcut: $x command;
 								action: [ self removeFilter: filtersModel selectedItem content.

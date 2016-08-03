@@ -1,4 +1,4 @@
 logBrowserOperationFilter
 	^ self
-		title: 'undo/redo/comment'
+		title: 'is undo or redo or comment'
 		condition: [ :e | e content isKindOf: EpLogBrowserOperation ]

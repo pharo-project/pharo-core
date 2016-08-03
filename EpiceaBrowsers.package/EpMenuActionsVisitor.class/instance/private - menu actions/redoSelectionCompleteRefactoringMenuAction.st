@@ -1,7 +1,7 @@
 redoSelectionCompleteRefactoringMenuAction
 
-	^ { 'Redo (complete)'.
+	^ { 'Redo refactoring'.
 		#redoSelectionCompleteRefactoring.
-		'Redo selected event(s)'.
+		'Redo selected refactoring'.
 		#smallRedoIcon.
 		$r command }

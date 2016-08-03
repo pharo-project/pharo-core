@@ -1,3 +1,3 @@
 refresh
 
-	sessionsTreeModel roots: (EpMonitor findLogFilesIn: self directory)
+	sessionsTreeModel roots: (EpMonitor logFilesIn: self directory)

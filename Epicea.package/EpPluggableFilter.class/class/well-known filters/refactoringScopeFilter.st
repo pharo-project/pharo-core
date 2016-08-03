@@ -1,4 +1,4 @@
 refactoringScopeFilter
 	^ self
-		title: 'refactoring'
+		title: 'is refactoring'
 		condition: [ :e | e content isKindOf: EpRefactoring ]

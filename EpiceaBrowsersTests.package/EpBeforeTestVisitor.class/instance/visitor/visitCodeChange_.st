@@ -1,2 +1,0 @@
-visitCodeChange: aChange
-	^ nil

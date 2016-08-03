@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18836 Second cleaning of Spec-Polywidgets and adding test
-	https://pharo.fogbugz.com/f/cases/18836
+ ^ '18831 Integrate new  Epicea  version
+	https://pharo.fogbugz.com/f/cases/18831
 
-18845 Move MIMEHeaderValue from Mail to MIME package
-	https://pharo.fogbugz.com/f/cases/18845
+18768 Inlined method const could be implemented by metalinks
+	https://pharo.fogbugz.com/f/cases/18768
 
-18749 QA v3.2.1
-	https://pharo.fogbugz.com/f/cases/18749'
+18835 Update RBParser-Nodes class comments
+	https://pharo.fogbugz.com/f/cases/18835'

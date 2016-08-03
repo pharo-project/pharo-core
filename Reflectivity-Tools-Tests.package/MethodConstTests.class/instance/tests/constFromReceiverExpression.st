@@ -1,0 +1,3 @@
+constFromReceiverExpression
+
+	^DateAndTime now asMethodConst 
