@@ -1,1 +1,0 @@
-foo	^ 'second version'

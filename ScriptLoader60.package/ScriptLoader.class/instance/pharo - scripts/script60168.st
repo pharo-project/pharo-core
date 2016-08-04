@@ -1,4 +1,4 @@
-script60167
+script60168
 
 	^ 'AST-Core-TheIntegrator.443.mcz
 AST-Tests-Core-TheIntegrator.102.mcz
@@ -204,7 +204,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1276.mcz
+Nautilus-TheIntegrator.1278.mcz
 Nautilus-GroupManager-TheIntegrator.20.mcz
 Nautilus-GroupManagerUI-TheIntegrator.33.mcz
 Nautilus-Tests-TheIntegrator.37.mcz
@@ -267,10 +267,10 @@ Renraku-TheIntegrator.130.mcz
 Renraku-Help-YuriyTymchuk.2.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
-Ring-Core-Kernel-TheIntegrator.244.mcz
+Ring-Core-Kernel-TheIntegrator.246.mcz
 Ring-Monticello-TheIntegrator.43.mcz
 Ring-Tests-Containers-MarcusDenker.18.mcz
-Ring-Tests-Kernel-TheIntegrator.90.mcz
+Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
 Rubric-TheIntegrator.390.mcz

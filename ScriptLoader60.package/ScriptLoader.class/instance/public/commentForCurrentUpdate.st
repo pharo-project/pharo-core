@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18858 #testUndeclared fails: missing ivars in RadioButtonModel
-	https://pharo.fogbugz.com/f/cases/18858
+ ^ '18856 After Epicea integration: "an OmReference(Pharo_2elhj7i:199) not found in OmSessionStore"
+	https://pharo.fogbugz.com/f/cases/18856
 
-18821 format code creates invalid pragma statement
-	https://pharo.fogbugz.com/f/cases/18821
+17710 rename variable do not update class template
+	https://pharo.fogbugz.com/f/cases/17710
 
-18843 #digitLength is implemented in SmallInteger and in BigInteger but not in Integer
-	https://pharo.fogbugz.com/f/cases/18843'
+18855 reduce calls on #compiledMethod in RGMethodDefinition
+	https://pharo.fogbugz.com/f/cases/18855
+
+18860 cleanup after running RGMethodDefintionTest
+	https://pharo.fogbugz.com/f/cases/18860'

@@ -1,0 +1,3 @@
+lostEventsDetectorEnabled
+
+	^ EpLostChangesDetector isEnabled

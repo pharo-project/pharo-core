@@ -1,3 +1,4 @@
 messages
-
-	^ self method messages
+	self isActive
+		ifTrue: [ ^ self method messages ].
+	^ self ast ifNotNil: [ :ast | ast sentMessages ] ifNil: [ #() ]
