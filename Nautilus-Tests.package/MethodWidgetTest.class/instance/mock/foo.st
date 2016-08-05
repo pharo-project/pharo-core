@@ -1,0 +1,2 @@
+foo
+	<script: 'self new'>

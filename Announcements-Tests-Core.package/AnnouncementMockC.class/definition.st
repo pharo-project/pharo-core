@@ -1,5 +1,5 @@
 AnnouncementMockB subclass: #AnnouncementMockC
-	instanceVariableNames: ''
+	instanceVariableNames: 'announcingCounter'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Announcements-Tests-Core-Mocks'
