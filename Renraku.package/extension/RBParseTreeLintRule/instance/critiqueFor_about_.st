@@ -8,6 +8,6 @@ critiqueFor: aNode about: aMethod
 				entity: aMethod
 				interval: aNode sourceInterval ].
 			
-	^ ReTrivialCritic
+	^ ReTrivialCritique
 		withAnchor: anchor 
 		by: self

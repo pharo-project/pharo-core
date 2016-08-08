@@ -1,5 +1,5 @@
 critiqueFor: anEntity
 
-	^ ReTrivialCritic
+	^ ReTrivialCritique
 		withAnchor: (self anchorFor: anEntity)
 		by: self
