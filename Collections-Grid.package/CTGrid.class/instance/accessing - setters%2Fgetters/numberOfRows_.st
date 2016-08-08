@@ -1,0 +1,2 @@
+numberOfRows: anObject
+	numberOfRows := anObject

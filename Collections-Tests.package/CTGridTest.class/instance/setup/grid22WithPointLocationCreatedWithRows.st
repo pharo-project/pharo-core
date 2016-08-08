@@ -1,0 +1,3 @@
+grid22WithPointLocationCreatedWithRows
+
+	grid22WithPointLocationCreatedWithRows := CTGrid grid22WithPointLocationCreatedWithRows
