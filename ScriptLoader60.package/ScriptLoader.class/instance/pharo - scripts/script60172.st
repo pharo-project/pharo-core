@@ -1,7 +1,7 @@
-script60171
+script60172
 
-	^ 'AST-Core-TheIntegrator.443.mcz
-AST-Tests-Core-TheIntegrator.102.mcz
+	^ 'AST-Core-TheIntegrator.445.mcz
+AST-Tests-Core-TheIntegrator.104.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -294,7 +294,7 @@ Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
-Shout-TheIntegrator.293.mcz
+Shout-TheIntegrator.295.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.756.mcz
 Slot-Tests-TheIntegrator.94.mcz
@@ -352,7 +352,7 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.166.mcz
 Tool-Catalog-TheIntegrator.40.mcz
-Tool-CriticBrowser-TheIntegrator.38.mcz
+Tool-CriticBrowser-TheIntegrator.40.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
@@ -364,7 +364,7 @@ Tool-Finder-TheIntegrator.69.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.23.mcz
 Tool-Profilers-TheIntegrator.28.mcz
-Tool-SystemReporter-TheIntegrator.15.mcz
+Tool-SystemReporter-TheIntegrator.17.mcz
 Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz

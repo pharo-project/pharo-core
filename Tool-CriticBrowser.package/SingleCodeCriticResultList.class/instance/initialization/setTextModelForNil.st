@@ -1,9 +1,9 @@
 setTextModelForNil
 
 	| text |
-	text := rule longDescription isEmpty 
+	text := rule rationale isEmpty 
 		ifTrue: [ rule name ]
-		ifFalse: [ rule longDescription ]. 
+		ifFalse: [ rule rationale ]. 
 	sourceCodeModel aboutToStyle: false.
 	sourceCodeModel text: text.
 	sourceCodeModel behavior: nil.
