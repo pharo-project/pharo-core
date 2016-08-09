@@ -1,4 +1,4 @@
 stable: spec
 	<symbolicVersion: #'stable'>
 
-	spec for: #'common' version: '0.22.2'.
+	spec for: #'common' version: '0.23'

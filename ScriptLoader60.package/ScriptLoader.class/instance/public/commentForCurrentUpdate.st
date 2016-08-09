@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18890 Parser cant not parse faulty or unfinished blocks with return caret
-	https://pharo.fogbugz.com/f/cases/18890
+ ^ '18891 MethodFinderTest>>#testGreaterThanANumber is dependent on order
+	https://pharo.fogbugz.com/f/cases/18891
 
-18893 MCStWriterTest>>#expectedClassMethodDefinition will always fail on bootstrapped image
-	https://pharo.fogbugz.com/f/cases/18893
+18889 CriticsBrowser "BlockCannotReturn"
+	https://pharo.fogbugz.com/f/cases/18889
 
-18892 simplify isBlockReturn: to use encoder
-	https://pharo.fogbugz.com/f/cases/18892'
+18896 add support for ignored fields in structures
+	https://pharo.fogbugz.com/f/cases/18896
+
+18898 Sista Encoder update for release.
+	https://pharo.fogbugz.com/f/cases/18898'

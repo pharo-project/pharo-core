@@ -1,4 +1,4 @@
-script60174
+script60175
 
 	^ 'AST-Core-TheIntegrator.447.mcz
 AST-Tests-Core-TheIntegrator.106.mcz
@@ -229,7 +229,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.204.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.846.mcz
+OpalCompiler-Core-TheIntegrator.848.mcz
 OpalCompiler-Tests-TheIntegrator.365.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
@@ -352,7 +352,7 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.166.mcz
 Tool-Catalog-TheIntegrator.40.mcz
-Tool-CriticBrowser-TheIntegrator.40.mcz
+Tool-CriticBrowser-TheIntegrator.42.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
@@ -369,7 +369,7 @@ Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
-Tools-Test-TheIntegrator.16.mcz
+Tools-Test-TheIntegrator.19.mcz
 Traits-TheIntegrator.928.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
