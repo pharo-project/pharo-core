@@ -1,6 +1,2 @@
 expectedMethodDefinition
-	^ '
-!MCMockClassA methodsFor: ''numeric'' stamp: ''GuillermoPolito 8/24/2012 15:22''!
-one
-	^ 1! !
-'
+	^ '\s*!MCMockClassA methodsFor\: ''numeric'' stamp\: ''[/:\s\w]*''!\s*one\s*\^ 1! !\s*'

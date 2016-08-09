@@ -1,7 +1,3 @@
 expectedClassMethodDefinition
-	^ '
-!MCMockClassA class methodsFor: ''as yet unclassified'' stamp: ''ab 7/7/2003 23:21''!
-one
 
-	^ 1! !
-'
+	^ '\s*!MCMockClassA class methodsFor\: ''as yet unclassified'' stamp\: ''[/:\s\w]*''!\s*one\s*\^ 1! !\s*'.
