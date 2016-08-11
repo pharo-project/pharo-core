@@ -1,4 +1,4 @@
-script60176
+script60177
 
 	^ 'AST-Core-TheIntegrator.447.mcz
 AST-Tests-Core-TheIntegrator.106.mcz
@@ -320,6 +320,7 @@ System-Changes-TheIntegrator.303.mcz
 System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
+System-CommandLine-TextSupport-TheIntegrator.6.mcz
 System-CommandLineHandler-TheIntegrator.24.mcz
 System-FileRegistry-TheIntegrator.50.mcz
 System-Finalization-TheIntegrator.44.mcz
@@ -344,13 +345,13 @@ System-Support-TheIntegrator.1250.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.773.mcz
-Text-Core-TheIntegrator.54.mcz
+Text-Core-TheIntegrator.56.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-EstebanLorenzano.7.mcz
-Tool-Base-TheIntegrator.166.mcz
+Tool-Base-TheIntegrator.168.mcz
 Tool-Catalog-TheIntegrator.40.mcz
 Tool-CriticBrowser-TheIntegrator.42.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.28.mcz
