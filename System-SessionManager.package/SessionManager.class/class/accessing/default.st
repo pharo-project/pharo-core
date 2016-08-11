@@ -1,2 +1,2 @@
 default
-	^ Default ifNil: [ self new ]
+	^ Default ifNil: [ Default := self new ] 

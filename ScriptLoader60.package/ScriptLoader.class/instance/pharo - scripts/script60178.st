@@ -1,4 +1,4 @@
-script60177
+script60178
 
 	^ 'AST-Core-TheIntegrator.447.mcz
 AST-Tests-Core-TheIntegrator.106.mcz
@@ -32,7 +32,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.431.mcz
+Collections-Strings-TheIntegrator.433.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.63.mcz
 Collections-Unordered-TheIntegrator.234.mcz
@@ -198,7 +198,7 @@ Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.62.mcz
 Morphic-Widgets-Windows-TheIntegrator.105.mcz
 Multilingual-Encodings-TheIntegrator.63.mcz
-Multilingual-Languages-TheIntegrator.57.mcz
+Multilingual-Languages-TheIntegrator.59.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
 Multilingual-Tests-TheIntegrator.46.mcz
 Multilingual-TextConversion-TheIntegrator.83.mcz
@@ -335,7 +335,7 @@ System-OSEnvironments-TheIntegrator.31.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-TheIntegrator.33.mcz
+System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz

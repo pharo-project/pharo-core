@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '18909 Monkey broken because System-CommandLine-TextSupport unloaded in 60164
-	https://pharo.fogbugz.com/f/cases/18909
+ ^ '18907 Prevent LanguageEnvironment sublclasses to be in startup list
+	https://pharo.fogbugz.com/f/cases/18907
 
-18866 Rename protocol window title is ambiguous 
-	https://pharo.fogbugz.com/f/cases/18866'
+18906 SessionManager default should store the new instance when no default defined
+	https://pharo.fogbugz.com/f/cases/18906
+
+18908 Prevent Symbol subclasses to be in startup list
+	https://pharo.fogbugz.com/f/cases/18908'
