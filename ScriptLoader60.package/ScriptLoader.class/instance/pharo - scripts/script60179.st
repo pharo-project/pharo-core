@@ -1,7 +1,7 @@
-script60178
+script60179
 
-	^ 'AST-Core-TheIntegrator.447.mcz
-AST-Tests-Core-TheIntegrator.106.mcz
+	^ 'AST-Core-TheIntegrator.449.mcz
+AST-Tests-Core-TheIntegrator.108.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -133,7 +133,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2388.mcz
+Kernel-TheIntegrator.2391.mcz
 Kernel-Rules-TheIntegrator.8.mcz
 Kernel-Tests-TheIntegrator.104.mcz
 Kernel-Tests-Rules-TheIntegrator.3.mcz
@@ -255,11 +255,11 @@ Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.137.mcz
 Refactoring-Tests-Critics-TheIntegrator.44.mcz
 Refactoring-Tests-Environment-TheIntegrator.28.mcz
-Reflectivity-TheIntegrator.304.mcz
-Reflectivity-Examples-TheIntegrator.36.mcz
-Reflectivity-Tests-TheIntegrator.204.mcz
-Reflectivity-Tools-TheIntegrator.57.mcz
-Reflectivity-Tools-Tests-TheIntegrator.18.mcz
+Reflectivity-TheIntegrator.306.mcz
+Reflectivity-Examples-TheIntegrator.38.mcz
+Reflectivity-Tests-TheIntegrator.206.mcz
+Reflectivity-Tools-TheIntegrator.59.mcz
+Reflectivity-Tools-Tests-TheIntegrator.20.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
@@ -296,8 +296,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.295.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.756.mcz
-Slot-Tests-TheIntegrator.94.mcz
+Slot-TheIntegrator.758.mcz
+Slot-Tests-TheIntegrator.96.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.515.mcz

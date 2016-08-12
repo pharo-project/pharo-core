@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18907 Prevent LanguageEnvironment sublclasses to be in startup list
-	https://pharo.fogbugz.com/f/cases/18907
+ ^ '18910 MNU: OrderedCollection>>parent: when trying to rewrite a tree with RBParseTreeRewriter
+	https://pharo.fogbugz.com/f/cases/18910
 
-18906 SessionManager default should store the new instance when no default defined
-	https://pharo.fogbugz.com/f/cases/18906
+18911 unify property API of CompiledMethod with all the others (Class, AST...)
+	https://pharo.fogbugz.com/f/cases/18911
 
-18908 Prevent Symbol subclasses to be in startup list
-	https://pharo.fogbugz.com/f/cases/18908'
+18912 update comment Deprecation
+	https://pharo.fogbugz.com/f/cases/18912'

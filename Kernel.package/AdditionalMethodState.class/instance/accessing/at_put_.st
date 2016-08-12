@@ -13,6 +13,6 @@ at: aKey put: aValue
                                ifFalse: [self basicAt: i put: aValue]]].
 
        keyAlreadyExists ifFalse: [
-               method propertyValueAt: aKey put: aValue ].
+               method propertyAt: aKey put: aValue ].
 
        ^ aValue

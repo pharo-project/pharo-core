@@ -1,5 +1,5 @@
-propertyValueAt: propName
+propertyAt: propName
 	| propertiesOrSelector |
 	^(propertiesOrSelector := self penultimateLiteral) isMethodProperties
-		ifTrue: [propertiesOrSelector propertyValueAt: propName ifAbsent: [nil]]
+		ifTrue: [propertiesOrSelector propertyAt: propName ifAbsent: [nil]]
 		ifFalse: [nil]
