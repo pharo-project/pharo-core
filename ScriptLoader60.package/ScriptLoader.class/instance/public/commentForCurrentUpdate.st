@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18602 Dependency-Analyzer v1.19
-	https://pharo.fogbugz.com/f/cases/18602
+ ^ '18917 simplify trait name validation for bootstrap
+	https://pharo.fogbugz.com/f/cases/18917
 
-18925 cleanup InMidstOfFileinNotification
-	https://pharo.fogbugz.com/f/cases/18925'
+18941 ClassBuilderWarning should not override defaultAction
+	https://pharo.fogbugz.com/f/cases/18941'

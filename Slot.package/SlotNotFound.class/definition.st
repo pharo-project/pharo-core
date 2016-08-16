@@ -1,4 +1,4 @@
-Error subclass: #SlotNotFound
+ClassBuilderError subclass: #SlotNotFound
 	instanceVariableNames: 'name targetClass'
 	classVariableNames: ''
 	poolDictionaries: ''

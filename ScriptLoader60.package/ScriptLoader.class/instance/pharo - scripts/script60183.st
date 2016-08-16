@@ -1,4 +1,4 @@
-script60182
+script60183
 
 	^ 'AST-Core-TheIntegrator.453.mcz
 AST-Tests-Core-TheIntegrator.113.mcz
@@ -33,7 +33,7 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.245.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
-Collections-Strings-TheIntegrator.433.mcz
+Collections-Strings-TheIntegrator.437.mcz
 Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.65.mcz
 Collections-Unordered-TheIntegrator.234.mcz
@@ -134,7 +134,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2393.mcz
+Kernel-TheIntegrator.2394.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.104.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -170,7 +170,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1153.mcz
+Monticello-TheIntegrator.1155.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.40.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
@@ -297,7 +297,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.295.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.758.mcz
+Slot-TheIntegrator.762.mcz
 Slot-Tests-TheIntegrator.96.mcz
 SmartSuggestions-TheIntegrator.247.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
@@ -355,9 +355,10 @@ Text-Tests-EstebanLorenzano.7.mcz
 Tool-Base-TheIntegrator.171.mcz
 Tool-Catalog-TheIntegrator.40.mcz
 Tool-CriticBrowser-TheIntegrator.42.mcz
-Tool-DependencyAnalyser-TheIntegrator.30.mcz
-Tool-DependencyAnalyser-Test-ChristopheDemarey.11.mcz
-Tool-DependencyAnalyser-UI-ChristopheDemarey.43.mcz
+Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
+Tool-DependencyAnalyser-Test-ChristopheDemarey.13.mcz
+Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.1.mcz
+Tool-DependencyAnalyser-UI-ChristopheDemarey.48.mcz
 Tool-Diff-TheIntegrator.41.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.73.mcz
@@ -372,7 +373,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.933.mcz
+Traits-TheIntegrator.934.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
