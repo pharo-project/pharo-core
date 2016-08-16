@@ -2,7 +2,7 @@ deferFlushDuring: aBlock
 
 	"defer flusing the filestream until a block has been executed"
 	
-	flushChanges == false ifTrue: [ ^ aBlock value ].
+	flushChanges ifFalse: [ ^ aBlock value ].
 	
 	flushChanges := false.
 	

@@ -1,4 +1,4 @@
-script60183
+script60184
 
 	^ 'AST-Core-TheIntegrator.453.mcz
 AST-Tests-Core-TheIntegrator.113.mcz
@@ -250,11 +250,11 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.324.mcz
-Refactoring-Critics-TheIntegrator.284.mcz
+Refactoring-Critics-TheIntegrator.285.mcz
 Refactoring-Environment-TheIntegrator.86.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.137.mcz
-Refactoring-Tests-Critics-TheIntegrator.46.mcz
+Refactoring-Tests-Critics-TheIntegrator.47.mcz
 Refactoring-Tests-Environment-TheIntegrator.28.mcz
 Reflectivity-TheIntegrator.306.mcz
 Reflectivity-Examples-TheIntegrator.39.mcz
@@ -341,7 +341,7 @@ System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.348.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
-System-Sources-TheIntegrator.63.mcz
+System-Sources-TheIntegrator.65.mcz
 System-Support-TheIntegrator.1252.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
@@ -373,7 +373,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.934.mcz
+Traits-TheIntegrator.935.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

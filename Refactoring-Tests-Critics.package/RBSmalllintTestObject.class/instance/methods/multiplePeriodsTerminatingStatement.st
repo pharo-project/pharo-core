@@ -1,0 +1,2 @@
+multiplePeriodsTerminatingStatement
+	^ self..

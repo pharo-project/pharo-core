@@ -1,5 +1,5 @@
 flushChangesFile
 	
-	flushChanges == false ifTrue: [ ^ self ].
+	flushChanges ifFalse: [ ^ self ].
 	
 	self changesFileStream ifNotNil: [:f | f flush ]
