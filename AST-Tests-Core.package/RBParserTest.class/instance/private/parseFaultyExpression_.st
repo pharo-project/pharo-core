@@ -1,2 +1,2 @@
 parseFaultyExpression: text
-	^ RBParser parseFaultyExpression: text
+	^ self parserClass parseFaultyExpression: text

@@ -1,3 +1,4 @@
 checkPackage: aPackage
-	(self basicCheck: aPackage) ifTrue: [ 
-		result addPackage: aPackage ]
+	self renrakuRule
+		check: aPackage
+		forCritiquesDo: [ ^ result addPackage: aPackage ]

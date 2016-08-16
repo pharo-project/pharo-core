@@ -1,15 +1,15 @@
 commentForCurrentUpdate
- ^ '18920 optional work with sources in TBehavior>>#addTraitSelector:withMethod:
-	https://pharo.fogbugz.com/f/cases/18920
+ ^ '16789 RBUnaryAccessingMethodWithoutReturnRule refers to #nodes instead of #statements
+	https://pharo.fogbugz.com/f/cases/16789
 
-18927 Komitter throws up if it has committed everything
-	https://pharo.fogbugz.com/f/cases/18927
+18894 RBPatternParser should respect RBErrorNode when parsing pattern blocks II
+	https://pharo.fogbugz.com/f/cases/18894
 
-18919 GridTests should not be part of CollectionsTests
-	https://pharo.fogbugz.com/f/cases/18919
+18928 ambigous isArray for RBArrayNode
+	https://pharo.fogbugz.com/f/cases/18928
 
-18924 Small demo: type feedback using meta links
-	https://pharo.fogbugz.com/f/cases/18924
+18914 Improve MethodClassifier classification based on selector parts
+	https://pharo.fogbugz.com/f/cases/18914
 
-18913 simplify #allReferencesTo:
-	https://pharo.fogbugz.com/f/cases/18913'
+18888 Move Pharo bootstrap rule to Renraku model
+	https://pharo.fogbugz.com/f/cases/18888'

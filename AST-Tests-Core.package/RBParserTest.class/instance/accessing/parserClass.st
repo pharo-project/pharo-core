@@ -1,0 +1,2 @@
+parserClass
+	^ self class parserClass

@@ -1,5 +1,5 @@
 RBArchitectureLintRule subclass: #RBPharoBootstrapRule
-	instanceVariableNames: ''
-	classVariableNames: 'DependencyChecker'
+	instanceVariableNames: 'renrakuRule'
+	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Refactoring-Critics-ArchitectureRules'

@@ -1,2 +1,0 @@
-isArray
-	^ true

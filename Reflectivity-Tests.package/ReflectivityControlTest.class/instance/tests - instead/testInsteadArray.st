@@ -1,13 +1,13 @@
 testInsteadArray
-	| literalArray |
-	literalArray := (ReflectivityExamples >> #exampleArray) ast statements first value.
-	self assert: literalArray isArray.
+	| arrayNode |
+	arrayNode := (ReflectivityExamples >> #exampleArray) ast statements first value.
+	self assert: arrayNode isDynamicArray.
 	link := MetaLink new
 		metaObject: self;
 		control: #instead;
 		selector: #return3.
-	literalArray link: link.
-	self assert: literalArray hasMetalinkInstead.
+	arrayNode link: link.
+	self assert: arrayNode hasMetalinkInstead.
 	self assert: (ReflectivityExamples >> #exampleArray) class = ReflectiveMethod.
 	self assert: ReflectivityExamples new exampleArray = 3.
 	self assert: (ReflectivityExamples >> #exampleArray) class = CompiledMethod.

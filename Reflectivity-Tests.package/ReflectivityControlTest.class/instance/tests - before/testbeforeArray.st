@@ -1,7 +1,7 @@
 testbeforeArray
 	| arrayNode |
 	arrayNode := (ReflectivityExamples >> #exampleArray) ast statements first value.
-	self assert: arrayNode isArray.
+	self assert: arrayNode isDynamicArray.
 	link := MetaLink new
 		metaObject: self;
 		selector: #tagExec.

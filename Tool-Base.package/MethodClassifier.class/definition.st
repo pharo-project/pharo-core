@@ -1,5 +1,5 @@
 Object subclass: #MethodClassifier
-	instanceVariableNames: 'prefixMapping pragmaMapping'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Tool-Base'
