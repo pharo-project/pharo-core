@@ -1,5 +1,5 @@
 buildChildren
-	^ (self messageSendAnalysis differenceWithManuallyResolvedDependencies
+	^ (self messageSendAnalysis unimplementedCallsInAllDependencies
 		collect: [ :selector | 
 						(DAMissingMethodNode new
 								content: selector;

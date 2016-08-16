@@ -1,0 +1,2 @@
+setUp
+	checker := DADependencyChecker new

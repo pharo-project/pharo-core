@@ -1,2 +1,2 @@
-differenceWithManuallyResolvedDependencies
+unimplementedCallsInAllDependencies
 	^ self sentMessages difference: self implementedMessagesWithManuallyResolvedDependencies

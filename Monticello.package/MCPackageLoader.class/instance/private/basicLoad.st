@@ -1,5 +1,4 @@
 basicLoad
-	errorDefinitions := OrderedCollection new.
-	[ 
-		self handleLoadErrorsDuring: [ self basicLoadDefinitions ]
-	] ensure: [ SourceFiles flushChangesFile ]
+    errorDefinitions := OrderedCollection new.
+    SourceFiles deferFlushDuring: [
+        self handleLoadErrorsDuring: [self basicLoadDefinitions]]
