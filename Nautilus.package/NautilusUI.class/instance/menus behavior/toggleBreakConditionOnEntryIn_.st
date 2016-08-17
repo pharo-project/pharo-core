@@ -6,6 +6,6 @@ toggleBreakConditionOnEntryIn: aMethod
 		(UIManager default request: 'Break on what condition?')	
 		ifNotNil: [ :condition | Breakpoint new 
 			node: aMethod ast;
-			condition: (OpalCompiler evaluate: condition);
+			condition: (aMethod class compiler evaluate: condition);
 			install]
 		]

@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18944 misspackaged Intege r>> readFrom: radix:
-	https://pharo.fogbugz.com/f/cases/18944
+ ^ '18949 reduce direct references to OpalCompiler
+	https://pharo.fogbugz.com/f/cases/18949
 
-18945 do not require a Text in MockSourceEditor
-	https://pharo.fogbugz.com/f/cases/18945
+18951 Add helper methods to get all assignment nodes of a slot
+	https://pharo.fogbugz.com/f/cases/18951
 
-18937 RBRefactoryTestDataApp and RBSmallintTestObject #fileBlocks sends undefined #asFilename
-	https://pharo.fogbugz.com/f/cases/18937'
+18952 adopt some extensions of AST-Core from Reflectivity
+	https://pharo.fogbugz.com/f/cases/18952'
