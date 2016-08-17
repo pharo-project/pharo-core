@@ -1,7 +1,7 @@
 insertAndSelect: aString at: anInteger
 
 	text := (text first: anInteger-1), 
-		(' ' , aString) asText, 
+		(' ' , aString), 
 		(text copyFrom: anInteger to: text size).
 		
 	selectionStart := anInteger.
