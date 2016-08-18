@@ -1,4 +1,4 @@
-script60186
+script60187
 
 	^ 'AST-Core-TheIntegrator.456.mcz
 AST-Tests-Core-TheIntegrator.113.mcz
@@ -35,7 +35,7 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.188.mcz
 Collections-Strings-TheIntegrator.437.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.65.mcz
+Collections-Tests-TheIntegrator.67.mcz
 Collections-Unordered-TheIntegrator.234.mcz
 Collections-Weak-TheIntegrator.106.mcz
 Compiler-TheIntegrator.602.mcz
@@ -250,7 +250,7 @@ Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
 Refactoring-Core-TheIntegrator.324.mcz
-Refactoring-Critics-TheIntegrator.285.mcz
+Refactoring-Critics-TheIntegrator.287.mcz
 Refactoring-Environment-TheIntegrator.86.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.139.mcz
@@ -297,8 +297,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.295.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.762.mcz
-Slot-Tests-TheIntegrator.96.mcz
+Slot-TheIntegrator.765.mcz
+Slot-Tests-TheIntegrator.97.mcz
 SmartSuggestions-TheIntegrator.249.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.515.mcz

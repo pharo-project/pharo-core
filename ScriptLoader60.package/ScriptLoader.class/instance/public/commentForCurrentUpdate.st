@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18949 reduce direct references to OpalCompiler
-	https://pharo.fogbugz.com/f/cases/18949
+ ^ '18953 remove Regex dependency from SplitJoinTest>>#testSplitJoinBoundaryCases
+	https://pharo.fogbugz.com/f/cases/18953
 
-18951 Add helper methods to get all assignment nodes of a slot
-	https://pharo.fogbugz.com/f/cases/18951
+18916 simplify asSlotCollection for bootstrap
+	https://pharo.fogbugz.com/f/cases/18916
 
-18952 adopt some extensions of AST-Core from Reflectivity
-	https://pharo.fogbugz.com/f/cases/18952'
+18938 Remove RBClassInstVarNotInitializedRule, it is a bad rule
+	https://pharo.fogbugz.com/f/cases/18938'
