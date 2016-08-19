@@ -1,4 +1,4 @@
-script60187
+script60188
 
 	^ 'AST-Core-TheIntegrator.456.mcz
 AST-Tests-Core-TheIntegrator.113.mcz
@@ -134,7 +134,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2396.mcz
+Kernel-TheIntegrator.2397.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.107.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
