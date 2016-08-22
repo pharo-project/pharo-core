@@ -1,4 +1,4 @@
-script60189
+script60190
 
 	^ 'AST-Core-TheIntegrator.458.mcz
 AST-Tests-Core-TheIntegrator.116.mcz
@@ -206,13 +206,13 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1281.mcz
-Nautilus-GroupManager-TheIntegrator.20.mcz
-Nautilus-GroupManagerUI-TheIntegrator.33.mcz
-Nautilus-Tests-TheIntegrator.39.mcz
-NautilusCommon-TheIntegrator.310.mcz
-NautilusGroupAutoBuilder-TheIntegrator.15.mcz
-NautilusRefactoring-TheIntegrator.292.mcz
+Nautilus-TheIntegrator.1283.mcz
+Nautilus-GroupManager-TheIntegrator.21.mcz
+Nautilus-GroupManagerUI-TheIntegrator.34.mcz
+Nautilus-Tests-TheIntegrator.40.mcz
+NautilusCommon-TheIntegrator.311.mcz
+NautilusGroupAutoBuilder-TheIntegrator.16.mcz
+NautilusRefactoring-TheIntegrator.293.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.50.mcz
