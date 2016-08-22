@@ -8,5 +8,7 @@ parseLiteralArrayObject
 			[^currentToken isForByteArray 
 				ifTrue: [self parseLiteralByteArray]
 				ifFalse: [self parseLiteralArray]].
+	currentToken isError ifTrue:[ |errorNode| errorNode :=  self parserError: currentToken cause.
+		self step. ^ errorNode].
 	currentToken isLiteralToken ifFalse: [self patchLiteralArrayToken].
 	^self parsePrimitiveLiteral

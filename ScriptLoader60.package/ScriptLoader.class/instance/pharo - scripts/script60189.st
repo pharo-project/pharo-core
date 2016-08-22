@@ -1,7 +1,7 @@
-script60188
+script60189
 
-	^ 'AST-Core-TheIntegrator.456.mcz
-AST-Tests-Core-TheIntegrator.113.mcz
+	^ 'AST-Core-TheIntegrator.458.mcz
+AST-Tests-Core-TheIntegrator.116.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -159,7 +159,7 @@ Metacello-GitHub-TheIntegrator.56.mcz
 Metacello-MC-TheIntegrator.741.mcz
 Metacello-PharoCommonPlatform-TheIntegrator.24.mcz
 Metacello-Platform-TheIntegrator.5.mcz
-Metacello-ProfStef-EstebanLorenzano.18.mcz
+Metacello-ProfStef-TheIntegrator.22.mcz
 Metacello-Reference-EstebanLorenzano.38.mcz
 Metacello-TestsCommonMC.pharo20-EstebanLorenzano.7.mcz
 Metacello-TestsCore-EstebanLorenzano.41.mcz
@@ -230,7 +230,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.204.mcz
 OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.850.mcz
+OpalCompiler-Core-TheIntegrator.852.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
@@ -373,7 +373,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.935.mcz
+Traits-TheIntegrator.937.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
