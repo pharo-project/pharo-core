@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '18967 wrong title for "add trait" dialog
+update60191
+	"self new update60191"
+	self withUpdateLog: '18967 wrong title for "add trait" dialog
 	https://pharo.fogbugz.com/f/cases/18967
 
 18954 ClassTest>>#testMethodsReferencingClass and testMethodsReferencingClasses should not use external packages
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/18975
 
 18976 SmallDictionary>>#associationAt:ifPresent: is not implemented
-	https://pharo.fogbugz.com/f/cases/18976'
+	https://pharo.fogbugz.com/f/cases/18976'.
+	self loadTogether: self script60191 merge: false.
+	self flushCaches.
