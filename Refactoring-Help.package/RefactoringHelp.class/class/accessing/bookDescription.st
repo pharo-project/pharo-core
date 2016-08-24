@@ -1,0 +1,2 @@
+bookDescription
+	^ self comment

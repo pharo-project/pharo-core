@@ -1,0 +1,2 @@
+pages
+	^ #(addParameterRefactoring deprecateMethodRefactoring inlineParameterRefactoring inlineTargeSendsRefactoring moveMethodRefactoring  moveToClassRefactoring pushUpMethodRefactoring pushDownpMethodRefactoring removeMethodRefactoring removeParameterRefactoring renameMethodRefactoring)

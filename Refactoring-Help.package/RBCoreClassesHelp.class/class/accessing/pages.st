@@ -1,0 +1,2 @@
+pages
+	^ #(RBASTClassesHelp RBRefactoringClassesHelp RBBrowserEnvironmentsClassesHelp)

@@ -1,0 +1,2 @@
+pages
+	^ #(renameClassRefactoring removeClassRefactoring generateAccessorRefactoring generateSuperclassRefactoring insertSuperclassRefactoring insertSubclassRefactoring generateSubclassRefactoring realizeClassRefactoring splitClassRefactoring)

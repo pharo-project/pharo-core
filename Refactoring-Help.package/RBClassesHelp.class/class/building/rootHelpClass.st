@@ -1,0 +1,2 @@
+rootHelpClass
+	^ self subclassResponsibility 
