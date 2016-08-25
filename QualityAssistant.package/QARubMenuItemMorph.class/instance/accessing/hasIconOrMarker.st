@@ -1,0 +1,2 @@
+hasIconOrMarker
+	^ true

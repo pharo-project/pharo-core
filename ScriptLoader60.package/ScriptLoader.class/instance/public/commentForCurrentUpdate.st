@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '18936 RBParser allows pragmas after method code
-	https://pharo.fogbugz.com/f/cases/18936
+ ^ '18980 QA v3.2.5
+	https://pharo.fogbugz.com/f/cases/18980
 
-18829 Add a RefactoringFramework System HelpTopic
-	https://pharo.fogbugz.com/f/cases/18829
+18903 CriticBrowser browser senders broken
+	https://pharo.fogbugz.com/f/cases/18903
 
-18955 DoubleLinkedList and its test should be in its own package
-	https://pharo.fogbugz.com/f/cases/18955'
+18970 Add missing class comments for some RBToken classes
+	https://pharo.fogbugz.com/f/cases/18970'
