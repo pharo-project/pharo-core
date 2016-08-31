@@ -1,2 +1,0 @@
-context: anObject
-	context := anObject

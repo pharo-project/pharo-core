@@ -1,2 +1,0 @@
-hasDependent
-	^ self dependents notEmpty

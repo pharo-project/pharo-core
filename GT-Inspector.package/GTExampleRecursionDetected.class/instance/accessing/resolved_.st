@@ -1,2 +1,0 @@
-resolved: anObject
-	resolved := anObject

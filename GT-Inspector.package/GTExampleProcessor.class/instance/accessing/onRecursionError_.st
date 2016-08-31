@@ -1,2 +1,0 @@
-onRecursionError: anObject
-	onRecursionError := anObject

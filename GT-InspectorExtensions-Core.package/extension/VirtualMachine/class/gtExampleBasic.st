@@ -1,3 +1,0 @@
-gtExampleBasic
-	<gtExample>
-	^ self new

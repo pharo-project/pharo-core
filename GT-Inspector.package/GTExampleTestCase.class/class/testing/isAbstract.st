@@ -1,2 +1,0 @@
-isAbstract
-	^ self name = #GTExampleTestCase

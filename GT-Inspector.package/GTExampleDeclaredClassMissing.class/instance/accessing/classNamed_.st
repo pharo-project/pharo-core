@@ -1,2 +1,0 @@
-classNamed: anObject
-	classNamed := anObject

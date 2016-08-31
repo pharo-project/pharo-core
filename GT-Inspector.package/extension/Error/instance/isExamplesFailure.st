@@ -1,2 +1,0 @@
-isExamplesFailure
-	^ true

@@ -1,2 +1,0 @@
-gtExamples
-	^ self class gtExamples

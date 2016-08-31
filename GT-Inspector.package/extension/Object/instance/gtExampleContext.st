@@ -1,2 +1,0 @@
-gtExampleContext
-	^ self class gtExampleContext

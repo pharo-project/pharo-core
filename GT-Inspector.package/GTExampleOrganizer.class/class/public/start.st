@@ -1,2 +1,0 @@
-start
-	self instance start

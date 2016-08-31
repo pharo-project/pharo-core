@@ -1,2 +1,0 @@
-examplesForClass: aClass
-	^ aClass gtExamples

@@ -1,3 +1,0 @@
-gtExampleClass
-	<gtExample>
-	^ self

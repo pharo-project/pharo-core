@@ -1,2 +1,0 @@
-gtExampleContext
-	^ GTCurrentExampleContext value

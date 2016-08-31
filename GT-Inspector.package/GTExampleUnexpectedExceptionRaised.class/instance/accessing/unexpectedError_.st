@@ -1,2 +1,0 @@
-unexpectedError: anObject
-	unexpectedError := anObject

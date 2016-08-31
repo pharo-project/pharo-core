@@ -1,2 +1,0 @@
-isExpectedError
-	^ self expectedError notNil

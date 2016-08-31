@@ -1,2 +1,0 @@
-expectedError
-	^ expectedError

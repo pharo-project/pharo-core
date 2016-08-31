@@ -1,2 +1,0 @@
-arguments: anObject
-	arguments := anObject

@@ -1,2 +1,0 @@
-returnValue
-	^ self result returnValue

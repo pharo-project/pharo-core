@@ -1,2 +1,0 @@
-basicRunClasses
-	 self runClasses: allUntestedClasses 

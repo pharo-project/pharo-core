@@ -1,5 +1,0 @@
-gtExampleEmpty
-	<gtExample>
-	<label: 'Empty'>
-	
-	^ [  ]

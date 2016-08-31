@@ -1,2 +1,0 @@
-provider: anObject
-	provider := anObject

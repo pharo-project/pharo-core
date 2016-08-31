@@ -1,2 +1,0 @@
-isValid
-	^ self traverser canProcess

@@ -1,2 +1,0 @@
-isExampleError
-	^ false

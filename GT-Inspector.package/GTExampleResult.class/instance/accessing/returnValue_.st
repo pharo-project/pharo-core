@@ -1,2 +1,0 @@
-returnValue: anObject
-	returnValue := anObject

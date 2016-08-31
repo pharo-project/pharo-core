@@ -1,2 +1,0 @@
-expectedError: anObject
-	expectedError := anObject

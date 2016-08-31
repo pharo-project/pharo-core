@@ -1,2 +1,0 @@
-evaluated: anObject
-	evaluated := anObject

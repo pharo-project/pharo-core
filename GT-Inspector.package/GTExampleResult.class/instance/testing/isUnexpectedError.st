@@ -1,2 +1,0 @@
-isUnexpectedError
-	^ self unexpectedError notNil

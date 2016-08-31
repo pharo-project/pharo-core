@@ -1,3 +1,0 @@
-gtExampleEmptyBag
-	<gtExample>
-	^ Bag new

@@ -1,2 +1,0 @@
-hasDependencies
-	^ self arguments notEmpty

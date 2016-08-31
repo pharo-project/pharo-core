@@ -1,2 +1,0 @@
-sourceCode
-	^ self method sourceCode

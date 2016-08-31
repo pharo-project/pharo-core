@@ -1,3 +1,0 @@
-start
-	self startMonticelloAnnouncements.
-	self startSystemAnnouncements

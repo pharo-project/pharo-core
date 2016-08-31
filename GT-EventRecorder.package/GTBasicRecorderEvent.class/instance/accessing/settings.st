@@ -1,0 +1,2 @@
+settings
+	^ GlobalIdentifier uniqueInstance

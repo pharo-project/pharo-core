@@ -1,2 +1,0 @@
-isSuccess
-	^ self unexpectedError isNil

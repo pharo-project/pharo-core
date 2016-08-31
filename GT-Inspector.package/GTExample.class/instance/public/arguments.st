@@ -1,2 +1,0 @@
-arguments
-	^ children asArray

@@ -1,2 +1,0 @@
-isGTExamplePragma
-	^ true
