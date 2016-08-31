@@ -1,0 +1,2 @@
+untestedTwo
+	^ self two

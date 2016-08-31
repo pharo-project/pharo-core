@@ -1,0 +1,2 @@
+newStub
+	^ self stubClass new

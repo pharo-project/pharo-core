@@ -1,2 +1,0 @@
-title
-	^ 'Blue Ink Inspector'

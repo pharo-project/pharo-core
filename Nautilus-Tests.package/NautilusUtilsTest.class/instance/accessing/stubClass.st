@@ -1,0 +1,2 @@
+stubClass
+	^ NautilusUtilsTestStub

@@ -1,2 +1,0 @@
-openBIInspectorButtonAction
-	BIInspector new openWithSpec

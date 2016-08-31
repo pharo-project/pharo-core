@@ -1,15 +1,12 @@
 commentForCurrentUpdate
- ^ '18033 Fraction isPowerOfTwo does too much work
-	https://pharo.fogbugz.com/f/cases/18033
+ ^ '18974 A Nautilus fix to support class method tests
+	https://pharo.fogbugz.com/f/cases/18974
 
-19012 Added rules for icons
-	https://pharo.fogbugz.com/f/cases/19012
+18991 asClass in RPackageTest
+	https://pharo.fogbugz.com/f/cases/18991
 
-19013 Semaphore wait protocol based on duration
-	https://pharo.fogbugz.com/f/cases/19013
+18989 asClass in BlueInk
+	https://pharo.fogbugz.com/f/cases/18989
 
-19005 Collection>>#ifEmpty: has useless return and wrong comment
-	https://pharo.fogbugz.com/f/cases/19005
-
-18990 Text missing #includesSubstring: and includesSubstring:caseSensitive:
-	https://pharo.fogbugz.com/f/cases/18990'
+19011 Integrate two double quotes inside comments
+	https://pharo.fogbugz.com/f/cases/19011'

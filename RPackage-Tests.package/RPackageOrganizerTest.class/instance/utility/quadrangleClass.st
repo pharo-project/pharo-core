@@ -1,2 +1,2 @@
 quadrangleClass
-	^ 'QuadrangleForTesting' asClass 
+	^ self class environment at: #QuadrangleForTesting 
