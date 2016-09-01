@@ -1,7 +1,6 @@
-methodRemoved: anAnnouncement
+methodRemoved: aMethod
 
-	| classes |
-	classes := rbEnvironment packages flatCollect: [ :package | package classes].
-	(classes anySatisfy: [ :cl | anAnnouncement methodClass = cl ]) 
-				ifFalse: [ ^ self ].
-	cache itemRemoved: anAnnouncement method
+	(rbEnvironment includesMethod: aMethod)
+		ifTrue: [ cache itemRemoved: aMethod ].
+		
+	cache updateBrowser

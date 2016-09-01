@@ -1,2 +1,2 @@
 realValue
-	^ realValue asClass
+	^ self class environment at: realValue

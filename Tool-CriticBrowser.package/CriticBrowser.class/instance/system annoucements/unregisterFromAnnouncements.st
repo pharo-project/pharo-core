@@ -1,0 +1,3 @@
+unregisterFromAnnouncements
+
+	SystemAnnouncer uniqueInstance unsubscribe: self

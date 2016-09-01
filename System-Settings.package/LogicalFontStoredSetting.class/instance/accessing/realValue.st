@@ -1,5 +1,5 @@
 realValue
-	^ self fontClassName asClass
+	^ (self class environment at: self fontClassName)
 				familyName: self familyName 
 				fallbackFamilyNames: self fallbackFamilyNames 
 				pointSize: self pointSize 

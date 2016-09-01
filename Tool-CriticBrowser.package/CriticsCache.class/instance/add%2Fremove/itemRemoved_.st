@@ -1,6 +1,7 @@
-itemRemoved: aItem
+itemRemoved: anItem
 
-	critics valuesDo: [ :each | each remove: aItem ifAbsent: []].
-	toDos valuesDo: [ :each | each remove: aItem ifAbsent: []].
-	falsePositives valuesDo: [ :each | each remove: aItem ifAbsent: []].	
-	self updateBrowser  
+	{ critics . toDos . falsePositives } do: [ :ruleDict |
+		ruleDict valuesDo: [ :crits |
+			crits removeAllSuchThat:  [ :crit |
+				crit sourceAnchor entity = anItem ] ] ].
+	
