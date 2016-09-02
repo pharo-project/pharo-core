@@ -1,4 +1,4 @@
-script60198
+script60199
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -130,13 +130,13 @@ Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.155.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
-HudsonBuildTools20-TheIntegrator.93.mcz
+HudsonBuildTools20-TheIntegrator.95.mcz
 ImportingResource-Help-TheIntegrator.6.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2404.mcz
+Kernel-TheIntegrator.2406.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.111.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -252,17 +252,17 @@ Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.244.mcz
 Refactoring-Changes-TheIntegrator.67.mcz
-Refactoring-Core-TheIntegrator.325.mcz
+Refactoring-Core-TheIntegrator.328.mcz
 Refactoring-Critics-TheIntegrator.287.mcz
 Refactoring-Environment-TheIntegrator.86.mcz
 Refactoring-Help-TheIntegrator.3.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
-Refactoring-Tests-Core-TheIntegrator.139.mcz
+Refactoring-Tests-Core-TheIntegrator.143.mcz
 Refactoring-Tests-Critics-TheIntegrator.49.mcz
 Refactoring-Tests-Environment-TheIntegrator.28.mcz
 ReflectionMirrors-Primitives-TheIntegrator.7.mcz
 ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
-Reflectivity-TheIntegrator.309.mcz
+Reflectivity-TheIntegrator.312.mcz
 Reflectivity-Examples-TheIntegrator.40.mcz
 Reflectivity-Tests-TheIntegrator.209.mcz
 Reflectivity-Tools-TheIntegrator.60.mcz
@@ -292,7 +292,7 @@ SUnit-Core-TheIntegrator.171.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.48.mcz
-SUnit-UI-TheIntegrator.143.mcz
+SUnit-UI-TheIntegrator.146.mcz
 SUnit-UITesting-TheIntegrator.34.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-TheIntegrator.30.mcz
@@ -380,7 +380,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.937.mcz
+Traits-TheIntegrator.940.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
