@@ -1,4 +1,4 @@
-script60197
+script60198
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2402.mcz
+Kernel-TheIntegrator.2404.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.111.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -172,7 +172,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1155.mcz
+Monticello-TheIntegrator.1158.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.40.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
@@ -184,7 +184,7 @@ MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.573.mcz
-Morphic-Core-TheIntegrator.293.mcz
+Morphic-Core-TheIntegrator.295.mcz
 Morphic-Examples-TheIntegrator.52.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.101.mcz
@@ -246,7 +246,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.109.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.24.mcz
-RPackage-Core-TheIntegrator.433.mcz
+RPackage-Core-TheIntegrator.436.mcz
 RPackage-Tests-TheIntegrator.193.mcz
 Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
@@ -260,6 +260,8 @@ Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.139.mcz
 Refactoring-Tests-Critics-TheIntegrator.49.mcz
 Refactoring-Tests-Environment-TheIntegrator.28.mcz
+ReflectionMirrors-Primitives-TheIntegrator.7.mcz
+ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
 Reflectivity-TheIntegrator.309.mcz
 Reflectivity-Examples-TheIntegrator.40.mcz
 Reflectivity-Tests-TheIntegrator.209.mcz
@@ -299,7 +301,7 @@ Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
-Shout-TheIntegrator.295.mcz
+Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.765.mcz
 Slot-Tests-TheIntegrator.97.mcz
@@ -347,6 +349,7 @@ System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.65.mcz
 System-Support-TheIntegrator.1252.mcz
+System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.773.mcz
