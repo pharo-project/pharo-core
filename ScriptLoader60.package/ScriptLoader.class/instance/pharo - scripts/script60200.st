@@ -1,4 +1,4 @@
-script60199
+script60200
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2406.mcz
+Kernel-TheIntegrator.2408.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.111.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -147,7 +147,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.175.mcz
-Manifest-Core-TheIntegrator.246.mcz
+Manifest-Core-TheIntegrator.248.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
 MenuRegistration-TheIntegrator.86.mcz
@@ -246,7 +246,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.109.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-YuriyTymchuk.24.mcz
-RPackage-Core-TheIntegrator.436.mcz
+RPackage-Core-TheIntegrator.438.mcz
 RPackage-Tests-TheIntegrator.193.mcz
 Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
@@ -380,7 +380,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.940.mcz
+Traits-TheIntegrator.941.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
