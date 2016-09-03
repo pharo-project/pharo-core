@@ -1,4 +1,4 @@
 testRunning
 
-	(Delay forSeconds: 2) wait
+	10 milliSeconds wait
 			

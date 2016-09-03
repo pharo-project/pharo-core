@@ -1,0 +1,2 @@
+filterClass
+	^filterClass

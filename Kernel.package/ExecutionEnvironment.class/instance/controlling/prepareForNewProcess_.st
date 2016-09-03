@@ -1,0 +1,2 @@
+prepareForNewProcess: aProcess
+	self subclassResponsibility 

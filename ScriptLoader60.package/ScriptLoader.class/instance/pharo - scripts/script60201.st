@@ -1,4 +1,4 @@
-script60200
+script60201
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -136,9 +136,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2408.mcz
+Kernel-TheIntegrator.2409.mcz
 Kernel-Rules-TheIntegrator.11.mcz
-Kernel-Tests-TheIntegrator.111.mcz
+Kernel-Tests-TheIntegrator.113.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -190,7 +190,7 @@ Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.101.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.21.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-HenrikNergaard.186.mcz
+Morphic-Widgets-FastTable-TheIntegrator.189.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.6.mcz
@@ -237,7 +237,7 @@ OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1376.mcz
+Polymorph-Widgets-TheIntegrator.1378.mcz
 Polymorph-Widgets-Rules-TheIntegrator.2.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.79.mcz
@@ -288,10 +288,10 @@ Rubric-Tests-TheIntegrator.7.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.171.mcz
+SUnit-Core-TheIntegrator.190.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
-SUnit-Tests-TheIntegrator.48.mcz
+SUnit-Tests-TheIntegrator.55.mcz
 SUnit-UI-TheIntegrator.146.mcz
 SUnit-UITesting-TheIntegrator.34.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
@@ -307,17 +307,17 @@ Slot-TheIntegrator.765.mcz
 Slot-Tests-TheIntegrator.97.mcz
 SmartSuggestions-TheIntegrator.249.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.515.mcz
+Spec-Core-TheIntegrator.517.mcz
 Spec-Debugger-TheIntegrator.274.mcz
 Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.275.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.281.mcz
+Spec-MorphicAdapters-TheIntegrator.283.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.94.mcz
-Spec-Tools-TheIntegrator.361.mcz
+Spec-Tools-TheIntegrator.363.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.117.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -399,7 +399,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-MarcusDenker.65.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
 Versionner-Core-Model-PavelKrivanek.54.mcz
-Versionner-Spec-Browser-TheIntegrator.199.mcz
+Versionner-Spec-Browser-TheIntegrator.201.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

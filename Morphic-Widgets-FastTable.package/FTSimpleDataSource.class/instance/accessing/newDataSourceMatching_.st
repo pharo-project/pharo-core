@@ -1,4 +1,5 @@
-newDataSourceMatching: aRegex
+newDataSourceMatching: aFTFilter
 	| newElements |
-	newElements := Array withAll: (elements select: [ :each | (aRegex matchesIn: (self toString: each)) notEmpty ]).
+	newElements := Array withAll: (elements select: [ :each | 
+		aFTFilter matches: (self toString: each) ]).
 	^ self class new elements: newElements

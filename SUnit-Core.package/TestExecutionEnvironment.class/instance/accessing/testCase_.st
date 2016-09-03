@@ -1,0 +1,2 @@
+testCase: anObject
+	testCase := anObject

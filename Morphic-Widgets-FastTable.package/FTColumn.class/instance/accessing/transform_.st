@@ -1,0 +1,2 @@
+transform: anObject
+	^ anObject

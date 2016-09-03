@@ -1,0 +1,3 @@
+runTestCase: aTestCase
+
+	self subclassResponsibility 

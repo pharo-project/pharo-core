@@ -1,0 +1,2 @@
+pattern: anObject
+	pattern := anObject

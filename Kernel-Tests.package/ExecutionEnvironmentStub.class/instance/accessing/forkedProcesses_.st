@@ -1,0 +1,2 @@
+forkedProcesses: anObject
+	forkedProcesses := anObject

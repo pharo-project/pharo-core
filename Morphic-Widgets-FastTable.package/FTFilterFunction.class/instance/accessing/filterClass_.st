@@ -1,0 +1,2 @@
+filterClass: aFTFilterClass
+	filterClass := aFTFilterClass

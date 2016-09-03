@@ -1,0 +1,2 @@
+runCaseManaged
+	CurrentExecutionEnvironment runTestCase: self

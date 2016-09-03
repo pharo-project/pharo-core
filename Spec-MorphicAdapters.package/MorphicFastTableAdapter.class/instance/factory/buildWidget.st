@@ -1,7 +1,10 @@
 buildWidget
 
-	^ FTPluggableIconListMorphAdaptor  new
-		    	model: self ;
+	^ FTPluggableIconListMorphAdaptor new
+		   model: self model;
+			hideColumnHeaders;
+			beResizable;
+			columns: self model columns;
 			getListSizeSelector: #listSize ;
 			getListElementSelector: #listElementAt: ;
 			getIndexSelector: #getIndex ;
@@ -18,4 +21,7 @@ buildWidget
 			setBalloonText: self help; 
 			hResizing: 	#spaceFill;
 			vResizing: 	#spaceFill;
+			selectRowIndex: 1;
+			enableFilter: FTSubstringFilter;			
+			explicitFunction;
 			yourself
