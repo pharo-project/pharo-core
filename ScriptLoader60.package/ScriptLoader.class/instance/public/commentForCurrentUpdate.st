@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19030 SystemAnnouncer restoreAllNotifications produces memory leak
-	https://pharo.fogbugz.com/f/cases/19030
+ ^ '18983 Kommitter is not working when invoked from Versionner
+	https://pharo.fogbugz.com/f/cases/18983
 
-19006 Add support for the file sync primitive to the FileSystem API
-	https://pharo.fogbugz.com/f/cases/19006'
+18859 Loading a package break word selection on Windows
+	https://pharo.fogbugz.com/f/cases/18859'

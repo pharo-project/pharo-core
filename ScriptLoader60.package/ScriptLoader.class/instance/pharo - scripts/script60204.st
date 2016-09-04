@@ -1,4 +1,4 @@
-script60203
+script60204
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -146,7 +146,7 @@ Keymapping-Pragmas-TheIntegrator.58.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.178.mcz
+Komitter-TheIntegrator.179.mcz
 Manifest-Core-TheIntegrator.248.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -183,8 +183,8 @@ MonticelloGUI-TheIntegrator.425.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.573.mcz
-Morphic-Core-TheIntegrator.295.mcz
+Morphic-Base-TheIntegrator.576.mcz
+Morphic-Core-TheIntegrator.297.mcz
 Morphic-Examples-TheIntegrator.52.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.101.mcz
