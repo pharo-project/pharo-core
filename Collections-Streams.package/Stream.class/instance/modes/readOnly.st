@@ -1,0 +1,3 @@
+readOnly
+	"do nothing"
+	^self

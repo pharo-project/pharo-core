@@ -1,2 +1,0 @@
-readOnly
-	^self

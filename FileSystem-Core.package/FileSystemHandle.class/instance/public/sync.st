@@ -1,0 +1,2 @@
+sync
+	self subclassResponsibility

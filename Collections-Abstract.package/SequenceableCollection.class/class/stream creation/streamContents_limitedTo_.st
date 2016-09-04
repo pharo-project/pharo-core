@@ -1,7 +1,10 @@
 streamContents: blockWithArg limitedTo: sizeLimit
 	| stream |
-	stream := LimitedWriteStream on: (self streamSpecies new: (100 min: sizeLimit)).
-	stream setLimit: sizeLimit limitBlock: [^ stream contents].
+	stream :=
+		LimitedWriteStream
+			on: (self streamSpecies new: (100 min: sizeLimit))
+			limit: sizeLimit
+			limitBlock: [^ stream contents].
 	blockWithArg value: stream.
 	^ stream contents
 "

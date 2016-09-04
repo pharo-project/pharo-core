@@ -1,0 +1,2 @@
+classToBeTested
+	^ self streamClass

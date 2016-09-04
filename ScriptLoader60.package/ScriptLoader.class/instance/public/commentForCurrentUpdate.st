@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19001 Another pass to introduce iconNamed: and avoid Smalltalk ui icons
-	https://pharo.fogbugz.com/f/cases/19001
+ ^ '19030 SystemAnnouncer restoreAllNotifications produces memory leak
+	https://pharo.fogbugz.com/f/cases/19030
 
-19002 iconNamed: in Catalog Browser
-	https://pharo.fogbugz.com/f/cases/19002'
+19006 Add support for the file sync primitive to the FileSystem API
+	https://pharo.fogbugz.com/f/cases/19006'

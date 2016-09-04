@@ -1,0 +1,2 @@
+stringSize
+	^ self string size

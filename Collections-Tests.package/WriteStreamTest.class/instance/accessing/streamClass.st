@@ -1,0 +1,2 @@
+streamClass
+	^ WriteStream

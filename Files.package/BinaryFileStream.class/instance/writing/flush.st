@@ -1,3 +1,0 @@
-flush
-	
-	self primFlush: handle
