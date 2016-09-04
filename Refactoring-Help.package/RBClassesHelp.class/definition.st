@@ -1,4 +1,4 @@
-Object subclass: #RBClassesHelp
+Model subclass: #RBClassesHelp
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

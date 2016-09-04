@@ -1,4 +1,4 @@
-Object subclass: #FreeTypeSystemSettings
+Model subclass: #FreeTypeSystemSettings
 	instanceVariableNames: ''
 	classVariableNames: 'LoadFT2Library'
 	poolDictionaries: ''

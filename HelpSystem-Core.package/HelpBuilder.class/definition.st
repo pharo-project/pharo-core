@@ -1,4 +1,4 @@
-Object subclass: #HelpBuilder
+Model subclass: #HelpBuilder
 	instanceVariableNames: 'topicToBuild rootToBuildFrom'
 	classVariableNames: ''
 	poolDictionaries: ''

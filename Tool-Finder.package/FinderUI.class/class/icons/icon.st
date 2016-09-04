@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons iconNamed: #smallFindIcon
+	^ self iconNamed: #smallFindIcon

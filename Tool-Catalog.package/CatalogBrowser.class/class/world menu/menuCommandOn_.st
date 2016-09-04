@@ -4,6 +4,6 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #'Catalog Browser')
 		order: 0.19;
-		icon: (Smalltalk ui icons iconNamed: #catalogIcon);
+		icon: (self iconNamed: #catalogIcon);
 		parent: #Tools;
 		action: [ self open ]

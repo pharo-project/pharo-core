@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '19015 Tests should never hang and leave forked processes live
-	https://pharo.fogbugz.com/f/cases/19015
+ ^ '19001 Another pass to introduce iconNamed: and avoid Smalltalk ui icons
+	https://pharo.fogbugz.com/f/cases/19001
 
-18606 MessageBrowser should use fast table and provide filter field
-	https://pharo.fogbugz.com/f/cases/18606
-
-19034 Improve comment of round: 
-	https://pharo.fogbugz.com/f/cases/19034'
+19002 iconNamed: in Catalog Browser
+	https://pharo.fogbugz.com/f/cases/19002'

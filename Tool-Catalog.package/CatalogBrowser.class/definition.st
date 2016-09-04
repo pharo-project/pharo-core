@@ -1,4 +1,4 @@
-Object subclass: #CatalogBrowser
+Model subclass: #CatalogBrowser
 	instanceVariableNames: 'provider'
 	classVariableNames: ''
 	poolDictionaries: ''

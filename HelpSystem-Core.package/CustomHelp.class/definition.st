@@ -1,4 +1,4 @@
-Object subclass: #CustomHelp
+Model subclass: #CustomHelp
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

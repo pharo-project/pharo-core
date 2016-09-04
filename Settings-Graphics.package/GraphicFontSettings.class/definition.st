@@ -1,4 +1,4 @@
-Object subclass: #GraphicFontSettings
+Model subclass: #GraphicFontSettings
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

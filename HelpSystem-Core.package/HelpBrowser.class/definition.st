@@ -1,4 +1,4 @@
-Object subclass: #HelpBrowser
+Model subclass: #HelpBrowser
 	instanceVariableNames: 'rootTopic window treeMorph helpTopicCache sourceTextModel'
 	classVariableNames: 'DefaultHelpBrowser'
 	poolDictionaries: ''

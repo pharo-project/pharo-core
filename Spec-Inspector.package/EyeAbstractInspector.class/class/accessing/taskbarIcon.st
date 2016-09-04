@@ -1,2 +1,2 @@
 taskbarIcon
-	^ #smallInspectItIcon asIcon
+	^self iconNamed: #smallInspectItIcon

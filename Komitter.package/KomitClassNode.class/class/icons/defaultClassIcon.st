@@ -1,2 +1,2 @@
 defaultClassIcon
-	^ Smalltalk ui icons iconNamed: #classIcon
+	^ self iconNamed: #classIcon

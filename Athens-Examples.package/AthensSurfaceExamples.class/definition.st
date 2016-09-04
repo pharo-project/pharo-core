@@ -1,4 +1,4 @@
-Object subclass: #AthensSurfaceExamples
+Model subclass: #AthensSurfaceExamples
 	instanceVariableNames: 'renderBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
