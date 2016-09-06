@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18983 Kommitter is not working when invoked from Versionner
-	https://pharo.fogbugz.com/f/cases/18983
+ ^ '19042 QA 3.2.6
+	https://pharo.fogbugz.com/f/cases/19042
 
-18859 Loading a package break word selection on Windows
-	https://pharo.fogbugz.com/f/cases/18859'
+19043 UnlimtedIvar slot: fix a #name deprecation side effect
+	https://pharo.fogbugz.com/f/cases/19043'

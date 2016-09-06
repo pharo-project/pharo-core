@@ -1,5 +1,5 @@
-Object subclass: #QASettings
+PackageManifest subclass: #ManifestRenraku
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'QualityAssistant'
+	category: 'Renraku-Manifest'

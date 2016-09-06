@@ -1,0 +1,3 @@
+preUnload
+
+	QAEventCollector unload

@@ -5,4 +5,4 @@ inspectorPlugginSettingsOn: aBuilder
 		target: self;
 		label: 'Inspector Plugin' translated;
 		description: 'Enable GTInspector plugin which shows a tab with number of critiques and allows to inspect them.';
-		parent: #qualityAssistant.
+		parent: #renraku.

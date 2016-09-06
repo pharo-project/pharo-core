@@ -1,4 +1,4 @@
-script60204
+script60205
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -303,7 +303,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TommasoDalSasso.17.mcz
 Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.765.mcz
+Slot-TheIntegrator.767.mcz
 Slot-Tests-TheIntegrator.97.mcz
 SmartSuggestions-TheIntegrator.249.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz

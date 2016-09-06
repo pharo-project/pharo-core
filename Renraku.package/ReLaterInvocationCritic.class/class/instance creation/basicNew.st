@@ -1,3 +1,3 @@
 basicNew
 
-	^ self basicNew
+	^ super basicNew

@@ -1,5 +1,5 @@
 Object subclass: #ReSettings
-	instanceVariableNames: 'showErrors'
+	instanceVariableNames: 'showErrors inspectorPlugin spotterPlugin'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Renraku-Utility'
