@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19048 move testZipped to Compression-Tests
+update60206
+	"self new update60206"
+	self withUpdateLog: '19048 move testZipped to Compression-Tests
 	https://pharo.fogbugz.com/f/cases/19048
 
 19046 SUnit watch dog should not signal error when test environment is not active like during debugger
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19028
 
 18974 A Nautilus fix to support class method tests
-	https://pharo.fogbugz.com/f/cases/18974'
+	https://pharo.fogbugz.com/f/cases/18974'.
+	self loadTogether: self script60206 merge: false.
+	self flushCaches.
