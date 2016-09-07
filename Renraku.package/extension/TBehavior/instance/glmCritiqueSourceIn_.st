@@ -1,4 +1,4 @@
-glmSourcePresentationIn: composite
+glmCritiqueSourceIn: composite
 
 	composite pharoScript  
 		title: 'Source';

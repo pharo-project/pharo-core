@@ -1,4 +1,4 @@
-script60207
+script60208
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -283,7 +283,7 @@ Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
 Rubric-TheIntegrator.390.mcz
 Rubric-Rules-TheIntegrator.5.mcz
-Rubric-Styling-TheIntegrator.3.mcz
+Rubric-Styling-TheIntegrator.7.mcz
 Rubric-Tests-TheIntegrator.7.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz

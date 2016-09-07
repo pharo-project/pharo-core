@@ -1,0 +1,2 @@
+interval
+	^ super interval allButLast 

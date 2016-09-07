@@ -1,9 +1,9 @@
 interval
 	| start tweekedSubstring |
 	
-	tweekedSubstring := searchString isSymbol
-		ifTrue: [ searchString keywords first ]
-		ifFalse: [ searchString ].
+	tweekedSubstring := self searchString isSymbol
+		ifTrue: [ self searchString keywords first ]
+		ifFalse: [ self searchString ].
 	
 	start := (sourceEntity definition indexOfSubCollection: tweekedSubstring startingAt: 1).
 	
