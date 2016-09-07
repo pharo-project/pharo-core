@@ -1,4 +1,4 @@
-script60206
+script60207
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -47,7 +47,7 @@ ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
-DebuggerActions-TheIntegrator.85.mcz
+DebuggerActions-TheIntegrator.87.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.128.mcz
 Deprecated60-TheIntegrator.10.mcz
@@ -308,7 +308,7 @@ Slot-Tests-TheIntegrator.97.mcz
 SmartSuggestions-TheIntegrator.249.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.517.mcz
-Spec-Debugger-TheIntegrator.276.mcz
+Spec-Debugger-TheIntegrator.278.mcz
 Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.277.mcz
@@ -359,7 +359,7 @@ Text-Edition-TheIntegrator.120.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
-Tool-Base-TheIntegrator.173.mcz
+Tool-Base-TheIntegrator.175.mcz
 Tool-Catalog-TheIntegrator.45.mcz
 Tool-CriticBrowser-TheIntegrator.49.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
@@ -380,7 +380,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.941.mcz
+Traits-TheIntegrator.943.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

@@ -1,0 +1,3 @@
+browseClassReferencesShortcut
+
+	^ $n meta shift

@@ -1,0 +1,3 @@
+stepIntoShortcut
+
+	^ $e meta 

@@ -1,0 +1,3 @@
+restartExecutionShortcut
+
+	^ $a meta shift

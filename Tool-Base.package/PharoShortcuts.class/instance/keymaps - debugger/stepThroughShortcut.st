@@ -1,0 +1,3 @@
+stepThroughShortcut
+
+	^ $t meta shift

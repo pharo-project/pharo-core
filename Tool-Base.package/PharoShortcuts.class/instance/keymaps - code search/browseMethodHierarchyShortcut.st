@@ -1,0 +1,3 @@
+browseMethodHierarchyShortcut
+
+	^ $i meta
