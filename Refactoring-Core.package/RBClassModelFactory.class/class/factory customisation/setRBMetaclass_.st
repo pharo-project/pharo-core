@@ -1,0 +1,3 @@
+setRBMetaclass: aClass
+
+	RBmetaclass := aClass

@@ -1,6 +1,6 @@
 testDefineClassAfterDeletedChange
 	| st |
-	st := RBNamespace new.
+	st := RBClassModelFactory rbNamespace new.
 	st removeClassNamed: self class name.
 	self deny: (st includesClassNamed: self class name).
 	st defineClass: self class definition.

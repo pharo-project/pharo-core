@@ -2,4 +2,4 @@ setUp
 	super setUp.
 	manager := RBRefactoringManager classVarNamed: #Instance.
 	RBRefactoringManager classVarNamed: #Instance put: nil.
-	model := RBNamespace new
+	model := RBClassModelFactory rbNamespace new

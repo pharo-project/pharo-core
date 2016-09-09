@@ -1,6 +1,6 @@
 testReparentSuperclassChange
 	| st superclass subclasses |
-	st := RBNamespace new.
+	st := RBClassModelFactory rbNamespace new.
 	superclass := st classFor: TestCase superclass.
 	subclasses := TestCase subclasses collect: [:each | st classFor: each].
 	st reparentClasses: subclasses to: superclass.

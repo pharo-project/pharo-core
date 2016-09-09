@@ -1,6 +1,6 @@
 testModelImplementorsSenders
 	| model class modelImps refs found |
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	model 
 		defineClass: 'Object subclass: #Asdf
 			instanceVariableNames: ''''

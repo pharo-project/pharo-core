@@ -1,0 +1,3 @@
+setRBClass: aClass
+
+	RBclass := aClass

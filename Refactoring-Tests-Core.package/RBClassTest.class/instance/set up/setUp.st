@@ -1,7 +1,7 @@
 setUp
 	| st |
 	super setUp.
-	st := RBNamespace new.
+	st := RBClassModelFactory rbNamespace new.
 	objectClass := st classNamed: #Object.
 	messageNodeClass := st classNamed: #RBMessageNode.
 	st defineClass: 'Object subclass: #SomeClassName

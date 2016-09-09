@@ -1,6 +1,6 @@
 testRedefineClassChange
 	| st |
-	st := RBNamespace new.
+	st := RBClassModelFactory rbNamespace new.
 	st defineClass: 'nil subclass: #Object
 				instanceVariableNames: ''a''
 				classVariableNames: ''A''

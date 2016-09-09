@@ -6,6 +6,6 @@ buildRenameRefactoringEngineFor: aClass
 			initialAnswer: aClass name).
 	newName isEmptyOrNil ifTrue: [ ^ RefactoringAborted signal ].
 	^ RBRenameClassRefactoring
-		model: RBNamespace new
+		model: RBClassModelFactory rbNamespace new
 		rename: aClass
 		to: newName

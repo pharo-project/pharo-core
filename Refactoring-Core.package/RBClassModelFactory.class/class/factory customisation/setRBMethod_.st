@@ -1,0 +1,3 @@
+setRBMethod: aClass
+
+	RBmethod := aClass

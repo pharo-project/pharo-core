@@ -1,0 +1,3 @@
+setRBNamespace: aClass
+ 
+	RBnamespace := aClass

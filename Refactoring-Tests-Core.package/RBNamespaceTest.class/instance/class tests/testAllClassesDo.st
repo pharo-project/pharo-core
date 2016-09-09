@@ -1,7 +1,7 @@
 testAllClassesDo
 	| model classes |
 	classes := 0.
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	model allClassesDo: 
 			[:each | 
 			each name = #Object ifTrue: [each allSubclasses].

@@ -2,7 +2,7 @@ testReferencesPrintOnAfterRemove
 	| hasFoundObject hasFoundSelf smalltalk |
 	hasFoundObject := false.
 	hasFoundSelf := false.
-	smalltalk := RBNamespace new.
+	smalltalk := RBClassModelFactory rbNamespace new.
 	(smalltalk classNamed: #Object) 
 		removeMethod: #printString.
 	(smalltalk classNamed: self class name) 

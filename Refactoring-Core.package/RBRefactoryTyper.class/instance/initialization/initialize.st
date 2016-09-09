@@ -1,5 +1,5 @@
 initialize
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	class := model classFor: Object.
 	variableTypes := Dictionary new.
 	variableMessages := Dictionary new.

@@ -4,7 +4,7 @@ compile: aString classified: aSymbolCollection
 				compile: aString
 				in: self
 				classified: aSymbolCollection.
-	method := RBMethod 
+	method := RBClassModelFactory rbMethod 
 				for: self
 				source: aString
 				selector: change selector.

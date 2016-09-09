@@ -1,6 +1,6 @@
 testAddToModel
 	| refactoring |
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	model name: 'Add instance variable'.
 	model 
 		defineClass: 'Object subclass: #FOOBAR 

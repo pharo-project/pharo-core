@@ -1,6 +1,6 @@
 testParseTreeTypes
 	| types model |
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	types := RBRefactoryTyper 
 				typesFor: 'foo'
 				in: (RBParser 

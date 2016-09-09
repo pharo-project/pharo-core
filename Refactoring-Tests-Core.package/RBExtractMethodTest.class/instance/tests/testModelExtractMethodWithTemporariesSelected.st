@@ -1,6 +1,6 @@
 testModelExtractMethodWithTemporariesSelected
 	| class refactoring |
-	model := RBNamespace new.
+	model := RBClassModelFactory rbNamespace new.
 	class := model classNamed: self class name.
 	class compile: 'foo [| temp | temp := 5. temp * temp] value'
 		classified: #(#accessing).
