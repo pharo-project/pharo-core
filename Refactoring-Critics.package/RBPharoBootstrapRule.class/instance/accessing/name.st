@@ -1,2 +1,0 @@
-name
-	^ 'Pharo Bootstrap layer'

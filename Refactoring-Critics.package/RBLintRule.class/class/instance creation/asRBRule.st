@@ -1,0 +1,3 @@
+asRBRule
+
+	^ self new

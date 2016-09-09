@@ -1,0 +1,2 @@
+name
+	^ 'Instance variable capitalized'

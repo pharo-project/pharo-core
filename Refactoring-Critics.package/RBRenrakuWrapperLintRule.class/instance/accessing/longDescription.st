@@ -1,0 +1,3 @@
+longDescription
+	
+	^ renrakuRule rationale

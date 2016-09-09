@@ -1,3 +1,0 @@
-checksPackage
-
-	^ true

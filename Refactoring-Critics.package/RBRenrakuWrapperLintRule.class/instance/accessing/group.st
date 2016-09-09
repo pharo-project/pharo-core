@@ -1,0 +1,3 @@
+group
+
+	^ renrakuRule group

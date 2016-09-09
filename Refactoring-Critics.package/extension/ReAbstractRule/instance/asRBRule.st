@@ -1,0 +1,3 @@
+asRBRule
+
+	^ RBRenrakuWrapperLintRule new: self
