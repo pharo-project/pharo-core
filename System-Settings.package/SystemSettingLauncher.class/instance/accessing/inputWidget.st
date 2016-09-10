@@ -13,6 +13,6 @@ inputWidget
 				newRowIn: World
 				for:
 					{(AlphaImageMorph new
-						image: (Smalltalk ui icons iconNamed: #smallRedoIcon)).
+						image: (self iconNamed: #smallRedoIcon)).
 					(self theme buttonLabelForText: 'Launch' translated)});
 		yourself

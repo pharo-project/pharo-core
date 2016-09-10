@@ -1,4 +1,4 @@
-Object subclass: #PluggableButtonMorphExample
+Model subclass: #PluggableButtonMorphExample
 	instanceVariableNames: 'label state icon'
 	classVariableNames: ''
 	poolDictionaries: ''

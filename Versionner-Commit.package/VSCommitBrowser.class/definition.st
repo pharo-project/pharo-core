@@ -1,4 +1,4 @@
-Object subclass: #VSCommitBrowser
+Model subclass: #VSCommitBrowser
 	instanceVariableNames: 'unit window'
 	classVariableNames: ''
 	poolDictionaries: ''

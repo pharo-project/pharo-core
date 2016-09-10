@@ -1,4 +1,4 @@
-Object subclass: #SettingTree
+Model subclass: #SettingTree
 	instanceVariableNames: 'collector nodeList persistence'
 	classVariableNames: ''
 	poolDictionaries: ''

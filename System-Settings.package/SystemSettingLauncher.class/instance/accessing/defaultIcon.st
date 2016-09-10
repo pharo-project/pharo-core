@@ -1,2 +1,2 @@
 defaultIcon
-	^ Smalltalk ui icons iconNamed: #smallDoItIcon
+	^ self iconNamed: #smallDoItIcon

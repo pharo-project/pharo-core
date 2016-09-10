@@ -1,4 +1,4 @@
-Object subclass: #TabExample
+Model subclass: #TabExample
 	instanceVariableNames: 'manager listModel window'
 	classVariableNames: ''
 	poolDictionaries: ''

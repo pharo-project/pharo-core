@@ -1,4 +1,4 @@
-script60210
+script60211
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -186,7 +186,7 @@ MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.578.mcz
 Morphic-Core-TheIntegrator.297.mcz
-Morphic-Examples-TheIntegrator.52.mcz
+Morphic-Examples-TheIntegrator.55.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.101.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.21.mcz
@@ -211,9 +211,9 @@ NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
 Nautilus-TheIntegrator.1289.mcz
 Nautilus-GroupManager-TheIntegrator.21.mcz
-Nautilus-GroupManagerUI-TheIntegrator.34.mcz
+Nautilus-GroupManagerUI-TheIntegrator.37.mcz
 Nautilus-Tests-TheIntegrator.46.mcz
-NautilusCommon-TheIntegrator.316.mcz
+NautilusCommon-TheIntegrator.318.mcz
 NautilusGroupAutoBuilder-TheIntegrator.16.mcz
 NautilusRefactoring-TheIntegrator.297.mcz
 Network-Kernel-TheIntegrator.135.mcz
@@ -345,7 +345,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.350.mcz
+System-Settings-TheIntegrator.353.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.65.mcz
@@ -362,12 +362,12 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
 Tool-Base-TheIntegrator.175.mcz
 Tool-Catalog-TheIntegrator.45.mcz
-Tool-CriticBrowser-TheIntegrator.51.mcz
+Tool-CriticBrowser-TheIntegrator.53.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.13.mcz
 Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.1.mcz
 Tool-DependencyAnalyser-UI-TheIntegrator.51.mcz
-Tool-Diff-TheIntegrator.41.mcz
+Tool-Diff-TheIntegrator.43.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.75.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
@@ -395,7 +395,7 @@ UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
 UnifiedFFI-Tests-EstebanLorenzano.30.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
-Versionner-Commit-TheIntegrator.34.mcz
+Versionner-Commit-TheIntegrator.36.mcz
 Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-MarcusDenker.65.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
