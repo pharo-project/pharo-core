@@ -1,0 +1,2 @@
+uniqueIdentifierName
+	^ 'WrapperRule'

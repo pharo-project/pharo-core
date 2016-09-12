@@ -1,2 +1,0 @@
-testTemporaryVariableCapitalization
-	self ruleFor: self currentSelector
