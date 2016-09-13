@@ -1,7 +1,4 @@
 parsePragmaLiteral
-	currentToken isSpecial 
-		ifTrue: 
-			[currentToken value = $( ifTrue: [^self parseLiteralArray]].
 	currentToken isLiteralArrayToken 
 		ifTrue: 
 			[^currentToken isForByteArray 

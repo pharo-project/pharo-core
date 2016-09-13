@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '17857 newAnonymousSubclass should works for Metaclass
-	https://pharo.fogbugz.com/f/cases/17857
-
-19082 The tool to do updates is broken due to space in SystemVersion 
-	https://pharo.fogbugz.com/f/cases/19082'
+ ^ '19086 do not allow expressions as pragma arguments
+	https://pharo.fogbugz.com/f/cases/19086'
