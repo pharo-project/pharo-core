@@ -1,4 +1,4 @@
-script60217
+script60218
 
 	^ 'AST-Core-TheIntegrator.462.mcz
 AST-Tests-Core-TheIntegrator.119.mcz
@@ -81,7 +81,7 @@ FuelCommandLineHandler-TheIntegrator.25.mcz
 FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MartinDias.412.mcz
-FuelTools-Debugger-MarcusDenker.9.mcz
+FuelTools-Debugger-TheIntegrator.11.mcz
 GT-BytecodeDebugger-MarcusDenker.32.mcz
 GT-Debugger-TheIntegrator.352.mcz
 GT-EventRecorder-JurajKubelka.71.mcz
@@ -362,7 +362,7 @@ Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
 Tool-Base-TheIntegrator.175.mcz
 Tool-Catalog-TheIntegrator.45.mcz
-Tool-CriticBrowser-TheIntegrator.53.mcz
+Tool-CriticBrowser-TheIntegrator.55.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.13.mcz
 Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.1.mcz
