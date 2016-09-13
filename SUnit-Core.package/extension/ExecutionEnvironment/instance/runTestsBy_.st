@@ -1,0 +1,3 @@
+runTestsBy: aBlock
+
+	self subclassResponsibility 

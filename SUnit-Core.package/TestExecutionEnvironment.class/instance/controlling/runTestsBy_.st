@@ -1,0 +1,3 @@
+runTestsBy: aBlock
+
+	aBlock value
