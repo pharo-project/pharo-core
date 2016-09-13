@@ -2,7 +2,7 @@ runCase: aTestCase
 	| error stack  |
 	self
 		beginTestCase: aTestCase
-		runBlock: [ [ [ aTestCase runCase ]
+		runBlock: [ [ [ aTestCase runCaseManaged ]
 			on: Halt, Error, TestFailure
 			do: [ :err |
 				error := err.
