@@ -1,0 +1,2 @@
+setClass
+	^ IdentitySet

@@ -1,0 +1,2 @@
+setClass
+	^ Set

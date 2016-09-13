@@ -1,0 +1,2 @@
+isHealthy
+	^ dictionary isHealthy

@@ -1,0 +1,2 @@
+collectClass
+	^ Array

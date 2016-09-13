@@ -1,6 +1,11 @@
 testKeysAndValuesDo
 	self
 		assertSelector: #keysAndValuesDo:
+		enumerates: #()
+		and: #()
+		from: self emptyDictionary.
+	self
+		assertSelector: #keysAndValuesDo:
 		enumerates: self dictionaryKeys
 		and: self dictionaryValues
-		from: self dictionaryWithAssociations
+		from: self dictionaryWithAssociations.
