@@ -1,6 +1,6 @@
 initialize
 	super initialize.
 	
-	forkedProcesses := OrderedCollection new.
+	forkedProcesses := WeakSet new.
 	failedProcesses := Dictionary new.
 	testCompleted := false

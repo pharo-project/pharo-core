@@ -2,7 +2,7 @@ browseVariableReferences
 
 	| mainMenu classVarSubMenu |
 
-	self selectedClass ifNil: [ ^self ].
+	(self selectedClass isNil or:[ self selectedClass isTrait]) ifTrue: [ ^self ].
 	
 	classVarSubMenu := MenuMorph new.
 	
