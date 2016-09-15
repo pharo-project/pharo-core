@@ -1,2 +1,2 @@
 glamourousNextFailure
-	^ Smalltalk ui icons iconNamed: #glamourousNextFailure
+	^ self iconNamed: #glamourousNextFailure

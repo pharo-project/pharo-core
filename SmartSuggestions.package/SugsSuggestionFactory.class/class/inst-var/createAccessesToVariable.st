@@ -1,5 +1,5 @@
 createAccessesToVariable
 	<instVarCommand>
 	^ SugsAccessesToInstVar
-		icon: (Smalltalk ui icons iconNamed: #smallInspectItIcon)
+		icon: (self iconNamed: #smallInspectItIcon)
 		position: 50

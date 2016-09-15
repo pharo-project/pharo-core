@@ -1,2 +1,2 @@
 glamorousGrayCircleEmpty
-	^ Smalltalk ui icons iconNamed: #glamorousGrayCircleEmpty
+	^ self iconNamed: #glamorousGrayCircleEmpty

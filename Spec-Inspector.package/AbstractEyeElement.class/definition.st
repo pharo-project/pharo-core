@@ -1,4 +1,4 @@
-Object subclass: #AbstractEyeElement
+Model subclass: #AbstractEyeElement
 	uses: TInspectorActions
 	instanceVariableNames: 'host'
 	classVariableNames: ''

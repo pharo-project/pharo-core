@@ -1,4 +1,4 @@
-Object subclass: #NautilusMonticello
+Model subclass: #NautilusMonticello
 	instanceVariableNames: ''
 	classVariableNames: 'Default'
 	poolDictionaries: ''

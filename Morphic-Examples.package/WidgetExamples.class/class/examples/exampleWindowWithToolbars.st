@@ -9,7 +9,7 @@ exampleWindowWithToolbars
 	fileMenu addToggle: 'Open' translated target: nil selector: #openFile.	"would be model"
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallOpenIcon);
+		icon: (self iconNamed: #smallOpenIcon);
 		keyText: 'Ctrl+O'.
 	fileMenu
 		addToggle: 'Save' translated
@@ -19,7 +19,7 @@ exampleWindowWithToolbars
 		enablementSelector: nil.
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallSaveIcon);
+		icon: (self iconNamed: #smallSaveIcon);
 		keyText: 'Ctrl+S'.
 	fileMenu
 		addToggle: 'Print...' translated
@@ -27,7 +27,7 @@ exampleWindowWithToolbars
 		selector: #print.
 	fileMenu lastItem
 		font: win theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallPrintIcon);
+		icon: (self iconNamed: #smallPrintIcon);
 		keyText: 'Ctrl+P'.
 	tools := win
 		newToolbar:
@@ -37,7 +37,7 @@ exampleWindowWithToolbars
 				action: #openFile
 				arguments: nil
 				getEnabled: nil
-				labelForm: (Smalltalk ui icons iconNamed: #smallOpenIcon)
+				labelForm: (self iconNamed: #smallOpenIcon)
 				help: 'Open file' translated).	"if we had a model it would go here"
 			(win
 				newButtonFor: nil
@@ -45,7 +45,7 @@ exampleWindowWithToolbars
 				action: #saveFile
 				arguments: nil
 				getEnabled: nil
-				labelForm: (Smalltalk ui icons iconNamed: #smallSaveIcon)
+				labelForm: (self iconNamed: #smallSaveIcon)
 				help: 'Save file' translated).
 			(win
 				newButtonFor: nil
@@ -53,7 +53,7 @@ exampleWindowWithToolbars
 				action: #print
 				arguments: nil
 				getEnabled: nil
-				labelForm: (Smalltalk ui icons iconNamed: #smallPrintIcon)
+				labelForm: (self iconNamed: #smallPrintIcon)
 				help: 'Print' translated)}.
 	holder := ValueHolder new.
 	text := win
@@ -64,7 +64,7 @@ exampleWindowWithToolbars
 	dock
 		add: 'File' translated
 			font: win theme menuBarFont
-			icon: (Smalltalk ui icons iconNamed: #smallOpenIcon)
+			icon: (self iconNamed: #smallOpenIcon)
 			help: 'File operations' translated
 			subMenu: fileMenu;
 		addMorphBack: tools.

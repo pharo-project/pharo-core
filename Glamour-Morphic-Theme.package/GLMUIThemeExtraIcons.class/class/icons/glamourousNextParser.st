@@ -1,2 +1,2 @@
 glamourousNextParser
-	^ Smalltalk ui icons iconNamed: #glamourousNextParser
+	^ self iconNamed: #glamourousNextParser

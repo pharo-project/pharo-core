@@ -1,2 +1,2 @@
 openIcon
-	^ Smalltalk ui icons iconNamed: #openIcon
+	^ self iconNamed: #openIcon

@@ -1,5 +1,5 @@
 createPushDown
 	<methodCommand>
 	^ SugsPushDownMethod
-		icon: (Smalltalk ui icons iconNamed: #smallUndoIcon)
+		icon: (self iconNamed: #smallUndoIcon)
 		position: 101

@@ -1,5 +1,5 @@
 createAddParameter
 	<methodCommand>
 	^ SugsAddParameter
-		icon: (Smalltalk ui icons iconNamed: #smallPushpinIcon)
+		icon: (self iconNamed: #smallPushpinIcon)
 		position: 200

@@ -1,4 +1,4 @@
-Object subclass: #GLMUIThemeExtraIcons
+Model subclass: #GLMUIThemeExtraIcons
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

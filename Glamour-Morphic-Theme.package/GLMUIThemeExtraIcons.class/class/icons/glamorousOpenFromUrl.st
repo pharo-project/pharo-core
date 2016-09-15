@@ -1,2 +1,2 @@
 glamorousOpenFromUrl
-	^ Smalltalk ui icons iconNamed: #glamorousOpenFromUrl
+	^ self iconNamed: #glamorousOpenFromUrl

@@ -1,4 +1,4 @@
-Object subclass: #ProfStef
+Model subclass: #ProfStef
 	instanceVariableNames: 'lessonView player'
 	classVariableNames: 'Instance'
 	poolDictionaries: ''

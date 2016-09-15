@@ -1,4 +1,4 @@
-Object subclass: #WidgetExamples
+Model subclass: #WidgetExamples
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

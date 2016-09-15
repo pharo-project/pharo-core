@@ -1,4 +1,4 @@
-Object subclass: #SugsSuggestionFactory
+Model subclass: #SugsSuggestionFactory
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

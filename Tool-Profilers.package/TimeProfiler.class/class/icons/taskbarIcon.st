@@ -1,2 +1,2 @@
 taskbarIcon 
-	^ Smalltalk ui icons iconNamed: #smallProfileIcon
+	^ self iconNamed: #smallProfileIcon

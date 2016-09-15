@@ -1,2 +1,2 @@
 glamorousLeftSide
-	^ Smalltalk ui icons iconNamed: #glamorousLeftSide
+	^ self iconNamed: #glamorousLeftSide

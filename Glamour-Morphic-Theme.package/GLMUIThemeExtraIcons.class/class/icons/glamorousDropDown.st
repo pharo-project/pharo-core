@@ -1,2 +1,2 @@
 glamorousDropDown
-	^ Smalltalk ui icons iconNamed: #glamorousDropDown
+	^ self iconNamed: #glamorousDropDown

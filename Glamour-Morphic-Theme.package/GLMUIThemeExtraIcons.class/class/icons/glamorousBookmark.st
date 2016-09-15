@@ -1,2 +1,2 @@
 glamorousBookmark
-	^ Smalltalk ui icons iconNamed: #glamorousBookmark
+	^ self iconNamed: #glamorousBookmark

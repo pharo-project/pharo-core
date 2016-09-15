@@ -1,5 +1,5 @@
 createVariableStoresInto
 	<instVarCommand>
 	^ SugsStoresIntoInstVar
-		icon: (Smalltalk ui icons iconNamed: #smallInspectItIcon)
+		icon: (self iconNamed: #smallInspectItIcon)
 		position: 60

@@ -1,2 +1,2 @@
 glamorousZoomIn
-	^ Smalltalk ui icons iconNamed: #glamorousZoomIn
+	^ self iconNamed: #glamorousZoomIn
