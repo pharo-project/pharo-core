@@ -1,2 +1,3 @@
 initialize
-	BytecodeBackend := OpalEncoderForV3PlusClosures  
+	BytecodeBackend := OpalEncoderForV3PlusClosures.
+	UsesFullBlockClosure := false.

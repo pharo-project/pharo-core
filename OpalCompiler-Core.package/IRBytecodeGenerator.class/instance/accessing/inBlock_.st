@@ -1,0 +1,2 @@
+inBlock: bool
+	inBlock := bool.

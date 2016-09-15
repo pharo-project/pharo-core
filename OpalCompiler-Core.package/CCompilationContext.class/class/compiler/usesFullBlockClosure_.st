@@ -1,0 +1,2 @@
+usesFullBlockClosure: usesFullBlock
+	UsesFullBlockClosure := usesFullBlock

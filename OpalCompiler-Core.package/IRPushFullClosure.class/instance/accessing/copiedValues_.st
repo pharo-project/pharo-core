@@ -1,0 +1,2 @@
+copiedValues: anObject
+	copiedValues := anObject

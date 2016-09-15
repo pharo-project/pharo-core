@@ -1,0 +1,2 @@
+hasTempVector
+	^ false

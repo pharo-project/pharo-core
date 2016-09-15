@@ -1,0 +1,2 @@
+compiledBlock: anObject
+	compiledBlock := anObject

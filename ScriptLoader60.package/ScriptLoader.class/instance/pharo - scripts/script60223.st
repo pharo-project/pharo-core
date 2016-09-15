@@ -1,4 +1,4 @@
-script60222
+script60223
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -54,10 +54,10 @@ Deprecated60-TheIntegrator.10.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-Epicea-MartinDias.799.mcz
-EpiceaBrowsers-MartinDias.37.mcz
-EpiceaBrowsersTests-MartinDias.6.mcz
-EpiceaTests-MD.6.mcz
+Epicea-MartinDias.815.mcz
+EpiceaBrowsers-MartinDias.80.mcz
+EpiceaBrowsersTests-TheIntegrator.7.mcz
+EpiceaTests-MartinDias.8.mcz
 FFI-Kernel-TheIntegrator.43.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.212.mcz
@@ -87,7 +87,7 @@ GT-Debugger-TheIntegrator.352.mcz
 GT-EventRecorder-JurajKubelka.71.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-StefanReichhart.436.mcz
-GT-InspectorExtensions-Core-TudorGirba.227.mcz
+GT-InspectorExtensions-Core-TheIntegrator.229.mcz
 GT-Playground-TheIntegrator.130.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-StefanReichhart.402.mcz
@@ -130,6 +130,8 @@ Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.157.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
+Hiedra-MartinDias.145.mcz
+HiedraTests-MartinDias.2.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.98.mcz
 ImportingResource-Help-TheIntegrator.6.mcz
@@ -137,7 +139,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2416.mcz
+Kernel-TheIntegrator.2417.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.118.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -231,9 +233,9 @@ OSWindow-SDL2-RonieSalgado.96.mcz
 OSWindow-SDL2-Examples-RonieSalgado.13.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
-Ombu-MartinDias.204.mcz
-OmbuTests-DenisKudryashov.6.mcz
-OpalCompiler-Core-TheIntegrator.855.mcz
+Ombu-MartinDias.210.mcz
+OmbuTests-MartinDias.7.mcz
+OpalCompiler-Core-TheIntegrator.858.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz

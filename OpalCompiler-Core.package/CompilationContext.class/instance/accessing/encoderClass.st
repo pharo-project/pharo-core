@@ -1,2 +1,2 @@
 encoderClass
-	^ encoderClass ifNil: [ encoderClass := BytecodeBackend ]
+	^ encoderClass ifNil: [ encoderClass := self class bytecodeBackend ]

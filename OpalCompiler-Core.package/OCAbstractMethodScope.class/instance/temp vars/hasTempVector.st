@@ -1,0 +1,2 @@
+hasTempVector
+	^ tempVector isNotEmpty

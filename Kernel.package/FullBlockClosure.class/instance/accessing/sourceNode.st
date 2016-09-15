@@ -1,0 +1,2 @@
+sourceNode
+	^ self compiledBlock sourceNodeInOuter

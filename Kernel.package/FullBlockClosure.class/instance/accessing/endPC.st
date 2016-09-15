@@ -1,0 +1,2 @@
+endPC
+	^ self compiledBlock endPC

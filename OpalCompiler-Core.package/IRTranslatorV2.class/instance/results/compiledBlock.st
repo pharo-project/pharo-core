@@ -1,0 +1,2 @@
+compiledBlock
+	^ gen compiledBlockWith: trailer

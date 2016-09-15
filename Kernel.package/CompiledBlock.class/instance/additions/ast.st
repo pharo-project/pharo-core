@@ -1,0 +1,2 @@
+ast
+	^ self sourceNodeInOuter

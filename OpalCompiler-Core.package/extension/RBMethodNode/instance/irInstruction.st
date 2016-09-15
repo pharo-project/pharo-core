@@ -1,0 +1,2 @@
+irInstruction
+	^ self ir

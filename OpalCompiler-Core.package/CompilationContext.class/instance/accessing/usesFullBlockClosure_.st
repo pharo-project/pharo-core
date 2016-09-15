@@ -1,0 +1,2 @@
+usesFullBlockClosure: bool
+	usesFullBlockClosure := bool
