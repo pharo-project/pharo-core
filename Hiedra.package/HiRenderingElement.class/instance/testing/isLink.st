@@ -1,0 +1,3 @@
+isLink
+
+	^ self subclassResponsibility

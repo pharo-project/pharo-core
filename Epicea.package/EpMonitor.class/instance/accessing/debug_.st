@@ -1,0 +1,3 @@
+debug: aBoolean
+
+	debug := aBoolean

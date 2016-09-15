@@ -1,2 +1,0 @@
-spawnSorterWithSelection
-	EpLogBrowser openWithItems: self items

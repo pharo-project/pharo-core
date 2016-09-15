@@ -1,2 +1,3 @@
 pageSize
-	^ pageSize
+
+	^ pageSize ifNil: [ pageSize := 50 ]

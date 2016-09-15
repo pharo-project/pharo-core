@@ -1,0 +1,2 @@
+logNodesModel
+	^ logNodesModel

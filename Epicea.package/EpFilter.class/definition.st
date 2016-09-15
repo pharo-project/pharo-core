@@ -2,4 +2,4 @@ Object subclass: #EpFilter
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Epicea-Model-Filters'
+	category: 'Epicea-Filters'

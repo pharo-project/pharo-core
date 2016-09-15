@@ -1,0 +1,2 @@
+checkpoints: aCollectionOfPoints
+	checkpoints := aCollectionOfPoints

@@ -3,4 +3,4 @@ EpLogBrowserOperationVisitor subclass: #EpBrowseVisitor
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-Visitors'
+	category: 'EpiceaBrowsers-Log-Visitors'

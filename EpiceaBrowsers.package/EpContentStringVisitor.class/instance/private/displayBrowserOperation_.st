@@ -1,8 +1,6 @@
 displayBrowserOperation: aBrowserOperationEvent
 
 	^ String streamContents: [ :stream |
-		stream nextPutAll: '('.
-		stream nextPutAll: aBrowserOperationEvent title.
-		stream nextPutAll: ') ('.
+		stream nextPutAll: 'Triggered '.
 		aBrowserOperationEvent entryReferences size printOn: stream.
-		stream nextPutAll: ' entries)' ]
+		stream nextPutAll: ' code changes' ]

@@ -1,0 +1,3 @@
+shortTitle
+
+	^ #'Log Set'

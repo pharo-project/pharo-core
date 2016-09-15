@@ -1,2 +1,0 @@
-openButtonModel
-	^ openButtonModel

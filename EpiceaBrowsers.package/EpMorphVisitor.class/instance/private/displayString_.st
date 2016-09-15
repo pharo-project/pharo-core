@@ -1,0 +1,3 @@
+displayString: aString
+
+	^ { aString asMorph }

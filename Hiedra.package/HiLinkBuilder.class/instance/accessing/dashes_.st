@@ -1,0 +1,2 @@
+dashes: anArrayOfNumbers
+	dashes := anArrayOfNumbers

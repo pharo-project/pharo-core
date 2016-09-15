@@ -1,0 +1,2 @@
+targetsBlock
+	^ targetsBlock

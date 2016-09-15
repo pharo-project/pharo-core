@@ -1,0 +1,3 @@
+entryReference: anEntryReference
+	
+	entryReference := anEntryReference

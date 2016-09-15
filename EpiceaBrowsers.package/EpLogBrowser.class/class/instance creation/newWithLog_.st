@@ -1,5 +1,3 @@
 newWithLog: aLog
 
-	^ self 
-		newWithLog: aLog 
-		withViewClass: self defaultViewClass
+	^ self newWithLog: aLog withViewClass: self defaultViewClass

@@ -1,0 +1,3 @@
+width: anObject
+	
+	width := anObject

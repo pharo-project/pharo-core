@@ -1,2 +1,0 @@
-textColor: anObject
-	textColor := anObject

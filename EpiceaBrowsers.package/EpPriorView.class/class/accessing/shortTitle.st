@@ -1,3 +1,3 @@
 shortTitle
 
-	^ 'Session'
+	^ 'Log'

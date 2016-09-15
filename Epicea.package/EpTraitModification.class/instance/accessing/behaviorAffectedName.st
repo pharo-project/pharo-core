@@ -1,2 +1,3 @@
 behaviorAffectedName
+
 	^ newTrait name

@@ -1,3 +1,3 @@
 asMorph
 
-	^ self panelWidgetWithAll: { self icon asMorph }
+	^ EpMorphFactory default rowWithAll: { self icon asMorph }

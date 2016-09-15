@@ -1,5 +1,5 @@
 Object subclass: #EpMonitor
-	instanceVariableNames: 'systemAnnouncer log testAnnouncer entryReferenceByEvent jobAnnouncer'
+	instanceVariableNames: 'systemAnnouncer log testAnnouncer entryReferenceByEvent jobAnnouncer debug'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Epicea-Integration'
+	category: 'Epicea-Monitor'

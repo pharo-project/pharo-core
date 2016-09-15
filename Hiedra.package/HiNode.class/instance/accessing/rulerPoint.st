@@ -1,0 +1,2 @@
+rulerPoint
+	^ columnIndex @ rowIndex 

@@ -1,3 +1,0 @@
-expectedFailures 
-
-	^ #(testCategoryRemoval)

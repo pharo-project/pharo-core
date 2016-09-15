@@ -1,0 +1,2 @@
+rowSize: anInteger
+	rowSize := anInteger

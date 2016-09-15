@@ -1,0 +1,3 @@
+sessionStore
+
+	^ self log store

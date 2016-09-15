@@ -1,2 +1,2 @@
 title
-	^ 'Undo'
+	^ 'Revert changes'

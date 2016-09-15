@@ -1,12 +1,12 @@
 writeEntry: anEntry ifSuccess: aBlock
 
 	self ensureInitializedForWriting.
-
+	
 	"It might happen that two threads log a new entry concurrently..."
 	writerLock critical: [ [ 
 
 		| newPosition |
-		self flag: #todo. "It is slow to open and close the file for each entry..."
+		"TODO: It is slow to open and close the file for each entry..."
 		fileReference writeStreamDo: [ :aWriteStream | 
 			aWriteStream setToEnd.
 			newPosition := aWriteStream position.
@@ -22,9 +22,9 @@ writeEntry: anEntry ifSuccess: aBlock
 			"--> Success <--"		
 			aBlock value: newPosition. 
 			
-			]	on: Error 
-				do: [ :error | self inform: 'Ombu: Couldn''t write entry, since ', error asString ]
+			]	on: FileException, FileSystemError
+				do: [ :error | self writingError: error asString ]
 
 	] ifLocked: [
 		"This is a escape valve to avoid a deadlock, e.g. while debugging an error inside above block."		
-		self inform: 'Ombu: Couldn''t write entry since this store is locked.' ]
+		self writingError: 'this store is locked' ]

@@ -1,0 +1,2 @@
+sourceRectangle
+	^ model rulerMorphBoundsFor: key

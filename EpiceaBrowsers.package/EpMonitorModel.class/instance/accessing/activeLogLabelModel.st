@@ -1,0 +1,2 @@
+activeLogLabelModel
+	^ activeLogLabelModel

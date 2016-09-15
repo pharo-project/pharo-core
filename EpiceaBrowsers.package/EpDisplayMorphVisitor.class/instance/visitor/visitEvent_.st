@@ -1,2 +1,0 @@
-visitEvent: anEvent 
-	^ self displayString: ''

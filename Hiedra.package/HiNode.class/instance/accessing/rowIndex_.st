@@ -1,0 +1,2 @@
+rowIndex: anObject
+	rowIndex := anObject

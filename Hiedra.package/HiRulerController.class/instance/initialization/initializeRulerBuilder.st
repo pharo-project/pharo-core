@@ -1,0 +1,2 @@
+initializeRulerBuilder
+	rulerBuilder := HiRulerBuilder new.

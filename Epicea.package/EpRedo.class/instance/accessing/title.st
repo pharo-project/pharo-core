@@ -1,2 +1,2 @@
 title
-	^ 'Redo'
+	^ 'Apply changes'

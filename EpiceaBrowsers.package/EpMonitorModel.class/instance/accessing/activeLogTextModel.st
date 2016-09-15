@@ -1,0 +1,2 @@
+activeLogTextModel
+	^ activeLogTextModel

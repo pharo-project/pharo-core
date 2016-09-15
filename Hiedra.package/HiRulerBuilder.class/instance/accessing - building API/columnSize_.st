@@ -1,0 +1,2 @@
+columnSize: anInteger
+	columnSize := anInteger

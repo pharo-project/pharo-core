@@ -1,2 +1,3 @@
 behaviorAffectedName
+
 	^ behavior name

@@ -1,0 +1,2 @@
+columnIndex: anObject
+	columnIndex := anObject

@@ -1,0 +1,2 @@
+linkBuilder: aHiLinkBuilder 
+	linkBuilder := aHiLinkBuilder

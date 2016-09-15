@@ -1,0 +1,2 @@
+priorEntryReference
+	^ entryReference

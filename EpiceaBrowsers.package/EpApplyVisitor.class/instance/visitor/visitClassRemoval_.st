@@ -1,0 +1,2 @@
+visitClassRemoval: aClassRemoval
+	environment removeClassNamed: aClassRemoval behaviorAffectedName

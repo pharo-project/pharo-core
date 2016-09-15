@@ -1,0 +1,2 @@
+rulerBuilder: aHiRulerBuilder 
+	rulerBuilder := aHiRulerBuilder

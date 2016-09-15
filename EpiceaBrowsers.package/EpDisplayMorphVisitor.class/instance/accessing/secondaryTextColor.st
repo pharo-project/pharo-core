@@ -1,3 +1,0 @@
-secondaryTextColor
-
-	^ secondaryTextColor

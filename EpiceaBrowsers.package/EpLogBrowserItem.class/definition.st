@@ -2,4 +2,4 @@ Object subclass: #EpLogBrowserItem
 	instanceVariableNames: 'browser'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-Views'
+	category: 'EpiceaBrowsers-Log-Items'

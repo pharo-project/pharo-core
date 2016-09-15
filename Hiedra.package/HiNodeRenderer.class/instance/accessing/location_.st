@@ -1,0 +1,2 @@
+location: aPoint 
+	location := aPoint

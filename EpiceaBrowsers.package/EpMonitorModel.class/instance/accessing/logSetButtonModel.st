@@ -1,0 +1,2 @@
+logSetButtonModel
+	^ logSetButtonModel

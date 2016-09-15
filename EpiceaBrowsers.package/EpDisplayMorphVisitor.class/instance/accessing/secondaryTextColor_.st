@@ -1,3 +1,0 @@
-secondaryTextColor: aColor
-
-	secondaryTextColor := aColor

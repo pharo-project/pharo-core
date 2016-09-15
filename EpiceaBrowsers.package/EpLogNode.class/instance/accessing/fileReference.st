@@ -1,0 +1,3 @@
+fileReference
+
+	^ directoryEntry asFileReference

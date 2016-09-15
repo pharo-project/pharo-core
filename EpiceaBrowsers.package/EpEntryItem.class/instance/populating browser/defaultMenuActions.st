@@ -1,17 +1,17 @@
 defaultMenuActions
 
 	^ { 
-		{ 'Redo changes'.
-		#redoSelection.
-		'Redo all code changes in selection (oldest first)'.
+		{ 'Apply changes'.
+		#applyChangesInSelection.
+		'Apply all code changes in selection (oldest first)'.
 		#smallRedoIcon.
-		$r command }.
+		$p command }.
 
-		{ 'Undo changes'.
-		#undoSelection.
-		'Undo all code changes in selection (most recent first)'.
+		{ 'Revert changes'.
+		#revertChangesInSelection.
+		'Revert all code changes in selection (most recent first)'.
 		#smallUndoIcon.
-		$u command }.
+		$r command }.
 
 		{ 'Comment'. 
 		#commentSelection.

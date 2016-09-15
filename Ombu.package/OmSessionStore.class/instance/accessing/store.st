@@ -1,11 +1,7 @@
 store
 	"Answer the store I wrap"
 
-	currentStore ifNil: [ ^ currentStore := self newStore ].
-	
-	self needsReset ifTrue: [ 
-		self reset.
-		
-		currentStore := self newStore ].
+	(currentStore isNil or: [ self needsReset ]) ifTrue: [ 
+		self resetWithStoreNamed: self randomName ].
 	
 	^ currentStore

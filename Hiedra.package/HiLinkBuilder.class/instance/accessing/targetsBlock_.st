@@ -1,0 +1,2 @@
+targetsBlock: aBlockClosure
+	targetsBlock := aBlockClosure

@@ -1,0 +1,2 @@
+origin: aHiNode 
+	origin := aHiNode

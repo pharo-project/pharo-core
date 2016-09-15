@@ -3,7 +3,7 @@ initializeWithBaseLocator: aDirectoryFileLocator
 	self initialize.
 	
 	baseLocator := aDirectoryFileLocator.
-	self reset.
+	self store. "Force initialization"
 	
 	alternativeStore := OmDirectoryStore in: baseLocator 
 	

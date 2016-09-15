@@ -4,4 +4,4 @@ service
 		label: 'Browse Epicea Log'
 		selector: #browseLogInFileNamed:
 		description: 'Browse the Epicea log.'
-		buttonLabel: 'Browse'
+		buttonLabel: 'Browse Epicea Log'
