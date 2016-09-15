@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19083 Introduction of FullBlockClosures (as an option)
-	https://pharo.fogbugz.com/f/cases/19083'
+ ^ '19092 TestExecutionEnvironment should clean all intercepted processes collections when test completes
+	https://pharo.fogbugz.com/f/cases/19092
+
+19088 simplify newAnonymousSubclass in MetaClass
+	https://pharo.fogbugz.com/f/cases/19088'
