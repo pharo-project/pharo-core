@@ -1,4 +1,4 @@
-script60224
+script60225
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -37,9 +37,9 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.440.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.77.mcz
+Collections-Tests-TheIntegrator.79.mcz
 Collections-Unordered-TheIntegrator.242.mcz
-Collections-Weak-TheIntegrator.106.mcz
+Collections-Weak-TheIntegrator.108.mcz
 Compiler-TheIntegrator.602.mcz
 Compression-TheIntegrator.180.mcz
 Compression-Tests-TheIntegrator.4.mcz
@@ -141,7 +141,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2418.mcz
 Kernel-Rules-TheIntegrator.11.mcz
-Kernel-Tests-TheIntegrator.118.mcz
+Kernel-Tests-TheIntegrator.119.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -175,7 +175,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1158.mcz
+Monticello-TheIntegrator.1160.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.40.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
@@ -351,7 +351,7 @@ System-Settings-TheIntegrator.353.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.65.mcz
-System-Support-TheIntegrator.1258.mcz
+System-Support-TheIntegrator.1260.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
@@ -383,7 +383,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.41.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.945.mcz
+Traits-TheIntegrator.947.mcz
 Transcript-TheIntegrator.52.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
