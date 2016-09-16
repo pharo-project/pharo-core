@@ -1,2 +1,2 @@
 selectedClass
-	^ self selectedMethod origin instanceSide
+	^ self selectedMethod origin

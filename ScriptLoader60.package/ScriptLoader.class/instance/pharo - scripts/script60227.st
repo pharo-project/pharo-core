@@ -1,4 +1,4 @@
-script60226
+script60227
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -81,7 +81,7 @@ FuelCommandLineHandler-TheIntegrator.25.mcz
 FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-MartinDias.412.mcz
-FuelTools-Debugger-TheIntegrator.11.mcz
+FuelTools-Debugger-TheIntegrator.13.mcz
 GT-BytecodeDebugger-MarcusDenker.32.mcz
 GT-Debugger-TheIntegrator.352.mcz
 GT-EventRecorder-JurajKubelka.71.mcz
@@ -139,7 +139,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2418.mcz
+Kernel-TheIntegrator.2419.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.119.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -320,7 +320,7 @@ Spec-MorphicAdapters-TheIntegrator.283.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.94.mcz
-Spec-Tools-TheIntegrator.365.mcz
+Spec-Tools-TheIntegrator.367.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.119.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
