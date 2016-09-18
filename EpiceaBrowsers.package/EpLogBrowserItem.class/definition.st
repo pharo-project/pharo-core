@@ -1,4 +1,4 @@
-Object subclass: #EpLogBrowserItem
+Model subclass: #EpLogBrowserItem
 	instanceVariableNames: 'browser'
 	classVariableNames: ''
 	poolDictionaries: ''

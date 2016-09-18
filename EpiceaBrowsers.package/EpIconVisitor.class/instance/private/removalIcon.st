@@ -1,2 +1,2 @@
 removalIcon
-	^ Smalltalk ui icons iconNamed: #changeRemoveIcon
+	^ self iconNamed: #changeRemoveIcon

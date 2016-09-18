@@ -1,4 +1,4 @@
-Object subclass: #UITheme
+Model subclass: #UITheme
 	instanceVariableNames: 'settings forms soundTheme focusIndicator'
 	classVariableNames: 'Builder Current'
 	poolDictionaries: ''

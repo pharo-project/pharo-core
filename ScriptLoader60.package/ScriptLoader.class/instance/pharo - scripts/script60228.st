@@ -1,4 +1,4 @@
-script60227
+script60228
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -55,7 +55,7 @@ EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
 Epicea-MartinDias.815.mcz
-EpiceaBrowsers-MartinDias.80.mcz
+EpiceaBrowsers-TheIntegrator.82.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
 FFI-Kernel-TheIntegrator.43.mcz
@@ -149,7 +149,7 @@ Keymapping-Pragmas-TheIntegrator.58.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.107.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.179.mcz
+Komitter-TheIntegrator.181.mcz
 Manifest-Core-TheIntegrator.249.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
@@ -217,7 +217,7 @@ Nautilus-GroupManagerUI-TheIntegrator.37.mcz
 Nautilus-Tests-TheIntegrator.46.mcz
 NautilusCommon-TheIntegrator.318.mcz
 NautilusGroupAutoBuilder-TheIntegrator.16.mcz
-NautilusRefactoring-TheIntegrator.299.mcz
+NautilusRefactoring-TheIntegrator.301.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.50.mcz
@@ -240,13 +240,13 @@ OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1380.mcz
+Polymorph-Widgets-TheIntegrator.1382.mcz
 Polymorph-Widgets-Rules-TheIntegrator.2.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.81.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-Uko.111.mcz
+QualityAssistant-TheIntegrator.113.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
 RPackage-Core-TheIntegrator.438.mcz
@@ -268,13 +268,13 @@ ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
 Reflectivity-TheIntegrator.312.mcz
 Reflectivity-Examples-TheIntegrator.40.mcz
 Reflectivity-Tests-TheIntegrator.209.mcz
-Reflectivity-Tools-TheIntegrator.60.mcz
+Reflectivity-Tools-TheIntegrator.62.mcz
 Reflectivity-Tools-Tests-TheIntegrator.22.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-Uko.139.mcz
+Renraku-TheIntegrator.141.mcz
 Renraku-Help-YuriyTymchuk.2.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
@@ -303,7 +303,7 @@ Settings-Polymorph-TheIntegrator.96.mcz
 Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
-ShoreLine-Report-UI-TommasoDalSasso.17.mcz
+ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.767.mcz
@@ -368,10 +368,10 @@ Tool-CriticBrowser-TheIntegrator.57.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.13.mcz
 Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.1.mcz
-Tool-DependencyAnalyser-UI-TheIntegrator.51.mcz
+Tool-DependencyAnalyser-UI-TheIntegrator.53.mcz
 Tool-Diff-TheIntegrator.43.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
-Tool-FileList-TheIntegrator.77.mcz
+Tool-FileList-TheIntegrator.79.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.71.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
@@ -402,7 +402,7 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-MarcusDenker.65.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
 Versionner-Core-Model-PavelKrivanek.54.mcz
-Versionner-Spec-Browser-TheIntegrator.203.mcz
+Versionner-Spec-Browser-TheIntegrator.205.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz

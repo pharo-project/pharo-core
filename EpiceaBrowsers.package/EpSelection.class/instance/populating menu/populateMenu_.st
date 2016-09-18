@@ -8,7 +8,7 @@ populateMenu: aMenu
 							anItem
 								name: oldStyleMenuItemArray first;
 								description: oldStyleMenuItemArray third;
-								icon: (Smalltalk ui icons iconNamed: oldStyleMenuItemArray fourth);
+								icon: (self iconNamed: oldStyleMenuItemArray fourth);
 								shortcut: oldStyleMenuItemArray fifth;
 								action: [ self perform: oldStyleMenuItemArray second ] ] ] ].
 
@@ -30,7 +30,7 @@ populateMenu: aMenu
 				addItem: [ :anItem | 
 					anItem
 						name: 'Filter';
-						icon: (Smalltalk ui icons iconNamed: #smallFindIcon);
+						icon: (self iconNamed: #smallFindIcon);
 						subMenu: self filtersSubMenu ] ].
 	aMenu
 		addGroup: [ :aGroup | 
@@ -39,7 +39,7 @@ populateMenu: aMenu
 					anItem
 						name: 'File Out';
 						description: 'Write selected entries to an Ombu file';
-						icon: (Smalltalk ui icons iconNamed: #smallSaveAsIcon);
+						icon: (self icons iconNamed: #smallSaveAsIcon);
 						action: [ self fileOutSelection ] ] ].
 	aMenu
 		addGroup: [ :aGroup | 
@@ -48,6 +48,6 @@ populateMenu: aMenu
 					anItem
 						name: 'Inspect';
 						description: 'Open an inspector for each selected entry';
-						icon: (Smalltalk ui icons iconNamed: #smallDebugIcon);
+						icon: (self iconNamed: #smallDebugIcon);
 						shortcut: $i command;
 						action: [ self inspectSelection ] ] ]

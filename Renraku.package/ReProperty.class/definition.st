@@ -1,4 +1,4 @@
-Object subclass: #ReProperty
+Model subclass: #ReProperty
 	instanceVariableNames: 'sourceAnchor'
 	classVariableNames: ''
 	poolDictionaries: ''

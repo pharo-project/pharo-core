@@ -1,4 +1,4 @@
-Object subclass: #EpSelection
+Model subclass: #EpSelection
 	instanceVariableNames: 'browser'
 	classVariableNames: ''
 	poolDictionaries: ''

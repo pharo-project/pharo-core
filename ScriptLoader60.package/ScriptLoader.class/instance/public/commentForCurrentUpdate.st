@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '16877 another endless debugger loop 
-	https://pharo.fogbugz.com/f/cases/16877
-
-19097 Move to instance side refactoring of class method in the sender list is mispelled
-	https://pharo.fogbugz.com/f/cases/19097
-
-19098 FuelOutStackDebugAction uses incorrect debugger API
-	https://pharo.fogbugz.com/f/cases/19098'
+ ^ '19102 Another clean iconNamed: phase...
+	https://pharo.fogbugz.com/f/cases/19102'

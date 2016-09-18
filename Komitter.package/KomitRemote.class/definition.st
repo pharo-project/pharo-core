@@ -1,4 +1,4 @@
-Object subclass: #KomitRemote
+Model subclass: #KomitRemote
 	instanceVariableNames: 'remote'
 	classVariableNames: ''
 	poolDictionaries: ''

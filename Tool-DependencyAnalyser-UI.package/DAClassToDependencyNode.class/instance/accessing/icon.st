@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons iconNamed: #confirmIcon
+	^ self iconNamed: #confirmIcon

@@ -8,7 +8,7 @@ initializePresenter
 		disable.
 		
 	createActiveLogButtonModel
-		icon: (Smalltalk ui icons iconNamed: #addIcon);
+		icon: (self iconNamed: #addIcon);
 		help: 'Start recording into new Log';
 		action: [ self createNewActiveLog ].
 

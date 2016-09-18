@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons iconNamed: #testNotRunIcon
+	^ self iconNamed: #testNotRunIcon
