@@ -1,0 +1,2 @@
+defaultTimeLimit: aDuration
+	DefaultTimeLimit := aDuration

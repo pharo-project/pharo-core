@@ -1,4 +1,4 @@
-script60228
+script60229
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -284,17 +284,17 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.390.mcz
+Rubric-TheIntegrator.394.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.7.mcz
 Rubric-Tests-TheIntegrator.7.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.200.mcz
+SUnit-Core-TheIntegrator.203.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
-SUnit-Tests-TheIntegrator.60.mcz
+SUnit-Tests-TheIntegrator.62.mcz
 SUnit-UI-TheIntegrator.151.mcz
 SUnit-UITesting-TheIntegrator.34.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
