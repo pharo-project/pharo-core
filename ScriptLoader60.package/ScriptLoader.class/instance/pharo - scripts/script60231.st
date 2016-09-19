@@ -1,4 +1,4 @@
-script60230
+script60231
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -49,7 +49,7 @@ ContributingToTheCatalogHelp-TheIntegrator.9.mcz
 Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.87.mcz
 DebuggerFilters-TheIntegrator.9.mcz
-DebuggerModel-TheIntegrator.128.mcz
+DebuggerModel-TheIntegrator.130.mcz
 Deprecated60-TheIntegrator.10.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
@@ -268,7 +268,7 @@ ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
 Reflectivity-TheIntegrator.312.mcz
 Reflectivity-Examples-TheIntegrator.40.mcz
 Reflectivity-Tests-TheIntegrator.209.mcz
-Reflectivity-Tools-TheIntegrator.62.mcz
+Reflectivity-Tools-TheIntegrator.64.mcz
 Reflectivity-Tools-Tests-TheIntegrator.22.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
