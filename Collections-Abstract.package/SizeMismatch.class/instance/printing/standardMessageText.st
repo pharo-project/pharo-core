@@ -1,4 +1,4 @@
 standardMessageText
 	"Generate a standard textual description"
 	
-	^ 'Collection sizes to not match'
+	^ 'Collections sizes do not match'

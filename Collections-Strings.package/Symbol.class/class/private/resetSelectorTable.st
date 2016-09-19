@@ -1,2 +1,0 @@
-resetSelectorTable
-	SelectorTable := nil.

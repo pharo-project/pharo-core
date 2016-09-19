@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19096 String selection behaviour in code editor is not logical
-	https://pharo.fogbugz.com/f/cases/19096
+ ^ '19104 Typo in SizeMismatch error message
+	https://pharo.fogbugz.com/f/cases/19104
 
-19035 Default time limit for tests should be small
-	https://pharo.fogbugz.com/f/cases/19035'
+19051 Do not reinit selector table on startup (takes too long)
+	https://pharo.fogbugz.com/f/cases/19051'

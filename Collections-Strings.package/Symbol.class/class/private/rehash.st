@@ -4,4 +4,4 @@ rehash
 
 	SymbolTable := WeakSet withAll: self allSubInstances.
 	NewSymbols := WeakSet new.
-	self resetSelectorTable.
+	self rebuildSelectorTable.
