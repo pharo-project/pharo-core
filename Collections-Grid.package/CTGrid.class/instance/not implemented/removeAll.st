@@ -1,3 +1,0 @@
-removeAll
-
-	self shouldNotImplement

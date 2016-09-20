@@ -1,4 +1,4 @@
-script60232
+script60233
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -223,7 +223,7 @@ Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.50.mcz
 Network-Protocols-TheIntegrator.105.mcz
 Network-Tests-TheIntegrator.22.mcz
-Network-UUID-TheIntegrator.49.mcz
+Network-UUID-TheIntegrator.52.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
@@ -240,8 +240,8 @@ OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1382.mcz
-Polymorph-Widgets-Rules-TheIntegrator.2.mcz
+Polymorph-Widgets-TheIntegrator.1383.mcz
+Polymorph-Widgets-Rules-TheIntegrator.3.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.81.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -366,9 +366,9 @@ Tool-Base-TheIntegrator.177.mcz
 Tool-Catalog-TheIntegrator.45.mcz
 Tool-CriticBrowser-TheIntegrator.57.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
-Tool-DependencyAnalyser-Test-ChristopheDemarey.13.mcz
-Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.1.mcz
-Tool-DependencyAnalyser-UI-TheIntegrator.53.mcz
+Tool-DependencyAnalyser-Test-ChristopheDemarey.15.mcz
+Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.2.mcz
+Tool-DependencyAnalyser-UI-ChristopheDemarey.54.mcz
 Tool-Diff-TheIntegrator.43.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.79.mcz

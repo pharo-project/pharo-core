@@ -1,2 +1,0 @@
-numberOfColumns: anObject
-	numberOfColumns := anObject

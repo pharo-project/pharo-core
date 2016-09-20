@@ -1,9 +1,12 @@
 commentForCurrentUpdate
- ^ '18963 DANode>>#browseClass: sends unimplemented fullOnClass:
-	https://pharo.fogbugz.com/f/cases/18963
+ ^ '18327 SystemWindow reset his borderWidth on #themeChanged
+	https://pharo.fogbugz.com/f/cases/18327
 
-19113 Problem with selection in rubric (select from line beginning)
-	https://pharo.fogbugz.com/f/cases/19113
+18825 The current Pharo Fuel platform is still FLPharo5Platform and cannot be reset
+	https://pharo.fogbugz.com/f/cases/18825
 
-18594 Remove references to Smalltalk evaluate: from Fuel
-	https://pharo.fogbugz.com/f/cases/18594'
+18731 NeoUUIDGenerator should not rely on Network-Kernel package 
+	https://pharo.fogbugz.com/f/cases/18731
+
+18933 unload Collections-Grid and Collections-Grid-Test
+	https://pharo.fogbugz.com/f/cases/18933'

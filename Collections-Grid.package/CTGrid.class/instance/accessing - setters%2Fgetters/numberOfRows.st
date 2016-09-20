@@ -1,2 +1,0 @@
-numberOfRows
-	^ numberOfRows

@@ -1,3 +1,0 @@
-hash
-
-	^ contents hash

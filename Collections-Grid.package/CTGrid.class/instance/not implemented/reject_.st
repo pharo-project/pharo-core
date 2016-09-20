@@ -1,2 +1,0 @@
-reject: aBlock
-	self shouldNotImplement
