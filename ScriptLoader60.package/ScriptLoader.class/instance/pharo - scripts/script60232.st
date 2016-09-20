@@ -1,4 +1,4 @@
-script60231
+script60232
 
 	^ 'AST-Core-TheIntegrator.464.mcz
 AST-Tests-Core-TheIntegrator.121.mcz
@@ -80,7 +80,7 @@ Fuel-MartinDias.826.mcz
 FuelCommandLineHandler-TheIntegrator.25.mcz
 FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
-FuelTests-MartinDias.412.mcz
+FuelTests-TheIntegrator.414.mcz
 FuelTools-Debugger-TheIntegrator.13.mcz
 GT-BytecodeDebugger-MarcusDenker.32.mcz
 GT-Debugger-TheIntegrator.352.mcz
@@ -284,10 +284,10 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.394.mcz
+Rubric-TheIntegrator.396.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.7.mcz
-Rubric-Tests-TheIntegrator.7.mcz
+Rubric-Tests-TheIntegrator.9.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz

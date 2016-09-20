@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19110 DNU on menu counter
-	https://pharo.fogbugz.com/f/cases/19110
+ ^ '18963 DANode>>#browseClass: sends unimplemented fullOnClass:
+	https://pharo.fogbugz.com/f/cases/18963
 
-19091 Problem adding breakpoint through suggestions
-	https://pharo.fogbugz.com/f/cases/19091
+19113 Problem with selection in rubric (select from line beginning)
+	https://pharo.fogbugz.com/f/cases/19113
 
-19108 Logging error stack should not hang image and prevent opening debugger 
-	https://pharo.fogbugz.com/f/cases/19108'
+18594 Remove references to Smalltalk evaluate: from Fuel
+	https://pharo.fogbugz.com/f/cases/18594'
