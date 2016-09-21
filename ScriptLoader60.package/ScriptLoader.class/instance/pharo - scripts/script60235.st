@@ -1,4 +1,4 @@
-script60234
+script60235
 
 	^ 'AST-Core-TheIntegrator.466.mcz
 AST-Tests-Core-TheIntegrator.123.mcz
@@ -53,7 +53,7 @@ EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
 Epicea-MartinDias.815.mcz
-EpiceaBrowsers-TheIntegrator.82.mcz
+EpiceaBrowsers-MartinDias.83.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
 FFI-Kernel-TheIntegrator.43.mcz
@@ -306,7 +306,7 @@ Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.767.mcz
 Slot-Tests-TheIntegrator.97.mcz
-SmartSuggestions-TheIntegrator.251.mcz
+SmartSuggestions-TheIntegrator.253.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.519.mcz
 Spec-Debugger-TheIntegrator.278.mcz

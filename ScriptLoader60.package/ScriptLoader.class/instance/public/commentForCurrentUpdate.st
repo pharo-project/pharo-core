@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '19115 formatter should not modify symbol formatting in literal arrays
-	https://pharo.fogbugz.com/f/cases/19115
+ ^ '19023 debug menu in GTDebugger
+	https://pharo.fogbugz.com/f/cases/19023
 
-19119 Integrate Epicea 8.0.2
-	https://pharo.fogbugz.com/f/cases/19119'
+19101 Unload CubeHelix 
+	https://pharo.fogbugz.com/f/cases/19101
+
+19116 FTRootItem>>expandAll sends deprecated #name message
+	https://pharo.fogbugz.com/f/cases/19116'

@@ -1,2 +1,2 @@
 expandAll
-	children do: #expandAll displayingProgress: [ :each | 'Expanding ' , each name ] every: 200
+	children do: #expandAll displayingProgress: [ :each | 'Expanding ' , each printString ] every: 200
