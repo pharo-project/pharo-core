@@ -1,5 +1,5 @@
 RBLiteralToken subclass: #RBNumberLiteralToken
-	instanceVariableNames: 'source'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Tokens'

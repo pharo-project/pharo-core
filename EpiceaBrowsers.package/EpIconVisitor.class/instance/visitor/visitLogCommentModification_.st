@@ -1,2 +1,2 @@
 visitLogCommentModification: aLogCommentModification
-	^ Smalltalk ui icons iconNamed: #announcementIcon
+	^ self iconNamed: #announcementIcon

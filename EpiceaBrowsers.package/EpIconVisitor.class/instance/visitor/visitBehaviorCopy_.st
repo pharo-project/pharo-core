@@ -1,2 +1,2 @@
 visitBehaviorCopy: anEvent
-	^ Smalltalk ui icons iconNamed: #configurationIcon
+	^ self iconNamed: #configurationIcon

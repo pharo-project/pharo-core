@@ -1,5 +1,5 @@
 RBValueToken subclass: #RBLiteralToken
-	instanceVariableNames: 'stopPosition'
+	instanceVariableNames: 'stopPosition source'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'AST-Core-Tokens'

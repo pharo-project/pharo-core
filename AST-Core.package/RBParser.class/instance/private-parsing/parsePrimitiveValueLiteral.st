@@ -7,4 +7,5 @@ parsePrimitiveValueLiteral
 		value: token value 
 		start: token start
 		stop: token stop
+		source: token source
 	

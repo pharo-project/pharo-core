@@ -1,6 +1,2 @@
 value: aString start: anInteger stop: stopInteger 
-	^(self new)
-		value: aString
-			start: anInteger
-			stop: stopInteger;
-		yourself
+	^ self value: aString start: anInteger stop: stopInteger source: nil

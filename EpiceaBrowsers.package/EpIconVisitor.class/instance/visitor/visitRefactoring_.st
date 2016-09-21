@@ -1,2 +1,2 @@
 visitRefactoring: aRefactoring
-	^ Smalltalk ui icons iconNamed: #configurationIcon
+	^ self iconNamed: #configurationIcon

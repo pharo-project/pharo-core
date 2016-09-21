@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '18327 SystemWindow reset his borderWidth on #themeChanged
-	https://pharo.fogbugz.com/f/cases/18327
+ ^ '19115 formatter should not modify symbol formatting in literal arrays
+	https://pharo.fogbugz.com/f/cases/19115
 
-18825 The current Pharo Fuel platform is still FLPharo5Platform and cannot be reset
-	https://pharo.fogbugz.com/f/cases/18825
-
-18731 NeoUUIDGenerator should not rely on Network-Kernel package 
-	https://pharo.fogbugz.com/f/cases/18731
-
-18933 unload Collections-Grid and Collections-Grid-Test
-	https://pharo.fogbugz.com/f/cases/18933'
+19119 Integrate Epicea 8.0.2
+	https://pharo.fogbugz.com/f/cases/19119'
