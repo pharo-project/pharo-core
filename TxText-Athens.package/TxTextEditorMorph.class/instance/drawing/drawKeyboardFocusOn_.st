@@ -1,7 +1,7 @@
 drawKeyboardFocusOn: aCanvas 
 	"draw an outline, indicating that receiver has the input focus"
 	| stroke |
-	stroke := aCanvas setStrokePaint: Color yellow  .
+	stroke := aCanvas setStrokePaint: Color yellow.
 	stroke 
 		width: self borderWidth;
 		joinRound.

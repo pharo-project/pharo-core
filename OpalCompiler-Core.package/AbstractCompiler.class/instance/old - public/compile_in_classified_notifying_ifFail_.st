@@ -4,6 +4,5 @@ compile: textOrStream in: aClass classified: aCategory notifying: aRequestor ifF
 		source: textOrStream;
 		class: aClass;
 		requestor: aRequestor;
-		category: aCategory;
 		failBlock: aFailBlock;
 		translate

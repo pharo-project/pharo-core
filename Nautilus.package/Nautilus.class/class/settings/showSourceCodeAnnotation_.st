@@ -1,0 +1,2 @@
+showSourceCodeAnnotation: aBoolean
+	showSourceCodeAnnotation := aBoolean

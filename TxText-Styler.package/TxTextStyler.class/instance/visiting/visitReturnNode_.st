@@ -1,5 +1,7 @@
 visitReturnNode: aReturnNode
+
 	self addStyle: 	#return 
-		  forNode: aReturnNode.
-		
+		startPosition: aReturnNode start 
+		stopPosition: aReturnNode start. "the reason for start here is so not the whole return node is styled as bold"
+	
 	self visitNode: aReturnNode value

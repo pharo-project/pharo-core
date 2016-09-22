@@ -1,5 +1,8 @@
 text: aText
 
 	text := aText.
-	selection := text startPosition asSelection.
-	self resetUndoBuffer
+	selection := text endPosition asSelection.
+	self
+		resetUndoBuffer;
+		notifyNewText;
+		notifySelectionChange: selection

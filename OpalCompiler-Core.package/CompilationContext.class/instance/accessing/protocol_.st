@@ -1,2 +1,0 @@
-protocol: anObject
-	category := anObject

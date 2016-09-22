@@ -1,5 +1,5 @@
 Morph subclass: #TxBasicViewMorph
-	instanceVariableNames: ''
+	instanceVariableNames: 'backgroundColor'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'TxText-Athens-Widgets'

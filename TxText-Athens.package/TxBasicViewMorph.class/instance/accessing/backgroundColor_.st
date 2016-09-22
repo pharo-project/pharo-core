@@ -1,0 +1,2 @@
+backgroundColor: anObject
+	backgroundColor := anObject

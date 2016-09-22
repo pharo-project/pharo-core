@@ -1,2 +1,2 @@
 defaultValue 
-	^Color black
+	^ Smalltalk ui theme textColor

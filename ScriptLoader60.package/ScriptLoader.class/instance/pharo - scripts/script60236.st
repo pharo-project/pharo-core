@@ -1,6 +1,6 @@
-script60235
+script60236
 
-	^ 'AST-Core-TheIntegrator.466.mcz
+	^ 'AST-Core-TheIntegrator.467.mcz
 AST-Tests-Core-TheIntegrator.123.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
@@ -20,7 +20,6 @@ BaselineOfMetacello-EstebanLorenzano.89.mcz
 BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
-Chroma-CubeHelix-TheIntegrator.2.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.88.mcz
 CodeImportCommandLineHandlers-TheIntegrator.13.mcz
@@ -38,7 +37,7 @@ Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.79.mcz
 Collections-Unordered-TheIntegrator.242.mcz
 Collections-Weak-TheIntegrator.108.mcz
-Compiler-TheIntegrator.602.mcz
+Compiler-TheIntegrator.604.mcz
 Compression-TheIntegrator.180.mcz
 Compression-Tests-TheIntegrator.4.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -137,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2419.mcz
+Kernel-TheIntegrator.2421.mcz
 Kernel-Rules-TheIntegrator.11.mcz
 Kernel-Tests-TheIntegrator.119.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -173,7 +172,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.150.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1160.mcz
+Monticello-TheIntegrator.1162.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.40.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
@@ -191,7 +190,7 @@ Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.21.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-TheIntegrator.189.mcz
+Morphic-Widgets-FastTable-TorstenBergmann.190.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
@@ -209,7 +208,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.251.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1293.mcz
+Nautilus-TheIntegrator.1295.mcz
 Nautilus-GroupManager-TheIntegrator.21.mcz
 Nautilus-GroupManagerUI-TheIntegrator.37.mcz
 Nautilus-Tests-TheIntegrator.46.mcz
@@ -233,7 +232,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
 OmbuTests-MartinDias.7.mcz
-OpalCompiler-Core-TheIntegrator.858.mcz
+OpalCompiler-Core-TheIntegrator.860.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
@@ -381,7 +380,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.44.mcz
 Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.947.mcz
+Traits-TheIntegrator.949.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-GuillermoPolito.53.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

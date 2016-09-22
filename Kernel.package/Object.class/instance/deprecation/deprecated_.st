@@ -3,5 +3,6 @@ deprecated: anExplanationString
 	
 	Deprecation new
 		method: thisContext sender method;
+		sendingMethodName: thisContext sender sender method printString;
 		explanation: anExplanationString;
 		signal

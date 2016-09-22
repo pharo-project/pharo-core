@@ -1,2 +1,0 @@
-category: aCategory
-	self subclassResponsibility
