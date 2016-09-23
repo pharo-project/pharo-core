@@ -1,4 +1,4 @@
-script60236
+script60237
 
 	^ 'AST-Core-TheIntegrator.467.mcz
 AST-Tests-Core-TheIntegrator.123.mcz
@@ -382,10 +382,10 @@ Tools-TheIntegrator.1528.mcz
 Tools-Test-TheIntegrator.22.mcz
 Traits-TheIntegrator.949.mcz
 Transcript-TheIntegrator.54.mcz
-TxText-Athens-GuillermoPolito.53.mcz
+TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz
-TxText-Model-PabloTesone.66.mcz
-TxText-Styler-MarcusDenker.17.mcz
+TxText-Model-MarcusDenker.67.mcz
+TxText-Styler-HenrikNergaard.18.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.189.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
