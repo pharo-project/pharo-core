@@ -7,5 +7,5 @@ newStruckOutButtonMorph
 		action: #toggleStruckOut
 		arguments: nil
 		getEnabled: nil
-		labelForm: (Smalltalk ui icons iconNamed: #smallStrikeOutIcon)
+		labelForm: (self iconNamed: #smallStrikeOutIcon)
 		help: 'Toggle struck-out font' translated

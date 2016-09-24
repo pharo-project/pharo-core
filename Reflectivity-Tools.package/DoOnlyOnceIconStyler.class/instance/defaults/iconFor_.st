@@ -1,2 +1,2 @@
 iconFor: aNode
-	^self iconProvider iconNamed: #smallWarningIcon 
+	^ self iconNamed: #smallWarningIcon 

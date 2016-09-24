@@ -7,5 +7,5 @@ newItalicButtonMorph
 		action: #toggleItalic
 		arguments: nil
 		getEnabled: nil
-		labelForm: (Smalltalk ui icons iconNamed: #smallItalicIcon)
+		labelForm: (self iconNamed: #smallItalicIcon)
 		help: 'Toggle italic font' translated

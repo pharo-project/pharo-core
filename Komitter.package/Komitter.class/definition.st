@@ -1,4 +1,4 @@
-Object subclass: #Komitter
+Model subclass: #Komitter
 	instanceVariableNames: 'stagingArea lastCommit view'
 	classVariableNames: ''
 	poolDictionaries: ''

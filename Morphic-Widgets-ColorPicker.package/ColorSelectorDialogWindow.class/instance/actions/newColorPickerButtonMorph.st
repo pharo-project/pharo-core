@@ -8,6 +8,6 @@ newColorPickerButtonMorph
 		arguments: nil
 		getEnabled: nil
 		labelForm:
-			((Smalltalk ui icons iconNamed: #eyedropperIcon)
+			((self iconNamed: #eyedropperIcon)
 				scaledIntoFormOfSize: 16)
 		help: 'Pick a color from the screen' translated

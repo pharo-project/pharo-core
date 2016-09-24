@@ -17,7 +17,7 @@ toolBarOn: aWindow
 						newRowIn: World
 						for:
 							{(AlphaImageMorph new
-								image: (Smalltalk ui icons iconNamed: #smallDoItIcon)).
+								image: (self iconNamed: #smallDoItIcon)).
 							(uiTheme buttonLabelForText: 'Profile it' translated)});
 				yourself).
 			aWindow newToolSpacer.

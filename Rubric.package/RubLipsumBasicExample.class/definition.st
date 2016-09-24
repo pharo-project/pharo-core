@@ -1,4 +1,4 @@
-Object subclass: #RubLipsumBasicExample
+Model subclass: #RubLipsumBasicExample
 	instanceVariableNames: 'textModel'
 	classVariableNames: ''
 	poolDictionaries: ''

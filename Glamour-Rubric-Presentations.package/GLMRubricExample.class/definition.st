@@ -1,4 +1,4 @@
-Object subclass: #GLMRubricExample
+Model subclass: #GLMRubricExample
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
