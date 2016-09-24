@@ -1,5 +1,5 @@
 Notification subclass: #SyntaxErrorNotification
-	instanceVariableNames: 'inClass code category doitFlag location'
+	instanceVariableNames: 'inClass code doitFlag location'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'OpalCompiler-Core-Exception'

@@ -1,6 +1,6 @@
-script60238
+script60239
 
-	^ 'AST-Core-TheIntegrator.467.mcz
+	^ 'AST-Core-TheIntegrator.469.mcz
 AST-Tests-Core-TheIntegrator.123.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
@@ -21,7 +21,7 @@ BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
 CodeExport-TheIntegrator.19.mcz
-CodeImport-TheIntegrator.88.mcz
+CodeImport-TheIntegrator.90.mcz
 CodeImportCommandLineHandlers-TheIntegrator.13.mcz
 Collections-Abstract-TheIntegrator.331.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
@@ -37,7 +37,7 @@ Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.80.mcz
 Collections-Unordered-TheIntegrator.242.mcz
 Collections-Weak-TheIntegrator.108.mcz
-Compiler-TheIntegrator.604.mcz
+Compiler-TheIntegrator.606.mcz
 Compression-TheIntegrator.180.mcz
 Compression-Tests-TheIntegrator.4.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
@@ -232,7 +232,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
 OmbuTests-MartinDias.7.mcz
-OpalCompiler-Core-TheIntegrator.860.mcz
+OpalCompiler-Core-TheIntegrator.862.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
@@ -330,7 +330,7 @@ System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
 System-CommandLine-TextSupport-TheIntegrator.6.mcz
 System-CommandLineHandler-TheIntegrator.24.mcz
-System-FileRegistry-TheIntegrator.50.mcz
+System-FileRegistry-TheIntegrator.53.mcz
 System-Finalization-TheIntegrator.44.mcz
 System-Hashing-TheIntegrator.52.mcz
 System-History-EstebanLorenzano.7.mcz
@@ -379,7 +379,7 @@ Tool-SystemReporter-TheIntegrator.19.mcz
 Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
-Tools-TheIntegrator.1528.mcz
+Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
 Traits-TheIntegrator.949.mcz
 Transcript-TheIntegrator.54.mcz

@@ -4,7 +4,6 @@ notify: aString at: location
 	^requestor == nil
 		ifTrue: [SyntaxErrorNotification
 					inClass: class
-					category: category
 					withCode: sourceStream contents
 					doitFlag: false
 					errorMessage: aString
