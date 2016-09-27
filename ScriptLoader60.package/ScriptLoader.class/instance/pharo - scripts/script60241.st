@@ -1,4 +1,4 @@
-script60240
+script60241
 
 	^ 'AST-Core-TheIntegrator.469.mcz
 AST-Tests-Core-TheIntegrator.123.mcz
@@ -32,9 +32,9 @@ Collections-Native-TheIntegrator.19.mcz
 Collections-Sequenceable-TheIntegrator.249.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
-Collections-Strings-TheIntegrator.442.mcz
+Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.80.mcz
+Collections-Tests-TheIntegrator.84.mcz
 Collections-Unordered-TheIntegrator.242.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Compiler-TheIntegrator.606.mcz
@@ -318,7 +318,7 @@ Spec-MorphicAdapters-TheIntegrator.283.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.94.mcz
-Spec-Tools-TheIntegrator.367.mcz
+Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.119.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -360,9 +360,9 @@ Text-Edition-TheIntegrator.122.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
-Tool-Base-TheIntegrator.177.mcz
+Tool-Base-TheIntegrator.181.mcz
 Tool-Catalog-TheIntegrator.45.mcz
-Tool-CriticBrowser-TheIntegrator.57.mcz
+Tool-CriticBrowser-TheIntegrator.61.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.15.mcz
 Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.2.mcz

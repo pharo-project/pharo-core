@@ -5,6 +5,7 @@ showSourceWithConverter: aConverter
 	browser textModel: browser newText.
 	browser textModel beForCode.
 	browser needRebuild: false.
-	browser openWithSpec.
 	browser textModel behavior: behavior.
 	browser textConverter: aConverter.
+
+	browser openWithSpec.
