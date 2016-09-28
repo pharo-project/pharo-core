@@ -1,2 +1,0 @@
-sendingMethodName
-	^sendingMethodName ifNil: ['unknown']

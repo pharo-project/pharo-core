@@ -1,2 +1,0 @@
-sendingMethodName: aString
-	sendingMethodName := aString

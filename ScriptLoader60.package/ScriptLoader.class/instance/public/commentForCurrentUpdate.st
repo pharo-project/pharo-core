@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '19121 DNU in VersionBrowser when switching from "side by side" to "source"
-	https://pharo.fogbugz.com/f/cases/19121
+ ^ '19145 FFI Callback return values for Enumerations should return their integer value
+	https://pharo.fogbugz.com/f/cases/19145
 
-19143 in Code Critique browser: DNU #setTextModelForTransformationRule: 
-	https://pharo.fogbugz.com/f/cases/19143
+19144  (FloatTest >> #testBinaryLiteralString) method cannot be compiled in latest image
+	https://pharo.fogbugz.com/f/cases/19144
 
-18914 Improve MethodClassifier classification based on selector parts
-	https://pharo.fogbugz.com/f/cases/18914
-
-19141 Optimize String>>#substrings:
-	https://pharo.fogbugz.com/f/cases/19141'
+19132 simplify Deprecation class
+	https://pharo.fogbugz.com/f/cases/19132'

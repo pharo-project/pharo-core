@@ -1,5 +1,5 @@
 TestCase subclass: #FFICallbackTests
 	instanceVariableNames: ''
 	classVariableNames: ''
-	poolDictionaries: ''
+	poolDictionaries: 'FFITestEnumeration'
 	category: 'UnifiedFFI-Tests'

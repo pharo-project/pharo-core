@@ -1,0 +1,2 @@
+sendingMethodName
+	^self contextOfSender method printString
