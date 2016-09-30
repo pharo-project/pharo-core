@@ -1,4 +1,4 @@
-script60245
+script60246
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -305,7 +305,7 @@ ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.770.mcz
-Slot-Tests-TheIntegrator.97.mcz
+Slot-Tests-TheIntegrator.99.mcz
 SmartSuggestions-TheIntegrator.253.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.519.mcz
@@ -345,7 +345,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.353.mcz
+System-Settings-TheIntegrator.355.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.65.mcz

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19155 speedup instVarNamed:
-	https://pharo.fogbugz.com/f/cases/19155
+ ^ '19162 fix a deprecated send in SettingNode
+	https://pharo.fogbugz.com/f/cases/19162
 
-19158 The method BitBlt class>>#current called from Form>>#rotateBy:magnify:smoothing: has been deprecated.
-	https://pharo.fogbugz.com/f/cases/19158'
+19130 Deprecation: The method Object>>name in Slot
+	https://pharo.fogbugz.com/f/cases/19130'
