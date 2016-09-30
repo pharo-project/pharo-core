@@ -1,4 +1,4 @@
-script60244
+script60245
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -13,7 +13,7 @@ Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TheIntegrator.47.mcz
 Athens-Morphic-TheIntegrator.65.mcz
 Athens-Text-NicolaiHess.16.mcz
-Balloon-TheIntegrator.135.mcz
+Balloon-TheIntegrator.137.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
@@ -116,8 +116,8 @@ Glamour-Tests-Rubric-AndreiChis.35.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
-Graphics-Canvas-TheIntegrator.10.mcz
-Graphics-Display Objects-TheIntegrator.177.mcz
+Graphics-Canvas-TheIntegrator.12.mcz
+Graphics-Display Objects-TheIntegrator.179.mcz
 Graphics-Files-TheIntegrator.78.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Primitives-TheIntegrator.194.mcz
@@ -304,7 +304,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.767.mcz
+Slot-TheIntegrator.770.mcz
 Slot-Tests-TheIntegrator.97.mcz
 SmartSuggestions-TheIntegrator.253.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
@@ -381,7 +381,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.949.mcz
+Traits-TheIntegrator.951.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

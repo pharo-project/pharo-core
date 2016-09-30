@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19070 Support for multiples Morphic Worlds
-	https://pharo.fogbugz.com/f/cases/19070'
+ ^ '19155 speedup instVarNamed:
+	https://pharo.fogbugz.com/f/cases/19155
+
+19158 The method BitBlt class>>#current called from Form>>#rotateBy:magnify:smoothing: has been deprecated.
+	https://pharo.fogbugz.com/f/cases/19158'
