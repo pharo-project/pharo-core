@@ -1,4 +1,4 @@
-script60243
+script60244
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -184,7 +184,7 @@ MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.580.mcz
-Morphic-Core-TheIntegrator.299.mcz
+Morphic-Core-TheIntegrator.300.mcz
 Morphic-Examples-TheIntegrator.57.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
@@ -237,7 +237,7 @@ OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1385.mcz
+Polymorph-Widgets-TheIntegrator.1386.mcz
 Polymorph-Widgets-Rules-TheIntegrator.3.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.81.mcz

@@ -1,2 +1,4 @@
 activeHand
-	^ActiveHand
+	| world |
+   world := self world ifNil: [^ ActiveHand ].
+   ^ world activeHand ifNil: [ ^ ActiveHand  ]

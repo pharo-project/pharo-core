@@ -1,3 +1,3 @@
 outermostWorldMorph
 
-	^World.
+	^self world ifNil: [ World ].
