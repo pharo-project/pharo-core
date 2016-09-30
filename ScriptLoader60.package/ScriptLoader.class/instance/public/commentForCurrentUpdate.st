@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19145 FFI Callback return values for Enumerations should return their integer value
-	https://pharo.fogbugz.com/f/cases/19145
+ ^ '18032 mightBeASquare should be implemented in LargePositiveInteger
+	https://pharo.fogbugz.com/f/cases/18032
 
-19144  (FloatTest >> #testBinaryLiteralString) method cannot be compiled in latest image
-	https://pharo.fogbugz.com/f/cases/19144
+19154 Move to RPackage logic to retrieve actual class tags
+	https://pharo.fogbugz.com/f/cases/19154
 
-19132 simplify Deprecation class
-	https://pharo.fogbugz.com/f/cases/19132'
+19100 Senders of with Full closures
+	https://pharo.fogbugz.com/f/cases/19100'

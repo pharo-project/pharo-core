@@ -1,0 +1,2 @@
+penultimateLiteral
+	^ nil

@@ -1,0 +1,2 @@
+mightBeASquare
+	^false
