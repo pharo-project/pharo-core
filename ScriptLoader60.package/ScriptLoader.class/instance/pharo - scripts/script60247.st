@@ -1,4 +1,4 @@
-script60246
+script60247
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -136,8 +136,8 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2425.mcz
-Kernel-Rules-TheIntegrator.11.mcz
+Kernel-TheIntegrator.2427.mcz
+Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.119.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
@@ -220,7 +220,7 @@ Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.50.mcz
 Network-Protocols-TheIntegrator.105.mcz
 Network-Tests-TheIntegrator.22.mcz
-Network-UUID-TheIntegrator.52.mcz
+Network-UUID-TheIntegrator.54.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
@@ -324,7 +324,7 @@ System-Announcements-TheIntegrator.119.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
 System-CachingTests-TheIntegrator.19.mcz
-System-Changes-TheIntegrator.303.mcz
+System-Changes-TheIntegrator.305.mcz
 System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.40.mcz
 System-CommandLine-TheIntegrator.181.mcz
@@ -353,7 +353,7 @@ System-Support-TheIntegrator.1262.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.777.mcz
+Tests-TheIntegrator.779.mcz
 Text-Core-TheIntegrator.60.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.122.mcz

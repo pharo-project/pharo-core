@@ -1,3 +1,3 @@
 shortTitle
 
-	^ #'Log Set'
+	^ #'All Changes'

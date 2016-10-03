@@ -1,0 +1,2 @@
+ignoredDependencies
+	^ #(#'Network-Kernel')

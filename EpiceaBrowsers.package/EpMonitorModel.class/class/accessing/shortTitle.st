@@ -1,3 +1,3 @@
 shortTitle
 
-	^ #Monitor
+	^ #'Session Changes'

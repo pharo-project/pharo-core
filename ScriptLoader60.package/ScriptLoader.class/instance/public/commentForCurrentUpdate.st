@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '19162 fix a deprecated send in SettingNode
-	https://pharo.fogbugz.com/f/cases/19162
+ ^ '19131 Deprecation: The method Object>>name called from ChangeSet>>#changeRecorderFor: has been deprecated.
+	https://pharo.fogbugz.com/f/cases/19131
 
-19130 Deprecation: The method Object>>name in Slot
-	https://pharo.fogbugz.com/f/cases/19130'
+18979 Ignore some kernel and Network-UUID dependencies for the bootstrap
+	https://pharo.fogbugz.com/f/cases/18979
+
+19165 Integrate Epicea 8.0.3
+	https://pharo.fogbugz.com/f/cases/19165'

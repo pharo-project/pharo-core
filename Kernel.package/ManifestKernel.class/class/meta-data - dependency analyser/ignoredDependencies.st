@@ -1,2 +1,2 @@
 ignoredDependencies
-	^ #('Regex-Core' 'System-VMEvents' 'System-Settings' 'FFI-Kernel') 
+	^ #('Reflectivity' 'Regex-Core' 'System-VMEvents' 'System-Settings' 'FFI-Kernel' ) 
