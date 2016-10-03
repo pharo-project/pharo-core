@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '19131 Deprecation: The method Object>>name called from ChangeSet>>#changeRecorderFor: has been deprecated.
-	https://pharo.fogbugz.com/f/cases/19131
+ ^ '18929 FastTable has a little blank on the left
+	https://pharo.fogbugz.com/f/cases/18929
 
-18979 Ignore some kernel and Network-UUID dependencies for the bootstrap
-	https://pharo.fogbugz.com/f/cases/18979
-
-19165 Integrate Epicea 8.0.3
-	https://pharo.fogbugz.com/f/cases/19165'
+19161 Failing tests in Kernel due to FullBlockClosure
+	https://pharo.fogbugz.com/f/cases/19161'

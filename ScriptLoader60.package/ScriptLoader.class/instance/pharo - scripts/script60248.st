@@ -1,4 +1,4 @@
-script60247
+script60248
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -52,7 +52,7 @@ EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
 Epicea-MartinDias.815.mcz
-EpiceaBrowsers-MartinDias.83.mcz
+EpiceaBrowsers-MartinDias.85.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
 FFI-Kernel-TheIntegrator.43.mcz
@@ -136,9 +136,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2427.mcz
+Kernel-TheIntegrator.2428.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.119.mcz
+Kernel-Tests-TheIntegrator.121.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -190,7 +190,7 @@ Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-TorstenBergmann.190.mcz
+Morphic-Widgets-FastTable-TheIntegrator.192.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
@@ -232,7 +232,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
 OmbuTests-MartinDias.7.mcz
-OpalCompiler-Core-TheIntegrator.864.mcz
+OpalCompiler-Core-TheIntegrator.866.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
