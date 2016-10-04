@@ -1,3 +1,3 @@
 next
 	"This method was automatically generated"
-	^ExternalData fromHandle: (handle pointerAt: 40) type: ExternalType void asPointerType
+	^SDL_PixelFormat fromHandle: (handle pointerAt: 41)

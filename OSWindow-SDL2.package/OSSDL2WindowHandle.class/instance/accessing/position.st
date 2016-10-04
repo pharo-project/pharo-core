@@ -1,6 +1,6 @@
 position
 	| x y |
-	x := ByteArray new: 4.
-	y := ByteArray new: 4.
+	x := ByteArray new: ExternalType long byteSize.
+	y := ByteArray new: ExternalType long byteSize.
 	handle getPositionX: x y: y.
 	^ ( x signedLongAt: 1) @ (y signedLongAt: 1)

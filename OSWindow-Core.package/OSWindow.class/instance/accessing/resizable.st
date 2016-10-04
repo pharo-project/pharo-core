@@ -1,0 +1,2 @@
+resizable
+	^ self validHandle resizable

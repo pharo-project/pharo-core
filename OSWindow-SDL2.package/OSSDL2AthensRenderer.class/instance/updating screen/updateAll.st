@@ -1,8 +1,3 @@
 updateAll
-	texture ifNil: [ ^ self ].
-	self checkSession.
+	self validate ifFalse: [ ^ self ].
 	texture updateTexturePixels: sdlSurface pixels pitch: sdlSurface pitch.
-	renderer
-		clear;
-		copy: texture;
-		present

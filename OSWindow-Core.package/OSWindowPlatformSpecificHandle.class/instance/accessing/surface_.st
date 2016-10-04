@@ -1,0 +1,2 @@
+surface: anObject
+	surface := anObject

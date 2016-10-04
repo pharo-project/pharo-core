@@ -1,0 +1,2 @@
+repeat: anObject
+	repeat := anObject

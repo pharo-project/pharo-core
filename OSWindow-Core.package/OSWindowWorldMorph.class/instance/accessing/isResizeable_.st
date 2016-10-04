@@ -1,0 +1,2 @@
+isResizeable: anObject
+	isResizeable := anObject

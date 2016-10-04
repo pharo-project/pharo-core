@@ -1,3 +1,3 @@
 Bloss
 	"This method was automatically generated"
-	^handle unsignedByteAt: 30
+	^handle unsignedByteAt: 31

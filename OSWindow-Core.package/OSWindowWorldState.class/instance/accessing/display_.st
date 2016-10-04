@@ -1,0 +1,2 @@
+display: anObject
+	display := anObject

@@ -1,0 +1,2 @@
+borderless
+	^ self validHandle borderless

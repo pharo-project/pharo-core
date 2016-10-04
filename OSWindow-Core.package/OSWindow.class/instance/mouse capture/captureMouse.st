@@ -1,0 +1,2 @@
+captureMouse
+	self validHandle captureMouse

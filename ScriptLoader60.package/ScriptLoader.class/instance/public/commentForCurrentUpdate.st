@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '19171 GToolkit Version 3.29
-	https://pharo.fogbugz.com/f/cases/19171'
+ ^ '19072 Integrate support for opening an extra Morphic world in an OSWindow
+	https://pharo.fogbugz.com/f/cases/19072'

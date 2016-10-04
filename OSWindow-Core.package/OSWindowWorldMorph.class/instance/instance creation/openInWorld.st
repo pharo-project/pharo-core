@@ -1,0 +1,2 @@
+openInWorld
+	^ self open

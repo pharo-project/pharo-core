@@ -1,0 +1,2 @@
+osWindowCloseButtonPressed
+	self delete

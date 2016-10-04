@@ -1,3 +1,0 @@
-getFlags
-
-	^handle getFlags.

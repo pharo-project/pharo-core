@@ -1,0 +1,2 @@
+title
+	^ self validHandle title

@@ -1,0 +1,2 @@
+platformSpecificHandle
+	^ self validHandle platformSpecificHandle

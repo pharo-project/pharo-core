@@ -1,3 +1,3 @@
 next: anObject
 	"This method was automatically generated"
-	handle pointerAt: 40 put: anObject getHandle.
+	handle pointerAt: 41 put: anObject getHandle.

@@ -1,2 +1,0 @@
-visitFingerMotionEvent: event
-	^nil

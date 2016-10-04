@@ -1,2 +1,2 @@
 exposed
-	self updateAll
+	self present

@@ -1,7 +1,7 @@
 open
 	| attrs |
 	attrs := OSWindowAttributes new.
-	attrs preferableDriver: OSSDL2MultiTouchDriver new;
+	attrs 
 		extent: self defaultExtent;
 		resizable: false;
 		position: 100@100.

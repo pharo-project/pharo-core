@@ -1,3 +1,3 @@
 Bmask
 	"This method was automatically generated"
-	^handle unsignedLongAt: 20
+	^handle unsignedLongAt: 21

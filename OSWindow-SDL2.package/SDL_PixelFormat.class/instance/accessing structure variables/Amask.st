@@ -1,3 +1,3 @@
 Amask
 	"This method was automatically generated"
-	^handle unsignedLongAt: 24
+	^handle unsignedLongAt: 25

@@ -1,9 +1,11 @@
 baseline23: spec 
         <version: '2.3-baseline'>
         
-        spec for: #common do: [
-		spec blessing: #baseline.
-		spec repository: 'http://www.smalltalkhub.com/mc/Pharo/Athens/main'. 
+	spec for: #common do: [
+		spec 
+			blessing: #baseline;
+			postLoadDoIt: #initializeClasses;
+			repository: 'http://www.smalltalkhub.com/mc/Pharo/Athens/main'. 
 
 		spec 
 			project: 'XMLParser' 

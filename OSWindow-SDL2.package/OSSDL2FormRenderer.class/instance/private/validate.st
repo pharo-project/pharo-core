@@ -1,6 +1,6 @@
 validate
 	form ifNil: [ ^ false ].
-	renderer ifNil: [ self createRenderer ].
-	(texture isNil or: [ form extent ~= extent ])
+	(renderer isNil or: [renderer isNull]) ifTrue: [ self createRenderer ].
+	(texture isNil or: [texture isNull or: [ form extent ~= extent ]])
 		ifTrue: [ self createTexture ].
 	^ true

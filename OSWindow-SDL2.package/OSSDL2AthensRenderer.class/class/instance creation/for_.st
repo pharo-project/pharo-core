@@ -1,10 +1,4 @@
 for: aWindowHandle
-
-	^ self new 
-		window: aWindowHandle;
-		checkSession;
-		createRenderer;
-		createTexture;
-		createSDLSurface;
-		createAthensSurface;
-		yourself.
+	^ self basicNew 
+		initializeWindowHandle: aWindowHandle;
+		yourself
