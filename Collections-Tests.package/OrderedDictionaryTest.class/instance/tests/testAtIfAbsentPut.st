@@ -1,7 +1,13 @@
 testAtIfAbsentPut
 	| dictionary |
 
-	dictionary := self dictionaryWithSingleAssociation.
-	self
-		assert: (dictionary at: self singleKey ifAbsentPut: [self newValue]) = self singleValue;
-		assert: (dictionary at: self newKey ifAbsentPut: [self newValue]) = self newValue.
+	dictionary := self emptyDictionary.
+	self orderedAssociations do: [:each |
+		self assert:
+			(dictionary
+				at: each key
+				ifAbsentPut: [each value]) = each value.
+		self assert:
+			(dictionary
+				at: each key
+				ifAbsentPut: [self fail]) = each value].

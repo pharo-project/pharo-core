@@ -1,2 +1,0 @@
-singleAssociation
-	^ self dictionaryAssociations first

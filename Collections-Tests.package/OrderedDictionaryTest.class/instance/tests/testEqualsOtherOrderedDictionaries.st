@@ -4,5 +4,5 @@ testEqualsOtherOrderedDictionaries
 			assertDictionary: self emptyDictionary
 			doesNotEqual: each new.
 		self
-			assertDictionary: self dictionaryWithAssociations
-			doesNotEqual: (each newFrom: self dictionaryAssociations)]
+			assertDictionary: self dictionaryWithOrderedAssociations
+			doesNotEqual: (each newFrom: self orderedAssociations)]

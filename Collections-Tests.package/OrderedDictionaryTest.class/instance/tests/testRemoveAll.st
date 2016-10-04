@@ -1,11 +1,13 @@
 testRemoveAll
-	| dictionary |
+	| dictionary removedKeys |
 
-	dictionary := self dictionaryWithAssociations.
-	self deny: dictionary isEmpty.
-	dictionary removeAll.
+	dictionary := self dictionaryWithOrderedAssociations.
+	removedKeys := dictionary keys.
 	self
-		assert: dictionary isEmpty;
-		assert: (dictionary orderedKeys allSatisfy: [:each | each isNil]).
-	dictionary addAll: self dictionaryAssociations.
-	self deny: dictionary isEmpty.
+		deny: dictionary isEmpty;
+		assert: dictionary removeAll == dictionary;
+		assert: dictionary isEmpty.
+	removedKeys do: [:each |
+		self
+			assertKey: each
+			wasRemovedfrom: dictionary].

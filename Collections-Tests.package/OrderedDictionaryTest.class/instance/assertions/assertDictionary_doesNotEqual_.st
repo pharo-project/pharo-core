@@ -1,4 +1,5 @@
-assertDictionary: aDictionary doesNotEqual: aSecondDictionary
+assertDictionary: aFirstDictionary doesNotEqual: aSecondDictionary
+	"test symmetric inequality"
 	self
-		deny: aDictionary = aSecondDictionary;
-		deny: aSecondDictionary = aDictionary
+		deny: aFirstDictionary = aSecondDictionary;
+		deny: aSecondDictionary = aFirstDictionary

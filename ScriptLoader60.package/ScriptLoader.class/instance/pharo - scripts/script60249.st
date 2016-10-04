@@ -1,4 +1,4 @@
-script60248
+script60249
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -29,13 +29,13 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-DoubleLinkedList-TheIntegrator.2.mcz
 Collections-DoubleLinkedListTests-TheIntegrator.2.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.249.mcz
+Collections-Sequenceable-TheIntegrator.252.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.84.mcz
-Collections-Unordered-TheIntegrator.242.mcz
+Collections-Tests-TheIntegrator.90.mcz
+Collections-Unordered-TheIntegrator.244.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Compiler-TheIntegrator.606.mcz
 Compression-TheIntegrator.180.mcz
@@ -138,7 +138,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2428.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.121.mcz
+Kernel-Tests-TheIntegrator.122.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -304,7 +304,7 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.297.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.770.mcz
+Slot-TheIntegrator.773.mcz
 Slot-Tests-TheIntegrator.99.mcz
 SmartSuggestions-TheIntegrator.253.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz

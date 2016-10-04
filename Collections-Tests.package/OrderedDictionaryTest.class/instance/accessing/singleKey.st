@@ -1,2 +1,0 @@
-singleKey
-	^ self singleAssociation key

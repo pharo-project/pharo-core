@@ -1,9 +1,12 @@
 testValuesDo
+	| dictionary |
+
+	dictionary := self emptyDictionary.
 	self
-		assertSelector: #valuesDo:
-		enumerates: #()
-		from: self emptyDictionary.
-	self
-		assertSelector: #valuesDo:
-		enumerates: self dictionaryValues
-		from: self dictionaryWithAssociations.
+		should: [:block | dictionary valuesDo: block]
+		enumerate: #().
+	self orderedAssociations withIndexDo: [:each :i |
+		dictionary add: each.
+		self
+			should: [:block | dictionary valuesDo: block]
+			enumerate: (self orderedValuesFirst: i)].

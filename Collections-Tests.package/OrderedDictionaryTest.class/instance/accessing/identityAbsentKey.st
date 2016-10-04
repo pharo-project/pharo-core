@@ -1,2 +1,2 @@
 identityAbsentKey
-	^ self singleKey copy
+	^ self orderedKeys first copy

@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18929 FastTable has a little blank on the left
-	https://pharo.fogbugz.com/f/cases/18929
+ ^ '19130 Deprecation: The method Object>>name in Slot
+	https://pharo.fogbugz.com/f/cases/19130
 
-19161 Failing tests in Kernel due to FullBlockClosure
-	https://pharo.fogbugz.com/f/cases/19161'
+19167 OrderedDictionary improvements
+	https://pharo.fogbugz.com/f/cases/19167'

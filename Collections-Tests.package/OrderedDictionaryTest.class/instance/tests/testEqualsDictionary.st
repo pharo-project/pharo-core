@@ -2,6 +2,7 @@ testEqualsDictionary
 	self
 		assertDictionary: self emptyDictionary
 		doesNotEqual: self emptyInternalDictionary.
+
 	self
-		assertDictionary: self dictionaryWithAssociations
+		assertDictionary: self dictionaryWithOrderedAssociations
 		doesNotEqual: self internalDictionaryWithAssociations.

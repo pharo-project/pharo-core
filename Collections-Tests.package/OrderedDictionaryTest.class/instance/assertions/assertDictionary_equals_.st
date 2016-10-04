@@ -1,6 +1,7 @@
-assertDictionary: aDictionary equals: aSecondDictionary
+assertDictionary: aFirstDictionary equals: aSecondDictionary
+	"test reflixive and symmetric equality"
 	self
-		assert: aDictionary = aDictionary;
+		assert: aFirstDictionary = aFirstDictionary;
+		assert: aFirstDictionary = aSecondDictionary;
 		assert: aSecondDictionary = aSecondDictionary;
-		assert: aDictionary = aSecondDictionary;
-		assert: aSecondDictionary = aDictionary
+		assert: aSecondDictionary = aFirstDictionary

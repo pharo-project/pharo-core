@@ -1,0 +1,2 @@
+dictionaryWithOrderedAssociations
+	^ self dictionaryClass newFrom: self orderedAssociations

@@ -1,7 +1,9 @@
 testIndexOfKey
 	| dictionary |
 
-	dictionary := self dictionaryWithAssociations.
-	dictionary keys withIndexDo: [:each :i |
-		self assert: (dictionary indexOfKey: each) = i].
-	self assert: (dictionary indexOfKey: self absentKey) isZero.
+	dictionary := self emptyDictionary.
+	self orderedAssociations withIndexDo: [:each :i |
+		self assert: (dictionary indexOfKey: each key) = 0.
+
+		dictionary add: each.
+		self assert: (dictionary indexOfKey: each key) = i].

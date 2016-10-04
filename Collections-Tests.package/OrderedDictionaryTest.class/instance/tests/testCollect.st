@@ -1,8 +1,10 @@
 testCollect
 	| dictionary |
 
-	dictionary := self dictionaryWithAssociations.
+	dictionary := self dictionaryWithOrderedAssociations.
 	self
-		assertIsDictionary: (dictionary collect: [:each | self newValue])
-		withAssociations:
-			(self dictionaryAssociations collect: [:each | each value: self newValue]).
+		assertIsDictionary:
+			(dictionary collect: [:each | each hash])
+		copiedFrom: dictionary
+		withOrderedAssociations:
+			(self orderedAssociations collect: [:each | each key -> each value hash]).
