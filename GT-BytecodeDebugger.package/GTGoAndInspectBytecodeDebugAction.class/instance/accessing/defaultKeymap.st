@@ -1,0 +1,3 @@
+defaultKeymap
+
+	^ $g meta

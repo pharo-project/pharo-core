@@ -1,0 +1,3 @@
+defaultKeymap
+
+	^ PharoShortcuts current acceptShortcut
