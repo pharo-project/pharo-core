@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '19166 Why Object>>#-> doesnt use Association class>>#key:value:?
-	https://pharo.fogbugz.com/f/cases/19166
+ ^ '19178 TabBar selectLastTab is not working
+	https://pharo.fogbugz.com/f/cases/19178
 
-19157 The method Pragma>>#selector called from MetacelloToolBox>>#modifySymbolicVersionMethodFor:symbolicVersionSpecsDo: has been depr
-	https://pharo.fogbugz.com/f/cases/19157
-
-19175 LongTestCase cleanup
-	https://pharo.fogbugz.com/f/cases/19175
-
-19177 SharedQueue does not implement #atEnd and #contents
-	https://pharo.fogbugz.com/f/cases/19177'
+19180 Var lookup broken
+	https://pharo.fogbugz.com/f/cases/19180'
