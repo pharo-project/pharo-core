@@ -1,3 +1,0 @@
-hasRun
-
-	^ RunStatus

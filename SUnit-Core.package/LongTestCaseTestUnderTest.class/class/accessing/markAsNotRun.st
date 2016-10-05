@@ -1,3 +1,0 @@
-markAsNotRun
-
-	^ RunStatus := false

@@ -1,4 +1,4 @@
-script60252
+script60253
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -29,12 +29,12 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-DoubleLinkedList-TheIntegrator.2.mcz
 Collections-DoubleLinkedListTests-TheIntegrator.2.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.252.mcz
+Collections-Sequenceable-TheIntegrator.254.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.90.mcz
+Collections-Tests-TheIntegrator.92.mcz
 Collections-Unordered-TheIntegrator.244.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Compiler-TheIntegrator.608.mcz
@@ -93,7 +93,7 @@ GT-SpotterExtensions-Core-StefanReichhart.216.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.59.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-AndreiChis.22.mcz
+GT-Tests-Spotter-AndreiChis.23.mcz
 GeneralRules-TheIntegrator.5.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2428.mcz
+Kernel-TheIntegrator.2430.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.122.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -170,7 +170,7 @@ Metacello-TestsMCCore-EstebanLorenzano.8.mcz
 Metacello-TestsMCResources-EstebanLorenzano.33.mcz
 Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
-Metacello-ToolBox-TheIntegrator.150.mcz
+Metacello-ToolBox-TheIntegrator.152.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
 Monticello-TheIntegrator.1162.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
@@ -288,7 +288,7 @@ Rubric-Tests-TheIntegrator.9.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.203.mcz
+SUnit-Core-TheIntegrator.206.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.62.mcz
