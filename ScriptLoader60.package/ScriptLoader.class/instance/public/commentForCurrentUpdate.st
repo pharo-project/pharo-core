@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19178 TabBar selectLastTab is not working
-	https://pharo.fogbugz.com/f/cases/19178
+ ^ '19182 LinkedList>>#select:thenDo: is slow
+	https://pharo.fogbugz.com/f/cases/19182
 
-19180 Var lookup broken
-	https://pharo.fogbugz.com/f/cases/19180'
+19181 TabManager should not stale focus from other widgets when tab content is ready
+	https://pharo.fogbugz.com/f/cases/19181'

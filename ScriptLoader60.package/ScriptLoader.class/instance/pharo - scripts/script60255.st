@@ -1,4 +1,4 @@
-script60254
+script60255
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -29,7 +29,7 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-DoubleLinkedList-TheIntegrator.2.mcz
 Collections-DoubleLinkedListTests-TheIntegrator.2.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.254.mcz
+Collections-Sequenceable-TheIntegrator.256.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
@@ -195,7 +195,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
-Morphic-Widgets-Tabs-TheIntegrator.27.mcz
+Morphic-Widgets-Tabs-TheIntegrator.29.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.25.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.62.mcz
