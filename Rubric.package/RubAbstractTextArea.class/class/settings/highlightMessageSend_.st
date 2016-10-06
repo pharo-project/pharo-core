@@ -1,0 +1,2 @@
+highlightMessageSend: aBoolean
+	HighlightMessageSend := aBoolean

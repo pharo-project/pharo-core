@@ -1,0 +1,3 @@
+getHoverHighlightSegment
+
+	^ self getSegmentOfClass: RubHoverHighlightSegmentMorph

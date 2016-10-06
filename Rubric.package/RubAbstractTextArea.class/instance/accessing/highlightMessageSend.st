@@ -1,0 +1,2 @@
+highlightMessageSend
+	^ self class highlightMessageSend

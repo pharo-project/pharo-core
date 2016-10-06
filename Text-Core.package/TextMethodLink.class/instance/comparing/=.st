@@ -1,5 +1,5 @@
 = anotherObject
-
-	^super = anotherObject 
-		and: [ selector = anotherObject selector 
-			and: [ browseSenders = anotherObject browseSenders ] ]
+	^ super = anotherObject
+		and: [ selector = anotherObject selector
+				and: [ browseSenders = anotherObject browseSenders
+						and: [ self sourceNodeInterval = anotherObject sourceNodeInterval ] ] ]
