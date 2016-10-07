@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18901 Highlight message send selector on mouse over
-	https://pharo.fogbugz.com/f/cases/18901'
+ ^ '19107 Rule "Eleminate unnecessary nots" suggest to introduce some bugs
+	https://pharo.fogbugz.com/f/cases/19107'
