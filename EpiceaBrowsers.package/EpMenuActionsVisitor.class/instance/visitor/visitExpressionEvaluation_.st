@@ -1,2 +1,0 @@
-visitExpressionEvaluation: anExpressionEvaluation
-	^ self visitEvent: anExpressionEvaluation

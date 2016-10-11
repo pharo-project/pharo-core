@@ -1,4 +1,4 @@
-script60257
+script60258
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -11,9 +11,9 @@ Athens-Cairo-NicolaiHess.123.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TheIntegrator.47.mcz
-Athens-Morphic-TheIntegrator.65.mcz
+Athens-Morphic-TheIntegrator.67.mcz
 Athens-Text-NicolaiHess.16.mcz
-Balloon-TheIntegrator.137.mcz
+Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
@@ -116,13 +116,13 @@ Glamour-Tests-Rubric-AndreiChis.35.mcz
 Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
-Graphics-Canvas-TheIntegrator.12.mcz
+Graphics-Canvas-TheIntegrator.14.mcz
 Graphics-Display Objects-TheIntegrator.179.mcz
 Graphics-Files-TheIntegrator.78.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Primitives-TheIntegrator.194.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
-Graphics-Tests-TheIntegrator.83.mcz
+Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.41.mcz
 HelpSystem-Core-TheIntegrator.159.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2430.mcz
+Kernel-TheIntegrator.2433.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.122.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -183,8 +183,8 @@ MonticelloGUI-TheIntegrator.427.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.580.mcz
-Morphic-Core-TheIntegrator.300.mcz
+Morphic-Base-TheIntegrator.582.mcz
+Morphic-Core-TheIntegrator.302.mcz
 Morphic-Examples-TheIntegrator.57.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
@@ -225,9 +225,9 @@ Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
-OSWindow-Core-RonieSalgado.115.mcz
+OSWindow-Core-TheIntegrator.117.mcz
 OSWindow-SDL2-RonieSalgado.106.mcz
-OSWindow-SDL2-Examples-RonieSalgado.14.mcz
+OSWindow-SDL2-Examples-TheIntegrator.16.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
@@ -353,7 +353,7 @@ System-Support-TheIntegrator.1262.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.779.mcz
+Tests-TheIntegrator.781.mcz
 Text-Core-TheIntegrator.62.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.122.mcz
@@ -371,7 +371,7 @@ Tool-Diff-TheIntegrator.43.mcz
 Tool-ExternalBrowser-TheIntegrator.51.mcz
 Tool-FileList-TheIntegrator.81.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.71.mcz
+Tool-Finder-TheIntegrator.73.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.25.mcz
 Tool-Profilers-TheIntegrator.33.mcz
@@ -381,7 +381,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.951.mcz
+Traits-TheIntegrator.952.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-SeanDeNigris.10.mcz

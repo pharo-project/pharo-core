@@ -4,7 +4,7 @@ closestPointTo: aPoint
 	self lineSegmentsDo: 
 			[:p1 :p2 | | dist curvePoint | 
 			curvePoint := aPoint nearestPointOnLineFrom: p1 to: p2.
-			dist := curvePoint dist: aPoint.
+			dist := curvePoint distanceTo: aPoint.
 			(closestPoint isNil or: [dist < minDist]) 
 				ifTrue: 
 					[closestPoint := curvePoint.
