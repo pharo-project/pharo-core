@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '19193 Halt once comment is bad
-	https://pharo.fogbugz.com/f/cases/19193
+ ^ '19203 Debugging code left in Encoders
+	https://pharo.fogbugz.com/f/cases/19203
 
-19195 Integrate Epicea 8.0.4
-	https://pharo.fogbugz.com/f/cases/19195
-
-15624 package info from explicit requirement in a trait chain
-	https://pharo.fogbugz.com/f/cases/15624
-
-19192 Point >> dist: -> Point >> distanceTo: 
-	https://pharo.fogbugz.com/f/cases/19192'
+19199 Enable / Disable options in context Menu in FastTable
+	https://pharo.fogbugz.com/f/cases/19199'

@@ -1,4 +1,4 @@
-script60258
+script60259
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -51,8 +51,8 @@ Deprecated60-TheIntegrator.10.mcz
 EmbeddedFreeType-TheIntegrator.28.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
-Epicea-MartinDias.815.mcz
-EpiceaBrowsers-MartinDias.85.mcz
+Epicea-MartinDias.816.mcz
+EpiceaBrowsers-MartinDias.86.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
 FFI-Kernel-TheIntegrator.43.mcz
@@ -232,7 +232,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
 OmbuTests-MartinDias.7.mcz
-OpalCompiler-Core-TheIntegrator.868.mcz
+OpalCompiler-Core-TheIntegrator.870.mcz
 OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
