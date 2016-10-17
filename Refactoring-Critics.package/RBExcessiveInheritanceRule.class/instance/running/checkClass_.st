@@ -1,4 +1,3 @@
 checkClass: aClass
 	(self basicCheck: aClass)
-			ifTrue: [ result addClass: aClass; addClass: aClass class ].
-		
+		ifTrue: [ result addClassAndMetaClassFor: aClass ]

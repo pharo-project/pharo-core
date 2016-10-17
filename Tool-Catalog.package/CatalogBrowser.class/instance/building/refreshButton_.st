@@ -2,5 +2,5 @@ refreshButton: aList
 	<menu>
 	aList
 		act: [ :presenter | self onRefreshFrom: presenter ]
-		icon: (self iconNamed: #glamorousRefresh)
+		iconName: #glamorousRefresh
 		entitled: 'Refresh'

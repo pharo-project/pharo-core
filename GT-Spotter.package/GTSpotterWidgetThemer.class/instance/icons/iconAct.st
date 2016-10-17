@@ -1,2 +1,2 @@
 iconAct
-	^ Smalltalk ui icons iconNamed: #glamorousAccept
+	^ self iconNamed: #glamorousAccept

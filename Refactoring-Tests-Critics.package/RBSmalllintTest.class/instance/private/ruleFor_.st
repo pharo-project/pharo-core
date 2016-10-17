@@ -1,2 +1,2 @@
-ruleFor: aSelector 
-	self ruleFor: aSelector plusSelectors: #()
+ruleFor: aTestSelector
+	self ruleFor: aTestSelector plusSelectors: #()

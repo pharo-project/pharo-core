@@ -1,0 +1,2 @@
+testClassNotReferenced
+	self classAndMetaClassRuleFor: self currentSelector

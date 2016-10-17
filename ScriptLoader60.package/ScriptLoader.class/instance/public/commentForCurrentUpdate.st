@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '19203 Debugging code left in Encoders
-	https://pharo.fogbugz.com/f/cases/19203
+ ^ '19198 Renaming Dialog does not focus OK button
+	https://pharo.fogbugz.com/f/cases/19198
 
-19199 Enable / Disable options in context Menu in FastTable
-	https://pharo.fogbugz.com/f/cases/19199'
+19196 Add empty protocol critic
+	https://pharo.fogbugz.com/f/cases/19196
+
+19201 iconNamed: part 4
+	https://pharo.fogbugz.com/f/cases/19201'

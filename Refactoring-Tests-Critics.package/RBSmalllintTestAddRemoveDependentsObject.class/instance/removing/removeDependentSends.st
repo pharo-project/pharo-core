@@ -1,0 +1,2 @@
+removeDependentSends
+	self removeDependent: #one

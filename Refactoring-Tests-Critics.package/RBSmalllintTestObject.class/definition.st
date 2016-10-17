@@ -1,4 +1,4 @@
-Object subclass: #RBSmalllintTestObject
+RBSmalllintTestSuperclassObject subclass: #RBSmalllintTestObject
 	instanceVariableNames: 'temporaryVariable'
 	classVariableNames: ''
 	poolDictionaries: ''

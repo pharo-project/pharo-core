@@ -4,6 +4,6 @@ menuCommandOn: aBuilder
 	<worldMenu>
 	(aBuilder item: #'Catalog Browser')
 		order: 0.19;
-		icon: (self iconNamed: #catalogIcon);
+		iconName: #catalogIcon;
 		parent: #Tools;
 		action: [ self open ]

@@ -1,3 +1,3 @@
 systemIcon
 
-	^ Smalltalk ui icons iconNamed: #collectionIcon
+	^ self iconNamed: #collectionIcon

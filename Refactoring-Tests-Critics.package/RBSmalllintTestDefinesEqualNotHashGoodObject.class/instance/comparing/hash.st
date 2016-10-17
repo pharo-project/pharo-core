@@ -1,0 +1,2 @@
+hash
+	^ self species identityHash

@@ -5,7 +5,7 @@ recreateOSWindow
 	attributes
 		extent: self extent;
 		title: Smalltalk shortImageName;
-		icon: (Smalltalk ui icons iconNamed: #pharoIcon).
+		icon: (self iconNamed: #pharoIcon).
 	driver := self pickMostSuitableWindowDriver.
 	attributes preferableDriver: driver.
 	osWindow := OSWindow createWithAttributes: attributes.

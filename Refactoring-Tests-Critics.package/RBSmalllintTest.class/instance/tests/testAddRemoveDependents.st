@@ -1,0 +1,2 @@
+testAddRemoveDependents
+	self classRuleFor: self currentSelector

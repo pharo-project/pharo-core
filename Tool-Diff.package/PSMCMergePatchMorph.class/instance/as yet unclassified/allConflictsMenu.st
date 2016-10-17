@@ -11,7 +11,7 @@ allConflictsMenu
 		enablementSelector: #hasAnyNonKeptConflicts.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallBackIcon);
+		icon: (self iconNamed: #smallBackIcon);
 		keyText: 'Shift+Cmd+c'.
 	menu
 		addToggle: 'Use incoming version of all' translated
@@ -21,7 +21,7 @@ allConflictsMenu
 		enablementSelector: #hasAnyNonIncomingConflicts.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallForwardIcon);
+		icon: (self iconNamed: #smallForwardIcon);
 		keyText: 'Shift+Cmd+g'.
 	menu
 		addToggle: 'Mark all as conflict' translated
@@ -31,6 +31,6 @@ allConflictsMenu
 		enablementSelector: #hasAnyNonConflictConflicts.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallCancelIcon);
+		icon: (self iconNamed: #smallCancelIcon);
 		keyText: 'Shift+Cmd+x'.
 	^ menu

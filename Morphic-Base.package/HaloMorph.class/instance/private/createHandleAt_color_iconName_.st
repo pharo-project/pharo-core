@@ -8,13 +8,11 @@ createHandleAt: aPoint color: aColor iconName: iconName
 			handle useRoundedCorners.
 			self setColor: aColor toHandle: handle]
 		ifFalse: [handle := EllipseMorph newBounds: bou color: aColor].
-	""
 	handle borderColor: aColor muchDarker.
 	handle wantsYellowButtonMenu: false.
-	""
 	iconName isNil
 		ifFalse: [| form | 
-			form := Smalltalk ui icons iconNamed: iconName ifNone: [].
+			form := self iconNamed: iconName.
 			form isNil
 				ifFalse: [| image | 
 					image := ImageMorph new.
@@ -22,5 +20,4 @@ createHandleAt: aPoint color: aColor iconName: iconName
 					image color: aColor contrastingForegroundColor.
 					image lock.
 					handle addMorphCentered: image]].
-	""
 	^ handle

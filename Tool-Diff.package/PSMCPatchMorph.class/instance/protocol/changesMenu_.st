@@ -4,7 +4,7 @@ changesMenu: m
 	| menu |
 	menu := self newMenu
 		addTitle: 'Changes'
-		icon: (Smalltalk ui icons iconNamed: #smallCopyIcon).
+		icon: (self iconNamed: #smallCopyIcon).
 	menu
 		addToggle: 'Browse class...' translated
 		target: self
@@ -24,7 +24,7 @@ changesMenu: m
 		enablementSelector: #selectionIsMethodChange.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallJustifiedIcon);
+		icon: (self iconNamed: #smallJustifiedIcon);
 		keyText: 'Cmd+v'.
 	menu
 		addToggle: 'Senders...' translated
@@ -34,7 +34,7 @@ changesMenu: m
 		enablementSelector: #selectionIsMethodChange.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallForwardIcon);
+		icon: (self iconNamed: #smallForwardIcon);
 		keyText: 'Cmd+n'.
 	menu
 		addToggle: 'Implementors...' translated
@@ -44,7 +44,7 @@ changesMenu: m
 		enablementSelector: #selectionIsMethodChange.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallDoItIcon);
+		icon: (self iconNamed: #smallDoItIcon);
 		keyText: 'Cmd+m'.
 	menu
 		addToggle: 'Install incoming version' translated
@@ -54,7 +54,7 @@ changesMenu: m
 		enablementSelector: #selectionIsMethodChange.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallUpdateIcon).
+		icon: (self iconNamed: #smallUpdateIcon).
 	menu
 		addToggle: 'Revert change' translated
 		target: self
@@ -62,7 +62,7 @@ changesMenu: m
 		getStateSelector: nil.
 	menu lastItem
 		font: self theme menuFont;
-		icon: (Smalltalk ui icons iconNamed: #smallCancelIcon).
+		icon: (self iconNamed: #smallCancelIcon).
 	menu
 		add: 'Expand All' translated
 		target: self model

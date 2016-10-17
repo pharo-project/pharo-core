@@ -6,5 +6,5 @@ startupLoaderMenuOn: aBuilder
 		parent: #SystemStartup;
 		order: 1;
 		help: 'Run startup "scripts';
-		icon: (Smalltalk ui icons iconNamed: #scriptManagerIcon).
+		iconName: #scriptManagerIcon.
 	aBuilder withSeparatorAfter

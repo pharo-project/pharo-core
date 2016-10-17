@@ -1,2 +1,2 @@
 icon
-	^ Smalltalk ui icons iconNamed: #publishIcon
+	^ self iconNamed: #publishIcon

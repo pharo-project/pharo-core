@@ -1,0 +1,2 @@
+mustNotBeReferenced
+	^ true

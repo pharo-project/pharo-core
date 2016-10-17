@@ -5,4 +5,4 @@ systemStartupMenuOn: aBuilder
 		parent: #System;
 		order: 2;
 		help: 'System startup related';
-		icon: (Smalltalk ui icons iconNamed: #scriptManagerIcon)
+		iconName: #scriptManagerIcon

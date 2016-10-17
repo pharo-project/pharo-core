@@ -1,0 +1,2 @@
+classEnvironmentWithAllObjectClasses
+	^ self classEnvironmentWithAll: RBSmalllintTestSuperclassObject withAllSubclasses

@@ -11,7 +11,7 @@ refactoringSubmenu: aBuilder
 	
 	(aBuilder item: #'Remove...')
 		action: [ target removeClassWithRefactoringEngine: target selectedClasses ];
-		icon: (self iconNamed: #removeIcon);
+		iconName: #removeIcon;
 		parent: #'Class Refactoring';
 		order: 100;
 		withSeparatorAfter.
