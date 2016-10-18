@@ -1,4 +1,4 @@
-script60261
+script60262
 
 	^ 'AST-Core-TheIntegrator.471.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2433.mcz
+Kernel-TheIntegrator.2435.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.122.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -257,7 +257,7 @@ Refactoring-Critics-TheIntegrator.293.mcz
 Refactoring-Environment-TheIntegrator.88.mcz
 Refactoring-Help-TheIntegrator.7.mcz
 Refactoring-Tests-Changes-TheIntegrator.40.mcz
-Refactoring-Tests-Core-TheIntegrator.145.mcz
+Refactoring-Tests-Core-TheIntegrator.147.mcz
 Refactoring-Tests-Critics-TheIntegrator.54.mcz
 Refactoring-Tests-Environment-TheIntegrator.30.mcz
 ReflectionMirrors-Primitives-TheIntegrator.7.mcz

@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '19210 Add styler support for period / semicolon / double colon / temp bar
-	https://pharo.fogbugz.com/f/cases/19210
+ ^ '19212 Namespace and BrowserEnvironment both now select meta class methods (update test case)
+	https://pharo.fogbugz.com/f/cases/19212
 
-19206 UIManager confirm does not allow to set true/false button labels and window title at the same time
-	https://pharo.fogbugz.com/f/cases/19206
-
-18811 remove pharo 5.0 inbox and metacello platform attributes
-	https://pharo.fogbugz.com/f/cases/18811'
+19213 closeTo:precision: should be introduced in Float
+	https://pharo.fogbugz.com/f/cases/19213'
