@@ -1,0 +1,3 @@
+leadingLetterPenalty
+
+	^ -3

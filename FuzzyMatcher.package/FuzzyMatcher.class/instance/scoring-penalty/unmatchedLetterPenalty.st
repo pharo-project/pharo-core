@@ -1,0 +1,3 @@
+unmatchedLetterPenalty
+
+	^ -1

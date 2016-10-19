@@ -1,0 +1,3 @@
+newFuzzer
+
+	^ fuzzyClass new

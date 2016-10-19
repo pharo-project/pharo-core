@@ -1,0 +1,3 @@
+separatorBonus
+
+	^ 5

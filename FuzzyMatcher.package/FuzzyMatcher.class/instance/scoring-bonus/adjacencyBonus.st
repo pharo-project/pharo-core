@@ -1,0 +1,3 @@
+adjacencyBonus
+
+	^ 5

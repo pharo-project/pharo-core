@@ -1,4 +1,4 @@
-script60263
+script60264
 
 	^ 'AST-Core-TheIntegrator.473.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -79,6 +79,8 @@ FuelPlatform-TheIntegrator.64.mcz
 FuelSystem-FileRegistry-EstebanLorenzano.3.mcz
 FuelTests-TheIntegrator.414.mcz
 FuelTools-Debugger-TheIntegrator.13.mcz
+FuzzyMatcher-TheIntegrator.18.mcz
+FuzzyMatcher-Tests-TheIntegrator.5.mcz
 GT-BytecodeDebugger-AndreiChis.33.mcz
 GT-Debugger-TheIntegrator.356.mcz
 GT-EventRecorder-JurajKubelka.71.mcz

@@ -1,0 +1,3 @@
+caseEqualBonus
+
+	^ 7

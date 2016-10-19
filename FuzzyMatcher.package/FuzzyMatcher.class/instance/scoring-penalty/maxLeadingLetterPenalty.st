@@ -1,0 +1,3 @@
+maxLeadingLetterPenalty
+
+	^ -9

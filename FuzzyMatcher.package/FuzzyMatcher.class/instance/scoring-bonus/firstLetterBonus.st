@@ -1,0 +1,3 @@
+firstLetterBonus
+
+	^ 12

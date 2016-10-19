@@ -1,0 +1,3 @@
+adjacentCaseEqualBonus
+
+	^ 3

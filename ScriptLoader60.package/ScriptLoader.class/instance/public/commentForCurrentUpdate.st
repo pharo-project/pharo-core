@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '17743 Focusorder is broken with Spec dialogs
-	https://pharo.fogbugz.com/f/cases/17743
+ ^ '18657 Rendering text in athens is broken
+	https://pharo.fogbugz.com/f/cases/18657
 
-19194 Failing Process tests while using FullBlockClosure
-	https://pharo.fogbugz.com/f/cases/19194
-
-19216  Add styler support for different temp vars (method/block arg/temps)
-	https://pharo.fogbugz.com/f/cases/19216'
+18616 FuzzyMatcher
+	https://pharo.fogbugz.com/f/cases/18616'
