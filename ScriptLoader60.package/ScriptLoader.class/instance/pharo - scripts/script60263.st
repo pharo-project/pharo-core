@@ -1,6 +1,6 @@
-script60262
+script60263
 
-	^ 'AST-Core-TheIntegrator.471.mcz
+	^ 'AST-Core-TheIntegrator.473.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
 Alien-TheIntegrator.37.mcz
 Announcements-Core-TheIntegrator.76.mcz
@@ -136,7 +136,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2435.mcz
+Kernel-TheIntegrator.2437.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.122.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -288,7 +288,7 @@ Rubric-Tests-TheIntegrator.9.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.206.mcz
+SUnit-Core-TheIntegrator.208.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.62.mcz
@@ -302,13 +302,13 @@ Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
-Shout-TheIntegrator.300.mcz
+Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.773.mcz
 Slot-Tests-TheIntegrator.99.mcz
 SmartSuggestions-TheIntegrator.256.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.522.mcz
+Spec-Core-TheIntegrator.524.mcz
 Spec-Debugger-TheIntegrator.278.mcz
 Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz

@@ -6,8 +6,9 @@ prepareForNewProcess: aProcess
 	processBlock := aProcess suspendedContext receiver.
 	processBlock isClosure ifFalse: [ ^self ]. "same case as in previous comment".
 	
-	args := aProcess suspendedContext arguments.
-	args ifNotEmpty: [ args := args first  "it the case when process created from block with args" ].
+	"Extracting the arguments from newProcessWith:"
+	args := aProcess suspendedContext home arguments.
+	args ifNotEmpty: [args := args first  "it the case when process created from block with args" ].
 
 	aProcess install: [ 
 			[processBlock valueWithArguments: args.

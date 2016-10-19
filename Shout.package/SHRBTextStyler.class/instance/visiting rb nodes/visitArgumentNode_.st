@@ -1,4 +1,4 @@
 visitArgumentNode: anArgumentNode
-	self 
-		addStyle: #argument
-		forNode: anArgumentNode.
+	| blockOrMethodArgStyle |
+	blockOrMethodArgStyle := self methodOrBlockArgStyleFor: anArgumentNode.
+	self addStyle: blockOrMethodArgStyle forNode: anArgumentNode
