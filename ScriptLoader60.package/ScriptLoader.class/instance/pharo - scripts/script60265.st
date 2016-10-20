@@ -1,4 +1,4 @@
-script60264
+script60265
 
 	^ 'AST-Core-TheIntegrator.473.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -7,12 +7,12 @@ Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.39.mcz
 Athens-Balloon-MarcusDenker.20.mcz
-Athens-Cairo-NicolaiHess.123.mcz
+Athens-Cairo-TheIntegrator.125.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TheIntegrator.47.mcz
 Athens-Morphic-TheIntegrator.67.mcz
-Athens-Text-NicolaiHess.16.mcz
+Athens-Text-HenrikNergaard.17.mcz
 Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
@@ -194,7 +194,7 @@ Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.195.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.74.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.75.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
 Morphic-Widgets-Tabs-TheIntegrator.29.mcz
@@ -239,7 +239,7 @@ OpalCompiler-Tests-TheIntegrator.367.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1389.mcz
+Polymorph-Widgets-TheIntegrator.1390.mcz
 Polymorph-Widgets-Rules-TheIntegrator.5.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
@@ -283,7 +283,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.402.mcz
+Rubric-TheIntegrator.405.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.9.mcz
 Rubric-Tests-TheIntegrator.9.mcz
