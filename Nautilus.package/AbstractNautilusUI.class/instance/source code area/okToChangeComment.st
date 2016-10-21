@@ -1,9 +1,9 @@
 okToChangeComment
 
 	| answer |
-	classCommentTextModel canDiscardEdits ifTrue: [^ true].
+	commentTextModel canDiscardEdits ifTrue: [^ true].
 	answer :=  self promptForCancel.
-	answer ifNil: [ ^ classCommentTextModel canDiscardEdits ];
+	answer ifNil: [ ^ commentTextModel canDiscardEdits ];
 			ifTrue: [ self acceptCommentFromView  ]
-			ifFalse: [  classCommentTextModel cancelEdits  ].	
-	^ classCommentTextModel canDiscardEdits
+			ifFalse: [  commentTextModel cancelEdits  ].	
+	^ commentTextModel canDiscardEdits

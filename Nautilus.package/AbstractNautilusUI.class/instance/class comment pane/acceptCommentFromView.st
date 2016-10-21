@@ -1,2 +1,0 @@
-acceptCommentFromView
-	self classCommentTextModel acceptEditsInView

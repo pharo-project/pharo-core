@@ -1,5 +1,5 @@
 buildCodePanelWithoutComment
 	sourceCodePanel removeAllMorphs.
-	self classCommentTextModel announcer unsubscribe: self.
-	classCommentTextModel := nil.
+	self commentTextModel announcer unsubscribe: self.
+	commentTextModel := nil.
 	sourceCodePanel addMorph: sourceTextWidget fullFrame: LayoutFrame identity
