@@ -1,0 +1,3 @@
+stepTimeIn: aSystemWindow
+	
+	^ self stepTime 

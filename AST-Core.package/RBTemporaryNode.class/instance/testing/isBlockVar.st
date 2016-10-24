@@ -1,4 +1,4 @@
 isBlockVar
-	"true if a variable node is defined by a block scope"
+	"true if a variable node is defined by a node whos parent is a block"
 
-	^ self binding scope isBlockScope
+	^  (self whoDefines: self name) parent isBlock
