@@ -1,16 +1,11 @@
-baseline33: spec
-	<version: '3.3-baseline'>
+baseline40: spec
+	<version: '4.0-baseline'>
 
 	spec for: #'common' do: [
 		spec blessing: #'baseline'.
-		spec description: 'Load FastTable renderer for Glamour'.
+		spec description: 'For Pharo 6.0'.
 		spec repository: 'http://smalltalkhub.com/mc/Moose/Glamour/main'.
 		
-		spec project: 'Rubric' with: [
-				spec
-					className: #ConfigurationOfRubric;
-					versionString: #'development';
-					repository: 'http://www.smalltalkhub.com/mc/Pharo/Rubric/main' ].
 		spec project: 'FastTable' with: [
 				spec
 					className: #ConfigurationOfFastTable;
@@ -35,10 +30,9 @@ baseline33: spec
 				spec requires: #('Glamour-Morphic-Brick' ). ];
 			package: 'Glamour-Tests-Core';
 			package: 'Glamour-Tests-Resources';
-			package: 'Glamour-Morphic-Theme' with: [
-				spec requires: #('Rubric' ). ];
+			package: 'Glamour-Morphic-Theme';
 			package: 'Glamour-Morphic-Widgets' with: [
-				spec requires: #('Rubric' 'Glamour-Morphic-Brick' ). ];
+				spec requires: #('Glamour-Morphic-Brick' ). ];
 			package: 'Glamour-Morphic-Renderer' with: [
 				spec requires: #('Glamour-Morphic-Widgets' 'Glamour-Core' ). ];
 			package: 'Glamour-Morphic-Pager' with: [
@@ -46,7 +40,7 @@ baseline33: spec
 			package: 'Glamour-Tests-Morphic' with: [
 				spec requires: #('Glamour-Morphic-Renderer' 'Glamour-Morphic-Brick' 'Glamour-Morphic-Pager' ). ];
 			package: 'Glamour-Rubric-Presentations' with: [
-				spec requires: #('Rubric' 'Glamour-Presentations' ). ];
+				spec requires: #('Glamour-Presentations' ). ];
 			package: 'Glamour-Tests-Rubric' with: [
 				spec requires: #('Glamour-Tests-Morphic' 'Glamour-Rubric-Presentations' ). ].
 		spec 
