@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19238 RBRenameTemporaryRefactoring do not set oldName if one of the optional precondition is not valid
-	https://pharo.fogbugz.com/f/cases/19238'
+ ^ '18351 Inspector goes CPU bound displaying some large Text
+	https://pharo.fogbugz.com/f/cases/18351
+
+19224 TestExecutionEnvironment should use Process ondo to insert default error handler
+	https://pharo.fogbugz.com/f/cases/19224'

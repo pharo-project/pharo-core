@@ -1,4 +1,4 @@
-script60268
+script60269
 
 	^ 'AST-Core-TheIntegrator.475.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -140,7 +140,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2439.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.122.mcz
+Kernel-Tests-TheIntegrator.124.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -283,14 +283,14 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.405.mcz
+Rubric-TheIntegrator.407.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.9.mcz
 Rubric-Tests-TheIntegrator.9.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.208.mcz
+SUnit-Core-TheIntegrator.210.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.62.mcz
