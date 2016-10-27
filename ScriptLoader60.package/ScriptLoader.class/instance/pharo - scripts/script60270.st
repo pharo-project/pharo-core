@@ -1,4 +1,4 @@
-script60269
+script60270
 
 	^ 'AST-Core-TheIntegrator.475.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
@@ -283,7 +283,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.407.mcz
+Rubric-TheIntegrator.409.mcz
 Rubric-Rules-TheIntegrator.5.mcz
 Rubric-Styling-TheIntegrator.9.mcz
 Rubric-Tests-TheIntegrator.9.mcz
@@ -310,16 +310,16 @@ Slot-TheIntegrator.773.mcz
 Slot-Tests-TheIntegrator.99.mcz
 SmartSuggestions-TheIntegrator.256.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.524.mcz
+Spec-Core-TheIntegrator.527.mcz
 Spec-Debugger-TheIntegrator.278.mcz
 Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.283.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.283.mcz
+Spec-MorphicAdapters-TheIntegrator.286.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.94.mcz
+Spec-Tests-TheIntegrator.97.mcz
 Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.119.mcz

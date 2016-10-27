@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '18351 Inspector goes CPU bound displaying some large Text
-	https://pharo.fogbugz.com/f/cases/18351
+ ^ '19231 Enable "Autoscale" in ImageModel
+	https://pharo.fogbugz.com/f/cases/19231
 
-19224 TestExecutionEnvironment should use Process ondo to insert default error handler
-	https://pharo.fogbugz.com/f/cases/19224'
+17765 Rubric cannot indent text
+	https://pharo.fogbugz.com/f/cases/17765'
