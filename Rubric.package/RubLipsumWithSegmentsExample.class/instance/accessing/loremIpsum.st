@@ -1,2 +1,2 @@
 loremIpsum
-	^ super loremIpsum copyFrom: 1 to: 2000
+	^ String loremIpsum: 2000
