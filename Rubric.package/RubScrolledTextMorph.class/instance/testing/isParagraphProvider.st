@@ -1,2 +1,0 @@
-isParagraphProvider
-	^ true

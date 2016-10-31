@@ -1,8 +1,8 @@
-script60271
+script60272
 
 	^ 'AST-Core-TheIntegrator.475.mcz
 AST-Tests-Core-TheIntegrator.125.mcz
-Alien-TheIntegrator.37.mcz
+Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.39.mcz
@@ -55,7 +55,7 @@ Epicea-MartinDias.816.mcz
 EpiceaBrowsers-TheIntegrator.88.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
-FFI-Kernel-TheIntegrator.43.mcz
+FFI-Kernel-EstebanLorenzano.41.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.212.mcz
 FileSystem-Disk-TheIntegrator.104.mcz
@@ -151,7 +151,7 @@ Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.183.mcz
 Manifest-Core-TheIntegrator.249.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
-Manifest-Tests-TheIntegrator.51.mcz
+Manifest-Tests-TheIntegrator.53.mcz
 MenuRegistration-TheIntegrator.89.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
@@ -210,7 +210,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.253.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1305.mcz
+Nautilus-TheIntegrator.1307.mcz
 Nautilus-GroupManager-TheIntegrator.21.mcz
 Nautilus-GroupManagerUI-TheIntegrator.41.mcz
 Nautilus-Tests-TheIntegrator.46.mcz
@@ -283,10 +283,10 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.411.mcz
-Rubric-Rules-TheIntegrator.5.mcz
-Rubric-Styling-TheIntegrator.9.mcz
-Rubric-Tests-TheIntegrator.9.mcz
+Rubric-TheIntegrator.413.mcz
+Rubric-Rules-TheIntegrator.6.mcz
+Rubric-Styling-TheIntegrator.10.mcz
+Rubric-Tests-TheIntegrator.10.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
@@ -306,8 +306,8 @@ ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.773.mcz
-Slot-Tests-TheIntegrator.99.mcz
+Slot-TheIntegrator.775.mcz
+Slot-Tests-TheIntegrator.101.mcz
 SmartSuggestions-TheIntegrator.256.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
 Spec-Core-TheIntegrator.527.mcz
@@ -392,9 +392,9 @@ TxText-Styler-HenrikNergaard.18.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.193.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-TheIntegrator.73.mcz
-UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
-UnifiedFFI-Tests-TheIntegrator.34.mcz
+UnifiedFFI-EstebanLorenzano.75.mcz
+UnifiedFFI-Legacy-TheIntegrator.4.mcz
+UnifiedFFI-Tests-EstebanLorenzano.35.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
 Versionner-Commit-TheIntegrator.38.mcz
