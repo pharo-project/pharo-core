@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '19255 Update TxText
-	https://pharo.fogbugz.com/f/cases/19255
+ ^ '19243 different parents in one ast tree
+	https://pharo.fogbugz.com/f/cases/19243
 
-19258 Remove isParagraphProvider
-	https://pharo.fogbugz.com/f/cases/19258
+19257 Uppercase bindings do not work
+	https://pharo.fogbugz.com/f/cases/19257
 
-19084 SmalllintManifestCheckerTest: failing tests
-	https://pharo.fogbugz.com/f/cases/19084
-
-19253 Methods to check is variable, global or slot is read or modified in given CompiledCode
-	https://pharo.fogbugz.com/f/cases/19253
-
-19261 Enable <example> methods to be executed
-	https://pharo.fogbugz.com/f/cases/19261'
+19269 QA update v3.2.8
+	https://pharo.fogbugz.com/f/cases/19269'

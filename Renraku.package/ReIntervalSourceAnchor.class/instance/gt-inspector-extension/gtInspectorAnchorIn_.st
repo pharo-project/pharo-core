@@ -1,5 +1,5 @@
 gtInspectorAnchorIn: composite
 	<gtInspectorPresentationOrder: 0>
 
-	(super gtInspectorSourceCodeIn: composite)
+	(super gtInspectorAnchorIn: composite)
 		initialize: [ :p | p selectionInterval: interval ]

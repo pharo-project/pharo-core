@@ -1,2 +1,2 @@
 pages
-	^ #(subclass nameRationale interestInEntities checking advancedChecking testing groupSeverity)
+	^ #(subclass nameRationale interestInEntities checking advancedChecking testing groupSeverity resetCache)

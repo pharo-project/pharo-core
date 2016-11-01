@@ -1,3 +1,3 @@
 glmCritiqueSourceIn: aGLMCompositePresentation 
 	
-	self gtInspectorSourceCodeIn: aGLMCompositePresentation
+	^ self gtInspectorSourceCodeIn: aGLMCompositePresentation

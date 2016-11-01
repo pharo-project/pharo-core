@@ -1,3 +1,3 @@
 supportedVersions
 
-	^ #(5 6)
+	^ #(6)

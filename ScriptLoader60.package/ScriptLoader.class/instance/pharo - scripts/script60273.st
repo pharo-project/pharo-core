@@ -1,7 +1,7 @@
-script60272
+script60273
 
-	^ 'AST-Core-TheIntegrator.475.mcz
-AST-Tests-Core-TheIntegrator.125.mcz
+	^ 'AST-Core-TheIntegrator.477.mcz
+AST-Tests-Core-TheIntegrator.127.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
 Announcements-Help-TheIntegrator.12.mcz
@@ -234,8 +234,8 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.210.mcz
 OmbuTests-MartinDias.7.mcz
-OpalCompiler-Core-TheIntegrator.870.mcz
-OpalCompiler-Tests-TheIntegrator.367.mcz
+OpalCompiler-Core-TheIntegrator.872.mcz
+OpalCompiler-Tests-TheIntegrator.370.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
@@ -386,7 +386,7 @@ Tools-Test-TheIntegrator.22.mcz
 Traits-TheIntegrator.952.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
-TxText-AthensTests-SeanDeNigris.10.mcz
+TxText-AthensTests-HenrikNergaard.13.mcz
 TxText-Model-MarcusDenker.67.mcz
 TxText-Styler-HenrikNergaard.18.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz

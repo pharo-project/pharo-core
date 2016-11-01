@@ -1,4 +1,4 @@
 glmCritiqueSourceIn: composite
 
-	self gtInspectorSourceIn: composite
+	^ self gtInspectorSourceIn: composite
 	
