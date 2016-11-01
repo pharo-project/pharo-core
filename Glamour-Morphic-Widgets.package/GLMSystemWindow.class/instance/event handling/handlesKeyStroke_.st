@@ -1,0 +1,2 @@
+handlesKeyStroke: evt
+	^ true

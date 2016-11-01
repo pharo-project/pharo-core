@@ -1,4 +1,4 @@
-script60273
+script60274
 
 	^ 'AST-Core-TheIntegrator.477.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -245,7 +245,7 @@ PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
 ProfStef-Help-TheIntegrator.16.mcz
 ProfStef-Tests-TheIntegrator.27.mcz
-QualityAssistant-TheIntegrator.113.mcz
+QualityAssistant-YuriyTymchuk.114.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
 RPackage-Core-TheIntegrator.442.mcz
@@ -273,8 +273,8 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-TheIntegrator.141.mcz
-Renraku-Help-YuriyTymchuk.2.mcz
+Renraku-YuriyTymchuk.143.mcz
+Renraku-Help-YuriyTymchuk.3.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
 Ring-Core-Kernel-TheIntegrator.248.mcz

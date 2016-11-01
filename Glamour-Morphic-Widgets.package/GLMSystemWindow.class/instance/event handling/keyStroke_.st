@@ -1,4 +1,4 @@
-handleKeyStroke: anEvent
+keyStroke: anEvent
 	| action |
 	action := self allKeystrokeActions detect: [:a | 
 		anEvent commandKeyPressed and: [ 
