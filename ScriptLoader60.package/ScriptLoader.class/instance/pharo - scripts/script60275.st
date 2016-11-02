@@ -1,4 +1,4 @@
-script60274
+script60275
 
 	^ 'AST-Core-TheIntegrator.477.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -85,11 +85,11 @@ GT-BytecodeDebugger-AndreiChis.33.mcz
 GT-Debugger-TheIntegrator.356.mcz
 GT-EventRecorder-JurajKubelka.71.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
-GT-Inspector-TheIntegrator.438.mcz
-GT-InspectorExtensions-Core-TheIntegrator.233.mcz
+GT-Inspector-AndreiChis.439.mcz
+GT-InspectorExtensions-Core-AndreiChis.234.mcz
 GT-Playground-TheIntegrator.133.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-TheIntegrator.404.mcz
+GT-Spotter-HenrikNergaard.405.mcz
 GT-Spotter-EventRecorder-JurajKubelka.113.mcz
 GT-SpotterExtensions-Core-StefanReichhart.216.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
@@ -105,10 +105,10 @@ Glamour-FastTable-PabloTesone.60.mcz
 Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-TheIntegrator.433.mcz
 Glamour-Morphic-Brick-Tests-JurajKubelka.15.mcz
-Glamour-Morphic-Pager-GuillermoPolito.110.mcz
-Glamour-Morphic-Renderer-EstebanLorenzano.351.mcz
+Glamour-Morphic-Pager-MarcusDenker.111.mcz
+Glamour-Morphic-Renderer-TudorGirba.352.mcz
 Glamour-Morphic-Theme-TheIntegrator.229.mcz
-Glamour-Morphic-Widgets-EstebanLorenzano.197.mcz
+Glamour-Morphic-Widgets-HenrikNergaard.198.mcz
 Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TheIntegrator.58.mcz
 Glamour-Tests-Core-PavelKrivanek.113.mcz
@@ -138,7 +138,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2441.mcz
+Kernel-TheIntegrator.2443.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.124.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -201,7 +201,7 @@ Morphic-Widgets-Tabs-TheIntegrator.29.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.25.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.64.mcz
-Morphic-Widgets-Windows-TheIntegrator.111.mcz
+Morphic-Widgets-Windows-TheIntegrator.113.mcz
 Multilingual-Encodings-TheIntegrator.63.mcz
 Multilingual-Languages-TheIntegrator.59.mcz
 Multilingual-OtherLanguages-TheIntegrator.22.mcz
@@ -373,7 +373,7 @@ Tool-Diff-TheIntegrator.45.mcz
 Tool-ExternalBrowser-TheIntegrator.53.mcz
 Tool-FileList-TheIntegrator.83.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.73.mcz
+Tool-Finder-TheIntegrator.75.mcz
 Tool-ImageCleaner-TheIntegrator.17.mcz
 Tool-ProcessBrowser-TheIntegrator.25.mcz
 Tool-Profilers-TheIntegrator.35.mcz
@@ -383,7 +383,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.952.mcz
+Traits-TheIntegrator.954.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-HenrikNergaard.13.mcz
