@@ -1,6 +1,6 @@
 defineCurrentVersionRepositoryButton: aList
 
-	<menu>
+	<menuOrder: 7>
 	aList
 		act: [ :presenter | self defineCurrentVersionRepositoryInMCBrowser ]
 		iconName: #komitterIcon

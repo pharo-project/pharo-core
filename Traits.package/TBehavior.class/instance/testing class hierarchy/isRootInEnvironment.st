@@ -1,0 +1,2 @@
+isRootInEnvironment
+	^self superclass isNil

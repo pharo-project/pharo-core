@@ -1,5 +1,5 @@
 installStableVersionButton: aList
-	<menu>
+	<menuOrder: 2>
 	aList
 		act: [ :presenter | self onInstallFrom: presenter ]
 		iconName: #glamorousAccept

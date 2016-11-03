@@ -1,6 +1,6 @@
 defineAllRepositoriesInMCBrowserButton: aList
 
-	<menu>
+	<menuOrder: 9>
 	aList
 		act: [ :presenter | self defineAllRepositoriesInMCBrowser ]
 		iconName: #monticelloPackageIcon

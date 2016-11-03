@@ -1,5 +1,5 @@
 loadConfigurationButton: aList
-	<menu>
+	<menuOrder: 4>
 	aList
 		act: [ :presenter | self onLoadFrom: presenter ]
 		iconName: #configIcon

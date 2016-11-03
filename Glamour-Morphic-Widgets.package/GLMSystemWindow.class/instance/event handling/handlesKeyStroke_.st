@@ -1,2 +1,0 @@
-handlesKeyStroke: evt
-	^ true

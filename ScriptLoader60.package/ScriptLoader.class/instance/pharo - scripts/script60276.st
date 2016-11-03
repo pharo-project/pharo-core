@@ -1,4 +1,4 @@
-script60275
+script60276
 
 	^ 'AST-Core-TheIntegrator.477.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -140,7 +140,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2443.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.124.mcz
+Kernel-Tests-TheIntegrator.126.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -355,7 +355,7 @@ System-Support-TheIntegrator.1264.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.781.mcz
+Tests-TheIntegrator.783.mcz
 Text-Core-TheIntegrator.62.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.124.mcz
@@ -363,7 +363,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
 Tool-Base-TheIntegrator.183.mcz
-Tool-Catalog-TheIntegrator.47.mcz
+Tool-Catalog-TheIntegrator.49.mcz
 Tool-CriticBrowser-TheIntegrator.61.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.15.mcz
@@ -383,7 +383,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.954.mcz
+Traits-TheIntegrator.955.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-HenrikNergaard.13.mcz
