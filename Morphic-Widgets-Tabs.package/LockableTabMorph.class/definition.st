@@ -1,4 +1,4 @@
-Tab subclass: #LockableTab
+TabMorph subclass: #LockableTabMorph
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

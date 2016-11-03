@@ -1,4 +1,4 @@
-Morph subclass: #Tab
+Morph subclass: #TabMorph
 	instanceVariableNames: 'closeable label morph state fadeOut retrievingBlock closeIcon actions menu retrievingProcess retrievingSemaphore model'
 	classVariableNames: 'Icons'
 	poolDictionaries: ''

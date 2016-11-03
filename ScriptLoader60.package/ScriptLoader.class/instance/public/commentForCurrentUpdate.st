@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19273 Icons of Catalog are not sorted by function
-	https://pharo.fogbugz.com/f/cases/19273
+ ^ '19236 Append Morph to Tab widgets classes which inherits from morph
+	https://pharo.fogbugz.com/f/cases/19236
 
-19270 Fix broken keyboard navigation
-	https://pharo.fogbugz.com/f/cases/19270
+19279 Improve printOn: on RBComment
+	https://pharo.fogbugz.com/f/cases/19279
 
-19246 New method to detect if class is root in own environment
-	https://pharo.fogbugz.com/f/cases/19246'
+18885 Ensure blocks in test tear down not always executed
+	https://pharo.fogbugz.com/f/cases/18885'

@@ -1,6 +1,6 @@
-script60276
+script60277
 
-	^ 'AST-Core-TheIntegrator.477.mcz
+	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
@@ -11,7 +11,7 @@ Athens-Cairo-TheIntegrator.125.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TheIntegrator.47.mcz
-Athens-Morphic-TheIntegrator.67.mcz
+Athens-Morphic-TheIntegrator.68.mcz
 Athens-Text-HenrikNergaard.17.mcz
 Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
@@ -108,7 +108,7 @@ Glamour-Morphic-Brick-Tests-JurajKubelka.15.mcz
 Glamour-Morphic-Pager-MarcusDenker.111.mcz
 Glamour-Morphic-Renderer-TudorGirba.352.mcz
 Glamour-Morphic-Theme-TheIntegrator.229.mcz
-Glamour-Morphic-Widgets-HenrikNergaard.198.mcz
+Glamour-Morphic-Widgets-HenrikNergaard.200.mcz
 Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TheIntegrator.58.mcz
 Glamour-Tests-Core-PavelKrivanek.113.mcz
@@ -138,9 +138,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2443.mcz
+Kernel-TheIntegrator.2444.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.126.mcz
+Kernel-Tests-TheIntegrator.127.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -187,7 +187,7 @@ MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.584.mcz
 Morphic-Core-TheIntegrator.304.mcz
-Morphic-Examples-TheIntegrator.59.mcz
+Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
@@ -197,7 +197,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.75.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
-Morphic-Widgets-Tabs-TheIntegrator.29.mcz
+Morphic-Widgets-Tabs-TheIntegrator.32.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.25.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.64.mcz
@@ -290,7 +290,7 @@ Rubric-Tests-TheIntegrator.10.mcz
 STON-Core-TheIntegrator.75.mcz
 STON-Tests-SvenVanCaekenberghe.64.mcz
 STON-Text support-TheIntegrator.2.mcz
-SUnit-Core-TheIntegrator.210.mcz
+SUnit-Core-TheIntegrator.212.mcz
 SUnit-Help-MarcusDenker.9.mcz
 SUnit-Rules-TheIntegrator.3.mcz
 SUnit-Tests-TheIntegrator.62.mcz
@@ -316,10 +316,10 @@ Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.283.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.286.mcz
+Spec-MorphicAdapters-TheIntegrator.288.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
-Spec-Tests-TheIntegrator.97.mcz
+Spec-Tests-TheIntegrator.99.mcz
 Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.119.mcz

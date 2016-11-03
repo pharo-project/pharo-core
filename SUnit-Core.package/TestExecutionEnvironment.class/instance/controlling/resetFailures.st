@@ -1,0 +1,2 @@
+resetFailures
+	failedProcesses removeAll

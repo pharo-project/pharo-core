@@ -2,5 +2,5 @@ initialize
 	super initialize.
 	
 	forkedProcesses := WeakSet new.
-	failedProcesses := Dictionary new.
+	failedProcesses := OrderedIdentityDictionary new.
 	testCompleted := false

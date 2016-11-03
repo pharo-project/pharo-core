@@ -1,0 +1,3 @@
+resetFailures
+
+	^CurrentExecutionEnvironment value resetFailures

@@ -1,0 +1,3 @@
+currentFailures
+
+	^CurrentExecutionEnvironment value failures

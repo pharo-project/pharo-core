@@ -1,0 +1,2 @@
+failures
+	^failedProcesses values

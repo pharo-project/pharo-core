@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 
-	toolbar := TabBar new.
+	toolbar := TabBarMorph new.
 	processes := OrderedCollection new.
 	self registerBarActions.
 	self registerShortcuts.

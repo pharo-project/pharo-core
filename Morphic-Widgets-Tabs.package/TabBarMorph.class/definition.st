@@ -1,4 +1,4 @@
-PanelMorph subclass: #TabBar
+PanelMorph subclass: #TabBarMorph
 	instanceVariableNames: 'tabs selectionHistory menuButton numberOfSelectedTabs'
 	classVariableNames: ''
 	poolDictionaries: ''
