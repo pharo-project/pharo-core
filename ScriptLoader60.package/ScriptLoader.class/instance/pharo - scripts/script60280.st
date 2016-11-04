@@ -1,4 +1,4 @@
-script60279
+script60280
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -23,19 +23,19 @@ BlueInk-Tests-TheIntegrator.12.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.90.mcz
 CodeImportCommandLineHandlers-TheIntegrator.13.mcz
-Collections-Abstract-TheIntegrator.331.mcz
+Collections-Abstract-TheIntegrator.333.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
 Collections-DoubleLinkedList-TheIntegrator.2.mcz
 Collections-DoubleLinkedListTests-TheIntegrator.2.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.256.mcz
+Collections-Sequenceable-TheIntegrator.258.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.92.mcz
-Collections-Unordered-TheIntegrator.244.mcz
+Collections-Tests-TheIntegrator.94.mcz
+Collections-Unordered-TheIntegrator.246.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Compiler-TheIntegrator.608.mcz
 Compression-TheIntegrator.180.mcz
@@ -185,7 +185,7 @@ MonticelloGUI-TheIntegrator.429.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.584.mcz
+Morphic-Base-TheIntegrator.586.mcz
 Morphic-Core-TheIntegrator.306.mcz
 Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz

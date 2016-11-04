@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19287 Sending translated should not be the responsibility of the client of a Setting - label: case
-	https://pharo.fogbugz.com/f/cases/19287'
+ ^ '19241 Bag flatCollect
+	https://pharo.fogbugz.com/f/cases/19241
+
+19292 referencePosition, originalCenter and originalAngle can be turned into instance variables in CircleMorph
+	https://pharo.fogbugz.com/f/cases/19292'

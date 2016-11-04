@@ -1,0 +1,2 @@
+originalCenter: anObject
+	originalCenter := anObject
