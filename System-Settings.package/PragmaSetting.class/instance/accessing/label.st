@@ -1,2 +1,2 @@
 label
-	^ label ifNil: [self name translated] ifNotNil: [label value translated]
+	^ label ifNil: [self name translated] ifNotNil: [label translated]

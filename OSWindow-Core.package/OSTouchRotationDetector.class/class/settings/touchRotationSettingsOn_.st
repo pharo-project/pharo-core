@@ -1,5 +1,5 @@
 touchRotationSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #rotationGesture)
-		label: 'Rotation' translated;
+		label: 'Rotation';
 		parent: #touchGestures

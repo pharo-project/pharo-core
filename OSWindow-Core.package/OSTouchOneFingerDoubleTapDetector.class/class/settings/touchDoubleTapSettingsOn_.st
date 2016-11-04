@@ -1,5 +1,5 @@
 touchDoubleTapSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #doubleTapGesture)
-		label: 'Double Tap' translated;
+		label: 'Double Tap';
 		parent: #touchGestures

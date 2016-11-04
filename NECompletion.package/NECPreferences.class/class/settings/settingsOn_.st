@@ -22,7 +22,7 @@ settingsOn: aBuilder
 					(aBuilder setting: #overrideModel)
 						label: 'Complete whole methods'.	
 					(aBuilder setting: #expandPrefixes)
-						label: 'Complete common prefixes using TAB in the suggested completions' translated.
+						label: 'Complete common prefixes using TAB in the suggested completions'.
 					(aBuilder setting: #useEnterToAccept)
 						label: 'Use ENTER to accept a suggested completion';
 						default: self defaultUseEnterToAccept.

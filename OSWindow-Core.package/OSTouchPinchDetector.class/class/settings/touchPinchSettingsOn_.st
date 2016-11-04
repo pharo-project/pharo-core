@@ -1,5 +1,5 @@
 touchPinchSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #pinchGesture)
-		label: 'Pinch' translated;
+		label: 'Pinch';
 		parent: #touchGestures

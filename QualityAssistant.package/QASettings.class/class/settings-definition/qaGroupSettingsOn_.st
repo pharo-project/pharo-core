@@ -1,5 +1,5 @@
 qaGroupSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #qualityAssistant)
-		label: 'QualityAssistant' translated;
+		label: 'QualityAssistant';
 		parent: #codeBrowsing.

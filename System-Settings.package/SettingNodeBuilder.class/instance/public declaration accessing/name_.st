@@ -1,2 +1,2 @@
-name: aStringOrBlockOrMessageSend
-	node item name: aStringOrBlockOrMessageSend.
+name: aString
+	node item name: aString
