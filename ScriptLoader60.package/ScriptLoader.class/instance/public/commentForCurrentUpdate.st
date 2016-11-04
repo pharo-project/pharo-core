@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '19236 Append Morph to Tab widgets classes which inherits from morph
-	https://pharo.fogbugz.com/f/cases/19236
+ ^ '19288 Sending translated should not be the responsibility of the client of a Setting - description: case
+	https://pharo.fogbugz.com/f/cases/19288
 
-19279 Improve printOn: on RBComment
-	https://pharo.fogbugz.com/f/cases/19279
-
-18885 Ensure blocks in test tear down not always executed
-	https://pharo.fogbugz.com/f/cases/18885'
+19298 Rule for settings description translation
+	https://pharo.fogbugz.com/f/cases/19298'

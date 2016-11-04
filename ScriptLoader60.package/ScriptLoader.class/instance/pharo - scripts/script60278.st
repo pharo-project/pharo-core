@@ -1,4 +1,4 @@
-script60277
+script60278
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -82,12 +82,12 @@ FuelTools-Debugger-TheIntegrator.13.mcz
 FuzzyMatcher-TheIntegrator.18.mcz
 FuzzyMatcher-Tests-TheIntegrator.5.mcz
 GT-BytecodeDebugger-AndreiChis.33.mcz
-GT-Debugger-TheIntegrator.356.mcz
-GT-EventRecorder-JurajKubelka.71.mcz
+GT-Debugger-TheIntegrator.358.mcz
+GT-EventRecorder-TheIntegrator.73.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
 GT-Inspector-AndreiChis.439.mcz
 GT-InspectorExtensions-Core-AndreiChis.234.mcz
-GT-Playground-TheIntegrator.133.mcz
+GT-Playground-TheIntegrator.135.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-HenrikNergaard.405.mcz
 GT-Spotter-EventRecorder-JurajKubelka.113.mcz
@@ -126,7 +126,7 @@ Graphics-Primitives-TheIntegrator.194.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
-Growl-TheIntegrator.41.mcz
+Growl-TheIntegrator.43.mcz
 HelpSystem-Core-TheIntegrator.162.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 Hiedra-MartinDias.145.mcz
@@ -186,7 +186,7 @@ MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.584.mcz
-Morphic-Core-TheIntegrator.304.mcz
+Morphic-Core-TheIntegrator.306.mcz
 Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
@@ -227,7 +227,7 @@ Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
 NonInteractiveTranscript-TheIntegrator.25.mcz
-OSWindow-Core-TheIntegrator.119.mcz
+OSWindow-Core-TheIntegrator.121.mcz
 OSWindow-SDL2-RonieSalgado.106.mcz
 OSWindow-SDL2-Examples-TheIntegrator.16.mcz
 OSWindow-Tests-RonieSalgado.3.mcz
@@ -273,7 +273,7 @@ Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
 Regex-Tests-Core-MarcusDenker.9.mcz
 ReleaseTests-TheIntegrator.33.mcz
-Renraku-YuriyTymchuk.143.mcz
+Renraku-TheIntegrator.145.mcz
 Renraku-Help-YuriyTymchuk.3.mcz
 Renraku-Test-YuriyTymchuk.21.mcz
 Ring-Core-Containers-TheIntegrator.45.mcz
@@ -302,7 +302,7 @@ Settings-Graphics-TheIntegrator.32.mcz
 Settings-Polymorph-TheIntegrator.96.mcz
 Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
-ShoreLine-Report-Settings-TommasoDalSasso.3.mcz
+ShoreLine-Report-Settings-TheIntegrator.5.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
@@ -348,6 +348,7 @@ System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.358.mcz
+System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-StephaneDucasse.18.mcz
 System-Sources-TheIntegrator.67.mcz

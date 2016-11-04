@@ -3,5 +3,5 @@ urlSettingsOn: aBuilder
 	(aBuilder setting: #stringUrl)
 		parent: #gt;
 		target: self;
-		description: 'The default URL for the Event Recorder server.' translated;
+		description: 'The default URL for the Event Recorder server.';
 		label: 'Event Recorder URL address'
