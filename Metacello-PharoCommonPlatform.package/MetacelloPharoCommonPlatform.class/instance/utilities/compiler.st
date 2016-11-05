@@ -1,2 +1,2 @@
 compiler
-	^ #Compiler asClass
+	^ self class environment at: #Compiler

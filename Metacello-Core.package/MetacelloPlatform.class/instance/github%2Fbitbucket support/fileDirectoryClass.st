@@ -1,3 +1,3 @@
 fileDirectoryClass
 
-	^ #FileDirectory asClass
+	^ self class environment at: #FileDirectory 

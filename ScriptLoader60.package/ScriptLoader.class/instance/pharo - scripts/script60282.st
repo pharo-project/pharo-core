@@ -1,4 +1,4 @@
-script60281
+script60282
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -138,9 +138,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2444.mcz
+Kernel-TheIntegrator.2447.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.127.mcz
+Kernel-Tests-TheIntegrator.130.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.200.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -156,12 +156,12 @@ MenuRegistration-TheIntegrator.89.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
-Metacello-Core-TheIntegrator.831.mcz
+Metacello-Core-TheIntegrator.833.mcz
 Metacello-FileTree-EstebanLorenzano.38.mcz
 Metacello-GitBasedRepository-TheIntegrator.24.mcz
 Metacello-GitHub-TheIntegrator.56.mcz
 Metacello-MC-TheIntegrator.741.mcz
-Metacello-PharoCommonPlatform-TheIntegrator.24.mcz
+Metacello-PharoCommonPlatform-TheIntegrator.26.mcz
 Metacello-Platform-TheIntegrator.5.mcz
 Metacello-ProfStef-TheIntegrator.22.mcz
 Metacello-Reference-EstebanLorenzano.38.mcz
@@ -186,7 +186,7 @@ MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.586.mcz
-Morphic-Core-TheIntegrator.306.mcz
+Morphic-Core-TheIntegrator.307.mcz
 Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.103.mcz
@@ -210,7 +210,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1309.mcz
+Nautilus-TheIntegrator.1310.mcz
 Nautilus-GroupManager-TheIntegrator.22.mcz
 Nautilus-GroupManagerUI-TheIntegrator.42.mcz
 Nautilus-Tests-TheIntegrator.47.mcz
@@ -248,8 +248,8 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-TheIntegrator.116.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
-RPackage-Core-TheIntegrator.442.mcz
-RPackage-Tests-TheIntegrator.195.mcz
+RPackage-Core-TheIntegrator.444.mcz
+RPackage-Tests-TheIntegrator.197.mcz
 Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.246.mcz
@@ -350,7 +350,7 @@ System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.360.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
-System-Sound-StephaneDucasse.18.mcz
+System-Sound-TheIntegrator.20.mcz
 System-Sources-TheIntegrator.67.mcz
 System-Support-TheIntegrator.1264.mcz
 System-Support-Rules-TheIntegrator.2.mcz
@@ -375,7 +375,7 @@ Tool-ExternalBrowser-TheIntegrator.53.mcz
 Tool-FileList-TheIntegrator.83.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.75.mcz
-Tool-ImageCleaner-TheIntegrator.17.mcz
+Tool-ImageCleaner-TheIntegrator.19.mcz
 Tool-ProcessBrowser-TheIntegrator.25.mcz
 Tool-Profilers-TheIntegrator.35.mcz
 Tool-SystemReporter-TheIntegrator.19.mcz
@@ -384,7 +384,7 @@ Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.22.mcz
-Traits-TheIntegrator.955.mcz
+Traits-TheIntegrator.957.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
 TxText-AthensTests-HenrikNergaard.13.mcz

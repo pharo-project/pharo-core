@@ -3,4 +3,5 @@ play
 	by sending beep to the default sound service.
 	The sound system will check if sounds are enabled."
 
-	(#SoundService asClassIfAbsent: [ ^ self ]) default new beep
+	self class environment at: #SoundService ifPresent: [ :soundService |
+		soundService default new beep ].

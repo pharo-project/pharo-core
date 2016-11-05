@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19302 Drag and drop a method to another package to make an extension in Nautilus does not work
-	https://pharo.fogbugz.com/f/cases/19302
+ ^ '19289 asClass users are still in the system
+	https://pharo.fogbugz.com/f/cases/19289
 
-19292 referencePosition, originalCenter and originalAngle can be turned into instance variables in CircleMorph
-	https://pharo.fogbugz.com/f/cases/19292
+19248 ByteArray>>#asExternalPointer uses fixed 32bites pointer size
+	https://pharo.fogbugz.com/f/cases/19248
 
-19241 Bag flatCollect
-	https://pharo.fogbugz.com/f/cases/19241'
+19278 Dynamic variables should be removed from the environment when no longer needed
+	https://pharo.fogbugz.com/f/cases/19278'
