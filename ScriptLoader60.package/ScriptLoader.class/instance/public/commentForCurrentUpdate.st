@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19289 asClass users are still in the system
-	https://pharo.fogbugz.com/f/cases/19289
+ ^ '19299 Missing border after dragging out of a window group
+	https://pharo.fogbugz.com/f/cases/19299
 
-19248 ByteArray>>#asExternalPointer uses fixed 32bites pointer size
-	https://pharo.fogbugz.com/f/cases/19248
+18286 Provide notice of missing package description in CatalogBrowser
+	https://pharo.fogbugz.com/f/cases/18286
 
-19278 Dynamic variables should be removed from the environment when no longer needed
-	https://pharo.fogbugz.com/f/cases/19278'
+19309 RBSourceRegexRefactoring calls not existing method on RBClass
+	https://pharo.fogbugz.com/f/cases/19309'

@@ -1,4 +1,4 @@
-script60282
+script60283
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -55,7 +55,7 @@ Epicea-MartinDias.816.mcz
 EpiceaBrowsers-TheIntegrator.88.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
-FFI-Kernel-EstebanLorenzano.41.mcz
+FFI-Kernel-EstebanLorenzano.42.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.212.mcz
 FileSystem-Disk-TheIntegrator.104.mcz
@@ -239,8 +239,8 @@ OpalCompiler-Tests-TheIntegrator.370.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1392.mcz
-Polymorph-Widgets-Rules-TheIntegrator.5.mcz
+Polymorph-Widgets-TheIntegrator.1394.mcz
+Polymorph-Widgets-Rules-TheIntegrator.7.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -254,7 +254,7 @@ Random-Core-TheIntegrator.6.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.246.mcz
 Refactoring-Changes-TheIntegrator.70.mcz
-Refactoring-Core-TheIntegrator.333.mcz
+Refactoring-Core-TheIntegrator.335.mcz
 Refactoring-Critics-TheIntegrator.293.mcz
 Refactoring-Environment-TheIntegrator.88.mcz
 Refactoring-Help-TheIntegrator.7.mcz
@@ -364,7 +364,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
 Tool-Base-TheIntegrator.185.mcz
-Tool-Catalog-TheIntegrator.49.mcz
+Tool-Catalog-TheIntegrator.50.mcz
 Tool-CriticBrowser-TheIntegrator.61.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.15.mcz
@@ -393,8 +393,8 @@ TxText-Styler-HenrikNergaard.18.mcz
 TxTextTests-Model-SeanDeNigris.29.mcz
 UIManager-TheIntegrator.195.mcz
 Unicode-Initialization-TheIntegrator.15.mcz
-UnifiedFFI-EstebanLorenzano.75.mcz
-UnifiedFFI-Legacy-TheIntegrator.4.mcz
+UnifiedFFI-EstebanLorenzano.77.mcz
+UnifiedFFI-Legacy-EstebanLorenzano.3.mcz
 UnifiedFFI-Tests-EstebanLorenzano.35.mcz
 UpdateStreamer-Core-TheIntegrator.34.mcz
 UpdateStreamer-Tests-TheIntegrator.9.mcz
