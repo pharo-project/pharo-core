@@ -3,7 +3,7 @@ color: aColor
 
 	aColor ifNil: [^self].
 	(lastColor = aColor and: [
-	self getModelState = (self valueOfProperty: #lastState)])
+	self getModelState = (self lastState)])
 		ifTrue: [^self].
 	super color: aColor.
 	self class gradientButtonLook ifTrue: [self adoptColor: aColor]

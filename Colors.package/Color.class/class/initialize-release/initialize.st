@@ -18,7 +18,6 @@ initialize
 	RedShift := 20.
 	GreenShift := 10.
 	BlueShift := 0.
-	RandomStream := Random new.
 	self initializeIndexedColors.
 	self initializeColorRegistry.
 	self initializeGrayToIndexMap.

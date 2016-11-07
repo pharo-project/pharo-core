@@ -1,0 +1,2 @@
+lastState: anObject
+	lastState := anObject

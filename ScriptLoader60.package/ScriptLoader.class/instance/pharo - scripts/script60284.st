@@ -1,4 +1,4 @@
-script60283
+script60284
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -17,6 +17,7 @@ Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
+BaselineOfPharoBootstrap-TheIntegrator.2.mcz
 BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
@@ -37,6 +38,7 @@ Collections-Support-TheIntegrator.67.mcz
 Collections-Tests-TheIntegrator.94.mcz
 Collections-Unordered-TheIntegrator.246.mcz
 Collections-Weak-TheIntegrator.108.mcz
+Colors-TheIntegrator.3.mcz
 Compiler-TheIntegrator.608.mcz
 Compression-TheIntegrator.180.mcz
 Compression-Tests-TheIntegrator.4.mcz
@@ -119,10 +121,10 @@ Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.14.mcz
-Graphics-Display Objects-TheIntegrator.179.mcz
+Graphics-Display Objects-TheIntegrator.181.mcz
 Graphics-Files-TheIntegrator.78.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
-Graphics-Primitives-TheIntegrator.194.mcz
+Graphics-Primitives-TheIntegrator.197.mcz
 Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
@@ -181,7 +183,7 @@ MonticelloConfigurations-TheIntegrator.74.mcz
 MonticelloFileServices-TheIntegrator.8.mcz
 MonticelloFileTree-Core-TheIntegrator.147.mcz
 MonticelloFileTree-FileSystem-Utilities-TheIntegrator.33.mcz
-MonticelloGUI-TheIntegrator.429.mcz
+MonticelloGUI-TheIntegrator.431.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
@@ -189,7 +191,7 @@ Morphic-Base-TheIntegrator.586.mcz
 Morphic-Core-TheIntegrator.307.mcz
 Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.103.mcz
+Morphic-Widgets-Basic-TheIntegrator.106.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.195.mcz
@@ -250,7 +252,7 @@ QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
 RPackage-Core-TheIntegrator.444.mcz
 RPackage-Tests-TheIntegrator.197.mcz
-Random-Core-TheIntegrator.6.mcz
+Random-Core-TheIntegrator.8.mcz
 Random-Tests-TheIntegrator.4.mcz
 RecentSubmissions-TheIntegrator.246.mcz
 Refactoring-Changes-TheIntegrator.70.mcz
