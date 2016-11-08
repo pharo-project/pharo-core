@@ -1,2 +1,2 @@
 classRegex
-	self model sourceCode: self classRegexText
+	self model refactorCode: self classRegexText

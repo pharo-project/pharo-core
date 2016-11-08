@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '19296 PluggableButtonMorph property lastState can be turned into an instance variable
-	https://pharo.fogbugz.com/f/cases/19296
+ ^ '18146 VirtualMachine>>loadModule: always fails
+	https://pharo.fogbugz.com/f/cases/18146
 
-19293 mouseOverBorderStyle property in IconicButton can be turned in instance variables
-	https://pharo.fogbugz.com/f/cases/19293
+19267 Can not accept "Code Rewrite" template for regex refactorings
+	https://pharo.fogbugz.com/f/cases/19267
 
-17456 use fasttable for the add to package MC repository
-	https://pharo.fogbugz.com/f/cases/17456
-
-19313 Move Color to Kernel
-	https://pharo.fogbugz.com/f/cases/19313
-
-19316 Integrate BaselineOfPharoBootstrap
-	https://pharo.fogbugz.com/f/cases/19316'
+19317 MethodClassifier order should be changed
+	https://pharo.fogbugz.com/f/cases/19317'
