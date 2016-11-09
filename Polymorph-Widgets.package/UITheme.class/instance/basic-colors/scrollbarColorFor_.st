@@ -3,5 +3,5 @@ scrollbarColorFor: aScrollbar
 
 	^self settings standardColorsOnly
 		ifTrue: [self settings scrollbarColor]
-		ifFalse: [(aScrollbar valueOfProperty: #lastPaneColor)
+		ifFalse: [aScrollbar lastPaneColor
 					 ifNil: [Color white]]

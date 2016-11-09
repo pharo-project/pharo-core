@@ -13,7 +13,6 @@ changeBorderWidth: evt
 			[:newPoint | handle deleteBalloon.
 			self halo ifNotNil: [:halo | halo addHandles]].
 	aHand attachMorph: handle.
-	handle setProperty: #helpAtCenter toValue: true.
 	handle showBalloon:
 'Move cursor farther from
 this point to increase border width.

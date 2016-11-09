@@ -1,0 +1,2 @@
+lastPaneColor: anObject
+	lastPaneColor := anObject

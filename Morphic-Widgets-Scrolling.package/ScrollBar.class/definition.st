@@ -1,5 +1,5 @@
 Slider subclass: #ScrollBar
-	instanceVariableNames: 'upButton downButton pagingArea scrollDelta pageDelta interval timeOfMouseDown timeOfLastScroll nextPageDirection currentScrollDelay'
+	instanceVariableNames: 'upButton downButton pagingArea scrollDelta pageDelta interval timeOfMouseDown timeOfLastScroll nextPageDirection currentScrollDelay lastPaneColor'
 	classVariableNames: 'ArrowImagesCache BoxesImagesCache'
 	poolDictionaries: ''
 	category: 'Morphic-Widgets-Scrolling'

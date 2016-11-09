@@ -1,4 +1,4 @@
-script60285
+script60286
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -17,7 +17,7 @@ Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
-BaselineOfPharoBootstrap-TheIntegrator.2.mcz
+BaselineOfPharoBootstrap-TheIntegrator.4.mcz
 BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
@@ -30,12 +30,12 @@ Collections-Atomic-TheIntegrator.16.mcz
 Collections-DoubleLinkedList-TheIntegrator.2.mcz
 Collections-DoubleLinkedListTests-TheIntegrator.2.mcz
 Collections-Native-TheIntegrator.19.mcz
-Collections-Sequenceable-TheIntegrator.258.mcz
+Collections-Sequenceable-TheIntegrator.261.mcz
 Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.94.mcz
+Collections-Tests-TheIntegrator.96.mcz
 Collections-Unordered-TheIntegrator.246.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Colors-TheIntegrator.3.mcz
@@ -187,8 +187,8 @@ MonticelloGUI-TheIntegrator.431.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.586.mcz
-Morphic-Core-TheIntegrator.307.mcz
+Morphic-Base-TheIntegrator.588.mcz
+Morphic-Core-TheIntegrator.309.mcz
 Morphic-Examples-TheIntegrator.62.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.106.mcz
@@ -198,7 +198,7 @@ Morphic-Widgets-FastTable-TheIntegrator.195.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.75.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
-Morphic-Widgets-Scrolling-TheIntegrator.35.mcz
+Morphic-Widgets-Scrolling-TheIntegrator.37.mcz
 Morphic-Widgets-Tabs-TheIntegrator.32.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.25.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
@@ -241,7 +241,7 @@ OpalCompiler-Tests-TheIntegrator.370.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1394.mcz
+Polymorph-Widgets-TheIntegrator.1395.mcz
 Polymorph-Widgets-Rules-TheIntegrator.7.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
