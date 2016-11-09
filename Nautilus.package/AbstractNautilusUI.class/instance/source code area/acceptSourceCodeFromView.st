@@ -1,2 +1,3 @@
 acceptSourceCodeFromView
+
 	self sourceTextModel acceptEditsInView

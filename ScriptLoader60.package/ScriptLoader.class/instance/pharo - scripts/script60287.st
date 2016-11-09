@@ -1,4 +1,4 @@
-script60286
+script60287
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -212,7 +212,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1311.mcz
+Nautilus-TheIntegrator.1312.mcz
 Nautilus-GroupManager-TheIntegrator.22.mcz
 Nautilus-GroupManagerUI-TheIntegrator.42.mcz
 Nautilus-Tests-TheIntegrator.47.mcz
