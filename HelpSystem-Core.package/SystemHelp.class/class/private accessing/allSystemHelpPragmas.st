@@ -1,2 +1,4 @@
 allSystemHelpPragmas
-	^(PragmaCollector filter: [:prag | prag keyword = self pragmaKeyword ]) reset collected
+	^ (PragmaCollector
+		filter: [ :prag | prag selector = self pragmaKeyword ]) reset
+		collected

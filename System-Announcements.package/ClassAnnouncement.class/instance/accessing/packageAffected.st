@@ -1,0 +1,2 @@
+packageAffected
+	^self classAffected package

@@ -1,5 +1,5 @@
 Object subclass: #Pragma
-	instanceVariableNames: 'method keyword arguments'
+	instanceVariableNames: 'method arguments selector'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Kernel-Pragmas'

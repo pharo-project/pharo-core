@@ -1,2 +1,2 @@
 setKeyword: aSymbol
-	keyword := aSymbol
+	selector := aSymbol

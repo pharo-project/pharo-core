@@ -1,0 +1,2 @@
+classTagAffected
+	^ownerPackage toTagName: categoryName 

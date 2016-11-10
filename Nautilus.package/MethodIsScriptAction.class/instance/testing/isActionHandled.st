@@ -1,4 +1,4 @@
 isActionHandled
-
 	^ method methodClass isMeta
-		and: [ method numArgs isZero and: [ method pragmas anySatisfy: [ :each | each keyword = #script ] ] ]
+		and: [ method numArgs isZero
+				and: [ method pragmas anySatisfy: [ :each | each selector = #script ] ] ]

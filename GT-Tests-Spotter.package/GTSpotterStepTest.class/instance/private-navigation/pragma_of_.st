@@ -1,4 +1,4 @@
 pragma: aSelector of: aCompiledMethod
-	^ aCompiledMethod pragmas 
-		detect: [ :each | each keyword = aSelector ] 
+	^ aCompiledMethod pragmas
+		detect: [ :each | each selector = aSelector ]
 		ifNone: [ nil ]

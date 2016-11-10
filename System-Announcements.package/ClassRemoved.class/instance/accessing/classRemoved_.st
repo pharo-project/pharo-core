@@ -1,3 +1,4 @@
-classRemoved: anObject
+classRemoved: aClass
 	
-	classRemoved := anObject
+	classRemoved := aClass.
+	ownerPackage := aClass package

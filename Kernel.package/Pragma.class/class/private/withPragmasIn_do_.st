@@ -1,2 +1,2 @@
 withPragmasIn: aClass do: aBlock
-	aClass selectorsAndMethodsDo: [ :selector :method | method pragmas do: aBlock ].
+	aClass methodsDo: [ :method | method pragmas do: aBlock ]
