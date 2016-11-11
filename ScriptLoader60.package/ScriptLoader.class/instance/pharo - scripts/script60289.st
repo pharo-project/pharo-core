@@ -1,4 +1,4 @@
-script60288
+script60289
 
 	^ 'AST-Core-TheIntegrator.479.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -15,9 +15,17 @@ Athens-Morphic-TheIntegrator.68.mcz
 Athens-Text-HenrikNergaard.17.mcz
 Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
+BaselineOfBasicTools-TheIntegrator.6.mcz
+BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
+BaselineOfIDE-TheIntegrator.6.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
+BaselineOfMorphic-TheIntegrator.12.mcz
+BaselineOfMorphicCore-TheIntegrator.7.mcz
 BaselineOfPharoBootstrap-TheIntegrator.4.mcz
+BaselineOfSUnit-TheIntegrator.4.mcz
+BaselineOfUI-TheIntegrator.4.mcz
+BaselineOfUnifiedFFI-TheIntegrator.4.mcz
 BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
@@ -68,7 +76,7 @@ FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
 Files-TheIntegrator.423.mcz
 Files-Tests-TheIntegrator.12.mcz
-Flashback-Decompiler-TheIntegrator.17.mcz
+Flashback-Decompiler-TheIntegrator.18.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.22.mcz
 FontInfrastructure-TheIntegrator.18.mcz
@@ -142,7 +150,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2448.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.131.mcz
+Kernel-Tests-TheIntegrator.132.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.202.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
@@ -349,7 +357,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.361.mcz
+System-Settings-TheIntegrator.362.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-TheIntegrator.20.mcz
