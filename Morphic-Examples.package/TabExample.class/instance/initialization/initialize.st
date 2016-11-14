@@ -2,7 +2,7 @@ initialize
 
 	super initialize.
 
-	manager := TabManager new.
+	manager := TabManagerMorph new.
 	manager
 		when: #tabManagerDeleted send: #delete to: self.
 	listModel := ListModel new.

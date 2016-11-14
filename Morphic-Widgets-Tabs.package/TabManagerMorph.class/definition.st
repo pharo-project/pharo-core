@@ -1,4 +1,4 @@
-PanelMorph subclass: #TabManager
+PanelMorph subclass: #TabManagerMorph
 	instanceVariableNames: 'toolbar container contentsWrapper processes model'
 	classVariableNames: ''
 	poolDictionaries: ''

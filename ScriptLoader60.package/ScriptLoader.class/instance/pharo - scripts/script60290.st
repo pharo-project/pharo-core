@@ -1,6 +1,6 @@
-script60289
+script60290
 
-	^ 'AST-Core-TheIntegrator.479.mcz
+	^ 'AST-Core-TheIntegrator.481.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
 Alien-eem.35.mcz
 Announcements-Core-TheIntegrator.76.mcz
@@ -11,7 +11,7 @@ Athens-Cairo-TheIntegrator.125.mcz
 Athens-CairoPools-NicolaiHess.14.mcz
 Athens-Core-AliakseiSyrel.57.mcz
 Athens-Examples-TheIntegrator.47.mcz
-Athens-Morphic-TheIntegrator.68.mcz
+Athens-Morphic-TheIntegrator.69.mcz
 Athens-Text-HenrikNergaard.17.mcz
 Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
@@ -195,9 +195,9 @@ MonticelloGUI-TheIntegrator.431.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.588.mcz
+Morphic-Base-TheIntegrator.590.mcz
 Morphic-Core-TheIntegrator.309.mcz
-Morphic-Examples-TheIntegrator.62.mcz
+Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.106.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
@@ -207,7 +207,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.75.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.37.mcz
-Morphic-Widgets-Tabs-TheIntegrator.32.mcz
+Morphic-Widgets-Tabs-TheIntegrator.34.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.25.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.64.mcz
@@ -220,7 +220,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1313.mcz
+Nautilus-TheIntegrator.1315.mcz
 Nautilus-GroupManager-TheIntegrator.22.mcz
 Nautilus-GroupManagerUI-TheIntegrator.42.mcz
 Nautilus-Tests-TheIntegrator.47.mcz
@@ -326,7 +326,7 @@ Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.283.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.288.mcz
+Spec-MorphicAdapters-TheIntegrator.290.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.99.mcz

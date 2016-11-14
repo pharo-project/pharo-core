@@ -1,3 +1,3 @@
 createActionButtonFor: anAction
 
-	^ TabActionButton forAction: anAction
+	^ TabActionButtonMorph forAction: anAction

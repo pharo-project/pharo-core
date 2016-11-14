@@ -1,4 +1,4 @@
-MultistateButtonMorph subclass: #TabActionButton
+MultistateButtonMorph subclass: #TabActionButtonMorph
 	instanceVariableNames: 'icon'
 	classVariableNames: ''
 	poolDictionaries: ''

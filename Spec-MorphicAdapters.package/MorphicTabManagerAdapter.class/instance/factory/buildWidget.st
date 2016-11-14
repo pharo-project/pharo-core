@@ -1,5 +1,5 @@
 buildWidget
-	^ TabManager new
+	^ TabManagerMorph new
 		model: self model;
 		setTabs: self getTabs;
 		when: #tabSelected send: #tabSelected: to: self;
