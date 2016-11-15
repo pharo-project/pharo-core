@@ -1,4 +1,4 @@
-script60292
+script60293
 
 	^ 'AST-Core-TheIntegrator.481.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -357,7 +357,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.365.mcz
+System-Settings-TheIntegrator.368.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.13.mcz
 System-Sound-TheIntegrator.20.mcz
