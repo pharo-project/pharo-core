@@ -1,2 +1,2 @@
 hasPragmaNamed: aSymbol
-	^ self pragmas anySatisfy: [ :pragma | pragma selector = aSymbol ]
+	^ self pragmas anySatisfy: [ :pragma | pragma keyword = aSymbol ]

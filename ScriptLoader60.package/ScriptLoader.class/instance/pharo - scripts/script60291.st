@@ -1,4 +1,4 @@
-script60290
+script60291
 
 	^ 'AST-Core-TheIntegrator.481.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -57,7 +57,7 @@ Debugger-Tests-TheIntegrator.4.mcz
 DebuggerActions-TheIntegrator.87.mcz
 DebuggerFilters-TheIntegrator.9.mcz
 DebuggerModel-TheIntegrator.130.mcz
-Deprecated60-TheIntegrator.12.mcz
+Deprecated60-TheIntegrator.14.mcz
 EmbeddedFreeType-TheIntegrator.30.mcz
 EmbeddedFreeType-Tests-TheIntegrator.4.mcz
 EmergencyEvaluator-TheIntegrator.35.mcz
@@ -105,7 +105,7 @@ GT-SpotterExtensions-Core-StefanReichhart.216.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.59.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-TheIntegrator.25.mcz
+GT-Tests-Spotter-TheIntegrator.27.mcz
 GeneralRules-TheIntegrator.5.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
@@ -137,7 +137,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.45.mcz
-HelpSystem-Core-TheIntegrator.164.mcz
+HelpSystem-Core-TheIntegrator.166.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 Hiedra-MartinDias.145.mcz
 HiedraTests-MartinDias.2.mcz
@@ -148,13 +148,13 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2448.mcz
+Kernel-TheIntegrator.2450.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.132.mcz
+Kernel-Tests-TheIntegrator.134.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
-Keymapping-Core-TheIntegrator.202.mcz
+Keymapping-Core-TheIntegrator.204.mcz
 Keymapping-KeyCombinations-TheIntegrator.62.mcz
-Keymapping-Pragmas-TheIntegrator.60.mcz
+Keymapping-Pragmas-TheIntegrator.62.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.109.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
@@ -162,7 +162,7 @@ Komitter-TheIntegrator.183.mcz
 Manifest-Core-TheIntegrator.249.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.53.mcz
-MenuRegistration-TheIntegrator.91.mcz
+MenuRegistration-TheIntegrator.93.mcz
 MessageBrowserRefactoringAddition-StephaneDucasse.2.mcz
 Metacello-Base-EstebanLorenzano.126.mcz
 Metacello-Bitbucket-EstebanLorenzano.8.mcz
@@ -220,7 +220,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1315.mcz
+Nautilus-TheIntegrator.1316.mcz
 Nautilus-GroupManager-TheIntegrator.22.mcz
 Nautilus-GroupManagerUI-TheIntegrator.42.mcz
 Nautilus-Tests-TheIntegrator.47.mcz
@@ -318,9 +318,9 @@ Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.775.mcz
 Slot-Tests-TheIntegrator.101.mcz
-SmartSuggestions-TheIntegrator.258.mcz
+SmartSuggestions-TheIntegrator.260.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
-Spec-Core-TheIntegrator.529.mcz
+Spec-Core-TheIntegrator.531.mcz
 Spec-Debugger-TheIntegrator.278.mcz
 Spec-Examples-TheIntegrator.129.mcz
 Spec-Help-TheIntegrator.13.mcz
@@ -357,7 +357,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.362.mcz
+System-Settings-TheIntegrator.364.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.11.mcz
 System-Sound-TheIntegrator.20.mcz
