@@ -1,4 +1,4 @@
 buildPragma: aPragma
 	currentPragma := aPragma.
-	self perform: aPragma selector withArguments: aPragma arguments.
+	self perform: aPragma keyword withArguments: aPragma arguments.
 	^ nodeList

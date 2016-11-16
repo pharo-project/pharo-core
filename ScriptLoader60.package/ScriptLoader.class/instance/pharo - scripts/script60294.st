@@ -1,4 +1,4 @@
-script60293
+script60294
 
 	^ 'AST-Core-TheIntegrator.481.mcz
 AST-Tests-Core-TheIntegrator.127.mcz
@@ -76,7 +76,7 @@ FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
 Files-TheIntegrator.423.mcz
 Files-Tests-TheIntegrator.12.mcz
-Flashback-Decompiler-TheIntegrator.19.mcz
+Flashback-Decompiler-EstebanLorenzano.21.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
 FontChooser-TheIntegrator.22.mcz
 FontInfrastructure-TheIntegrator.18.mcz
@@ -357,7 +357,7 @@ System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.36.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.368.mcz
+System-Settings-EstebanLorenzano.369.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.13.mcz
 System-Sound-TheIntegrator.20.mcz
