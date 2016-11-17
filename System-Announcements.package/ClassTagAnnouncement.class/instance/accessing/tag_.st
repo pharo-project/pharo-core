@@ -1,0 +1,2 @@
+tag: anObject
+	tag := anObject
