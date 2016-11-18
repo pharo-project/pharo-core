@@ -1,2 +1,0 @@
-systemIcon
-	^ self iconNamed: #traitIcon

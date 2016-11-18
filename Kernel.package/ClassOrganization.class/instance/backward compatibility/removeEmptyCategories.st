@@ -1,6 +1,9 @@
 removeEmptyCategories
-	| oldCategories |
+	| oldCategories removedProtocols |
 	
 	oldCategories := self protocolOrganizer allProtocolsNames copy.
-	self protocolOrganizer removeEmptyProtocols.
+	
+	removedProtocols := self protocolOrganizer removeEmptyProtocols.	
+	removedProtocols do: [ :each |  self notifyOfRemovedCategory: each name ].
+	
 	self notifyOfChangedCategoriesFrom: oldCategories to: self protocolOrganizer allProtocolsNames.

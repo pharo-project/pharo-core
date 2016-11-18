@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19350 SystemAnnouncer cannot be reset in minimal/bootstrapped Pharo
-	https://pharo.fogbugz.com/f/cases/19350
+ ^ '19329 New SystemAnnouncement is needed to signal that class modification was completely installed
+	https://pharo.fogbugz.com/f/cases/19329
 
-19328 Undeclared ShortRunArray again
-	https://pharo.fogbugz.com/f/cases/19328
+19303 Classes should define systemIconName instead of systemIcon
+	https://pharo.fogbugz.com/f/cases/19303
 
-19326 failing test: testClassRespectsPolymorphismWithTrait
-	https://pharo.fogbugz.com/f/cases/19326'
+19359 ProtocolRemoved is not announced when Nautilus removes empty protocols
+	https://pharo.fogbugz.com/f/cases/19359'

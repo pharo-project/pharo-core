@@ -1,4 +1,5 @@
 removeEmptyProtocols
-	
-	(self protocols select: [:e | e isEmpty and: [ e canBeRemoved ] ]) 
-		do: [:p | self removeProtocol: p ]
+	| removedProtocols |
+	removedProtocols := protocols select: [:e | e isEmpty and: [ e canBeRemoved ] ].
+	removedProtocols do: [:each | self removeProtocol: each].
+	^removedProtocols

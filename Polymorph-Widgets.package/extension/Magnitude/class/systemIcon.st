@@ -1,3 +1,0 @@
-systemIcon
-
-	^ self iconNamed: #magnitudeIcon

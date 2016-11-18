@@ -1,0 +1,2 @@
+modifiedClass: anObject
+	modifiedClass := anObject

@@ -1,0 +1,3 @@
+systemIconName
+
+	^ #exceptionIcon

@@ -1,4 +1,4 @@
-script60296
+script60297
 
 	^ 'AST-Core-TheIntegrator.482.mcz
 AST-Tests-Core-TheIntegrator.129.mcz
@@ -148,7 +148,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2451.mcz
+Kernel-TheIntegrator.2453.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.134.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -249,8 +249,8 @@ OpalCompiler-Tests-TheIntegrator.370.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1395.mcz
-Polymorph-Widgets-Rules-TheIntegrator.7.mcz
+Polymorph-Widgets-TheIntegrator.1397.mcz
+Polymorph-Widgets-Rules-TheIntegrator.8.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
 ProfStef-Help-TheIntegrator.16.mcz
@@ -316,7 +316,7 @@ ShoreLine-Report-Settings-TheIntegrator.7.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
 Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
-Slot-TheIntegrator.775.mcz
+Slot-TheIntegrator.778.mcz
 Slot-Tests-TheIntegrator.101.mcz
 SmartSuggestions-TheIntegrator.260.mcz
 SmartSuggestions-Tests-TheIntegrator.38.mcz
@@ -332,7 +332,7 @@ Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.99.mcz
 Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
-System-Announcements-TheIntegrator.131.mcz
+System-Announcements-TheIntegrator.132.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
 System-CachingTests-TheIntegrator.19.mcz

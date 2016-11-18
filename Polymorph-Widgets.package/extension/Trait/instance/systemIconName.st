@@ -1,0 +1,2 @@
+systemIconName
+	^ #traitIcon
