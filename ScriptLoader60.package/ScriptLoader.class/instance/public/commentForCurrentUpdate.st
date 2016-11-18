@@ -1,12 +1,9 @@
 commentForCurrentUpdate
- ^ '19335 Syntax highlighting do not work on methods with primitives that uses "ec"
-	https://pharo.fogbugz.com/f/cases/19335
+ ^ '19350 SystemAnnouncer cannot be reset in minimal/bootstrapped Pharo
+	https://pharo.fogbugz.com/f/cases/19350
 
-19340 Can not step over methods with meta links
-	https://pharo.fogbugz.com/f/cases/19340
+19328 Undeclared ShortRunArray again
+	https://pharo.fogbugz.com/f/cases/19328
 
-19343 Spec is now dependent on FastTable
-	https://pharo.fogbugz.com/f/cases/19343
-
-19351 ClassTagAnnouncement is needed to describe operations with class tags
-	https://pharo.fogbugz.com/f/cases/19351'
+19326 failing test: testClassRespectsPolymorphismWithTrait
+	https://pharo.fogbugz.com/f/cases/19326'

@@ -1,9 +1,9 @@
-script60295
+script60296
 
 	^ 'AST-Core-TheIntegrator.482.mcz
 AST-Tests-Core-TheIntegrator.129.mcz
 Alien-eem.35.mcz
-Announcements-Core-TheIntegrator.76.mcz
+Announcements-Core-TheIntegrator.78.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.39.mcz
 Athens-Balloon-MarcusDenker.20.mcz
@@ -65,7 +65,7 @@ Epicea-MartinDias.816.mcz
 EpiceaBrowsers-TheIntegrator.88.mcz
 EpiceaBrowsersTests-TheIntegrator.7.mcz
 EpiceaTests-MartinDias.8.mcz
-FFI-Kernel-EstebanLorenzano.42.mcz
+FFI-Kernel-TheIntegrator.44.mcz
 FFI-Pools-eem.3.mcz
 FileSystem-Core-TheIntegrator.212.mcz
 FileSystem-Disk-TheIntegrator.104.mcz
@@ -220,13 +220,13 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1316.mcz
-Nautilus-GroupManager-TheIntegrator.22.mcz
-Nautilus-GroupManagerUI-TheIntegrator.42.mcz
-Nautilus-Tests-TheIntegrator.47.mcz
-NautilusCommon-TheIntegrator.321.mcz
-NautilusGroupAutoBuilder-TheIntegrator.17.mcz
-NautilusRefactoring-TheIntegrator.306.mcz
+Nautilus-TheIntegrator.1318.mcz
+Nautilus-GroupManager-TheIntegrator.23.mcz
+Nautilus-GroupManagerUI-TheIntegrator.43.mcz
+Nautilus-Tests-TheIntegrator.48.mcz
+NautilusCommon-TheIntegrator.322.mcz
+NautilusGroupAutoBuilder-TheIntegrator.18.mcz
+NautilusRefactoring-TheIntegrator.307.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.52.mcz
@@ -332,7 +332,7 @@ Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.99.mcz
 Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
-System-Announcements-TheIntegrator.130.mcz
+System-Announcements-TheIntegrator.131.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
 System-CachingTests-TheIntegrator.19.mcz
