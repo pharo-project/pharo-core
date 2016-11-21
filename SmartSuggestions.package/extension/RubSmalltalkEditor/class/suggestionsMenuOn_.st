@@ -1,4 +1,4 @@
-menuOn: aBuilder
+suggestionsMenuOn: aBuilder
 	<RubSmalltalkCodeMenu>
 	aBuilder
 		item: 'Suggestions...';

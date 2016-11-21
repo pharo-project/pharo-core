@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19378 Rendering text in athens is broken (still not fixed)
+update60298
+	"self new update60298"
+	self withUpdateLog: '19378 Rendering text in athens is broken (still not fixed)
 	https://pharo.fogbugz.com/f/cases/19378
 
 19363 remove dependency of Rubric on SmartSuggestions
@@ -12,4 +13,8 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19358
 
 19373 MethodFinder class>>#methodFor: should provide sorted result
-	https://pharo.fogbugz.com/f/cases/19373'
+	https://pharo.fogbugz.com/f/cases/19373'.
+	self loadTogether: self script60298 merge: false.
+	
+CairoGlyph rebuildFieldAccessors.
+	self flushCaches.

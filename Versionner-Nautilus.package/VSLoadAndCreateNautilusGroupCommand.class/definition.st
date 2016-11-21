@@ -2,4 +2,4 @@ VSLoadCommand subclass: #VSLoadAndCreateNautilusGroupCommand
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'NautilusGroupAutoBuilder'
+	category: 'Versionner-Nautilus'

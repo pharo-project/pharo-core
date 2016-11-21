@@ -1,4 +1,4 @@
-script60297
+script60298
 
 	^ 'AST-Core-TheIntegrator.482.mcz
 AST-Tests-Core-TheIntegrator.129.mcz
@@ -220,12 +220,12 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.255.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1318.mcz
+Nautilus-TheIntegrator.1319.mcz
 Nautilus-GroupManager-TheIntegrator.23.mcz
 Nautilus-GroupManagerUI-TheIntegrator.43.mcz
 Nautilus-Tests-TheIntegrator.48.mcz
 NautilusCommon-TheIntegrator.322.mcz
-NautilusGroupAutoBuilder-TheIntegrator.18.mcz
+NautilusGroupAutoBuilder-TheIntegrator.19.mcz
 NautilusRefactoring-TheIntegrator.307.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.73.mcz
@@ -293,7 +293,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.415.mcz
+Rubric-TheIntegrator.417.mcz
 Rubric-Rules-TheIntegrator.6.mcz
 Rubric-Styling-TheIntegrator.10.mcz
 Rubric-Tests-TheIntegrator.10.mcz
@@ -318,8 +318,8 @@ Shout-TheIntegrator.302.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.778.mcz
 Slot-Tests-TheIntegrator.101.mcz
-SmartSuggestions-TheIntegrator.260.mcz
-SmartSuggestions-Tests-TheIntegrator.38.mcz
+SmartSuggestions-TheIntegrator.262.mcz
+SmartSuggestions-Tests-TheIntegrator.39.mcz
 Spec-Core-TheIntegrator.533.mcz
 Spec-Debugger-TheIntegrator.278.mcz
 Spec-Examples-TheIntegrator.129.mcz
@@ -384,7 +384,7 @@ Tool-Diff-TheIntegrator.45.mcz
 Tool-ExternalBrowser-TheIntegrator.53.mcz
 Tool-FileList-TheIntegrator.83.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
-Tool-Finder-TheIntegrator.75.mcz
+Tool-Finder-TheIntegrator.77.mcz
 Tool-ImageCleaner-TheIntegrator.19.mcz
 Tool-ProcessBrowser-TheIntegrator.25.mcz
 Tool-Profilers-TheIntegrator.35.mcz
@@ -393,7 +393,7 @@ Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
-Tools-Test-TheIntegrator.22.mcz
+Tools-Test-TheIntegrator.25.mcz
 Traits-TheIntegrator.957.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
@@ -413,7 +413,8 @@ Versionner-Core-Announcements-ChristopheDemarey.6.mcz
 Versionner-Core-Commands-MarcusDenker.65.mcz
 Versionner-Core-DependenciesModel-MarcusDenker.106.mcz
 Versionner-Core-Model-PavelKrivanek.54.mcz
-Versionner-Spec-Browser-TheIntegrator.207.mcz
+Versionner-Nautilus-TheIntegrator.2.mcz
+Versionner-Spec-Browser-TheIntegrator.209.mcz
 Versionner-Tests-Core-Commands-MarcusDenker.21.mcz
 Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
