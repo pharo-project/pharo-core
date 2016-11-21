@@ -1,0 +1,2 @@
+newProtocolName: anObject
+	newProtocolName := anObject

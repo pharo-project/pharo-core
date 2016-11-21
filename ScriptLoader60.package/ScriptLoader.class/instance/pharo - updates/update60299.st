@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19370 cleanup toBraceStack: 
+update60299
+	"self new update60299"
+	self withUpdateLog: '19370 cleanup toBraceStack: 
 	https://pharo.fogbugz.com/f/cases/19370
 
 19375 Compiler allows last char to be "
@@ -12,4 +13,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19379
 
 19346 New ProtocolRenamed announcement is needed together with ClassReorganized
-	https://pharo.fogbugz.com/f/cases/19346'
+	https://pharo.fogbugz.com/f/cases/19346'.
+	self loadTogether: self script60299 merge: false.
+	self loadConfiguration: 'FastTable' version: '0.10.6'.self flushCaches.

@@ -4,7 +4,7 @@ printOn: aStream
 	
 	aStream 
 		nextPut: $(;
-		nextPutAll: version;
+		nextPutAll: version info name;
 		nextPut: $@;
-		nextPutAll: repository;
+		nextPutAll: repository description;
 		nextPut: $).
