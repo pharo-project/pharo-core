@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '19331 ClassRepackaged and MethodRepackaged should be subclassed from ClassAnnouncement and MethodAnnouncement
-	https://pharo.fogbugz.com/f/cases/19331
+ ^ '19364 We need to be able to read utf8 strings from ExternalData
+	https://pharo.fogbugz.com/f/cases/19364
 
-19349 RPackageAnnouncement should be SystemAnnouncement subclass and work as other system changes
-	https://pharo.fogbugz.com/f/cases/19349
-
-18881 ChangesBrowser executing refactoring changes in wrong order
-	https://pharo.fogbugz.com/f/cases/18881'
+19354 FFIExternalStructures allways recompile its accessors in their first use.
+	https://pharo.fogbugz.com/f/cases/19354'
