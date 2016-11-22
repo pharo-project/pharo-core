@@ -1,0 +1,3 @@
+checkSession
+
+	"do nothing"

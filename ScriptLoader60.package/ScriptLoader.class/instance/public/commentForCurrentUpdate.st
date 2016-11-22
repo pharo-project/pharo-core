@@ -1,15 +1,9 @@
 commentForCurrentUpdate
- ^ '19370 cleanup toBraceStack: 
-	https://pharo.fogbugz.com/f/cases/19370
+ ^ '19360 Deprecated #selector call in MetacelloVersionConstructor>>#verifyVersionImportPragmas:definedIn:
+	https://pharo.fogbugz.com/f/cases/19360
 
-19375 Compiler allows last char to be "
-	https://pharo.fogbugz.com/f/cases/19375
+19352 Conflict on package renaming if tag exists
+	https://pharo.fogbugz.com/f/cases/19352
 
-19369 FastTable: needless position resetting with visible selection
-	https://pharo.fogbugz.com/f/cases/19369
-
-19379 MCVersionSaved has buggy printOn
-	https://pharo.fogbugz.com/f/cases/19379
-
-19346 New ProtocolRenamed announcement is needed together with ClassReorganized
-	https://pharo.fogbugz.com/f/cases/19346'
+19362 Make OSWindow as optional and unloadable
+	https://pharo.fogbugz.com/f/cases/19362'
