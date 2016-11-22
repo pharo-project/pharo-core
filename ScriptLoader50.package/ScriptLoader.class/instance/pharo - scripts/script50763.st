@@ -1,4 +1,4 @@
-script50762
+script50763
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -94,7 +94,7 @@ GT-Tests-Playground-StefanReichhart.4.mcz
 GT-Tests-Spotter-AliakseiSyrel.17.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
-Glamour-Core-TudorGirba.322.mcz
+Glamour-Core-EstebanLorenzano.323.mcz
 Glamour-Examples-TudorGirba.303.mcz
 Glamour-FastTable-AndreiChis.59.mcz
 Glamour-Helpers-TudorGirba.40.mcz
