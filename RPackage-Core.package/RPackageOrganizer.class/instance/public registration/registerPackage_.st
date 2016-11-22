@@ -9,6 +9,6 @@ registerPackage: aPackage
 	aPackage definedClasses 
 		do: [ :definedClass | self registerPackage: aPackage forClass: definedClass].
 		
-	self announcer announce: (RPackageRegistered to: aPackage).
+	SystemAnnouncer uniqueInstance announce: (RPackageRegistered to: aPackage).
 	
 	^ aPackage

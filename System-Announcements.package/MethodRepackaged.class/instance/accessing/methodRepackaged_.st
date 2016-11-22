@@ -1,3 +1,0 @@
-methodRepackaged: anObject
-	
-	methodRepackaged := anObject

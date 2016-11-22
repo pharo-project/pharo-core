@@ -1,4 +1,4 @@
-SystemAnnouncement subclass: #ClassRepackaged
+ClassAnnouncement subclass: #ClassRepackaged
 	instanceVariableNames: 'classRepackaged newPackage oldPackage'
 	classVariableNames: ''
 	poolDictionaries: ''

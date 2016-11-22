@@ -12,6 +12,6 @@ ensureExistAndRegisterPackageNamed: aSymbol
 	package definedClasses do: [ :definedClass|
 			self registerPackage: package forClass: definedClass].
 	
-	self announcer announce: (RPackageRegistered to: package).
+	SystemAnnouncer uniqueInstance announce: (RPackageRegistered to: package).
 	
 	^ package

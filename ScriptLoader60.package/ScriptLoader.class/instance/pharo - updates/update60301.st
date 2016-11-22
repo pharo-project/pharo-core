@@ -1,0 +1,12 @@
+update60301
+	"self new update60301"
+	self withUpdateLog: '19331 ClassRepackaged and MethodRepackaged should be subclassed from ClassAnnouncement and MethodAnnouncement
+	https://pharo.fogbugz.com/f/cases/19331
+
+19349 RPackageAnnouncement should be SystemAnnouncement subclass and work as other system changes
+	https://pharo.fogbugz.com/f/cases/19349
+
+18881 ChangesBrowser executing refactoring changes in wrong order
+	https://pharo.fogbugz.com/f/cases/18881'.
+	self loadTogether: self script60301 merge: false.
+	self flushCaches.

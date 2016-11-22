@@ -1,4 +1,4 @@
-script60300
+script60301
 
 	^ 'AST-Core-TheIntegrator.483.mcz
 AST-Tests-Core-TheIntegrator.130.mcz
@@ -226,7 +226,7 @@ Nautilus-GroupManagerUI-TheIntegrator.43.mcz
 Nautilus-Tests-TheIntegrator.48.mcz
 NautilusCommon-TheIntegrator.322.mcz
 NautilusGroupAutoBuilder-TheIntegrator.19.mcz
-NautilusRefactoring-TheIntegrator.307.mcz
+NautilusRefactoring-TheIntegrator.309.mcz
 Network-Kernel-TheIntegrator.135.mcz
 Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.52.mcz
@@ -258,7 +258,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-TheIntegrator.116.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
-RPackage-Core-TheIntegrator.450.mcz
+RPackage-Core-TheIntegrator.451.mcz
 RPackage-Tests-TheIntegrator.199.mcz
 Random-Core-TheIntegrator.8.mcz
 Random-Tests-TheIntegrator.4.mcz
@@ -332,7 +332,7 @@ Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.99.mcz
 Spec-Tools-TheIntegrator.371.mcz
 StartupPreferences-TheIntegrator.153.mcz
-System-Announcements-TheIntegrator.133.mcz
+System-Announcements-TheIntegrator.134.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
 System-CachingTests-TheIntegrator.19.mcz

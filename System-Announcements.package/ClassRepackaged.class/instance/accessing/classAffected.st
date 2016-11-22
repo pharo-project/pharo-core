@@ -1,0 +1,3 @@
+classAffected
+	
+	^ classRepackaged
