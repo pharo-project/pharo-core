@@ -6,10 +6,13 @@ baseline193: spec
 		spec
 			blessing: #baseline;
 			postLoadDoIt: #addPostloadHacks.
-		self fuelRepository: spec.    
+		
+		self
+			fuelRepository: spec;
+			fuelPlatform: spec.
 
 		spec 
-			package: 'Fuel';
+			package: 'Fuel' with: [ spec requires: 'FuelPlatform' ];
 			package: 'FuelTests' with: [ spec requires: 'Fuel' ];
 			package: 'FuelDebug' with: [ spec requires: 'Fuel' ];
 			package: 'FuelUtilities';

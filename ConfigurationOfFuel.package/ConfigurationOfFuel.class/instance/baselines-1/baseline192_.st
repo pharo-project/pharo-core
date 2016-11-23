@@ -4,10 +4,12 @@ baseline192: spec
 	spec for: #common do: [
 		
 		spec blessing: #baseline.
-		self fuelRepository: spec.    
+		self
+			fuelRepository: spec;
+			fuelPlatform: spec.    
 
 		spec 
-			package: 'Fuel';
+			package: 'Fuel' with: [ spec requires: 'FuelPlatform' ];
 			package: 'FuelTests' with: [ spec requires: 'Fuel' ];
 			package: 'FuelDebug' with: [ spec requires: 'Fuel' ];
 			package: 'FuelUtilities';

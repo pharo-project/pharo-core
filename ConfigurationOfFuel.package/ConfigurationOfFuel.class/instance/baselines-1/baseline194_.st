@@ -7,10 +7,12 @@ baseline194: spec
 			blessing: #baseline;
 			postLoadDoIt: #addPostloadHacks.
 
-		self fuelRepository: spec.    
+		self
+			fuelRepository: spec;
+			fuelPlatform: spec.    
 
 		spec 
-			package: 'Fuel';
+			package: 'Fuel' with: [ spec requires: 'FuelPlatform' ];
 			package: 'FuelTests' with: [ spec requires: 'Fuel' ];
 			package: 'FuelDebug' with: [ spec requires: 'Fuel' ];
 			package: 'FuelUtilities';
@@ -63,4 +65,4 @@ baseline194: spec
 		spec 
 			group: 'kernel' with: #( 'FuelCommandLineHandler' );
 			group: 'Core' with: #('FuelCommandLineHandler' 'FuelSystem-FileRegistry' 'FuelTools-Debugger').
-	].
+	]

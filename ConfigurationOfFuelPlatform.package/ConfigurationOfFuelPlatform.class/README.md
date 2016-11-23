@@ -1,0 +1,1 @@
+We use a separate configuration to make it simpler to manage the platform classes. Using a separate configuration also makes it easy to load all the packages at once when we need to update them.

@@ -1,0 +1,2 @@
+projectClass
+    ^ Smalltalk at: #MetacelloMCProject

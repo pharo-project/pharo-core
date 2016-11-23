@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '19364 We need to be able to read utf8 strings from ExternalData
-	https://pharo.fogbugz.com/f/cases/19364
+ ^ '18330 Fuel still has platform classes in Pharo6 like FLPharo11Platform.
+	https://pharo.fogbugz.com/f/cases/18330
 
-19354 FFIExternalStructures allways recompile its accessors in their first use.
-	https://pharo.fogbugz.com/f/cases/19354'
+19381 KMSingleKeyCombination should be not printed with forced uppercases
+	https://pharo.fogbugz.com/f/cases/19381
+
+19382 #add:finalizing: in AlienWeakTable sends unexistent message #copyGrownBy
+	https://pharo.fogbugz.com/f/cases/19382'

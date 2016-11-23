@@ -1,2 +1,2 @@
 printOn: aStream
-	aStream nextPutAll: self name asUppercase.
+	aStream nextPutAll: self name
