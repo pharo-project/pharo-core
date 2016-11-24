@@ -1,2 +1,0 @@
-isBigEndian
-	^ Smalltalk isBigEndian

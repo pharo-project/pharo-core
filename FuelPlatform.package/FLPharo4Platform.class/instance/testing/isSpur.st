@@ -1,2 +1,0 @@
-isSpur
-	^ false

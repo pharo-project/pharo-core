@@ -1,2 +1,0 @@
-deleteFileNamed: aFilename
-	aFilename asFileReference delete

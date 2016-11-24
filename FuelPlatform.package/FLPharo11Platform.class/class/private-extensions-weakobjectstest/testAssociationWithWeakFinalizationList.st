@@ -1,2 +1,0 @@
-testAssociationWithWeakFinalizationList
-	<flExtensionOf: #FLWeakObjectsTest>
