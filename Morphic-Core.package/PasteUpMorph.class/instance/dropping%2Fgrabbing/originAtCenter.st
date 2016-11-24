@@ -1,2 +1,0 @@
-originAtCenter
-	^ self hasProperty: #originAtCenter

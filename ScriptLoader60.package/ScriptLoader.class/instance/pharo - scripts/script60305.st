@@ -1,4 +1,4 @@
-script60304
+script60305
 
 	^ 'AST-Core-TheIntegrator.483.mcz
 AST-Tests-Core-TheIntegrator.130.mcz
@@ -74,7 +74,7 @@ FileSystem-Tests-Core-TheIntegrator.98.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.423.mcz
+Files-TheIntegrator.425.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-EstebanLorenzano.21.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -85,7 +85,6 @@ FreeType-TheIntegrator.754.mcz
 FreeType-Tests-TheIntegrator.2.mcz
 Fuel-MartinDias.826.mcz
 FuelCommandLineHandler-TheIntegrator.25.mcz
-FuelPlatform-TheIntegrator.65.mcz
 FuelPlatform-Core-MaxLeske.2.mcz
 FuelPlatform-Pharo-06-MaxLeske.2.mcz
 FuelPlatform-Pharo-Core-MaxLeske.1.mcz
@@ -199,7 +198,7 @@ MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
 Morphic-Base-TheIntegrator.590.mcz
-Morphic-Core-TheIntegrator.311.mcz
+Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.106.mcz
@@ -396,7 +395,7 @@ Tool-Transcript-TheIntegrator.25.mcz
 Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.46.mcz
 Tools-TheIntegrator.1530.mcz
-Tools-Test-TheIntegrator.25.mcz
+Tools-Test-TheIntegrator.26.mcz
 Traits-TheIntegrator.957.mcz
 Transcript-TheIntegrator.54.mcz
 TxText-Athens-EstebanLorenzano.58.mcz
