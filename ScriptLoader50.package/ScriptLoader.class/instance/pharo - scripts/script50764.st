@@ -1,4 +1,4 @@
-script50763
+script50764
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -177,7 +177,7 @@ MonticelloGUI-TheIntegrator.415.mcz
 MonticelloMocks-TheIntegrator.4.mcz
 MonticelloRemoteRepositories-TheIntegrator.15.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.546.mcz
+Morphic-Base-TheIntegrator.548.mcz
 Morphic-Core-TheIntegrator.278.mcz
 Morphic-Examples-TheIntegrator.50.mcz
 Morphic-Tests-TheIntegrator.11.mcz
