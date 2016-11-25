@@ -1,0 +1,2 @@
+protocolsAffected
+	^{self protocol}

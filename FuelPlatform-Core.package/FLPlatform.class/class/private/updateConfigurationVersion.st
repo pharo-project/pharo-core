@@ -1,2 +1,0 @@
-updateConfigurationVersion
-	CurrentConfigurationVersion := self getConfigurationVersion

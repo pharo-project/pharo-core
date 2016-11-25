@@ -1,2 +1,3 @@
 method: aCompiledMethod
-	method := aCompiledMethod
+	method := aCompiledMethod.
+	methodPackage := aCompiledMethod package

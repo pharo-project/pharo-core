@@ -1,5 +1,5 @@
 SystemAnnouncement subclass: #MethodAnnouncement
-	instanceVariableNames: 'method'
+	instanceVariableNames: 'method methodPackage'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Announcements-System-Methods'
