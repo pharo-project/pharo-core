@@ -1,4 +1,4 @@
-script60307
+script60308
 
 	^ 'AST-Core-TheIntegrator.483.mcz
 AST-Tests-Core-TheIntegrator.130.mcz
@@ -74,7 +74,7 @@ FileSystem-Tests-Core-TheIntegrator.98.mcz
 FileSystem-Tests-Disk-StephaneDucasse.25.mcz
 FileSystem-Tests-Memory-TheIntegrator.8.mcz
 FileSystem-Zip-TheIntegrator.19.mcz
-Files-TheIntegrator.425.mcz
+Files-TheIntegrator.427.mcz
 Files-Tests-TheIntegrator.12.mcz
 Flashback-Decompiler-EstebanLorenzano.21.mcz
 Flashback-Decompiler-Tests-TheIntegrator.97.mcz
@@ -150,7 +150,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2456.mcz
+Kernel-TheIntegrator.2458.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.136.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -277,7 +277,7 @@ Refactoring-Tests-Environment-TheIntegrator.30.mcz
 ReflectionMirrors-Primitives-TheIntegrator.7.mcz
 ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
 Reflectivity-TheIntegrator.312.mcz
-Reflectivity-Examples-TheIntegrator.42.mcz
+Reflectivity-Examples-TheIntegrator.44.mcz
 Reflectivity-Tests-TheIntegrator.209.mcz
 Reflectivity-Tools-TheIntegrator.68.mcz
 Reflectivity-Tools-Tests-TheIntegrator.22.mcz
