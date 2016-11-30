@@ -1,0 +1,3 @@
+privateActionIcon
+	"Return the icon for this action"
+	^ self iconNamed: #recoverLostChanges
