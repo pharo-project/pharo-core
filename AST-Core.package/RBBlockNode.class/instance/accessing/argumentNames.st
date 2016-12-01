@@ -1,2 +1,2 @@
 argumentNames
-	^self arguments collect: [:each | each name]
+	^ self arguments collect: [:each | each name] as: Array 
