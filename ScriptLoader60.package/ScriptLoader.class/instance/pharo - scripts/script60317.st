@@ -1,4 +1,4 @@
-script60316
+script60317
 
 	^ 'AST-Core-TheIntegrator.486.mcz
 AST-Tests-Core-TheIntegrator.130.mcz
@@ -150,7 +150,7 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2459.mcz
+Kernel-TheIntegrator.2462.mcz
 Kernel-Rules-TheIntegrator.13.mcz
 Kernel-Tests-TheIntegrator.136.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
@@ -260,7 +260,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-TheIntegrator.116.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
-RPackage-Core-TheIntegrator.455.mcz
+RPackage-Core-TheIntegrator.456.mcz
 RPackage-Tests-TheIntegrator.199.mcz
 Random-Core-TheIntegrator.8.mcz
 Random-Tests-TheIntegrator.4.mcz
@@ -332,7 +332,7 @@ Spec-MorphicAdapters-TheIntegrator.290.mcz
 Spec-PolyWidgets-TheIntegrator.91.mcz
 Spec-SelectEntity-TheIntegrator.13.mcz
 Spec-Tests-TheIntegrator.102.mcz
-Spec-Tools-TheIntegrator.371.mcz
+Spec-Tools-TheIntegrator.374.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.136.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
