@@ -1,2 +1,4 @@
 valueSelector
-	^condition valueSelector
+	linkCondition numArgs isZero
+		ifTrue: [ ^ #value ]
+		ifFalse: [ ^ #cull: ]

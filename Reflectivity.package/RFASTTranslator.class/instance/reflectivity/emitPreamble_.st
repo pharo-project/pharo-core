@@ -1,2 +1,2 @@
 emitPreamble: aNode
-	aNode preambles do: [ :pre | self visitNode: pre].
+	aNode preambles do: [ :pre | valueTranslator visitNode: pre].
