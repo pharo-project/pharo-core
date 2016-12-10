@@ -6,8 +6,7 @@ testSiblingBlocksTempShadowing
 	OpalCompiler new
 		source: 'temp [:temp | ]. [:temp | ]';
 		class: MockForCompilation;
-		failBlock: [self fail.
-						^nil];
+		failBlock: [self fail. ^ nil ];
 		translate.
 				
 

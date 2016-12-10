@@ -1,2 +1,0 @@
-cr 
-	stream cr
