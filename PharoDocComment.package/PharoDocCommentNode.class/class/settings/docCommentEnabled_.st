@@ -1,0 +1,2 @@
+docCommentEnabled: aBoolean
+	DocCommentEnabled := aBoolean

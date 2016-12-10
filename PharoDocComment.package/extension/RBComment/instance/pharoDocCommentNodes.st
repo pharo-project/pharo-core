@@ -1,0 +1,2 @@
+pharoDocCommentNodes
+	^ PharoDocCommentNode parseDocComments: self

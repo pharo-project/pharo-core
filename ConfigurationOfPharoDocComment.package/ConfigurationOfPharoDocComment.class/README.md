@@ -1,0 +1,1 @@
+(ConfigurationOfPharoDocComment project ) load: '1.0'

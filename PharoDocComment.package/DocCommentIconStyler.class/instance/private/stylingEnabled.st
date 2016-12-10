@@ -1,0 +1,2 @@
+stylingEnabled
+	^ PharoDocCommentNode docCommentEnabled 

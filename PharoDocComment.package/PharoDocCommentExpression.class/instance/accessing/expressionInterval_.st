@@ -1,0 +1,2 @@
+expressionInterval: anObject
+	expressionInterval := anObject
