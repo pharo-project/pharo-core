@@ -1,4 +1,5 @@
 currentVersions
-
-	^ self rootConfNamesForLookup flatCollect: [ :className |
-		self currentVersionsOf: className asClass ]
+	^ self rootConfNamesForLookup
+		flatCollect: [ :className | 
+			self currentVersionsOf:
+				(self class environment at: className) ]
