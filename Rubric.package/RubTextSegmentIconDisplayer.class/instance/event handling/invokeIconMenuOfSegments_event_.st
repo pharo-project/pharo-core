@@ -3,7 +3,7 @@ invokeIconMenuOfSegments: aSegmentList event: anEvent
 	aSegmentList ifEmpty: [ ^ self ].
 	menu := RubSegmentIconMenuMorph new
 		defaultTarget: self;
-		color: Color yellow muchLighter.
+		yourself.
 	aSegmentList
 		do: [ :seg | seg addItemToMenu: menu ].
 	menu hasItems
