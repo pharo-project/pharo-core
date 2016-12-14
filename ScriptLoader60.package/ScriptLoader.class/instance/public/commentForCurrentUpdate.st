@@ -1,9 +1,9 @@
 commentForCurrentUpdate
- ^ '19445 Pattern code ArrayNode matching failure
-	https://pharo.fogbugz.com/f/cases/19445
+ ^ '19464 Clean up Spec-PolyWidgets and Spec-SelectEntity
+	https://pharo.fogbugz.com/f/cases/19464
 
-18935 Rubric warning are not DarkTheme friendly
-	https://pharo.fogbugz.com/f/cases/18935
+19462 Remove all classes of BuildUIWithSpec and BuildUIWithSpec-Reuse
+	https://pharo.fogbugz.com/f/cases/19462
 
-19455 Testcase for reify receiver for before links
-	https://pharo.fogbugz.com/f/cases/19455'
+19460 Make requestor Scope pluggable
+	https://pharo.fogbugz.com/f/cases/19460'

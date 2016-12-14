@@ -1,3 +1,0 @@
-resetProtocolSelection
-
-	protocols resetSelection

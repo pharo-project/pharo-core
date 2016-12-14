@@ -1,2 +1,0 @@
-title
-	^ 'Customers satisfaction'

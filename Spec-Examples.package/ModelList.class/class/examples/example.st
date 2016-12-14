@@ -1,2 +1,0 @@
-example
-	^ self new openWithSpec

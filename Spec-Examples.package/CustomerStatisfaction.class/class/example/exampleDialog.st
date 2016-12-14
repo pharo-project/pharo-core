@@ -1,2 +1,0 @@
-exampleDialog
-	^ self new openDialogWithSpec

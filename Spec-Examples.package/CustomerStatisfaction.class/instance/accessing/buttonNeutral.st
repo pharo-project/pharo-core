@@ -1,2 +1,0 @@
-buttonNeutral
-	^ buttonNeutral

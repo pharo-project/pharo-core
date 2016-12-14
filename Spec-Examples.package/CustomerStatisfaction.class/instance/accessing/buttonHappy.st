@@ -1,2 +1,0 @@
-buttonHappy
-	^ buttonHappy

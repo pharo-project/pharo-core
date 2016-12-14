@@ -2,4 +2,4 @@ ComposableModel subclass: #InputWidget
 	instanceVariableNames: 'input label okAction value title'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Spec-PolyWidgets'
+	category: 'Spec-PolyWidgets-Widgets'
