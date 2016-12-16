@@ -1,0 +1,2 @@
+inlineCritiques: aBoolean
+	inlineCritiques := aBoolean
