@@ -1,7 +1,7 @@
 initialize
 	"Delay initialize"
 	Scheduler ifNotNil: [ Scheduler stopTimerEventLoop ].
-	Scheduler := DelayExperimentalSpinScheduler new.
+	Scheduler := DelaySpinScheduler new.
 	Scheduler startTimerEventLoop. 
 	SessionManager default 
 		registerSystemClassNamed: self name 
