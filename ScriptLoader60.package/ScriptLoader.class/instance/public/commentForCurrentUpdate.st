@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '18735 DNU on suggestions shortcut in GTDebugger
-	https://pharo.fogbugz.com/f/cases/18735'
+ ^ '19480 Update Glamour to version 4.27
+	https://pharo.fogbugz.com/f/cases/19480'

@@ -1,4 +1,5 @@
-sendUsageData
-	| settingsClass |
-	settingsClass := #Privacy asClassIfAbsent: [ ^ false ].
-	^ settingsClass sendDiagnosticsAndUsageData
+sendUsageData	
+	^ self class environment at: #Privacy 
+		ifPresent: [ :privacy | privacy sendDiagnosticsAndUsageData ]
+		ifAbsent: [ false ].
+		

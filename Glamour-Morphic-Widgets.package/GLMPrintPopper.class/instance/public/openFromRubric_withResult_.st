@@ -13,5 +13,12 @@ openFromRubric: aMorph withResult: anObject
 			aMorph textArea removeHighlightSegment.
 			aMorph editor atEndOfLineInsertAndSelect: string asComment.
 			aMorph takeKeyboardFocus ].
+	textMorph textArea
+		on: $p meta
+		do: [ 
+			self delete.
+			aMorph textArea removeHighlightSegment.
+			aMorph editor atEndOfLineInsertAndSelect: string.
+			aMorph takeKeyboardFocus ].
 	inspectButton addUpAction: [ anObject inspect ].
 	self openInWorld
