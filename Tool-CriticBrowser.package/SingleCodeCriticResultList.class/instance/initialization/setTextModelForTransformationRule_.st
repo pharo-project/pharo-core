@@ -1,7 +1,8 @@
 setTextModelForTransformationRule: selection
 	
 	sourceCodeModel behavior: nil.
-	sourceCodeModel text: selection change diffedText.
+	sourceCodeModel text: (
+		self diffTextForChange: selection change).
 	sourceCodeModel aboutToStyle: false.
 
 									

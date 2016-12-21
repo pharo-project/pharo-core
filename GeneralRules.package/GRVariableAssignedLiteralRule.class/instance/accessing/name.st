@@ -1,2 +1,2 @@
 name
-	^ 'VariableGR is only assigned a single literal value'
+	^ 'Variable is only assigned a single literal value'
