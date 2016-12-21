@@ -1,4 +1,4 @@
-script60332
+script60333
 
 	^ 'AST-Core-TheIntegrator.489.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -20,7 +20,7 @@ BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfIDE-TheIntegrator.6.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
-BaselineOfMorphic-TheIntegrator.12.mcz
+BaselineOfMorphic-TheIntegrator.14.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
 BaselineOfPharoBootstrap-TheIntegrator.4.mcz
 BaselineOfSUnit-TheIntegrator.4.mcz
@@ -113,14 +113,14 @@ Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
 Glamour-Core-TheIntegrator.326.mcz
 Glamour-Examples-TheIntegrator.313.mcz
-Glamour-FastTable-EstebanLorenzano.62.mcz
+Glamour-FastTable-AndreiChis.63.mcz
 Glamour-Helpers-TudorGirba.40.mcz
-Glamour-Morphic-Brick-TheIntegrator.435.mcz
+Glamour-Morphic-Brick-AndreiChis.436.mcz
 Glamour-Morphic-Brick-Tests-JurajKubelka.15.mcz
 Glamour-Morphic-Pager-MarcusDenker.111.mcz
 Glamour-Morphic-Renderer-TudorGirba.352.mcz
 Glamour-Morphic-Theme-TheIntegrator.229.mcz
-Glamour-Morphic-Widgets-HenrikNergaard.200.mcz
+Glamour-Morphic-Widgets-TudorGirba.201.mcz
 Glamour-Presentations-AndreiChis.186.mcz
 Glamour-Rubric-Presentations-TheIntegrator.58.mcz
 Glamour-Tests-Core-PavelKrivanek.113.mcz
@@ -186,7 +186,7 @@ Metacello-TestsPlatform.squeakCommon-EstebanLorenzano.23.mcz
 Metacello-TestsReference-EstebanLorenzano.22.mcz
 Metacello-ToolBox-TheIntegrator.152.mcz
 Metacello-Tutorial-EstebanLorenzano.28.mcz
-Monticello-TheIntegrator.1164.mcz
+Monticello-TheIntegrator.1166.mcz
 Monticello-OldDataStreamCompatibility-TheIntegrator.10.mcz
 Monticello-Tests-TheIntegrator.40.mcz
 MonticelloConfigurations-TheIntegrator.74.mcz
