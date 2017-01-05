@@ -1,0 +1,2 @@
+taskbarIconName
+	^#smallInspectItIcon

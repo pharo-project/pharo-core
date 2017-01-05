@@ -1,3 +1,0 @@
-taskbarIcon
-
-	^ Komitter taskbarIcon

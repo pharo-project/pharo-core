@@ -1,3 +1,0 @@
-taskbarIcon
-
-	^ self iconNamed: #smallDebugIcon

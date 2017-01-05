@@ -1,2 +1,0 @@
-taskbarIcon
-	^ self iconNamed: #referencesIcon

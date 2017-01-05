@@ -1,0 +1,3 @@
+taskbarIconName
+
+	^ self debuggerClass taskbarIconName
