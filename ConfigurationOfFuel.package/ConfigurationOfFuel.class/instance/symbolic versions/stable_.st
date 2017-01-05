@@ -6,5 +6,5 @@ stable: spec
 		for: #'pharo2.x' version: '1.9.4';
 		for: #'pharo3.x' version: '1.9.4';
 		for: #'pharo4.x' version: '1.9.4';
-		for: #'pharo6.x' version: '2.1.8';
+		for: #'pharo6.x' version: '2.1.10';
 		for: #'squeak4.x' version: '1.9.4'
