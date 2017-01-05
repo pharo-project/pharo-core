@@ -28,7 +28,9 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 			inCategory: systemCategory.
 		^trait].
 
-	SystemAnnouncer uniqueInstance traitDefinitionChangedFrom: oldTrait to: trait.
+	SystemAnnouncer uniqueInstance 
+		traitDefinitionChangedFrom: oldTrait to: trait;
+		classModificationAppliedTo: trait.	
 
 	systemCategory ~= oldCategory
 		ifTrue: [ 
@@ -36,5 +38,5 @@ named: aSymbol uses: aTraitCompositionOrCollection category: aString env: anEnvi
 				class: trait 
 				recategorizedFrom: (oldCategory ifNil: [ #Unclassified ])
 				to: systemCategory].
-		
+			
 	^ trait
