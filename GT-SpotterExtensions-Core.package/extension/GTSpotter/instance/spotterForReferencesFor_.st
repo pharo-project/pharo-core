@@ -3,8 +3,8 @@ spotterForReferencesFor: aStep
 	
 	aStep listProcessor
 		title: 'References';
-		filter: GTNullFilter item: [ :filter :context | 
-			context textTrimmed asClassIfPresent: [ :class |
+		filter: GTNullFilter item: [ :filter :context |
+			self class environment at: context textTrimmed ifPresent: [ :class |  
 				SystemNavigation default allReferencesTo: class binding do: filter ] ];
 		keyBinding: $n shift meta;
 		itemName: [ :method | method gtDisplayString ]

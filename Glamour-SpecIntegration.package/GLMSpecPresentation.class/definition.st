@@ -2,4 +2,4 @@ GLMPresentation subclass: #GLMSpecPresentation
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Presentations'
+	category: 'Glamour-SpecIntegration'

@@ -8,7 +8,7 @@ initialize
 	
 	self breadcrumbBrick: self newBreadcrumbBrick.
 	self paneBrick: self newPaneBrick.
-	#GTSpotterEventCollector asClassIfPresent: [ 
+	self class environment at: #GTSpotterEventCollector ifPresent: [ 
 		GTSpotter wasOpened ifFalse: [ self privacyAgreementNotificationBrick: self newPrivacyAgreementNotificationBrick ] ].
 	
 	

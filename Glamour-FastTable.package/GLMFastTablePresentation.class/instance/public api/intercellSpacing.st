@@ -1,2 +1,4 @@
 intercellSpacing
-	^ self parameters at: 'intercellSpacing' ifAbsent: [ 8@1 ]
+	^ self parameters 
+		at: 'intercellSpacing' 
+		ifAbsent: [ self class defaultIntercellSpacing ]
