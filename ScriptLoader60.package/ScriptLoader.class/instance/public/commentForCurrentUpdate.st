@@ -1,6 +1,3 @@
 commentForCurrentUpdate
- ^ '19521 localMethods should be moved to TBehavior where localSelectors methods are defined 
-	https://pharo.fogbugz.com/f/cases/19521
-
-19528 Split larger variable entries in the Variables menu into submenus
-	https://pharo.fogbugz.com/f/cases/19528'
+ ^ '19531 Latest GTTools integration broke the bootstrap
+	https://pharo.fogbugz.com/f/cases/19531'
