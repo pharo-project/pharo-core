@@ -1,2 +1,2 @@
 newLog
-	^ self subclassResponsibility
+	^ logBuilder oneTriggerWithFourChildrenLog

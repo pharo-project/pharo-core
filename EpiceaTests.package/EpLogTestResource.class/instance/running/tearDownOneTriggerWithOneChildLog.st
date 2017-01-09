@@ -1,3 +1,0 @@
-tearDownOneTriggerWithOneChildLog
-
-	EpLogBuilder new release: oneTriggerWithOneChildLog

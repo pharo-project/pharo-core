@@ -1,4 +1,4 @@
-script60339
+script60340
 
 	^ 'AST-Core-TheIntegrator.489.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -95,15 +95,15 @@ FuzzyMatcher-TheIntegrator.18.mcz
 FuzzyMatcher-Tests-TheIntegrator.5.mcz
 GT-BytecodeDebugger-AndreiChis.33.mcz
 GT-Debugger-TheIntegrator.361.mcz
-GT-EventRecorder-TheIntegrator.73.mcz
+GT-EventRecorder-AndreiChis.74.mcz
 GT-EventRecorder-Tests-JurajKubelka.37.mcz
-GT-Inspector-AndreiChis.439.mcz
-GT-InspectorExtensions-Core-TheIntegrator.238.mcz
+GT-Inspector-JurajKubelka.442.mcz
+GT-InspectorExtensions-Core-AndreiChis.240.mcz
 GT-Playground-TheIntegrator.137.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-HenrikNergaard.405.mcz
+GT-Spotter-PavelKrivanek.407.mcz
 GT-Spotter-EventRecorder-JurajKubelka.113.mcz
-GT-SpotterExtensions-Core-TheIntegrator.218.mcz
+GT-SpotterExtensions-Core-AndreiChis.219.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.59.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
@@ -111,9 +111,9 @@ GT-Tests-Spotter-TheIntegrator.27.mcz
 GeneralRules-TheIntegrator.7.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
-Glamour-Core-TheIntegrator.326.mcz
-Glamour-Examples-TheIntegrator.313.mcz
-Glamour-FastTable-PabloTesone.60.mcz
+Glamour-Core-JurajKubelka.327.mcz
+Glamour-Examples-JurajKubelka.315.mcz
+Glamour-FastTable-JurajKubelka.64.mcz
 Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-AndreiChis.436.mcz
 Glamour-Morphic-Brick-Tests-JurajKubelka.15.mcz
@@ -121,8 +121,9 @@ Glamour-Morphic-Pager-MarcusDenker.111.mcz
 Glamour-Morphic-Renderer-TudorGirba.352.mcz
 Glamour-Morphic-Theme-TheIntegrator.229.mcz
 Glamour-Morphic-Widgets-TudorGirba.201.mcz
-Glamour-Presentations-AndreiChis.186.mcz
+Glamour-Presentations-JurajKubelka.187.mcz
 Glamour-Rubric-Presentations-TheIntegrator.58.mcz
+Glamour-SpecIntegration-JurajKubelka.4.mcz
 Glamour-Tests-Core-PavelKrivanek.113.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
 Glamour-Tests-Resources-AndreiChis.5.mcz
@@ -197,7 +198,7 @@ MonticelloGUI-TheIntegrator.432.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-vincentBlondeau.31.mcz
-Morphic-Base-TheIntegrator.593.mcz
+Morphic-Base-TheIntegrator.595.mcz
 Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz

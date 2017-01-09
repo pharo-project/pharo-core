@@ -1,2 +1,0 @@
-oneTriggerWithOneChildLog
-	^oneTriggerWithOneChildLog

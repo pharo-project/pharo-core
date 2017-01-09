@@ -1,7 +1,7 @@
 version20StartLogging
 	"Start recording IDE events"
 
-	#EpSessionStoreStrategy asClass 
+	(self class environment at: #EpSessionStoreStrategy)
 		defaultBaseDirectoryLocator: FileLocator preferences / 'pharo' / 'epicea-study-1'.
 	
-	#EpMonitor asClass current enable.
+	(self class environment at: #EpMonitor) current enable.

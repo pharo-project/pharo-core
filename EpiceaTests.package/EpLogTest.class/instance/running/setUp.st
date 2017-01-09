@@ -1,4 +1,5 @@
 setUp
 	super setUp.
 	
-	log := self newLog
+	logBuilder := EpTestLogBuilder new.
+	log := logBuilder oneTriggerWithFourChildrenLog.

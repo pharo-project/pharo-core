@@ -1,2 +1,0 @@
-oneTriggerWithFourChildrenLog
-	^ oneTriggerWithFourChildrenLog

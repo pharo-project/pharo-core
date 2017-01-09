@@ -1,7 +1,7 @@
 version33StartLogging
 	"Start recording IDE events"
 
-	#OmSessionStore asClass 
+	(self class environment at: ##OmSessionStore) 
 		defaultBaseDirectoryLocator: FileLocator preferences / 'pharo' / 'epicea-3.3'.
 	
-	#EpMonitor asClass current enable.
+	(self class environment at: #EpMonitor) current enable.

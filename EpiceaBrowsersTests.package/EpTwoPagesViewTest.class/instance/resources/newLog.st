@@ -1,2 +1,0 @@
-newLog
-	^ EpLogTestResource current oneTriggerWithFourChildrenLog

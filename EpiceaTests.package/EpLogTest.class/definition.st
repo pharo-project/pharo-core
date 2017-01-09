@@ -1,5 +1,5 @@
 TestCase subclass: #EpLogTest
-	instanceVariableNames: 'log'
+	instanceVariableNames: 'log logBuilder'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaTests-Log'
