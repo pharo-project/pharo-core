@@ -1,2 +1,3 @@
 browseVariablesButtonEnabled
+
 	^ self selectedClass notNil

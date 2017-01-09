@@ -1,2 +1,3 @@
 browseVariablesButtonState
+
 	^ false
