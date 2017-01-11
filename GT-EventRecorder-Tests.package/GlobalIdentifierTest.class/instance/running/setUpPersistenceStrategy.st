@@ -1,2 +1,2 @@
 setUpPersistenceStrategy
-	identifier persistenceStrategy preferences: preferences
+	self subclassResponsibility

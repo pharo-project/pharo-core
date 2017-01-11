@@ -1,0 +1,2 @@
+oldPreferencesFileName
+	^ identifier persistenceStrategy previous fileName

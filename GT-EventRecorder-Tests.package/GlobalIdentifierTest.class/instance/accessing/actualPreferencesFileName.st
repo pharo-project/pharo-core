@@ -1,2 +1,2 @@
-fileName
+actualPreferencesFileName
 	^ identifier persistenceStrategy fileName

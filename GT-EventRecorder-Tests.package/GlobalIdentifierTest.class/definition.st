@@ -1,5 +1,5 @@
 TestCase subclass: #GlobalIdentifierTest
-	instanceVariableNames: 'disk preferences identifier'
+	instanceVariableNames: 'identifier preferences'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-EventRecorder-Tests-Identifier'
