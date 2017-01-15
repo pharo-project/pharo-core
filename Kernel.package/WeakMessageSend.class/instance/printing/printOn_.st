@@ -1,9 +1,10 @@
 printOn: aStream
 
-        aStream
-                nextPutAll: self class name;
-                nextPut: $(.
-        selector printOn: aStream.
-        aStream nextPutAll: ' -> '.
-        self receiver printOn: aStream.
-        aStream nextPut: $)
+	super printOn: aStream.
+	
+	aStream 
+		nextPut: $(;
+		print: selector;
+		nextPutAll: ' -> ';
+		print: self receiver;
+		nextPut: $).

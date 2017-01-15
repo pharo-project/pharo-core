@@ -1,2 +1,3 @@
 interactive
-	^ false
+
+	^ true
