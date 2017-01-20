@@ -1,4 +1,4 @@
-ReNodeBasedRule subclass: #GRTemporaryNotReadNorWrittenRule
+ReAbstractRule subclass: #GRIvarNeitherReadNorWrittenRule
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

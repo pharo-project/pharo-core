@@ -1,2 +1,0 @@
-checksClass
-	^ true

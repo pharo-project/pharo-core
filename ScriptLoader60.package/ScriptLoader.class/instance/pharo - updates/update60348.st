@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19557 GTDebugger should use FastTable in the object inspector for thisContext
+update60348
+	"self new update60348"
+	self withUpdateLog: '19557 GTDebugger should use FastTable in the object inspector for thisContext
 	https://pharo.fogbugz.com/f/cases/19557
 
 19561 Drag&Drop FastTable Example Does Not Work
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19536
 
 19559 GTMoldableDebugger>>updateBrowser should not call #update
-	https://pharo.fogbugz.com/f/cases/19559'
+	https://pharo.fogbugz.com/f/cases/19559'.
+	self loadTogether: self script60348 merge: false.
+	self flushCaches.

@@ -1,6 +1,6 @@
 fastListDragAndDrop
 	<glmBrowser: 'Fast List drag&drop' input: '(1 to: 5) asOrderedCollection'>
-	"self new listDragAndDrop openOn: (1 to: 5) asOrderedCollection"
+	"self new fastListDragAndDrop openOn: (1 to: 5) asOrderedCollection"
 	| browser |
 	browser := GLMTabulator new.
 	browser column: #source; column: #target.

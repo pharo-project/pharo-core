@@ -1,5 +1,5 @@
 variablesIn: composite
-	^ composite table
+	^ composite fastTable
 		showOnly: 50;
 		shouldValidate: false;
 		allowsRecursiveSearch: false;

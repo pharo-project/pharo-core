@@ -1,2 +1,0 @@
-name
-	^ 'Variables not referenced'

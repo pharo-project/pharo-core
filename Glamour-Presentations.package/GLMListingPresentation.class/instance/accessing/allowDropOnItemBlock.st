@@ -1,2 +1,2 @@
 allowDropOnItemBlock
-	^ allowDropOnItemBlock
+	^ allowDropOnItemBlock ifNil: [ allowDropOnItemBlock := [ false ] ]

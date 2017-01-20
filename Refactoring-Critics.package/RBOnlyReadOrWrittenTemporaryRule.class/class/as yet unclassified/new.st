@@ -1,3 +1,3 @@
 new
 	
-	^ GRTemporaryNotReadNorWrittenRule asRBRule 
+	^ GRTemporaryNeitherReadNorWrittenRule asRBRule 
