@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19548 Fix Spec Integration class comments and examples
+update60345
+	"self new update60345"
+	self withUpdateLog: '19548 Fix Spec Integration class comments and examples
 	https://pharo.fogbugz.com/f/cases/19548
 
 19545 Add comment about OC translator subclasses (for effect / for value)
@@ -9,4 +10,6 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19555
 
 19550 Typo in settings: Popup notifaction --> Popup notification
-	https://pharo.fogbugz.com/f/cases/19550'
+	https://pharo.fogbugz.com/f/cases/19550'.
+	self loadTogether: self script60345 merge: false.
+	self flushCaches.

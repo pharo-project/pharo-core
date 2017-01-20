@@ -1,7 +1,9 @@
 inspectorOn: anObject
-	"Open an inspector on 42. Execute the following code:"
-	"self inspectorOn: 42."
+	"Open an inspector on anObject. 
+	Execute the following example:
+	self inspectorOn: 42.
+	self inspectorOn: self new."
 	|ui|
 	ui := GlamourPresentationModel new.
-	ui presentationClass: GTInspector startOn: 42.
+	ui presentationClass: GTInspector startOn: anObject.
 	^ ui openWithSpec

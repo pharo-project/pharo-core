@@ -1,7 +1,7 @@
 growlSettingsOn: aBuilder
 	<systemsettings>
 	(aBuilder group: #growl)
-		label: 'Popup notifiaction';  
+		label: 'Popup notification';  
 		parent: #appearance;
 		description: 'All settings concerned with the notifications popup look''n feel';
 		with: [
