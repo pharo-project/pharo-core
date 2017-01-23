@@ -1,0 +1,3 @@
+testInitializeBlockSetsTextSelectionForScriptPresentation
+
+	self checkInitializeBlockSetsTextSelectionForPresentation: #pharoScript

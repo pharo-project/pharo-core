@@ -1,0 +1,3 @@
+testInitializeBlockSetsTextSelectionForTextPresentation
+	
+	self checkInitializeBlockSetsTextSelectionForPresentation: #text

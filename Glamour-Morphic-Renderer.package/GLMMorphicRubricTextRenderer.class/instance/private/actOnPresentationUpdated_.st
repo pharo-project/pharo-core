@@ -1,3 +1,5 @@
 actOnPresentationUpdated: ann 
-
-	textMorph setText: ann presentation formatedDisplayValue
+	| anInterval |
+	anInterval := ann presentation selectionInterval.
+	textMorph setText: ann presentation formatedDisplayValue.
+	textMorph setSelection: anInterval
