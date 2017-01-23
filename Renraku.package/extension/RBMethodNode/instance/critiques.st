@@ -21,7 +21,8 @@ critiques
 		reject: [ :rule |
 			manifest isNotNil and:
 			[ (builder bansRule: rule for: self method) or:
-			[  builder bansRule: rule for: self methodClass ] ] ].
+			[ (builder bansRule: rule for: self methodClass) or:
+			[ (builder bansRule: rule for: self method package) ] ] ] ].
 
 	
 
