@@ -1,3 +1,0 @@
-directoryTextModel
-
-	^ directoryTextModel

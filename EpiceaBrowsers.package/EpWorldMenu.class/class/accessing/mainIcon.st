@@ -1,2 +1,0 @@
-mainIcon
-	^ self iconNamed: #recoverLostChangesIcon

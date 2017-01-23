@@ -1,3 +1,0 @@
-openLogSet
-		
-	EpLogSetModel open

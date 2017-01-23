@@ -1,0 +1,2 @@
+monitor: anObject
+	^ monitor := anObject

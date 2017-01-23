@@ -1,0 +1,3 @@
+storeNameStrategy: aStoreNameStrategy
+
+	storeNameStrategy := aStoreNameStrategy

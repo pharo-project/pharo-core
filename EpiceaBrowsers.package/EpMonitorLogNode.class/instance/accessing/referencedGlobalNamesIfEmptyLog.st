@@ -1,0 +1,3 @@
+referencedGlobalNamesIfEmptyLog
+
+	^ { self referencedGlobalNameIfEmptyLog }

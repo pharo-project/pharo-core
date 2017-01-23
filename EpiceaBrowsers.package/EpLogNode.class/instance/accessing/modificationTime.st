@@ -1,3 +1,3 @@
 modificationTime
 
-	^ directoryEntry modificationTime
+	^ self subclassResponsibility

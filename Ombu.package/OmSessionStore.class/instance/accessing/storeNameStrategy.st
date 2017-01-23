@@ -1,0 +1,3 @@
+storeNameStrategy
+
+	^ self class storeNameStrategy

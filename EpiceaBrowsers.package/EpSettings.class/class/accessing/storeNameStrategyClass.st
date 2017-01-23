@@ -1,0 +1,3 @@
+storeNameStrategyClass
+
+	^ OmSessionStore storeNameStrategy class

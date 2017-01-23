@@ -1,3 +1,0 @@
-creationTime
-
-	^ directoryEntry creationTime

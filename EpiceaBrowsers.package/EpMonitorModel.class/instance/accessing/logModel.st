@@ -1,2 +1,0 @@
-logModel
-	^ logModel

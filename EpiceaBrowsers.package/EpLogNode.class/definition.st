@@ -1,5 +1,5 @@
 Object subclass: #EpLogNode
-	instanceVariableNames: 'globalName referencedNodes directoryEntry log'
+	instanceVariableNames: 'referencedNodes'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-LogSet'
+	category: 'EpiceaBrowsers-Unified'

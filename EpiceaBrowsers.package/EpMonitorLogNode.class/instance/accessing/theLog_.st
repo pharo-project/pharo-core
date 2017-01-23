@@ -1,0 +1,2 @@
+theLog: anObject
+	theLog := anObject

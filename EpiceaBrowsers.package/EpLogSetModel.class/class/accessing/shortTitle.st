@@ -1,3 +1,0 @@
-shortTitle
-
-	^ #'All Changes'

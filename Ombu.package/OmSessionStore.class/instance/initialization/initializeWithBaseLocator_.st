@@ -5,6 +5,8 @@ initializeWithBaseLocator: aDirectoryFileLocator
 	baseLocator := aDirectoryFileLocator.
 	self store. "Force initialization"
 	
-	alternativeStore := OmDirectoryStore in: baseLocator 
+	alternativeStore := OmDirectoryStore in: baseLocator.
+	
+	self subscribeToSnapshotDone.
 	
 	

@@ -1,0 +1,3 @@
+isAbstract
+
+	^ self name = #OmSessionStoreNameStrategyTest

@@ -1,0 +1,3 @@
+nextSuffix
+
+	^ self subclassResponsibility

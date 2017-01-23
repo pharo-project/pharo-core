@@ -1,0 +1,3 @@
+globalName
+
+	^ theLog store globalName

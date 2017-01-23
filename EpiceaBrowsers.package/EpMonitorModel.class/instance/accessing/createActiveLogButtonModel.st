@@ -1,2 +1,0 @@
-createActiveLogButtonModel
-	^ createActiveLogButtonModel

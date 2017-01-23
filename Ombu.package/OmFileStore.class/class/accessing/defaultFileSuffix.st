@@ -1,2 +1,3 @@
 defaultFileSuffix
+
 	^ '.ombu'

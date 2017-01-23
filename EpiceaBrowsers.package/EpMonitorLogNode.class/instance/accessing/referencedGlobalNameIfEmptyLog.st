@@ -1,0 +1,2 @@
+referencedGlobalNameIfEmptyLog
+	^ referencedGlobalNameIfEmptyLog

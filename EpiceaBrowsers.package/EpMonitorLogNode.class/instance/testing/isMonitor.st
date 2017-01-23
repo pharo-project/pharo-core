@@ -1,0 +1,3 @@
+isMonitor
+
+	^ true
