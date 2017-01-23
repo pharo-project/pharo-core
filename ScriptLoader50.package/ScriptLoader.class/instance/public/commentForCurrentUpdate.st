@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '19435 Silently ignore loading DelayScheduler setting when its the same as existing (Pharo 5 backport)
-	https://pharo.fogbugz.com/f/cases/19435'
+ ^ '19477 Fuel out Stack uses old debugger API in Pharo 5
+	https://pharo.fogbugz.com/f/cases/19477'
