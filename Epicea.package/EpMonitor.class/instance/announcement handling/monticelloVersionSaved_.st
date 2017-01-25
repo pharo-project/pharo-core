@@ -1,3 +1,4 @@
 monticelloVersionSaved: aMCVersionSaved 
 
-	self addEvent: aMCVersionSaved asEpiceaEvent
+	aMCVersionSaved repository isEpiceaCache ifFalse: [
+		self addEvent: aMCVersionSaved asEpiceaEvent]
