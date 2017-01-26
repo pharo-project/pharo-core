@@ -1,3 +1,5 @@
 referencedGlobalNamesIfEmptyLog
 
-	^ { self referencedGlobalNameIfEmptyLog }
+	^ headReference isNull
+		ifTrue: [ #() ] 
+		ifFalse: [ { headReference globalName } ]

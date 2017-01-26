@@ -1,2 +1,0 @@
-referencedGlobalNameIfEmptyLog: anObject
-	referencedGlobalNameIfEmptyLog := anObject

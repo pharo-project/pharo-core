@@ -1,0 +1,2 @@
+headReference: anObject
+	headReference := anObject
