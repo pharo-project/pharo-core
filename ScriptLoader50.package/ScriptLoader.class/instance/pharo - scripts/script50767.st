@@ -1,4 +1,4 @@
-script50766
+script50767
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -210,7 +210,7 @@ Nautilus-Tests-TheIntegrator.37.mcz
 NautilusCommon-TheIntegrator.305.mcz
 NautilusGroupAutoBuilder-TheIntegrator.11.mcz
 NautilusRefactoring-TheIntegrator.272.mcz
-Network-Kernel-TheIntegrator.133.mcz
+Network-Kernel-TheIntegrator.136.mcz
 Network-MIME-MarcusDenker.69.mcz
 Network-Mail-EstebanLorenzano.47.mcz
 Network-Protocols-TheIntegrator.103.mcz
@@ -291,7 +291,7 @@ Slot-TheIntegrator.742.mcz
 Slot-Tests-TheIntegrator.89.mcz
 SmartSuggestions-TheIntegrator.234.mcz
 SmartSuggestions-Tests-TheIntegrator.33.mcz
-Spec-Core-TheIntegrator.465.mcz
+Spec-Core-TheIntegrator.467.mcz
 Spec-Debugger-TheIntegrator.263.mcz
 Spec-Examples-TheIntegrator.108.mcz
 Spec-Help-TheIntegrator.10.mcz
