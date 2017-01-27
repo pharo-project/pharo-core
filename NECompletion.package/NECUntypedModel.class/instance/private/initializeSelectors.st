@@ -1,8 +1,10 @@
 initializeSelectors
 	self resetSelectors.
+	
 	includeSelectors ifFalse: 
 		[ Smalltalk keysAndValuesDo: [ :each :class |
-			selectors add: (NECGlobalEntry contents: each) ].
+			(each includesSubstring: narrowString caseSensitive: NECPreferences caseSensitive) ifTrue: [
+			selectors add: (NECGlobalEntry contents: each)] ].
 		^ self ].
 	narrowString ifEmpty: [ ^ self ].
 	NECSymbols 
