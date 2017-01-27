@@ -1,4 +1,4 @@
-TestCase subclass: #MethodConstTests
+TestCase subclass: #MethodConstantTests
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

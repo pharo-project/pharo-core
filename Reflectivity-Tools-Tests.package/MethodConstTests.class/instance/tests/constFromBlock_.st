@@ -1,3 +1,0 @@
-constFromBlock: aBlock
-
-	^aBlock asMethodConst 
