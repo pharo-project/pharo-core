@@ -1,2 +1,2 @@
 creationTime 
-	^ filesystem creationTime: self path
+	^ filesystem creationTimeOf: self path

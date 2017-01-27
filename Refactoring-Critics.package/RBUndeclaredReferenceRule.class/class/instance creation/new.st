@@ -1,0 +1,3 @@
+new
+	
+	^ GRUndeclaredVariableRule asRBRule
