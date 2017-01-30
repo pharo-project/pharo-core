@@ -1,5 +1,5 @@
 click: event
 	"check for right click (menu)"
 
-	(event yellowButtonPressed and: [ (self commandOrCrontrolKeyPressed: event) not ])
+	(self isYellowButtonReallyPressed: event)
 		ifTrue: [ self showMenuForPosition: event cursorPoint ]
