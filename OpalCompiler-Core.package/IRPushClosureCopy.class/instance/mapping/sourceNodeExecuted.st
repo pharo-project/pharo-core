@@ -1,0 +1,2 @@
+sourceNodeExecuted
+	^self sourceNode parent

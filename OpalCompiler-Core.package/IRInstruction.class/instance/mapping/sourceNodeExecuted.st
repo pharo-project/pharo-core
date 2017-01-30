@@ -1,0 +1,4 @@
+sourceNodeExecuted
+
+	^ self sourceNode
+	
