@@ -1,0 +1,2 @@
+retrySelector: anObject
+	retrySelector := anObject

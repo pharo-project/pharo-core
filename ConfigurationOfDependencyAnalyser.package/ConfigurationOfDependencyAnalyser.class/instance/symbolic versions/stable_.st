@@ -5,4 +5,4 @@ stable: spec
 
 	spec for: #'pharo5.x' version: '1.18'.
 
-	spec for: #'pharo6.x' version: '1.20'.
+	spec for: #'pharo6.x' version: '1.21'.

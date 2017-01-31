@@ -1,2 +1,2 @@
 icon
-	^  self iconNamed: #traitIcon
+	^  Smalltalk ui icons iconNamed: #traitIcon

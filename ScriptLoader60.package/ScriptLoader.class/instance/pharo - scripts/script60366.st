@@ -1,4 +1,4 @@
-script60365
+script60366
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -43,13 +43,13 @@ Collections-Stack-TheIntegrator.10.mcz
 Collections-Streams-TheIntegrator.192.mcz
 Collections-Strings-TheIntegrator.447.mcz
 Collections-Support-TheIntegrator.67.mcz
-Collections-Tests-TheIntegrator.96.mcz
+Collections-Tests-TheIntegrator.99.mcz
 Collections-Unordered-TheIntegrator.246.mcz
 Collections-Weak-TheIntegrator.108.mcz
 Colors-TheIntegrator.3.mcz
 Compiler-TheIntegrator.608.mcz
 Compression-TheIntegrator.180.mcz
-Compression-Tests-TheIntegrator.4.mcz
+Compression-Tests-TheIntegrator.7.mcz
 ConfigurationCommandLineHandler-Core-TheIntegrator.29.mcz
 ConfigurationCommandLineHandler-Tests-MarcusDenker.11.mcz
 ContributingToTheCatalogHelp-TheIntegrator.9.mcz
@@ -132,7 +132,7 @@ Gofer-Core-TheIntegrator.237.mcz
 Gofer-Tests-TheIntegrator.164.mcz
 Gofer-UI-TheIntegrator.2.mcz
 Graphics-Canvas-TheIntegrator.14.mcz
-Graphics-Display Objects-TheIntegrator.183.mcz
+Graphics-Display Objects-TheIntegrator.186.mcz
 Graphics-Files-TheIntegrator.78.mcz
 Graphics-Fonts-TheIntegrator.109.mcz
 Graphics-Primitives-TheIntegrator.199.mcz
@@ -151,9 +151,9 @@ IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
 Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
-Kernel-TheIntegrator.2481.mcz
+Kernel-TheIntegrator.2483.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.142.mcz
+Kernel-Tests-TheIntegrator.143.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.204.mcz
 Keymapping-KeyCombinations-TheIntegrator.64.mcz
@@ -285,7 +285,7 @@ Reflectivity-Tools-TheIntegrator.69.mcz
 Reflectivity-Tools-Tests-TheIntegrator.24.mcz
 Regex-Core-TheIntegrator.40.mcz
 Regex-Help-MarcusDenker.5.mcz
-Regex-Tests-Core-MarcusDenker.9.mcz
+Regex-Tests-Core-TheIntegrator.11.mcz
 ReleaseTests-TheIntegrator.33.mcz
 Renraku-YuriyTymchuk.147.mcz
 Renraku-Help-YuriyTymchuk.3.mcz
@@ -297,7 +297,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.430.mcz
+Rubric-TheIntegrator.433.mcz
 Rubric-Rules-TheIntegrator.6.mcz
 Rubric-Styling-TheIntegrator.11.mcz
 Rubric-Tests-TheIntegrator.10.mcz
@@ -423,7 +423,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
-WriteBarrierTests-TheIntegrator.12.mcz
+WriteBarrierTests-TheIntegrator.14.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
