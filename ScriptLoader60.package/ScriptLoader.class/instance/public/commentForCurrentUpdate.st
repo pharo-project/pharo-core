@@ -1,15 +1,6 @@
 commentForCurrentUpdate
- ^ '17352 DisplayScreen should have a class initialization method
-	https://pharo.fogbugz.com/f/cases/17352
+ ^ '19635 DisplayScreen has  depth 1 on Linux
+	https://pharo.fogbugz.com/f/cases/19635
 
-19544 Better method comment for RubEditingMode>>interactive
-	https://pharo.fogbugz.com/f/cases/19544
-
-19614 Better names for NoModificationError and friends
-	https://pharo.fogbugz.com/f/cases/19614
-
-18767 Remove external dependencies from Collection-Tests
-	https://pharo.fogbugz.com/f/cases/18767
-
-19325 Warning: dependency declared not detected as a dependency
-	https://pharo.fogbugz.com/f/cases/19325'
+19634 WriteBarrier mirror methods should be moved to MirrorPrimitives
+	https://pharo.fogbugz.com/f/cases/19634'

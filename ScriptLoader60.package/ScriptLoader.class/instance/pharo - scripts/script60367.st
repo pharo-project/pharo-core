@@ -1,4 +1,4 @@
-script60366
+script60367
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -197,7 +197,7 @@ MonticelloFileTree-FileSystem-Utilities-TheIntegrator.33.mcz
 MonticelloGUI-TheIntegrator.432.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
-Moose-Algos-Graph-vincentBlondeau.31.mcz
+Moose-Algos-Graph-VincentBlondeau.33.mcz
 Morphic-Base-TheIntegrator.598.mcz
 Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
@@ -276,8 +276,8 @@ Refactoring-Tests-Changes-TheIntegrator.40.mcz
 Refactoring-Tests-Core-TheIntegrator.147.mcz
 Refactoring-Tests-Critics-TheIntegrator.54.mcz
 Refactoring-Tests-Environment-TheIntegrator.30.mcz
-ReflectionMirrors-Primitives-TheIntegrator.7.mcz
-ReflectionMirrors-Primitives-Tests-TheIntegrator.2.mcz
+ReflectionMirrors-Primitives-TheIntegrator.9.mcz
+ReflectionMirrors-Primitives-Tests-TheIntegrator.4.mcz
 Reflectivity-TheIntegrator.320.mcz
 Reflectivity-Examples-TheIntegrator.46.mcz
 Reflectivity-Tests-TheIntegrator.219.mcz
@@ -380,9 +380,9 @@ Tool-Base-TheIntegrator.188.mcz
 Tool-Catalog-TheIntegrator.53.mcz
 Tool-CriticBrowser-TheIntegrator.65.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
-Tool-DependencyAnalyser-Test-ChristopheDemarey.15.mcz
+Tool-DependencyAnalyser-Test-ChristopheDemarey.16.mcz
 Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.2.mcz
-Tool-DependencyAnalyser-UI-TheIntegrator.56.mcz
+Tool-DependencyAnalyser-UI-ChristopheDemarey.54.mcz
 Tool-Diff-TheIntegrator.47.mcz
 Tool-ExternalBrowser-TheIntegrator.55.mcz
 Tool-FileList-TheIntegrator.85.mcz
@@ -423,7 +423,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
-WriteBarrierTests-TheIntegrator.14.mcz
+WriteBarrierTests-TheIntegrator.16.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz

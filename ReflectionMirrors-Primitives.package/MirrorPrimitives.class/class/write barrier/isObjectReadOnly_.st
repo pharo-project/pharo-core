@@ -1,3 +1,3 @@
-isReadOnlyObject: object
+isObjectReadOnly: anObject
 	<primitive: 163 error: ec>
 	^ self primitiveFail
