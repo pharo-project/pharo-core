@@ -3,7 +3,7 @@ initialize
 	display := self new.
 	display
 		setExtent: self actualScreenSize
-		depth: (self actualScreenDepth ifNil: [ 2 ]).
+		depth: 32. 
 	Smalltalk globals at: #Display put: display.
 	display beDisplay.
 	
