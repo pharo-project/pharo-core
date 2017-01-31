@@ -1,4 +1,4 @@
 iconFor: project
-	^ (Smalltalk includesKey: project packageName asSymbol)
-		ifTrue: [ self iconNamed: #configIconLoaded ]
-		ifFalse: [ self iconNamed: #configIcon ]
+	^ (Smalltalk globals includesKey: project packageName asSymbol)
+		ifTrue: [ self iconNamed: #configLoaded ]
+		ifFalse: [ self iconNamed: #config ]
