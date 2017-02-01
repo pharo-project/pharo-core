@@ -1,2 +1,2 @@
 content: aString
-	content := aString
+	content := aString asString

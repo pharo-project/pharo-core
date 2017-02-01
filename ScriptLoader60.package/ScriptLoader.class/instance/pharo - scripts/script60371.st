@@ -1,4 +1,4 @@
-script60370
+script60371
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -31,7 +31,7 @@ BlueInk-Extras-TheIntegrator.12.mcz
 BlueInk-Tests-TheIntegrator.12.mcz
 CodeExport-TheIntegrator.19.mcz
 CodeImport-TheIntegrator.90.mcz
-CodeImportCommandLineHandlers-TheIntegrator.13.mcz
+CodeImportCommandLineHandlers-TheIntegrator.15.mcz
 Collections-Abstract-TheIntegrator.335.mcz
 Collections-Arithmetic-TheIntegrator.20.mcz
 Collections-Atomic-TheIntegrator.16.mcz
@@ -99,7 +99,7 @@ GT-EventRecorder-AndreiChis.74.mcz
 GT-EventRecorder-Tests-TheIntegrator.39.mcz
 GT-Inspector-TheIntegrator.444.mcz
 GT-InspectorExtensions-Core-TheIntegrator.241.mcz
-GT-Playground-TheIntegrator.137.mcz
+GT-Playground-TheIntegrator.139.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-PavelKrivanek.407.mcz
 GT-Spotter-EventRecorder-JurajKubelka.113.mcz
@@ -253,7 +253,7 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1407.mcz
+Polymorph-Widgets-TheIntegrator.1408.mcz
 Polymorph-Widgets-Rules-TheIntegrator.11.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
@@ -393,7 +393,6 @@ Tool-ProcessBrowser-TheIntegrator.27.mcz
 Tool-Profilers-TheIntegrator.37.mcz
 Tool-SystemReporter-TheIntegrator.19.mcz
 Tool-Transcript-TheIntegrator.25.mcz
-Tool-TxWorkspace-NicolaiHess.7.mcz
 Tool-Workspace-TheIntegrator.48.mcz
 Tools-TheIntegrator.1530.mcz
 Tools-Test-TheIntegrator.26.mcz
