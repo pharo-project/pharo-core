@@ -1,2 +1,0 @@
-onTextInserted: ann 
-	self updateSyntaxHighlighting.

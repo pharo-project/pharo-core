@@ -1,9 +1,6 @@
 commentForCurrentUpdate
- ^ '18232 Breakpoints cannot be toggled in Nautilus method pane
-	https://pharo.fogbugz.com/f/cases/18232
+ ^ '13159 ListDialogWindow - Grow Width to Fit List
+	https://pharo.fogbugz.com/f/cases/13159
 
-19641 CantFindOriginError when Source file is missing on Windows
-	https://pharo.fogbugz.com/f/cases/19641
-
-19632 TabMorph should defer only notification about ready morph
-	https://pharo.fogbugz.com/f/cases/19632'
+19620 Unload Tool-TxWorkspace
+	https://pharo.fogbugz.com/f/cases/19620'

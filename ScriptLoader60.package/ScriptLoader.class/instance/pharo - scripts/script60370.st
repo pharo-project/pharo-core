@@ -1,4 +1,4 @@
-script60369
+script60370
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -18,7 +18,7 @@ Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfFileTree-ThierryGoubier.15.mcz
-BaselineOfIDE-TheIntegrator.13.mcz
+BaselineOfIDE-TheIntegrator.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfMorphic-TheIntegrator.19.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
@@ -207,7 +207,7 @@ Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.203.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
-Morphic-Widgets-Pluggable-TheIntegrator.77.mcz
+Morphic-Widgets-Pluggable-TheIntegrator.79.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.37.mcz
 Morphic-Widgets-Tabs-TheIntegrator.45.mcz
@@ -253,8 +253,8 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1405.mcz
-Polymorph-Widgets-Rules-TheIntegrator.9.mcz
+Polymorph-Widgets-TheIntegrator.1407.mcz
+Polymorph-Widgets-Rules-TheIntegrator.11.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
 ProfStef-Help-TheIntegrator.16.mcz
