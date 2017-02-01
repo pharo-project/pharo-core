@@ -1,4 +1,4 @@
-script60368
+script60369
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -210,7 +210,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.77.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.37.mcz
-Morphic-Widgets-Tabs-TheIntegrator.43.mcz
+Morphic-Widgets-Tabs-TheIntegrator.45.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.27.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.64.mcz
@@ -223,7 +223,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.257.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1341.mcz
+Nautilus-TheIntegrator.1343.mcz
 Nautilus-GroupManager-TheIntegrator.24.mcz
 Nautilus-GroupManagerUI-TheIntegrator.44.mcz
 Nautilus-Tests-TheIntegrator.52.mcz
@@ -354,7 +354,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.108.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.13.mcz
-System-OSEnvironments-TheIntegrator.31.mcz
+System-OSEnvironments-TheIntegrator.33.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz

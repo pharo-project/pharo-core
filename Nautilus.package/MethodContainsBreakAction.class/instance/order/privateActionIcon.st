@@ -2,8 +2,8 @@ privateActionIcon
 	"Return the icon for this action"
 	^ IconicButton new
 		target: self browser;
-		actionSelector: #toggleBreakpoint;
-		arguments: {};
+		actionSelector: #toggleBreakpointIn:;
+		arguments: { self method};
 		labelGraphic: (self iconNamed: #haltIcon);
 		color: Color transparent;
 		helpText: 'remove breakpoint';
