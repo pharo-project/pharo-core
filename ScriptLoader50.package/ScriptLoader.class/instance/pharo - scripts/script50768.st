@@ -1,4 +1,4 @@
-script50767
+script50768
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -280,7 +280,7 @@ SUnit-UI-EstebanLorenzano.138.mcz
 SUnit-UITesting-TheIntegrator.32.mcz
 ScriptLoader-Tests-TheIntegrator.4.mcz
 Settings-Graphics-StephaneDucasse.28.mcz
-Settings-Polymorph-TheIntegrator.92.mcz
+Settings-Polymorph-TheIntegrator.94.mcz
 Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TommasoDalSasso.3.mcz

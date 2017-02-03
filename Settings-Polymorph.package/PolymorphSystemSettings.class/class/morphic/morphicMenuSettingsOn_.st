@@ -1,6 +1,6 @@
 morphicMenuSettingsOn: aBuilder 
 	(aBuilder group: #menu)
-		label: 'Menues';
+		label: 'Menus';
 		parent: #morphic;
 		description: 'All menu settings' ;
 		target: UITheme;
