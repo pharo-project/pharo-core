@@ -1,2 +1,2 @@
 collapseAll
-	children do: #collapseAll displayingProgress: [ :each | 'Collapsing ' , each name ] every: 200
+	children do: #collapseAll

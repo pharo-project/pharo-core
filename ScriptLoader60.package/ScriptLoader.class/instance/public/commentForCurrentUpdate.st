@@ -1,9 +1,3 @@
 commentForCurrentUpdate
- ^ '19631 GTPlayBook is producing memory leaks
-	https://pharo.fogbugz.com/f/cases/19631
-
-19633 EvaluateCommandLineHandler cannot process --evaluate
-	https://pharo.fogbugz.com/f/cases/19633
-
-19627 More contrast for default tooltip  
-	https://pharo.fogbugz.com/f/cases/19627'
+ ^ '19651 showing a progress dialog each time I want to make an expandAll is incorrect
+	https://pharo.fogbugz.com/f/cases/19651'
