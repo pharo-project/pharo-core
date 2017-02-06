@@ -1,4 +1,4 @@
 refresh
 
 	lastRefresh := Time millisecondClockValue.
-	self currentWorld displayWorld.
+	self currentWorld doOneCycleNow.

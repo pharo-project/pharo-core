@@ -1,6 +1,9 @@
 commentForCurrentUpdate
- ^ '18783 FileList: selected directory is changed after selecting a different folder
-	https://pharo.fogbugz.com/f/cases/18783
+ ^ '18271 BaselineOfFileTree is in the old version
+	https://pharo.fogbugz.com/f/cases/18271
 
-18699 MessageBrowser>>#wrapItem: may send #name to nil, raising Deprecated
-	https://pharo.fogbugz.com/f/cases/18699'
+18837 RBParser should not crash when parsing a faulty method node
+	https://pharo.fogbugz.com/f/cases/18837
+
+19655 Handle events during progressBar usage
+	https://pharo.fogbugz.com/f/cases/19655'
