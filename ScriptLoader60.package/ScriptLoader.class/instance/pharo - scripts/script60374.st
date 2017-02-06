@@ -1,4 +1,4 @@
-script60373
+script60374
 
 	^ 'AST-Core-TheIntegrator.490.mcz
 AST-Tests-Core-TheIntegrator.132.mcz
@@ -98,8 +98,8 @@ GT-Debugger-TheIntegrator.368.mcz
 GT-EventRecorder-AndreiChis.74.mcz
 GT-EventRecorder-Tests-TheIntegrator.39.mcz
 GT-Inspector-TheIntegrator.444.mcz
-GT-InspectorExtensions-Core-TheIntegrator.241.mcz
-GT-Playground-TheIntegrator.139.mcz
+GT-InspectorExtensions-Core-AndreiChis.245.mcz
+GT-Playground-AndreiChis.140.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
 GT-Spotter-PavelKrivanek.407.mcz
 GT-Spotter-EventRecorder-JurajKubelka.113.mcz
@@ -107,22 +107,22 @@ GT-SpotterExtensions-Core-TheIntegrator.221.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.59.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-TheIntegrator.27.mcz
+GT-Tests-Spotter-VincentBlondeau.28.mcz
 GeneralRules-TheIntegrator.11.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz
-Glamour-Core-JurajKubelka.327.mcz
+Glamour-Core-AndreiChis.328.mcz
 Glamour-Examples-AndreiChis.319.mcz
-Glamour-FastTable-AndreiChis.67.mcz
+Glamour-FastTable-AndreiChis.70.mcz
 Glamour-Helpers-TudorGirba.40.mcz
 Glamour-Morphic-Brick-AndreiChis.436.mcz
 Glamour-Morphic-Brick-Tests-JurajKubelka.15.mcz
 Glamour-Morphic-Pager-MarcusDenker.111.mcz
-Glamour-Morphic-Renderer-AndreiChis.354.mcz
+Glamour-Morphic-Renderer-AndreiChis.355.mcz
 Glamour-Morphic-Theme-TheIntegrator.229.mcz
-Glamour-Morphic-Widgets-TheIntegrator.203.mcz
+Glamour-Morphic-Widgets-AndreiChis.204.mcz
 Glamour-Presentations-TheIntegrator.189.mcz
-Glamour-Rubric-Presentations-TheIntegrator.58.mcz
+Glamour-Rubric-Presentations-TudorGirba.59.mcz
 Glamour-SpecIntegration-TheIntegrator.6.mcz
 Glamour-Tests-Core-PavelKrivanek.113.mcz
 Glamour-Tests-Morphic-TudorGirba.137.mcz
@@ -333,7 +333,7 @@ Spec-Layout-TheIntegrator.75.mcz
 Spec-MorphicAdapters-TheIntegrator.290.mcz
 Spec-PolyWidgets-TheIntegrator.93.mcz
 Spec-Tests-TheIntegrator.104.mcz
-Spec-Tools-TheIntegrator.378.mcz
+Spec-Tools-TheIntegrator.382.mcz
 StartupPreferences-TheIntegrator.153.mcz
 System-Announcements-TheIntegrator.138.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
@@ -385,7 +385,7 @@ Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.2.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.54.mcz
 Tool-Diff-TheIntegrator.47.mcz
 Tool-ExternalBrowser-TheIntegrator.55.mcz
-Tool-FileList-TheIntegrator.85.mcz
+Tool-FileList-TheIntegrator.88.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.78.mcz
 Tool-ImageCleaner-TheIntegrator.19.mcz

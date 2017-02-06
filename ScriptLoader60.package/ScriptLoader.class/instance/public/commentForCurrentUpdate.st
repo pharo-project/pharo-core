@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19647 Integrate GTools version 3.33
-	https://pharo.fogbugz.com/f/cases/19647'
+ ^ '18783 FileList: selected directory is changed after selecting a different folder
+	https://pharo.fogbugz.com/f/cases/18783
+
+18699 MessageBrowser>>#wrapItem: may send #name to nil, raising Deprecated
+	https://pharo.fogbugz.com/f/cases/18699'
