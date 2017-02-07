@@ -1,4 +1,4 @@
-script60376
+script60377
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -252,7 +252,7 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-TaskbarIcons-TheIntegrator.48.mcz
-Polymorph-Widgets-TheIntegrator.1408.mcz
+Polymorph-Widgets-TheIntegrator.1411.mcz
 Polymorph-Widgets-Rules-TheIntegrator.11.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.83.mcz
@@ -421,7 +421,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
-WriteBarrierTests-TheIntegrator.16.mcz
+WriteBarrierTests-TheIntegrator.18.mcz
 Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
