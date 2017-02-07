@@ -1,4 +1,4 @@
-script60375
+script60376
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -17,7 +17,6 @@ Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
-BaselineOfFileTree-ThierryGoubier.15.mcz
 BaselineOfIDE-TheIntegrator.15.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfMorphic-TheIntegrator.19.mcz
@@ -247,7 +246,7 @@ OSWindow-Tests-RonieSalgado.3.mcz
 OSWindow-VM-MerwanOuddane.4.mcz
 Ombu-MartinDias.225.mcz
 OmbuTests-MartinDias.14.mcz
-OpalCompiler-Core-TheIntegrator.883.mcz
+OpalCompiler-Core-TheIntegrator.885.mcz
 OpalCompiler-Tests-TheIntegrator.378.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
