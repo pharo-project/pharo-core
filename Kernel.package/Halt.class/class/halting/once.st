@@ -9,7 +9,7 @@ once
 	
 	senderContext := thisContext.
 	
-	RecursionStopper during: [
+	LocalRecursionStopper during: [
 		"we need to ignore when the code below calls us again"
 		node := callingContext sourceNodeExecuted.
 		(node hasProperty: #Once) ifTrue: [ ^ self ]. 

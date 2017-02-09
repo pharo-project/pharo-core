@@ -1,2 +1,3 @@
 commentForCurrentUpdate
- ^ 'FileExists error in certain cases due to Epiciea vs new UUID'
+ ^ '19677 Cannot parallel trace through same method
+	https://pharo.fogbugz.com/f/cases/19677'
