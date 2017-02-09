@@ -1,3 +1,3 @@
 nextSuffix
 
-	^ UUID new asString36 first: 5
+	^ UUID new asString36
