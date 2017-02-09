@@ -1,2 +1,2 @@
 stonName
-	^ #TestUser3
+	^ 'TestUser3'

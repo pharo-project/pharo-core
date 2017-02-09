@@ -2,6 +2,6 @@ initialize
 	super initialize.
 	objects := IdentityDictionary new.
 	classes := IdentityDictionary new.
-	allowComplexMapKeys := acceptUnknownClasses := convertNewLines := false.
+	acceptUnknownClasses := convertNewLines := false.
 	newLine := String cr.
 	unresolvedReferences := 0

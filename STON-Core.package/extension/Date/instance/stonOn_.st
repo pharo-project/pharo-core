@@ -1,4 +1,4 @@
 stonOn: stonWriter
-	"Use an ISO style YYYYMMDD representation"
+	"Use an ISO style YYYY-MM-DD representation"
 	
 	stonWriter writeObject: self listSingleton: self yyyymmdd

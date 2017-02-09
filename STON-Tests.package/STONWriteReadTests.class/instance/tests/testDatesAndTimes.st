@@ -1,8 +1,7 @@
 testDatesAndTimes
 	| datesAndTimes |
 	datesAndTimes := STON listClass withAll: { 
-		Time fromSeconds: 
-		Time now asSeconds. 
+		Time now. 
 		Date today. 
 		DateAndTime now }.
 	self serializeAndMaterialize: datesAndTimes

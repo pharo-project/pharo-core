@@ -1,5 +1,5 @@
 escapeUnicode: codePoint
-	codePoint <= 16rFFF
+	codePoint <= 16rFFFF
 		ifTrue: [ self escapeUnicode4: codePoint ]
 		ifFalse: [ 
 			codePoint <= 16r10FFFF

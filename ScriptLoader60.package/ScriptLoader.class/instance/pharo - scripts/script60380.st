@@ -1,4 +1,4 @@
-script60379
+script60380
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -369,7 +369,7 @@ System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
 Tests-TheIntegrator.785.mcz
-Text-Core-TheIntegrator.62.mcz
+Text-Core-TheIntegrator.64.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.126.mcz
 Text-Edition-Tests-EstebanLorenzano.3.mcz
@@ -422,15 +422,15 @@ Versionner-Tests-Core-Model-ChristopheDemarey.33.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
 WriteBarrierTests-TheIntegrator.18.mcz
-Zinc-Character-Encoding-Core-TheIntegrator.48.mcz
-Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.27.mcz
+Zinc-Character-Encoding-Core-SvenVanCaekenberghe.46.mcz
+Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.29.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
-Zinc-HTTP-TheIntegrator.452.mcz
-Zinc-Resource-Meta-Core-TheIntegrator.58.mcz
+Zinc-HTTP-SvenVanCaekenberghe.453.mcz
+Zinc-Resource-Meta-Core-SvenVanCaekenberghe.61.mcz
 Zinc-Resource-Meta-FileSystem-SvenVanCaekenberghe.8.mcz
-Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.36.mcz
-Zinc-Tests-SvenVanCaekenberghe.236.mcz
-Zinc-Zodiac-TheIntegrator.37.mcz
+Zinc-Resource-Meta-Tests-SvenVanCaekenberghe.37.mcz
+Zinc-Tests-SvenVanCaekenberghe.238.mcz
+Zinc-Zodiac-SvenVanCaekenberghe.36.mcz
 Zodiac-Core-SvenVanCaekenberghe.42.mcz
 Zodiac-Extra-StephaneDucasse.10.mcz
 Zodiac-Tests-SvenVanCaekenberghe.13.mcz'
