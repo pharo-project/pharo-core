@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	self primMakeUUID.
+	NeoUUIDGenerator default placeFields: self

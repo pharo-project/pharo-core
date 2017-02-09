@@ -1,4 +1,4 @@
-script60380
+script60381
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -66,7 +66,7 @@ EpiceaBrowsersTests-MartinDias.8.mcz
 EpiceaTests-MartinDias.10.mcz
 FFI-Kernel-EstebanLorenzano.42.mcz
 FFI-Pools-eem.3.mcz
-FileSystem-Core-TheIntegrator.216.mcz
+FileSystem-Core-TheIntegrator.218.mcz
 FileSystem-Disk-TheIntegrator.106.mcz
 FileSystem-Memory-TheIntegrator.61.mcz
 FileSystem-Tests-Core-TheIntegrator.101.mcz
@@ -234,7 +234,7 @@ Network-MIME-TheIntegrator.73.mcz
 Network-Mail-TheIntegrator.52.mcz
 Network-Protocols-TheIntegrator.105.mcz
 Network-Tests-TheIntegrator.26.mcz
-Network-UUID-TheIntegrator.57.mcz
+Network-UUID-TheIntegrator.59.mcz
 Network-Url-TheIntegrator.103.mcz
 NewValueHolder-TheIntegrator.35.mcz
 NodeNavigation-TheIntegrator.55.mcz
@@ -300,8 +300,8 @@ Rubric-TheIntegrator.433.mcz
 Rubric-Rules-TheIntegrator.6.mcz
 Rubric-Styling-TheIntegrator.11.mcz
 Rubric-Tests-TheIntegrator.10.mcz
-STON-Core-TheIntegrator.75.mcz
-STON-Tests-TheIntegrator.66.mcz
+STON-Core-SvenVanCaekenberghe.82.mcz
+STON-Tests-SvenVanCaekenberghe.71.mcz
 STON-Text support-TheIntegrator.2.mcz
 SUnit-Core-TheIntegrator.216.mcz
 SUnit-Help-MarcusDenker.9.mcz
@@ -357,7 +357,7 @@ System-OSEnvironments-TheIntegrator.33.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.81.mcz
 System-Serial Port-StephaneDucasse.23.mcz
-System-SessionManager-TheIntegrator.36.mcz
+System-SessionManager-TheIntegrator.38.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
 System-Settings-TheIntegrator.370.mcz
 System-Settings-Rules-TheIntegrator.2.mcz

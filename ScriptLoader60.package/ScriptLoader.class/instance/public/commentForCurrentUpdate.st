@@ -1,6 +1,6 @@
 commentForCurrentUpdate
- ^ '19680 DNU bug in SLICE 18901
-	https://pharo.fogbugz.com/f/cases/19680
+ ^ '19673 Use NeoUUIDGenerator for UUID generation
+	https://pharo.fogbugz.com/f/cases/19673
 
-19679 STON Update Feb 2017
-	https://pharo.fogbugz.com/f/cases/19679'
+19672 Cleanup some (Neo)UUIDGenerator dependencies
+	https://pharo.fogbugz.com/f/cases/19672'
