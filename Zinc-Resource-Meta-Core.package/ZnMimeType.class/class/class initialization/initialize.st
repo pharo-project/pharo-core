@@ -1,4 +1,6 @@
 initialize
+	"Last forced update: 20161016"
+	
 	self 
 		initializeExtensionsMap;
-		initializeSubTypeBinaryCache
+		initializeTextSubTypeFragments

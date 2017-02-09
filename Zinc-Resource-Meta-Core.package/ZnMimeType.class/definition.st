@@ -1,5 +1,5 @@
 Object subclass: #ZnMimeType
 	instanceVariableNames: 'main sub parameters'
-	classVariableNames: 'ExtensionsMap SubTypeBinaryCache'
+	classVariableNames: 'ExtensionsMap TextSubTypeFragments'
 	poolDictionaries: ''
 	category: 'Zinc-Resource-Meta-Core'

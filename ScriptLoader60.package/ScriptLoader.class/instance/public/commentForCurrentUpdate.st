@@ -1,3 +1,6 @@
 commentForCurrentUpdate
- ^ '19664 Removing a package with extensions let the extensions in the system and break their reload
-	https://pharo.fogbugz.com/f/cases/19664'
+ ^ '19678 Zn Update Feb 2017
+	https://pharo.fogbugz.com/f/cases/19678
+
+19671 The button "Class" stays blue until the cursor leaves it when switching to instance side view
+	https://pharo.fogbugz.com/f/cases/19671'

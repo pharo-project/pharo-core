@@ -1,2 +1,2 @@
 defaultServerString 
-	^ self frameworkNameAndVersion 
+	^ self frameworkNameAndVersion , ' (' , self systemVersion , ')'

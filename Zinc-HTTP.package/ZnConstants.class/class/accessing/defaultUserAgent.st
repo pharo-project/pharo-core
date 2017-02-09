@@ -1,2 +1,2 @@
 defaultUserAgent
-	^ self frameworkNameAndVersion 
+	^ self frameworkNameAndVersion , ' (' , self systemVersion , ')'

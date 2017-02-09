@@ -1,2 +1,2 @@
 hasContentLength
-	^ self headers includesKey: 'Content-Length'
+	^ self headers hasContentLength and: [ self headers contentLength > 0 ]

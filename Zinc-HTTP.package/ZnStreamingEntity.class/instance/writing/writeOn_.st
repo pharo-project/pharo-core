@@ -9,4 +9,4 @@ writeOn: outputStream
 				streamFrom: self stream 
 				to: outputStream 
 				size: self contentLength ].
-	stream close
+	self close

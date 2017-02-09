@@ -1,4 +1,4 @@
-script60378
+script60379
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -201,7 +201,7 @@ Morphic-Base-TheIntegrator.600.mcz
 Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.106.mcz
+Morphic-Widgets-Basic-TheIntegrator.108.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
 Morphic-Widgets-FastTable-TheIntegrator.204.mcz

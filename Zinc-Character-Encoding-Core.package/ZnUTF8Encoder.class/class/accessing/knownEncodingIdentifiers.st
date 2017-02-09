@@ -1,0 +1,2 @@
+knownEncodingIdentifiers
+	^ #( utf8 )

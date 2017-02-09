@@ -3,6 +3,4 @@ getGif: urlObject
 	
 	^ self 
 		getImageOfType: ZnMimeType imageGif 
-		usingParser: GIFReadWriter 
-		fromUrl: urlObject 
-	
+		fromUrl: urlObject	

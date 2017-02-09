@@ -5,6 +5,4 @@ getPng: urlObject
 	
 	^ self 
 		getImageOfType: ZnMimeType imagePng 
-		usingParser: PNGReadWriter 
-		fromUrl: urlObject 
-	
+		fromUrl: urlObject
