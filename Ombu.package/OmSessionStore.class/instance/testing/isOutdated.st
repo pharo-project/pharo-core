@@ -1,3 +1,0 @@
-isOutdated
-
-	^ currentStore isOutdated

@@ -1,3 +1,0 @@
-descriptionString
-
-	^ self fileReference asString

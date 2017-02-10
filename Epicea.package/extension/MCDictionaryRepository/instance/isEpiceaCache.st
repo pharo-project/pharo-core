@@ -1,3 +1,0 @@
-isEpiceaCache
-
-	^ description isNil

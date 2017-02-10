@@ -1,3 +1,3 @@
 globalName
 
-	^ currentStore globalName
+	^ self store globalName

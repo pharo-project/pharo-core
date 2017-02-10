@@ -1,0 +1,2 @@
+setUp
+	generator := UUIDGenerator new

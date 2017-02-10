@@ -1,0 +1,5 @@
+entryPositionsByLocalName
+	
+	self checkIfMustRefresh.
+	
+	^ entryPositionsByLocalName

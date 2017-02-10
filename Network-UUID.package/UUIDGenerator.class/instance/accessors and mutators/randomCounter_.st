@@ -1,2 +1,0 @@
-randomCounter: aNumber
-	randomCounter := aNumber

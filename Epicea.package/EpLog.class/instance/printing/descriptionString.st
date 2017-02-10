@@ -1,3 +1,0 @@
-descriptionString
-	
-	^ store descriptionString

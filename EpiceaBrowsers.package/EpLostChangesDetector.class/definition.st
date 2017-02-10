@@ -1,5 +1,5 @@
 Object subclass: #EpLostChangesDetector
-	instanceVariableNames: ''
+	instanceVariableNames: 'monitorLog'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaBrowsers-Integration'

@@ -1,8 +1,6 @@
 addEvent: anEvent newEntryDo: aBlock
 
-	[ self 
+	self 
 		addEvent: anEvent
 		newEntryDo: aBlock
-		triggerReference: self currentTriggerReference ]
-			on: OmFileStoreWritingError
-			do: [ :error | self handleError: error ]
+		triggerReference: self currentTriggerReference

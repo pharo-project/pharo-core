@@ -1,5 +1,5 @@
 OmStore subclass: #OmFileStore
-	instanceVariableNames: 'writerLock globalName entryWriter headReference fileReference entryPositionsByLocalName entryCount entryReader'
+	instanceVariableNames: 'globalName headReference fileReference entryPositionsByLocalName entryCount entryReader writingDeferrer entryByLocalName mustRefresh entryBuffer lock'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Ombu-Stores'

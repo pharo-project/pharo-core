@@ -1,3 +1,0 @@
-headReference: aReference
-
-	headReference := aReference

@@ -1,8 +1,8 @@
 nextTo: aName in: aDirectory
 	
 	| fileReference |
-	fileReference := (OmFileStore
+	fileReference := OmFileStore
 		fileReferenceForStoreNamed: aName
-		inDirectory: aDirectory).
+		inDirectory: aDirectory.
 	
 	^ fileReference nextVersion basenameWithoutExtension

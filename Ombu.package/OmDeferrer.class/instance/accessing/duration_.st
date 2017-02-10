@@ -1,0 +1,3 @@
+duration: aDuration
+
+	duration := aDuration

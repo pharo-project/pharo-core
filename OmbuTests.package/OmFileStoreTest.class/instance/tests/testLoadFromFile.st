@@ -1,6 +1,7 @@
 testLoadFromFile
 	| loadedStore |
 	store newEntry: (OmEntry content: 42).
+	store flush.
 	
 	loadedStore := 
 		(OmFileStore 

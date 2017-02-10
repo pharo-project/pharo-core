@@ -1,3 +1,5 @@
 headReference
 
+	self checkIfMustRefresh.
+
 	^ headReference

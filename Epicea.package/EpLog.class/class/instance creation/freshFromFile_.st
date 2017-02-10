@@ -1,3 +1,5 @@
-freshFromFile: aFileReference 
+freshFromFile: aFileReference
 
-	^ self newWithStore: (OmFileStore freshFromFile: aFileReference)
+	^ (self fromFile: aFileReference)
+		refresh;
+		yourself

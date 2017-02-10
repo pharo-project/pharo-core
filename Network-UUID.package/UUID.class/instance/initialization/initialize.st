@@ -1,3 +1,3 @@
 initialize
 	super initialize.
-	NeoUUIDGenerator default placeFields: self
+	UUIDGenerator default placeFields: self

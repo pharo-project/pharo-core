@@ -1,0 +1,3 @@
+useLogWithSessionStore
+
+	log := self newLogWithSessionStore

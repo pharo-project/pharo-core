@@ -12,6 +12,3 @@ initializeWidgets
 		#entryContentModel -> #DiffModel. 
 		#filtersModel -> #TreeModel. 
 		}.
-		
-	self whenWindowChanged: [ :windowModel | 
-		windowModel whenClosedDo: [ self unsubscribeFromLog ] ].

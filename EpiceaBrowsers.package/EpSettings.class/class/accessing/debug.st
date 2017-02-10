@@ -1,3 +1,0 @@
-debug
-
-	^ EpMonitor current isDebug

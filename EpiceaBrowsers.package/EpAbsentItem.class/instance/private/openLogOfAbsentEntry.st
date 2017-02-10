@@ -1,3 +1,0 @@
-openLogOfAbsentEntry
-
-	self absentEntryLog browseEvents

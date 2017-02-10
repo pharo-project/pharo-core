@@ -1,0 +1,3 @@
+flush
+
+	self writingDeferrer flush

@@ -1,7 +1,7 @@
 epiceaBrowsersAsString
 
 	| numberOfDaysAgo |
-	numberOfDaysAgo := Date today subtractDate: self.
+	numberOfDaysAgo := self class today subtractDate: self.
 
 	numberOfDaysAgo < 2 ifTrue: [
 		^ String streamContents: [:stream | 

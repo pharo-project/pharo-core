@@ -1,3 +1,0 @@
-moveStreamToNextEntry: aStream
-	
-	^ self subclassResponsibility

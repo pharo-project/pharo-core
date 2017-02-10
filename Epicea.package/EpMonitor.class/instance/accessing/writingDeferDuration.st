@@ -1,0 +1,3 @@
+writingDeferDuration
+
+	^ self sessionStore writingDeferDuration

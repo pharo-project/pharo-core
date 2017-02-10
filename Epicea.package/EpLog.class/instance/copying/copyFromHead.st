@@ -1,5 +1,5 @@
 copyFromHead
 	^ self species newWithStore: 
 		(OmFileStore
-			named: headReference globalName 
+			named: store headReference globalName 
 			inDirectory: store baseLocator asFileReference)

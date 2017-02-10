@@ -1,0 +1,3 @@
+count: anInteger 
+
+	count := anInteger

@@ -1,0 +1,3 @@
+sendMessage
+	
+	object perform: selector

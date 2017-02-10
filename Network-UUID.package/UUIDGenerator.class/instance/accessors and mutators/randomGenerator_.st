@@ -1,2 +1,0 @@
-randomGenerator: aGenerator
-	randomGenerator := aGenerator

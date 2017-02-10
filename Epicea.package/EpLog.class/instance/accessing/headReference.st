@@ -1,3 +1,3 @@
 headReference
 
-	^ headReference
+	^ store headReference

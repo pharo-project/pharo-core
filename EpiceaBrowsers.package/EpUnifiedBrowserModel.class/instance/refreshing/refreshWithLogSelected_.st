@@ -3,7 +3,7 @@ refreshWithLogSelected: item
 	| freshLog |
 	freshLog := item
 		ifNil: [ EpLog newNull ]
-		ifNotNil: [ item log refresh; yourself].
+		ifNotNil: [ item log ].
 	
 	logModel 
 		log: freshLog; 

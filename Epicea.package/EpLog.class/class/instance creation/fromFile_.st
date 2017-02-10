@@ -1,3 +1,3 @@
 fromFile: aFileReference 
 
-	^ self newWithStore: (OmFileStore fromFile: aFileReference)
+	^ self newWithStore: (OmStoreFactory current fromFile: aFileReference)

@@ -1,2 +1,0 @@
-randomCounter
-	^randomCounter

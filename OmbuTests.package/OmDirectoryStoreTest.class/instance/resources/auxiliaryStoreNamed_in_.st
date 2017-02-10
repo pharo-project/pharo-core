@@ -7,4 +7,5 @@ auxiliaryStoreNamed: globalName in: aDirectoryFileReference
 		
 	auxiliaryStore 
 		newEntry: (OmEntry content: 42);
-		newEntry: (OmEntry content: 43).
+		newEntry: (OmEntry content: 43);
+		flush.

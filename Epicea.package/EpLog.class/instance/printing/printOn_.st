@@ -4,5 +4,5 @@ printOn: aStream
 	
 	aStream 
 		nextPut: $(;
-		nextPutAll: headReference asString;
+		nextPutAll: self headReference asString;
 		nextPut: $).

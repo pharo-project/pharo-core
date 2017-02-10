@@ -1,4 +1,0 @@
-initialize
-	super initialize.
-	
-	log := self newLog.

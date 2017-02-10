@@ -1,5 +1,5 @@
 Object subclass: #UUIDGenerator
-	instanceVariableNames: 'timeLow timeMid timeHiAndVersion clockSeqHiAndReserved clockSeqLow node randomCounter randomGenerator semaphoreForGenerator'
+	instanceVariableNames: 'node random counter lock'
 	classVariableNames: 'Default'
 	poolDictionaries: ''
 	category: 'Network-UUID'

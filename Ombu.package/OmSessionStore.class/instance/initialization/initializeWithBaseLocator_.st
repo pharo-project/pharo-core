@@ -4,6 +4,7 @@ initializeWithBaseLocator: aDirectoryFileLocator
 	
 	baseLocator := aDirectoryFileLocator.
 	self store. "Force initialization"
+	headReference := self store headReference.
 	
 	alternativeStore := OmDirectoryStore in: baseLocator.
 	
