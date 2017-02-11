@@ -3,4 +3,4 @@ getHex
 
 	Cursor read showWhile: [
 		brevityState := #needToGetBriefHex.
-		self changed: #contents].
+		self changedContents].

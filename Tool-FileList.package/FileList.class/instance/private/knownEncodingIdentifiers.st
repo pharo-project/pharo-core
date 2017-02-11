@@ -1,0 +1,2 @@
+knownEncodingIdentifiers
+	^ ZnCharacterEncoder knownEncodingIdentifiers sort
