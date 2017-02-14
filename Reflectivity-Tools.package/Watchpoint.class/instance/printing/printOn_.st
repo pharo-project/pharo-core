@@ -1,5 +1,8 @@
 printOn: aStream
-	aStream nextPutAll: 'Watchpoint: '.
+	aStream nextPutAll: 'WP'.
 	tagname isAllSeparators 
-		ifTrue: [ aStream nextPutAll: 'Unnamed' ]
-		ifFalse: [ aStream nextPutAll: tagname ]  
+		ifFalse: [ 
+			aStream nextPutAll: ' '.
+			aStream nextPutAll: tagname ]. 
+	aStream nextPutAll: ': '.
+	aStream nextPutAll: (self printLastValue).
