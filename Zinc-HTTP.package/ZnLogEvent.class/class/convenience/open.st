@@ -1,2 +1,2 @@
 open
-	^ self announcer open
+	^ self announcer inspect
