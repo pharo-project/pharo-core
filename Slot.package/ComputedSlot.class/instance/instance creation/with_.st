@@ -1,0 +1,2 @@
+with: aBlock
+	block := aBlock
