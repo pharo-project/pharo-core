@@ -1,4 +1,4 @@
-TestCase subclass: #MethodContextTest
+TestCase subclass: #ContextTest
 	instanceVariableNames: 'aCompiledMethod aReceiver aMethodContext aSender'
 	classVariableNames: ''
 	poolDictionaries: ''
