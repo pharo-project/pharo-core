@@ -14,6 +14,7 @@ buildWidget
 			getIconSelector: #getIconFor: ;
 			resetListSelector:	#resetListSelection ; 
 			getMenuSelector:	#menu:shifted: ;
+			setMultipleSelection: self multiSelection;
 			doubleClickSelector: #doubleClick: ;
 			basicWrapSelector: #wrapItem: ;
 			dragEnabled:	self dragEnabled ;

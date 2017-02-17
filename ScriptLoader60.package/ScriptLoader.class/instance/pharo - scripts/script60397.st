@@ -1,4 +1,4 @@
-script60396
+script60397
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -204,7 +204,7 @@ Morphic-Tests-TheIntegrator.11.mcz
 Morphic-Widgets-Basic-TheIntegrator.108.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.27.mcz
-Morphic-Widgets-FastTable-TheIntegrator.206.mcz
+Morphic-Widgets-FastTable-TheIntegrator.208.mcz
 Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.79.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
@@ -263,8 +263,8 @@ QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
 RPackage-Core-TheIntegrator.462.mcz
 RPackage-Tests-TheIntegrator.199.mcz
-Random-Core-TheIntegrator.8.mcz
-Random-Tests-TheIntegrator.4.mcz
+Random-Core-TheIntegrator.10.mcz
+Random-Tests-TheIntegrator.6.mcz
 RecentSubmissions-TheIntegrator.246.mcz
 Refactoring-Changes-TheIntegrator.70.mcz
 Refactoring-Core-TheIntegrator.337.mcz
@@ -323,13 +323,13 @@ Slot-TheIntegrator.785.mcz
 Slot-Tests-TheIntegrator.101.mcz
 SmartSuggestions-TheIntegrator.269.mcz
 SmartSuggestions-Tests-TheIntegrator.39.mcz
-Spec-Core-TheIntegrator.537.mcz
+Spec-Core-TheIntegrator.539.mcz
 Spec-Debugger-TheIntegrator.280.mcz
 Spec-Examples-TheIntegrator.131.mcz
 Spec-Help-TheIntegrator.13.mcz
 Spec-Inspector-TheIntegrator.285.mcz
 Spec-Layout-TheIntegrator.75.mcz
-Spec-MorphicAdapters-TheIntegrator.290.mcz
+Spec-MorphicAdapters-TheIntegrator.292.mcz
 Spec-PolyWidgets-TheIntegrator.93.mcz
 Spec-Tests-TheIntegrator.104.mcz
 Spec-Tools-TheIntegrator.382.mcz
@@ -338,7 +338,7 @@ System-Announcements-TheIntegrator.138.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
 System-CachingTests-TheIntegrator.19.mcz
-System-Changes-TheIntegrator.305.mcz
+System-Changes-TheIntegrator.307.mcz
 System-Changes-FileServices-TheIntegrator.4.mcz
 System-Clipboard-TheIntegrator.42.mcz
 System-CommandLine-TheIntegrator.181.mcz
@@ -369,7 +369,7 @@ System-Support-TheIntegrator.1269.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.5.mcz
 System-VMEvents-TheIntegrator.19.mcz
-Tests-TheIntegrator.788.mcz
+Tests-TheIntegrator.790.mcz
 Text-Core-TheIntegrator.66.mcz
 Text-Diff-TheIntegrator.6.mcz
 Text-Edition-TheIntegrator.126.mcz
