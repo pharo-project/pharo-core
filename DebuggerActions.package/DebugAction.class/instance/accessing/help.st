@@ -1,0 +1,3 @@
+help
+
+	^ self defaultHelp

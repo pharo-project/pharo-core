@@ -1,0 +1,3 @@
+defaultHelp
+
+	^ 'No help, sorry.'
