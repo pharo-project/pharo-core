@@ -1,5 +1,8 @@
 inspectionMenu: aMenu
+	| menuModel |
 	self hasSelectedObject ifFalse: [ ^ aMenu ].
-	self inspectionSubMenu: aMenu.
-	self selectedElement inspectionMenu: aMenu.
-	^aMenu.
+	menuModel := MenuModel new.
+	self inspectionSubMenu: menuModel.
+	self selectedElement inspectionMenu: menuModel.
+	aMenu addAllMorphs: (menuModel buildWithSpec: #popup) items.
+	^aMenu

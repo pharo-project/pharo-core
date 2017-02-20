@@ -1,0 +1,2 @@
+selectedMessage
+	^ nil

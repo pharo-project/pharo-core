@@ -1,2 +1,0 @@
-brevityState
-	^ brevityState 
