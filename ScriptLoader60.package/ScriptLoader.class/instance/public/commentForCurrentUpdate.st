@@ -1,12 +1,6 @@
 commentForCurrentUpdate
- ^ '19488 STONWriterTests>>#testDictionaryWithComplexKeys is order dependent
-	https://pharo.fogbugz.com/f/cases/19488
+ ^ '19728 Integrate Sublimish theme
+	https://pharo.fogbugz.com/f/cases/19728
 
-18584 DNU on showing menu in PointerExplorer
-	https://pharo.fogbugz.com/f/cases/18584
-
-18459 FileList calls unimplemented method allRegisteredServices
-	https://pharo.fogbugz.com/f/cases/18459
-
-18724 DNU EyeTreeInspector workspace pane context menu
-	https://pharo.fogbugz.com/f/cases/18724'
+18460 FileLists "more..." menu item in preview panes context menu does not work
+	https://pharo.fogbugz.com/f/cases/18460'

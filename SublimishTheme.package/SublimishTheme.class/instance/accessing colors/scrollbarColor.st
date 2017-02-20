@@ -1,0 +1,2 @@
+scrollbarColor 
+	^ self buttonColor

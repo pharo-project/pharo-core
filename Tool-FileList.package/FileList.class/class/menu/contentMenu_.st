@@ -68,6 +68,3 @@ contentMenu: aBuilder
 		selector: #cancel;
 		iconName: #smallCancelIcon;
 		withSeparatorAfter.
-		
-	(aBuilder item: #'More...' translated)
-		selector: #shiftedYellowButtonActivity.

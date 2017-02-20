@@ -1,0 +1,2 @@
+basePassiveBackgroundColor
+	^ Color darkGray

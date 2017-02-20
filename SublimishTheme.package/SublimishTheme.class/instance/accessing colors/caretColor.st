@@ -1,0 +1,2 @@
+caretColor
+	^ self backgroundColor muchLighter 

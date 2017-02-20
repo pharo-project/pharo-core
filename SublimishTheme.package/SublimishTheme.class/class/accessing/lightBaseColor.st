@@ -1,0 +1,2 @@
+lightBaseColor
+	^ self baseColor lighter 

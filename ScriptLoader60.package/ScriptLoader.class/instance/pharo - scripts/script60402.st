@@ -1,4 +1,4 @@
-script60401
+script60402
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -17,7 +17,7 @@ Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
-BaselineOfIDE-TheIntegrator.19.mcz
+BaselineOfIDE-TheIntegrator.22.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfMorphic-TheIntegrator.19.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
@@ -334,6 +334,7 @@ Spec-PolyWidgets-TheIntegrator.93.mcz
 Spec-Tests-TheIntegrator.104.mcz
 Spec-Tools-TheIntegrator.382.mcz
 StartupPreferences-TheIntegrator.153.mcz
+SublimishTheme-TheIntegrator.9.mcz
 System-Announcements-TheIntegrator.138.mcz
 System-BasicCommandLineHandler-TheIntegrator.18.mcz
 System-Caching-TheIntegrator.29.mcz
@@ -385,7 +386,7 @@ Tool-DependencyAnalyser-Test-Data-ChristopheDemarey.2.mcz
 Tool-DependencyAnalyser-UI-ChristopheDemarey.54.mcz
 Tool-Diff-TheIntegrator.47.mcz
 Tool-ExternalBrowser-TheIntegrator.57.mcz
-Tool-FileList-TheIntegrator.92.mcz
+Tool-FileList-TheIntegrator.94.mcz
 Tool-FileList-Tests-EstebanLorenzano.3.mcz
 Tool-Finder-TheIntegrator.78.mcz
 Tool-ImageCleaner-TheIntegrator.19.mcz

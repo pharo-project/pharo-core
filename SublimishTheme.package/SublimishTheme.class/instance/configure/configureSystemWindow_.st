@@ -1,0 +1,2 @@
+configureSystemWindow: aWindow
+	
