@@ -1,0 +1,3 @@
+withGhostText: aText
+	
+	withGhostText := aText

@@ -1,5 +1,5 @@
 newToolbarMorph
-	^ PanelMorph new
+	^ GLMPanelMorph new
 		fillStyle: (SolidFillStyle color: Color transparent);
 		borderStyle: (BorderStyle width: 0);
 		vResizing: #spaceFill;

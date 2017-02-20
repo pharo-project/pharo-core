@@ -1,0 +1,3 @@
+withGhostText
+	
+	^ withGhostText

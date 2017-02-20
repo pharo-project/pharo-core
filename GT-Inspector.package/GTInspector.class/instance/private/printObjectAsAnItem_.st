@@ -3,7 +3,7 @@ printObjectAsAnItem: anObject
 	header := (anObject class name first isVowel
 		ifTrue: [ 'an ' ]
 		ifFalse: [ 'a ' ]) , anObject class name.
-	printString := (GTObjectPrinter new asTruncatedTextFrom: anObject) asString.
+	printString := (GTObjectPrinter asTruncatedTextFrom: anObject) asString.
 	^ (printString beginsWith: header)
 		ifTrue: [ printString ]
 		ifFalse: [ 

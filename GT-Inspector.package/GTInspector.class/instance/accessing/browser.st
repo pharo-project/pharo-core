@@ -1,0 +1,2 @@
+browser
+	^ self first

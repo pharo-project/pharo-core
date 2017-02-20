@@ -1,5 +1,5 @@
 containerMorph
-	^ PanelMorph new
+	^ GLMPanelMorph new
 		layoutPolicy: ProportionalLayout new;
 		hResizing: #spaceFill;
 		vResizing: #spaceFill;

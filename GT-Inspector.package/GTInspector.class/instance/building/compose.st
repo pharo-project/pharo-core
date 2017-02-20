@@ -8,7 +8,7 @@ compose
 				each title = 'Overview' ] ] ] ] 
 		icon: GLMUIThemeExtraIcons glamorousHelp 
 		entitled: 'Help'.
-	self act: [:b | b presentationFilter ifNotNil: [ :filter | filter changeFilterRequestFor: b] ] entitled: 'Filter presentations'.
+	self act: [:b | b presentationFilter changeFilterRequestFor: b ] entitled: 'Filter presentations'.
 	self pager with: [ :browser | 
 		browser fixedSizePanes: self class numberOfInspectorPanes.
 		browser show: [ :a :each |
@@ -24,4 +24,5 @@ compose
 							inContext: self ])
 							startOn: x ] ] ].
 			
-	self first when: GLMPaneAdded send: #actOnPaneAdded: to: self
+	self browser when: GLMPaneAdded send: #actOnPaneAdded: to: self.
+	self browser when: GLMPaneRemoved send: #actOnPaneRemoved: to: self

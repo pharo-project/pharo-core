@@ -1,3 +1,0 @@
-basicVariableValuePairsFor: anObject
-
-	^ anObject gtInspectorVariableValuePairs asOrderedCollection 

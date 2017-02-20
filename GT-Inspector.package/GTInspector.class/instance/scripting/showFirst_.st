@@ -1,3 +1,3 @@
 showFirst: aBlock
 
-	self first showFirst: aBlock
+	self browser showFirst: aBlock

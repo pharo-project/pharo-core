@@ -1,0 +1,2 @@
+dataFromPresentationItem: anItem
+	self explicitRequirement

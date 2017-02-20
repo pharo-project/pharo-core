@@ -1,3 +1,3 @@
 addAllBricks: aCollection
 
-	aCollection do: [ :each | self addBrickBack: each ]
+	self brickRoot addAllBricks: aCollection

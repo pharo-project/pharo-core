@@ -1,0 +1,2 @@
+shouldShowHeader
+	self explicitRequirement

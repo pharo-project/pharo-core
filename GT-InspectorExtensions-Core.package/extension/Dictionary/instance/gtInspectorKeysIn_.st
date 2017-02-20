@@ -1,6 +1,6 @@
 gtInspectorKeysIn: composite
 	<gtInspectorPresentationOrder: 1>
 
-	^ composite list
+	^ composite fastList
 		title: 'Keys';
 		display: [ self keys ]

@@ -1,0 +1,2 @@
+dataFromPresentationItem: anItem
+	^ anItem

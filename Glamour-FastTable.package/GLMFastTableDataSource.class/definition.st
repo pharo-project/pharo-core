@@ -1,4 +1,5 @@
 GLMFastListDataSource subclass: #GLMFastTableDataSource
+	uses: TGLMFastTableColumnsRenderer
 	instanceVariableNames: 'columnToSortBy'
 	classVariableNames: ''
 	poolDictionaries: ''

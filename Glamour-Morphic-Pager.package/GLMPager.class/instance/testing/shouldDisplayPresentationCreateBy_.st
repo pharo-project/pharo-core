@@ -1,2 +1,0 @@
-shouldDisplayPresentationCreateBy: aCollection 
-	^ true

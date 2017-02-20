@@ -1,6 +1,6 @@
 renderWithExpanders: aBrowser
 	| morph scroll panel expander |
-	panel := PanelMorph new.
+	panel := GLMPanelMorph new.
 	panel 
 		fillStyle: Color transparent;
 		hResizing: #spaceFill;

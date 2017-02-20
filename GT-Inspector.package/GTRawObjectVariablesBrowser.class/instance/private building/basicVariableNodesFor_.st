@@ -1,0 +1,3 @@
+basicVariableNodesFor: anObject
+
+	^ #()

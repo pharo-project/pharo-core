@@ -1,3 +1,0 @@
-basicVariableValuePairsFor: anObject
-
-	self subclassResponsibility 
