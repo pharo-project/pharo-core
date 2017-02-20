@@ -1,4 +1,4 @@
-script50768
+script50769
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -230,7 +230,7 @@ OpalCompiler-Tests-TheIntegrator.334.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.31.mcz
 Polymorph-TaskbarIcons-TheIntegrator.46.mcz
-Polymorph-Widgets-TheIntegrator.1338.mcz
+Polymorph-Widgets-TheIntegrator.1340.mcz
 PragmaCollector-TheIntegrator.12.mcz
 ProfStef-Core-TheIntegrator.77.mcz
 ProfStef-Help-TheIntegrator.16.mcz

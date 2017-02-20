@@ -3,4 +3,3 @@ initialize
 
 	super initialize.
 	self windowActiveDropShadowStyle: #plain.
-	self settings preferGradientFill: false.
