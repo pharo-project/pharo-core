@@ -7,6 +7,7 @@ newDefaultSettings
 		windowColor: self baseColor;
 		selectionColor: self lightSelectionColor;
 		menuSelectionColor: self baseSelectionColor;
+		menuSelectionTextColor: self baseSelectionColor contrastingColor;
 		progressBarColor: self baseColor;
 		standardColorsOnly: true;
 		autoSelectionColor: false;

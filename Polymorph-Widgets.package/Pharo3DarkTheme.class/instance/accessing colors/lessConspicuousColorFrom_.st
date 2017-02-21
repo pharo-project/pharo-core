@@ -1,0 +1,3 @@
+lessConspicuousColorFrom: aColor
+
+	^	aColor slightlyLighter
