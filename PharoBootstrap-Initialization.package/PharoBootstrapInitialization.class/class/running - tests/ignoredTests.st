@@ -1,0 +1,2 @@
+ignoredTests
+	^ #(SemaphoreTest ProcessTest)

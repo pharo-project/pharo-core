@@ -81,9 +81,6 @@ baseline: spec
 
 		spec package: 'RPackage-Tests'.
 
-
-		spec package: 'BaselineOfFileTree'.
-
 		spec package: 'Glamour-Announcements'.
 		spec package: 'Glamour-Helpers'.
 		spec package: 'Glamour-Core'.
