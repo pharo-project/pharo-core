@@ -1,4 +1,4 @@
-script50769
+script50770
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -140,7 +140,7 @@ Keymapping-Pragmas-TheIntegrator.54.mcz
 Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.105.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
-Komitter-TheIntegrator.166.mcz
+Komitter-TheIntegrator.168.mcz
 Manifest-Core-TheIntegrator.239.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.51.mcz
