@@ -1,4 +1,4 @@
-script60406
+script60407
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -267,7 +267,7 @@ Random-Core-TheIntegrator.10.mcz
 Random-Tests-TheIntegrator.6.mcz
 RecentSubmissions-TheIntegrator.246.mcz
 Refactoring-Changes-TheIntegrator.70.mcz
-Refactoring-Core-TheIntegrator.337.mcz
+Refactoring-Core-TheIntegrator.339.mcz
 Refactoring-Critics-TheIntegrator.298.mcz
 Refactoring-Environment-TheIntegrator.88.mcz
 Refactoring-Help-TheIntegrator.7.mcz
@@ -378,7 +378,7 @@ Text-Edition-Tests-EstebanLorenzano.3.mcz
 Text-Scanning-TheIntegrator.33.mcz
 Text-Tests-TheIntegrator.10.mcz
 Tool-Base-TheIntegrator.190.mcz
-Tool-Catalog-TheIntegrator.53.mcz
+Tool-Catalog-TheIntegrator.55.mcz
 Tool-CriticBrowser-TheIntegrator.65.mcz
 Tool-DependencyAnalyser-ChristopheDemarey.31.mcz
 Tool-DependencyAnalyser-Test-ChristopheDemarey.16.mcz
