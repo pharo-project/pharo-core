@@ -1,4 +1,4 @@
-script60408
+script60409
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -152,7 +152,7 @@ Jobs-TheIntegrator.30.mcz
 JobsTests-TheIntegrator.2.mcz
 Kernel-TheIntegrator.2493.mcz
 Kernel-Rules-TheIntegrator.13.mcz
-Kernel-Tests-TheIntegrator.152.mcz
+Kernel-Tests-TheIntegrator.154.mcz
 Kernel-Tests-Rules-TheIntegrator.5.mcz
 Keymapping-Core-TheIntegrator.204.mcz
 Keymapping-KeyCombinations-TheIntegrator.64.mcz
@@ -277,7 +277,7 @@ Refactoring-Tests-Core-TheIntegrator.147.mcz
 Refactoring-Tests-Critics-TheIntegrator.54.mcz
 Refactoring-Tests-Environment-TheIntegrator.30.mcz
 ReflectionMirrors-Primitives-TheIntegrator.9.mcz
-ReflectionMirrors-Primitives-Tests-TheIntegrator.4.mcz
+ReflectionMirrors-Primitives-Tests-TheIntegrator.6.mcz
 Reflectivity-TheIntegrator.320.mcz
 Reflectivity-Examples-TheIntegrator.46.mcz
 Reflectivity-Tests-TheIntegrator.219.mcz
@@ -424,7 +424,7 @@ Versionner-Tests-Core-DependenciesModel-ChristopheDemarey.46.mcz
 Versionner-Tests-Core-Model-TheIntegrator.35.mcz
 Versionner-Tests-Resources-MarcusDenker.18.mcz
 WorldMenuHelp-TheIntegrator.2.mcz
-WriteBarrierTests-TheIntegrator.18.mcz
+WriteBarrierTests-TheIntegrator.20.mcz
 Zinc-Character-Encoding-Core-SvenVanCaekenberghe.46.mcz
 Zinc-Character-Encoding-Tests-SvenVanCaekenberghe.29.mcz
 Zinc-FileSystem-SvenVanCaekenberghe.12.mcz
