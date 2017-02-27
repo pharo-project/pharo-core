@@ -1,3 +1,4 @@
 canExpand
-
-	^complexContents hasContents
+	^complexContents 
+		ifNotNil: [ complexContents hasContents ]
+		ifNil: [ false ]

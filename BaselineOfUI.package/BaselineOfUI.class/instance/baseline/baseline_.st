@@ -31,7 +31,6 @@ baseline: spec
 		spec package: 'Spec-MorphicAdapters'.
 		spec package: 'Spec-PolyWidgets'.
 		spec package: 'Spec-Tools'.
-		spec package: 'Spec-SelectEntity'.
 
 		spec package: 'Morphic-Widgets-Tree'.
 		spec package: 'Polymorph-TaskbarIcons'.
