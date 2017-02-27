@@ -1,0 +1,2 @@
+alignment: anObject
+	alignment := anObject

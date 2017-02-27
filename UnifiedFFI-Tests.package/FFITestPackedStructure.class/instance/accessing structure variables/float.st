@@ -1,3 +1,3 @@
 float
 	"This method was automatically generated"
-	^handle floatAt: 8
+	^handle floatAt: OFFSET_FLOAT

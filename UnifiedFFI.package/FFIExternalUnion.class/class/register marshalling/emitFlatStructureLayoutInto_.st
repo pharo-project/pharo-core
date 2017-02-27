@@ -1,0 +1,2 @@
+emitFlatStructureLayoutInto: flatStructureLayout
+	flatStructureLayout addMemoryFieldSize: self structureSize alignment: self structureAlignment

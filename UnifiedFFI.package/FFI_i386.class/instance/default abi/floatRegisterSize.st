@@ -1,0 +1,2 @@
+floatRegisterSize
+	^ 8

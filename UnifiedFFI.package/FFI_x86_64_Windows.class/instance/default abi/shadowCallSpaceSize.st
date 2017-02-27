@@ -1,0 +1,2 @@
+shadowCallSpaceSize
+	^ 32

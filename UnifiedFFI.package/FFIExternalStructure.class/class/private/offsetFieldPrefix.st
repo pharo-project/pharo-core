@@ -1,0 +1,2 @@
+offsetFieldPrefix
+	^ 'OFFSET'

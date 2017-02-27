@@ -1,0 +1,2 @@
+integerRegisterCount: anObject
+	integerRegisterCount := anObject

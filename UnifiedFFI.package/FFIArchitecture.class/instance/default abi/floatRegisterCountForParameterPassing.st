@@ -1,0 +1,2 @@
+floatRegisterCountForParameterPassing
+	^ 0

@@ -1,0 +1,2 @@
+externalTypeAlignment
+	^ OSPlatform current ffiAlignment

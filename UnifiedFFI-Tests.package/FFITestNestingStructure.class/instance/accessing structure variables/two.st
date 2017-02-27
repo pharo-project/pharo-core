@@ -1,3 +1,3 @@
 two
 	"This method was automatically generated"
-	^handle signedLongAt: 5
+	^handle platformLongAt: OFFSET_TWO

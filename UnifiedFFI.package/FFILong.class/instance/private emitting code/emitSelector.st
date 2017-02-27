@@ -1,0 +1,2 @@
+emitSelector
+	^ 'platformLongAt'

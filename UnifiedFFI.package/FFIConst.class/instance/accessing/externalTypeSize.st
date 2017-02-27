@@ -1,2 +1,2 @@
 externalTypeSize
-	^ externalType externalTypeSize
+	^ externalType byteSize

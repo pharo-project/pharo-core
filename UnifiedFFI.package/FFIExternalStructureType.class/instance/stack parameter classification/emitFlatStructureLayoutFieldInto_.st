@@ -1,0 +1,2 @@
+emitFlatStructureLayoutFieldInto: flatStructureLayout
+	objectClass emitFlatStructureLayoutFieldInto: flatStructureLayout

@@ -1,0 +1,2 @@
+ffiCalloutClass
+	^ FFICalloutAPI

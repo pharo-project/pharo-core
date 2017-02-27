@@ -1,0 +1,2 @@
+externalULongType
+	^ ExternalType unsignedLongLong

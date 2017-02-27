@@ -1,0 +1,2 @@
+integerRegisterCountForParameterPassing
+	^ 4

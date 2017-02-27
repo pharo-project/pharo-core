@@ -1,0 +1,2 @@
+stackValueParameterClass
+	^ #float

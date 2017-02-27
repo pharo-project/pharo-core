@@ -1,0 +1,2 @@
+setUp
+	architecture := FFIArchitecture forCurrentArchitecture

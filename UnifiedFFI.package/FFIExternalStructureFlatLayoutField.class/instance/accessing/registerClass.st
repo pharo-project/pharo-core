@@ -1,0 +1,2 @@
+registerClass
+	^ registerClass

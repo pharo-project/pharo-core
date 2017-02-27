@@ -1,5 +1,5 @@
 FFIExternalStructure subclass: #FFITestNestingStructureWithArray
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'OFFSET_NESTED'
 	poolDictionaries: ''
 	category: 'UnifiedFFI-Tests'

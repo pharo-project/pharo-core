@@ -1,0 +1,2 @@
+integerRegisterSize
+	self subclassResponsibility

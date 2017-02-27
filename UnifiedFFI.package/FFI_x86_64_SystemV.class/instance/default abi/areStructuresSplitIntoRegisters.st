@@ -1,0 +1,2 @@
+areStructuresSplitIntoRegisters
+	^ true

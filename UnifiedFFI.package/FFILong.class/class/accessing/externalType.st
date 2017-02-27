@@ -1,0 +1,2 @@
+externalType 
+	^ FFIArchitecture forCurrentArchitecture externalLongType

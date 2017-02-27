@@ -1,0 +1,2 @@
+intregargsp
+	^ nil

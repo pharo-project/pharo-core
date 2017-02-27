@@ -1,0 +1,2 @@
+offsetReadFieldAt: offsetVariableName
+	^ self notYetImplemented

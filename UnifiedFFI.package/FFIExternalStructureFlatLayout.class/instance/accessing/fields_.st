@@ -1,0 +1,2 @@
+fields: anObject
+	fields := anObject

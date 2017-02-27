@@ -1,0 +1,2 @@
+integerRegisterSize
+	^ 8

@@ -1,0 +1,2 @@
+isNormalAlignedStructure
+	^ true

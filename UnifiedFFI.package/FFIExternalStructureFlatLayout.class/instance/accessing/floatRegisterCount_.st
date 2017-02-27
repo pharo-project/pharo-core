@@ -1,0 +1,2 @@
+floatRegisterCount: anObject
+	^ floatRegisterCount := anObject

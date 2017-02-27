@@ -1,3 +1,3 @@
 int64
 	"This method was automatically generated"
-	^handle signedLongLongAt: 21
+	^handle signedLongLongAt: OFFSET_INT64

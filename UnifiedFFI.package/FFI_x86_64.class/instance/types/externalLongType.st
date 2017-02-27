@@ -1,0 +1,2 @@
+externalLongType
+	^ ExternalType signedLongLong

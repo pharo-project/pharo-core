@@ -1,0 +1,2 @@
+integerRegisterCount
+	^ integerRegisterCount

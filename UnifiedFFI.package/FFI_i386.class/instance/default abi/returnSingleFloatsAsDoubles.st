@@ -1,0 +1,2 @@
+returnSingleFloatsAsDoubles
+	^ true

@@ -1,3 +1,3 @@
 byte10: anObject
 	"This method was automatically generated"
-	handle replaceFrom: 6 to: 15 with: anObject getHandle startingAt: 1
+	handle replaceFrom: OFFSET_BYTE10 to: OFFSET_BYTE10 + 9 with: anObject getHandle startingAt: 1

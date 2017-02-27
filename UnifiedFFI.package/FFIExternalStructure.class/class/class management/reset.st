@@ -1,0 +1,2 @@
+reset 
+	compiledSpec := nil

@@ -1,3 +1,3 @@
 short
 	"This method was automatically generated"
-	^handle signedShortAt: 3
+	^handle signedShortAt: OFFSET_SHORT

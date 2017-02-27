@@ -1,0 +1,2 @@
+longTypeSize
+	^ self externalLongType byteSize

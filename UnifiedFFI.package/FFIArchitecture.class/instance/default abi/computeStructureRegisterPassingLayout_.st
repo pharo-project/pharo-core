@@ -1,0 +1,3 @@
+computeStructureRegisterPassingLayout: aStructureClass
+	^ nil
+	

@@ -1,0 +1,2 @@
+maxStructureSizeToPassInRegisters
+	^ 0

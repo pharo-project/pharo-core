@@ -1,5 +1,5 @@
 TestCase subclass: #FFIExternalStructureFieldParserTests
-	instanceVariableNames: ''
+	instanceVariableNames: 'architecture'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'UnifiedFFI-Tests'

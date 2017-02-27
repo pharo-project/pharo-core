@@ -1,5 +1,5 @@
 TestCase subclass: #FFICalloutTests
-	instanceVariableNames: ''
+	instanceVariableNames: 'architecture'
 	classVariableNames: 'CLASSVAR TYPEVAR'
 	poolDictionaries: ''
 	category: 'UnifiedFFI-Tests'

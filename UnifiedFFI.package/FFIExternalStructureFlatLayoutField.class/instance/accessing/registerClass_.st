@@ -1,0 +1,2 @@
+registerClass: anObject
+	registerClass := anObject
