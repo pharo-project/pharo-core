@@ -1,0 +1,2 @@
+maxSmallSize
+	^ 255

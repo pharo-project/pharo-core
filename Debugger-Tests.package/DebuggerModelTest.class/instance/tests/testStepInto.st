@@ -8,4 +8,4 @@ testStepInto
 		stepInto;
 		stepInto.
 
-	self assert: session interruptedContext printString equals: 'Set class>>new'.
+	self assert: session interruptedContext printString equals: 'Set class(HashedCollection class)>>new'.

@@ -1,2 +1,2 @@
 defaultPreferences
-	^ FileLocator preferences / self fileName
+	^ FileLocator preferences / 'pharo' / self fileName

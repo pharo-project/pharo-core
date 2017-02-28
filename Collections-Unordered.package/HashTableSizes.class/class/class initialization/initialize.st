@@ -1,6 +1,9 @@
 initialize
 	"Throw away any previously-cached sizes, then compute and cache the sizes."
-	"HashTableSizes initialize"
-	
+	"self initialize"
+
 	sizes := nil.
-	self sizes
+	self sizes.
+
+	smallSizesLookupTable := nil.
+	self smallSizesLookupTable
