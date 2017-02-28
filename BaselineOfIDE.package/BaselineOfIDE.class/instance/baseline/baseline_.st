@@ -246,6 +246,7 @@ baseline: spec
 		spec package: 'OSWindow-SDL2-Examples'.
 		spec package: 'OSWindow-Tests'.
 		spec package: 'Pharo-Help'.
+		spec package: 'PharoDocComment'.
 		spec package: 'Polymorph-Widgets-Rules'.
 		spec package: 'ProfStef-Tests'.
 		spec package: 'QualityAssistant-Test'.
@@ -293,5 +294,7 @@ baseline: spec
 		spec package: 'Zinc-Resource-Meta-FileSystem'.	
 		spec package: 'Zinc-Tests'.
 
-	      self groups: spec.
+		spec package: 'BaselineOfPharoBootstrap'.
+
+      self groups: spec.
 	].

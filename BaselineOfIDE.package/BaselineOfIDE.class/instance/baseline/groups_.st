@@ -9,6 +9,7 @@ spec group: 'Mandatory-Group' with: #(
 spec group: 'Optional-Group' with: #(
 	'Athens-Group' "dependency"
 
+	'PharoDocComment'	"standalone"
 	'STON-Text support'	"standalone?"
 	'System-CommandLine-TextSupport'	"standalone?"
 	'System-Serial Port'	"standalone?"
@@ -324,7 +325,7 @@ spec group: 'Glamour-Group' with: #(
 ).
 
 spec group: 'GT-Core-Group' with: #(
-	'SmartSuggestions-Core-Group' "dependency"
+	'SmartSuggestions-Group' "dependency"
 	'Glamour-Core-Group'	"dependency"
 	"'Morphic-Core' 'System-Settings' is dependent on this group, needs clenup"
 	'OpalTools'
@@ -524,4 +525,6 @@ spec group: #default with: #(
 	'Versionner-Group'
 	'General-Tests-Group'
 	'Themes-Group'
+	
+	'BaselineOfPharoBootstrap'
 ).
