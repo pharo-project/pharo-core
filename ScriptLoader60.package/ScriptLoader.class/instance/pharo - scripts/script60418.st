@@ -1,4 +1,4 @@
-script60417
+script60418
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -19,7 +19,7 @@ BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfIDE-TheIntegrator.32.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
-BaselineOfMorphic-TheIntegrator.23.mcz
+BaselineOfMorphic-TheIntegrator.27.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
 BaselineOfPharoBootstrap-TheIntegrator.4.mcz
 BaselineOfSUnit-TheIntegrator.4.mcz
@@ -263,7 +263,7 @@ ProfStef-Tests-TheIntegrator.27.mcz
 QualityAssistant-YuriyTymchuk.118.mcz
 QualityAssistant-Test-YuriyTymchuk.2.mcz
 QualityAssistantRecording-Uko.28.mcz
-RPackage-Core-TheIntegrator.462.mcz
+RPackage-Core-TheIntegrator.464.mcz
 RPackage-Tests-TheIntegrator.199.mcz
 Random-Core-TheIntegrator.10.mcz
 Random-Tests-TheIntegrator.6.mcz
@@ -298,7 +298,7 @@ Ring-Tests-Containers-MarcusDenker.18.mcz
 Ring-Tests-Kernel-TheIntegrator.93.mcz
 Ring-Tests-Monticello-MarcusDenker.19.mcz
 RingChunkImporter-TheIntegrator.8.mcz
-Rubric-TheIntegrator.436.mcz
+Rubric-TheIntegrator.438.mcz
 Rubric-Rules-TheIntegrator.6.mcz
 Rubric-Styling-TheIntegrator.11.mcz
 Rubric-Tests-TheIntegrator.10.mcz
