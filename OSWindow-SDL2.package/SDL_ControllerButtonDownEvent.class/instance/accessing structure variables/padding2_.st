@@ -1,3 +1,3 @@
 padding2: anObject
 	"This method was automatically generated"
-	handle unsignedByteAt: 16 put: anObject
+	handle unsignedByteAt: OFFSET_PADDING2 put: anObject

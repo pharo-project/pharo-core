@@ -1,3 +1,3 @@
 axis: anObject
 	"This method was automatically generated"
-	handle unsignedByteAt: 13 put: anObject
+	handle unsignedByteAt: OFFSET_AXIS put: anObject

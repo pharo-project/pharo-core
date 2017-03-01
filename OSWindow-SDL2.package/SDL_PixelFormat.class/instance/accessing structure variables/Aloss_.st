@@ -1,3 +1,3 @@
 Aloss: anObject
 	"This method was automatically generated"
-	handle unsignedByteAt: 32 put: anObject
+	handle unsignedByteAt: OFFSET_ALOSS put: anObject

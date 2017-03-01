@@ -1,3 +1,3 @@
 refcount: anObject
 	"This method was automatically generated"
-	handle signedLongAt: 57 put: anObject
+	handle signedLongAt: OFFSET_REFCOUNT put: anObject

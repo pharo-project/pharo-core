@@ -1,3 +1,3 @@
 getSurfaceFormatFn
 	"This method was automatically generated"
-	^FFICallback forAddress: (handle unsignedLongAt: 9)
+	^FFICallback forAddress: ((handle pointerAt: OFFSET_GETSURFACEFORMATFN) asInteger)

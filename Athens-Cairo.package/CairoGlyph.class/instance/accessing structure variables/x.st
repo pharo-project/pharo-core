@@ -1,3 +1,3 @@
 x
 	"This method was automatically generated"
-	^handle doubleAt: 5
+	^handle doubleAt: OFFSET_X

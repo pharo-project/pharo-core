@@ -1,3 +1,3 @@
 max_texture_height
 	"This method was automatically generated"
-	^handle signedLongAt: 81
+	^handle signedLongAt: OFFSET_MAX_TEXTURE_HEIGHT

@@ -1,3 +1,3 @@
 max_texture_width
 	"This method was automatically generated"
-	^handle signedLongAt: 77
+	^handle signedLongAt: OFFSET_MAX_TEXTURE_WIDTH

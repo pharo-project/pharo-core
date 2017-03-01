@@ -1,3 +1,3 @@
 x_bearing
 	"This method was automatically generated"
-	^handle doubleAt: 1
+	^handle doubleAt: OFFSET_X_BEARING

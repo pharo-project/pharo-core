@@ -1,5 +1,5 @@
 FFIExternalStructure subclass: #CairoGlyph
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'OFFSET_INDEX OFFSET_X OFFSET_Y'
 	poolDictionaries: ''
 	category: 'Athens-Cairo-Text'

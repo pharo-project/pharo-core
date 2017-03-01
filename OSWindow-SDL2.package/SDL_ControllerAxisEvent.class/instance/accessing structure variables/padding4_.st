@@ -1,3 +1,3 @@
 padding4: anObject
 	"This method was automatically generated"
-	handle unsignedShortAt: 19 put: anObject
+	handle unsignedShortAt: OFFSET_PADDING4 put: anObject

@@ -1,3 +1,3 @@
 mod
 	"This method was automatically generated"
-	^handle unsignedShortAt: 9
+	^handle unsignedShortAt: OFFSET_MOD

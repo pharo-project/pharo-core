@@ -1,3 +1,3 @@
 text7
 	"This method was automatically generated"
-	^handle unsignedCharAt: 20
+	^handle unsignedCharAt: OFFSET_TEXT7

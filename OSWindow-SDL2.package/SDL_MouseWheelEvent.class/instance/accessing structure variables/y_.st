@@ -1,3 +1,3 @@
 y: anObject
 	"This method was automatically generated"
-	handle signedLongAt: 21 put: anObject
+	handle signedLongAt: OFFSET_Y put: anObject

@@ -1,3 +1,3 @@
 h
 	"This method was automatically generated"
-	^handle signedLongAt: 13
+	^handle signedLongAt: OFFSET_H

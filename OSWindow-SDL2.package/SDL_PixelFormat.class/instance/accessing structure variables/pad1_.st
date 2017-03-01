@@ -1,3 +1,3 @@
 pad1: anObject
 	"This method was automatically generated"
-	handle unsignedByteAt: 11 put: anObject
+	handle unsignedByteAt: OFFSET_PAD1 put: anObject

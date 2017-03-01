@@ -1,3 +1,3 @@
 window: anObject
 	"This method was automatically generated"
-	handle pointerAt: 1 put: anObject getHandle.
+	handle pointerAt: OFFSET_WINDOW put: anObject getHandle.

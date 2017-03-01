@@ -1,3 +1,3 @@
 pad2
 	"This method was automatically generated"
-	^handle unsignedByteAt: 12
+	^handle unsignedByteAt: OFFSET_PAD2

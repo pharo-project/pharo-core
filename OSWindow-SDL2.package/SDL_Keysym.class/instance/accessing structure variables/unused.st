@@ -1,3 +1,3 @@
 unused
 	"This method was automatically generated"
-	^handle unsignedLongAt: 13
+	^handle unsignedLongAt: OFFSET_UNUSED

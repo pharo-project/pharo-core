@@ -1,3 +1,3 @@
 lockSurfaceFn
 	"This method was automatically generated"
-	^FFICallback forAddress: (handle unsignedLongAt: 13)
+	^FFICallback forAddress: ((handle pointerAt: OFFSET_LOCKSURFACEFN) asInteger)

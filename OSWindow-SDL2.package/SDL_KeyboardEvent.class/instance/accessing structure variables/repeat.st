@@ -1,3 +1,3 @@
 repeat
 	"This method was automatically generated"
-	^handle unsignedByteAt: 14
+	^handle unsignedByteAt: OFFSET_REPEAT

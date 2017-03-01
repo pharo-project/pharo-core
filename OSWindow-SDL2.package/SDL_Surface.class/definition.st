@@ -1,5 +1,5 @@
 SDL2Structure subclass: #SDL_Surface
 	instanceVariableNames: ''
-	classVariableNames: ''
+	classVariableNames: 'OFFSET_CLIP_RECT OFFSET_FLAGS OFFSET_FORMAT OFFSET_H OFFSET_LOCKED OFFSET_LOCK_DATA OFFSET_MAP OFFSET_PITCH OFFSET_PIXELS OFFSET_REFCOUNT OFFSET_USERDATA OFFSET_W'
 	poolDictionaries: ''
 	category: 'OSWindow-SDL2-Bindings'

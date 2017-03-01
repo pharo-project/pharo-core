@@ -1,3 +1,3 @@
 value: anObject
 	"This method was automatically generated"
-	handle signedShortAt: 17 put: anObject
+	handle signedShortAt: OFFSET_VALUE put: anObject

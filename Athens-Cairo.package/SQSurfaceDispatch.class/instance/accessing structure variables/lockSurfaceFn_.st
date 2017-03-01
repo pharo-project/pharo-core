@@ -1,4 +1,6 @@
-lockSurfaceFn: anObject
+lockSurfaceFn: aCallback
 	"This method was automatically generated"
-	lookSurfaceFn := anObject. "Ensure it's not gced"
-	handle unsignedLongAt: 13 put: anObject thunk address
+	lockSurfaceFn := aCallback.
+	handle 
+		pointerAt: OFFSET_LOCKSURFACEFN 
+		put: (ExternalAddress fromAddress: aCallback thunk address)

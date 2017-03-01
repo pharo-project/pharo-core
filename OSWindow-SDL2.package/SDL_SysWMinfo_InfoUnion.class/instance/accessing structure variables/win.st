@@ -1,3 +1,3 @@
 win
 	"This method was automatically generated"
-	^SDL_SysWMinfo_WindowsInfo fromHandle: (handle referenceStructAt: 1 length: 8)
+	^SDL_SysWMinfo_WindowsInfo fromHandle: (handle referenceStructAt: 1 length: 16)

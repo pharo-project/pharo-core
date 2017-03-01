@@ -1,3 +1,3 @@
 text25: anObject
 	"This method was automatically generated"
-	handle unsignedCharAt: 38 put: anObject
+	handle unsignedCharAt: OFFSET_TEXT25 put: anObject

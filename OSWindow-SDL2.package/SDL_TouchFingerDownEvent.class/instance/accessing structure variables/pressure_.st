@@ -1,3 +1,3 @@
 pressure: anObject
 	"This method was automatically generated"
-	handle floatAt: 41 put: anObject
+	handle floatAt: OFFSET_PRESSURE put: anObject

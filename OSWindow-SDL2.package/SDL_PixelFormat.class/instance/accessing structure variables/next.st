@@ -1,3 +1,3 @@
 next
 	"This method was automatically generated"
-	^SDL_PixelFormat fromHandle: (handle pointerAt: 41)
+	^SDL_PixelFormat fromHandle: (handle pointerAt: OFFSET_NEXT)

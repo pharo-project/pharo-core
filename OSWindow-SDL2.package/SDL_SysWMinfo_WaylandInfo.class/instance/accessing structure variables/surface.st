@@ -1,3 +1,3 @@
 surface
 	"This method was automatically generated"
-	^ExternalData fromHandle: (handle pointerAt: 5) type: ExternalType void asPointerType
+	^ExternalData fromHandle: (handle pointerAt: OFFSET_SURFACE) type: ExternalType void asPointerType

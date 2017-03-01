@@ -1,3 +1,3 @@
 xrel
 	"This method was automatically generated"
-	^handle signedLongAt: 29
+	^handle signedLongAt: OFFSET_XREL

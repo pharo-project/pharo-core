@@ -1,3 +1,3 @@
 dy: anObject
 	"This method was automatically generated"
-	handle floatAt: 37 put: anObject
+	handle floatAt: OFFSET_DY put: anObject

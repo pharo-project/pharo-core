@@ -1,3 +1,3 @@
 windowID: anObject
 	"This method was automatically generated"
-	handle unsignedLongAt: 9 put: anObject
+	handle unsignedLongAt: OFFSET_WINDOWID put: anObject

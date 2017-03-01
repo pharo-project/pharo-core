@@ -1,3 +1,3 @@
 format: anObject
 	"This method was automatically generated"
-	handle unsignedLongAt: 1 put: anObject
+	handle unsignedLongAt: OFFSET_FORMAT put: anObject

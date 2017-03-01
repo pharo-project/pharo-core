@@ -1,3 +1,3 @@
 lock_data: anObject
 	"This method was automatically generated"
-	handle pointerAt: 33 put: anObject getHandle.
+	handle pointerAt: OFFSET_LOCK_DATA put: anObject getHandle.

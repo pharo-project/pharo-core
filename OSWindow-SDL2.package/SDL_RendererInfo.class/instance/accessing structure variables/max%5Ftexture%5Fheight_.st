@@ -1,3 +1,3 @@
 max_texture_height: anObject
 	"This method was automatically generated"
-	handle signedLongAt: 81 put: anObject
+	handle signedLongAt: OFFSET_MAX_TEXTURE_HEIGHT put: anObject

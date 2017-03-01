@@ -1,3 +1,3 @@
 data2
 	"This method was automatically generated"
-	^handle signedLongAt: 21
+	^handle signedLongAt: OFFSET_DATA2

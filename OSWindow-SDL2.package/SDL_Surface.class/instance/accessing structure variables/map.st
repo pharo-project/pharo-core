@@ -1,3 +1,3 @@
 map
 	"This method was automatically generated"
-	^ExternalData fromHandle: (handle pointerAt: 53) type: ExternalType void asPointerType
+	^ExternalData fromHandle: (handle pointerAt: OFFSET_MAP) type: ExternalType void asPointerType

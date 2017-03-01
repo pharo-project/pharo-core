@@ -1,3 +1,3 @@
 Bmask
 	"This method was automatically generated"
-	^handle unsignedLongAt: 21
+	^handle unsignedLongAt: OFFSET_BMASK

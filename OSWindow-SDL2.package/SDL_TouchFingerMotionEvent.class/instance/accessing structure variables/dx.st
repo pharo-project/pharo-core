@@ -1,3 +1,3 @@
 dx
 	"This method was automatically generated"
-	^handle floatAt: 33
+	^handle floatAt: OFFSET_DX

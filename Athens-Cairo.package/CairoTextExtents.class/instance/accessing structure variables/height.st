@@ -1,3 +1,3 @@
 height
 	"This method was automatically generated"
-	^handle doubleAt: 25
+	^handle doubleAt: OFFSET_HEIGHT

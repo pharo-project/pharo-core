@@ -1,3 +1,3 @@
 state: anObject
 	"This method was automatically generated"
-	handle unsignedLongAt: 17 put: anObject
+	handle unsignedLongAt: OFFSET_STATE put: anObject

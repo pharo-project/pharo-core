@@ -1,3 +1,3 @@
 showSurfaceFn
 	"This method was automatically generated"
-	^FFICallback forAddress: (handle unsignedLongAt: 21)
+	^FFICallback forAddress: ((handle pointerAt: OFFSET_SHOWSURFACEFN) asInteger)

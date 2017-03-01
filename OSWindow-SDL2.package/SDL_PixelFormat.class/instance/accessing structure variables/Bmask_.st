@@ -1,3 +1,3 @@
 Bmask: anObject
 	"This method was automatically generated"
-	handle unsignedLongAt: 21 put: anObject
+	handle unsignedLongAt: OFFSET_BMASK put: anObject

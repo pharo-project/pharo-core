@@ -1,3 +1,3 @@
 x: anObject
 	"This method was automatically generated"
-	handle floatAt: 25 put: anObject
+	handle floatAt: OFFSET_X put: anObject

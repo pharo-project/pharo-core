@@ -1,3 +1,3 @@
 descent: anObject
 	"This method was automatically generated"
-	handle doubleAt: 9 put: anObject
+	handle doubleAt: OFFSET_DESCENT put: anObject

@@ -1,3 +1,3 @@
 num_texture_formats: anObject
 	"This method was automatically generated"
-	handle unsignedLongAt: 9 put: anObject
+	handle unsignedLongAt: OFFSET_NUM_TEXTURE_FORMATS put: anObject

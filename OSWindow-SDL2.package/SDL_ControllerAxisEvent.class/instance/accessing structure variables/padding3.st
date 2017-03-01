@@ -1,3 +1,3 @@
 padding3
 	"This method was automatically generated"
-	^handle unsignedByteAt: 16
+	^handle unsignedByteAt: OFFSET_PADDING3
