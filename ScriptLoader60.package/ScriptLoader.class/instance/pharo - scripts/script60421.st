@@ -1,4 +1,4 @@
-script60420
+script60421
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -19,11 +19,11 @@ BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfIDE-TheIntegrator.34.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
-BaselineOfMorphic-TheIntegrator.27.mcz
+BaselineOfMorphic-TheIntegrator.30.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
 BaselineOfPharoBootstrap-TheIntegrator.4.mcz
 BaselineOfSUnit-TheIntegrator.4.mcz
-BaselineOfUI-TheIntegrator.9.mcz
+BaselineOfUI-TheIntegrator.11.mcz
 BaselineOfUnifiedFFI-TheIntegrator.4.mcz
 BlueInk-Core-TheIntegrator.29.mcz
 BlueInk-Extras-TheIntegrator.12.mcz
@@ -197,7 +197,7 @@ MonticelloGUI-TheIntegrator.432.mcz
 MonticelloMocks-TheIntegrator.8.mcz
 MonticelloRemoteRepositories-TheIntegrator.18.mcz
 Moose-Algos-Graph-VincentBlondeau.33.mcz
-Morphic-Base-TheIntegrator.602.mcz
+Morphic-Base-TheIntegrator.604.mcz
 Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz
@@ -222,7 +222,7 @@ Multilingual-TextConversion-TheIntegrator.83.mcz
 Multilingual-TextConverterOtherLanguages-TheIntegrator.4.mcz
 NECompletion-TheIntegrator.257.mcz
 NECompletion-Tests-TheIntegrator.10.mcz
-Nautilus-TheIntegrator.1351.mcz
+Nautilus-TheIntegrator.1352.mcz
 Nautilus-GroupManager-TheIntegrator.24.mcz
 Nautilus-GroupManagerUI-TheIntegrator.44.mcz
 Nautilus-Tests-TheIntegrator.52.mcz
@@ -253,7 +253,7 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.34.mcz
 PharoBootstrap-Initialization-TheIntegrator.4.mcz
 PharoDocComment-StephaneDucasse.6.mcz
-Polymorph-TaskbarIcons-TheIntegrator.48.mcz
+Polymorph-TaskbarIcons-TheIntegrator.49.mcz
 Polymorph-Widgets-TheIntegrator.1416.mcz
 Polymorph-Widgets-Rules-TheIntegrator.11.mcz
 PragmaCollector-TheIntegrator.18.mcz
