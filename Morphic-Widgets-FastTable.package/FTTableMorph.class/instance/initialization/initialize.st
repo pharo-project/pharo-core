@@ -1,5 +1,6 @@
 initialize 
 	super initialize.
+	showIndex := 0.
 	showColumnHeaders := true.
 	selectedRowIndexes := #().
 	highlightedRowIndexes := #().

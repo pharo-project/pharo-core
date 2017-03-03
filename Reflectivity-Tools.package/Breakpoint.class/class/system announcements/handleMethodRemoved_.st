@@ -1,0 +1,2 @@
+handleMethodRemoved: anAnnouncement
+	self removeBreakpointsFromMethod: anAnnouncement method
