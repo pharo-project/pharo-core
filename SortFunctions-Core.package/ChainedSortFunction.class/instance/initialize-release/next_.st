@@ -1,0 +1,3 @@
+next: anObject
+
+	next := anObject

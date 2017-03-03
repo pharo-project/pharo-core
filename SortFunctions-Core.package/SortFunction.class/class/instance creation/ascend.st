@@ -1,0 +1,3 @@
+ascend
+
+	^self new ascend

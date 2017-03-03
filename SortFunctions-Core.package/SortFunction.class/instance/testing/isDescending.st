@@ -1,0 +1,3 @@
+isDescending
+
+	^direction = -1

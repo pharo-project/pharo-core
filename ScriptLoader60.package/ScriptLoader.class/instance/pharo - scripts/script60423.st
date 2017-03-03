@@ -1,9 +1,9 @@
-script60422
+script60423
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
 Alien-RonieSalgado.40.mcz
-Announcements-Core-TheIntegrator.82.mcz
+Announcements-Core-TheIntegrator.84.mcz
 Announcements-Help-TheIntegrator.12.mcz
 Announcements-Tests-Core-TheIntegrator.39.mcz
 Athens-Balloon-MarcusDenker.20.mcz
@@ -17,7 +17,7 @@ Balloon-TheIntegrator.139.mcz
 Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfBasicTools-TheIntegrator.6.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
-BaselineOfIDE-TheIntegrator.34.mcz
+BaselineOfIDE-TheIntegrator.36.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfMorphic-TheIntegrator.30.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
@@ -324,6 +324,8 @@ Slot-TheIntegrator.785.mcz
 Slot-Tests-TheIntegrator.103.mcz
 SmartSuggestions-TheIntegrator.269.mcz
 SmartSuggestions-Tests-TheIntegrator.39.mcz
+SortFunctions-Core-TheIntegrator.7.mcz
+SortFunctions-Tests-TheIntegrator.6.mcz
 Spec-Core-TheIntegrator.539.mcz
 Spec-Debugger-TheIntegrator.284.mcz
 Spec-Examples-TheIntegrator.131.mcz

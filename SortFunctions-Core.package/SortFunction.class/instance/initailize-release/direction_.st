@@ -1,0 +1,3 @@
+direction: anInteger
+
+	direction := anInteger

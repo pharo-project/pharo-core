@@ -1,0 +1,3 @@
+asSortFunction
+
+	^self ascending

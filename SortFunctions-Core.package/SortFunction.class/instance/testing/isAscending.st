@@ -1,0 +1,3 @@
+isAscending
+
+	^direction = 1

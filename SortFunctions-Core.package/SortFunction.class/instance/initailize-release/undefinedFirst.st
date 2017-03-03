@@ -1,0 +1,3 @@
+undefinedFirst
+
+	undefinedDirection := -1

@@ -1,0 +1,3 @@
+descend
+
+	^self new descend

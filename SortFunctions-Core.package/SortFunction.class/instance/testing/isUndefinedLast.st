@@ -1,0 +1,3 @@
+isUndefinedLast
+
+	^undefinedDirection = 1
