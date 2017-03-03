@@ -1,4 +1,4 @@
 resolveString: aString
 	"Returns the root of the receiver filesystem, i.e. / on unix"
 	
-	^ workingDirectory resolvePath: (store pathFromString: aString)
+	^ self workingDirectoryPath resolvePath: (store pathFromString: aString)

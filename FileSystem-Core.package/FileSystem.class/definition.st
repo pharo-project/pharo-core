@@ -1,5 +1,5 @@
 Object subclass: #FileSystem
-	instanceVariableNames: 'workingDirectory store'
+	instanceVariableNames: 'store'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'FileSystem-Core-Public'

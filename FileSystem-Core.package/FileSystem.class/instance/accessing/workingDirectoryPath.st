@@ -1,2 +1,2 @@
 workingDirectoryPath
-	^ workingDirectory
+	^ store defaultWorkingDirectory
