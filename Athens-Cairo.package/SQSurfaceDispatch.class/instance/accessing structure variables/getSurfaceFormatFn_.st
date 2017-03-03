@@ -1,3 +1,6 @@
-getSurfaceFormatFn: anObject
+getSurfaceFormatFn: aCallback
 	"This method was automatically generated"
-	handle pointerAt: OFFSET_GETSURFACEFORMATFN put: (ExternalAddress fromAddress: anObject thunk address)
+	getSurfaceFormatFn := aCallback.
+	handle 
+		pointerAt: OFFSET_GETSURFACEFORMATFN 
+		put: (ExternalAddress fromAddress: aCallback thunk address)
