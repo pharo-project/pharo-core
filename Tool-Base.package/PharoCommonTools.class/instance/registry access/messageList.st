@@ -1,0 +1,3 @@
+messageList
+
+	^ self toolNamed: #messageList

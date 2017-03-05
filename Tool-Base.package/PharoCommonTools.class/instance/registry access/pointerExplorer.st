@@ -1,0 +1,3 @@
+pointerExplorer
+
+	^ self toolNamed: #pointerExplorer

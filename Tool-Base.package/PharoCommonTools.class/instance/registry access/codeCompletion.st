@@ -1,0 +1,3 @@
+codeCompletion
+
+	^ self toolNamed: #codeCompletion

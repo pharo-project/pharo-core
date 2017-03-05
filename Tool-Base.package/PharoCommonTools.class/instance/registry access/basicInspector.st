@@ -1,0 +1,3 @@
+basicInspector
+
+	^ self toolNamed: #basicInspector

@@ -1,0 +1,3 @@
+changeSorter
+
+	^ self toolNamed: #changeSorter

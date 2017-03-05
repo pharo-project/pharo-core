@@ -1,0 +1,3 @@
+syntaxErrorDebugger
+
+	^ self toolNamed: #syntaxErrorDebugger

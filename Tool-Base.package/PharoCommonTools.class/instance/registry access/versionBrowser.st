@@ -1,0 +1,3 @@
+versionBrowser
+
+	^ self toolNamed: #versionBrowser

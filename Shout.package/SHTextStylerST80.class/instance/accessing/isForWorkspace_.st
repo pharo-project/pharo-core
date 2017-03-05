@@ -1,0 +1,2 @@
+isForWorkspace: aBoolean
+	isForWorkspace := aBoolean

@@ -1,0 +1,3 @@
+debugger
+
+	^ self toolNamed: #debugger

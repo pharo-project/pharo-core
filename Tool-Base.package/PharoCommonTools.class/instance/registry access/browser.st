@@ -1,0 +1,3 @@
+browser
+
+	^ self toolNamed: #browser

@@ -1,0 +1,3 @@
+timeProfiler
+
+	^ self toolNamed: #timeProfiler

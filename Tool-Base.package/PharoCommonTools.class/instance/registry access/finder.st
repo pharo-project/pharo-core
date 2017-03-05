@@ -1,0 +1,3 @@
+finder
+
+	^ self toolNamed: #finder
