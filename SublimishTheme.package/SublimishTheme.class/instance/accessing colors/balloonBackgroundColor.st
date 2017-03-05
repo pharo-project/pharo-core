@@ -1,3 +1,0 @@
-balloonBackgroundColor
-
-	^Color veryDarkGray lighter

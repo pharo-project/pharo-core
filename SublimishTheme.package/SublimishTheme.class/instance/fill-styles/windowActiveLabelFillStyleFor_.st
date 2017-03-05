@@ -1,2 +1,0 @@
-windowActiveLabelFillStyleFor: aWindow
-	^ self textColor

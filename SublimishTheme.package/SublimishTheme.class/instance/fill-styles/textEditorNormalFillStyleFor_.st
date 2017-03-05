@@ -1,2 +1,0 @@
-textEditorNormalFillStyleFor: aTextEditor
-	^ self backgroundColor

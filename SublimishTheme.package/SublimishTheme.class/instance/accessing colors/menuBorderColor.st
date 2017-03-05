@@ -1,2 +1,0 @@
-menuBorderColor
-	^ self borderColor

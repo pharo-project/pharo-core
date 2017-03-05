@@ -1,2 +1,0 @@
-disabledColor 
-	^ Color veryLightGray muchLighter

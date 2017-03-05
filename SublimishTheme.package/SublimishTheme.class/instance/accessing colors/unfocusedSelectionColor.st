@@ -1,2 +1,0 @@
-unfocusedSelectionColor
-	^ self secondarySelectionColor

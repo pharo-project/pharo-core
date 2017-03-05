@@ -1,2 +1,0 @@
-menuBorderWidth
-	^ self borderWidth
