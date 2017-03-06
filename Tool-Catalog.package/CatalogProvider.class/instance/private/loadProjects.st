@@ -1,3 +1,3 @@
 loadProjects
-	^ self httpClient get 
-		collect: [ :each | CatalogProject fromDictionary: each ]
+	^ [ self retrieveProjects collect: [ :each | CatalogProject fromDictionary: each ] ]
+		on: ConnectionTimedOut do: [ :e | nil ] 

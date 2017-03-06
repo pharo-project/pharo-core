@@ -1,2 +1,2 @@
-error
+lastError
 	^ self subclassResponsibility

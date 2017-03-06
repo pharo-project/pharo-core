@@ -1,0 +1,2 @@
+lastError
+	^ self forCurrentPlatform lastError
