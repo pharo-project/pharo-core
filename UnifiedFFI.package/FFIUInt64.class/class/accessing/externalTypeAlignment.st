@@ -1,2 +1,2 @@
 externalTypeAlignment
-	^ OSPlatform current ffiAlignment
+	^ OSPlatform current ffiInt64Alignment

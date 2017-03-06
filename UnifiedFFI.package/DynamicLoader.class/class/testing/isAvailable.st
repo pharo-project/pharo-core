@@ -1,0 +1,2 @@
+isAvailable
+	^ self subclassResponsibility

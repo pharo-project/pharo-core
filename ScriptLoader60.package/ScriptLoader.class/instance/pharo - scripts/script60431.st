@@ -1,4 +1,4 @@
-script60430
+script60431
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -100,13 +100,13 @@ GT-Inspector-AndreiChis.454.mcz
 GT-InspectorExtensions-Core-TheIntegrator.252.mcz
 GT-Playground-AndreiChis.140.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
-GT-Spotter-AndreiChis.409.mcz
+GT-Spotter-TheIntegrator.411.mcz
 GT-Spotter-EventRecorder-AndreiChis.114.mcz
 GT-SpotterExtensions-Core-TheIntegrator.222.mcz
 GT-Tests-Debugger-AndreiChis.14.mcz
 GT-Tests-Inspector-StefanReichhart.59.mcz
 GT-Tests-Playground-StefanReichhart.4.mcz
-GT-Tests-Spotter-VincentBlondeau.28.mcz
+GT-Tests-Spotter-TheIntegrator.30.mcz
 GeneralRules-TheIntegrator.11.mcz
 Glamour-Announcements-AndreiChis.8.mcz
 Glamour-Browsers-AndreiChis.112.mcz

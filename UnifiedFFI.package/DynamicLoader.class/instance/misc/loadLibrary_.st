@@ -1,0 +1,2 @@
+loadLibrary: path
+	^ self subclassResponsibility

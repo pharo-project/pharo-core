@@ -1,0 +1,2 @@
+isAvailable
+	^ Smalltalk os isWindows
