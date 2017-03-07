@@ -1,4 +1,4 @@
-RBTransformationRule subclass: #AssertEqualSignIntoAssertEquals
+ReNodeRewriteRule subclass: #AssertEqualSignIntoAssertEquals
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

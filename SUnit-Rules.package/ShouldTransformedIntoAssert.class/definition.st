@@ -1,4 +1,4 @@
-RBTransformationRule subclass: #ShouldTransformedIntoAssert
+ReNodeRewriteRule subclass: #ShouldTransformedIntoAssert
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
