@@ -470,10 +470,6 @@ spec group: 'Kernel-Tests-Group' with: #(
 	'Text-Tests'		"required by Multilingual-Tests"
 ).
 
-spec group: 'Themes-Group' with: #(
-	'SublimishTheme'
-).
-
 spec group: 'GT&QA-Group' with: #(
 	'GeneralRules'		"depends on QA, needs cleanup"
 	'Kernel-Rules'		"depends on QA, DependencyAnalyzer, needs cleanup"
@@ -529,7 +525,6 @@ spec group: #default with: #(
 	'NodeNavigation-Group'
 	'Versionner-Group'
 	'General-Tests-Group'
-	'Themes-Group'
 	
 	'SortFunctions-Group'	
 	

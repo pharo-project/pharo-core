@@ -1,2 +1,0 @@
-secondarySelectionColor
-	^ self selectionColor darker
