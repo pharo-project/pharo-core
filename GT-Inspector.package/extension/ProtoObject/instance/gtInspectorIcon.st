@@ -1,0 +1,2 @@
+gtInspectorIcon
+	^ nil

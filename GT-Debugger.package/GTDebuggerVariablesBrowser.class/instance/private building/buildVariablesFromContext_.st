@@ -1,0 +1,2 @@
+buildVariablesFromContext: aContext 
+	^ aContext gtDebuggerRetrieveVariableValuePairs

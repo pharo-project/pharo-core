@@ -1,0 +1,2 @@
+variableTag
+	^ 'implicit'

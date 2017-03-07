@@ -1,2 +1,3 @@
 resetChildrenContent
-	elements := self calculateElements
+	elements := self calculateElements.
+	self resetDataCache

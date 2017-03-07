@@ -1,0 +1,2 @@
+stepRefreshRate: anInteger
+	StepRefreshRate := anInteger

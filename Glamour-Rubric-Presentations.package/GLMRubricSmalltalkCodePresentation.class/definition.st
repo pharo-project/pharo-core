@@ -1,5 +1,5 @@
 GLMRubricTextPresentation subclass: #GLMRubricSmalltalkCodePresentation
-	instanceVariableNames: 'highlightSmalltalkContext'
+	instanceVariableNames: 'highlightSmalltalkContext variableBindingsBlock'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Rubric-Presentations'

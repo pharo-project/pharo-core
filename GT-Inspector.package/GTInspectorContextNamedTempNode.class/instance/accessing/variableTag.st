@@ -1,0 +1,2 @@
+variableTag
+	^ tag ifNil: [ 'temp' ]

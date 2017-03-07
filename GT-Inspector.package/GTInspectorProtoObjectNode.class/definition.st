@@ -1,5 +1,5 @@
 GTInspectorVariableNode subclass: #GTInspectorProtoObjectNode
-	instanceVariableNames: 'index value slotName'
+	instanceVariableNames: 'index slotName'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Inspector'

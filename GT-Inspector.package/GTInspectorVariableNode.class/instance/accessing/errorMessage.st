@@ -1,0 +1,2 @@
+errorMessage
+	^ 'error obtaining value'

@@ -1,3 +1,5 @@
 reset
 	
-	instance := nil
+	instance := nil.
+	stashDirectory := nil.
+	self resetDirectories

@@ -1,0 +1,2 @@
+rawValue
+	^ self hostObject rawValue

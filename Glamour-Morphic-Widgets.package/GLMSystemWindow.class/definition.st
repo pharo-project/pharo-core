@@ -1,5 +1,5 @@
 StandardWindow subclass: #GLMSystemWindow
-	instanceVariableNames: 'toolbarBox'
+	instanceVariableNames: 'toolbarBox hasInitialStep'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Morphic-Widgets'

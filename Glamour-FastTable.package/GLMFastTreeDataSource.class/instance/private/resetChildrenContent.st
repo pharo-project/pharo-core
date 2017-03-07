@@ -1,2 +1,3 @@
 resetChildrenContent
-	self rootItem: self createRootItem
+	self rootItem: self createRootItem.
+	self resetDataCache

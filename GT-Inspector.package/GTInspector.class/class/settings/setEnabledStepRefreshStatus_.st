@@ -1,0 +1,2 @@
+setEnabledStepRefreshStatus: aBoolean
+	EnabledStepRefreshStatus := aBoolean

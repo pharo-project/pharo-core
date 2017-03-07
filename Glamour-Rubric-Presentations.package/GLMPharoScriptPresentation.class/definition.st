@@ -1,5 +1,5 @@
 GLMRubricSmalltalkCodePresentation subclass: #GLMPharoScriptPresentation
-	instanceVariableNames: 'variableBindingsBlock'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Glamour-Rubric-Presentations'

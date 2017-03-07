@@ -1,0 +1,2 @@
+requestRefresh
+	self inspectorPresentation refreshPanes

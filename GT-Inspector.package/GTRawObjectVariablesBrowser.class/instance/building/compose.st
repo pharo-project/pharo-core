@@ -14,4 +14,5 @@ compose
 			transformed: [ :aNode | aNode ifNotNil: [aNode value]].
 		browser transmit 
 			from: #evaluator; 
-			toOutsidePort: #selection ]
+			toOutsidePort: #selection ].
+	self wantsAutomaticRefresh: true

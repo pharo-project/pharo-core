@@ -1,0 +1,2 @@
+rawValue: anObject
+	value := anObject

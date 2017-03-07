@@ -1,0 +1,2 @@
+gtInspectorIcon
+	^ self class systemIcon

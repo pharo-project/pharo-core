@@ -1,0 +1,3 @@
+isStepRefreshEnabled
+
+	^ EnabledStepRefreshStatus ifNil: [ false ]

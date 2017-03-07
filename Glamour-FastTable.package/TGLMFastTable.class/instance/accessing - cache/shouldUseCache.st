@@ -1,0 +1,2 @@
+shouldUseCache
+	^ self glamourPresentation shouldUseCache

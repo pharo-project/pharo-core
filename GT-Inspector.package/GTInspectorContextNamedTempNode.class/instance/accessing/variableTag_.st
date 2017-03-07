@@ -1,0 +1,2 @@
+variableTag: aTag
+	tag := aTag

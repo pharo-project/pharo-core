@@ -1,0 +1,2 @@
+wantsAutomaticRefresh: aBoolean
+	wantsAutomaticRefresh := aBoolean

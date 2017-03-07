@@ -1,5 +1,5 @@
 GTMoldableDebugger subclass: #GTGenericStackDebugger
-	instanceVariableNames: 'selectedVariableName'
+	instanceVariableNames: 'cache'
 	classVariableNames: 'AlwaysOpenFullDebugger ErrorRecursion FilterCommonMessageSends LogDebuggerStackToFile LogFileName'
 	poolDictionaries: ''
 	category: 'GT-Debugger-UI'

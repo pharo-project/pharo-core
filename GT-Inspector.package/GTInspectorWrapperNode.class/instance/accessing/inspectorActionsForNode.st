@@ -1,0 +1,2 @@
+inspectorActionsForNode
+	^ self hostObject inspectorActionsForNode

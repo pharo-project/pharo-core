@@ -1,0 +1,2 @@
+dataCache
+	self explicitRequirement

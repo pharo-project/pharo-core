@@ -1,2 +1,2 @@
-help: anObject
-	help := anObject
+help: aString 
+	help := aString

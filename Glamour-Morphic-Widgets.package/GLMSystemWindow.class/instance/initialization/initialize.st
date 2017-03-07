@@ -3,4 +3,5 @@ initialize
 	self
 		on: #keyStroke 
 		send: #handleKeyStroke: 
-		to: self	
+		to: self.
+	hasInitialStep := false

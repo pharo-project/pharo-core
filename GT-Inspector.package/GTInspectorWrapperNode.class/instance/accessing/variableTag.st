@@ -1,0 +1,2 @@
+variableTag
+	^ self hostObject variableTag

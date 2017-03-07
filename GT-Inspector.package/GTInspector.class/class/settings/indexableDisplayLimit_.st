@@ -1,0 +1,2 @@
+indexableDisplayLimit: anInteger
+	IndexableDisplayLimit := anInteger

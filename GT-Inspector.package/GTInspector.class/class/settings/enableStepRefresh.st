@@ -1,0 +1,2 @@
+enableStepRefresh
+	self setEnabledStepRefreshStatus: true

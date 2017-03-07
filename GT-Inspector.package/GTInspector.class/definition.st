@@ -1,5 +1,5 @@
 GLMCompositePresentation subclass: #GTInspector
 	instanceVariableNames: 'presentationFilter'
-	classVariableNames: 'GTInspectorEnabledStatus GTNumberOfInspectorPanes PreferredExtent RememberPreferredExtent'
+	classVariableNames: 'EnabledStepRefreshStatus GTInspectorEnabledStatus GTNumberOfInspectorPanes IndexableDisplayLimit PreferredExtent RememberPreferredExtent StepRefreshRate'
 	poolDictionaries: ''
 	category: 'GT-Inspector'

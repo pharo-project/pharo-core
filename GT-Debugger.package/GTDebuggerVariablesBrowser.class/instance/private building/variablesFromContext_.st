@@ -1,3 +1,2 @@
 variablesFromContext: aContext 
-
-	^ aContext gtDebuggerRetrieveVariableValuePairs
+	^ cachedVariables ifNil: [ cachedVariables := self buildVariablesFromContext: aContext ]

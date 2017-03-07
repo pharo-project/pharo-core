@@ -1,5 +1,5 @@
 GLMCompositePresentation subclass: #GTDebuggerVariablesBrowser
-	instanceVariableNames: 'debugger'
+	instanceVariableNames: 'debugger cachedVariables'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'GT-Debugger-UI'
