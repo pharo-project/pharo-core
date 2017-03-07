@@ -1,9 +1,12 @@
 testOnlyWeakSubscriptions
 
-	"only weak subscriptions should be allowed to be added to the SystemAnnouncer..."
+	| strong |
 
+	"only weak subscriptions should be allowed to be added to the SystemAnnouncer..."
 	
-	"self assert: (
-		(SystemAnnouncer uniqueInstance subscriptions instVarNamed: #subscriptions) 
-			allSatisfy: [ :sub | sub isKindOf: WeakAnnouncementSubscription ]
-	)"
+	strong := SystemAnnouncer uniqueInstance 
+		subscriptions subscriptions reject: [ :each |
+			each isKindOf: WeakAnnouncementSubscription
+		].
+	
+	self assert: strong asArray equals: #()
