@@ -1,0 +1,2 @@
+isUnix32
+	^ false

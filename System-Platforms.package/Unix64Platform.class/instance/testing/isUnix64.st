@@ -1,0 +1,2 @@
+isUnix64
+	^ true

@@ -1,0 +1,2 @@
+isWin64
+	^ true

@@ -1,4 +1,4 @@
-WinPlatform subclass: #Win32Platform
+WinPlatform subclass: #Win64Platform
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
