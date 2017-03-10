@@ -7,7 +7,6 @@ baseline: spec
 	repository := 'filetree://./pharo-core/src'.    
        
 	spec for: #common do: [
-		spec preLoadDoIt: #'preload:package:'.
 		spec postLoadDoIt: #'postload:package:'.
 		
 		spec baseline: 'BasicTools' with: [spec repository: repository].
@@ -67,7 +66,6 @@ baseline: spec
 		spec package: 'Zinc-Zodiac'.	
 			
 		spec package: 'Metacello-GitBasedRepository'.	
-		spec package: 'SUnit-Rules'.	
 
 		spec package: 'BaselineOfMetacello'.
 		spec package: 'Metacello-Bitbucket'.		
@@ -121,6 +119,7 @@ baseline: spec
 		spec package: 'Renraku'.
 		spec package: 'QualityAssistant'.
 		spec package: 'QualityAssistantRecording'.
+		spec package: 'SUnit-Rules'.	
 
 		spec package: 'Moose-Algos-Graph'.
 		spec package: 'Tool-DependencyAnalyser'.
