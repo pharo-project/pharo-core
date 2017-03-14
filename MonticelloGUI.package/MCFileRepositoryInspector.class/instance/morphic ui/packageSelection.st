@@ -1,4 +1,4 @@
 packageSelection
 	^self packageList ifNotNil: [
-			^ self packageList indexOf: selectedPackage
+		^ self packageList indexOf: selectedPackage
 	]
