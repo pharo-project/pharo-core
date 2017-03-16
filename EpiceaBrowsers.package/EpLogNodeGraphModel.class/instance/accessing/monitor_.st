@@ -1,2 +1,3 @@
-monitor: anObject
-	^ monitor := anObject
+monitor: anEpMonitor
+
+	monitor := anEpMonitor

@@ -1,3 +1,0 @@
-viewItems
-
-	^ view rootItems

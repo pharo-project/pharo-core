@@ -1,6 +1,6 @@
-existsStoreNamed: aName inDirectory: aFileReference
+existsStoreNamed: aGlobalName inDirectory: aFileReference
 
 	^ aFileReference exists and: [
 		(self 
-			fileReferenceForStoreNamed: aName 
+			fileReferenceForStoreNamed: aGlobalName 
 			inDirectory: aFileReference) exists ]

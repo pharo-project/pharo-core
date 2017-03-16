@@ -1,3 +1,0 @@
-log: aLog
-
-	log := aLog.

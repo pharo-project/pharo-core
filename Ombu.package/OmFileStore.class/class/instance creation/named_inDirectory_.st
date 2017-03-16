@@ -1,5 +1,5 @@
-named: aName inDirectory: baseDirectoryFileReference
+named: aGlobalName inDirectory: baseDirectoryFileReference
 
 	^ self
-		named: aName
-		inFile: (self fileReferenceForStoreNamed: aName inDirectory: baseDirectoryFileReference)
+		named: aGlobalName
+		inFile: (self fileReferenceForStoreNamed: aGlobalName inDirectory: baseDirectoryFileReference)

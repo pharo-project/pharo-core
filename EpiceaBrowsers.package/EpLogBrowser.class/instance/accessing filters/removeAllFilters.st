@@ -1,3 +1,0 @@
-removeAllFilters
-
-	andFilter := EpAndFilter withAll: #()

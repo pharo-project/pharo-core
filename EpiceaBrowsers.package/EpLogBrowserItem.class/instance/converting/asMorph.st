@@ -1,2 +1,0 @@
-asMorph
-	^ self subclassResponsibility 

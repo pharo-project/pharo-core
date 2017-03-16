@@ -1,0 +1,2 @@
+entries: anObject
+	entries := anObject

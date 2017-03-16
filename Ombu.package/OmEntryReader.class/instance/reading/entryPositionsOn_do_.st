@@ -1,3 +1,5 @@
 entryPositionsOn: aStream do: aBlock
-	
-	^ self subclassResponsibility
+
+	self flag: #todo. "Remove this method"
+	self stream: aStream.
+	^ self entryPositionsDo: aBlock.

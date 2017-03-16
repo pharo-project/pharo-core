@@ -1,2 +1,0 @@
-filteredEntriesCount: anObject
-	filteredEntriesCount := anObject

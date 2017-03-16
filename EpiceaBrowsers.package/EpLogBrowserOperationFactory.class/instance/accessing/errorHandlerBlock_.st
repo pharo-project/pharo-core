@@ -1,0 +1,2 @@
+errorHandlerBlock: anObject
+	errorHandlerBlock := anObject

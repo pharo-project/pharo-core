@@ -1,3 +1,0 @@
-isEntryItem
-
-	^ false

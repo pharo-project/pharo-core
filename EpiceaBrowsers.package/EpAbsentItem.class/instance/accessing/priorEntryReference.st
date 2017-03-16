@@ -1,2 +1,0 @@
-priorEntryReference
-	^ OmNullReference uniqueInstance

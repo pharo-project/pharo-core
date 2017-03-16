@@ -1,5 +1,5 @@
-EpLogBrowserItem subclass: #EpEntryItem
-	instanceVariableNames: 'entry triggerItems'
+Model subclass: #EpEntryItem
+	instanceVariableNames: 'browser entry triggerItems'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-Log-Items'
+	category: 'EpiceaBrowsers-UI-Log'

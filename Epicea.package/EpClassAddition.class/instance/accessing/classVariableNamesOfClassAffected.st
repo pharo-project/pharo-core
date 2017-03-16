@@ -1,4 +1,0 @@
-classVariableNamesOfClassAffected
-
-	^ class classVarNames
-	

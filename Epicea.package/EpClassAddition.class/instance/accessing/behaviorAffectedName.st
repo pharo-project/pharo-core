@@ -1,3 +1,3 @@
 behaviorAffectedName
 
-	^ self classAffectedName 
+	^ class name

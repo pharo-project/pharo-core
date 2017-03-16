@@ -1,2 +1,0 @@
-entryReference
-	^ entryReference

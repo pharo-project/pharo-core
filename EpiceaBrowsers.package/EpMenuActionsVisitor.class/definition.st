@@ -3,4 +3,4 @@ Object subclass: #EpMenuActionsVisitor
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-Log-Visitors'
+	category: 'EpiceaBrowsers-Visitors'

@@ -1,3 +1,0 @@
-refresh
-
-	compositeStore refresh

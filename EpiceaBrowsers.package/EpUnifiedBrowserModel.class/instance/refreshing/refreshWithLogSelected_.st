@@ -6,6 +6,6 @@ refreshWithLogSelected: item
 		ifNotNil: [ item log ].
 	
 	logModel 
-		log: freshLog; 
+		theLog: freshLog;
 		refresh;
 		cleanEntryContentModel.

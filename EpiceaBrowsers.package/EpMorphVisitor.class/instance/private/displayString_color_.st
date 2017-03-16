@@ -1,3 +1,3 @@
 displayString: aString color: aColor
 
-	^ { EpMorphFactory default stringFor: aString color: aColor }
+	^ { self morphFactory stringFor: aString color: aColor }

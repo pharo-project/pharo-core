@@ -1,3 +1,0 @@
-defaultIcon
-
-	^ self defaultViewClass icon

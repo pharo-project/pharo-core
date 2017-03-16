@@ -4,8 +4,4 @@ entryFor: aReference ifPresent: presentBlockClosure ifAbsent: absentBlockClosure
 	^ self store 
 		entryFor: aReference 
 		ifPresent: presentBlockClosure 
-		ifAbsent: [ 
-			alternativeStore 
-				entryFor: aReference 
-				ifPresent: presentBlockClosure 
-				ifAbsent: absentBlockClosure ]
+		ifAbsent: absentBlockClosure

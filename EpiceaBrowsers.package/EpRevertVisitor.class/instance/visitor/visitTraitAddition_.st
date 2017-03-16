@@ -1,2 +1,2 @@
 visitTraitAddition: aTraitCreation
-	environment removeClassNamed: aTraitCreation nameOfTraitAdded
+	environment removeClassNamed: aTraitCreation behaviorAffectedName

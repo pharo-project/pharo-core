@@ -1,2 +1,0 @@
-container: anObject
-	container := anObject

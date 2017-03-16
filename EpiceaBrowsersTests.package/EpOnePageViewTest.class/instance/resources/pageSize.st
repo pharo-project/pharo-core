@@ -1,2 +1,0 @@
-pageSize
-	^ 5

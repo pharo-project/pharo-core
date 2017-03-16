@@ -1,0 +1,3 @@
+refreshEntryContentModel
+
+	self refreshEntryContentModelWith: self selectedEntryItems

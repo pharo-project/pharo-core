@@ -1,3 +1,0 @@
-instanceVariableNamesOfClassAffected
-
-	^ class instVarNames 

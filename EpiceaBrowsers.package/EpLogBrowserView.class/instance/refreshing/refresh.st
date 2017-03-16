@@ -1,2 +1,0 @@
-refresh
-	self subclassResponsibility

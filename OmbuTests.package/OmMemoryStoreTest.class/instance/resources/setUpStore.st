@@ -1,0 +1,2 @@
+setUpStore	
+	^ OmMemoryStore new

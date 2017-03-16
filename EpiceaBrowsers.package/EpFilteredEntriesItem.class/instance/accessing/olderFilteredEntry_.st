@@ -1,2 +1,0 @@
-olderFilteredEntry: anEntry
-	olderFilteredEntry := anEntry

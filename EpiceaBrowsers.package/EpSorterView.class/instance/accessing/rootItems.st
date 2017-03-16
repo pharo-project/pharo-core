@@ -1,3 +1,0 @@
-rootItems
-	
-	^ items

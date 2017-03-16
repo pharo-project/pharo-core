@@ -1,3 +1,0 @@
-headReference
-
-	^ compositeStore headReference

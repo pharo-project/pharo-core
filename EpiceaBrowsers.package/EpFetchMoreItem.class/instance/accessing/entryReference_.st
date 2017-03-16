@@ -1,2 +1,0 @@
-entryReference: anEntryReference 
-	entryReference := anEntryReference

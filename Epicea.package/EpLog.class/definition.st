@@ -1,5 +1,5 @@
-Object subclass: #EpLog
-	instanceVariableNames: 'announcer headReference commentByEntryReference store'
+EpAbstractLog subclass: #EpLog
+	instanceVariableNames: 'commentByEntryReference store'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Epicea-Log'

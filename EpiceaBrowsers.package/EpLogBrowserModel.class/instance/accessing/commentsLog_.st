@@ -1,0 +1,3 @@
+commentsLog: anEpLog
+	
+	commentsLog := anEpLog

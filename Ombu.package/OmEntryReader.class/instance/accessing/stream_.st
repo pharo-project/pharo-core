@@ -1,0 +1,3 @@
+stream: aReadStream
+
+	stream := aReadStream

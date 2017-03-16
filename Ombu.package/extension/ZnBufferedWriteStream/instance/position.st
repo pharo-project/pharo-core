@@ -1,2 +1,0 @@
-position
-	^ stream position + position

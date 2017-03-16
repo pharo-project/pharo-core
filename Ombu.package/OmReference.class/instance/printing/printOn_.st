@@ -4,5 +4,5 @@ printOn: aStream
 	
 	aStream 
 		nextPut: $(;
-		nextPutAll: self name; 
+		nextPutAll: self shortName; 
 		nextPut: $).

@@ -1,0 +1,3 @@
+entryPositionsDo: aBlock
+	
+	^ self subclassResponsibility

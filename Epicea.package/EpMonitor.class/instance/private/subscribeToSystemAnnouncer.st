@@ -16,8 +16,6 @@ subscribeToSystemAnnouncer
 		ClassCommented -> #classCommented:.
 		MethodRecategorized -> #methodRecategorized:.
 		SnapshotDone -> #snapshotDone:. 
-		
-		"For Pharo 5.0"
 		MCVersionSaved	-> #monticelloVersionSaved:.
 		
 	} do: [ :pair |

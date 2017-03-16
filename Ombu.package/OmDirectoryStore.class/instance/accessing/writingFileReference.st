@@ -1,3 +1,0 @@
-writingFileReference
-
-	^ self shouldNotImplement 

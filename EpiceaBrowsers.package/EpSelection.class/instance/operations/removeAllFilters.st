@@ -1,5 +1,0 @@
-removeAllFilters
-
-	browser 
-		removeAllFilters; 
-		refresh

@@ -1,0 +1,3 @@
+entryReferences
+	
+	^ store entryReferences

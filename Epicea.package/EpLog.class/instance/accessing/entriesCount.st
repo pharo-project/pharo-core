@@ -1,0 +1,3 @@
+entriesCount
+	
+	^ store entriesCount

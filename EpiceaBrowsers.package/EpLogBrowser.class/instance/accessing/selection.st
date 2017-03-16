@@ -1,3 +1,0 @@
-selection
-
-	^ EpSelection browser: self 

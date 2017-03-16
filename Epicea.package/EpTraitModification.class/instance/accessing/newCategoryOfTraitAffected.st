@@ -1,3 +1,0 @@
-newCategoryOfTraitAffected
-
-	^ newTrait category

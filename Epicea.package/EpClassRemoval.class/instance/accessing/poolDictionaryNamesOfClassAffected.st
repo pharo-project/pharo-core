@@ -1,3 +1,0 @@
-poolDictionaryNamesOfClassAffected
-
-	^ classRemoved sharedPoolNames 

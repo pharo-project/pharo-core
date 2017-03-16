@@ -1,2 +1,0 @@
-newLog
-	^ logBuilder oneTriggerWithFourChildrenLog

@@ -1,3 +1,0 @@
-oldClassAffectedName
-
-	^ oldClass name

@@ -2,4 +2,4 @@ Object subclass: #EpLogNode
 	instanceVariableNames: 'referencedNodes'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'EpiceaBrowsers-Unified'
+	category: 'EpiceaBrowsers-UI-Graph'

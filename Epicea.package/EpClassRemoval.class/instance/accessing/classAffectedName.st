@@ -1,3 +1,0 @@
-classAffectedName
-
-	^ classRemoved name

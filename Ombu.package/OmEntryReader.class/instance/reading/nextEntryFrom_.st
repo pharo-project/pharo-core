@@ -1,4 +1,5 @@
 nextEntryFrom: aStream
-	"Read next entry from the stream."
-	
-	^ self subclassResponsibility
+
+	self flag: #todo. "Remove this method"
+	self stream: aStream.
+	^ self nextEntry

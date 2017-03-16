@@ -1,3 +1,0 @@
-allStores
-
-	^ compositeStore allStores

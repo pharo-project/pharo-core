@@ -1,2 +1,0 @@
-commitLog: aLog
-	commitLog := aLog

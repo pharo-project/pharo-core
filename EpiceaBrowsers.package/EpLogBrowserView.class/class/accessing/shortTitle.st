@@ -1,3 +1,0 @@
-shortTitle
-
-	^ self subclassResponsibility 
