@@ -14,4 +14,5 @@ testBeforeMethodPrimitive
 	self assert: tag = #yes.
 	self assert: (ReflectivityExamples >> #examplePrimitiveMethod) class = CompiledMethod.
 	link uninstall.
+	self assert: (ReflectivityExamples >> #examplePrimitiveMethod) class = CompiledMethod.
 	self assert: (ReflectivityExamples>>#examplePrimitiveMethod) isRealPrimitive.
