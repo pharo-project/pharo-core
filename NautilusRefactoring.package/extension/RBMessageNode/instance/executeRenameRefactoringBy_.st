@@ -1,0 +1,3 @@
+executeRenameRefactoringBy: aNautilusRefactoring
+
+	aNautilusRefactoring renameMessageFor: self

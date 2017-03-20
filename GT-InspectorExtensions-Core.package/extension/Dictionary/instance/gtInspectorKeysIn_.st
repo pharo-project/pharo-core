@@ -3,5 +3,4 @@ gtInspectorKeysIn: composite
 
 	^ composite fastList
 		title: 'Keys';
-		useCache;
 		display: [ self keys ]
