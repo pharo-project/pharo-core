@@ -1,4 +1,4 @@
-script50770
+script50771
 
 	^ 'AST-Core-TheIntegrator.418.mcz
 AST-FFI-Pharo50Compatibility-TheIntegrator.2.mcz
@@ -323,7 +323,7 @@ System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.4.mcz
 System-OSEnvironments-TheIntegrator.31.mcz
 System-Object Events-TheIntegrator.25.mcz
-System-Platforms-TheIntegrator.81.mcz
+System-Platforms-TheIntegrator.83.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.27.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz

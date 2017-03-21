@@ -1,3 +1,3 @@
 commentForCurrentUpdate
- ^ '19738 MCFtpRepository does not understand #koRemote
-	https://pharo.fogbugz.com/f/cases/19738'
+ ^ '19858 backport WinPlatform to Pharo5 to allow UFFI to load
+	https://pharo.fogbugz.com/f/cases/19858'
