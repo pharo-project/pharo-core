@@ -1,0 +1,3 @@
+setUp
+
+	session := ZdcPluginSSLSession new
