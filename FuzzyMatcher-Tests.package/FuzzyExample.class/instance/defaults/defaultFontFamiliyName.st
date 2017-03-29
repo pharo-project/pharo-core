@@ -1,3 +1,0 @@
-defaultFontFamiliyName
-
-	^ 'Source Sans Pro'

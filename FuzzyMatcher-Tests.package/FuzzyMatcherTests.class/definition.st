@@ -1,5 +1,5 @@
 TestCase subclass: #FuzzyMatcherTests
-	instanceVariableNames: 'fuzzyClass'
+	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'FuzzyMatcher-Tests'

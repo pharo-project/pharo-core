@@ -1,0 +1,3 @@
+newMatcher
+
+	^ FuzzyMatcher new

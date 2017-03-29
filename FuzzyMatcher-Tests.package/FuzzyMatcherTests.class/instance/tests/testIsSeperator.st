@@ -1,9 +1,11 @@
 testIsSeperator
 
-	| fuzzy |
+	| matcher |
 	
-	fuzzy := self newFuzzer.
+	matcher := self newMatcher.
 	
-	{ $_ . $: } do: [ :each |
-		self assert: (fuzzy isSeperator: each)	
-	]
+	self 
+		assert: 	(matcher isSeperator: $_);
+		assert: 	(matcher isSeperator: $:);
+		deny: 		(matcher isSeperator: $!);
+		deny: 		(matcher isSeperator: $a)

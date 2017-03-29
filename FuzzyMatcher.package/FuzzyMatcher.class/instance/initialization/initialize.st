@@ -2,5 +2,6 @@ initialize
 
 	super initialize.
 
-	pattern := lowercasePattern := indexes := #().
+	pattern := lowercasePattern := ''.
+	indexes := #().
 	
