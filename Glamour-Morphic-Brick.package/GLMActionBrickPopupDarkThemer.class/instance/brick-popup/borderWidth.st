@@ -1,3 +1,0 @@
-borderWidth
-
-	^ 2

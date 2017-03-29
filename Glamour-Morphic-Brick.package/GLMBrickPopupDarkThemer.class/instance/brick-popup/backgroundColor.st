@@ -1,3 +1,0 @@
-backgroundColor
-
-	^ Color veryDarkGray

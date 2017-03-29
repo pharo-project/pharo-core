@@ -1,3 +1,3 @@
 borderWidth
 
-	^ 2
+	^ 1

@@ -1,3 +1,0 @@
-doNotHideUnhover
-
-	isHideUnhover := false

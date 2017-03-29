@@ -1,0 +1,2 @@
+onCreated
+	self subclassResponsibility

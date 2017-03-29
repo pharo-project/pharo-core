@@ -1,0 +1,3 @@
+unsubscribeListeners
+
+	self removeCloserListener

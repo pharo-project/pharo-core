@@ -1,2 +1,2 @@
 contextToSelectFrom: aSession
-	^ aSession context
+	^ aSession interruptedContext

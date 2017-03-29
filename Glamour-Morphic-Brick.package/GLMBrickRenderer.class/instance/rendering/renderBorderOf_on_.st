@@ -1,5 +1,5 @@
 renderBorderOf: aBrick on: aCanvas
-	|markColor markWidth|
+	| markColor markWidth |
 	aBrick border renderBorderOf: aBrick on: aCanvas.
 	
 	markColor := aBrick valueOfProperty: #brickMarkBorderColor ifAbsent: nil.

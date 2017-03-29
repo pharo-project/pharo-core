@@ -1,0 +1,2 @@
+rightAngle: aDirection
+	^ self subclassResponsibility

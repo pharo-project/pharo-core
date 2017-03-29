@@ -1,0 +1,2 @@
+north
+	direction := North

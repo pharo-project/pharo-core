@@ -1,0 +1,2 @@
+previous: aVector
+	previous := aVector

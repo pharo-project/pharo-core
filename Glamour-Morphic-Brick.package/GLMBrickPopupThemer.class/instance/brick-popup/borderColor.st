@@ -1,3 +1,5 @@
 borderColor
+	"Return a border color of a default popup"
+	<return: #Color>
 
-	^ Color veryLightGray
+	^ Smalltalk ui theme borderColor "delegate to current Pharo theme"

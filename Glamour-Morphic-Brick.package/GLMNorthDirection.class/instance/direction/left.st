@@ -1,0 +1,2 @@
+left
+	^ GLMWestDirection uniqueInstance

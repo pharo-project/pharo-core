@@ -1,5 +1,5 @@
 GLMInteractableBrick subclass: #GLMEmptyPopupBrick
-	instanceVariableNames: 'anchorBrick triggerBrick contentBrick contentLogic isHideUnhover'
+	instanceVariableNames: 'anchorBrick triggerBrick contentBrick popupLayout closer padding inset spacing'
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Glamour-Morphic-Brick-Widgets-UI'
+	category: 'Glamour-Morphic-Brick-Widgets-UI-Popup'

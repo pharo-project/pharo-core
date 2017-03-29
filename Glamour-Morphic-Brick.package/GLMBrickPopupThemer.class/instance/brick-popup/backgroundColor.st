@@ -1,3 +1,5 @@
 backgroundColor
+	"Return a background color of a default popup"
+	<return: #Color>
 
-	^ Color white
+	^ Smalltalk ui theme backgroundColor "delegate to current Pharo theme"

@@ -1,3 +1,3 @@
-onSelectedChanged: ann
+onSelectedChanged: anAnnouncement
 
 	self checkOrUncheck

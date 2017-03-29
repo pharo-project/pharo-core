@@ -1,3 +1,3 @@
 zIndex
 
-	^ self layout zIndex
+	^ self layout zIndex brickValue: self

@@ -1,2 +1,0 @@
-selectedCategory
-	^ self selected processor

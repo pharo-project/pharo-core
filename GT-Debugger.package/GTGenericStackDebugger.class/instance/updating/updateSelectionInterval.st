@@ -1,4 +1,4 @@
 updateSelectionInterval
 
 	self selectedContext ifNil: [ ^ self ].
-	self selectionInterval: (self session pcRangeForContext:  self selectedContext )
+	self selectionInterval: (self session selectedCodeRangeForContext:  self selectedContext )

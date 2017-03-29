@@ -1,3 +1,2 @@
 beSelected
-	self stepModel selected: self candidateLink
-	
+	self stepModel select: self candidateLink

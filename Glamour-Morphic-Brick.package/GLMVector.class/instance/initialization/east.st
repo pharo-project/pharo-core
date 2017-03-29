@@ -1,0 +1,2 @@
+east
+	direction := East

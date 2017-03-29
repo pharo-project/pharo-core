@@ -2,4 +2,4 @@ isInsideOfTriggerBrick: anEvent
 	self triggerBrick 
 		ifNil: [^ false]
 		ifNotNil: [:aBrick | 
-			anEvent withHandPositionDo: [ :position | ^ aBrick boundsInWorld containsPoint: position ] ]
+			anEvent withHandPositionDo: [ :position | ^ aBrick globalBounds containsPoint: position ] ]

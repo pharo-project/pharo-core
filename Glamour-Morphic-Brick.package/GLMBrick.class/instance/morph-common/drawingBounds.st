@@ -1,3 +1,0 @@
-drawingBounds
-
-	^ self globalBounds

@@ -1,10 +1,9 @@
 popupActOn: aPresentation from: aButton
 
-	GLMEmptyPopupBrick new
-		with: [ :b | b themer: b themer actionThemer ];
-		doNotHideUnhover;
+	GLMPopupActionBrick new
+		closer: (GLMPopupBrickCloser predicate: GLMPopupBrickOutisideClickPredicate new);
 		onCreated: [ :popup |self action glamourValueWithArgs: (Array 
 				with: aPresentation 
 				withAll: { aPresentation entity . popup }) ];
-		openBelowFor: aButton;
+		openOn: aButton;
 		beRightToLeftWithOffset: 0

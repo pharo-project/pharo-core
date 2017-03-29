@@ -1,0 +1,2 @@
++ aPoint
+	^ aPoint + self offset

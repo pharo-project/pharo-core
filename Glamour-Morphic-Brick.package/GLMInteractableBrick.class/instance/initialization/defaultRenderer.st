@@ -1,0 +1,2 @@
+defaultRenderer
+	^ GLMInteractableBrickRenderer new

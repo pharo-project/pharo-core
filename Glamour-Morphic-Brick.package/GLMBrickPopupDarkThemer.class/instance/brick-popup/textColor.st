@@ -1,3 +1,0 @@
-textColor
-
-	^ Color white slightlyDarker

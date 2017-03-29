@@ -1,0 +1,2 @@
+* aNumber
+	^ self direction * aNumber

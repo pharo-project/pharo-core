@@ -1,0 +1,2 @@
+act
+	self popup close

@@ -1,2 +1,0 @@
-newTreeMorph
-	^ GLMPaginatedResizableMorphTreeMorph new.

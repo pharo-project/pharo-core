@@ -1,0 +1,2 @@
+shadowWidth
+	^ 3

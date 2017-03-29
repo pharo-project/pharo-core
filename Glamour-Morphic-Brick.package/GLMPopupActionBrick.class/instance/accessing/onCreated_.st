@@ -1,0 +1,2 @@
+onCreated: aBlock
+	onCreatedBlock := aBlock

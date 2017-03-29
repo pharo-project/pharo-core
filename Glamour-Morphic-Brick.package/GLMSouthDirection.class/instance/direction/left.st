@@ -1,0 +1,2 @@
+left
+	^ GLMEastDirection uniqueInstance

@@ -1,0 +1,2 @@
+left
+	^ GLMSouthDirection uniqueInstance

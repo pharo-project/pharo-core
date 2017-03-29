@@ -3,10 +3,11 @@ openHint: aHintString title: aTitleString type: aTypeSymbol for: aBrick
 	
 	self closeHint.
 	brick :=  GLMPopupBrick new
+		beUpward;
 		hintText: aHintString;
 		titleText: aTitleString;
 		perform: aTypeSymbol withEnoughArguments: {  };
-		openFor: aBrick.
+		openOn: aBrick.
 		
 	hintBrick := brick
 		

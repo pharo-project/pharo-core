@@ -7,4 +7,4 @@ initialize
 	self
 		layoutProperties: GLMBrickLayoutProperties new;
 		useHorizontalLinearLayout;
-		renderer: GLMBrickRenderer new
+		renderer: self defaultRenderer

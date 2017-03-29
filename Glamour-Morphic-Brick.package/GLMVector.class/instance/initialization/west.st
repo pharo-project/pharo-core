@@ -1,0 +1,2 @@
+west
+	direction := West

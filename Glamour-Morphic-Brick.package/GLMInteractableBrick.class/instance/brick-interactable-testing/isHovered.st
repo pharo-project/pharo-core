@@ -1,0 +1,2 @@
+isHovered
+	^ self isSelected

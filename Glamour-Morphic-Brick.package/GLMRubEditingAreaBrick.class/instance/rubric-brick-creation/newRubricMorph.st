@@ -1,3 +1,3 @@
 newRubricMorph
 
-	^ RubEditingArea new beWrapped
+	^ GLMRubEditingArea new beWrapped

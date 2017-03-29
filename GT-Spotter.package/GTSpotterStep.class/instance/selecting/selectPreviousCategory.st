@@ -5,4 +5,4 @@ selectPreviousCategory
 	currentCategory := self candidates getProcessorLinkByCandidateLink: self selected.
 	previousCategory := self candidates previousProcessorLinkOf: currentCategory.
 	
-	self selected: previousCategory headLink
+	self select: previousCategory headLink

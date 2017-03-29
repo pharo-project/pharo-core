@@ -1,2 +1,0 @@
-selected: anObject
-	selected := anObject

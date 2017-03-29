@@ -1,0 +1,2 @@
+direction: aDirection
+	direction := aDirection
