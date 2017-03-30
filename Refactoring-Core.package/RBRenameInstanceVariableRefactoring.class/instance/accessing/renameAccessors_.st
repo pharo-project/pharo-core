@@ -1,0 +1,2 @@
+renameAccessors: anObject
+	renameAccessors := anObject
