@@ -1,6 +1,8 @@
-unlockSurfaceFn: aCallback
+unlockSurfaceFn: aCallbackOrNil
 	"This method was automatically generated"
-	unlockSurfaceFn := aCallback.
+	unlockSurfaceFn := aCallbackOrNil.
 	handle 
 		pointerAt: OFFSET_UNLOCKSURFACEFN 
-		put: (ExternalAddress fromAddress: aCallback thunk address)
+		put: (aCallbackOrNil 
+			ifNotNil: [ ExternalAddress fromAddress: aCallbackOrNil thunk address ]
+			ifNil: [ ExternalAddress null ])
