@@ -1,11 +1,12 @@
 testTerminationShouldProceedEnsureBlocks
 
-	| ensureCalled process |
+	| ensureCalled process semaphore |
 	ensureCalled := false.
+	semaphore := Semaphore new.
 	process := [ 
-		[10 seconds wait] ensure: [ ensureCalled := true ]
+		[semaphore signal. [10 milliSeconds wait] repeat] ensure: [ ensureCalled := true ]
 	] fork.
-	Processor yield.
+	semaphore wait.
 	
 	process terminate.
 	self assert: ensureCalled
