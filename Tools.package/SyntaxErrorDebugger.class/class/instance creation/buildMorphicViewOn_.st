@@ -5,6 +5,8 @@ buildMorphicViewOn: aSyntaxError
 	window := (SystemWindow labelled: 'Syntax Error: ' , aSyntaxError error)
 		model: aSyntaxError.
 	window
+		onAnnouncement: WindowClosed do: [ 
+			aSyntaxError handleWindowClosed ];
 		addMorph:
 			((PluggableListMorph
 				on: aSyntaxError

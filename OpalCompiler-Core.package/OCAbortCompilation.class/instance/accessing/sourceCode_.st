@@ -1,0 +1,2 @@
+sourceCode: anObject
+	sourceCode := anObject
