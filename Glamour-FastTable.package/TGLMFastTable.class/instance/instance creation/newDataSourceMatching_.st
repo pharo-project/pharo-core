@@ -1,4 +1,4 @@
-newDataSourceMatching: aRegex
-	^ (super newDataSourceMatching: aRegex)
+newDataSourceMatching: aFTFilter
+	^ (super newDataSourceMatching: aFTFilter)
 		glamourPresentation: self glamourPresentation;
 		yourself

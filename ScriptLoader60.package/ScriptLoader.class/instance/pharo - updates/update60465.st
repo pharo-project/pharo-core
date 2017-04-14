@@ -1,5 +1,6 @@
-commentForCurrentUpdate
- ^ '19932 WelcomeHelp for Pharo 6 update
+update60465
+	"self new update60465"
+	self withUpdateLog: '19932 WelcomeHelp for Pharo 6 update
 	https://pharo.fogbugz.com/f/cases/19932
 
 19934 change default theme to DarkTheme
@@ -12,4 +13,9 @@ commentForCurrentUpdate
 	https://pharo.fogbugz.com/f/cases/19929
 
 19926 Glamour Fast Table selection menu item actions does not work together with a filter
-	https://pharo.fogbugz.com/f/cases/19926'
+	https://pharo.fogbugz.com/f/cases/19926'.
+	self loadTogether: self script60465 merge: false.
+	
+Pharo3DarkTheme beCurrent.
+ScriptLoader new unloadPackageNamed: #ConfigurationOfMooseAlgos.
+	self flushCaches.
