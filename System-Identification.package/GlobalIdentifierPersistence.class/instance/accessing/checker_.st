@@ -1,0 +1,2 @@
+checker: aGlobalIdentifierPersistenceChecker
+	checker := aGlobalIdentifierPersistenceChecker

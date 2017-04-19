@@ -1,2 +1,0 @@
-setUpPersistenceStrategy
-	self subclassResponsibility

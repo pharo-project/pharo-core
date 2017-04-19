@@ -1,2 +1,0 @@
-setUpPreferences
-	self subclassResponsibility

@@ -1,0 +1,2 @@
+isEnabled
+	^ self answer value

@@ -1,0 +1,2 @@
+setUpPreferencesAndChecker
+	self subclassResponsibility

@@ -1,0 +1,2 @@
+newFalseChecker
+	^ GlobalIdentifierPersistenceMockChecker new

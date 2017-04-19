@@ -1,0 +1,2 @@
+setUpPersistenceStrategyAndChecker
+	self subclassResponsibility

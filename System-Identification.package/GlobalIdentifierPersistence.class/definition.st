@@ -1,5 +1,5 @@
 Object subclass: #GlobalIdentifierPersistence
-	instanceVariableNames: 'preferences previousPersistence'
+	instanceVariableNames: 'preferences previousPersistence checker'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'System-Identification'
