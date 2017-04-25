@@ -1,5 +1,5 @@
 url: aString
-
+	"Return Text object with copy aString to the clipboard after mouse click."
 	| color |
 	
 	color := Color fromHexString: '2176B3'.

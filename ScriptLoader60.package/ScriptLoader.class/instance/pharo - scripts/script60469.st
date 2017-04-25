@@ -1,4 +1,4 @@
-script60468
+script60469
 
 	^ 'AST-Core-TheIntegrator.492.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -139,7 +139,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.47.mcz
-HelpSystem-Core-TheIntegrator.170.mcz
+HelpSystem-Core-TheIntegrator.172.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 Hiedra-MartinDias.145.mcz
 HiedraTests-MartinDias.2.mcz
@@ -201,7 +201,7 @@ Morphic-Base-TheIntegrator.611.mcz
 Morphic-Core-TheIntegrator.313.mcz
 Morphic-Examples-TheIntegrator.64.mcz
 Morphic-Tests-TheIntegrator.11.mcz
-Morphic-Widgets-Basic-TheIntegrator.108.mcz
+Morphic-Widgets-Basic-TheIntegrator.110.mcz
 Morphic-Widgets-ColorPicker-TheIntegrator.23.mcz
 Morphic-Widgets-Extra-TheIntegrator.30.mcz
 Morphic-Widgets-FastTable-TheIntegrator.221.mcz
@@ -250,7 +250,7 @@ OmbuTests-MartinDias.27.mcz
 OpalCompiler-Core-TheIntegrator.890.mcz
 OpalCompiler-Tests-TheIntegrator.380.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.36.mcz
+Pharo-Help-TheIntegrator.38.mcz
 PharoBootstrap-Initialization-TheIntegrator.4.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-Widgets-TheIntegrator.1429.mcz
@@ -319,7 +319,7 @@ Settings-System-TheIntegrator.43.mcz
 ShoreLine-Report-Core-TommasoDalSasso.11.mcz
 ShoreLine-Report-Settings-TheIntegrator.7.mcz
 ShoreLine-Report-UI-TheIntegrator.19.mcz
-Shout-TheIntegrator.307.mcz
+Shout-TheIntegrator.309.mcz
 Shout-Tests-TheIntegrator.2.mcz
 Slot-TheIntegrator.785.mcz
 Slot-Tests-TheIntegrator.103.mcz

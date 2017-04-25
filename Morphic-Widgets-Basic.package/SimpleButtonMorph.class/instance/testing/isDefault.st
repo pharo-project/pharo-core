@@ -1,0 +1,2 @@
+isDefault
+	^ self extension isDefault
