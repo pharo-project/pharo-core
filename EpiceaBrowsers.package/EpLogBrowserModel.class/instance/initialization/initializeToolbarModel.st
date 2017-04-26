@@ -1,0 +1,3 @@
+initializeToolbarModel
+
+	toolbarModel logBrowserModel: self.

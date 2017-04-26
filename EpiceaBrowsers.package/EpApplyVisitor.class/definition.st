@@ -1,5 +1,5 @@
 EpLogBrowserOperationVisitor subclass: #EpApplyVisitor
-	uses: EpTEventVisitor
+	uses: EpTCodeChangeVisitor
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

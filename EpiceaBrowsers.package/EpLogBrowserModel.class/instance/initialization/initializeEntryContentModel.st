@@ -1,0 +1,3 @@
+initializeEntryContentModel
+
+	entryContentModel showOptions: false.

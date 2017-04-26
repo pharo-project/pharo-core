@@ -1,0 +1,3 @@
+statusLabelModel
+
+	^ statusLabelModel

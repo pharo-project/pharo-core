@@ -1,3 +1,5 @@
-visitBehaviorCategoryChange: aClassRecategorization
-	aClassRecategorization realClassAffected 
-		category: aClassRecategorization newCategory
+visitBehaviorCategoryChange: aChange
+
+	self
+		behaviorNamed: aChange behaviorAffectedName
+		ifPresent: [:aClassOrTrait | aClassOrTrait category: aChange newCategory ]

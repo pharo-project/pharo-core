@@ -11,7 +11,11 @@ testLoadFromCorruptFile4
 		stream 
 			upToAll: '41';
 			skip: -1;
-			nextPutAll: '**' ].
+			nextPutAll: '**'.
+			
+		"Apparently, in Linux it can randomly fail if not explicitely flush"
+		stream flush.
+		].
 	
 	loadedStore := 
 		(OmFileStore 
@@ -21,4 +25,4 @@ testLoadFromCorruptFile4
 	
 	self 
 		should: [ loadedStore refresh; entries ]
-		raise: OmFileStoreReadingError
+		raise: OmFileStoreReadingError.

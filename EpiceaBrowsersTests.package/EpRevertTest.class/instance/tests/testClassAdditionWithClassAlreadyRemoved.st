@@ -1,12 +1,12 @@
 testClassAdditionWithClassAlreadyRemoved
 
-	| aClass anEntry className |
+	| aClass className |
 	aClass := classFactory newClass.
 	className := aClass name.
-	anEntry := monitor log head.
+	self setHeadAsInputEntry.
 	
 	aClass removeFromSystem.
 	
 	self deny: (self class environment hasClassNamed: className).
-	self revert: { anEntry }.
+	self revertInputEntry.
 	self deny: (self class environment hasClassNamed: className).

@@ -1,2 +1,3 @@
 theLog
-	^ theLog
+
+	^ logBrowserModel theLog

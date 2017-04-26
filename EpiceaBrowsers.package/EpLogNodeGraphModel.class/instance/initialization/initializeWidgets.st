@@ -1,8 +1,9 @@
 initializeWidgets
 
 	self instantiateModels: {
-		#enableMonitorButtonModel -> #ButtonModel.
-		#createLogButtonModel -> #ButtonModel.
+		#hiedraCheckBoxModel -> #CheckBoxModel.
 		#selectDirectoryButtonModel -> #ButtonModel.
 		#logNodesTreeModel -> #TreeModel.
-		#refreshButtonModel -> #ButtonModel }
+		#refreshButtonModel -> #ButtonModel.
+		#openSettingsButtonModel -> #ButtonModel.
+		}

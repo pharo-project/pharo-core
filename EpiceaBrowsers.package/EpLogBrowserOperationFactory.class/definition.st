@@ -1,5 +1,5 @@
 Object subclass: #EpLogBrowserOperationFactory
-	instanceVariableNames: 'theLog entries errorHandlerBlock'
+	instanceVariableNames: 'entries errorHandlerBlock logBrowserModel'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaBrowsers-Integration'

@@ -1,0 +1,2 @@
+firstLocalNameAsInteger
+	^ self firstEntryReference localName asInteger

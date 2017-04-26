@@ -1,2 +1,2 @@
 leftOfColumnIndex: columnIndex
-	^ columnIndex - 1 * self columnSize
+	^ (columnIndex - 1) * self columnSize

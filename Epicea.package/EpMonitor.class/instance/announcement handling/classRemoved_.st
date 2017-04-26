@@ -1,5 +1,3 @@
-classRemoved: aClassRemovedAnnoucement
+classRemoved: classRemoved
 
-	self addEvent: 
-		(EpClassRemoval
-			class: aClassRemovedAnnoucement classRemoved)
+	self addEvent: (EpClassRemoval class: classRemoved)

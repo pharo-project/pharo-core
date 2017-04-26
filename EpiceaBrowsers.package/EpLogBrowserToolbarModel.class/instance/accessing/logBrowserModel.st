@@ -1,0 +1,2 @@
+logBrowserModel
+	^ logBrowserModel

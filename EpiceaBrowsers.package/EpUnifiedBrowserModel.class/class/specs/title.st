@@ -1,3 +1,3 @@
 title
 
-	^ 'Epicea - ', self shortTitle
+	^ 'Epicea - Code Changes'

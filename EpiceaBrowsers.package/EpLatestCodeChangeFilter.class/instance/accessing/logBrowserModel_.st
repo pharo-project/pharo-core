@@ -1,0 +1,3 @@
+logBrowserModel: anEpLogBrowserModel 
+	
+	logBrowserModel := anEpLogBrowserModel

@@ -1,8 +1,3 @@
 traitAdded: aClassAddedAnnoucement
 
-	| aChange |
-
-	aChange := EpTraitAddition
-		trait: aClassAddedAnnoucement classAdded.
-
-	self addEvent: aChange
+	self addEvent: (EpTraitAddition trait: aClassAddedAnnoucement classAdded)

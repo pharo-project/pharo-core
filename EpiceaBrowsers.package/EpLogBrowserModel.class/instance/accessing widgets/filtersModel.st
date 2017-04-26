@@ -1,2 +1,0 @@
-filtersModel
-	^ filtersModel

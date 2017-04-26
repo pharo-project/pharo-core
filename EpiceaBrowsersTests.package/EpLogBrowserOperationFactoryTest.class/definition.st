@@ -1,5 +1,5 @@
 EpEnabledIntegrationTest subclass: #EpLogBrowserOperationFactoryTest
-	instanceVariableNames: ''
+	instanceVariableNames: 'inputEntry inputEntries'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaBrowsersTests-Integration'

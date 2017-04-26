@@ -1,5 +1,5 @@
 ComposableModel subclass: #EpLogBrowserModel
-	instanceVariableNames: 'log tabManagerModel entryContentModel entryContentTabModel filtersModel filtersTabModel itemsModel andFilter selectionDeferrer cachedLogEntries commentsLog monitor cachedItems'
+	instanceVariableNames: 'log entryContentModel itemsModel toolbarModel andFilter selectionDeferrer cachedLogEntries commentsLog monitor cachedItems showEntryItemMenu'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'EpiceaBrowsers-UI-Log'

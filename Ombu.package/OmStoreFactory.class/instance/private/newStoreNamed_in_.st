@@ -1,5 +1,5 @@
 newStoreNamed: aGlobalName in: aDirectory
 
-	^ OmFileStore
+	^ OmBlockFileStore
 		named: aGlobalName
 		inDirectory: aDirectory

@@ -1,0 +1,2 @@
+rejectedEntryReferences: anObject
+	rejectedEntryReferences := anObject

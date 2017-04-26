@@ -1,11 +1,11 @@
 testClassAdditionWithInstanceVariablesChanged
 
-	| aClass anEntry |
+	| aClass |
 	aClass := classFactory newClass.
-	anEntry := monitor log head.
+	self setHeadAsInputEntry.
 	
 	aClass addInstVarNamed: #x.
 	
 	self assert: aClass instVarNames equals: #(x).
-	self apply: { anEntry }.
+	self applyInputEntry.
 	self assert: aClass instVarNames equals: #()

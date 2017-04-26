@@ -1,0 +1,3 @@
+visitTraitModification: aTraitModification
+
+	self notYetImplemented

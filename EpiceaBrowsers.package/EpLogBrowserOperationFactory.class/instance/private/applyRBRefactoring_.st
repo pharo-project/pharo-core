@@ -6,4 +6,4 @@ applyRBRefactoring: aRBRefactoring
 				| aNautilusUI |
 				aNautilusUI := NautilusUI on: Nautilus new.
 				(NautilusRefactoring model: aNautilusUI) performRefactoring: aRBRefactoring ]]
-		with: self applyEvent
+		with: self newApplyEvent

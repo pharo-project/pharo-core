@@ -1,5 +1,6 @@
-oldName: oldPackageName newName: newPackageName
-	| newInstance |
-	newInstance := self named: newPackageName.
-	^ newInstance oldCategoryName: oldPackageName;
-		yourself.
+oldName: oldName newName: newName
+
+	^self
+		oldName: oldName
+		newName: newName
+		packageName: (self packageNameFromCategoryName: newName)

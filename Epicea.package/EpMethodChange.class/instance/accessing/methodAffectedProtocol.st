@@ -1,0 +1,3 @@
+methodAffectedProtocol
+
+	^ self methodAffected protocol

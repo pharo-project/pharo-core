@@ -1,0 +1,3 @@
+doesOverride: aCodeChange 
+
+	^ self subclassResponsibility

@@ -1,0 +1,3 @@
+totalEntriesCount
+
+	^ self theLog entriesCount

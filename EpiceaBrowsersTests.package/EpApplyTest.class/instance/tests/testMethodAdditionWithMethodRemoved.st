@@ -1,14 +1,14 @@
 testMethodAdditionWithMethodRemoved
 
-	| aClass anEntry |
+	| aClass |
 	aClass := classFactory newClass.
 	aClass compile: 'fortyTwo ^42' classified: 'number'.
-	anEntry := monitor log head.
+	self setHeadAsInputEntry.
 
 	aClass removeSelector: #fortyTwo.
 	
-	self assert: (anEntry content isKindOf: EpMethodAddition).
+	self assert: (inputEntry content isKindOf: EpMethodAddition).
 	self deny: (aClass includesSelector: #fortyTwo).
-	self apply: { anEntry }.
+	self applyInputEntry.
 	self assert: (aClass includesSelector: #fortyTwo).
 	self assert: (aClass>>#fortyTwo) protocol equals: 'number'.

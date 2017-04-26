@@ -1,7 +1,3 @@
-traitRemoved: aClassRemovedAnnoucement
+traitRemoved: classRemoved
 
-	| aChange |
-
-	aChange := EpTraitRemoval 
-		trait: aClassRemovedAnnoucement classRemoved.
-	self addEvent: aChange
+	self addEvent: (EpTraitRemoval trait: classRemoved)

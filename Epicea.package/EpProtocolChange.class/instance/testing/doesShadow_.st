@@ -1,3 +1,0 @@
-doesShadow: aCodeChange 
-
-	^ false

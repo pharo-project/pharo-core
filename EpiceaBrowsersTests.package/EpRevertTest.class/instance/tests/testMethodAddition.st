@@ -1,11 +1,11 @@
 testMethodAddition
 
-	| aClass anEntry |
+	| aClass |
 	aClass := classFactory newClass.
 	aClass compile: 'fortyTwo ^42'.
-	anEntry := monitor log head.
+	self setHeadAsInputEntry.
 
-	self assert: (anEntry content isKindOf: EpMethodAddition).
+	self assert: (inputEntry content isKindOf: EpMethodAddition).
 	self assert: (aClass includesSelector: #fortyTwo).
-	self revert: { anEntry }.
+	self revertInputEntry.
 	self deny: (aClass includesSelector: #fortyTwo).

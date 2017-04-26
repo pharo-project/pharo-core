@@ -1,2 +1,3 @@
 oldCategoryName
-	^ oldCategoryName.
+
+	^ oldCategoryName

@@ -1,0 +1,3 @@
+aStoreName
+
+	^ 'aTestGlobalName'

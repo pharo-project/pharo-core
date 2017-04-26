@@ -1,0 +1,3 @@
+filteredEntriesCount
+
+	^ self filteredEntryReferences size

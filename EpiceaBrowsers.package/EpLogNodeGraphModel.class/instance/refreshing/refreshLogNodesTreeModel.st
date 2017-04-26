@@ -7,6 +7,7 @@ refreshLogNodesTreeModel
 			on: FileSystemError 
 			do: [ :error | self inform: error asString ].
 
+	self flag: #fix. "hacky"
 	self isMonitorDirectory ifTrue: [
 		| currentGlobalName |
 		currentGlobalName := self monitor sessionStore store globalName.
@@ -14,8 +15,9 @@ refreshLogNodesTreeModel
 		nodes := { EpMonitorLogNode for: self monitor }, nodes.
 	].
 
-	nodes 
-		do: [ :node | node populateReferencedNodesWith: nodes ]
-		displayingProgress: ('Analyzing ', directory asString).
+	hiedraCheckBoxModel state ifTrue: [
+		nodes 
+			do: [ :node | node populateReferencedNodesWith: nodes ]
+			displayingProgress: ('Analyzing ', directory asString)].
 
 	logNodesTreeModel roots: nodes.

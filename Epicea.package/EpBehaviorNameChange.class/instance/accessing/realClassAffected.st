@@ -1,3 +1,0 @@
-realClassAffected
-
-	^ behavior realClass 

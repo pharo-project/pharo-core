@@ -28,6 +28,8 @@ flushEntryBuffer
 
 			"In Linux it was necessary to explicitely flush the file stream"
 			fileStream flush.
+			
+			lastStreamPosition := fileStream size.
 			].
 	
 		self refreshEntryPositionsByLocalNameStartingAt: initialPosition since: initialLocalName.
