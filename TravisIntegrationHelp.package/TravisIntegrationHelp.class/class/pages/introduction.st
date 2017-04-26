@@ -1,7 +1,9 @@
 introduction
 	^ HelpTopic 
 		title: 'Introduction to Travis Integration'
-		contents: 'Travis is a wunderful continuous integration server. Thanks to SmalltalkCI, it can be easily used with any Pharo application.
+		contents: 
+		(self heading: 'Introduction to Travis Integration'),
+		'Travis is a wunderful continuous integration server. Thanks to SmalltalkCI, it can be easily used with any Pharo application.
 
 The example used in this help is Roassal2. 
 
