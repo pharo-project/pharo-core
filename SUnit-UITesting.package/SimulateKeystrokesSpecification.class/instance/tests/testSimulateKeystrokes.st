@@ -5,5 +5,5 @@ testSimulateKeystrokes
 	self assert: textMorph canChangeText.
 	textMorph takeKeyboardFocus.
 	self simulateKeyStrokes: 'hello'.
-	self assert: textMorph contents = 'hello'.
+	self assert: textMorph contents asString equals: 'hello'.
 	textMorph delete.
