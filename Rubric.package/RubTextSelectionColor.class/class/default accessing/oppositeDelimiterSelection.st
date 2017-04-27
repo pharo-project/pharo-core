@@ -1,8 +1,7 @@
 oppositeDelimiterSelection
 	^ OppositeDelimiterSelection
 		ifNil: [ 
-			OppositeDelimiterSelection := RubTextSelectionColor new
-				colorBlock: [ Color black ];
-				backgroundColorBlock: [ Color green muchLighter ];
-				emphasisCode: 0;
+			OppositeDelimiterSelection := self new
+				colorBlock: [ self theme currentSettings selectionTextColor ];
+				backgroundColorBlock: [ self theme currentSettings secondarySelectionColor ];
 				yourself ]
