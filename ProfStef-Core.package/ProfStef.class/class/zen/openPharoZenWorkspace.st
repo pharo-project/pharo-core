@@ -5,7 +5,7 @@ openPharoZenWorkspace
 
 	TextModel new
 		text: self pharoZenValuesContents;
-		title: 'Pharo Zen';
+		title: 'Pharo Zen' translated;
 		aboutText: self aboutPharoZen;
 		beForText;
 		openWithSpec
