@@ -1,4 +1,4 @@
-Model subclass: #VSCommitAction
+Object subclass: #VSCommitAction
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

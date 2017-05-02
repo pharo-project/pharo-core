@@ -1,5 +1,5 @@
 register
 	MBConfigurationRoot current announcer weak
 		when: MBConfigurationInfoChanged
-		send: #refreshConfiguration
+		send: #refreshConfigurationOfProject:
 		to: self
