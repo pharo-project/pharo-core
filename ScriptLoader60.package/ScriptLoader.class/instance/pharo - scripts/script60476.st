@@ -1,4 +1,4 @@
-script60475
+script60476
 
 	^ 'AST-Core-TheIntegrator.494.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -139,7 +139,7 @@ Graphics-Shapes-TheIntegrator.4.mcz
 Graphics-Tests-TheIntegrator.85.mcz
 Graphics-Transformations-TheIntegrator.17.mcz
 Growl-TheIntegrator.47.mcz
-HelpSystem-Core-TheIntegrator.174.mcz
+HelpSystem-Core-TheIntegrator.176.mcz
 HelpSystem-Tests-TheIntegrator.32.mcz
 Hiedra-MartinDias.146.mcz
 HiedraTests-MartinDias.2.mcz
@@ -250,7 +250,7 @@ OmbuTests-MartinDias.33.mcz
 OpalCompiler-Core-TheIntegrator.890.mcz
 OpalCompiler-Tests-TheIntegrator.380.mcz
 OpalTools-TheIntegrator.24.mcz
-Pharo-Help-TheIntegrator.38.mcz
+Pharo-Help-TheIntegrator.40.mcz
 PharoBootstrap-Initialization-TheIntegrator.4.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-Widgets-TheIntegrator.1430.mcz
@@ -365,11 +365,11 @@ System-Platforms-TheIntegrator.85.mcz
 System-Serial Port-StephaneDucasse.23.mcz
 System-SessionManager-TheIntegrator.41.mcz
 System-SessionManager-Tests-ChristopheDemarey.9.mcz
-System-Settings-TheIntegrator.372.mcz
+System-Settings-TheIntegrator.374.mcz
 System-Settings-Rules-TheIntegrator.2.mcz
 System-Settings-Tests-TheIntegrator.15.mcz
 System-Sound-TheIntegrator.20.mcz
-System-Sources-TheIntegrator.69.mcz
+System-Sources-TheIntegrator.71.mcz
 System-Support-TheIntegrator.1274.mcz
 System-Support-Rules-TheIntegrator.2.mcz
 System-SupportTests-TheIntegrator.7.mcz

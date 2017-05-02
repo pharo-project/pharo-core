@@ -1,0 +1,3 @@
+initialize
+
+	UniqueObject := Object new

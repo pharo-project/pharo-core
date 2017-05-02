@@ -1,2 +1,2 @@
 hasDefault
-	^ true
+	^ default ~~ UniqueObject
