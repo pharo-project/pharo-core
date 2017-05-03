@@ -1,3 +1,3 @@
-edgeColor
+diffEdgeColor
 	"Answer the color used to show the border of the changes."
-	^ self theme diffEdgeColor
+	^ Color gray alpha: 0.3

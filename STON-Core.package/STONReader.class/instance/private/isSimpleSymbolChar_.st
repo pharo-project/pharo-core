@@ -1,2 +1,2 @@
 isSimpleSymbolChar: char
-	^ 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789-_./' includes: char
+	^char isLetter or: ['0123456789-_./' includes: char]

@@ -1,0 +1,2 @@
+removalHighlightColor
+	^ removalHighlightColor

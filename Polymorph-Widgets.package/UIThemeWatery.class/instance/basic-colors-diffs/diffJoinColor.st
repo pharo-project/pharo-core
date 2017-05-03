@@ -1,3 +1,3 @@
-joinColor
+diffJoinColor
 	"Answer the color used for the join bar."
-	^ self theme diffJoinColor
+	^ Color paleBlue duller

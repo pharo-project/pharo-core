@@ -1,0 +1,2 @@
+additionHighlightColor
+	^ additionHighlightColor
