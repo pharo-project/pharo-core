@@ -1,4 +1,4 @@
-script60478
+script60479
 
 	^ 'AST-Core-TheIntegrator.494.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -93,10 +93,10 @@ FuelTools-Debugger-MaxLeske.14.mcz
 FuzzyMatcher-TheIntegrator.20.mcz
 FuzzyMatcher-Tests-TheIntegrator.8.mcz
 GT-BytecodeDebugger-AndreiChis.36.mcz
-GT-Debugger-AndreiChis.380.mcz
+GT-Debugger-TheIntegrator.383.mcz
 GT-EventRecorder-TheIntegrator.81.mcz
 GT-EventRecorder-Tests-TheIntegrator.42.mcz
-GT-Inspector-AliakseiSyrel.466.mcz
+GT-Inspector-TheIntegrator.468.mcz
 GT-InspectorExtensions-Core-AndreiChis.259.mcz
 GT-Playground-TheIntegrator.148.mcz
 GT-SUnitDebugger-TudorGirba.39.mcz
@@ -359,7 +359,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.108.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.13.mcz
-System-OSEnvironments-TheIntegrator.33.mcz
+System-OSEnvironments-TheIntegrator.35.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.85.mcz
 System-Serial Port-StephaneDucasse.23.mcz
