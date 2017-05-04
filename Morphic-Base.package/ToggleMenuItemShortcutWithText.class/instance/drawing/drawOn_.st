@@ -6,4 +6,4 @@ drawOn: aCanvas
 		drawText: keyText
 		on: aCanvas
 		in: keyBounds
-		color: self owner theme disabledTextColor
+		color: self owner stringColorToUse

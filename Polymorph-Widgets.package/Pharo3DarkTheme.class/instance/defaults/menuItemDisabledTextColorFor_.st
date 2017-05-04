@@ -1,0 +1,3 @@
+menuItemDisabledTextColorFor: aMenuItem
+
+	^ Color lightGray
