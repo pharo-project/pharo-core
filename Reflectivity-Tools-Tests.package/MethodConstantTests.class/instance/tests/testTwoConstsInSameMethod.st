@@ -1,7 +1,6 @@
 testTwoConstsInSameMethod
 
 	| result1 result2 |
-	<expectedFailure>
 	result1 := self sumOfTwoConsts: [ 1 ] and: [ 2 ].
 	result2 := self sumOfTwoConsts: nil and: nil.
 	self assert: result1 equals: 3.
