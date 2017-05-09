@@ -1,12 +1,12 @@
 testIsDeprecated
-	| method |
 
-	method := (self class)>>#deprecatedMethod.
-	self assert: method isDeprecated.
+	#(	
+		deprecatedMethod 
+	  	deprecatedMethod2 
+	 	deprecatedMethod3 
+		deprecatedMethod4
+	) do: [ :each | 
+		self assert: (self class >> each) isDeprecated 
+	].
 	
-	method := (self class)>>#deprecatedMethod2.
-	self assert: method isDeprecated.
-
-
-	method := (self class)>>#testIsDeprecated.
-	self deny: method isDeprecated.
+	self deny: (self class >> #testIsDeprecated) isDeprecated.
