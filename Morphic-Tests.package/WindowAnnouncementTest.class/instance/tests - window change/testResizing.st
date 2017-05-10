@@ -1,6 +1,7 @@
 testResizing
 	| t oldBounds newBounds |
 	window := SystemWindow labelled: 'foo'.
+	window setProperty: #minimumExtent toValue: 1@1.
 	t := 0.
 	window openInWorld.
 	oldBounds := window bounds.
