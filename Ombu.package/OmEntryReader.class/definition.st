@@ -1,5 +1,5 @@
 Object subclass: #OmEntryReader
-	instanceVariableNames: 'stream'
+	instanceVariableNames: 'stream store'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Ombu-Persistence'

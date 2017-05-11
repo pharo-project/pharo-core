@@ -1,3 +1,3 @@
 newEntryReader
 	
-	^ OmSTONEntryReader new
+	^ OmSTONEntryReader newForStore: self

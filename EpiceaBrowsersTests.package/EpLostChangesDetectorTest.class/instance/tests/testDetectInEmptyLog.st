@@ -1,6 +1,7 @@
 testDetectInEmptyLog
 
-	detector := EpLostChangesDetector new.
-	detector monitorLog: monitor log.
+	detector := EpLostChangesDetector newWithLog: monitor log.
+	self deny: detector hasLostChanges.
 	self assert: detector lostChanges isEmpty.
-	self assert: detector monitorLog entries isEmpty. "Just to be sure of the assumed precondition"
+
+	self assert: monitor log entries isEmpty. "Just to be sure of the assumed precondition"
