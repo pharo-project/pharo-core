@@ -46,7 +46,8 @@ spec group: 'General-Help-Group' with: #(
 	'Pharo-Help'
 	'Regex-Help'
 	'Spec-Help'	
-	'WorldMenuHelp'	
+	'TravisIntegrationHelp'	
+	'WorldMenuHelp'
 ).	
 
 spec group: 'General-Tests-Group' with: #(
@@ -99,6 +100,7 @@ spec group: 'General-Tests-Group' with: #(
 	'Zinc-Resource-Meta-FileSystem'	
 	'Zinc-Resource-Meta-Tests'
 	'Zinc-Tests'	"requires Zinc-Resource-Meta-Tests"
+	'System-Identification-Tests'		
 ).	
 
 spec group: 'FuzzyMatcher-Core-Group' with: #(

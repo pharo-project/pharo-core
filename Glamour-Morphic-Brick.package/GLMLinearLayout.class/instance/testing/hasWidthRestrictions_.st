@@ -1,3 +1,2 @@
 hasWidthRestrictions: aBrick
-
-	^ aBrick layout hasMinWidth | aBrick layout hasMaxWidth
+	^ aBrick layout hasMinWidth or: [ aBrick layout hasMaxWidth ]
