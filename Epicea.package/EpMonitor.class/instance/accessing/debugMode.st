@@ -1,0 +1,2 @@
+debugMode
+	^ debugMode ifNil: [ false ]

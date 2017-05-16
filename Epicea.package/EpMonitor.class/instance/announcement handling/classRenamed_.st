@@ -1,8 +1,7 @@
 classRenamed: aClassRenamed
 
-	| aChange |	
-	aChange := EpBehaviorNameChange
-		oldName: aClassRenamed oldName
-		newName: aClassRenamed  newName
-		class: aClassRenamed classAffected.
-	self addEvent: aChange.
+	self handleAnyErrorDuring: [
+		self addEvent: (EpBehaviorNameChange
+			oldName: aClassRenamed oldName
+			newName: aClassRenamed  newName
+			class: aClassRenamed classAffected) ]

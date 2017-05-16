@@ -1,0 +1,2 @@
+debugMode: aBoolean
+	debugMode := aBoolean

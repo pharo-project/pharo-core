@@ -1,7 +1,5 @@
 traitModified: aClassModifiedClassDefinitionAnnouncement
 
-	| aChange |
-	aChange := EpTraitModification
+	self addEvent: (EpTraitModification
 		oldTrait: aClassModifiedClassDefinitionAnnouncement oldClassDefinition
-		newTrait: aClassModifiedClassDefinitionAnnouncement newClassDefinition.
-	self addEvent: aChange.
+		newTrait: aClassModifiedClassDefinitionAnnouncement newClassDefinition)

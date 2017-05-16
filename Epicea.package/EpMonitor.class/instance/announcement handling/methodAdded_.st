@@ -1,5 +1,4 @@
 methodAdded: aMethodAddedAnnoucement
 
-	self addEvent: 
-		(EpMethodAddition 
-			method: aMethodAddedAnnoucement methodAffected)
+	self handleAnyErrorDuring: [
+		self addEvent: (EpMethodAddition method: aMethodAddedAnnoucement methodAffected) ]

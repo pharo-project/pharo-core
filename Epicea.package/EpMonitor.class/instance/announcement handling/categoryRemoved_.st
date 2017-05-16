@@ -1,4 +1,4 @@
 categoryRemoved: aPackageCategoryRemoved
-	| aChange |
-	aChange := EpCategoryRemoval named: aPackageCategoryRemoved categoryName.
-	self addEvent: aChange.
+
+	self handleAnyErrorDuring:[
+		self addEvent: (EpCategoryRemoval named: aPackageCategoryRemoved categoryName) ]
