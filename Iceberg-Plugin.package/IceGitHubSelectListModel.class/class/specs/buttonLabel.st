@@ -1,0 +1,2 @@
+buttonLabel
+	^ 'Select'

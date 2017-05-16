@@ -1,0 +1,2 @@
+subdirectory: anObject
+	subdirectory := anObject

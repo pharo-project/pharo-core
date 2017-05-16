@@ -1,0 +1,2 @@
+datePanel: anObject
+	datePanel := anObject

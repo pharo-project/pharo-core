@@ -1,0 +1,2 @@
+branches
+	^ self repository allBranches

@@ -1,0 +1,2 @@
+detailedInfo
+	^ #()

@@ -1,0 +1,2 @@
+descriptionTextForRemote: aRemote
+	^ aRemote remoteName

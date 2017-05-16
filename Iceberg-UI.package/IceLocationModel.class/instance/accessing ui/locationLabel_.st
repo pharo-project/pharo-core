@@ -1,0 +1,2 @@
+locationLabel: anObject
+	locationLabel := anObject

@@ -1,0 +1,2 @@
+committer: anLGitSignature
+	committer := anLGitSignature

@@ -1,0 +1,2 @@
+initializeWithDefaults
+	self subclassResponsibility

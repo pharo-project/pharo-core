@@ -1,0 +1,2 @@
+outgoingCommitsTo: aRemote do: aBlock
+	^ #()

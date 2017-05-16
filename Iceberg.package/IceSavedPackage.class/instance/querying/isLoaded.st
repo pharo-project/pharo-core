@@ -1,0 +1,2 @@
+isLoaded
+	^ self package isLoaded

@@ -1,0 +1,2 @@
+urlPanel: anObject
+	urlPanel := anObject

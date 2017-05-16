@@ -1,0 +1,2 @@
+targetBranch: anObject
+	targetBranch := anObject

@@ -1,0 +1,2 @@
+canRevertChanges
+	^ self myVersion canRevertChanges 

@@ -1,0 +1,2 @@
+createRepository
+	self subclassResponsibility

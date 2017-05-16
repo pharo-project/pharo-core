@@ -1,0 +1,2 @@
+subPackageFileDirectoryFor: directoryNameOrPath
+	^ self packageFileDirectory entryByPath: directoryNameOrPath 

@@ -1,0 +1,2 @@
+isType: aType
+	^ self subclassResponsibility

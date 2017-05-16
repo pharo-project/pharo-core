@@ -1,0 +1,2 @@
+authorLabel: anObject
+	authorLabel := anObject

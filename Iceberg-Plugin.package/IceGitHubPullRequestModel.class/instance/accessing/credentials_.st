@@ -1,0 +1,2 @@
+credentials: aCredentials
+	credentials := aCredentials

@@ -1,0 +1,2 @@
+bodyPanel: anObject
+	bodyPanel := anObject

@@ -1,0 +1,2 @@
+icePackage
+	^ self definition icePackage

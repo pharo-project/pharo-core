@@ -1,0 +1,2 @@
+defaultLocation
+	^ IceRepository repositoriesLocation pathString

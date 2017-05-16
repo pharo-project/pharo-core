@@ -1,0 +1,2 @@
+isValid
+	^ self repository isValid

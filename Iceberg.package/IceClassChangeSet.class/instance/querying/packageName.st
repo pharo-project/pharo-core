@@ -1,0 +1,2 @@
+packageName
+	^ self targetClass packageName

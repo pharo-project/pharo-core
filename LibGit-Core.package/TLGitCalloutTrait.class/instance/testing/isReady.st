@@ -1,0 +1,2 @@
+isReady
+	^ true

@@ -1,0 +1,2 @@
+inspectRepository
+	self repository inspect

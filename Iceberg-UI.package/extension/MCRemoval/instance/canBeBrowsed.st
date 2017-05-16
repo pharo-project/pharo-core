@@ -1,0 +1,2 @@
+canBeBrowsed
+	^ false

@@ -1,0 +1,2 @@
+idLabel: anObject
+	idLabel := anObject

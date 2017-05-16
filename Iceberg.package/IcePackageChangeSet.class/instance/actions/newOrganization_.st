@@ -1,0 +1,2 @@
+newOrganization: aCollectionOfTags
+	self basicOrganizationChange newOrganization: aCollectionOfTags 

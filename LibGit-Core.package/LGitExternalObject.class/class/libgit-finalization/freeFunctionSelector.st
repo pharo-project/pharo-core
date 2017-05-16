@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #object_free:

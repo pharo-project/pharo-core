@@ -1,0 +1,2 @@
+canRevertChanges
+	^ false

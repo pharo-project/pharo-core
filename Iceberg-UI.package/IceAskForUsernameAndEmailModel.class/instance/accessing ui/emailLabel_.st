@@ -1,0 +1,2 @@
+emailLabel: anObject
+	emailLabel := anObject

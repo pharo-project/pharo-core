@@ -1,0 +1,2 @@
+repository
+	^ self model repository

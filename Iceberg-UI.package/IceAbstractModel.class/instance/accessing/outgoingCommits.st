@@ -1,0 +1,3 @@
+outgoingCommits
+	^ outgoingCommits value
+	

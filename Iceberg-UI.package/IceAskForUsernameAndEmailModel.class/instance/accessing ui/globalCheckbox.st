@@ -1,0 +1,2 @@
+globalCheckbox
+	^ globalCheckbox

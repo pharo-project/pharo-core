@@ -1,0 +1,2 @@
+savedPackages
+	^ self savedPackagesDictionary values

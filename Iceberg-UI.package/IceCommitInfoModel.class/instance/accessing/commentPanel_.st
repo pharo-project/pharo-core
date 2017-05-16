@@ -1,0 +1,2 @@
+commentPanel: anObject
+	commentPanel := anObject

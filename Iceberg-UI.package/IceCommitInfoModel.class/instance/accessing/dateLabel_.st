@@ -1,0 +1,2 @@
+dateLabel: anObject
+	dateLabel := anObject

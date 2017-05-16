@@ -1,0 +1,2 @@
+maxNumber: anObject
+	maxNumber := anObject

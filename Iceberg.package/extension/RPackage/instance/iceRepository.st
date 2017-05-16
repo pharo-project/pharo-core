@@ -1,0 +1,2 @@
+iceRepository
+	^ Iceberg repositoryForPackage: self

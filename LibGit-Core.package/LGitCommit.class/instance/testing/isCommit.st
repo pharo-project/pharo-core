@@ -1,0 +1,2 @@
+isCommit
+	^ true

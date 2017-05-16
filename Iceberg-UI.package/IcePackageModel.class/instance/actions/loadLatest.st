@@ -1,0 +1,2 @@
+loadLatest
+	self package loadLatest

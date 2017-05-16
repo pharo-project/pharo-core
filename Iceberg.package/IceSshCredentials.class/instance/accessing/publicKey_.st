@@ -1,0 +1,2 @@
+publicKey: anObject
+	publicKey := anObject

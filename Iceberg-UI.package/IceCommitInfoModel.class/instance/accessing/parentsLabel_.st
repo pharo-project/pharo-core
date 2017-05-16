@@ -1,0 +1,2 @@
+parentsLabel: anObject
+	parentsLabel := anObject

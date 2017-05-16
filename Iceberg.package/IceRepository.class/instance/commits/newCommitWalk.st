@@ -1,0 +1,2 @@
+newCommitWalk
+	^ self backend newCommitWalk

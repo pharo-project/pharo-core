@@ -1,0 +1,2 @@
+hasFetchSpec
+	^ self fetchSpec notNil 

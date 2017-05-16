@@ -1,0 +1,2 @@
+generatedFieldProtocolName
+	^ 'libgit-fields'

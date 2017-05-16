@@ -1,0 +1,2 @@
+titleLabel: anObject
+	titleLabel := anObject

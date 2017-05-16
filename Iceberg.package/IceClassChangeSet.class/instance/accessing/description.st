@@ -1,0 +1,2 @@
+description
+	^ self targetClass description

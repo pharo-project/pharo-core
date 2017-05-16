@@ -1,0 +1,2 @@
+emailInput: anObject
+	emailInput := anObject

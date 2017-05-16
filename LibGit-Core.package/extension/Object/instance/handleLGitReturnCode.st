@@ -1,0 +1,2 @@
+handleLGitReturnCode
+	^ self

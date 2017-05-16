@@ -1,0 +1,2 @@
+remoteName: anObject
+	remoteName := anObject

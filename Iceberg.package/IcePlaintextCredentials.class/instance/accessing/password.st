@@ -1,0 +1,2 @@
+password
+	^ password ifNil: [ password := '' ]

@@ -1,0 +1,2 @@
+privateKey
+	^ privateKeyLocation location

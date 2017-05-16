@@ -1,0 +1,2 @@
+sshCredentials: anObject
+	SshCredentials := anObject

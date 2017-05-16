@@ -1,0 +1,2 @@
+directoryFromEntry: treeEntry 
+	^ treeEntry object

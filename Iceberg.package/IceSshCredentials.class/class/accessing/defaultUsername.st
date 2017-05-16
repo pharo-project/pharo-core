@@ -1,0 +1,2 @@
+defaultUsername
+	^ 'git'

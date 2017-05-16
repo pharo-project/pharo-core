@@ -1,0 +1,2 @@
+lastMessage
+	^ self last message

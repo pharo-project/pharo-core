@@ -1,0 +1,2 @@
+headForkList: anObject
+	headForkList := anObject

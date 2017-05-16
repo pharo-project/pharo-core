@@ -1,0 +1,2 @@
+locationInput
+	^ locationInput

@@ -1,0 +1,2 @@
+isTag
+	^ false

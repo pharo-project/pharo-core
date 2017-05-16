@@ -1,0 +1,2 @@
+basicUrl: aString
+	url := aString

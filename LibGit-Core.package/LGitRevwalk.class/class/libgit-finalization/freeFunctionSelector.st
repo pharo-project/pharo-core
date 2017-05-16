@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #revwalk_free:

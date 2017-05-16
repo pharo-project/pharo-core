@@ -1,0 +1,2 @@
+publicKeyReference
+	^ publicKeyReference

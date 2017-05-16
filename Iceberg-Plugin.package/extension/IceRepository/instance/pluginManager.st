@@ -1,0 +1,2 @@
+pluginManager
+	^ IcePluginManager managerFor: self

@@ -1,0 +1,2 @@
+baseForkList: anObject
+	baseForkList := anObject

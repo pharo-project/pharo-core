@@ -1,0 +1,2 @@
+expectedClass
+	^ expectedClass

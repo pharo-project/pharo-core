@@ -1,0 +1,2 @@
+setHandle: aHandle
+	handle := aHandle

@@ -1,0 +1,2 @@
+frontend: anObject
+	frontend := anObject

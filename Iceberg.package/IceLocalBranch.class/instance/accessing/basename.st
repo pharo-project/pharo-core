@@ -1,0 +1,2 @@
+basename
+	^ self name

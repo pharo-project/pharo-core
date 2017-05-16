@@ -1,0 +1,2 @@
+titlePanel: anObject
+	titlePanel := anObject

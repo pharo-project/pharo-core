@@ -1,0 +1,2 @@
+listPanel: anObject
+	listPanel := anObject

@@ -1,0 +1,2 @@
+iceClass
+	^ self definition iceClass

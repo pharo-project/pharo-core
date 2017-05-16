@@ -1,0 +1,2 @@
+colorOutgoing
+	^ Color blue

@@ -1,0 +1,2 @@
+remote: aRemote
+	remote := aRemote

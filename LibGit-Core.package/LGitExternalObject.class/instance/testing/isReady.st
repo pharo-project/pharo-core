@@ -1,0 +1,2 @@
+isReady
+	^ self isNull not

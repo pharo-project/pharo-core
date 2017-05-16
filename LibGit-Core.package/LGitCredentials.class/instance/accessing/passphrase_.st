@@ -1,0 +1,2 @@
+passphrase: aString
+	passphrase := aString

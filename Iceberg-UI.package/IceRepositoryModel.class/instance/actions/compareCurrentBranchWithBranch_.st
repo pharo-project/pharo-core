@@ -1,0 +1,2 @@
+compareCurrentBranchWithBranch: aBranch
+	IceBranchBrowser openOn: aBranch

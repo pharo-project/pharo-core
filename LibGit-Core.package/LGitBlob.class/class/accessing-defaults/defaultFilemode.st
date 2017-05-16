@@ -1,0 +1,2 @@
+defaultFilemode
+	^ LGitFilemodeEnum git_filemode_blob

@@ -1,0 +1,2 @@
+targetClass: anObject
+	targetClass := anObject

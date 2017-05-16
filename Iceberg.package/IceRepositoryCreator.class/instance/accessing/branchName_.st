@@ -1,0 +1,2 @@
+branchName: anObject
+	branchName := anObject

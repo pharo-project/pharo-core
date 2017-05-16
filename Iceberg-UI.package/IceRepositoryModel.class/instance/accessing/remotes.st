@@ -1,0 +1,2 @@
+remotes
+	^ self repository remotes

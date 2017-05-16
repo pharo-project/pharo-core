@@ -1,0 +1,2 @@
+publicKeyLocation: anObject
+	publicKeyLocation := anObject

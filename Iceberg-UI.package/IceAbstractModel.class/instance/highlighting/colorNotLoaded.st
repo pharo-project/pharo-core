@@ -1,0 +1,2 @@
+colorNotLoaded
+	^ Color darkGray

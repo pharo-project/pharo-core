@@ -1,0 +1,2 @@
+publicKey
+	^ publicKeyLocation location

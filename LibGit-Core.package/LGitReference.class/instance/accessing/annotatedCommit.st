@@ -1,0 +1,2 @@
+annotatedCommit
+	^ LGitAnnotatedCommit fromRef: self

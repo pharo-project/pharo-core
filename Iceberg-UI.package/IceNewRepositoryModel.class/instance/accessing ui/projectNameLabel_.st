@@ -1,0 +1,2 @@
+projectNameLabel: anObject
+	projectNameLabel := anObject

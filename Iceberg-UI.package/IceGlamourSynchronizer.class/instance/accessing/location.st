@@ -1,0 +1,2 @@
+location
+	^ self repository location

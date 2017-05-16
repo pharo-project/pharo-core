@@ -1,0 +1,2 @@
+maxNumber
+	^ maxNumber

@@ -1,0 +1,2 @@
+isInitialized
+	^ self isReady

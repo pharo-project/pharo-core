@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #tree_free:

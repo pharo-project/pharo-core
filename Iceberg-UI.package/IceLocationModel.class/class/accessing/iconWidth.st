@@ -1,0 +1,2 @@
+iconWidth
+	^ 24

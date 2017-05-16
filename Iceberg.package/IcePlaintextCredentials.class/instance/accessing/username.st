@@ -1,0 +1,2 @@
+username
+	^ username ifNil: [ username := '' ]

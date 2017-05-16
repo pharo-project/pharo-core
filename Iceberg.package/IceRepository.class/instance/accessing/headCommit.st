@@ -1,0 +1,2 @@
+headCommit
+	^ self branch lastCommit

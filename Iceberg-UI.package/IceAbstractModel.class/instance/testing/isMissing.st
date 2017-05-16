@@ -1,0 +1,2 @@
+isMissing
+	^ self repository isMissing

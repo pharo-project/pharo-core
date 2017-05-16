@@ -1,0 +1,2 @@
+subTreeEntries
+	^ self object subTreeEntries

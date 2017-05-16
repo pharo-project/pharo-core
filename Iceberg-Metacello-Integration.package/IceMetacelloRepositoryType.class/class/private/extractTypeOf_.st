@@ -1,0 +1,2 @@
+extractTypeOf: aString 
+	^ aString copyUpTo: $:

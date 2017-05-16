@@ -1,0 +1,3 @@
+loadLatest
+	self latestVersion load.
+	

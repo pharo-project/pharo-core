@@ -1,0 +1,2 @@
+iceVersion
+	^ commit versionFor: package

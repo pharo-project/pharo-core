@@ -1,0 +1,2 @@
+resetCredentials
+	Credentials := nil

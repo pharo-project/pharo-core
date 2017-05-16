@@ -1,0 +1,2 @@
+localDirectoryLocation: anObject
+	localDirectoryLocation := anObject

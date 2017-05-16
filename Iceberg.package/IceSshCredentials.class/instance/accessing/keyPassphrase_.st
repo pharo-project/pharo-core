@@ -1,0 +1,2 @@
+keyPassphrase: anObject
+	keyPassphrase := anObject

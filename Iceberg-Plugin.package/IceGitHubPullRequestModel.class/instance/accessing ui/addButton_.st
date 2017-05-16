@@ -1,0 +1,2 @@
+addButton: anObject
+	addButton := anObject

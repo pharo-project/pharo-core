@@ -1,0 +1,2 @@
+initialize
+	tries := 0.

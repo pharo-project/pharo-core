@@ -1,0 +1,2 @@
+stagedFiles
+	^ self backend stagedFiles

@@ -1,0 +1,2 @@
+baseBranchName: anObject
+	baseBranchName := anObject

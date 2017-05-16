@@ -1,0 +1,2 @@
+value 
+	^ list includes: item

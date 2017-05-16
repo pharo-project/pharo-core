@@ -1,0 +1,2 @@
+plaintextCredentials: anObject
+	PlaintextCredentials := anObject

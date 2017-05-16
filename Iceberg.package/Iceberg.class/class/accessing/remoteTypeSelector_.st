@@ -1,0 +1,2 @@
+remoteTypeSelector: anObject
+	RemoteTypeSelector := anObject

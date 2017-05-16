@@ -1,0 +1,2 @@
+bodyLabel: anObject
+	bodyLabel := anObject

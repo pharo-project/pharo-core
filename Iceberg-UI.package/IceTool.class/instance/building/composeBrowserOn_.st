@@ -1,0 +1,2 @@
+composeBrowserOn: browser 
+	self subclassResponsibility

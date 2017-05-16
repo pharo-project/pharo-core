@@ -1,0 +1,2 @@
+onMerge: anObject
+	onMerge := anObject

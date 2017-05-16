@@ -1,0 +1,2 @@
+currentBranch
+	^ self repository currentBranch

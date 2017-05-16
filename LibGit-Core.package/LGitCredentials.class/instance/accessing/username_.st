@@ -1,0 +1,2 @@
+username: aString
+	username := aString

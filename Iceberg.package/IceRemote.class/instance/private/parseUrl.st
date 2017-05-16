@@ -1,0 +1,2 @@
+parseUrl
+	^ self subclassResponsibility 

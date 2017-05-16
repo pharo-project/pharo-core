@@ -1,0 +1,2 @@
+expectedClass: anObject
+	expectedClass := anObject

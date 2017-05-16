@@ -1,0 +1,2 @@
+outgoingCommits: aBlockClosure 
+	^ #()

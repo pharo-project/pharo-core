@@ -1,0 +1,3 @@
+ffiLibraryName
+
+	^self ffiLibrary

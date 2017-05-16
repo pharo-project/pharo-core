@@ -1,0 +1,2 @@
+isOk
+	^ value = 0

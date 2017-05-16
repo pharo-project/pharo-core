@@ -1,0 +1,2 @@
+entryName
+	^ entryName

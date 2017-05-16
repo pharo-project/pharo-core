@@ -1,0 +1,2 @@
+idPanel: anObject
+	idPanel := anObject

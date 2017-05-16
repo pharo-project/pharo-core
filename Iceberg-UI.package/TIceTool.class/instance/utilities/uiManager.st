@@ -1,0 +1,2 @@
+uiManager
+	^ self class uiManager

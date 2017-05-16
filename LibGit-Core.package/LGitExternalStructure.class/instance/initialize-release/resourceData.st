@@ -1,0 +1,2 @@
+resourceData
+	^ self getHandle

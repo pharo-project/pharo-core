@@ -1,0 +1,2 @@
+colorIncoming
+	^ Color brown

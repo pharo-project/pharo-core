@@ -1,0 +1,2 @@
+sshCredentialsClass
+	^ self class sshCredentialsClass

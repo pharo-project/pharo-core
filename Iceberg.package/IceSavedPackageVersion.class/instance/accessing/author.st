@@ -1,0 +1,2 @@
+author
+	^ self info author

@@ -1,0 +1,2 @@
+fromHead
+	self revwalk pushHead

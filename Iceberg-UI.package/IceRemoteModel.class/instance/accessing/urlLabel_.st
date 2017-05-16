@@ -1,0 +1,2 @@
+urlLabel: anObject
+	urlLabel := anObject

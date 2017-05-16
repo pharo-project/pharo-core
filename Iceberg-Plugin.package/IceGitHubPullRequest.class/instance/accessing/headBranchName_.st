@@ -1,0 +1,2 @@
+headBranchName: anObject
+	headBranchName := anObject

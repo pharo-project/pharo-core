@@ -1,0 +1,2 @@
+signalNotReady
+	LGitObjectNotInitialized signalWith: self

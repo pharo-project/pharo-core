@@ -1,0 +1,2 @@
+headRemote: anObject
+	headRemote := anObject

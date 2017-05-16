@@ -1,0 +1,2 @@
+checkoutStrategy: aCheckoutStrategyEnum
+	self prim_checkout_strategy: aCheckoutStrategyEnum value

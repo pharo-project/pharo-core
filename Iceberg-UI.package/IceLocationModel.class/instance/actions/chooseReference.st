@@ -1,0 +1,2 @@
+chooseReference 
+	self subclassResponsibility

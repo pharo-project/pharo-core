@@ -1,0 +1,2 @@
+additionColor
+	^ super removalColor

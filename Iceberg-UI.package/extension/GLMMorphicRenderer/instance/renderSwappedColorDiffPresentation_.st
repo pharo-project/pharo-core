@@ -1,0 +1,2 @@
+renderSwappedColorDiffPresentation: aPresentation
+	^ GLMMorphicSwappedColorDiffRenderer render: aPresentation from: self

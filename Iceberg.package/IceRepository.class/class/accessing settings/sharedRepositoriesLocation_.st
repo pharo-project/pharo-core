@@ -1,0 +1,2 @@
+sharedRepositoriesLocation: anObject
+	SharedRepositoriesLocation := anObject

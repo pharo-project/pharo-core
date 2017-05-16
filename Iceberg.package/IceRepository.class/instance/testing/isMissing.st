@@ -1,0 +1,2 @@
+isMissing
+	^ self backend isMissing 

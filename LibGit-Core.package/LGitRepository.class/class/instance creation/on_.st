@@ -1,0 +1,5 @@
+on: aFileReference
+	LGitGlobal checkInitialized.
+	^ self basicNew
+		initialize;
+		initializeOn: aFileReference

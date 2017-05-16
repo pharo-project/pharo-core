@@ -1,0 +1,2 @@
+passwordInput: anObject
+	passwordInput := anObject

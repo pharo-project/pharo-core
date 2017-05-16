@@ -1,0 +1,2 @@
+issueText: anObject
+	issueText := anObject

@@ -1,0 +1,2 @@
+allTypes
+	^ self allSubclasses 

@@ -1,0 +1,2 @@
+targetClassName
+	^ targetClassName

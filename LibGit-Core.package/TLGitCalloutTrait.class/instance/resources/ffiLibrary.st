@@ -1,0 +1,3 @@
+ffiLibrary
+
+	^self class ffiLibrary

@@ -1,0 +1,2 @@
+modifyingPackage: anObject
+	modifyingPackage := anObject

@@ -1,0 +1,2 @@
+title
+	^ 'New pull request'

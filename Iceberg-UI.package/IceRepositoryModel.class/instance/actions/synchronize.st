@@ -1,0 +1,2 @@
+synchronize
+	IceGlamourSynchronizer synchronize: self repository

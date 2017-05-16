@@ -1,0 +1,2 @@
+typeDecl
+	^ 'int'

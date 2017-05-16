@@ -1,0 +1,2 @@
+deleteAll: aTreeBuilder 
+    ^ aTreeBuilder deleteAll

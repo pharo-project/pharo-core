@@ -1,0 +1,2 @@
+newCommitWalk
+	^ IceLibgitCommitWalk forRepository: self

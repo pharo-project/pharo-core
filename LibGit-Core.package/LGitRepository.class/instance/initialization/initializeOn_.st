@@ -1,0 +1,2 @@
+initializeOn: aFileReference
+	repositoryPath := aFileReference

@@ -1,0 +1,2 @@
+isLoaded
+	self subclassResponsibility 

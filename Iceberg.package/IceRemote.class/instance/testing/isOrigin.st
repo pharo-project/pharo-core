@@ -1,0 +1,2 @@
+isOrigin
+	^ self remoteName = 'origin'

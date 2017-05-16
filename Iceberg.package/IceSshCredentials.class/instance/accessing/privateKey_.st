@@ -1,0 +1,2 @@
+privateKey: anObject
+	privateKey := anObject

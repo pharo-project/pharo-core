@@ -1,0 +1,2 @@
+entries
+	^ self object entries

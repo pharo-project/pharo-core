@@ -1,0 +1,2 @@
+packageNameFromPackageDirectory
+	^ iceVersion packageName

@@ -1,0 +1,2 @@
+useCustomSsh: aBoolean
+	UseCustomSsh := aBoolean

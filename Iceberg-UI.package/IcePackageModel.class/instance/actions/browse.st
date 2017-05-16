@@ -1,0 +1,2 @@
+browse
+	^ self package browse

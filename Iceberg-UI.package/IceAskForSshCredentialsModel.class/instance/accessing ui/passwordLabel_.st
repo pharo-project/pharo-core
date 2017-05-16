@@ -1,0 +1,2 @@
+passwordLabel: anObject
+	passwordLabel := anObject

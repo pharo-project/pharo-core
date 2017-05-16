@@ -1,0 +1,2 @@
+addToPackageChangeSet: anIcePackageChangeSet 
+	anIcePackageChangeSet addChangedClass: self iceClass

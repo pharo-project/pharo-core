@@ -1,0 +1,2 @@
+newBuilder
+	^ LGitSafeFFICalloutMethodBuilder calloutAPI: self

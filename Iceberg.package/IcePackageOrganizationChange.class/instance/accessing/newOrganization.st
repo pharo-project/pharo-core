@@ -1,0 +1,2 @@
+newOrganization
+	^ newOrganization ifNil: #()

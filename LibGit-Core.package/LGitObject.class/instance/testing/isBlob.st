@@ -1,0 +1,2 @@
+isBlob
+	^ false

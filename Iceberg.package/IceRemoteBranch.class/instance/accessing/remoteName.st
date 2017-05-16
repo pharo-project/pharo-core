@@ -1,0 +1,2 @@
+remoteName
+	^ self name copyUpToLast: $/

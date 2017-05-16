@@ -1,0 +1,2 @@
+postLoadActions
+	self changeRepositoryType

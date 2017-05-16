@@ -1,0 +1,2 @@
+storeCredentials
+	^ storeCheckbox state 

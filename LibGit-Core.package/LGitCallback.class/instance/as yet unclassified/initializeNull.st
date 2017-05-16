@@ -1,0 +1,2 @@
+initializeNull
+	thunk := ExternalAddress null

@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #blame_free:

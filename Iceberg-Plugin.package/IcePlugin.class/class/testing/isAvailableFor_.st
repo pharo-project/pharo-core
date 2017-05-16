@@ -1,0 +1,2 @@
+isAvailableFor: aRepository
+	^ self subclassResponsibility

@@ -1,0 +1,2 @@
+privateKeyReference: aFileReference
+	privateKeyReference := aFileReference

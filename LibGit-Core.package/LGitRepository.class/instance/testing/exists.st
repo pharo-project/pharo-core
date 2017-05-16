@@ -1,0 +1,2 @@
+exists
+	^ self repositoryReference exists

@@ -1,0 +1,2 @@
+branch: aBranch
+	branch := aBranch

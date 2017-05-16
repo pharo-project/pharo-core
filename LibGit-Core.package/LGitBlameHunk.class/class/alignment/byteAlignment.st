@@ -1,0 +1,2 @@
+byteAlignment
+	^ 1

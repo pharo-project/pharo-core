@@ -1,0 +1,2 @@
+remoteName: aString
+	remoteName := aString

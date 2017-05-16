@@ -1,0 +1,2 @@
+chooseButton: anObject
+	chooseButton := anObject

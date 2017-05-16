@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #blob_free:

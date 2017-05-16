@@ -1,0 +1,2 @@
+messageEncoding: aString
+	messageEncoding := aString

@@ -1,0 +1,2 @@
+headBranchList: anObject
+	headBranchList := anObject

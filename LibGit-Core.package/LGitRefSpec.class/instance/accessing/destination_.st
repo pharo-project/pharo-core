@@ -1,0 +1,2 @@
+destination: aString
+	destination := aString

@@ -1,0 +1,2 @@
+projectNameInput: anObject
+	projectNameInput := anObject

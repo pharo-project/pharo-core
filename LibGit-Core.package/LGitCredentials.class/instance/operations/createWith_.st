@@ -1,0 +1,2 @@
+createWith: aStructure
+	self subclassResponsibility

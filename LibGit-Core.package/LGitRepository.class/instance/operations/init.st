@@ -1,0 +1,2 @@
+init
+	self initBare: false

@@ -1,0 +1,2 @@
+sharedRepositoriesLocationString
+	^ self sharedRepositoriesLocation fullName

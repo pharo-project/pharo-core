@@ -1,0 +1,2 @@
+addAnalysisToPackageChangeSet: aPackageChangeSet change: aChange
+	aPackageChangeSet addChange: aChange

@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #config_free:

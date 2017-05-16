@@ -1,0 +1,2 @@
+titleIcon
+	^ IceTool icon

@@ -1,0 +1,2 @@
+fieldNamesAndProtocols
+	^ Dictionary new

@@ -1,0 +1,2 @@
+image
+	^ IceWorkingCopy instance

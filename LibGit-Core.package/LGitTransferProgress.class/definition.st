@@ -1,0 +1,5 @@
+LGitExternalStructure subclass: #LGitTransferProgress
+	instanceVariableNames: ''
+	classVariableNames: 'OFFSET_PRIM_INDEXED_DELTAS OFFSET_PRIM_INDEXED_OBJECTS OFFSET_PRIM_LOCAL_OBJECTS OFFSET_PRIM_RECEIVED_BYTES OFFSET_PRIM_RECEIVED_OBJECTS OFFSET_PRIM_TOTAL_DELTAS OFFSET_PRIM_TOTAL_OBJECTS'
+	poolDictionaries: ''
+	category: 'LibGit-Core-FFI-Structs'

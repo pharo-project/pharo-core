@@ -1,0 +1,2 @@
+pushRemote: aRemote
+	pushRemote := aRemote

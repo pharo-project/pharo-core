@@ -1,0 +1,2 @@
+colorError
+	^ Color red

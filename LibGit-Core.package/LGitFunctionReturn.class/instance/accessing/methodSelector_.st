@@ -1,0 +1,2 @@
+methodSelector: aSymbol
+	methodSelector := aSymbol

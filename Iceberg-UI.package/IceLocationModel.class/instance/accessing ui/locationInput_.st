@@ -1,0 +1,2 @@
+locationInput: anObject
+	locationInput := anObject

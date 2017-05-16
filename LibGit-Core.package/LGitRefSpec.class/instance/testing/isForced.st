@@ -1,0 +1,2 @@
+isForced
+	^ forced ifNil: [ false ]

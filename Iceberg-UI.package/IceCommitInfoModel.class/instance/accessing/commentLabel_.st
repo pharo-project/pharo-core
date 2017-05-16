@@ -1,0 +1,2 @@
+commentLabel: anObject
+	commentLabel := anObject

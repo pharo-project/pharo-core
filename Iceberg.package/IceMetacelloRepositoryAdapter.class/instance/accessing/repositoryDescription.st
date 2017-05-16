@@ -1,0 +1,2 @@
+repositoryDescription
+	^ self repository description

@@ -1,0 +1,2 @@
+hasChanges
+	^ self elements notEmpty

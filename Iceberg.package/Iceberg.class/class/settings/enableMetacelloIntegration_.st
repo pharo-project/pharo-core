@@ -1,0 +1,2 @@
+enableMetacelloIntegration: anObject
+	EnableMetacelloIntegration := anObject

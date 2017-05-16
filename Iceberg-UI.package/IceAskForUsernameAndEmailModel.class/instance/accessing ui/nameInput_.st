@@ -1,0 +1,2 @@
+nameInput: anObject
+	nameInput := anObject

@@ -1,0 +1,2 @@
+updateAction: anObject
+	updateAction := anObject

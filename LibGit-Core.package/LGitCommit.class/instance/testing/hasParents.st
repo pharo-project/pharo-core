@@ -1,0 +1,2 @@
+hasParents
+	^ self parents notEmpty

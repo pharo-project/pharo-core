@@ -1,0 +1,2 @@
+isTree
+	^ true

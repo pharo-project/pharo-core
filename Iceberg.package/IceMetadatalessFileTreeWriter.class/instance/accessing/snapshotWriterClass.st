@@ -1,0 +1,2 @@
+snapshotWriterClass
+	^ IceMetadatalessStCypressWriter

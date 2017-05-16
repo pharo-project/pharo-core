@@ -1,0 +1,2 @@
+fetchSpec
+	^ fetchSpec

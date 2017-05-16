@@ -1,0 +1,2 @@
+defaultChooseDialogTitle
+	^ 'Choose directory'

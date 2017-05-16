@@ -1,0 +1,2 @@
+outgoingCommits
+	^ self currentBranch outgoingCommits 

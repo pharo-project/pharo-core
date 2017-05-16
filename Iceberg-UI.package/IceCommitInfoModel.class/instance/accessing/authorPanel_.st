@@ -1,0 +1,2 @@
+authorPanel: anObject
+	authorPanel := anObject

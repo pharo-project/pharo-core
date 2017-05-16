@@ -1,0 +1,2 @@
+iceClass
+	^ IceClassReference forDefinition: self

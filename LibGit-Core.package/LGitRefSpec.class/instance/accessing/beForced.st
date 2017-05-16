@@ -1,0 +1,2 @@
+beForced
+	forced := true

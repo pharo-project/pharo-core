@@ -1,0 +1,2 @@
+storageClass: aClass
+	storageClass := aClass

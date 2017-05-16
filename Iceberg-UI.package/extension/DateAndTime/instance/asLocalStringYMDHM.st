@@ -1,0 +1,2 @@
+asLocalStringYMDHM
+	^ self asLocal asStringYMDHM

@@ -1,0 +1,2 @@
+parentsPanel: anObject
+	parentsPanel := anObject

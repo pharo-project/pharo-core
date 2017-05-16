@@ -1,0 +1,2 @@
+mcRepository
+	self subclassResponsibility

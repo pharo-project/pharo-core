@@ -1,0 +1,2 @@
+title
+	^ 'Branch browser'

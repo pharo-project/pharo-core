@@ -1,0 +1,2 @@
+plaintextCredentials
+	^ self class plaintextCredentials

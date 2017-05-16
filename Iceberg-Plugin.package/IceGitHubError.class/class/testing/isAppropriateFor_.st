@@ -1,0 +1,2 @@
+isAppropriateFor: aResponse
+	^ false

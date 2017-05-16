@@ -1,0 +1,2 @@
+location: aReferenceOrString
+	locationInput text: aReferenceOrString asFileReference pathString

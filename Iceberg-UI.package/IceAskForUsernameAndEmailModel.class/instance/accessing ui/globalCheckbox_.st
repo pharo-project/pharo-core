@@ -1,0 +1,2 @@
+globalCheckbox: anObject
+	globalCheckbox := anObject

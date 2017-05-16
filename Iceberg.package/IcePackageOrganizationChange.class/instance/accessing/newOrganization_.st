@@ -1,0 +1,2 @@
+newOrganization: anObject
+	newOrganization := anObject

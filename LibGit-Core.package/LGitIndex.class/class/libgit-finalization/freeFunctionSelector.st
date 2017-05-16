@@ -1,0 +1,2 @@
+freeFunctionSelector
+	^ #index_free:

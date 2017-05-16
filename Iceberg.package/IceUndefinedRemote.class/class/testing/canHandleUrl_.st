@@ -1,0 +1,2 @@
+canHandleUrl: aRepositoryUrl
+	^ false

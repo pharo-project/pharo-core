@@ -1,0 +1,2 @@
+keyPassphrase
+	^ keyPassphrase ifNil: [ keyPassphrase := '' ]

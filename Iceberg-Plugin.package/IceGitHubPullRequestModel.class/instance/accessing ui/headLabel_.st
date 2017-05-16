@@ -1,0 +1,2 @@
+headLabel: anObject
+	headLabel := anObject

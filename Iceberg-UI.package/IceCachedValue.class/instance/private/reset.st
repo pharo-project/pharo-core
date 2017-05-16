@@ -1,0 +1,2 @@
+reset
+	lastUpdated := nil
