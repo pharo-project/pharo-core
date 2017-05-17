@@ -1,4 +1,4 @@
-script60490
+script60491
 
 	^ 'AST-Core-TheIntegrator.494.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -18,6 +18,8 @@ Balloon-Tests-TheIntegrator.2.mcz
 BaselineOfBasicTools-TheIntegrator.8.mcz
 BaselineOfDisplay-TheIntegrator.4.mcz
 BaselineOfIDE-TheIntegrator.52.mcz
+BaselineOfIceberg-cypress.1.mcz
+BaselineOfLibGit-cypress.1.mcz
 BaselineOfMetacello-EstebanLorenzano.89.mcz
 BaselineOfMorphic-TheIntegrator.34.mcz
 BaselineOfMorphicCore-TheIntegrator.7.mcz
@@ -145,6 +147,11 @@ Hiedra-MartinDias.146.mcz
 HiedraTests-MartinDias.2.mcz
 HowToContributeHelp-TheIntegrator.4.mcz
 HudsonBuildTools20-TheIntegrator.100.mcz
+Iceberg-cypress.1.mcz
+Iceberg-Libgit-cypress.1.mcz
+Iceberg-Metacello-Integration-cypress.1.mcz
+Iceberg-Plugin-cypress.1.mcz
+Iceberg-UI-cypress.1.mcz
 ImportingResource-Help-TheIntegrator.6.mcz
 IssueTracking-TheIntegrator.6.mcz
 IssueTracking-Tests-TheIntegrator.3.mcz
@@ -161,6 +168,7 @@ Keymapping-Settings-StephaneDucasse.83.mcz
 Keymapping-Tests-TheIntegrator.111.mcz
 Keymapping-Tools-Spec-TheIntegrator.32.mcz
 Komitter-TheIntegrator.192.mcz
+LibGit-Core-cypress.1.mcz
 Manifest-Core-TheIntegrator.252.mcz
 Manifest-Resources-Tests-MarcusDenker.14.mcz
 Manifest-Tests-TheIntegrator.55.mcz
@@ -359,7 +367,7 @@ System-Installers-TheIntegrator.44.mcz
 System-Localization-TheIntegrator.108.mcz
 System-Localization-Tests-TheIntegrator.8.mcz
 System-Model-TheIntegrator.13.mcz
-System-OSEnvironments-TheIntegrator.35.mcz
+System-OSEnvironments-TheIntegrator.38.mcz
 System-Object Events-TheIntegrator.28.mcz
 System-Platforms-TheIntegrator.85.mcz
 System-Serial Port-StephaneDucasse.23.mcz
