@@ -6,4 +6,4 @@ testMethodsReferencingClass
 			{ClassTest>>#referencingMethod1. 
 			ClassTest>>#referencingMethod2. 
 			ClassTest>>#testOrdersACollectionOfClassesBySuperclass}.
-	self assert: (ClassTest methodsReferencingClass: (Smalltalk classNamed: #BehaviorTests)) isEmpty
+	self assert: (ClassTest methodsReferencingClass: (Smalltalk classNamed: #BehaviorTest)) isEmpty
