@@ -1,4 +1,4 @@
-script60495
+script60496
 
 	^ 'AST-Core-TheIntegrator.494.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -259,7 +259,7 @@ OpalCompiler-Core-TheIntegrator.890.mcz
 OpalCompiler-Tests-TheIntegrator.380.mcz
 OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.49.mcz
-PharoBootstrap-Initialization-TheIntegrator.4.mcz
+PharoBootstrap-Initialization-TheIntegrator.7.mcz
 PharoDocComment-StephaneDucasse.6.mcz
 Polymorph-Widgets-TheIntegrator.1435.mcz
 Polymorph-Widgets-Rules-TheIntegrator.11.mcz
