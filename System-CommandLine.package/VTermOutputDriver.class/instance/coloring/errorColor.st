@@ -1,3 +1,2 @@
 errorColor 
-	self red.
-	self reverse
+	self red
