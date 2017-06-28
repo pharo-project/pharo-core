@@ -1,7 +1,5 @@
 initialize
 	"FFIConstants initialize"
-	
-	self 
-		initializeTypeConstants;
-		initializeErrorConstants;
-		initializeCallingConventions
+	self initializeTypeConstants.
+	self initializeErrorConstants.
+	self initializeCallingConventions.
