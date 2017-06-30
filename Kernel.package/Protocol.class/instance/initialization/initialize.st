@@ -2,5 +2,5 @@ initialize
 
 	super initialize.
 
-	methods := IdentitySet new..
+	methods := IdentitySet new.
 	name := self class defaultName.

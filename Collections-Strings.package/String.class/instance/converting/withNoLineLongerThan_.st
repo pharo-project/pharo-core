@@ -10,7 +10,7 @@ withNoLineLongerThan: aNumber
 				"eliminate spaces at beginning of line"
 				lineStart := (self indexOfAnyOf: CSNonSeparators startingAt: start ifAbsent: [pastEnd]) min: pastEnd.
 				[| lineStop lineEnd spacePosition |
-				lineEnd := lineStop  := lineStart + aNumber min: pastEnd..
+				lineEnd := lineStop  := lineStart + aNumber min: pastEnd.
 				spacePosition := lineStart.
 				[spacePosition < lineStop] whileTrue: [
 					spacePosition := self indexOfAnyOf: CSSeparators startingAt: spacePosition + 1 ifAbsent: [pastEnd].
