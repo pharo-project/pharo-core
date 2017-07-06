@@ -4,6 +4,6 @@ runSimulated: aBlock
 
 	^ thisContext sender
 		runSimulated: aBlock
-		contextAtEachStep: [:ignored | ]
+		contextAtEachStep: [:ignored |]
 
 	"Context runSimulated: [Pen new defaultNib: 5; go: 100]"

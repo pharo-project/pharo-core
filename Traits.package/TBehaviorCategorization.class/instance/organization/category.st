@@ -9,7 +9,7 @@ category
 			ifTrue: [ ^symbol ] ].
 	result := (self environment organization categoryOfElement: self name)
 		ifNil: [ #Unclassified ]
-		ifNotNil: [ :res | res ].
+		ifNotNil: [:aString | aString ].
 	self basicCategory: result.
 	
 	^ result

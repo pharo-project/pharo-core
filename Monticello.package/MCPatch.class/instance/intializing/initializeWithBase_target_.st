@@ -15,5 +15,5 @@ initializeWithBase: baseSnapshot target: targetSnapshot
 	base definitions do: [:b |
 		target
 			definitionLike: b
-			ifPresent: [:t | ]
+			ifPresent: [:t |]
 			ifAbsent: [operations add: (MCRemoval of: b)]]		
