@@ -9,4 +9,6 @@ retrieveMorph: aBlock
 		ifFalse: [ self softRetrieveMorph ].
 
 	^ [ retrievingSemaphore wait.
-	aBlock value: morph ] fork
+		morph ifNotNil: [ 
+			UIManager default defer: [aBlock value: morph ]]] 
+				fork

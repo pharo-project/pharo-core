@@ -1,4 +1,4 @@
-script60507
+script60508
 
 	^ 'AST-Core-TheIntegrator.496.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -217,7 +217,7 @@ Morphic-Widgets-List-TheIntegrator.23.mcz
 Morphic-Widgets-Pluggable-TheIntegrator.79.mcz
 Morphic-Widgets-PolyTabs-TheIntegrator.8.mcz
 Morphic-Widgets-Scrolling-TheIntegrator.37.mcz
-Morphic-Widgets-Tabs-TheIntegrator.54.mcz
+Morphic-Widgets-Tabs-TheIntegrator.56.mcz
 Morphic-Widgets-Taskbar-TheIntegrator.27.mcz
 Morphic-Widgets-TickList-TheIntegrator.2.mcz
 Morphic-Widgets-Tree-TheIntegrator.66.mcz
@@ -261,7 +261,7 @@ OpalTools-TheIntegrator.24.mcz
 Pharo-Help-TheIntegrator.52.mcz
 PharoBootstrap-Initialization-TheIntegrator.7.mcz
 PharoDocComment-StephaneDucasse.6.mcz
-Polymorph-Widgets-TheIntegrator.1435.mcz
+Polymorph-Widgets-TheIntegrator.1437.mcz
 Polymorph-Widgets-Rules-TheIntegrator.11.mcz
 PragmaCollector-TheIntegrator.18.mcz
 ProfStef-Core-TheIntegrator.85.mcz
