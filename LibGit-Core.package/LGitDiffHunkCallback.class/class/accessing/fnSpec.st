@@ -1,2 +1,2 @@
 fnSpec
-	^#(FFIInt32 (LGitDiffDelta * delta, LGitDiffHunk * hunk, void * payload))
+	^#(int (LGitDiffDelta *delta, LGitDiffHunk *hunk, void *payload))

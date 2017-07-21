@@ -1,5 +1,5 @@
 fieldsDesc
 	^#(
-	#FFIInt64 time;
-	#FFIInt32 offset;
+	int64 time;
+	int offset;
 	)

@@ -1,0 +1,2 @@
+typeDecl
+	^ 'size_t'

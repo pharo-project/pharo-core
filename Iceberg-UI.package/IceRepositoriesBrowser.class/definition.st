@@ -1,5 +1,5 @@
 IceTool subclass: #IceRepositoriesBrowser
-	instanceVariableNames: 'lastSynchronization'
+	instanceVariableNames: 'lastSynchronization showSystemRepositories'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Iceberg-UI-View'

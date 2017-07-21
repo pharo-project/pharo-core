@@ -1,2 +1,2 @@
 description
-	^ self origin url, '[', self branch name, ']'
+	^ self origin url, '[', self branchName, ']'

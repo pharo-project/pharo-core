@@ -1,0 +1,2 @@
+statusLabel: anObject
+	statusLabel := anObject

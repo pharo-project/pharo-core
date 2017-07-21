@@ -1,0 +1,2 @@
+bodyText: anObject
+	bodyText := anObject

@@ -1,0 +1,2 @@
+defaultType
+	^ 'merge'

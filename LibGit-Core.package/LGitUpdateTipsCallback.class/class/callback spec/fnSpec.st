@@ -1,2 +1,2 @@
 fnSpec
-	^ #(FFIInt32 (FFIExternalString info, LGitId * id1, LGitId * id2, void * data))
+	^ #(int (String refname, LGitId *a, LGitId *b, void * data))

@@ -2,5 +2,5 @@ diff_buffers: old_buffer old_len: old_len old_as_path: old_as_path new_buffer: n
 	
 	^ self
 		call:
-			#(LGitReturnCodeEnum git_diff_buffers #(FFIVoid * old_buffer , FFIUInt32 old_len , String old_as_path , FFIVoid * new_buffer , FFIUInt32 new_len , String new_as_path , LGitDiffOptions * options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , FFIVoid * payload))
+			#(LGitReturnCodeEnum git_diff_buffers #(FFIVoid * old_buffer , size_t old_len , String old_as_path , void *new_buffer , size_t new_len , String new_as_path , LGitDiffOptions * options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , void * payload))
 		options: #(optMayGC optCoerceNilToNull)

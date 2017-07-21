@@ -1,0 +1,2 @@
+messageText
+	^ self message text

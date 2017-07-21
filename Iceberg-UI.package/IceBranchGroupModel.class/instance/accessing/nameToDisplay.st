@@ -1,0 +1,2 @@
+nameToDisplay
+	^ self groupName

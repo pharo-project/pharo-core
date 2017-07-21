@@ -3,7 +3,7 @@ pullAction
 		action: [ :presentation :repository | 
 			repository pull.
 			presentation update ];
-		icon: GLMUIThemeExtraIcons glamorousLeftSide;
+		icon: #glamorousLeftSide asIcon;
 		shortcut: $p;
 		title: 'Pull'; 
 		showTitle

@@ -1,0 +1,2 @@
+withSelectedCherryPick: aBlock
+	cherryPickBlock := aBlock

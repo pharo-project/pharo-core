@@ -1,0 +1,2 @@
+resetText
+	self message text: ''

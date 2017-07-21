@@ -1,0 +1,2 @@
+hasLocalBraches
+	^ self localBranches isNotEmpty

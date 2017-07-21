@@ -1,6 +1,6 @@
 fieldsDesc
 	^#(
-	#FFIUInt32 version
-	#FFIUInt32 stat_calls "Number of stat() calls performed"
-	#FFIUInt32 oid_calculations "Number of ID calculations"
+	uint version
+	size_t stat_calls "Number of stat() calls performed"
+	size_t oid_calculations "Number of ID calculations"
 	)

@@ -1,0 +1,2 @@
+hasLocalBraches
+	^ self repository hasLocalBraches

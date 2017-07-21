@@ -1,0 +1,2 @@
+groupName: aString
+	groupName := aString

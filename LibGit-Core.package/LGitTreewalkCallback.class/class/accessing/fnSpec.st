@@ -1,2 +1,2 @@
 fnSpec
-	^#(FFIInt32 (FFIExternalString name, LGitTreeEntry entry, void * payload))
+	^#(int (String name, LGitTreeEntry entry, void *payload))

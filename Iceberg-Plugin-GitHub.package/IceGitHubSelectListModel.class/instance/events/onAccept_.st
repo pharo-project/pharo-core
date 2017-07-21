@@ -1,0 +1,2 @@
+onAccept: aBlock
+	acceptBlock := aBlock

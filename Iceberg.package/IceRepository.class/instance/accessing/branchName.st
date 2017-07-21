@@ -1,0 +1,2 @@
+branchName
+	^ self branch name

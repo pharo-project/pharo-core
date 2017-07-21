@@ -1,5 +1,5 @@
 IceBranch subclass: #IceLocalBranch
-	instanceVariableNames: 'versionDictionary loading upstream'
+	instanceVariableNames: 'upstream'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Iceberg-Core'

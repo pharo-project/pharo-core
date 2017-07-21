@@ -1,11 +1,10 @@
 fieldsDesc
 	^#(
-	#FFIUInt32 total_objects;
-	#FFIUInt32 indexed_objects;
-	#FFIUInt32 received_objects;
-	#FFIUInt32 local_objects;
-	#FFIUInt32 total_deltas;
-	#FFIUInt32 indexed_deltas;
-	#FFIInt32 received_bytes;
-
+	uint total_objects;
+	uint indexed_objects;
+	uint received_objects;
+	uint local_objects;
+	uint total_deltas;
+	uint indexed_deltas;
+	size_t received_bytes;
 	)

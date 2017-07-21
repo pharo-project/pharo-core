@@ -1,0 +1,2 @@
+messageLabel: anObject
+	messageLabel := anObject

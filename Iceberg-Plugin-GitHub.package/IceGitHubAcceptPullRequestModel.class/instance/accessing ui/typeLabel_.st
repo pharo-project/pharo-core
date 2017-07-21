@@ -1,0 +1,2 @@
+typeLabel: anObject
+	typeLabel := anObject

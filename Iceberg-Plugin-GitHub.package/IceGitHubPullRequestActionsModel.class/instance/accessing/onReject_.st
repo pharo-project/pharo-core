@@ -1,0 +1,2 @@
+onReject: aBlock
+	rejectBlock := aBlock

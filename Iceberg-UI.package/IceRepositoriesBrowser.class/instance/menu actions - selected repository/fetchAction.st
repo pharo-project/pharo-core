@@ -1,0 +1,9 @@
+fetchAction
+	^ GLMGenericAction new
+		action: [ :presentation | 
+			presentation selection fetch.
+			presentation update ];
+		selectionCondition: #isOperative;
+		icon: #glamorousLeftSide asIcon;
+		showTitle: 'Fetch incoming comits';
+		yourself

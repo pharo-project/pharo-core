@@ -1,0 +1,2 @@
+isAllSelected
+	^ allSelected

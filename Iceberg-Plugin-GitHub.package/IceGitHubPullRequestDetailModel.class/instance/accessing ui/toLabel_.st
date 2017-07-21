@@ -1,0 +1,2 @@
+toLabel: anObject
+	toLabel := anObject

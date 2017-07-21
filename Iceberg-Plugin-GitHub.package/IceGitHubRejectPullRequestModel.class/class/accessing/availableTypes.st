@@ -1,0 +1,2 @@
+availableTypes
+	^ #('merge' 'squash' 'rebase')

@@ -2,7 +2,7 @@ isBeingTracked: aString
 	| intValue |
 	(self repository repositoryReference resolve: aString) isDirectory ifTrue: [ ^ true ].
 	
-	intValue := LGitWriteBackValueInt new.
+	intValue := LGitWriteBackValueUInt new.
 	self withReturnHandlerDo: [ 
 		self
 			status_file: intValue

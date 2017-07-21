@@ -1,2 +1,2 @@
 nameText
-	^ self highlight: self package name
+	^ self highlight: self packageName

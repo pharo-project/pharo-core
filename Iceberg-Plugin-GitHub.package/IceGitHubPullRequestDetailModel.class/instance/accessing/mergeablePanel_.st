@@ -1,0 +1,2 @@
+mergeablePanel: anObject
+	mergeablePanel := anObject

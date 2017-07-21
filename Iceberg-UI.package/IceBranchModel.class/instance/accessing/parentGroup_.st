@@ -1,0 +1,2 @@
+parentGroup: anIceBranchGroupModel
+	parentGroup := anIceBranchGroupModel

@@ -1,0 +1,2 @@
+api: anObject
+	api := anObject

@@ -1,0 +1,2 @@
+pullRequest: anObject
+	pullRequest := anObject

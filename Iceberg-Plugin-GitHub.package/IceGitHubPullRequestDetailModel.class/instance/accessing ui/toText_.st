@@ -1,0 +1,2 @@
+toText: anObject
+	toText := anObject

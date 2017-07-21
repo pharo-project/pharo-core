@@ -1,2 +1,2 @@
 fnSpec
-	^#(FFIInt32 (LGitCredentials * * cred, FFIExternalString url, FFIExternalString username_from_url, FFIUInt32 allowed_types, void * data))
+	^#(int (LGitCredentials **cred, String url, String username_from_url, uint allowed_types, void *data))

@@ -26,4 +26,14 @@ fieldsDesc
 		 * The default is to auto-follow tags.
 		 "
 		LGitRemoteAutotagOptionTypeEnum download_tags;
+
+		"
+	    * Proxy options to use, by default no proxy is used.
+	   "
+		LGitProxyOptions proxy_opts;
+
+		"
+	  	 * Extra headers for this fetch operation
+	 	"
+		LGitStringArray custom_headers;
 	)

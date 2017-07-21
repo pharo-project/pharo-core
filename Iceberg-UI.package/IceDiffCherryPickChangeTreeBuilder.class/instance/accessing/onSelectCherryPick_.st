@@ -1,0 +1,2 @@
+onSelectCherryPick: aBlock
+	cherryPickBlock := aBlock

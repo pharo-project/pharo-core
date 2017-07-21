@@ -1,0 +1,2 @@
+mergeableLabel: anObject
+	mergeableLabel := anObject

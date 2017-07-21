@@ -4,4 +4,4 @@ wrapBlock: aBlock
 		aBlock 
 			value: buffer 
 			value: length
-			value: (LGitPackbuilderForeachPayload fromHandle: payload) ]
+			value: payload ]

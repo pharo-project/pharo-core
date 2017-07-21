@@ -1,2 +1,0 @@
-defaultHeadBranchName
-	^ self currentBranch basename 

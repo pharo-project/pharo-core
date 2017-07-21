@@ -2,5 +2,5 @@ blame_file: out repo: repo path: path options: options
 	
 	^ self
 		callUnchecked:
-			#(FFIInt32 git_blame_file #(LGitBlame * self , LGitRepository repo , FFIExternalString path , LGitBlameOptions * options))
+			#(int git_blame_file #(LGitBlame * self , LGitRepository repo , String path , LGitBlameOptions * options))
 		options: #()

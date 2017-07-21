@@ -1,0 +1,2 @@
+isBranchModel
+	^ true

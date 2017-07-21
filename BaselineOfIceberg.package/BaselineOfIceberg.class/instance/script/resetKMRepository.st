@@ -1,0 +1,2 @@
+resetKMRepository
+	KMRepository reset

@@ -1,0 +1,2 @@
+removeFromDisk
+	self entity removeFromDisk

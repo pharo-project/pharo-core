@@ -1,0 +1,1 @@
+setBoolean: aBoolean to: varName

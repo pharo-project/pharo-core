@@ -1,0 +1,2 @@
+urlText: anObject
+	urlText := anObject

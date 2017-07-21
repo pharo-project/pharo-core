@@ -1,0 +1,2 @@
+obtainCredentials
+	^ IceGitHubAPI obtainCredentials

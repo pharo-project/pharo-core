@@ -1,6 +1,6 @@
 Object subclass: #IceLibgitLocalRepository
 	uses: TIceRepositoryBackend
-	instanceVariableNames: 'location subdirectory branch frontend'
+	instanceVariableNames: 'location subdirectory frontend'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Iceberg-Libgit'

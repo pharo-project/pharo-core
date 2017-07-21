@@ -1,2 +1,3 @@
 userName
-	^user ifNil: [ String empty ] ifNotNil: ''
+	^user ifNil: [ '' ]
+	

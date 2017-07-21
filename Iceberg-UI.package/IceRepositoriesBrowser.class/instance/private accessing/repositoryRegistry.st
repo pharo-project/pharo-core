@@ -1,0 +1,2 @@
+repositoryRegistry 
+	^ IceRepository registry

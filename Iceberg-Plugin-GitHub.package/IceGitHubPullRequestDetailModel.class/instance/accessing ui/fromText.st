@@ -1,0 +1,2 @@
+fromText
+	^ fromText

@@ -1,0 +1,2 @@
+titleIcon
+	^ self class icon

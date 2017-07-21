@@ -1,0 +1,2 @@
+baseSHA
+	^ self pullRequest baseSHA

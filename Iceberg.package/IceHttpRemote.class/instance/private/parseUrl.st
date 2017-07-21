@@ -1,6 +1,6 @@
 parseUrl
 	| matcher |
-	matcher := '((http|https)\://)(([\w]+)@)*([\w.]+)(\:([\d]+))*(/[\w]+)*/([\w\-]+)/([\w\-]+(.git)?)' asRegex.
+	matcher := '((http|https)\://)(([\w]+)@)*([\w.]+)(\:([\d]+))*(/[\w]+)*/([\w\-]+)/([\w\-.]+(.git)?)' asRegex.
 	(matcher matches: url) 
 		ifTrue: [		
 			user := matcher subexpression: 5.

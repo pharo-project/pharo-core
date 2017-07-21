@@ -1,0 +1,2 @@
+messageText: anObject
+	messageText := anObject

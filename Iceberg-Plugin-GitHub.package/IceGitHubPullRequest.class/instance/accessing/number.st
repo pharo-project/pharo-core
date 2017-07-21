@@ -1,0 +1,2 @@
+number
+	^ self jsonAt: #number

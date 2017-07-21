@@ -1,0 +1,2 @@
+mergeButton: anObject
+	mergeButton := anObject

@@ -1,2 +1,2 @@
 fnSpec
-	^ #(FFIInt32 (LGitRepository ** out, String path, Boolean bare, void * payload))
+	^ #(int (LGitRepository **out, String path, Boolean bare, void *payload))

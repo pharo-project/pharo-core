@@ -1,2 +1,2 @@
 fnSpec
-	^#(void (LGitCheckoutPerfData * perfdata, void * payload))
+	^#(void (LGitCheckoutPerfData *perfdata, void *payload))

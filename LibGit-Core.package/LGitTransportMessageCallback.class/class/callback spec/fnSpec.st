@@ -1,2 +1,2 @@
 fnSpec
-	^#(FFIInt32 (FFIExternalString str, FFIInt32 len, void * data))
+	^#(int (String str, int len, void *payload))

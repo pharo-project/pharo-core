@@ -1,0 +1,2 @@
+branches: aBlockOrSymbol
+	branches := aBlockOrSymbol

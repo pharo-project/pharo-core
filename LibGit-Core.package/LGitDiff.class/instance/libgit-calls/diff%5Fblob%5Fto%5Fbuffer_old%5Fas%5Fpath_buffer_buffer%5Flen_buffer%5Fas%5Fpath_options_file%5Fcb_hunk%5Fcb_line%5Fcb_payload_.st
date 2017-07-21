@@ -2,5 +2,5 @@ diff_blob_to_buffer: old_blob old_as_path: old_as_path buffer: buffer buffer_len
 	
 	^ self
 		call:
-			#(LGitReturnCodeEnum git_diff_blob_to_buffer #(LGitBlob old_blob , String old_as_path , String buffer , FFIUInt32 buffer_len , String buffer_as_path , LGitDiffOptions * options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , FFIVoid * payload))
+			#(LGitReturnCodeEnum git_diff_blob_to_buffer #(LGitBlob old_blob , String old_as_path , String buffer , size_t buffer_len , String buffer_as_path , LGitDiffOptions * options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , void * payload))
 		options: #(optMayGC optCoerceNilToNull)

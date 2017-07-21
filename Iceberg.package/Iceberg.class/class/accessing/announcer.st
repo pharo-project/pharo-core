@@ -1,2 +1,2 @@
 announcer
-	^ IcebergAnnouncer ifNil: [ IcebergAnnouncer := Announcer new ]
+	^ icebergAnnouncer ifNil: [ icebergAnnouncer := Announcer new ]

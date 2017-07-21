@@ -2,4 +2,4 @@ GLMMorphicWidgetRenderer subclass: #GLMMorphicSwappedColorDiffRenderer
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
-	category: 'Iceberg-UI-View'
+	category: 'Iceberg-UI-Utils'

@@ -2,5 +2,5 @@ diff_blobs: old_blob old_as_path: old_as_path new_blob: new_blob new_as_path: ne
 	
 	^ self
 		call:
-			#(LGitReturnCodeEnum git_diff_blobs #(LGitBlob old_blob , String old_as_path , LGitBlob new_blob , String new_as_path , LGitDiffOptions * options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , FFIVoid * payload))
+			#(LGitReturnCodeEnum git_diff_blobs (LGitBlob old_blob , String old_as_path , LGitBlob new_blob , String new_as_path , LGitDiffOptions *options , LGitDiffFileCallback file_cb , LGitDiffHunkCallback hunk_cb , LGitDiffLineCallback line_cb , void *payload))
 		options: #(optMayGC optCoerceNilToNull)

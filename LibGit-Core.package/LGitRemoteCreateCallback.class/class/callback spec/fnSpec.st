@@ -1,2 +1,2 @@
 fnSpec
-	^ #(FFIInt32 (ExternalAddress * out, LGitRepository repo, String name, String url, void * payload))
+	^ #(int (void **out, LGitRepository repo, String name, String url, void *payload))

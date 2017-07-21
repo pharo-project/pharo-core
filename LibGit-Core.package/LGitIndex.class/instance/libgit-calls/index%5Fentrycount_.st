@@ -1,3 +1,3 @@
 index_entrycount: index
 	
-	^ self call: #(FFIInt32 git_index_entrycount #(self)) options: #()
+	^ self call: #(size_t git_index_entrycount #(self)) options: #()

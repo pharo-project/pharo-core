@@ -1,0 +1,2 @@
+onMerge: aBlock
+	mergeBlock := aBlock

@@ -1,0 +1,2 @@
+allSelected
+	allSelected := true

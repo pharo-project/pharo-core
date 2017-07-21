@@ -1,0 +1,2 @@
+operation
+	^ self classDefinition

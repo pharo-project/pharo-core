@@ -1,0 +1,2 @@
+acceptButton: anObject
+	acceptButton := anObject

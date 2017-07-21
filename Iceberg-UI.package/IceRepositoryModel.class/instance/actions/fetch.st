@@ -1,0 +1,2 @@
+fetch
+	^ self repository fetch

@@ -1,0 +1,2 @@
+statusPanel: anObject
+	statusPanel := anObject

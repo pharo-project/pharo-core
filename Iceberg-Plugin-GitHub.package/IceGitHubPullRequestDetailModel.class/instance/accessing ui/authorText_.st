@@ -1,0 +1,2 @@
+authorText: anObject
+	authorText := anObject

@@ -1,0 +1,2 @@
+typeLabel
+	^ typeLabel

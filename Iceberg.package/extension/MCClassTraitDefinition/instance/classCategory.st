@@ -1,0 +1,2 @@
+classCategory
+	^ self category

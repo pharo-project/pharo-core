@@ -1,0 +1,2 @@
+typeList: anObject
+	typeList := anObject

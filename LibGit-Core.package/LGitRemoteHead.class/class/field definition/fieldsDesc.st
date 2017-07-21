@@ -4,10 +4,10 @@ fieldsDesc
 	int local; " available locally "
 	LGitId oid;
 	LGitId loid;
-	char *name;
+	String name;
 	"
 	 * If the server send a symref mapping for this ref, this will
 	 * point to the target.
 	"
-	char *symref_target;
+	String symref_target;
 	)

@@ -1,6 +1,6 @@
 fieldsDesc
 	^ #(
-		#FFIUInt32 mkdir_calls;
-		#FFIUInt32 stat_calls;
-		#FFIUInt32 chmod_calls;
+		size_t mkdir_calls;
+		size_t stat_calls;
+		size_t chmod_calls;
 	)

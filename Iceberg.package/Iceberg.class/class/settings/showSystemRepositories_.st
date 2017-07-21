@@ -1,0 +1,2 @@
+showSystemRepositories: aBoolean
+	ShowSystemRepositories := aBoolean

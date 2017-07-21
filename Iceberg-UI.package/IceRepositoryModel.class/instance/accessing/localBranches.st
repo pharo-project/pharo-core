@@ -1,0 +1,2 @@
+localBranches
+	^ self repository localBranches

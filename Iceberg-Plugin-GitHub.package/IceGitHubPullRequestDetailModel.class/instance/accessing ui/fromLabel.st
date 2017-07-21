@@ -1,0 +1,2 @@
+fromLabel
+	^ fromLabel

@@ -1,3 +1,3 @@
 treebuilder_clear: bld
 	
-	^ self call: #(FFIVoid git_treebuilder_clear #(self)) options: #()
+	^ self call: #(void git_treebuilder_clear #(self)) options: #()

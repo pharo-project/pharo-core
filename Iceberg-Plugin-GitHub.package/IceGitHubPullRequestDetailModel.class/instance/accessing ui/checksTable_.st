@@ -1,0 +1,2 @@
+checksTable: anObject
+	checksTable := anObject

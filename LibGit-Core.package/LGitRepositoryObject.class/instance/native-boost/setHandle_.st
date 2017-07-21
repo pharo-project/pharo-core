@@ -1,2 +1,0 @@
-setHandle: aHandle
-	handle := aHandle

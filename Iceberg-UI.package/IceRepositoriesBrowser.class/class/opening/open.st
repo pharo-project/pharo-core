@@ -1,3 +1,3 @@
 open
 	"self open"
-	^ self openOn: IceRepository registry.
+	^ self new open

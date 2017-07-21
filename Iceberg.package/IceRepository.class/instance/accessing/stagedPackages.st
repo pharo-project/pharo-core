@@ -1,3 +1,4 @@
 stagedPackages
 	^ self stagedPackageNames
-		collect: [ :packageName | self packageNamed: packageName ]
+		select: [ :each | self includesPackageNamed: each ]
+		thenCollect: [ :packageName | self packageNamed: packageName ]

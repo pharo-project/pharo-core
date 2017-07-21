@@ -1,5 +1,5 @@
 IceEmbeddedBrowser subclass: #IceGlamourCommitBrowser
-	instanceVariableNames: ''
+	instanceVariableNames: 'selectedElements'
 	classVariableNames: ''
 	poolDictionaries: ''
 	category: 'Iceberg-UI-View'

@@ -32,7 +32,7 @@ fieldsDesc
 		 * The name of the branch to checkout. NULL means use the
 		 * remote's default branch.
 		 "
-		#FFIExternalString checkout_branch;
+		String checkout_branch;
 
 		"
 		 * A callback used to create the new repository into which to
@@ -45,7 +45,7 @@ fieldsDesc
 		 * An opaque payload to pass to the git_repository creation callback.
 		 * This parameter is ignored unless repository_cb is non-NULL.
 		 "
-		#FFIVoid * repository_cb_payload;
+		void *repository_cb_payload;
 
 		"
 		 * A callback used to create the git_remote, prior to its being
@@ -59,5 +59,5 @@ fieldsDesc
 		 * An opaque payload to pass to the git_remote creation callback.
 		 * This parameter is ignored unless remote_cb is non-NULL.
 		 "
-		#FFIVoid * remote_cb_payload;
+		void *remote_cb_payload;
 	)
