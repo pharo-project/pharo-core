@@ -1,6 +1,6 @@
 createRepository: aRepositorySpec
-
 	| type |
+
 	type := aRepositorySpec type.
 	type = 'ftp' ifTrue: [ | description headerSize index host directory |
 		description := aRepositorySpec description.

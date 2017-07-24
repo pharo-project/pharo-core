@@ -1,2 +1,2 @@
 allTypes
-	^ self allSubclasses 
+	^ self allSubclasses select: [ :each | each isAbstract not ]

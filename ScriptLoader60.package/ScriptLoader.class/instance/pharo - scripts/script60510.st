@@ -1,4 +1,4 @@
-script60509
+script60510
 
 	^ 'AST-Core-TheIntegrator.496.mcz
 AST-Tests-Core-TheIntegrator.134.mcz
@@ -151,6 +151,7 @@ Iceberg-cypress.1.mcz
 Iceberg-Libgit-cypress.1.mcz
 Iceberg-Metacello-Integration-cypress.1.mcz
 Iceberg-Plugin-cypress.1.mcz
+Iceberg-Plugin-GitHub-cypress.1.mcz
 Iceberg-UI-cypress.1.mcz
 ImportingResource-Help-TheIntegrator.8.mcz
 IssueTracking-TheIntegrator.6.mcz

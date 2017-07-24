@@ -1,4 +1,4 @@
-IceProviderRepositoryType subclass: #IceGithubRepositoryType
+IceMetacelloRepositoryType subclass: #IceProviderRepositoryType
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''

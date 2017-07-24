@@ -1,4 +1,4 @@
-IceProviderRepositoryType subclass: #IceGithubRepositoryType
+IceProviderRepositoryType subclass: #IceBitbucketRepositoryType
 	instanceVariableNames: ''
 	classVariableNames: ''
 	poolDictionaries: ''
